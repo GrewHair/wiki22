@@ -1,0 +1,25 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200311170826826
+modified: 20200325163826373
+tags: [[Linear Algebra]]
+title: Vector Space
+tmap.id: 81de5ced-6568-4857-939c-3a121f3db02e
+type: text/vnd.tiddlywiki
+
+''AKA Linear Space''
+
+A [[Vector Space]] over a [[Field]] $$F$$ is a [[Set]] $$V$$ together with two operations that satisfy the eight axioms:
+
+|[[Associativity]] of addition|$$\vec u + (\vec v + \vec w)=(\vec u + \vec v) + \vec w $$|
+|[[Commutativity]] of addition|$$\vec u + \vec v = \vec v + \vec u$$|
+|[[Identity Element]] of addition|$$\exists \vec 0 \in V: \vec v + \vec 0 = \vec v \;\; \forall \vec v \in V$$|
+|[[Inverse Elements]] of addition|$$\forall \vec v \in V \; \exists \;\; -\!\vec v \in V: \vec v + (-\vec v) = \vec 0$$|
+|[[Compatibility]] of scalar multiplication with field multiplication|$$a(b\vec v) = (ab)\vec v$$|
+|[[Identity Element]] of scalar multiplication|$$1 \vec v = \vec v$$|
+|[[Distributivity]] of scalar multiplication w.r.t. vector addition|$$a(\vec u + \vec v) = a\vec u + a\vec v$$|
+|[[Distributivity]] of scalar multiplication w.r.t. field addition|$$(a+b)\vec v = a\vec v + b\vec v$$|
+
+https://en.wikipedia.org/wiki/Vector_space

@@ -1,0 +1,15 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200213105124775
+modified: 20200325163857460
+tags: Stub [[Introduction to Convolutional Neural Networks for Visual Recognition (Stanford)]] [[Deep Learning]]
+title: Neural Networks Initialization
+tmap.id: f2c82418-0ea2-475a-8887-32f57682afc0
+type: text/vnd.tiddlywiki
+
+* It is troublesome to initialize [[Neural Networks]] with [[Backpropagation|Error Backpropagation]] with all zeros, because in this case all the neurons will initially do the same thing, and because of this, will follow the same gradient - so in this case they will always do the same thing.
+* It is also troublesome to initialize [[Neural Networks]] with gaussian random variables of variance less then or equal to 1, because throughout the hidden layers the [[Variance]] gets smaller and smaller and eventually everything just becomes zeros
+* Initializing [[Neural Networks]] with gaussian random variables of large [[Variance]] doesn't help as well, because [[Activation Functions|Activation Function]] like [[tanh]] become saturated very soon and the gradient doesn't change anymore
+* One solution is [[Xavier Initialization]]

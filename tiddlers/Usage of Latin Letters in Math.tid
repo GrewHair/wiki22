@@ -1,0 +1,29 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200313120905282
+modified: 20200325165249447
+tags: 
+title: Usage of Latin Letters in Math
+tmap.id: e9713727-8bf9-4441-bf46-6ed3d8181ee0
+type: text/vnd.tiddlywiki
+
+<table style="width:550px; text-align:center">
+<tr><th>  arbitrary constants:                    </th><td>  $$a, b, c$$  </td></tr>
+<tr><th>[[derivative|Derivative]], [[differential|Differential of a Function]], [[metric|Metric]]:                                </th><td>  $$d$$        </td></tr>
+<tr><th>  euler constant:                         </th><td>  $$e$$        </td></tr>
+<tr><th>  [[functions|Function]]:                 </th><td>  $$f, g, h$$  </td></tr> 
+<tr><th>  [[imaginary unit|Imaginary Unit]], [[quaternions|Quaternion]], [[basis vectors|Ordered Basis]], indices:                 </th><td>  $$i, j, k$$  </td></tr> 
+<tr><th>  line, [[likelihood]]:                   </th><td>  $$l$$        </td></tr> 
+<tr><th>  [[dimensions|Matrix Indexing]]:         </th><td>  $$m, n$$     </td></tr> 
+<tr><th>  zero, nothing, order of approximation:  </th><td>  $$o$$        </td></tr> 
+<tr><th>  [[probabilities|Probability]], [[binomials|Binomial Distribution]]:               
+                                                  </th><td>  $$p, q$$     </td></tr> 
+<tr><th>  distance, [[correlation|Correlation]]:  </th><td>  $$r$$        </td></tr> 
+<tr><th>  [[laplace variable|Complex Frequency]]: </th><td>  $$s$$        </td></tr> 
+<tr><th>  time, parametrizing variable:           </th><td>  $$t$$        </td></tr>
+<tr><th>  [[vectors|Vector]]                      </th><td>  $$u, v$$     </td></tr>
+<tr><th> vector, circular frequency, 4th variable:</th><td>  $$w$$        </td></tr>
+<tr><th>  variables:                              </th><td>  $$x, y, z$$  </td></tr>
+</table>

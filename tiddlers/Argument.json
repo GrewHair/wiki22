@@ -1,0 +1,18 @@
+[
+    {
+        "created": "20191011122419506",
+        "text": "[[Argument]] is a series of [[statements|Propositions]] referred to as [[Premises|Premise]], followed by a final [[statement|Propositions]] referred to as the [[Conclusion]].\n\nA [[deductive]] [[Argument]] can either be [[Valid|Valid Argument]] or [[Invalid]].\n\nThe concept of [[Argument]] can be easily confused with that of [[Conditional Proposition]]. And indeed, for each argument, a corresponding proposition can be constructed: [[Premises|Premise]] correspond to [[Antecedents|Antecedent]], and the [[Conclusion]] corresponds to the [[Consequent]]. But it's different in that [[Arguments|Argument]] aren't [[Truth Functions|Truth Function]] and don't have [[Truth Value]]. Arguments aren't [[Propositions]] - they are //\"vectors\"// of propositions.\n\nThe syntax diagram of an argument looks like:<br>\n<<prs railroad>>\n\nAnd the syntax diagram of the corresponding [[Conditional Proposition]] looks like:<br>\n<<prs railroad-2>>\n\n\n<!--Links (for context-aware search):-->\n[[|Premise]]\n[[|Conjunction]]\n[[|Material Implication]]\n[[|Conclusion]]\n[[|Logical Consequence]]",
+        "title": "Argument",
+        "tags": "Logic [[100 Days of Logic (carneades.org)]]",
+        "modified": "20200325163931877",
+        "type": "text/vnd.tiddlywiki",
+        "tmap.id": "2e536399-a1c4-4f4f-a3fc-06d4c78080b4",
+        ".prs.railroad-2": "<$railroad text=\"\"\"\"(\"{[[Premise|Premise]]+[[\"∧\"|Conjunction]]} \")\"[[\"→\"|\"Material Implication\"]] [[Conclusion|Conclusion]]\"\"\"/>",
+        ".prs.railroad": "<$railroad text=\"\"\"{[[Premise|Premise]]+\",\"} [[\"∴\"|\"Logical Consequence\"]] [[Conclusion|Conclusion]]\"\"\"/>",
+        ".hsk.tagged_topic": "[<currentTiddler>tags[]field:icon[_my/images/icons/topic]]",
+        ".hsk.tagged_feature": "[<currentTiddler>tags[]field:icon[_my/images/icons/feature]]",
+        ".hsk.tagged_exemplar": "[<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]",
+        ".hsk.tagged_diagram": "[<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]",
+        ".hsk.macrocall": " [[_my/macros/appear/prs]]"
+    }
+]

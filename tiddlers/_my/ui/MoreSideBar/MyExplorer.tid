@@ -1,0 +1,14 @@
+.hsk.macrocall: [[$:/core/macros/tree]]
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+caption: Tree
+created: 20191201093905662
+modified: 20200325082917985
+tags: _my/tags/MoreSideBar
+title: _my/ui/MoreSideBar/MyExplorer
+tmap.id: 5ab29236-4909-44c6-bbe3-f6f9e93a01c4
+type: text/vnd.tiddlywiki
+
+<<tree "_my/">>

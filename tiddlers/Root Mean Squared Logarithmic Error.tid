@@ -1,0 +1,38 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200319101644743
+modified: 20200325163851051
+tags: [[How to Win a Data Science Competition]] [[Machine Learning]] Metrics Regression
+title: Root Mean Squared Logarithmic Error
+tmap.id: edcb796c-4b62-428d-8c26-e83e6d184c84
+type: text/vnd.tiddlywiki
+
+$$
+\begin{aligned}
+\displaystyle
+\operatorname{RMSLE} &=\sqrt{
+                       \frac 1 N
+                       \sum_{i=n}^N(
+                       \log(     y_i + 1)      -
+                       \log(\hat y_i + 1))^2 } = \\[20pt] &=
+
+                       \sqrt{
+                       \frac 1 N
+                       \sum_{i=n}^N
+                       \left(
+                       \log
+                       \frac      {y_i + 1}     
+                             {\hat y_i + 1}
+                       \right)^2 }             = \\[20pt] &=
+
+\operatorname{RMSE}(   \log(y_i + 1),
+                       \log(\hat y_i + 1))     = \\[20pt] &= 
+\sqrt{
+\operatorname{ MSE}(   \log(y_i + 1),
+                       \log(\hat y_i + 1))     }
+\end{aligned}
+$$
+
+Generally speaking, any constant may take the place of 1 in this formula - it all depends on the data. But the convention is to use 1 by default.

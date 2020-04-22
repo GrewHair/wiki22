@@ -1,0 +1,22 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191222161108732
+modified: 20200325163938013
+tags: [[Predicate Logic]] Logic
+title: Non-specific Statement
+tmap.id: 776f930f-814f-4dd4-ae57-0fc24303bcb3
+type: text/vnd.tiddlywiki
+
+! ℱp
+
+It may represent:
+
+Ap&and;Bp
+
+or
+
+Ep&or;(Cp&rarr;Dp)
+
+or any [[Statement|Statement (Predicate Logic)]].

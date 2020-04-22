@@ -1,0 +1,28 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191223071551095
+modified: 20200325163938005
+tags: [[Predicate Logic]] Logic
+title: Predicate (Predicate Logic)
+tmap.id: 3dc03d1e-1709-4b63-a988-988c53dca443
+type: text/vnd.tiddlywiki
+
+A [[Predicate|Predicate (Predicate Logic]] is commonly understood to be a [[Boolean-valued Function]]
+$$P: X \to \{\text{True, False}\}$$, although the term is broad and the meaning may vary.
+
+When a theory defines a [[relation|Binary Relation]], then a [[Predicate|Predicate (Predicate Logic]] is simply an [[Indicator Function]] (also sometimes referred to as //Characteristic Function//) of a [[relation|Binary Relation]].
+
+Informally, a predicate is a statement that may be either [[True|Truth Value]] or [[False|Truth Value]] depending on the values of variables.
+
+In [[Predicate Logic]] //A, B, C, D// - upper case letters represent //categories, predicates, relations, predicate symbols//.
+
+''Examples:'' Is an apple, Is blue, Is colorful.
+
+''Not to be confused'' with the notion of [[Predicate|Predicate (Categorical Logic)]] from [[Categorical Logic]].
+
+The difference is as follows:
+
+* In [[Categorical Logic]] the [[Predicate|Predicate (Categorical Logic)]] is just a [[Term]] (basically, a noun) - just like the [[Subject]] is, and the [[Copula]] specifies the relation between the two.
+* In [[Predicate Logic]] //there is no// [[Copula]], because the 'not' part of it can be easily replaced by [[Negation]] from [[Propositional Logic]], and the 'are' part of it is just 'absorbed' into the [[Predicate|Predicate Logic]]. Thus, [[Predicate|Predicate Logic]] is no longer just a [[Term]], but a whole relation, like //'is a human'//, and can very conveniently be generalized to be not just a noun, but any quality or verb, like //'is yellow'// or //'is taking drugs'//.

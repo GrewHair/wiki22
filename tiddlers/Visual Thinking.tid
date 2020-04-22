@@ -1,0 +1,24 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200313113031793
+modified: 20200325163846530
+tags: [[Cognitive Neuroscience]]
+title: Visual Thinking
+tmap.id: b6ae5213-0e46-496a-bdba-383558bb4e05
+type: text/vnd.tiddlywiki
+
+''AKA (Mental) Imagery, Picture Thinking, Visual/Spatial Learning, Right Brained Learning''
+
+[[Visual Thinking]] is one of the two major ways in which humans think, memorize, process information, etc., the other one being [[Verbal Thinking]].
+
+[[Visual Thinking]] is faster than [[Verbal Thinking]] - it is in fact lightening fast. The downside is that it can be limited (e.g. in dimensionality).
+
+It is more associated with the right hemisphere of the brain.
+
+One can speculate, using an analogy with computer architechure, that [[Visual Thinking]] is much like a [[GPU]], while [[Verbal Thinking]] resembles a [[CPU]].
+
+Im [[Deep Learning]] there is a subfield called [[Computer Vision]], which is pursuing the aim of making computers think like [[Visual Thinkers|Visual Thinking]].
+
+http://dyslexia.com.au/free-dyslexia-learning/visual-thinking-verbal-thinking/

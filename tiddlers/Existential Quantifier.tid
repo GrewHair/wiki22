@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191111112408440
+modified: 20200325163932204
+tags: Stub Logic [[Set Theory]] [[100 Days of Logic (carneades.org)]]
+title: Existential Quantifier
+tmap.id: fe237d13-35e8-4219-add3-e6d55f0c2518
+type: text/vnd.tiddlywiki
+
+! &exist;

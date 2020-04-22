@@ -1,0 +1,24 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200308073233673
+modified: 20200325171722453
+tags: [[Probability Theory]]
+title: Random Variable
+tmap.id: 1eb538f9-2055-4f18-aad5-07db22fad6c3
+type: text/vnd.tiddlywiki
+
+A [[Random Variable]] is a variable, whos values __depend__ on outcomes of a random phenomenon.
+
+Thus, a [[Random Variable]] is a function.
+
+A [[Random Variable]] is a [[Measurable Function]] $$X: \Omega \to E$$ from a sample space $$\Omega$$ to a measurable space $$E$$.
+
+The probability that $$X$$ takes on a value in a measurable set $$S \subseteq E$$ is written as:
+
+$$P(X \in S) = P(\{\omega \in \Omega | X(\omega) \in S \})$$
+
+In many cases, $$E = \R$$.
+
+https://en.wikipedia.org/wiki/Random_variable

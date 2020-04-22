@@ -1,0 +1,19 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200319171246253
+modified: 20200325163913719
+tags: [[MIT 18.650 Statistics for Applications]] Statistics Stub
+title: Total Variation Distance
+tmap.id: 7eca1760-ff24-44bc-8e03-4fe5b68e93ea
+type: text/vnd.tiddlywiki
+
+''AKA Statistical Distance, Variational Distance''
+
+The [[Total Variation Distance]] between two [[Probability Measures|Probability Measure]] $$P$$ and $$Q$$ on a [[σ-algebra]] $$\mathcal F$$ of [[Subsets|Subset]] of the [[Sample Space]] $$\Omega$$ is defined via
+
+$$
+\displaystyle
+\delta(P, Q) = \sup_{A \in \mathcal F}|P(A) - Q(A)|
+$$

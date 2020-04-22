@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200320093203542
+modified: 20200325164034465
+tags: [[Measure Theory]] [[Set Theory]] Topology
+title: Borel σ-algebra
+tmap.id: 1d399513-e390-4e12-8b7c-27b07fbbd478
+type: text/vnd.tiddlywiki
+
+''AKA Borel Algebra''
+
+For a [[Topological Space]] $$X$$, the collection of all [[Borel Sets|Borel Set]] on $$X$$ forms a [[σ-algebra]]. The [[Borel Algebra|Borel σ-algebra]] on $$X$$ is the smallest [[σ-algebra]] containing all [[Open Sets|Open Set]] (or, equivalently, [[Closed Sets|Closed Set]]).
+
+https://mathworld.wolfram.com/BorelSigma-Algebra.html

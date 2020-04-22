@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200311202251232
+modified: 20200325163826234
+tags: [[Linear Algebra]]
+title: Main Diagonal
+tmap.id: c7f65ae6-3522-4527-9f81-ed73c64de2d7
+type: text/vnd.tiddlywiki
+
+The [[Main Diagonal]] of a [[Matrix]] $$A$$ is the collection of it's entries $$A_{i,j}$$ such that $$i = j$$.

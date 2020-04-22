@@ -1,0 +1,13 @@
+.hsk.transcludes: [[_my/images/png/underfitting_overfitting]][[_my/images/png/error_vs_model_complexity]]
+created: 20200131103554552
+modified: 20200325163850991
+tags: Stub [[How to Win a Data Science Competition]] [[Machine Learning]]
+title: Underfitting & Overfitting
+tmap.id: 5ee80e90-f417-48be-8eb5-a7194e82e29a
+type: text/vnd.tiddlywiki
+
+{{_my/images/png/underfitting_overfitting}}
+
+{{_my/images/png/error_vs_model_complexity}}
+
+''Note:'' generally if a model's performance metric on the validation set is better then on the test set, the model is said to be overfitted, ''but!'' on [[Kaggle]] anything will do as long as it doesn't violate the rules and keeps your position high on the leaderboard!

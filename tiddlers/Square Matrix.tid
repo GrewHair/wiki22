@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200309204603907
+modified: 20200325163826141
+tags: [[Lecture 1]] [[MIT 18.065 Matrix Methods in Data Analysis, Signal Processing, and Machine Learning]] [[Linear Algebra]]
+title: Square Matrix
+tmap.id: 80a85195-ef3a-42be-b3fd-0c37954bd484
+type: text/vnd.tiddlywiki
+
+A [[Matrix]] is [[Square]] if the number of rows is equal to the number of columns.
+
+''Note:'' in the wild, [[matrices|Matrix]] are //unlikely// to be [[square|Square Matrix]] (unless they are intentionally constucted to be square)! The data usually comes in the form of something like [[DataFrames|DataFrame]], and the number of features is in general unrelated to the number of samples.

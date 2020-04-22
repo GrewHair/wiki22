@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200316175040843
+modified: 20200325163854393
+tags: [[Abstract Algebra]] [[Abstract Algebra (Socratica)]]
+title: Proper Subgroup
+tmap.id: 26427094-3bc5-4a1d-a4db-cfa5836c5bf2
+type: text/vnd.tiddlywiki
+
+A [[Proper Subgroup]] $$H$$ of a [[Group]] $$G$$ is a [[Subgroup]] of $$G$$ that is not equal to $$G$$:
+
+$$H \!\leq\! G, H \!\neq\! G \;\therefore\; H < G$$ 

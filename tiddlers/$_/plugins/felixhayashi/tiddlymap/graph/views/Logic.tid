@@ -1,0 +1,8 @@
+config.neighbourhood_scope: 
+config.show_inter_neighbour_edges: false
+created: 20191021094910496
+id: c42a3203-faab-4556-880e-29f5cf59845e
+isview: true
+modified: 20200325183252085
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Logic
+type: text/vnd.tiddlywiki

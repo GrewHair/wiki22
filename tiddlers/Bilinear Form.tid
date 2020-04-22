@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200310230100835
+modified: 20200325163826345
+tags: Stub [[Linear Algebra]]
+title: Bilinear Form
+tmap.id: dc31f320-477a-44bb-b2f0-07da1d98322e
+type: text/vnd.tiddlywiki
+
+[[Bilinear Form]] on a [[Vector Space]] $$V$$ is a [[Bilinear Map]] $$V \times V \to K$$, where $$K$$ is the [[Field]] of [[Scalars|Scalar]].

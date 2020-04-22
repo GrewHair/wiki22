@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200303173500948
+icon: _my/images/icons/course
+modified: 20200325170948379
+tags: 
+title: Information Theory, Pattern Recognition, and Neural Networks (David MakKay, University of Cambridge)
+tmap.id: 943e4938-5515-483c-b518-4302dd06cc45
+type: text/vnd.tiddlywiki
+
+youtube:
+https://www.youtube.com/playlist?list=PLruBu5BI5n4aFpG32iMbdWoRVAA-Vcso6
+
+book: http://www.inference.org.uk/mackay/itila/

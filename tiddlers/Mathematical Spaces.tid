@@ -1,0 +1,23 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200309111145241
+modified: 20200325164007499
+tags: Topology Hierarchy
+title: Mathematical Spaces
+tmap.id: 49a7478e-54c5-4eed-9be7-04c7086164f8
+type: text/vnd.tiddlywiki
+
+<svg height="300pt" width="300pt">
+  <circle cx="190" cy="290" r="50" stroke=currentColor stroke-width="3" fill="none" />
+  <circle cx="190" cy="250" r="100" stroke=currentColor stroke-width="3" fill="none" />
+  <circle cx="190" cy="220" r="140" stroke=currentColor stroke-width="3" fill="none" />
+  <circle cx="190" cy="190" r="180" stroke=currentColor stroke-width="3" fill="none" />
+  <foreignObject x="165" y="250" width="57">[[Inner Product Spaces|Inner Product Space]]</foreignObject>
+  <foreignObject x="145" y="170" width="100">[[Normed Vector Spaces|Normed Vector Space]]</foreignObject>
+  <foreignObject x="150" y="90" width="100">[[Metric Spaces]]</foreignObject>
+  <foreignObject x="130" y="22" width="150">[[Topological Spaces]]</foreignObject>
+</svg>
+
+https://en.wikipedia.org/wiki/Space_(mathematics)

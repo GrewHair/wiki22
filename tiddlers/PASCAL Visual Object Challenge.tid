@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200212071513095
+modified: 20200325164037827
+tags: Stub [[Computer Vision]] [[Introduction to Convolutional Neural Networks for Visual Recognition (Stanford)]]
+title: PASCAL Visual Object Challenge
+tmap.id: 7bbc073d-e3fe-4ece-b9c2-9ae910e38bcc
+type: text/vnd.tiddlywiki
+
+A benchmark dataset for image recognition

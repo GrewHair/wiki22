@@ -1,0 +1,22 @@
+created: 20191226210557266
+modified: 20200325163851191
+tags: [[How to Win a Data Science Competition]] [[Machine Learning]] Models
+title: Linear Models
+tmap.id: 125ef2e9-e90d-4465-98e3-5c39f5ffeea3
+type: text/vnd.tiddlywiki
+
+[[Linear Models]] are very useful for [[Sparce|Sparce Matrices]] high-dimensional data.
+
+The most notable implementations of [[Linear Models]] are in:
+
+* scikit-learn - because it's the most general library, useful for a lot of things 
+* Vowpal Wabbit - because it can handle really large datasets (with which [[Linear Models]] are very benefitial)
+
+[[Linear Models]] require feature [[Scaling]] mainly for two reasons:
+
+* The [[Regularization]] impact turns out to be proportional to the features' scales
+* The [[Gradient Descent]] algorithms don't like it when the features are scaled differently, since this makes the surfaces in the feature space more stretched-out (less 'round' and more 'eccentric'), and thus produce some rather sharp 'corners' (that is, areas with possibly very small curvature radius). Because of that, depending on step size of [[Gradient Descent]] algo, it can get stuck overshooting things and begin to 'oscillate'. 
+
+<br>
+
+[[Linear Models]] are extremly sensitive to [[Outliers]]

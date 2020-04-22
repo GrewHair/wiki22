@@ -1,0 +1,11 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191023111142202
+list: [[Conditional Proposition]] [[Conjunctive Proposition]] [[Disjunctive Proposition]]
+modified: 20200325163932156
+tags: Stub Logic [[100 Days of Logic (carneades.org)]]
+title: Hypothetical Proposition
+tmap.id: 3f862e5d-f940-4db7-8c57-03b5b3d3ad5f
+type: text/vnd.tiddlywiki

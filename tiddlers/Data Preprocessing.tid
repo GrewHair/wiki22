@@ -1,0 +1,31 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[_my/images/png/preprocessing]]
+created: 20200213091043566
+modified: 20200325164037845
+tags: [[Introduction to Convolutional Neural Networks for Visual Recognition (Stanford)]] Stub [[Computer Vision]] [[Deep Learning]] [[Machine Learning]]
+title: Data Preprocessing
+tmap.id: e37f9868-243c-43ec-b58d-0062967d877f
+type: text/vnd.tiddlywiki
+
+{{_my/images/png/preprocessing}}
+
+https://en.wikipedia.org/wiki/Whitening_transformation
+
+https://chienduong93.wordpress.com/2018/03/07/whitening-data-ica/
+
+https://stats.stackexchange.com/questions/374143/do-you-standardize-the-data-before-pca-whitening
+
+''Typical examples:''
+
+* Decorrelation
+* Standartization (Normalization)
+* Zero-centering (Mean subtraction)
+* Whitening
+* Colouring
+
+One of the ways to whiten the data is [[PCA]].
+
+I need to think about the distinction of white gaussian noise as a stochastic time series and white noise vectors, the distinction of autocorrelation function and the covariance matrix, and also on the role of ergodicity and stationarity in all this, as well as how [[Shuffled Data]] is related to all of this.

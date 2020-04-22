@@ -1,0 +1,13 @@
+created: 20200114070013647
+modified: 20200325163745814
+tags: [[How to Win a Data Science Competition]] Pandas
+title: df.describe()
+tmap.id: 9d620bff-1cfd-458a-aba9-9106b9dbb0b1
+type: text/vnd.tiddlywiki
+
+`df.describe()`
+
+see also:
+
+`s.mean()`,
+`s.var()`

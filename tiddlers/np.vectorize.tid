@@ -1,0 +1,29 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200126113019707
+modified: 20200325163742416
+tags: Numpy
+title: np.vectorize
+tmap.id: cca2858d-31e4-481d-9d04-91df253ec590
+type: text/vnd.tiddlywiki
+
+This is a special function that vectorizes any (custom) function:
+
+```
+def func(x):
+    print(x)
+
+vectorized_func = np.vectorize(func)
+```
+
+It can be used with more convenience using a [[Decorator]]:
+
+```
+@np.vectorize
+def func(x):
+    print(x)
+```
+
+It is often preferable to the [[Pandas]]' //apply// function, since it's a lot faster.

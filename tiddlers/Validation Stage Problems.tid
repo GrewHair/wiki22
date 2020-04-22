@@ -1,0 +1,33 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[_my/images/png/expected_data_inconsistencies_example]]
+created: 20200207074554277
+modified: 20200325164053099
+tags: [[How to Win a Data Science Competition]] Kaggle [[Machine Learning]]
+title: Validation Stage Problems
+tmap.id: ad9a15d7-7bdb-40db-9d82-2e530ed984d3
+type: text/vnd.tiddlywiki
+
+* Data inconsistencies
+** Sometimes they can be expected (for example, from the picture below it is clear that January has much more holidays than February, and people tend to buy more):
+**>{{_my/images/png/expected_data_inconsistencies_example}}
+** Other times there is no apparent reason for the inconsistencies. Here are some most common causes:
+*** Too little data (if we have a lot of patterns and trends in the data, but we don't have enough samples to generalize these patterns well - in this case the model will utilize only some of these patterns, and for different folds they may turn out to be different)
+*** The data is too diverse and inconsistent (for example if we have very similar samples with different target values, a model can confuse them). Consider two cases:
+**** If one of such samples is it train and another is in the validation, we can get a pretty high error for the second sample
+**** If both of them are in the validation, we will get smaller errors
+
+To address this kind of problems we need to do more thorough validation:
+
+* Increase the number of folds (but usually 5 is enough)
+* Make K-fold validation several times with different random seeds, and average scores to  try to get a more stable estimate of  the model's quality
+* If while using this approach there is a chance to overfit (suspiciously varying results), one can select parameters using one set of K-fold splits, and evaluate the model using another
+
+Examples of competitions which required extensive validation:
+
+* https://www.kaggle.com/c/liberty-mutual-group-property-inspection-prediction
+* https://www.kaggle.com/c/santander-customer-satisfaction
+
+In both these cases the scores of the competitors were very close to each other, and so everybody struggled do squeeze out a bit more, while trying to still not overfit. That's why very thorough validation was crucial

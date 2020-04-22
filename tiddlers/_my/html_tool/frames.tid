@@ -1,0 +1,93 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+caption: Frames
+created: 20191208182351599
+modified: 20200325133132527
+title: _my/html_tool/frames
+tmap.id: 83c5024d-0683-4f05-a6a7-15f91e7653e6
+type: text/vnd.tiddlywiki
+
+\define frame_ctrl_table(id)
+<table>
+<tbody>
+<tr>
+<td>
+fill:
+<$edit-text tiddler="_my/temp/frame/$id$/fill" size="1" tag="input" default=''/>
+</td>
+<td>
+stroke-width:
+<$edit-text tiddler="_my/temp/frame/$id$/stroke-width" size="1" tag="input" default=''/>
+</td>
+<td>
+stroke:
+<$edit-text tiddler="_my/temp/frame/$id$/stroke" size="1" tag="input" default=''/>
+</td>
+<td>
+opacity:
+<$edit-text tiddler="_my/temp/frame/$id$/opacity" size="1" tag="input" default=''/>
+</td>
+</tr>
+<tr>
+<td>
+<$select tiddler='_my/temp/frame/$id$/lr'>
+<option value='left'>left</option><option value='right'>right</option>
+</$select>
+</td>
+<td>
+<$range tiddler="_my/temp/frame/$id$/hor" min="0" max="100" default="0" increment="1"/><$edit-text tiddler="_my/temp/frame/$id$/hor" size="1" tag="input" default=''/>%
+</td>
+<td>width:</td>
+<td>
+<$range tiddler="_my/temp/frame/$id$/width" min="0" max="100" default="0" increment="1"/><$edit-text tiddler="_my/temp/frame/$id$/width" size="1" tag="input" default=''/>%
+</td>
+</tr>
+<tr>
+<td>
+<$select tiddler='_my/temp/frame/$id$/tb'>
+<option value='top'>top</option><option value='bottom'>bottom</option>
+</$select>
+</td>
+<td>
+<$range tiddler="_my/temp/frame/$id$/ver" min="0" max="100" default="0" increment="1"/><$edit-text tiddler="_my/temp/frame/$id$/ver" size="1" tag="input" default=''/>%
+</td>
+<td>
+height:
+</td>
+<td>
+<$range tiddler="_my/temp/frame/$id$/height" min="0" max="100" default="0" increment="1"/><$edit-text tiddler="_my/temp/frame/$id$/height" size="1" tag="input" default=''/>%
+</td>
+</tr>
+
+<tr>
+<td>
+rotate: 
+</td>
+<td>
+<$range tiddler="_my/temp/frame/$id$/rotate" min="-100" max="100" default="0" increment="1"/><$edit-text tiddler="_my/temp/frame/$id$/rotate" size="1" tag="input" default=''/>deg
+</td>
+<td>
+rx:
+</td>
+<td>
+<$range tiddler="_my/temp/frame/$id$/rx" min="-100" max="100" default="0" increment="1"/><$edit-text tiddler="_my/temp/frame/$id$/rx" size="1" tag="input" default=''/>deg
+</td>
+</tr>
+</tbody>
+</table>
+\end
+
+<$scrollable class='tc-scrollable-demo'>
+<<frame_ctrl_table 1>>
+<<frame_ctrl_table 2>>
+<<frame_ctrl_table 3>>
+<<frame_ctrl_table 4>>
+<<frame_ctrl_table 5>>
+<<frame_ctrl_table 6>>
+<<frame_ctrl_table 7>>
+<<frame_ctrl_table 8>>
+<<frame_ctrl_table 9>>
+<<frame_ctrl_table 10>>
+</$scrollable>

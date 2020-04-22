@@ -1,0 +1,11 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191031110047033
+list: Subject [[Predicate (Categorical Logic)]]
+modified: 20200325163931926
+tags: Stub Logic
+title: Term
+tmap.id: de693f54-beae-4d2d-b9a3-9df2c6502252
+type: text/vnd.tiddlywiki

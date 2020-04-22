@@ -1,0 +1,12 @@
+caption: {{$:/language/codemirror/lineWrapping/hint}}
+created: 20200326092025570
+modified: 20200326092054043
+tags: $:/tags/ControlPanel/Settings/CodeMirror
+title: $:/core/ui/ControlPanel/Settings/codemirror/lineWrapping
+type: text/vnd.tiddlywiki
+
+\define lingo-base() $:/language/codemirror/lineWrapping/
+<<lingo hint>>
+
+<$checkbox tiddler="$:/config/codemirror/lineWrapping" field="text" checked="true" unchecked="false" default="true"> <$link to="$:/config/codemirror/lineWrapping"><<lingo info>></$link> </$checkbox>
+

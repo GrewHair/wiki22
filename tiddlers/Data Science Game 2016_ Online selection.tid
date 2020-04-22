@@ -1,0 +1,27 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[_my/images/png/data_science_game_2016_online_selection_classes]][[_my/images/png/fine-tuning_vgg16_for_4-class_classification]][[_my/images/png/image_augmentation]]
+created: 20200206094710691
+modified: 20200325164053163
+tags: Stub [[How to Win a Data Science Competition]] Kaggle [[Machine Learning]]
+title: Data Science Game 2016: Online selection
+tmap.id: 6233b2bc-d199-46da-acb4-d405614c8306
+type: text/vnd.tiddlywiki
+
+https://www.kaggle.com/c/data-science-game-2016-online-selection
+
+A four-class image classification task:
+
+{{_my/images/png/data_science_game_2016_online_selection_classes}}
+
+One way to accomplish this is to use the [[VGG16]] network pretrained on the [[ImageNet]] database. Because [[ImageNet]] has 1000 classes we will need to [[Fine-Tune]] the network:
+
+{{_my/images/png/fine-tuning_vgg16_for_4-class_classification}}
+
+Another improvement could be to find and use another network, pretrained on the data which is more similar to ours: we can use network pretrained on the //'places'// dataset.
+
+Yet another improvement would be to do some [[Image Augmentation]]. In this case, we can rotate the images of the existing dataset to inclrease it's size:
+
+{{_my/images/png/image_augmentation}}

@@ -1,0 +1,75 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200331115639622
+modified: 20200331124547142
+tags: [[Regular Expressions]]
+title: More White-Space (Regular Expressions)
+tmap.id: b0bcc74d-ee64-4ed2-851f-72a2cafe11ed
+type: text/vnd.tiddlywiki
+
+<table border="0">
+<tbody>
+<tr>
+<th scope="col">Character</th>
+<th scope="col">Legend</th>
+<th scope="col">Example</th>
+<th scope="col">Sample Match</th>
+</tr>
+<tr>
+<td>\t</td>
+<td>Tab</td>
+<td>T\t\w{2}</td>
+<td>T ab</td>
+</tr>
+<tr>
+<td>\r</td>
+<td>Carriage return character</td>
+<td>see below</td>
+</tr>
+<tr>
+<td>\n</td>
+<td>Line feed character</td>
+<td>see below</td>
+</tr>
+<tr>
+<td>\r\n</td>
+<td>Line separator on Windows</td>
+<td>AB\r\nCD</td>
+<td>AB<br />CD</td>
+</tr>
+<tr>
+<td>\N</td>
+<td>Perl, PCRE (C, PHP, R&hellip;): one character that is not a line break</td>
+<td>\N+</td>
+<td>ABC</td>
+</tr>
+<tr>
+<td>\h</td>
+<td>Perl, PCRE (C, PHP, R&hellip;), Java: one horizontal whitespace character: tab or Unicode space separator</td>
+</tr>
+<tr>
+<td>\H</td>
+<td>One character that is not a horizontal whitespace</td>
+</tr>
+<tr>
+<td>\v</td>
+<td>.NET, JavaScript, Python, Ruby: vertical tab</td>
+</tr>
+<tr>
+<td>\v</td>
+<td>Perl, PCRE (C, PHP, R&hellip;), Java: one vertical whitespace character: line feed, carriage return, vertical tab, form feed, paragraph or line separator</td>
+</tr>
+<tr>
+<td>\V</td>
+<td>Perl, PCRE (C, PHP, R&hellip;), Java: any character that is not a vertical whitespace</td>
+</tr>
+<tr>
+<td>\R</td>
+<td>Perl, PCRE (C, PHP, R&hellip;), Java: one line break (carriage return + line feed pair, and all the characters matched by \v)</td>
+</tr>
+</tbody>
+</table>
+
+https://www.rexegg.com/regex-quickstart.html

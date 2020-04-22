@@ -1,0 +1,14 @@
+.hsk.macrocall: [[_my/macros/TruthTables/trth_binary]] [[_my/macros/appear/prs_v]]
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.prs.truth_table: <<trth_binary &darr; F F F T>>
+created: 20191016113320911
+modified: 20200325163932139
+tags: Logic Binary Secondary [[100 Days of Logic (carneades.org)]]
+title: Joint Denial
+tmap.id: 5c06f975-8257-4b5b-af38-40075f107e9b
+type: text/vnd.tiddlywiki
+
+It's [[truth table|Truth Tables]] <<prs_v 'is (click to see):' truth_table>>

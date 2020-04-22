@@ -1,0 +1,905 @@
+.hsk.macrocall: [[_my/html_tool/]]
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+caption: Global
+created: 20191208180937752
+modified: 20200325133132521
+title: _my/html_tool/global
+tmap.id: 76c6f2da-5019-4b4b-ad70-153a9ce4caf1
+type: text/vnd.tiddlywiki
+
+\define wikify_preview()
+
+<div style="position: relative; height:$(height)$px; width:$(width)$px">      
+<span style="position: relative">$(bckgrnd_txt)$</span>
+ 
+<svg>
+<defs>
+<marker id="arr1_end" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill=$(col_arr_1)$ /></marker>
+<marker id="arr1_start" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M9,0 L9,6 L0,3 z" fill=$(col_arr_1)$ /></marker>
+<marker id="arr2_end" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill=$(col_arr_2)$ /></marker>
+<marker id="arr2_start" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M9,0 L9,6 L0,3 z" fill=$(col_arr_2)$ /></marker>
+<marker id="arr3_end" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill=$(col_arr_3)$ /></marker>
+<marker id="arr3_start" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M9,0 L9,6 L0,3 z" fill=$(col_arr_3)$ /></marker>
+<marker id="arr4_end" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill=$(col_arr_4)$ /></marker>
+<marker id="arr4_start" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M9,0 L9,6 L0,3 z" fill=$(col_arr_4)$ /></marker>
+<marker id="arr5_end" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill=$(col_arr_5)$ /></marker>
+<marker id="arr5_start" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M9,0 L9,6 L0,3 z" fill=$(col_arr_5)$ /></marker>
+<marker id="arr6_end" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill=$(col_arr_6)$ /></marker>
+<marker id="arr6_start" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M9,0 L9,6 L0,3 z" fill=$(col_arr_6)$ /></marker>
+<marker id="arr7_end" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill=$(col_arr_7)$ /></marker>
+<marker id="arr7_start" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M9,0 L9,6 L0,3 z" fill=$(col_arr_7)$ /></marker>
+<marker id="arr8_end" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill=$(col_arr_8)$ /></marker>
+<marker id="arr8_start" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M9,0 L9,6 L0,3 z" fill=$(col_arr_8)$ /></marker>
+<marker id="arr9_end" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill=$(col_arr_9)$ /></marker>
+<marker id="arr9_start" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M9,0 L9,6 L0,3 z" fill=$(col_arr_9)$ /></marker>
+<marker id="arr10_end" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill=$(col_arr_10)$ /></marker>
+<marker id="arr10_start" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M9,0 L9,6 L0,3 z" fill=$(col_arr_10)$ /></marker>
+</defs>
+</svg>
+
+<span style="position: absolute; $(lr_arr_1)$:$(hor_arr_1)$%; $(tb_arr_1)$:$(ver_arr_1)$%; zoom:$(zoom_arr_1)$%; transform:rotate($(rotate_arr_1)$deg);"><svg width=$(len_arr_1)$><line x1=50 y1=20 x2=$(len_arr_1)$ y2=20 stroke=$(col_arr_1)$ stroke-width=$(width_arr_1)$ $(marker_arr_1)$/></svg></span>
+<span style="position: absolute; $(lr_arr_2)$:$(hor_arr_2)$%; $(tb_arr_2)$:$(ver_arr_2)$%; zoom:$(zoom_arr_2)$%; transform:rotate($(rotate_arr_2)$deg);"><svg width=$(len_arr_2)$><line x1=50 y1=20 x2=$(len_arr_2)$ y2=20 stroke=$(col_arr_2)$ stroke-width=$(width_arr_2)$ $(marker_arr_2)$/></svg></span>
+<span style="position: absolute; $(lr_arr_3)$:$(hor_arr_3)$%; $(tb_arr_3)$:$(ver_arr_3)$%; zoom:$(zoom_arr_3)$%; transform:rotate($(rotate_arr_3)$deg);"><svg width=$(len_arr_3)$><line x1=50 y1=20 x2=$(len_arr_3)$ y2=20 stroke=$(col_arr_3)$ stroke-width=$(width_arr_3)$ $(marker_arr_3)$/></svg></span>
+<span style="position: absolute; $(lr_arr_4)$:$(hor_arr_4)$%; $(tb_arr_4)$:$(ver_arr_4)$%; zoom:$(zoom_arr_4)$%; transform:rotate($(rotate_arr_4)$deg);"><svg width=$(len_arr_4)$><line x1=50 y1=20 x2=$(len_arr_4)$ y2=20 stroke=$(col_arr_4)$ stroke-width=$(width_arr_4)$ $(marker_arr_4)$/></svg></span>
+<span style="position: absolute; $(lr_arr_5)$:$(hor_arr_5)$%; $(tb_arr_5)$:$(ver_arr_5)$%; zoom:$(zoom_arr_5)$%; transform:rotate($(rotate_arr_5)$deg);"><svg width=$(len_arr_5)$><line x1=50 y1=20 x2=$(len_arr_5)$ y2=20 stroke=$(col_arr_5)$ stroke-width=$(width_arr_5)$ $(marker_arr_5)$/></svg></span>
+<span style="position: absolute; $(lr_arr_6)$:$(hor_arr_6)$%; $(tb_arr_6)$:$(ver_arr_6)$%; zoom:$(zoom_arr_6)$%; transform:rotate($(rotate_arr_6)$deg);"><svg width=$(len_arr_6)$><line x1=50 y1=20 x2=$(len_arr_6)$ y2=20 stroke=$(col_arr_6)$ stroke-width=$(width_arr_6)$ $(marker_arr_6)$/></svg></span>
+<span style="position: absolute; $(lr_arr_7)$:$(hor_arr_7)$%; $(tb_arr_7)$:$(ver_arr_7)$%; zoom:$(zoom_arr_7)$%; transform:rotate($(rotate_arr_7)$deg);"><svg width=$(len_arr_7)$><line x1=50 y1=20 x2=$(len_arr_7)$ y2=20 stroke=$(col_arr_7)$ stroke-width=$(width_arr_7)$ $(marker_arr_7)$/></svg></span>
+<span style="position: absolute; $(lr_arr_8)$:$(hor_arr_8)$%; $(tb_arr_8)$:$(ver_arr_8)$%; zoom:$(zoom_arr_8)$%; transform:rotate($(rotate_arr_8)$deg);"><svg width=$(len_arr_8)$><line x1=50 y1=20 x2=$(len_arr_8)$ y2=20 stroke=$(col_arr_8)$ stroke-width=$(width_arr_8)$ $(marker_arr_8)$/></svg></span>
+<span style="position: absolute; $(lr_arr_9)$:$(hor_arr_9)$%; $(tb_arr_9)$:$(ver_arr_9)$%; zoom:$(zoom_arr_9)$%; transform:rotate($(rotate_arr_9)$deg);"><svg width=$(len_arr_9)$><line x1=50 y1=20 x2=$(len_arr_9)$ y2=20 stroke=$(col_arr_9)$ stroke-width=$(width_arr_9)$ $(marker_arr_9)$/></svg></span>
+<span style="position: absolute; $(lr_arr_10)$:$(hor_arr_10)$%; $(tb_arr_10)$:$(ver_arr_10)$%; zoom:$(zoom_arr_10)$%; transform:rotate($(rotate_arr_10)$deg);"><svg width=$(len_arr_10)$><line x1=50 y1=20 x2=$(len_arr_10)$ y2=20 stroke=$(col_arr_10)$ stroke-width=$(width_arr_10)$ $(marker_arr_10)$/></svg></span>
+
+<span style="position: absolute; $(lr_frm_1)$:$(hor_frm_1)$%; $(tb_frm_1)$:$(ver_frm_1)$%; transform:rotate($(rotate_frm_1)$deg); fill: $(fill_frm_1)$; stroke-width: $(stroke-width_frm_1)$; stroke: $(stroke_frm_1)$; opacity: $(opacity_frm_1)$;"><svg><rect width=$(width_frm_1)$ height=$(height_frm_1)$ rx=$(rx_frm_1)$/></svg></span>
+<span style="position: absolute; $(lr_frm_2)$:$(hor_frm_2)$%; $(tb_frm_2)$:$(ver_frm_2)$%; transform:rotate($(rotate_frm_2)$deg); fill: $(fill_frm_2)$; stroke-width: $(stroke-width_frm_2)$; stroke: $(stroke_frm_2)$; opacity: $(opacity_frm_2)$;"><svg><rect width=$(width_frm_2)$ height=$(height_frm_2)$ rx=$(rx_frm_2)$/></svg></span>
+<span style="position: absolute; $(lr_frm_3)$:$(hor_frm_3)$%; $(tb_frm_3)$:$(ver_frm_3)$%; transform:rotate($(rotate_frm_3)$deg); fill: $(fill_frm_3)$; stroke-width: $(stroke-width_frm_3)$; stroke: $(stroke_frm_3)$; opacity: $(opacity_frm_3)$;"><svg><rect width=$(width_frm_3)$ height=$(height_frm_3)$ rx=$(rx_frm_3)$/></svg></span>
+<span style="position: absolute; $(lr_frm_4)$:$(hor_frm_4)$%; $(tb_frm_4)$:$(ver_frm_4)$%; transform:rotate($(rotate_frm_4)$deg); fill: $(fill_frm_4)$; stroke-width: $(stroke-width_frm_4)$; stroke: $(stroke_frm_4)$; opacity: $(opacity_frm_4)$;"><svg><rect width=$(width_frm_4)$ height=$(height_frm_4)$ rx=$(rx_frm_4)$/></svg></span>
+<span style="position: absolute; $(lr_frm_5)$:$(hor_frm_5)$%; $(tb_frm_5)$:$(ver_frm_5)$%; transform:rotate($(rotate_frm_5)$deg); fill: $(fill_frm_5)$; stroke-width: $(stroke-width_frm_5)$; stroke: $(stroke_frm_5)$; opacity: $(opacity_frm_5)$;"><svg><rect width=$(width_frm_5)$ height=$(height_frm_5)$ rx=$(rx_frm_5)$/></svg></span>
+<span style="position: absolute; $(lr_frm_6)$:$(hor_frm_6)$%; $(tb_frm_6)$:$(ver_frm_6)$%; transform:rotate($(rotate_frm_6)$deg); fill: $(fill_frm_6)$; stroke-width: $(stroke-width_frm_6)$; stroke: $(stroke_frm_6)$; opacity: $(opacity_frm_6)$;"><svg><rect width=$(width_frm_6)$ height=$(height_frm_6)$ rx=$(rx_frm_6)$/></svg></span>
+<span style="position: absolute; $(lr_frm_7)$:$(hor_frm_7)$%; $(tb_frm_7)$:$(ver_frm_7)$%; transform:rotate($(rotate_frm_7)$deg); fill: $(fill_frm_7)$; stroke-width: $(stroke-width_frm_7)$; stroke: $(stroke_frm_7)$; opacity: $(opacity_frm_7)$;"><svg><rect width=$(width_frm_7)$ height=$(height_frm_7)$ rx=$(rx_frm_7)$/></svg></span>
+<span style="position: absolute; $(lr_frm_8)$:$(hor_frm_8)$%; $(tb_frm_8)$:$(ver_frm_8)$%; transform:rotate($(rotate_frm_8)$deg); fill: $(fill_frm_8)$; stroke-width: $(stroke-width_frm_8)$; stroke: $(stroke_frm_8)$; opacity: $(opacity_frm_8)$;"><svg><rect width=$(width_frm_8)$ height=$(height_frm_8)$ rx=$(rx_frm_8)$/></svg></span>
+<span style="position: absolute; $(lr_frm_9)$:$(hor_frm_9)$%; $(tb_frm_9)$:$(ver_frm_9)$%; transform:rotate($(rotate_frm_9)$deg); fill: $(fill_frm_9)$; stroke-width: $(stroke-width_frm_9)$; stroke: $(stroke_frm_9)$; opacity: $(opacity_frm_9)$;"><svg><rect width=$(width_frm_9)$ height=$(height_frm_9)$ rx=$(rx_frm_9)$/></svg></span>
+<span style="position: absolute; $(lr_frm_10)$:$(hor_frm_10)$%; $(tb_frm_10)$:$(ver_frm_10)$%; transform:rotate($(rotate_frm_10)$deg); fill: $(fill_frm_10)$; stroke-width: $(stroke-width_frm_10)$; stroke: $(stroke_frm_10)$; opacity: $(opacity_frm_10)$;"><svg><rect width=$(width_frm_10)$ height=$(height_frm_10)$ rx=$(rx_frm_10)$/></svg></span>
+
+      
+<span style="position: absolute; $(lr_1)$:$(hor_1)$%; $(tb_1)$:$(ver_1)$%; zoom:$(zoom_1)$%; transform:rotate($(rotate_1)$deg);">$(txt_1)$</span>
+<span style="position: absolute; $(lr_2)$:$(hor_2)$%; $(tb_2)$:$(ver_2)$%; zoom:$(zoom_2)$%; transform:rotate($(rotate_2)$deg);">$(txt_2)$</span>
+<span style="position: absolute; $(lr_3)$:$(hor_3)$%; $(tb_3)$:$(ver_3)$%; zoom:$(zoom_3)$%; transform:rotate($(rotate_3)$deg);">$(txt_3)$</span>
+<span style="position: absolute; $(lr_4)$:$(hor_4)$%; $(tb_4)$:$(ver_4)$%; zoom:$(zoom_4)$%; transform:rotate($(rotate_4)$deg);">$(txt_4)$</span>
+<span style="position: absolute; $(lr_5)$:$(hor_5)$%; $(tb_5)$:$(ver_5)$%; zoom:$(zoom_5)$%; transform:rotate($(rotate_5)$deg);">$(txt_5)$</span>
+<span style="position: absolute; $(lr_6)$:$(hor_6)$%; $(tb_6)$:$(ver_6)$%; zoom:$(zoom_6)$%; transform:rotate($(rotate_6)$deg);">$(txt_6)$</span>
+<span style="position: absolute; $(lr_7)$:$(hor_7)$%; $(tb_7)$:$(ver_7)$%; zoom:$(zoom_7)$%; transform:rotate($(rotate_7)$deg);">$(txt_7)$</span>
+<span style="position: absolute; $(lr_8)$:$(hor_8)$%; $(tb_8)$:$(ver_8)$%; zoom:$(zoom_8)$%; transform:rotate($(rotate_8)$deg);">$(txt_8)$</span>
+<span style="position: absolute; $(lr_9)$:$(hor_9)$%; $(tb_9)$:$(ver_9)$%; zoom:$(zoom_9)$%; transform:rotate($(rotate_9)$deg);">$(txt_9)$</span>
+<span style="position: absolute; $(lr_10)$:$(hor_10)$%; $(tb_10)$:$(ver_10)$%; zoom:$(zoom_10)$%; transform:rotate($(rotate_10)$deg);">$(txt_10)$</span>
+<span style="position: absolute; $(lr_11)$:$(hor_11)$%; $(tb_11)$:$(ver_11)$%; zoom:$(zoom_11)$%; transform:rotate($(rotate_11)$deg);">$(txt_11)$</span>
+<span style="position: absolute; $(lr_12)$:$(hor_12)$%; $(tb_12)$:$(ver_12)$%; zoom:$(zoom_12)$%; transform:rotate($(rotate_12)$deg);">$(txt_12)$</span>
+<span style="position: absolute; $(lr_13)$:$(hor_13)$%; $(tb_13)$:$(ver_13)$%; zoom:$(zoom_13)$%; transform:rotate($(rotate_13)$deg);">$(txt_13)$</span>
+<span style="position: absolute; $(lr_14)$:$(hor_14)$%; $(tb_14)$:$(ver_14)$%; zoom:$(zoom_14)$%; transform:rotate($(rotate_14)$deg);">$(txt_14)$</span>
+<span style="position: absolute; $(lr_15)$:$(hor_15)$%; $(tb_15)$:$(ver_15)$%; zoom:$(zoom_15)$%; transform:rotate($(rotate_15)$deg);">$(txt_15)$</span>
+<span style="position: absolute; $(lr_16)$:$(hor_16)$%; $(tb_16)$:$(ver_16)$%; zoom:$(zoom_16)$%; transform:rotate($(rotate_16)$deg);">$(txt_16)$</span>
+<span style="position: absolute; $(lr_17)$:$(hor_17)$%; $(tb_17)$:$(ver_17)$%; zoom:$(zoom_17)$%; transform:rotate($(rotate_17)$deg);">$(txt_17)$</span>
+<span style="position: absolute; $(lr_18)$:$(hor_18)$%; $(tb_18)$:$(ver_18)$%; zoom:$(zoom_18)$%; transform:rotate($(rotate_18)$deg);">$(txt_18)$</span>
+<span style="position: absolute; $(lr_19)$:$(hor_19)$%; $(tb_19)$:$(ver_19)$%; zoom:$(zoom_19)$%; transform:rotate($(rotate_19)$deg);">$(txt_19)$</span>
+<span style="position: absolute; $(lr_20)$:$(hor_20)$%; $(tb_20)$:$(ver_20)$%; zoom:$(zoom_20)$%; transform:rotate($(rotate_20)$deg);">$(txt_20)$</span>   
+
+</div>       
+\end
+
+
+!! ''Target:''
+<$edit-text tiddler="_my/temp/target_name" tag="input" default=''/>
+<$button> 
+<$action-setfield $tiddler={{_my/temp/target_name}} text="<$macrocall $name='preview' 
+bckgrnd_txt={{_my/temp/background/text}} height={{_my/temp/height}} width={{_my/temp/width}}
+lr_1={{_my/temp/1/lr}} hor_1={{_my/temp/1/hor}} tb_1={{_my/temp/1/tb}} ver_1={{_my/temp/1/ver}} zoom_1={{_my/temp/1/zoom}} rotate_1={{_my/temp/1/rotate}} txt_1={{_my/temp/1/text}} 
+lr_2={{_my/temp/2/lr}} hor_2={{_my/temp/2/hor}} tb_2={{_my/temp/2/tb}} ver_2={{_my/temp/2/ver}} zoom_2={{_my/temp/2/zoom}} rotate_2={{_my/temp/2/rotate}} txt_2={{_my/temp/2/text}} 
+lr_3={{_my/temp/3/lr}} hor_3={{_my/temp/3/hor}} tb_3={{_my/temp/3/tb}} ver_3={{_my/temp/3/ver}} zoom_3={{_my/temp/3/zoom}} rotate_3={{_my/temp/3/rotate}} txt_3={{_my/temp/3/text}} 
+lr_4={{_my/temp/4/lr}} hor_4={{_my/temp/4/hor}} tb_4={{_my/temp/4/tb}} ver_4={{_my/temp/4/ver}} zoom_4={{_my/temp/4/zoom}} rotate_4={{_my/temp/4/rotate}} txt_4={{_my/temp/4/text}} 
+lr_5={{_my/temp/5/lr}} hor_5={{_my/temp/5/hor}} tb_5={{_my/temp/5/tb}} ver_5={{_my/temp/5/ver}} zoom_5={{_my/temp/5/zoom}} rotate_5={{_my/temp/5/rotate}} txt_5={{_my/temp/5/text}} 
+lr_6={{_my/temp/6/lr}} hor_6={{_my/temp/6/hor}} tb_6={{_my/temp/6/tb}} ver_6={{_my/temp/6/ver}} zoom_6={{_my/temp/6/zoom}} rotate_6={{_my/temp/6/rotate}} txt_6={{_my/temp/6/text}} 
+lr_7={{_my/temp/7/lr}} hor_7={{_my/temp/7/hor}} tb_7={{_my/temp/7/tb}} ver_7={{_my/temp/7/ver}} zoom_7={{_my/temp/7/zoom}} rotate_7={{_my/temp/7/rotate}} txt_7={{_my/temp/7/text}} 
+lr_8={{_my/temp/8/lr}} hor_8={{_my/temp/8/hor}} tb_8={{_my/temp/8/tb}} ver_8={{_my/temp/8/ver}} zoom_8={{_my/temp/8/zoom}} rotate_8={{_my/temp/8/rotate}} txt_8={{_my/temp/8/text}} 
+lr_9={{_my/temp/9/lr}} hor_9={{_my/temp/9/hor}} tb_9={{_my/temp/9/tb}} ver_9={{_my/temp/9/ver}} zoom_9={{_my/temp/9/zoom}} rotate_9={{_my/temp/9/rotate}} txt_9={{_my/temp/9/text}} 
+lr_10={{_my/temp/10/lr}} hor_10={{_my/temp/10/hor}} tb_10={{_my/temp/10/tb}} ver_10={{_my/temp/10/ver}} zoom_10={{_my/temp/10/zoom}} rotate_10={{_my/temp/10/rotate}} txt_10={{_my/temp/10/text}} 
+lr_11={{_my/temp/11/lr}} hor_11={{_my/temp/11/hor}} tb_11={{_my/temp/11/tb}} ver_11={{_my/temp/11/ver}} zoom_11={{_my/temp/11/zoom}} rotate_11={{_my/temp/11/rotate}} txt_11={{_my/temp/11/text}} 
+lr_12={{_my/temp/12/lr}} hor_12={{_my/temp/12/hor}} tb_12={{_my/temp/12/tb}} ver_12={{_my/temp/12/ver}} zoom_12={{_my/temp/12/zoom}} rotate_12={{_my/temp/12/rotate}} txt_12={{_my/temp/12/text}} 
+lr_13={{_my/temp/13/lr}} hor_13={{_my/temp/13/hor}} tb_13={{_my/temp/13/tb}} ver_13={{_my/temp/13/ver}} zoom_13={{_my/temp/13/zoom}} rotate_13={{_my/temp/13/rotate}} txt_13={{_my/temp/13/text}} 
+lr_14={{_my/temp/14/lr}} hor_14={{_my/temp/14/hor}} tb_14={{_my/temp/14/tb}} ver_14={{_my/temp/14/ver}} zoom_14={{_my/temp/14/zoom}} rotate_14={{_my/temp/14/rotate}} txt_14={{_my/temp/14/text}} 
+lr_15={{_my/temp/15/lr}} hor_15={{_my/temp/15/hor}} tb_15={{_my/temp/15/tb}} ver_15={{_my/temp/15/ver}} zoom_15={{_my/temp/15/zoom}} rotate_15={{_my/temp/15/rotate}} txt_15={{_my/temp/15/text}} 
+lr_16={{_my/temp/16/lr}} hor_16={{_my/temp/16/hor}} tb_16={{_my/temp/16/tb}} ver_16={{_my/temp/16/ver}} zoom_16={{_my/temp/16/zoom}} rotate_16={{_my/temp/16/rotate}} txt_16={{_my/temp/16/text}} 
+lr_17={{_my/temp/17/lr}} hor_17={{_my/temp/17/hor}} tb_17={{_my/temp/17/tb}} ver_17={{_my/temp/17/ver}} zoom_17={{_my/temp/17/zoom}} rotate_17={{_my/temp/17/rotate}} txt_17={{_my/temp/17/text}} 
+lr_18={{_my/temp/18/lr}} hor_18={{_my/temp/18/hor}} tb_18={{_my/temp/18/tb}} ver_18={{_my/temp/18/ver}} zoom_18={{_my/temp/18/zoom}} rotate_18={{_my/temp/18/rotate}} txt_18={{_my/temp/18/text}} 
+lr_19={{_my/temp/19/lr}} hor_19={{_my/temp/19/hor}} tb_19={{_my/temp/19/tb}} ver_19={{_my/temp/19/ver}} zoom_19={{_my/temp/19/zoom}} rotate_19={{_my/temp/19/rotate}} txt_19={{_my/temp/19/text}} 
+lr_20={{_my/temp/20/lr}} hor_20={{_my/temp/20/hor}} tb_20={{_my/temp/20/tb}} ver_20={{_my/temp/20/ver}} zoom_20={{_my/temp/20/zoom}} rotate_20={{_my/temp/20/rotate}} txt_20={{_my/temp/20/text}} 
+lr_arr_1={{_my/temp/arrow/1/lr}} hor_arr_1={{_my/temp/arrow/1/hor}} tb_arr_1={{_my/temp/arrow/1/tb}} ver_arr_1={{_my/temp/arrow/1/ver}} rotate_arr_1={{_my/temp/arrow/1/rotate}} len_arr_1={{_my/temp/arrow/1/len}} col_arr_1={{_my/temp/arrow/1/col}} width_arr_1={{_my/temp/arrow/1/width}} marker_arr_1={{_my/temp/arrow/1/marker}} 
+lr_arr_2={{_my/temp/arrow/2/lr}} hor_arr_2={{_my/temp/arrow/2/hor}} tb_arr_2={{_my/temp/arrow/2/tb}} ver_arr_2={{_my/temp/arrow/2/ver}} rotate_arr_2={{_my/temp/arrow/2/rotate}} len_arr_2={{_my/temp/arrow/2/len}} col_arr_2={{_my/temp/arrow/2/col}} width_arr_2={{_my/temp/arrow/2/width}} marker_arr_2={{_my/temp/arrow/2/marker}}
+lr_arr_3={{_my/temp/arrow/3/lr}} hor_arr_3={{_my/temp/arrow/3/hor}} tb_arr_3={{_my/temp/arrow/3/tb}} ver_arr_3={{_my/temp/arrow/3/ver}} rotate_arr_3={{_my/temp/arrow/3/rotate}} len_arr_3={{_my/temp/arrow/3/len}} col_arr_3={{_my/temp/arrow/3/col}} width_arr_3={{_my/temp/arrow/3/width}} marker_arr_3={{_my/temp/arrow/3/marker}} 
+lr_arr_4={{_my/temp/arrow/4/lr}} hor_arr_4={{_my/temp/arrow/4/hor}} tb_arr_4={{_my/temp/arrow/4/tb}} ver_arr_4={{_my/temp/arrow/4/ver}} rotate_arr_4={{_my/temp/arrow/4/rotate}} len_arr_4={{_my/temp/arrow/4/len}} col_arr_4={{_my/temp/arrow/4/col}} width_arr_4={{_my/temp/arrow/4/width}} marker_arr_4={{_my/temp/arrow/4/marker}} 
+lr_arr_5={{_my/temp/arrow/5/lr}} hor_arr_5={{_my/temp/arrow/5/hor}} tb_arr_5={{_my/temp/arrow/5/tb}} ver_arr_5={{_my/temp/arrow/5/ver}} rotate_arr_5={{_my/temp/arrow/5/rotate}} len_arr_5={{_my/temp/arrow/5/len}} col_arr_5={{_my/temp/arrow/5/col}} width_arr_5={{_my/temp/arrow/5/width}} marker_arr_5={{_my/temp/arrow/5/marker}} 
+lr_arr_6={{_my/temp/arrow/6/lr}} hor_arr_6={{_my/temp/arrow/6/hor}} tb_arr_6={{_my/temp/arrow/6/tb}} ver_arr_6={{_my/temp/arrow/6/ver}} rotate_arr_6={{_my/temp/arrow/6/rotate}} len_arr_6={{_my/temp/arrow/6/len}} col_arr_6={{_my/temp/arrow/6/col}} width_arr_6={{_my/temp/arrow/6/width}} marker_arr_6={{_my/temp/arrow/6/marker}} 
+lr_arr_7={{_my/temp/arrow/7/lr}} hor_arr_7={{_my/temp/arrow/7/hor}} tb_arr_7={{_my/temp/arrow/7/tb}} ver_arr_7={{_my/temp/arrow/7/ver}} rotate_arr_7={{_my/temp/arrow/7/rotate}} len_arr_7={{_my/temp/arrow/7/len}} col_arr_7={{_my/temp/arrow/7/col}} width_arr_7={{_my/temp/arrow/7/width}} marker_arr_7={{_my/temp/arrow/7/marker}} 
+lr_arr_8={{_my/temp/arrow/8/lr}} hor_arr_8={{_my/temp/arrow/8/hor}} tb_arr_8={{_my/temp/arrow/8/tb}} ver_arr_8={{_my/temp/arrow/8/ver}} rotate_arr_8={{_my/temp/arrow/8/rotate}} len_arr_8={{_my/temp/arrow/8/len}} col_arr_8={{_my/temp/arrow/8/col}} width_arr_8={{_my/temp/arrow/8/width}} marker_arr_8={{_my/temp/arrow/8/marker}} 
+lr_arr_9={{_my/temp/arrow/9/lr}} hor_arr_9={{_my/temp/arrow/9/hor}} tb_arr_9={{_my/temp/arrow/9/tb}} ver_arr_9={{_my/temp/arrow/9/ver}} rotate_arr_9={{_my/temp/arrow/9/rotate}} len_arr_9={{_my/temp/arrow/9/len}} col_arr_9={{_my/temp/arrow/9/col}} width_arr_9={{_my/temp/arrow/9/width}} marker_arr_9={{_my/temp/arrow/9/marker}} 
+lr_arr_10={{_my/temp/arrow/10/lr}} hor_arr_10={{_my/temp/arrow/10/hor}} tb_arr_10={{_my/temp/arrow/10/tb}} ver_arr_10={{_my/temp/arrow/10/ver}} rotate_arr_10={{_my/temp/arrow/10/rotate}} len_arr_10={{_my/temp/arrow/10/len}} col_arr_10={{_my/temp/arrow/10/col}} width_arr_10={{_my/temp/arrow/10/width}} marker_arr_10={{_my/temp/arrow/10/marker}} 
+lr_frm_1={{_my/temp/frame/1/lr}} hor_frm_1={{_my/temp/frame/1/hor}} tb_frm_1={{_my/temp/frame/1/tb}} ver_frm_1={{_my/temp/frame/1/ver}} rotate_frm_1={{_my/temp/frame/1/rotate}} width_frm_1={{_my/temp/frame/1/width}} height_frm_1={{_my/temp/frame/1/height}} rx_frm_1={{_my/temp/frame/1/rx}} fill_frm_1={{_my/temp/frame/1/fill}} stroke-width_frm_1={{_my/temp/frame/1/stroke-width}} stroke_frm_1={{_my/temp/frame/1/stroke}} opacity_frm_1={{_my/temp/frame/1/opacity}}
+lr_frm_2={{_my/temp/frame/2/lr}} hor_frm_2={{_my/temp/frame/2/hor}} tb_frm_2={{_my/temp/frame/2/tb}} ver_frm_2={{_my/temp/frame/2/ver}} rotate_frm_2={{_my/temp/frame/2/rotate}} width_frm_2={{_my/temp/frame/2/width}} height_frm_2={{_my/temp/frame/2/height}} rx_frm_2={{_my/temp/frame/2/rx}} fill_frm_2={{_my/temp/frame/2/fill}} stroke-width_frm_2={{_my/temp/frame/2/stroke-width}} stroke_frm_2={{_my/temp/frame/2/stroke}} opacity_frm_2={{_my/temp/frame/2/opacity}}
+lr_frm_3={{_my/temp/frame/3/lr}} hor_frm_3={{_my/temp/frame/3/hor}} tb_frm_3={{_my/temp/frame/3/tb}} ver_frm_3={{_my/temp/frame/3/ver}} rotate_frm_3={{_my/temp/frame/3/rotate}} width_frm_3={{_my/temp/frame/3/width}} height_frm_3={{_my/temp/frame/3/height}} rx_frm_3={{_my/temp/frame/3/rx}} fill_frm_3={{_my/temp/frame/3/fill}} stroke-width_frm_3={{_my/temp/frame/3/stroke-width}} stroke_frm_3={{_my/temp/frame/3/stroke}} opacity_frm_3={{_my/temp/frame/3/opacity}}
+lr_frm_4={{_my/temp/frame/4/lr}} hor_frm_4={{_my/temp/frame/4/hor}} tb_frm_4={{_my/temp/frame/4/tb}} ver_frm_4={{_my/temp/frame/4/ver}} rotate_frm_4={{_my/temp/frame/4/rotate}} width_frm_4={{_my/temp/frame/4/width}} height_frm_4={{_my/temp/frame/4/height}} rx_frm_4={{_my/temp/frame/4/rx}} fill_frm_4={{_my/temp/frame/4/fill}} stroke-width_frm_4={{_my/temp/frame/4/stroke-width}} stroke_frm_4={{_my/temp/frame/4/stroke}} opacity_frm_4={{_my/temp/frame/4/opacity}}
+lr_frm_5={{_my/temp/frame/5/lr}} hor_frm_5={{_my/temp/frame/5/hor}} tb_frm_5={{_my/temp/frame/5/tb}} ver_frm_5={{_my/temp/frame/5/ver}} rotate_frm_5={{_my/temp/frame/5/rotate}} width_frm_5={{_my/temp/frame/5/width}} height_frm_5={{_my/temp/frame/5/height}} rx_frm_5={{_my/temp/frame/5/rx}} fill_frm_5={{_my/temp/frame/5/fill}} stroke-width_frm_5={{_my/temp/frame/5/stroke-width}} stroke_frm_5={{_my/temp/frame/5/stroke}} opacity_frm_5={{_my/temp/frame/5/opacity}}
+lr_frm_6={{_my/temp/frame/6/lr}} hor_frm_6={{_my/temp/frame/6/hor}} tb_frm_6={{_my/temp/frame/6/tb}} ver_frm_6={{_my/temp/frame/6/ver}} rotate_frm_6={{_my/temp/frame/6/rotate}} width_frm_6={{_my/temp/frame/6/width}} height_frm_6={{_my/temp/frame/6/height}} rx_frm_6={{_my/temp/frame/6/rx}} fill_frm_6={{_my/temp/frame/6/fill}} stroke-width_frm_6={{_my/temp/frame/6/stroke-width}} stroke_frm_6={{_my/temp/frame/6/stroke}} opacity_frm_6={{_my/temp/frame/6/opacity}}
+lr_frm_7={{_my/temp/frame/7/lr}} hor_frm_7={{_my/temp/frame/7/hor}} tb_frm_7={{_my/temp/frame/7/tb}} ver_frm_7={{_my/temp/frame/7/ver}} rotate_frm_7={{_my/temp/frame/7/rotate}} width_frm_7={{_my/temp/frame/7/width}} height_frm_7={{_my/temp/frame/7/height}} rx_frm_7={{_my/temp/frame/7/rx}} fill_frm_7={{_my/temp/frame/7/fill}} stroke-width_frm_7={{_my/temp/frame/7/stroke-width}} stroke_frm_7={{_my/temp/frame/7/stroke}} opacity_frm_7={{_my/temp/frame/7/opacity}}
+lr_frm_8={{_my/temp/frame/8/lr}} hor_frm_8={{_my/temp/frame/8/hor}} tb_frm_8={{_my/temp/frame/8/tb}} ver_frm_8={{_my/temp/frame/8/ver}} rotate_frm_8={{_my/temp/frame/8/rotate}} width_frm_8={{_my/temp/frame/8/width}} height_frm_8={{_my/temp/frame/8/height}} rx_frm_8={{_my/temp/frame/8/rx}} fill_frm_8={{_my/temp/frame/8/fill}} stroke-width_frm_8={{_my/temp/frame/8/stroke-width}} stroke_frm_8={{_my/temp/frame/8/stroke}} opacity_frm_8={{_my/temp/frame/8/opacity}}
+lr_frm_9={{_my/temp/frame/9/lr}} hor_frm_9={{_my/temp/frame/9/hor}} tb_frm_9={{_my/temp/frame/9/tb}} ver_frm_9={{_my/temp/frame/9/ver}} rotate_frm_9={{_my/temp/frame/9/rotate}} width_frm_9={{_my/temp/frame/9/width}} height_frm_9={{_my/temp/frame/9/height}} rx_frm_9={{_my/temp/frame/9/rx}} fill_frm_9={{_my/temp/frame/9/fill}} stroke-width_frm_9={{_my/temp/frame/9/stroke-width}} stroke_frm_9={{_my/temp/frame/9/stroke}} opacity_frm_9={{_my/temp/frame/9/opacity}}
+lr_frm_10={{_my/temp/frame/10/lr}} hor_frm_10={{_my/temp/frame/10/hor}} tb_frm_10={{_my/temp/frame/10/tb}} ver_frm_10={{_my/temp/frame/10/ver}} rotate_frm_10={{_my/temp/frame/10/rotate}} width_frm_10={{_my/temp/frame/10/width}} height_frm_10={{_my/temp/frame/10/height}} rx_frm_10={{_my/temp/frame/10/rx}} fill_frm_10={{_my/temp/frame/10/fill}} stroke-width_frm_10={{_my/temp/frame/10/stroke-width}} stroke_frm_10={{_my/temp/frame/10/stroke}} opacity_frm_10={{_my/temp/frame/10/opacity}}
+/>" />
+Edit
+</$button>
+
+
+
+
+!! ''Background:''
+
+<$edit-text tiddler="_my/temp/background/text" tag="input" default=''/>
+
+
+!! ''Size:''
+
+<$edit-text tiddler="_my/temp/width" tag="input" default='' size=3/> x <$edit-text tiddler="_my/temp/height" tag="input" default='' size=3/> px
+
+
+!! ''Wikify''
+
+<$wikify name="bckgrnd_txt" text={{_my/temp/background/text}} type="text/plain">
+<$wikify name="height" text={{_my/temp/height}} type="text/plain">
+<$wikify name="width" text={{_my/temp/width}} type="text/plain">
+
+<$wikify name="lr_1" text={{_my/temp/1/lr}} type="text/plain">
+<$wikify name="lr_2" text={{_my/temp/2/lr}} type="text/plain">
+<$wikify name="lr_3" text={{_my/temp/3/lr}} type="text/plain">
+<$wikify name="lr_4" text={{_my/temp/4/lr}} type="text/plain">
+<$wikify name="lr_5" text={{_my/temp/5/lr}} type="text/plain">
+<$wikify name="lr_6" text={{_my/temp/6/lr}} type="text/plain">
+<$wikify name="lr_7" text={{_my/temp/7/lr}} type="text/plain">
+<$wikify name="lr_8" text={{_my/temp/8/lr}} type="text/plain">
+<$wikify name="lr_9" text={{_my/temp/9/lr}} type="text/plain">
+<$wikify name="lr_10" text={{_my/temp/10/lr}} type="text/plain">
+<$wikify name="lr_11" text={{_my/temp/11/lr}} type="text/plain">
+<$wikify name="lr_12" text={{_my/temp/12/lr}} type="text/plain">
+<$wikify name="lr_13" text={{_my/temp/13/lr}} type="text/plain">
+<$wikify name="lr_14" text={{_my/temp/14/lr}} type="text/plain">
+<$wikify name="lr_15" text={{_my/temp/15/lr}} type="text/plain">
+<$wikify name="lr_16" text={{_my/temp/16/lr}} type="text/plain">
+<$wikify name="lr_17" text={{_my/temp/17/lr}} type="text/plain">
+<$wikify name="lr_18" text={{_my/temp/18/lr}} type="text/plain">
+<$wikify name="lr_19" text={{_my/temp/19/lr}} type="text/plain">
+<$wikify name="lr_20" text={{_my/temp/20/lr}} type="text/plain">
+
+<$wikify name="hor_1" text={{_my/temp/1/hor}} type="text/plain">
+<$wikify name="hor_2" text={{_my/temp/2/hor}} type="text/plain">
+<$wikify name="hor_3" text={{_my/temp/3/hor}} type="text/plain">
+<$wikify name="hor_4" text={{_my/temp/4/hor}} type="text/plain">
+<$wikify name="hor_5" text={{_my/temp/5/hor}} type="text/plain">
+<$wikify name="hor_6" text={{_my/temp/6/hor}} type="text/plain">
+<$wikify name="hor_7" text={{_my/temp/7/hor}} type="text/plain">
+<$wikify name="hor_8" text={{_my/temp/8/hor}} type="text/plain">
+<$wikify name="hor_9" text={{_my/temp/9/hor}} type="text/plain">
+<$wikify name="hor_10" text={{_my/temp/10/hor}} type="text/plain">
+<$wikify name="hor_11" text={{_my/temp/11/hor}} type="text/plain">
+<$wikify name="hor_12" text={{_my/temp/12/hor}} type="text/plain">
+<$wikify name="hor_13" text={{_my/temp/13/hor}} type="text/plain">
+<$wikify name="hor_14" text={{_my/temp/14/hor}} type="text/plain">
+<$wikify name="hor_15" text={{_my/temp/15/hor}} type="text/plain">
+<$wikify name="hor_16" text={{_my/temp/16/hor}} type="text/plain">
+<$wikify name="hor_17" text={{_my/temp/17/hor}} type="text/plain">
+<$wikify name="hor_18" text={{_my/temp/18/hor}} type="text/plain">
+<$wikify name="hor_19" text={{_my/temp/19/hor}} type="text/plain">
+<$wikify name="hor_20" text={{_my/temp/20/hor}} type="text/plain">
+
+<$wikify name="tb_1" text={{_my/temp/1/tb}} type="text/plain">
+<$wikify name="tb_2" text={{_my/temp/2/tb}} type="text/plain">
+<$wikify name="tb_3" text={{_my/temp/3/tb}} type="text/plain">
+<$wikify name="tb_4" text={{_my/temp/4/tb}} type="text/plain">
+<$wikify name="tb_5" text={{_my/temp/5/tb}} type="text/plain">
+<$wikify name="tb_6" text={{_my/temp/6/tb}} type="text/plain">
+<$wikify name="tb_7" text={{_my/temp/7/tb}} type="text/plain">
+<$wikify name="tb_8" text={{_my/temp/8/tb}} type="text/plain">
+<$wikify name="tb_9" text={{_my/temp/9/tb}} type="text/plain">
+<$wikify name="tb_10" text={{_my/temp/10/tb}} type="text/plain">
+<$wikify name="tb_11" text={{_my/temp/11/tb}} type="text/plain">
+<$wikify name="tb_12" text={{_my/temp/12/tb}} type="text/plain">
+<$wikify name="tb_13" text={{_my/temp/13/tb}} type="text/plain">
+<$wikify name="tb_14" text={{_my/temp/14/tb}} type="text/plain">
+<$wikify name="tb_15" text={{_my/temp/15/tb}} type="text/plain">
+<$wikify name="tb_16" text={{_my/temp/16/tb}} type="text/plain">
+<$wikify name="tb_17" text={{_my/temp/17/tb}} type="text/plain">
+<$wikify name="tb_18" text={{_my/temp/18/tb}} type="text/plain">
+<$wikify name="tb_19" text={{_my/temp/19/tb}} type="text/plain">
+<$wikify name="tb_20" text={{_my/temp/20/tb}} type="text/plain">
+
+<$wikify name="ver_1" text={{_my/temp/1/ver}} type="text/plain">
+<$wikify name="ver_2" text={{_my/temp/2/ver}} type="text/plain">
+<$wikify name="ver_3" text={{_my/temp/3/ver}} type="text/plain">
+<$wikify name="ver_4" text={{_my/temp/4/ver}} type="text/plain">
+<$wikify name="ver_5" text={{_my/temp/5/ver}} type="text/plain">
+<$wikify name="ver_6" text={{_my/temp/6/ver}} type="text/plain">
+<$wikify name="ver_7" text={{_my/temp/7/ver}} type="text/plain">
+<$wikify name="ver_8" text={{_my/temp/8/ver}} type="text/plain">
+<$wikify name="ver_9" text={{_my/temp/9/ver}} type="text/plain">
+<$wikify name="ver_10" text={{_my/temp/10/ver}} type="text/plain">
+<$wikify name="ver_11" text={{_my/temp/11/ver}} type="text/plain">
+<$wikify name="ver_12" text={{_my/temp/12/ver}} type="text/plain">
+<$wikify name="ver_13" text={{_my/temp/13/ver}} type="text/plain">
+<$wikify name="ver_14" text={{_my/temp/14/ver}} type="text/plain">
+<$wikify name="ver_15" text={{_my/temp/15/ver}} type="text/plain">
+<$wikify name="ver_16" text={{_my/temp/16/ver}} type="text/plain">
+<$wikify name="ver_17" text={{_my/temp/17/ver}} type="text/plain">
+<$wikify name="ver_18" text={{_my/temp/18/ver}} type="text/plain">
+<$wikify name="ver_19" text={{_my/temp/19/ver}} type="text/plain">
+<$wikify name="ver_20" text={{_my/temp/20/ver}} type="text/plain">
+
+<$wikify name="zoom_1" text={{_my/temp/1/zoom}} type="text/plain">
+<$wikify name="zoom_2" text={{_my/temp/2/zoom}} type="text/plain">
+<$wikify name="zoom_3" text={{_my/temp/3/zoom}} type="text/plain">
+<$wikify name="zoom_4" text={{_my/temp/4/zoom}} type="text/plain">
+<$wikify name="zoom_5" text={{_my/temp/5/zoom}} type="text/plain">
+<$wikify name="zoom_6" text={{_my/temp/6/zoom}} type="text/plain">
+<$wikify name="zoom_7" text={{_my/temp/7/zoom}} type="text/plain">
+<$wikify name="zoom_8" text={{_my/temp/8/zoom}} type="text/plain">
+<$wikify name="zoom_9" text={{_my/temp/9/zoom}} type="text/plain">
+<$wikify name="zoom_10" text={{_my/temp/10/zoom}} type="text/plain">
+<$wikify name="zoom_11" text={{_my/temp/11/zoom}} type="text/plain">
+<$wikify name="zoom_12" text={{_my/temp/12/zoom}} type="text/plain">
+<$wikify name="zoom_13" text={{_my/temp/13/zoom}} type="text/plain">
+<$wikify name="zoom_14" text={{_my/temp/14/zoom}} type="text/plain">
+<$wikify name="zoom_15" text={{_my/temp/15/zoom}} type="text/plain">
+<$wikify name="zoom_16" text={{_my/temp/16/zoom}} type="text/plain">
+<$wikify name="zoom_17" text={{_my/temp/17/zoom}} type="text/plain">
+<$wikify name="zoom_18" text={{_my/temp/18/zoom}} type="text/plain">
+<$wikify name="zoom_19" text={{_my/temp/19/zoom}} type="text/plain">
+<$wikify name="zoom_20" text={{_my/temp/20/zoom}} type="text/plain">
+
+<$wikify name="rotate_1" text={{_my/temp/1/rotate}} type="text/plain">
+<$wikify name="rotate_2" text={{_my/temp/2/rotate}} type="text/plain">
+<$wikify name="rotate_3" text={{_my/temp/3/rotate}} type="text/plain">
+<$wikify name="rotate_4" text={{_my/temp/4/rotate}} type="text/plain">
+<$wikify name="rotate_5" text={{_my/temp/5/rotate}} type="text/plain">
+<$wikify name="rotate_6" text={{_my/temp/6/rotate}} type="text/plain">
+<$wikify name="rotate_7" text={{_my/temp/7/rotate}} type="text/plain">
+<$wikify name="rotate_8" text={{_my/temp/8/rotate}} type="text/plain">
+<$wikify name="rotate_9" text={{_my/temp/9/rotate}} type="text/plain">
+<$wikify name="rotate_10" text={{_my/temp/10/rotate}} type="text/plain">
+<$wikify name="rotate_11" text={{_my/temp/11/rotate}} type="text/plain">
+<$wikify name="rotate_12" text={{_my/temp/12/rotate}} type="text/plain">
+<$wikify name="rotate_13" text={{_my/temp/13/rotate}} type="text/plain">
+<$wikify name="rotate_14" text={{_my/temp/14/rotate}} type="text/plain">
+<$wikify name="rotate_15" text={{_my/temp/15/rotate}} type="text/plain">
+<$wikify name="rotate_16" text={{_my/temp/16/rotate}} type="text/plain">
+<$wikify name="rotate_17" text={{_my/temp/17/rotate}} type="text/plain">
+<$wikify name="rotate_18" text={{_my/temp/18/rotate}} type="text/plain">
+<$wikify name="rotate_19" text={{_my/temp/19/rotate}} type="text/plain">
+<$wikify name="rotate_20" text={{_my/temp/20/rotate}} type="text/plain">
+
+<$wikify name="txt_1" text={{_my/temp/1/text}} type="text/plain">
+<$wikify name="txt_2" text={{_my/temp/2/text}} type="text/plain">
+<$wikify name="txt_3" text={{_my/temp/3/text}} type="text/plain">
+<$wikify name="txt_4" text={{_my/temp/4/text}} type="text/plain">
+<$wikify name="txt_5" text={{_my/temp/5/text}} type="text/plain">
+<$wikify name="txt_6" text={{_my/temp/6/text}} type="text/plain">
+<$wikify name="txt_7" text={{_my/temp/7/text}} type="text/plain">
+<$wikify name="txt_8" text={{_my/temp/8/text}} type="text/plain">
+<$wikify name="txt_9" text={{_my/temp/9/text}} type="text/plain">
+<$wikify name="txt_10" text={{_my/temp/10/text}} type="text/plain">
+<$wikify name="txt_11" text={{_my/temp/11/text}} type="text/plain">
+<$wikify name="txt_12" text={{_my/temp/12/text}} type="text/plain">
+<$wikify name="txt_13" text={{_my/temp/13/text}} type="text/plain">
+<$wikify name="txt_14" text={{_my/temp/14/text}} type="text/plain">
+<$wikify name="txt_15" text={{_my/temp/15/text}} type="text/plain">
+<$wikify name="txt_16" text={{_my/temp/16/text}} type="text/plain">
+<$wikify name="txt_17" text={{_my/temp/17/text}} type="text/plain">
+<$wikify name="txt_18" text={{_my/temp/18/text}} type="text/plain">
+<$wikify name="txt_19" text={{_my/temp/19/text}} type="text/plain">
+<$wikify name="txt_20" text={{_my/temp/20/text}} type="text/plain">
+
+
+<$wikify name="lr_arr_1" text={{_my/temp/arrow/1/lr}} type="text/plain">
+<$wikify name="lr_arr_2" text={{_my/temp/arrow/2/lr}} type="text/plain">
+<$wikify name="lr_arr_3" text={{_my/temp/arrow/3/lr}} type="text/plain">
+<$wikify name="lr_arr_4" text={{_my/temp/arrow/4/lr}} type="text/plain">
+<$wikify name="lr_arr_5" text={{_my/temp/arrow/5/lr}} type="text/plain">
+<$wikify name="lr_arr_6" text={{_my/temp/arrow/6/lr}} type="text/plain">
+<$wikify name="lr_arr_7" text={{_my/temp/arrow/7/lr}} type="text/plain">
+<$wikify name="lr_arr_8" text={{_my/temp/arrow/8/lr}} type="text/plain">
+<$wikify name="lr_arr_9" text={{_my/temp/arrow/9/lr}} type="text/plain">
+<$wikify name="lr_arr_10" text={{_my/temp/arrow/10/lr}} type="text/plain">
+
+<$wikify name="hor_arr_1" text={{_my/temp/arrow/1/hor}} type="text/plain">
+<$wikify name="hor_arr_2" text={{_my/temp/arrow/2/hor}} type="text/plain">
+<$wikify name="hor_arr_3" text={{_my/temp/arrow/3/hor}} type="text/plain">
+<$wikify name="hor_arr_4" text={{_my/temp/arrow/4/hor}} type="text/plain">
+<$wikify name="hor_arr_5" text={{_my/temp/arrow/5/hor}} type="text/plain">
+<$wikify name="hor_arr_6" text={{_my/temp/arrow/6/hor}} type="text/plain">
+<$wikify name="hor_arr_7" text={{_my/temp/arrow/7/hor}} type="text/plain">
+<$wikify name="hor_arr_8" text={{_my/temp/arrow/8/hor}} type="text/plain">
+<$wikify name="hor_arr_9" text={{_my/temp/arrow/9/hor}} type="text/plain">
+<$wikify name="hor_arr_10" text={{_my/temp/arrow/10/hor}} type="text/plain">
+
+<$wikify name="tb_arr_1" text={{_my/temp/arrow/1/tb}} type="text/plain">
+<$wikify name="tb_arr_2" text={{_my/temp/arrow/2/tb}} type="text/plain">
+<$wikify name="tb_arr_3" text={{_my/temp/arrow/3/tb}} type="text/plain">
+<$wikify name="tb_arr_4" text={{_my/temp/arrow/4/tb}} type="text/plain">
+<$wikify name="tb_arr_5" text={{_my/temp/arrow/5/tb}} type="text/plain">
+<$wikify name="tb_arr_6" text={{_my/temp/arrow/6/tb}} type="text/plain">
+<$wikify name="tb_arr_7" text={{_my/temp/arrow/7/tb}} type="text/plain">
+<$wikify name="tb_arr_8" text={{_my/temp/arrow/8/tb}} type="text/plain">
+<$wikify name="tb_arr_9" text={{_my/temp/arrow/9/tb}} type="text/plain">
+<$wikify name="tb_arr_10" text={{_my/temp/arrow/10/tb}} type="text/plain">
+
+<$wikify name="ver_arr_1" text={{_my/temp/arrow/1/ver}} type="text/plain">
+<$wikify name="ver_arr_2" text={{_my/temp/arrow/2/ver}} type="text/plain">
+<$wikify name="ver_arr_3" text={{_my/temp/arrow/3/ver}} type="text/plain">
+<$wikify name="ver_arr_4" text={{_my/temp/arrow/4/ver}} type="text/plain">
+<$wikify name="ver_arr_5" text={{_my/temp/arrow/5/ver}} type="text/plain">
+<$wikify name="ver_arr_6" text={{_my/temp/arrow/6/ver}} type="text/plain">
+<$wikify name="ver_arr_7" text={{_my/temp/arrow/7/ver}} type="text/plain">
+<$wikify name="ver_arr_8" text={{_my/temp/arrow/8/ver}} type="text/plain">
+<$wikify name="ver_arr_9" text={{_my/temp/arrow/9/ver}} type="text/plain">
+<$wikify name="ver_arr_10" text={{_my/temp/arrow/10/ver}} type="text/plain">
+
+<$wikify name="rotate_arr_1" text={{_my/temp/arrow/1/rotate}} type="text/plain">
+<$wikify name="rotate_arr_2" text={{_my/temp/arrow/2/rotate}} type="text/plain">
+<$wikify name="rotate_arr_3" text={{_my/temp/arrow/3/rotate}} type="text/plain">
+<$wikify name="rotate_arr_4" text={{_my/temp/arrow/4/rotate}} type="text/plain">
+<$wikify name="rotate_arr_5" text={{_my/temp/arrow/5/rotate}} type="text/plain">
+<$wikify name="rotate_arr_6" text={{_my/temp/arrow/6/rotate}} type="text/plain">
+<$wikify name="rotate_arr_7" text={{_my/temp/arrow/7/rotate}} type="text/plain">
+<$wikify name="rotate_arr_8" text={{_my/temp/arrow/8/rotate}} type="text/plain">
+<$wikify name="rotate_arr_9" text={{_my/temp/arrow/9/rotate}} type="text/plain">
+<$wikify name="rotate_arr_10" text={{_my/temp/arrow/10/rotate}} type="text/plain">
+
+<$wikify name="len_arr_1" text={{_my/temp/arrow/1/len}} type="text/plain">
+<$wikify name="len_arr_2" text={{_my/temp/arrow/2/len}} type="text/plain">
+<$wikify name="len_arr_3" text={{_my/temp/arrow/3/len}} type="text/plain">
+<$wikify name="len_arr_4" text={{_my/temp/arrow/4/len}} type="text/plain">
+<$wikify name="len_arr_5" text={{_my/temp/arrow/5/len}} type="text/plain">
+<$wikify name="len_arr_6" text={{_my/temp/arrow/6/len}} type="text/plain">
+<$wikify name="len_arr_7" text={{_my/temp/arrow/7/len}} type="text/plain">
+<$wikify name="len_arr_8" text={{_my/temp/arrow/8/len}} type="text/plain">
+<$wikify name="len_arr_9" text={{_my/temp/arrow/9/len}} type="text/plain">
+<$wikify name="len_arr_10" text={{_my/temp/arrow/10/len}} type="text/plain">
+
+<$wikify name="col_arr_1" text={{_my/temp/arrow/1/col}} type="text/plain">
+<$wikify name="col_arr_2" text={{_my/temp/arrow/2/col}} type="text/plain">
+<$wikify name="col_arr_3" text={{_my/temp/arrow/3/col}} type="text/plain">
+<$wikify name="col_arr_4" text={{_my/temp/arrow/4/col}} type="text/plain">
+<$wikify name="col_arr_5" text={{_my/temp/arrow/5/col}} type="text/plain">
+<$wikify name="col_arr_6" text={{_my/temp/arrow/6/col}} type="text/plain">
+<$wikify name="col_arr_7" text={{_my/temp/arrow/7/col}} type="text/plain">
+<$wikify name="col_arr_8" text={{_my/temp/arrow/8/col}} type="text/plain">
+<$wikify name="col_arr_9" text={{_my/temp/arrow/9/col}} type="text/plain">
+<$wikify name="col_arr_10" text={{_my/temp/arrow/10/col}} type="text/plain">
+
+<$wikify name="width_arr_1" text={{_my/temp/arrow/1/width}} type="text/plain">
+<$wikify name="width_arr_2" text={{_my/temp/arrow/2/width}} type="text/plain">
+<$wikify name="width_arr_3" text={{_my/temp/arrow/3/width}} type="text/plain">
+<$wikify name="width_arr_4" text={{_my/temp/arrow/4/width}} type="text/plain">
+<$wikify name="width_arr_5" text={{_my/temp/arrow/5/width}} type="text/plain">
+<$wikify name="width_arr_6" text={{_my/temp/arrow/6/width}} type="text/plain">
+<$wikify name="width_arr_7" text={{_my/temp/arrow/7/width}} type="text/plain">
+<$wikify name="width_arr_8" text={{_my/temp/arrow/8/width}} type="text/plain">
+<$wikify name="width_arr_9" text={{_my/temp/arrow/9/width}} type="text/plain">
+<$wikify name="width_arr_10" text={{_my/temp/arrow/10/width}} type="text/plain">
+
+<$wikify name="marker_arr_1" text={{_my/temp/arrow/1/marker}} type="text/plain">
+<$wikify name="marker_arr_2" text={{_my/temp/arrow/2/marker}} type="text/plain">
+<$wikify name="marker_arr_3" text={{_my/temp/arrow/3/marker}} type="text/plain">
+<$wikify name="marker_arr_4" text={{_my/temp/arrow/4/marker}} type="text/plain">
+<$wikify name="marker_arr_5" text={{_my/temp/arrow/5/marker}} type="text/plain">
+<$wikify name="marker_arr_6" text={{_my/temp/arrow/6/marker}} type="text/plain">
+<$wikify name="marker_arr_7" text={{_my/temp/arrow/7/marker}} type="text/plain">
+<$wikify name="marker_arr_8" text={{_my/temp/arrow/8/marker}} type="text/plain">
+<$wikify name="marker_arr_9" text={{_my/temp/arrow/9/marker}} type="text/plain">
+<$wikify name="marker_arr_10" text={{_my/temp/arrow/10/marker}} type="text/plain">
+
+
+<$wikify name="lr_frm_1" text={{_my/temp/frame/1/lr}} type="text/plain">
+<$wikify name="lr_frm_2" text={{_my/temp/frame/2/lr}} type="text/plain">
+<$wikify name="lr_frm_3" text={{_my/temp/frame/3/lr}} type="text/plain">
+<$wikify name="lr_frm_4" text={{_my/temp/frame/4/lr}} type="text/plain">
+<$wikify name="lr_frm_5" text={{_my/temp/frame/5/lr}} type="text/plain">
+<$wikify name="lr_frm_6" text={{_my/temp/frame/6/lr}} type="text/plain">
+<$wikify name="lr_frm_7" text={{_my/temp/frame/7/lr}} type="text/plain">
+<$wikify name="lr_frm_8" text={{_my/temp/frame/8/lr}} type="text/plain">
+<$wikify name="lr_frm_9" text={{_my/temp/frame/9/lr}} type="text/plain">
+<$wikify name="lr_frm_10" text={{_my/temp/frame/10/lr}} type="text/plain">
+
+<$wikify name="hor_frm_1" text={{_my/temp/frame/1/hor}} type="text/plain">
+<$wikify name="hor_frm_2" text={{_my/temp/frame/2/hor}} type="text/plain">
+<$wikify name="hor_frm_3" text={{_my/temp/frame/3/hor}} type="text/plain">
+<$wikify name="hor_frm_4" text={{_my/temp/frame/4/hor}} type="text/plain">
+<$wikify name="hor_frm_5" text={{_my/temp/frame/5/hor}} type="text/plain">
+<$wikify name="hor_frm_6" text={{_my/temp/frame/6/hor}} type="text/plain">
+<$wikify name="hor_frm_7" text={{_my/temp/frame/7/hor}} type="text/plain">
+<$wikify name="hor_frm_8" text={{_my/temp/frame/8/hor}} type="text/plain">
+<$wikify name="hor_frm_9" text={{_my/temp/frame/9/hor}} type="text/plain">
+<$wikify name="hor_frm_10" text={{_my/temp/frame/10/hor}} type="text/plain">
+
+<$wikify name="tb_frm_1" text={{_my/temp/frame/1/tb}} type="text/plain">
+<$wikify name="tb_frm_2" text={{_my/temp/frame/2/tb}} type="text/plain">
+<$wikify name="tb_frm_3" text={{_my/temp/frame/3/tb}} type="text/plain">
+<$wikify name="tb_frm_4" text={{_my/temp/frame/4/tb}} type="text/plain">
+<$wikify name="tb_frm_5" text={{_my/temp/frame/5/tb}} type="text/plain">
+<$wikify name="tb_frm_6" text={{_my/temp/frame/6/tb}} type="text/plain">
+<$wikify name="tb_frm_7" text={{_my/temp/frame/7/tb}} type="text/plain">
+<$wikify name="tb_frm_8" text={{_my/temp/frame/8/tb}} type="text/plain">
+<$wikify name="tb_frm_9" text={{_my/temp/frame/9/tb}} type="text/plain">
+<$wikify name="tb_frm_10" text={{_my/temp/frame/10/tb}} type="text/plain">
+ 
+<$wikify name="ver_frm_1" text={{_my/temp/frame/1/ver}} type="text/plain">
+<$wikify name="ver_frm_2" text={{_my/temp/frame/2/ver}} type="text/plain">
+<$wikify name="ver_frm_3" text={{_my/temp/frame/3/ver}} type="text/plain">
+<$wikify name="ver_frm_4" text={{_my/temp/frame/4/ver}} type="text/plain">
+<$wikify name="ver_frm_5" text={{_my/temp/frame/5/ver}} type="text/plain">
+<$wikify name="ver_frm_6" text={{_my/temp/frame/6/ver}} type="text/plain">
+<$wikify name="ver_frm_7" text={{_my/temp/frame/7/ver}} type="text/plain">
+<$wikify name="ver_frm_8" text={{_my/temp/frame/8/ver}} type="text/plain">
+<$wikify name="ver_frm_9" text={{_my/temp/frame/9/ver}} type="text/plain">
+<$wikify name="ver_frm_10" text={{_my/temp/frame/10/ver}} type="text/plain">
+
+<$wikify name="rotate_frm_1" text={{_my/temp/frame/1/rotate}} type="text/plain">
+<$wikify name="rotate_frm_2" text={{_my/temp/frame/2/rotate}} type="text/plain">
+<$wikify name="rotate_frm_3" text={{_my/temp/frame/3/rotate}} type="text/plain">
+<$wikify name="rotate_frm_4" text={{_my/temp/frame/4/rotate}} type="text/plain">
+<$wikify name="rotate_frm_5" text={{_my/temp/frame/5/rotate}} type="text/plain">
+<$wikify name="rotate_frm_6" text={{_my/temp/frame/6/rotate}} type="text/plain">
+<$wikify name="rotate_frm_7" text={{_my/temp/frame/7/rotate}} type="text/plain">
+<$wikify name="rotate_frm_8" text={{_my/temp/frame/8/rotate}} type="text/plain">
+<$wikify name="rotate_frm_9" text={{_my/temp/frame/9/rotate}} type="text/plain">
+<$wikify name="rotate_frm_10" text={{_my/temp/frame/10/rotate}} type="text/plain">
+
+<$wikify name="width_frm_1" text={{_my/temp/frame/1/width}} type="text/plain">
+<$wikify name="width_frm_2" text={{_my/temp/frame/2/width}} type="text/plain">
+<$wikify name="width_frm_3" text={{_my/temp/frame/3/width}} type="text/plain">
+<$wikify name="width_frm_4" text={{_my/temp/frame/4/width}} type="text/plain">
+<$wikify name="width_frm_5" text={{_my/temp/frame/5/width}} type="text/plain">
+<$wikify name="width_frm_6" text={{_my/temp/frame/6/width}} type="text/plain">
+<$wikify name="width_frm_7" text={{_my/temp/frame/7/width}} type="text/plain">
+<$wikify name="width_frm_8" text={{_my/temp/frame/8/width}} type="text/plain">
+<$wikify name="width_frm_9" text={{_my/temp/frame/9/width}} type="text/plain">
+<$wikify name="width_frm_10" text={{_my/temp/frame/10/width}} type="text/plain">
+
+<$wikify name="height_frm_1" text={{_my/temp/frame/1/height}} type="text/plain">
+<$wikify name="height_frm_2" text={{_my/temp/frame/2/height}} type="text/plain">
+<$wikify name="height_frm_3" text={{_my/temp/frame/3/height}} type="text/plain">
+<$wikify name="height_frm_4" text={{_my/temp/frame/4/height}} type="text/plain">
+<$wikify name="height_frm_5" text={{_my/temp/frame/5/height}} type="text/plain">
+<$wikify name="height_frm_6" text={{_my/temp/frame/6/height}} type="text/plain">
+<$wikify name="height_frm_7" text={{_my/temp/frame/7/height}} type="text/plain">
+<$wikify name="height_frm_8" text={{_my/temp/frame/8/height}} type="text/plain">
+<$wikify name="height_frm_9" text={{_my/temp/frame/9/height}} type="text/plain">
+<$wikify name="height_frm_10" text={{_my/temp/frame/10/height}} type="text/plain">
+
+<$wikify name="rx_frm_1" text={{_my/temp/frame/1/rx}} type="text/plain">
+<$wikify name="rx_frm_2" text={{_my/temp/frame/2/rx}} type="text/plain">
+<$wikify name="rx_frm_3" text={{_my/temp/frame/3/rx}} type="text/plain">
+<$wikify name="rx_frm_4" text={{_my/temp/frame/4/rx}} type="text/plain">
+<$wikify name="rx_frm_5" text={{_my/temp/frame/5/rx}} type="text/plain">
+<$wikify name="rx_frm_6" text={{_my/temp/frame/6/rx}} type="text/plain">
+<$wikify name="rx_frm_7" text={{_my/temp/frame/7/rx}} type="text/plain">
+<$wikify name="rx_frm_8" text={{_my/temp/frame/8/rx}} type="text/plain">
+<$wikify name="rx_frm_9" text={{_my/temp/frame/9/rx}} type="text/plain">
+<$wikify name="rx_frm_10" text={{_my/temp/frame/10/rx}} type="text/plain">
+
+<$wikify name="fill_frm_1" text={{_my/temp/frame/1/fill}} type="text/plain">
+<$wikify name="fill_frm_2" text={{_my/temp/frame/2/fill}} type="text/plain">
+<$wikify name="fill_frm_3" text={{_my/temp/frame/3/fill}} type="text/plain">
+<$wikify name="fill_frm_4" text={{_my/temp/frame/4/fill}} type="text/plain">
+<$wikify name="fill_frm_5" text={{_my/temp/frame/5/fill}} type="text/plain">
+<$wikify name="fill_frm_6" text={{_my/temp/frame/6/fill}} type="text/plain">
+<$wikify name="fill_frm_7" text={{_my/temp/frame/7/fill}} type="text/plain">
+<$wikify name="fill_frm_8" text={{_my/temp/frame/8/fill}} type="text/plain">
+<$wikify name="fill_frm_9" text={{_my/temp/frame/9/fill}} type="text/plain">
+<$wikify name="fill_frm_10" text={{_my/temp/frame/10/fill}} type="text/plain">
+
+<$wikify name="stroke-width_frm_1" text={{_my/temp/frame/1/stroke-width}} type="text/plain">
+<$wikify name="stroke-width_frm_2" text={{_my/temp/frame/2/stroke-width}} type="text/plain">
+<$wikify name="stroke-width_frm_3" text={{_my/temp/frame/3/stroke-width}} type="text/plain">
+<$wikify name="stroke-width_frm_4" text={{_my/temp/frame/4/stroke-width}} type="text/plain">
+<$wikify name="stroke-width_frm_5" text={{_my/temp/frame/5/stroke-width}} type="text/plain">
+<$wikify name="stroke-width_frm_6" text={{_my/temp/frame/6/stroke-width}} type="text/plain">
+<$wikify name="stroke-width_frm_7" text={{_my/temp/frame/7/stroke-width}} type="text/plain">
+<$wikify name="stroke-width_frm_8" text={{_my/temp/frame/8/stroke-width}} type="text/plain">
+<$wikify name="stroke-width_frm_9" text={{_my/temp/frame/9/stroke-width}} type="text/plain">
+<$wikify name="stroke-width_frm_10" text={{_my/temp/frame/10/stroke-width}} type="text/plain">
+
+<$wikify name="stroke_frm_1" text={{_my/temp/frame/1/stroke}} type="text/plain">
+<$wikify name="stroke_frm_2" text={{_my/temp/frame/2/stroke}} type="text/plain">
+<$wikify name="stroke_frm_3" text={{_my/temp/frame/3/stroke}} type="text/plain">
+<$wikify name="stroke_frm_4" text={{_my/temp/frame/4/stroke}} type="text/plain">
+<$wikify name="stroke_frm_5" text={{_my/temp/frame/5/stroke}} type="text/plain">
+<$wikify name="stroke_frm_6" text={{_my/temp/frame/6/stroke}} type="text/plain">
+<$wikify name="stroke_frm_7" text={{_my/temp/frame/7/stroke}} type="text/plain">
+<$wikify name="stroke_frm_8" text={{_my/temp/frame/8/stroke}} type="text/plain">
+<$wikify name="stroke_frm_9" text={{_my/temp/frame/9/stroke}} type="text/plain">
+<$wikify name="stroke_frm_10" text={{_my/temp/frame/10/stroke}} type="text/plain">
+
+<$wikify name="opacity_frm_1" text={{_my/temp/frame/1/opacity}} type="text/plain">
+<$wikify name="opacity_frm_2" text={{_my/temp/frame/2/opacity}} type="text/plain">
+<$wikify name="opacity_frm_3" text={{_my/temp/frame/3/opacity}} type="text/plain">
+<$wikify name="opacity_frm_4" text={{_my/temp/frame/4/opacity}} type="text/plain">
+<$wikify name="opacity_frm_5" text={{_my/temp/frame/5/opacity}} type="text/plain">
+<$wikify name="opacity_frm_6" text={{_my/temp/frame/6/opacity}} type="text/plain">
+<$wikify name="opacity_frm_7" text={{_my/temp/frame/7/opacity}} type="text/plain">
+<$wikify name="opacity_frm_8" text={{_my/temp/frame/8/opacity}} type="text/plain">
+<$wikify name="opacity_frm_9" text={{_my/temp/frame/9/opacity}} type="text/plain">
+<$wikify name="opacity_frm_10" text={{_my/temp/frame/10/opacity}} type="text/plain">
+
+<$button> 
+<$action-setfield $tiddler={{_my/temp/target_name}} text=<<wikify_preview>> />
+Wikify
+</$button>
+
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+
+
+
+<$button>
+Crear Temp
+<$list filter="[prefix[_my/temp/]]" variable="tidToDelete">
+<$action-deletetiddler $tiddler=<<tidToDelete>>/>
+</$list>
+</$button>

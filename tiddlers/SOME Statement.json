@@ -1,0 +1,20 @@
+[
+    {
+        "created": "20191029123617494",
+        "text": "The [[Particular]] [[Affirmative]] [[statement|Categorical Proposition]]\n\nSome //S// are //P//:\n\n|<<prs venn-boolean>>|\n|<<prs mnemonic>>|\n|<<res youtube>>|\n\n<!--Links (for context-aware search):-->\n[[|Subject]]\n[[|Predicate (Categorical Logic)]]",
+        "title": "SOME Statement",
+        "tags": "Logic",
+        "modified": "20200325163931971",
+        "type": "text/vnd.tiddlywiki",
+        "tmap.id": "574316d5-9f81-4f9c-908c-ef20ef4516e1",
+        ".res.youtube": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/yBTj3QAhxhw\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        ".prs.venn-boolean": "<div style=\"position: relative\">       \n<div style=\"position: relative\">\n{{_my/images/venn/boolean/SOME_Statement}}\n</div>       \n<span style=\"position: absolute;left: -3px;top: -21px;\">\n<h1>[[S|Subject]]</h1>\n</span>       \n<span style=\"position: absolute;left: 370px;top: -16px;\">\n<h1>[[P|Predicate (Categorical Logic)]]</h1>\n</span>       \n</div>",
+        ".prs.mnemonic": "''a''ff__''i''__rmo",
+        ".hsk.transcludes": "[[_my/images/venn/boolean/SOME_Statement]]",
+        ".hsk.tagged_topic": "[<currentTiddler>tags[]field:icon[_my/images/icons/topic]]",
+        ".hsk.tagged_feature": "[<currentTiddler>tags[]field:icon[_my/images/icons/feature]]",
+        ".hsk.tagged_exemplar": "[<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]",
+        ".hsk.tagged_diagram": "[<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]",
+        ".hsk.macrocall": " [[_my/macros/appear/prs]] [[_my/macros/appear/res]]"
+    }
+]

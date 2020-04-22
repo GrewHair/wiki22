@@ -1,0 +1,13 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191023171606909
+list: [[Rules of Implication]] [[Rules of Replacement]]
+modified: 20200325163932019
+tags: Logic
+title: Rules of Inference
+tmap.id: 10242902-4f83-4a60-bde1-c79f43d38d3a
+type: text/vnd.tiddlywiki
+
+Rules of Inference are a type of [[Valid Argument]], which are considered basic for logical inference.

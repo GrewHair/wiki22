@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200104135635045
+modified: 20200325163851305
+tags: [[How to Win a Data Science Competition]] [[Machine Learning]]
+title: EDA Steps
+tmap.id: 2700b264-2847-4d8b-bd95-c6ce66025cdc
+type: text/vnd.tiddlywiki
+
+* ''Getting domain knowledge'' (google the topic, read wikipedia)
+* ''Checking if the data is intuitive'' (check data against domain knowledge - maybe there were errors in the sampling algorithms - they can be used)
+* ''Understanding how the data was generated'' (crucial for validation pipelines)

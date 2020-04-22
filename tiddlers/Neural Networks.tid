@@ -1,0 +1,28 @@
+created: 20191226211347590
+modified: 20200325163851127
+tags: Stub [[How to Win a Data Science Competition]] [[Machine Learning]] Models
+title: Neural Networks
+tmap.id: 108eebaa-e5a6-41f7-ac77-9d63eda05769
+type: text/vnd.tiddlywiki
+
+Examples of [[Neural Networks]]:
+
+* https://towardsdatascience.com/vgg-neural-networks-the-next-step-after-alexnet-3f91fa9ffe2c
+* https://en.wikipedia.org/wiki/Residual_neural_network
+
+[[Neural Networks]] require feature [[Scaling]].
+
+The reasons are similar to the case with [[Linear Models]].
+
+To gain intuition with simple feed-forward neural nets, play with this:
+https://playground.tensorflow.org/
+
+Most notable libraries:
+
+* TensorFlow
+* Keras
+* mxnet
+* dmlc
+* Pytorch
+* Lasagne
+* Caffe

@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200316172107065
+modified: 20200325163854445
+tags: [[Abstract Algebra (Socratica)]] [[Abstract Algebra]]
+title: Commutative Group
+tmap.id: ef66f77f-2cfa-4215-ac2c-43b4d968eb7a
+type: text/vnd.tiddlywiki
+
+''AKA Abelian Group''
+
+A [[Commutative Group]] is a [[Group]] $$G$$ that satisfies the [[Commutativity]] property:
+
+$$
+a \cdot b = b \cdot a \quad\forall a, b \in G$$ 
+$$

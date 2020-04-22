@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+color: #ff80c0
+created: 20191016143130347
+icon: _my/images/icons/feature
+modified: 20200325163932002
+tags: Logic
+title: Secondary
+tmap.id: 239d199d-e8cc-4ab8-b74c-b3c488d026ec
+type: text/vnd.tiddlywiki

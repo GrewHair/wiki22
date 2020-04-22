@@ -1,0 +1,68 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200331115944076
+modified: 20200331124655505
+tags: [[Regular Expressions]]
+title: Inline Modifiers (Regular Expressions)
+tmap.id: a807e61b-7dd9-4491-91e9-7e85b1911c81
+type: text/vnd.tiddlywiki
+
+<table border="0">
+<tbody>
+<tr>
+<th scope="col">Modifier</th>
+<th scope="col">Legend</th>
+<th scope="col">Example</th>
+<th scope="col">Sample Match</th>
+</tr>
+<tr>
+<td>(?i)</td>
+<td><a href="regex-modifiers.html#i">Case-insensitive mode</a><br /> (except JavaScript)</td>
+<td>(?i)Monday</td>
+<td>monDAY</td>
+</tr>
+<tr>
+<td>(?s)</td>
+<td><a href="regex-modifiers.html#dotall">DOTALL mode</a> (except JS and Ruby). The dot (.) matches new line characters (\r\n). Also known as "single-line mode" because the dot treats the entire input as a single line</td>
+<td>(?s)From A.*to Z</td>
+<td>From A<br />to Z</td>
+</tr>
+<tr>
+<td>(?m)</td>
+<td><a href="regex-modifiers.html#multiline">Multiline mode</a><br /> (except Ruby and JS) ^ and $ match at the beginning and end of every line</td>
+<td>(?m)1\r\n^2$\r\n^3$</td>
+<td>1<br />2<br />3</td>
+</tr>
+<tr>
+<td>(?m)</td>
+<td><a href="regex-modifiers.html#rubym">In Ruby</a>: the same as (?s) in other engines, i.e. DOTALL mode, i.e. dot matches line breaks</td>
+<td>(?m)From A.*to Z</td>
+<td>From A<br />to Z</td>
+</tr>
+<tr>
+<td>(?x)</td>
+<td><a href="regex-modifiers.html#freespacing">Free-Spacing Mode mode</a><br /> (except JavaScript). Also known as comment mode or whitespace mode</td>
+<td>(?x) # this is a<br /># comment<br />abc # write on multiple<br /># lines<br />[ ]d # spaces must be<br /># in brackets</td>
+<td>abc d</td>
+</tr>
+<tr>
+<td>(?n)</td>
+<td><a href="regex-modifiers.html#n">.NET, PCRE 10.30+: named capture only</a></td>
+<td>Turns all (parentheses) into non-capture groups. To capture, use <a href="regex-capture.html#namedgroups">named groups</a>.</td>
+</tr>
+<tr>
+<td>(?d)</td>
+<td><a href="regex-modifiers.html#d">Java: Unix linebreaks only</a></td>
+<td>The dot and the ^ and $ anchors are only affected by \n</td>
+</tr>
+<tr>
+<td>(?^)</td>
+<td><a href="regex-disambiguation.html#unset-all">PCRE 10.32+: unset modifiers</a></td>
+<td>Unsets ismnx modifiers</td>
+</tr>
+</tbody>
+</table>
+
+https://www.rexegg.com/regex-quickstart.html

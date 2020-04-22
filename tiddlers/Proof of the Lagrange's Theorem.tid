@@ -1,0 +1,56 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[_my/images/png/proof_of_lagrange_theorem]]
+created: 20200316204618705
+modified: 20200325163854398
+tags: [[Abstract Algebra]] [[Abstract Algebra (Socratica)]] [[Indirect Proof]]
+title: Proof of the Lagrange's Theorem
+tmap.id: f51b277a-01ab-4797-babd-5fa3096df79e
+type: text/vnd.tiddlywiki
+
+* Pick $$g_1 \in G$$ //not// in $$H$$
+* $$H$$ and its left [[coset|Coset]] $$g_1 \cdot H$$ don't overlap: $$H \cap g_1 H = \emptyset$$. Here's why:
+** __Assume__ there //is//an element in $$H$$ $$g_1H$$
+** Then $$g_1 \cdot h_i = h_j$$ for some $$h_i$$ and $$h_j$$ in $$H$$
+** Then:
+**> $$
+g_1 \cdot h_i \cdot h_i^{-1} = h_j \cdot h_i^{-1}\\
+g_1 = h_j \cdot h_i^{-1}$$
+**> Since $$H$$ is a [[Subgroup]],
+**> $$h_j \cdot h_i^{-1} \in H \implies g_1 \in H
+$$
+**>[[This is a contradiction|Indirect Proof]], because $$g_1$$ is not in $$H$$ by our assumption: $$g_1 \notin H$$.
+* Pick $$g_2 \in G$$ //not// in $$H$$ or $$g_1H$$
+* $$H$$ and $$g_2H$$ don't overlap (see section above)
+* $$g_1H$$ and $$g_2H$$ don't overlap. Here's why:
+** __Assume__ there //is// an element in $$g_1H$$ and $$g_2H$$
+** Then $$g_1 \cdot h_i = g_2 \cdot h_j$$ for some $$h_i$$ and $$h_j$$ in $$H$$
+** Then:
+**> $$g_1 \cdot h_i \cdot h_j^{-1} = g_2 \cdot h_j \cdot h_j^{-1} \\
+      g_1 \cdot h_i \cdot h_j^{-1} = g_2 \\
+      g_1 \cdot h_k = g_2 \\
+      g_1 \cdot h_k \in g_1H \implies g_2 \in g_1H$$
+**> [[This is a contradiction|Indirect Proof]], because $$g_2$$ is not in $$g_1H$$ by our assumption: $$g_2 \notin g_1H$$
+* Repeat the process until there's no element of $$G$$ that's not in a [[Coset]]
+*>{{_my/images/png/proof_of_lagrange_theorem}}
+*>Now $$G$$ is split into non-overlapping left [[cosets|Coset]]: $$H, g_1H, g_2H, ..., g_nH$$
+* All the [[Cosets|Coset]] are of the same [[size|Cardinality]] $$|H| = d$$. Here's why:
+** __Assume__ some [[Coset]] $$g \cdot H$$ has duplicates
+** Then:
+**> $$g \cdot h_1 = g \cdot h_2 \\ 
+      g^{-1} \cdot g \cdot h_1 = g^{-1} \cdot g \cdot h_2 \implies\\
+      \implies h_1 = h_2$$
+**> [[This is a contradiction|Conditional Proof]].
+* $$d \cdot k = n \implies d|n$$, where $$n = |G|$$, $$d = |H|$$, $$k$$ is the number of [[cosets|Coset]].
+* $$|H| \text{ divides } |G|$$
+
+''TL;DR:''
+
+* Split $$G$$ into [[cosets|Coset]]
+* Show that they don't overlap
+* Show that they have the same size
+* End of proof
+
+''Note:'' it should also be proved for rights [[cosets|Coset]].

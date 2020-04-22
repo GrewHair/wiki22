@@ -1,0 +1,20 @@
+created: 20200104061817001
+modified: 20200325163851017
+tags: [[How to Win a Data Science Competition]] [[Machine Learning]]
+title: Stopwords
+tmap.id: c859c60b-9cdd-4ac1-8193-4ae8cfea828a
+type: text/vnd.tiddlywiki
+
+These are just the words to be removed from the text corpus.
+
+Examples:
+
+* Articles
+* Prepositions
+* Very common words
+<<<
+``NLTK - Natural Language Toolkit for Python``
+
+``sklearn.feature_extraction.text.CountVectorizer
+kwargs: max_df``
+<<<

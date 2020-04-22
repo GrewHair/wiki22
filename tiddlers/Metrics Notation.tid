@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200224095653122
+modified: 20200325163851151
+tags: [[Machine Learning]] [[How to Win a Data Science Competition]]
+title: Metrics Notation
+tmap.id: 417b9e3b-8fe9-4a8f-9071-c2bc2911da94
+type: text/vnd.tiddlywiki
+
+* $$N$$ - number of objects
+* $$y \in \mathbb R ^N $$ - target values (target [[vector|Vector]])
+* $$\hat y \in \mathbb R^N $$ - predictions (prediction [[vector|Vector]])
+* $$y_i \in \mathbb R $$ - target for i-th object
+* $$\hat y_i \in \mathbb R $$ - prediction for i-th object

@@ -1,0 +1,13 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[_my/images/png/major_machine_learning_tasks]]
+created: 20200219123639648
+modified: 20200325163851176
+tags: Stub [[Machine Learning]] [[Designing Machine Learning Systems (David Julian)]]
+title: Major Machine Learning Tasks
+tmap.id: a2bad4c9-7c7d-47f3-9f44-69a48059a747
+type: text/vnd.tiddlywiki
+
+{{_my/images/png/major_machine_learning_tasks}}

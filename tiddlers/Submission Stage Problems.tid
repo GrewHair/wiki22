@@ -1,0 +1,40 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[_my/images/png/different_train_test_distributions_example]][[_my/images/png/different_train_test_distributions_mixed]][[_my/images/png/different_train_test_distributions_mixed-solution]][[_my/images/png/CTR_prediction_task_from_EDA]]
+created: 20200207085340335
+modified: 20200325164053116
+tags: [[How to Win a Data Science Competition]] Kaggle [[Machine Learning]]
+title: Submission Stage Problems
+tmap.id: b75fa9a5-592b-440c-b153-821157aa7cbb
+type: text/vnd.tiddlywiki
+
+One can safely say that he's having validation problems on the submission stage only if he has made sure that he has successfully dealt with [[Validation Stage Problems]].
+
+On the other hand, [[Submission Stage Problems]] can be much more tough and troubling than [[Validation Stage|Validation Stage Problems]]'s, because it can be hard or impossible to accurately mimic the true train-test split the organizers have made. Thus, one should start submitting and checking the leaderboard as early as possible (because the daily number of allowed submits is limited), and not procrastinate for days trying to get fix [[Validation Stage Problems]] first. One should rather address these different issues in parallel.
+
+Generally there are two kinds of [[Submission Stage Problems]]:
+
+* Leaderboard score is consistently higher or lower then validation score
+* Leaderboard score is not correlated with validation score at all
+
+Possible causes:
+
+* //We may already have quite different scores in Kfold// - one can view the public leaderboard as just another additional validation fold - so in case if the folds you made aren't consistant with each other, it's no surprise that the leaderboard surprises you too! __More:__ we can calculate mean and std of our validation scores and estimate if the leaderboard score is expected. But if it's __not__ - something's definitely wrong. Then we can look at some other possible reasons:
+* //Too little data in public leaderboard// - if this is true - you sometimes should just trust your results and hope that the private leaderboard will do you justice
+* //Train and test data are from different distributions// - consider a regression task of predicting people's heights by their photos in instagram. Let's consider that train data consists only of women, while the test data consists only of men:
+*>{{_my/images/png/different_train_test_distributions_example}}
+*> In this case all model predictions will be around the average height for women, and the model will get bad score on the test data, which consists only of men.
+*> In such cases one can sometimes adjust his solution during the training procedure - but at other times the only option is to adjust your solution to the leaderboard through [[Leaderboard Probing]].
+*> The simplest way to solve this particular situation is to try to figure out the optimal constant prediction for train and test data and then shift your prediction by that difference:
+** [[Mean]] for train can be calculated from the train data
+** [[Mean]] for test can be derived through [[Leaderboard Probing]]: if the competition's metric is [[Mean Squared Error]], we can send to different constant submissions, get scores, write down a simple formula and find the average target value for test data (70 inches in  this case).
+*> An example of a competition with a similar problem is https://www.kaggle.com/c/quora-question-pairs.  There the distributions of train and test were different - so one could get good score through adjusting to the leaderboard - but fortunately this case is pretty rare.
+* More often the case is that different categories of data samples, which have different distributions of target values, are present in both train //and// test sets, but mixed in different proportions:
+*>{{_my/images/png/different_train_test_distributions_mixed}}
+*> In this case one can just force the validation set to have the same distribution:
+*>{{_my/images/png/different_train_test_distributions_mixed-solution}}
+*> Examples of such a situation are:
+** Data Science Game 2017 Qualification phase
+** CTR prediction task from EDA section of the "How to Win Data Science Competitions" courcera course: {{_my/images/png/CTR_prediction_task_from_EDA}}

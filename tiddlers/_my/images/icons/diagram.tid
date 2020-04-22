@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191210150405848
+modified: 20200325140335163
+title: _my/images/icons/diagram
+tmap.id: 2a79fc2a-0961-4d31-9239-9361fd05e55f
+type: text/vnd.tiddlywiki
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="22" height="22" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+<metadata> 
+Svg Vector Icons : http://www.onlinewebfonts.com/icon 
+</metadata>
+<g>
+<path d="M990,195.1l-94.4-58.8l-40.1,64.1H10v663.1h886.7V344.5L990,195.1z M944.4,205.8l-260.8,421l-39.7-24.5l262.4-421.1L944.4,205.8z M863,830H43.7V234.2h790.9L609.1,595.1l-2.5,3.9l-10,117.1L700.8,658L863,398.4V830L863,830z"/><path d="M623.9,524.3c15.3,0,27.8-12.5,27.8-27.8V351.3c0-15.3-12.5-27.8-27.8-27.8H396.4c-15.3,0-27.8,12.5-27.8,27.8v145.2c0,15.3,12.5,27.8,27.8,27.8h97.4v12.4H198.5V429.2h84.2c14.5,0,26.3-11.8,26.3-26.3V277.8c0-14.5-11.8-26.3-26.3-26.3h-196c-14.5,0-26.3,11.8-26.3,26.3v125.1c0,14.5,11.8,26.3,26.3,26.3h79v140.2h1.5v0.1h156.3v53.9c-45.6,7.8-80.5,47.6-80.5,95.4c0,53.4,43.4,96.8,96.8,96.8s96.8-43.4,96.8-96.8c0-47.8-34.8-87.6-80.5-95.4v-53.9h137.5h30.7h2.1v-45.1L623.9,524.3L623.9,524.3z M402.3,357.2H618v133.5H402.3V357.2z M94.1,395.5V285.2h181.2v110.4H94.1z M403.1,718.7c0,34.8-28.3,63.2-63.2,63.2s-63.2-28.3-63.2-63.2c0-34.8,28.3-63.2,63.2-63.2S403.1,683.9,403.1,718.7z"/>
+</g>
+</svg>

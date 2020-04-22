@@ -1,0 +1,13 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+caption: Undone 1
+created: 20191202131338365
+modified: 20200325082917990
+tags: _my/tags/MoreSideBar
+title: _my/ui/MoreSideBar/ListOfUndone 1
+tmap.id: 76aca57c-b6bc-40e7-b782-3b604e89cbff
+type: text/vnd.tiddlywiki
+
+<$list filter="[suffix[Mood]!tag[Done]!prefix[$]]"/>

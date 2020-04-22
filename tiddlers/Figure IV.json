@@ -1,0 +1,23 @@
+[
+    {
+        "created": "20191115091317100",
+        "text": "|<<prs columnar>>|\n|<<res youtube>>|\n|<<prs summary>>|\n\n[[Unconditionally Valid]] [[Syllogisms|Categorical Syllogism]]:\n\n<ul><$list filter={{!!.hsk.filter-links}}><li><$link to=<<currentTiddler>> /></li></$list></ul>\n\n[[Conditionally Valid]] [[Syllogisms|Categorical Syllogism]]:\n\n<ul><$list filter={{!!.hsk.filter-links-2}}><li><$link to=<<currentTiddler>> /></li></$list></ul>\n\nWeakened moods:\n\n<ul><$list filter={{!!.hsk.filter-links-3}}><li><$link to=<<currentTiddler>> /></li></$list></ul>\n\n<!--Links (for context-aware search):-->\n[[|Middle Term]]\n[[|Major Term]]\n[[|Minor Term]]\n[[|Logical Consequence]]\n[[|Quantifier]]\n[[|Copula]]\n[[|Conjunction]]\n[[|Material Implication]]\n[[|Major Premise]]\n[[|Minor Premise]]\n[[|Conclusion (Categorical Syllogism)]]\n[[|Categorical Syllogism]]\n",
+        "title": "Figure IV",
+        "tags": "figure Logic [[100 Days of Logic (carneades.org)]]",
+        "modified": "20200325163932163",
+        "type": "text/vnd.tiddlywiki",
+        "tmap.id": "dc5da135-a8fb-4fb7-9f2c-791cea3d1aa2",
+        ".res.youtube": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/cKbnrasieEI\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        ".prs.summary": "<<rlrd-set_syll-fig railroad-2 railroad-2>>",
+        ".prs.columnar": "<<columnar '[[P|Major Term]] &mdash; @@.orange-links [[M|Middle Term]]@@' '@@.orange-links [[M|Middle Term]]@@ &mdash; [[S|Minor Term]]' '[[∴|Logical Consequence]] [[S|Minor Term]] &mdash; [[P|Major Term]]'>>",
+        ".hsk.transcludes": "[[Categorical Syllogism]] [[Major Premise]] [[Minor Premise]] [[Conclusion (Categorical Syllogism)]]",
+        ".hsk.tagged_topic": "[<currentTiddler>tags[]field:icon[_my/images/icons/topic]]",
+        ".hsk.tagged_feature": "[<currentTiddler>tags[]field:icon[_my/images/icons/feature]]",
+        ".hsk.tagged_exemplar": "[<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]",
+        ".hsk.tagged_diagram": "[<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]",
+        ".hsk.macrocall": " [[_my/macros/columnar]] [[_my/macros/appear/res]] [[_my/macros/appear/prs]] [[_my/macros/summary/RailroadSets/rlrd-set_syll-fig]]",
+        ".hsk.filter-links-3": "[field:.att.figure<currentTiddler>has[.att.weakened]]",
+        ".hsk.filter-links-2": "[field:.att.figure<currentTiddler>.att.valid[conditionally]!has[.att.weakened]]",
+        ".hsk.filter-links": "[field:.att.figure<currentTiddler>.att.valid[unconditionally]]"
+    }
+]

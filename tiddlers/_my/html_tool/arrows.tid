@@ -1,0 +1,97 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+caption: Arrows
+created: 20191208182132471
+modified: 20200325133132539
+title: _my/html_tool/arrows
+tmap.id: 82b4284a-0a12-4055-b881-1ad61eaacf9b
+type: text/vnd.tiddlywiki
+
+\define arr_ctrl_table(id)
+<table>
+<tbody>
+<tr>
+<td>
+markers:
+<$select tiddler='_my/temp/arrow/$id$/marker'>
+<option value=''>none</option>
+<option value='marker-start=url(#arr$id$_start)'>start</option>
+<option value='marker-end=url(#arr$id$_end) '>end</option>
+<option value='marker-end=url(#arr$id$_end) marker-start=url(#arr$id$_start)'>both</option>
+</$select>
+</td>
+<td>
+color:
+<$edit-text tiddler="_my/temp/arrow/$id$/col" size="1" tag="input" default=''/>
+</td>
+<td>
+width:
+<$edit-text tiddler="_my/temp/arrow/$id$/width" size="1" tag="input" default=''/>
+</td>
+</tr>
+<tr>
+<td>
+<$select tiddler='_my/temp/arrow/$id$/lr'>
+<option value='left'>left</option><option value='right'>right</option>
+</$select>
+</td>
+<td>
+<$range tiddler="_my/temp/arrow/$id$/hor" min="0" max="100" default="0" increment="1"/>
+</td>
+<td>
+<$edit-text tiddler="_my/temp/arrow/$id$/hor" size="1" tag="input" default=''/>%
+</td>
+</tr>
+<tr>
+<td>
+<$select tiddler='_my/temp/arrow/$id$/tb'>
+<option value='top'>top</option><option value='bottom'>bottom</option>
+</$select>
+</td>
+<td>
+<$range tiddler="_my/temp/arrow/$id$/ver" min="0" max="100" default="0" increment="1"/>
+</td>
+<td>
+<$edit-text tiddler="_my/temp/arrow/$id$/ver" size="1" tag="input" default=''/>%
+</td>
+</tr>
+<tr>
+<td>
+length: 
+</td>
+<td>
+<$range tiddler="_my/temp/arrow/$id$/len" min="1" max="200" default="100" increment="1"/>
+</td>
+<td>
+<$edit-text tiddler="_my/temp/arrow/$id$/len" size="1" tag="input" default=''/>%
+</td>
+</tr>
+<tr>
+<td>
+rotate: 
+</td>
+<td>
+<$range tiddler="_my/temp/arrow/$id$/rotate" min="-100" max="100" default="0" increment="1"/>
+</td>
+<td>
+<$edit-text tiddler="_my/temp/arrow/$id$/rotate" size="1" tag="input" default=''/>deg
+</td>
+</tr>
+</tbody>
+</table>
+\end
+
+<$scrollable class='tc-scrollable-demo'>
+<<arr_ctrl_table 1>>
+<<arr_ctrl_table 2>>
+<<arr_ctrl_table 3>>
+<<arr_ctrl_table 4>>
+<<arr_ctrl_table 5>>
+<<arr_ctrl_table 6>>
+<<arr_ctrl_table 7>>
+<<arr_ctrl_table 8>>
+<<arr_ctrl_table 9>>
+<<arr_ctrl_table 10>>
+</$scrollable>

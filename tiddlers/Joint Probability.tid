@@ -1,0 +1,43 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200229115718126
+modified: 20200325163729409
+tags: Stub
+title: Joint Probability
+tmap.id: 762b0f61-a78f-44e1-abd1-b2549bf96f28
+type: text/vnd.tiddlywiki
+
+!! ''Joint [[CDF|Cumulative Distribution Function]]''
+$$
+F_{X, Y}(x,y)=P((X \leq x) \cap (Y \leq y))
+$$
+
+$$
+\displaystyle F_{X,Y}(x,y) = \int_{-\infty}^x\int_{-\infty}^yf_{X,Y}(s,t)dtds
+$$
+
+!! ''Joint [[PDF|Probability Density Function]]''
+
+$$
+f_{X,Y}(x,y) = \dfrac {\partial^2}{\partial x \partial y}F_{X,Y}(x,y)
+$$
+
+!! ''Marginal [[CDF|Cumulative Distribution Function]]''
+
+$$
+F_X(x) = F_{X,Y}(x, \infty) = P((X \leq x) \cap (Y \leq\infty)) = P(X \leq x)\\
+F_Y(y) = F_{X,Y}(\infty, y) = P((X \leq \infty) \cap (Y \leq y)) = P(Y \leq y)
+$$
+
+!! ''Conditional [[PDF|Probability Density Function]]''
+
+$$
+f_{X|Y=y}(x|y) = \dfrac {f_{X,Y}(x,y)}{f_Y(y)}
+$$
+
+$$
+f_{Y|X=x}(y|x) = \dfrac {f_{X,Y}(x,y)}{f_X(x)}
+$$
+

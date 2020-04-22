@@ -1,0 +1,23 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[_my/images/png/vim_WORD_vs_word]]
+created: 20200417140229017
+modified: 20200417141855130
+tags: Vim
+title: word vs WORD
+tmap.id: 4b499089-b332-409b-b12c-c79177d30ec0
+type: text/vnd.tiddlywiki
+
+```
+This "stuff" is not-so difficult!
+wwww  wwwww  ww www ww wwwwwwwww
+WWWW WWWWWWW WW WWWWWW WWWWWWWWWW
+```
+
+{{_my/images/png/vim_WORD_vs_word}}
+
+''WORD'' is longer!!
+
+https://stackoverflow.com/questions/22931032/vim-word-vs-word

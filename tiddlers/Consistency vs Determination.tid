@@ -1,0 +1,75 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200314171857367
+modified: 20200325163826319
+tags: [[Linear Algebra]] Stub
+title: Consistency vs Determination
+tmap.id: cb532dba-d36d-417c-98f0-0ca8c7d363ca
+type: text/vnd.tiddlywiki
+
+<table>
+<thead>
+<th>                                          </th>
+<th>[[Consistent|Consistent Equations]]       </th>
+<th>[[Inconsistent|Inconsistent Equations]]   </th>
+</thead>
+<tbody>
+<tr>
+<th>[[Underdetermined|Underdetermined System]]</th>
+<td>$$
+\begin{cases}
+x + y + z = 3 \\
+x + y +2z = 4 \\
+\end{cases}   \\
+\infty\text{ solutions}
+$$</td>
+<td>$$
+\begin{cases}
+x + y + z = 3 \\
+x + y + z = 4 \\
+\end{cases}\\
+\text{no solutions}
+$$</td>
+</tr>
+<tr>
+<th>[[Exactly Determined|Exactly Determined System]]</th>
+<td>$$
+\begin{cases}
+x + y = 3 \\
+x + 2y = 5 \\
+\end{cases}\\
+\text{one solution}
+$$</td>
+<td>$$
+\begin{cases}
+x + y = 3\\
+x + y = 10 \\
+\end{cases} \\
+\text{no solutions}
+$$</td>
+</tr>
+<tr>
+<th>[[Overdetermined|Overdetermined System]]</th>
+<td>$$
+\begin{cases}
+x+y=3 \\
+x+2y=7 \\
+4x+6y=20 \\
+\end{cases}\\
+\text{one solution}
+$$</td>
+<td>$$
+\begin{cases}
+x+y=3 \\
+x+2y=7 \\
+4x+6y=21 \\
+\end{cases}\\
+\text{no solutions}
+$$</td>
+</tr>
+</tbody>
+</table>
+
+https://en.wikipedia.org/wiki/Consistent_and_inconsistent_equations

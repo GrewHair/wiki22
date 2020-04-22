@@ -1,0 +1,15 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200219133213781
+modified: 20200325164053094
+tags: [[How to Win a Data Science Competition]] Kaggle
+title: Data Leakage
+tmap.id: fb4135bc-5421-4547-b88a-326ebc6d6149
+type: text/vnd.tiddlywiki
+
+[[Data Leakage]] is unexpected information in the data that allows us to make unrealistically good predictions.
+
+One may think of it as of directly or indirectly adding [[Ground Truth]] into the test data.
+

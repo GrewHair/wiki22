@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200419064404266
+modified: 20200419091029941
+tags: Problem Stub [[Introduction to Deep Learning in Python (Datacamp)]]
+title: Dying Neuron Problem
+tmap.id: ff562388-37e0-44f8-8d51-7a7acf64e734
+type: text/vnd.tiddlywiki
+
+It's typical of [[Neural Networks]] with [[ReLU]] [[Activation Function]].
+
+Once a neuron starts to consistently get negative input - it is dead! It's output is zero on the forward propagation stage (so it's not contributing anything to the model) - __''and''__ the slope is also zero, because [[ReLU]] has it's [[Derivative]] equal to zero for negative values - and so this dead behaviour doesn't change

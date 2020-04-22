@@ -1,0 +1,27 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191227163127220
+modified: 20200325163851274
+tags: [[How to Win a Data Science Competition]] [[Machine Learning]]
+title: Feature Extraction from Text
+tmap.id: b809d011-022f-40a6-8065-a153c25df08e
+type: text/vnd.tiddlywiki
+
+Generally there are two big approaches:
+
+* [[Bag of Words]]
+** (-) Very large (high-dimensional) vectors
+** (+) Meaning of each value in a vector is known
+* [[Embeddings]] like [[Word2vec]]
+** (+) Relatively small vectors
+** (-) Values in vectors can be interpreted only in some cases
+** (+) Words with similar meanings often have similar embeddings (vector representations)
+
+These two approaches give different results and can be used together.
+
+Examples of competitions involving [[Feature Extraction from Text]] are:
+
+* https://www.kaggle.com/c/titanic, where useful features can be derived from the 'name' column.
+* https://www.kaggle.com/c/tradeshift-text-classification

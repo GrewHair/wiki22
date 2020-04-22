@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+button-classes: tc-text-editor-toolbar-item-start-group
+caption: Transclude
+condition: [<targetTiddler>!has[type]] [<targetTiddler>type[text/vnd.tiddlywiki]]
+created: 20191212114631312
+dropdown: _my/ui/EditorToolbarElements/transclude/dropdown
+icon: _my/images/icons/transclude
+modified: 20200325141620886
+shortcuts: 
+tags: $:/tags/EditorToolbar
+title: _my/ui/EditorToolbarElements/transclude
+tmap.id: 3af6aea3-6489-4a40-8074-f8c7f1572118
+type: text/vnd.tiddlywiki

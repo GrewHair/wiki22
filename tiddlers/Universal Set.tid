@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200308121925988
+modified: 20200325163830895
+tags: [[Set Theory]]
+title: Universal Set
+tmap.id: 48e77081-60e1-41dd-8f8e-f73c6e6a7f6e
+type: text/vnd.tiddlywiki
+
+The [[Universal Set]] is a [[Set]] that contains all the possible elements in the area of interest. All other [[sets|Set]] are [[subsets|Subset]] of the [[Universal Set]].
+
+The notion of [[Universal Set]] gives rise to the operation of [[Set Complement]].
+
+In [[Naive Set Theory]] the [[Universal Set]] contains everything, including itself, which leads to [[Russel's Paradox]] (also see: [[Set Theory Prerequisites for Algebra and Analysis]]).
+
+* https://www.youtube.com/watch?v=8innwDI1bv8
+
+* https://www.khanacademy.org/math/statistics-probability/probability-library/basic-set-ops/v/universal-set-and-absolute-complement

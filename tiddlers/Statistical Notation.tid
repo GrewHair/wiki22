@@ -1,0 +1,19 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200227084851091
+modified: 20200325163913728
+tags: Stub Statistics Questionable
+title: Statistical Notation
+tmap.id: 5f2c4049-4b34-472e-8f9e-b09adb6495f8
+type: text/vnd.tiddlywiki
+
+Generally in math, when one denotes some //g// as a function of //x, y, z//, the independent variables (//x, y, z//) are listed inside the parentheses, delimited by commas - like this: $$\displaystyle f(x,y,z)$$.
+
+However, [[Statistics]] deal with [[Distributions]], which are [[Generalized Functions]], bearing with them a lot of additional complexity. So there are a lot of notational subtleties:
+
+* [[Comma|Comma (Statistical Notation)]]
+* [[Semicolon|Semicolon (Statistical Notation)]]
+* [[Subscript|Subscript (Statistical Notation)]]
+* [[Vertical Bar|Vertical Bar (Statistical Notation)]]

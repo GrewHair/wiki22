@@ -1,0 +1,17 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200316200614131
+modified: 20200325163854433
+tags: [[Abstract Algebra]] [[Abstract Algebra (Socratica)]]
+title: Coset
+tmap.id: e141c830-6b5c-408f-ba3d-36418c7e2fea
+type: text/vnd.tiddlywiki
+
+If $$G$$ is a [[Group]] and $$H$$ is its [[Subgroup]], then:
+
+* $$g \cdot H = \{g\cdot h: h \text{ is an element of } H\}$$ is the ''Left'' [[Coset]] of $$H$$ in $$G$$ w.r.t. $$g$$
+* $$H \cdot g = \{h\cdot g: h \text{ is an element of } H\}$$ is the ''Right'' [[Coset]] of $$H$$ in $$G$$ w.r.t. $$g$$
+
+Note that in general a [[Coset]] is not a [[Group]], since $$g$$ is usually chosen __not__ to be the [[Identity Element]], and thus [[Coset]] does not contain one. [[Coset]] is just a [[Set]].

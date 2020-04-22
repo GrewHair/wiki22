@@ -1,0 +1,19 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200314192511512
+modified: 20200325163826163
+tags: [[Linear Algebra]]
+title: Rouché–Capelli Theorem
+tmap.id: 02aefac1-3774-4bda-88f3-0d4af41fe92b
+type: text/vnd.tiddlywiki
+
+''AKA Kronecker-Capelli Theorem''
+
+A [[System of Linear Equations]] is [[Consistent|Consistent Equations]] [[if and only if|If and Only If]] the [[Rank]] of its [[Coefficient Matrix]] $$A$$ is equal to the [[Rank]] of its [[Augmented Matrix]] $$(A|b)$$. If there are solutions, they form an [[Affine Subspace|Affine Space]] of $$\R^n$$ of [[Dimension]] $$n - \text{rank}(A)$$. In particular:
+
+* if $$n = \text{rank}(A)$$, the [[Dimension]] is zero, the solution is unique
+* otherwise (i.e. the [[Rank]] of $$A$$ is smaller than $$n$$), there are infinitely many solutions
+
+https://en.wikipedia.org/wiki/Rouch%C3%A9%E2%80%93Capelli_theorem

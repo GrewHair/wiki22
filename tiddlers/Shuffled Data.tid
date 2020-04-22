@@ -1,0 +1,13 @@
+created: 20200114065524126
+modified: 20200325163851031
+tags: [[How to Win a Data Science Competition]] [[Machine Learning]]
+title: Shuffled Data
+tmap.id: dff1a87c-3fc7-4fcd-b543-56ced29758d9
+type: text/vnd.tiddlywiki
+
+Often in data science competitions the data is shuffled (That is, the order of data samples has been switched around in a (possibly) unrecoverable way):
+
+* On one hand, it helps to anonymize the data, to conceal it's meaning from the participants
+* On the other hand, it often makes very little or no difference to machine learning models, so they can perform just as effectively
+
+It is usually done to prevent [[Data Leakage]]

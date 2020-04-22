@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200128091051117
+modified: 20200325163745790
+tags: Pandas
+title: pd.cut()
+tmap.id: 7a251241-2bd4-4dbb-a8a6-1b88f33ddbc2
+type: text/vnd.tiddlywiki
+
+`pd.cut()` converts continuous data to categorical by splitting it into bins (like ages 0-16, 16-30, etc..)

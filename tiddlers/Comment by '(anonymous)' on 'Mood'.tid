@@ -1,0 +1,10 @@
+created: 20191218142715442
+edit-mode: no
+list: Mood
+modified: 20200325165502906
+role: comment
+title: Comment by '(anonymous)' on 'Mood'
+tmap.id: c6edb85d-b3fb-4c32-a426-c08de2afe5d7
+type: text/vnd.tiddlywiki
+
+So here's the first example of a listed linking in your wiki. The context-aware search won't handle it. It's not a tragedy of course - but generally speaking you should keep thinking on the Link Placer from time to time.

@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191030131019015
+modified: 20200325163932211
+tags: Logic [[100 Days of Logic (carneades.org)]]
+title: Existential Import
+tmap.id: f28253c7-508b-4155-9404-c96cd4db3be6
+type: text/vnd.tiddlywiki
+
+If a [[Proposition|Categorical Proposition]] presupposes the [[subject class|Subject]] to be not empty, it is said to have [[Existential Import]].
+
+A logical system with Existential Import assumes that the [[Subject]] exists in reality, and hence leads to a fallacy in cases where the [[Subject]] in fact doesn't exist.
+
+On Venn diagrams [[Existential Import]] is depicted with the ⦻ symbol in the area of the Predicate circle adjacent to it's shaded area.

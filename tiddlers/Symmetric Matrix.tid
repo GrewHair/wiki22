@@ -1,0 +1,24 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200311120021783
+modified: 20200325163826137
+tags: [[Linear Algebra]]
+title: Symmetric Matrix
+tmap.id: 4668f25e-ddc0-48db-aeb8-6b5ae1c2c1b1
+type: text/vnd.tiddlywiki
+
+A [[Symmetric Matrix]] is a [[Square Matrix]] that is equal to its [[Transpose]]:
+
+$$A = A^T$$
+
+The [[Eigenvectors|Eigenvector]] of a [[Symmetric Matrix]] are [[Orthogonal|Orthogonality]].
+
+https://math.stackexchange.com/questions/142645/are-all-eigenvectors-of-any-matrix-always-orthogonal
+
+https://math.stackexchange.com/questions/1460383/proof-that-an-n-times-n-real-symmetric-matrix-has-n-real-eigenvalues
+
+A [[real-valued|Real Numbers]] [[Symmetric Matrix]] is necessarily [[Normal|Normal Matrix]]:
+
+$$A = A^T \implies A^TA = AA^T$$

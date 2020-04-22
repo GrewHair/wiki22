@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200310180723415
+modified: 20200325163826271
+tags: [[MIT 18.065 Matrix Methods in Data Analysis, Signal Processing, and Machine Learning]] [[Linear Algebra]] [[Lecture 2]] Stub Questionable
+title: Five Key Matrix Factorizations
+tmap.id: defc8907-1776-4903-b972-bab2083f4b38
+type: text/vnd.tiddlywiki
+
+* $$A = LU$$ - it's about [[elimination|Gaussian Elimination]] (solving linear systems)
+* $$A = QR$$ - Gram-Schmidt; application: least squares; Q is [[orthogonal|Orthogonal Matrix]]
+* $$S = Q \Lambda Q^T$$ - S is [[symmetric|Symmetric Matrix]]; $$\Lambda$$ is [[diagonal|Diagonal Matrix]] [[eigenvalue|Eigenvalue]] matrix (lambda always stands for eigenvalues); Q contains the [[eigenvectors|Eigenvector]] of $$S$$
+** symmetric matrices have exactly n eigenvectors
+** all the eigenvalues of symmetric matrices are real
+* $$A = X \Lambda X^{-1}$$
+* $$A = U \Sigma V^T$$ - $$U$$ and $$V$$ are [[orthogonal|Orthogonal Matrix]], $$\Sigma$$ is [[diagonal|Diagonal Matrix]] - it's an [[SVD|Singular Value Decomposition]] - the big point of this is that it works for every matrix $$A$$, even rectangular (doesn't have to be symmetric, doesn't have to have a lot of eigenvectors, etc) - and this comes from the fact that $$U$$ and $$V$$ are different - so we have __two__ different sets of singular vectors.

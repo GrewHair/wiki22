@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200316104257943
+modified: 20200325164015067
+tags: [[Algebraic Geometry]]
+title: Polytope
+tmap.id: a9cd7272-5dd2-46b3-a4ed-840590cb0f9d
+type: text/vnd.tiddlywiki
+
+A [[Polytope]] is a geometric object with "flat" sides

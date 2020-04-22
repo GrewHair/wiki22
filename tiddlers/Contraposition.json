@@ -1,0 +1,17 @@
+[
+    {
+        "created": "20191031113051273",
+        "text": "Contraposition is valid for [[A|ALL Statement]] and [[O|SOME ARE NOT Statement]] [[statements|Categorical Proposition]].\n\nSteps:\n\n* Switch [[Subject]] and [[Predicate|Predicate (Categorical Logic)]]\n* Replace [[Subject]] and [[Predicate|Predicate (Categorical Logic)]] with their [[term complements|Term Complement]]\n<<res youtube>>",
+        "title": "Contraposition",
+        "tags": "Logic [[100 Days of Logic (carneades.org)]]",
+        "modified": "20200325163931729",
+        "type": "text/vnd.tiddlywiki",
+        "tmap.id": "1189b178-d2fa-4329-a544-7dc0a23dc0be",
+        ".res.youtube": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/0Uo88clIK14\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        ".hsk.tagged_topic": "[<currentTiddler>tags[]field:icon[_my/images/icons/topic]]",
+        ".hsk.tagged_feature": "[<currentTiddler>tags[]field:icon[_my/images/icons/feature]]",
+        ".hsk.tagged_exemplar": "[<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]",
+        ".hsk.tagged_diagram": "[<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]",
+        ".hsk.macrocall": " [[_my/macros/appear/res]]"
+    }
+]

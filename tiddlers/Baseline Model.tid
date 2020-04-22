@@ -1,0 +1,31 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200224105953730
+modified: 20200325163850944
+tags: [[Machine Learning]] [[How to Win a Data Science Competition]]
+title: Baseline Model
+tmap.id: 60a872d5-8f0f-47b4-9876-f41896fc1ec8
+type: text/vnd.tiddlywiki
+
+[[Baseline Model]] serves as a [[Sanity Check]] and a starting point in predictive modeling. It should be built and evaluated prior to any more advanced modeling. All further results should be compared against the baseline: whatever has worse score then the baseline, should be either redesigned or dismissed.
+
+[[Baseline Models|Baseline Model]] use heuristics, simple [[Summary Statistics]], randomness, or machine learning to create predictions for a dataset.
+
+Sometimes at [[Kaggle]], organizers specify some custom baseline, that should be beat in order to gain an award.
+
+Generally speaking, anything can serve as a [[Baseline Model]], but there are some commonly accepted preferences:
+
+* [[Constant Predictor]] - in [[Classification]] problems it can simply be the [[Mode]] of the target vector, whereas in [[Regression]] it may be some other appropriate [[Central Tendency Statistic]]
+* [[Bayesian|Bayesian Statistics]] [[Prior|Prior Distribution]] (<span style="color:red">Fix this!!</span>)
+* <a target="_blank" href="https://scikit-learn.org/stable/modules/generated/sklearn.dummy.DummyClassifier.html">Scikit-learn Dummy Classifier</a>
+** “stratified”: generates predictions by respecting the training set’s class distribution.
+** “most_frequent”: always predicts the most frequent label in the training set.
+** “prior”: always predicts the class that maximizes the class prior.
+** “uniform”: generates predictions uniformly at random.
+** “constant”: always predicts a constant label that is provided by the user.
+* <a target="_blank" href="https://scikit-learn.org/stable/modules/generated/sklearn.dummy.DummyRegressor.html">Scikit-learn Dummy Regressor</a>
+** “median”: always predicts the median of the training set
+** “quantile”: always predicts a specified quantile of the training set,provided with the quantile parameter.
+** “constant”: always predicts a constant value that is provided by the user.

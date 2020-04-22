@@ -1,0 +1,22 @@
+[
+    {
+        "created": "20191216152605008",
+        "text": "|<<prs mnemonic>>|\n|<<prs example>>|",
+        "title": "Felapton",
+        "tags": "dd Logic [[100 Days of Logic (carneades.org)]]",
+        "modified": "20200325163932197",
+        "type": "text/vnd.tiddlywiki",
+        "tmap.id": "89772648-acf9-425e-92ed-a1eaf7a7e9d0",
+        ".temp": "No flowers are animals. (MeP)<br>\nAll flowers are plants. (MaS)<br>\n∴ Some plants are not animals. (SoP)",
+        ".prs.mnemonic": "F__''e''__l__''a''__pt__''o''__n",
+        ".prs.example": "No females are gay.<br>\nAll females are humans.<br>\n&there4; Some humans are not gay.",
+        ".hsk.tagged_topic": "[<currentTiddler>tags[]field:icon[_my/images/icons/topic]]",
+        ".hsk.tagged_feature": "[<currentTiddler>tags[]field:icon[_my/images/icons/feature]]",
+        ".hsk.tagged_exemplar": "[<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]",
+        ".hsk.tagged_diagram": "[<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]",
+        ".hsk.macrocall": "[[_my/macros/appear/prs]]",
+        ".att.valid": "conditionally",
+        ".att.mood": "EAO Mood",
+        ".att.figure": "Figure III"
+    }
+]

@@ -1,0 +1,27 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200227083309616
+modified: 20200325163913742
+tags: Stub Statistics
+title: Semicolon (Statistical Notation)
+tmap.id: 5483c58f-31d4-407e-a532-22e233904695
+type: text/vnd.tiddlywiki
+
+In [[Statistics]], [[Semicolon|Semicolon (Statistical Notation)]] has a special meaning when used inside the parentheses when denoting a [[Probability Distribution]] or a [[Likelihood Function]] <span style="color:red">(or maybe also some other things?)</span>.
+
+It acts as a "strong comma" in order to distinguish between [[Random Variables|Random Variable]] and ''deterministic'' ones.
+
+The reason a simple comma doesn't work is because in [[Statistics]] (both [[Frequentist|Frequentist Statistics]] //''and''// [[Bayesian|Bayesian Statistics]]), a comma also has a [[special meaning|Comma (Statistical Notation)]], when used with  [[Random Variables|Random Variable]].
+
+There should normally be only one [[Semicolon|Semicolon (Statistical Notation)]] inside the parentheses of a [[distribution|Probability Distribution]], which will split the parameters inside the parentheses into two big groups of [[random|Random Variable]] and ''deterministic'' variables. In cases when there are more then one deterministic parameters, one can achieve unambiguous notation doing either of the following:
+
+* Use one symbol (usually $$\theta$$) for all of the [[parameters|Statistical Parameter]], grouping them into a [[Vector]]
+* Use comma normally to list the parameters, ''after'' the semicolon
+
+[[Semicolon|Semicolon (Statistical Notation)]] is used for this special separation purpose primarily in [[Frequentist Statistics]], where [[distribution|Probability Distribution]]'s [[parameters|Statistical Parameter]] are considered to be deterministic in nature, but unknown (as opposed to [[Bayesian Statistics]], where distribution parameters are just another kind of [[Random Variables|Random Variable]], and should be treated as such).
+
+In [[Bayesian Statistics]], the [[Vertical Bar|Vertical Bar (Statistical Notation]] is used instead, re-interpreting the whole expression in terms of simple [[Conditional Probabilities|Conditional Probability]].
+
+It is quite hard to pronounce the expressions resulting from this heavy notation. For instance, [[Andrew Ng]] proposes to pronounce this expression: $$\displaystyle f(x; \theta)$$, as //"distribution of x ''parametrized by theta''"//.

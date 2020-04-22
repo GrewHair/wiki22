@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191112080254250
+edit-mode: no
+list: Quantifier
+modified: 20200325165502889
+role: comment
+title: Comment by '(anonymous)' on 'Quantifier'
+tmap.id: fbfa3104-14c9-4968-bf09-172724a53578
+type: text/vnd.tiddlywiki
+
+in fact i've read up on wikipedia that the 'no' quantiifier is kind of necessary in the natural language, because the proposition 'all S are not P'  is linguistically ambiguous. it can be interpreted either as 'all of the S are simultaneously not P', or as 'all of the S are certainly not P, but maybe some of the S..'. so, again, just natural language issues. again, the formal versions of these quantifiiers are much better and cleaner in this respect. 

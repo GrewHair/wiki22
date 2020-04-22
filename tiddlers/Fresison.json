@@ -1,0 +1,22 @@
+[
+    {
+        "created": "20191216152716958",
+        "text": "|<<prs mnemonic>>|\n|<<prs example>>|",
+        "title": "Fresison",
+        "tags": "dd Logic [[100 Days of Logic (carneades.org)]]",
+        "modified": "20200325163932159",
+        "type": "text/vnd.tiddlywiki",
+        "tmap.id": "af972b29-6753-4913-8017-bdc7a6b627d3",
+        ".temp": "No homework is fun. (MeP)<br>\nSome fun is curative. (SiM)<br>\n∴ Some curative things are not homework. (SoP)",
+        ".prs.mnemonic": "Fr__''e''__s__''i''__s__''o''__n",
+        ".prs.example": "No vanillas are bottoms.<br>\nSome bottoms are lesbians.<br>\n&there4; Some lesbians are not vanilla.",
+        ".hsk.tagged_topic": "[<currentTiddler>tags[]field:icon[_my/images/icons/topic]]",
+        ".hsk.tagged_feature": "[<currentTiddler>tags[]field:icon[_my/images/icons/feature]]",
+        ".hsk.tagged_exemplar": "[<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]",
+        ".hsk.tagged_diagram": "[<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]",
+        ".hsk.macrocall": "[[_my/macros/appear/prs]]",
+        ".att.valid": "unconditionally",
+        ".att.mood": "EIO Mood",
+        ".att.figure": "Figure IV"
+    }
+]

@@ -1,0 +1,22 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200309125947543
+modified: 20200325163826329
+tags: [[Fundamental Matrix Subspaces]] [[Linear Algebra]] [[MIT 18.065 Matrix Methods in Data Analysis, Signal Processing, and Machine Learning]] [[Too Particular]] [[Lecture 1]]
+title: Column Space
+tmap.id: 88e51dd6-3d05-4953-8084-fcb2da36136d
+type: text/vnd.tiddlywiki
+
+The [[Column Space]] of a [[Matrix]] is the [[Span|Linear Span]] of its column [[vectors|Vector]].
+
+The [[Column Space]] of a [[Matrix]] is the [[Image]] or [[Range]] of the corresponding [[Matrix Transformation|Linear Map]].
+
+The [[Column Space]] $$C(A)$$ of an $$n\times n$$ matrix $$A$$ can be expressed using [[Set-builder Notation]] as follows:
+
+$$C(A) = \{A\vec x: x \in \R^n\}$$
+
+It may or may not turn out to be the whole $$\R^3$$ [[space|Vector Space]] - it depends on the [[Rank]] of the [[Matrix]]:
+
+* In case of a random matrix, the answer is almost surely //yes//, because it's columns will be independent (i.e. the [[Probability]] of [[Linear Dependency]] of columns of a random matrix is $$\approx 0$$)

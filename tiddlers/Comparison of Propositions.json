@@ -1,0 +1,18 @@
+[
+    {
+        "created": "20191010023430122",
+        "text": "<<prs euler>>\n\n<!--Links (for context-aware search):-->\n[[|Propositions]]\n[[|Consistent Propositions]]\n[[|Inconsistent Propositions]]\n[[|Logically Equivalent Propositions]]\n[[|Contradictory Propositions]]",
+        "title": "Comparison of Propositions",
+        "tags": "Logic [[Euler Diagrams]] [[100 Days of Logic (carneades.org)]]",
+        "modified": "20200325163931788",
+        "type": "text/vnd.tiddlywiki",
+        "tmap.id": "3d20444a-d200-45ca-9cff-cedb3c70faab",
+        ".prs.euler": "{{_my/images/euler/Comparison_of_Propositions}}",
+        ".hsk.transcludes": "[[_my/images/euler/Comparison_of_Propositions]]",
+        ".hsk.tagged_topic": "[<currentTiddler>tags[]field:icon[_my/images/icons/topic]]",
+        ".hsk.tagged_feature": "[<currentTiddler>tags[]field:icon[_my/images/icons/feature]]",
+        ".hsk.tagged_exemplar": "[<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]",
+        ".hsk.tagged_diagram": "[<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]",
+        ".hsk.macrocall": " [[_my/macros/appear/prs]]"
+    }
+]

@@ -1,0 +1,59 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200331115906727
+modified: 20200331125958325
+tags: [[Regular Expressions]]
+title: POSIX Classes (Regular Expressions)
+tmap.id: 3f1728ba-043b-427e-978c-6cd4451bc154
+type: text/vnd.tiddlywiki
+
+<table border="0">
+<tbody>
+<tr>
+<th scope="col">Character</th>
+<th scope="col">Legend</th>
+<th scope="col">Example</th>
+<th scope="col">Sample Match</th>
+</tr>
+<tr>
+<td>[:alpha:]</td>
+<td>PCRE (C, PHP, R&hellip;): ASCII letters A-Z and a-z</td>
+<td>[8[:alpha:]]+</td>
+<td>WellDone88</td>
+</tr>
+<tr>
+<td>[:alpha:]</td>
+<td>Ruby 2: Unicode letter or ideogram</td>
+<td>[[:alpha:]\d]+</td>
+<td>кошка99</td>
+</tr>
+<tr>
+<td>[:alnum:]</td>
+<td>PCRE (C, PHP, R&hellip;): ASCII digits and letters A-Z and a-z</td>
+<td><$text text="[[:alnum:]]"/>{10}</td>
+<td>ABCDE12345</td>
+</tr>
+<tr>
+<td>[:alnum:]</td>
+<td>Ruby 2: Unicode digit, letter or ideogram</td>
+<td><$text text="[[:alnum:]]"/>{10}</td>
+<td>кошка90210</td>
+</tr>
+<tr>
+<td>[:punct:]</td>
+<td>PCRE (C, PHP, R&hellip;): ASCII punctuation mark</td>
+<td><$text text="[[:punct:]]"/>+</td>
+<td>?!.,:;</td>
+</tr>
+<tr>
+<td>[:punct:]</td>
+<td>Ruby: Unicode punctuation mark</td>
+<td><$text text="[[:punct:]]"/>+</td>
+<td>‽,:〽⁆</td>
+</tr>
+</tbody>
+</table>
+
+https://www.rexegg.com/regex-quickstart.html

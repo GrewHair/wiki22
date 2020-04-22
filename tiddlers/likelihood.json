@@ -1,0 +1,19 @@
+[
+    {
+        "created": "20200226190659673",
+        "text": "* Discrete\n*>{{!!.prs.tex_formula}}\n\n* Continuous\n*>{{!!.prs.tex_formula-2}}\n\n* The exact value of any likelihood is ''meaningless''\n* The relative value, comparing two values of $$\\theta$$, is ''informative''\n\n''Likelihood Ratio''\n\n$$ \\displaystyle\n   \\lambda(y) = \\frac  {\\mathcal L(\\theta_0; y)}\n                       {\\mathcal L(\\theta_1; y)}\n$$\n\n\n\n\n\nfrom wikipedia:\n$$\\displaystyle {\\mathcal {L}}(\\theta \\mid x)=p_{\\theta }(x)=P_{\\theta }(X=x)$$\n\n<<foofoo>>",
+        "title": "likelihood",
+        "tags": "Stub Statistics",
+        "modified": "20200325163913761",
+        "type": "text/vnd.tiddlywiki",
+        "tmap.id": "6193c23d-b95c-48d6-b0af-ee7a9b52fbac",
+        ".prs.tex_formula-2": "<$latex text=\"  \n\\displaystyle \n\\mathcal       \nL(\\theta_0 \\, ; y) =                                                           \"></$latex>\n                      <<tex \"f_Y\\!\" \"Probability Density Function\">> \n                                                                      $$(y \\,; \\theta_0)$$",
+        ".prs.tex_formula": "<$latex text=\"\n\\displaystyle \n\\mathcal       L(    \\theta_0 \\,   ;          y                )      \\;=\\; \n               P(    Y\\!=\\!y       |  \\theta\\!=\\!\\theta_0 \\!   )      \\;=\\;\n                                                                \"></$latex>\n\n<<tex   p_Y    \"Probability Mass Function\">>\n                                               $$(y \\,                                                                  $$\n                                                         <<tex ; \"Semicolon (Statistical Notation)\">>\n$$                                                                                                           \\ \\theta_0)$$",
+        ".hsk.transcludes": "",
+        ".hsk.tagged_topic": "[<currentTiddler>tags[]field:icon[_my/images/icons/topic]]",
+        ".hsk.tagged_feature": "[<currentTiddler>tags[]field:icon[_my/images/icons/feature]]",
+        ".hsk.tagged_exemplar": "[<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]",
+        ".hsk.tagged_diagram": "[<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]",
+        ".hsk.macrocall": "[[_my/macros/tex]]"
+    }
+]

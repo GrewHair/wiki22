@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200314152721911
+modified: 20200325163937984
+tags: [[Predicate Logic]]
+title: Truth Function
+tmap.id: faf2fa2d-f521-4153-91ff-9a2ae4511002
+type: text/vnd.tiddlywiki
+
+A [[Truth Function]] is a [[Function]] that accepts one or more [[Truth Values|Truth Value]] as it's inputs and produces a [[Truth Value]] as output:
+
+$$f: \underbrace{\mathbb{B \times B \times ...}}_\text{n input arguments} \to \mathbb B,$$
+
+Where $$\times$$ denotes the [[Cartesian Product]] and $$\mathbb B$$ is the [[Boolean Domain]].

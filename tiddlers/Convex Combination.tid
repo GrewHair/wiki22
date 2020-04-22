@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200316101620944
+modified: 20200325164022864
+tags: [[Linear Algebra]] [[Convex Geometry]]
+title: Convex Combination
+tmap.id: 9643b5e3-477e-444e-9c9c-7da7dd8cf989
+type: text/vnd.tiddlywiki
+
+A [[Convex Combination]] is an [[Affine Combination]], in which all of the coefficients are non-negative.
+
+Informally speaking, the difference between the two is given two points, their [[Convex Combinations|Convex Combination]] lie on a [[Line Segment]], connecting these two points, while their [[Affine Combinations|Affine Combination]] lie on a [[Line]] that goes through them.

@@ -1,0 +1,30 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191223092225133
+modified: 20200325163938021
+tags: [[Predicate Logic]] Logic [[100 Days of Logic (carneades.org)]]
+title: Existential Generalization
+tmap.id: fc6fd01f-abb5-42e9-b832-bc8c63a7c9c2
+type: text/vnd.tiddlywiki
+
+! //''EG''//
+
+ℱ[[y|Variable (Predicate Logic)]] [[∴|Logical Consequence]] ([[∃|Existential Quantifier]][[x|Variable (Predicate Logic)]])ℱ[[x|Variable (Predicate Logic)]] and ℱ[[a|Constant (Predicate Logic)]] [[∴|Logical Consequence]] ([[∃|Existential Quantifier]][[x|Variable (Predicate Logic)]])ℱ[[x|Variable (Predicate Logic)]]
+
+<br>
+
+''Let's break it down:''
+
+''either''
+
+ℱ[[y|Variable (Predicate Logic)]] --- (for any //y//, //ℱy// holds)
+
+''or''
+
+ℱ[[a|Constant (Predicate Logic)]] --- (for one specific object //a//, //ℱa// holds)
+
+''implies''
+
+([[∃|Existential Quantifier]][[x|Variable (Predicate Logic)]])ℱ[[x|Variable (Predicate Logic)]] --- (there exists an //x//,  such that //ℱx// holds)

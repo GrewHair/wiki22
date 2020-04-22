@@ -1,0 +1,55 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200317085741759
+modified: 20200325163854416
+tags: [[Abstract Algebra (Socratica)]] [[Abstract Algebra]]
+title: Integers mod 5 Example
+tmap.id: dcd39c50-7fc6-48c1-b904-9efc2994d34c
+type: text/vnd.tiddlywiki
+
+For [[Integers]] mod 5 the [[Congruence Classes|Congruence Class]] are:
+
+* $$n=0: \; \bar 0 = \{..., -15, -10, -5, 0, 5, 10, 15, ...\}$$
+* $$n=1: \; \bar 1 = \{..., -14, -9, -4, 1, 6, 11, 16, ...\}$$
+* $$n=2: \; \bar 2 = \{..., -13, -8, -3, 2, 7, 12, 17, ...\}$$
+* $$n=3: \; \bar 3 = \{..., -12, -7, -2, 3, 8, 13, 18, ...\}$$
+* $$n=4: \; \bar 4 = \{..., -11, -6, -1, 4, 9, 14, 19, ...\}$$
+
+$$\Z \mod 5 = \{ \bar 0, \bar 1, \bar 2, \bar 3, \bar 4\}$$
+
+''Note:'' if you add any number of [[class|Congruence Class]] $$\bar 1$$ to any number of [[class|Congruence Class]] $$\bar 2$$, you will always get [[class|Congruence Class]] $$\bar 3$$ (the same applies to all the other combinations)! Because of this, the [[sets|Set]] $$\bar 0, \bar 1, \bar 2, \bar 3, \bar 4$$ (sometimes called //metanumbers//) act as numbers, and they form a [[Group]].
+
+Let's say we have a [[Group]] of [[Integers]] under addition: $$(\Z, +)$$
+This group has an infinite number of [[subgroups|Subgroup]] (i.e. groups of multiples of integers): $$\Z, 2\Z, 3\Z, 4\Z, 5\Z, 6\Z, ...$$
+
+Let's look at the [[Subgroup]] $$5\Z$$:
+
+$$5\Z = \{..., -10, -5, 0, 5, 10, ...\}$$
+
+The number $$1$$ is not in this [[Subgroup]]. If we add $$1$$ to every member of $$5\Z$$, we'll get a [[Coset]] $$1+5\Z$$:
+
+* It's not [[closed|Closure]] under addition
+* It doesn't have [[inverses|Inverse Element]]
+* It doesn't have an [[Identity Element]]
+
+so it's not a [[Group]]. Let's do the same with every [[integer]] number <5:
+
+* $$ 0+5\Z = \{..., -10, -5, 0, 5, 10, ...\} $$    &larr; a [[Subgroup]] //and// a [[Coset]]
+* $$ 1+5\Z = \{..., -9, -4, 1, 6, 11, ...\}  $$    &larr; a [[Coset]]
+* $$ 2+5\Z = \{..., -8, -3, 2, 7, 12, ...\}  $$    &larr; a [[Coset]]
+* $$ 3+5\Z = \{..., -7, -2, 3, 8, 13, ...\}  $$    &larr; a [[Coset]]
+* $$ 4+5\Z = \{..., -6, -1, 4, 9, 14, ...\}  $$    &larr; a [[Coset]]
+
+All these [[Cosets|Coset]] form a [[Group]] $$(\{ \bar 0, \bar 1, \bar 2, \bar 3, \bar 4\}, +)$$, which is called the [[Quotient Group]] $$\Z/5\Z$$.
+
+We used $$5\Z$$ to partition the group of [[integers|Integers]]. It had "flat structure" before - and now we've introduced a new level of hierarchy - the [[Quotient Group]]. $$5\Z$$ is itself just an element of the [[Quotient Group]]. We call $$5\Z$$ a [[Normal Subgroup]] (that is, a //subroup of the quotient group//)
+
+Let's say it again: these [[Cosets|Coset]] __act like numbers__:
+
+$$(1 + 5\Z) + (3 + 5\Z)  =  4 + 5\Z$$, etc.
+
+''Important Note:'' while $$5\Z$$ is a [[Subgroup]] __both__ of $$\Z$$ and $$\Z/5\Z$$, $$\Z/5\Z$$ is __not__ a [[Subgroup]] of $$\Z$$:
+
+$$\Z/5\Z \not\leq \Z$$

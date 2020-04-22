@@ -1,0 +1,133 @@
+.hsk.macrocall: [[$:/core/macros/tabs]]
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+caption: HTML Tool
+created: 20191208180109919
+modified: 20200325082918003
+tags: $:/tags/Macro _my/tags/MoreSideBar
+title: _my/html_tool
+tmap.id: 065ddf12-15f9-4ef4-be6c-6a19f1eba107
+type: text/vnd.tiddlywiki
+
+\define preview(bckgrnd_txt height width 
+lr_1 hor_1 tb_1 ver_1 zoom_1 rotate_1 txt_1 
+lr_2 hor_2 tb_2 ver_2 zoom_2 rotate_2 txt_2 
+lr_3 hor_3 tb_3 ver_3 zoom_3 rotate_3 txt_3 
+lr_4 hor_4 tb_4 ver_4 zoom_4 rotate_4 txt_4 
+lr_5 hor_5 tb_5 ver_5 zoom_5 rotate_5 txt_5 
+lr_6 hor_6 tb_6 ver_6 zoom_6 rotate_6 txt_6 
+lr_7 hor_7 tb_7 ver_7 zoom_7 rotate_7 txt_7 
+lr_8 hor_8 tb_8 ver_8 zoom_8 rotate_8 txt_8 
+lr_9 hor_9 tb_9 ver_9 zoom_9 rotate_9 txt_9 
+lr_10 hor_10 tb_10 ver_10 zoom_10 rotate_10 txt_10 
+lr_11 hor_11 tb_1 ver_11 zoom_11 rotate_11 txt_11 
+lr_12 hor_12 tb_2 ver_12 zoom_12 rotate_12 txt_12 
+lr_13 hor_13 tb_3 ver_13 zoom_13 rotate_13 txt_13 
+lr_14 hor_14 tb_4 ver_14 zoom_14 rotate_14 txt_14 
+lr_15 hor_15 tb_5 ver_15 zoom_15 rotate_15 txt_15 
+lr_16 hor_16 tb_6 ver_16 zoom_16 rotate_16 txt_16 
+lr_17 hor_17 tb_7 ver_17 zoom_17 rotate_17 txt_17 
+lr_18 hor_18 tb_8 ver_18 zoom_18 rotate_18 txt_18 
+lr_19 hor_19 tb_9 ver_19 zoom_19 rotate_19 txt_19 
+lr_20 hor_20 tb_10 ver_20 zoom_20 rotate_20 txt_20 
+lr_arr_1 hor_arr_1 tb_arr_1 ver_arr_1 rotate_arr_1 len_arr_1 col_arr_1 width_arr_1 marker_arr_1 
+lr_arr_2 hor_arr_2 tb_arr_2 ver_arr_2 rotate_arr_2 len_arr_2 col_arr_2 width_arr_2 marker_arr_2 
+lr_arr_3 hor_arr_3 tb_arr_3 ver_arr_3 rotate_arr_3 len_arr_3 col_arr_3 width_arr_3 marker_arr_3 
+lr_arr_4 hor_arr_4 tb_arr_4 ver_arr_4 rotate_arr_4 len_arr_4 col_arr_4 width_arr_4 marker_arr_4 
+lr_arr_5 hor_arr_5 tb_arr_5 ver_arr_5 rotate_arr_5 len_arr_5 col_arr_5 width_arr_5 marker_arr_5 
+lr_arr_6 hor_arr_6 tb_arr_6 ver_arr_6 rotate_arr_6 len_arr_6 col_arr_6 width_arr_6 marker_arr_6 
+lr_arr_7 hor_arr_7 tb_arr_7 ver_arr_7 rotate_arr_7 len_arr_7 col_arr_7 width_arr_7 marker_arr_7 
+lr_arr_8 hor_arr_8 tb_arr_8 ver_arr_8 rotate_arr_8 len_arr_8 col_arr_8 width_arr_8 marker_arr_8 
+lr_arr_9 hor_arr_9 tb_arr_9 ver_arr_9 rotate_arr_9 len_arr_9 col_arr_9 width_arr_9 marker_arr_9 
+lr_arr_10 hor_arr_10 tb_arr_10 ver_arr_10 rotate_arr_10 len_arr_10 col_arr_10 width_arr_10 marker_arr_10 
+lr_frm_1 hor_frm_1 tb_frm_1 ver_frm_1 rotate_frm_1 width_frm_1 height_frm_1 rx_frm_1 fill_frm_1 stroke-width_frm_1 stroke_frm_1 opacity_frm_1 
+lr_frm_2 hor_frm_2 tb_frm_2 ver_frm_2 rotate_frm_2 width_frm_2 height_frm_2 rx_frm_2 fill_frm_2 stroke-width_frm_2 stroke_frm_2 opacity_frm_2 
+lr_frm_3 hor_frm_3 tb_frm_3 ver_frm_3 rotate_frm_3 width_frm_3 height_frm_3 rx_frm_3 fill_frm_3 stroke-width_frm_3 stroke_frm_3 opacity_frm_3 
+lr_frm_4 hor_frm_4 tb_frm_4 ver_frm_4 rotate_frm_4 width_frm_4 height_frm_4 rx_frm_4 fill_frm_4 stroke-width_frm_4 stroke_frm_4 opacity_frm_4 
+lr_frm_5 hor_frm_5 tb_frm_5 ver_frm_5 rotate_frm_5 width_frm_5 height_frm_5 rx_frm_5 fill_frm_5 stroke-width_frm_5 stroke_frm_5 opacity_frm_5 
+lr_frm_6 hor_frm_6 tb_frm_6 ver_frm_6 rotate_frm_6 width_frm_6 height_frm_6 rx_frm_6 fill_frm_6 stroke-width_frm_6 stroke_frm_6 opacity_frm_6 
+lr_frm_7 hor_frm_7 tb_frm_7 ver_frm_7 rotate_frm_7 width_frm_7 height_frm_7 rx_frm_7 fill_frm_7 stroke-width_frm_7 stroke_frm_7 opacity_frm_7 
+lr_frm_8 hor_frm_8 tb_frm_8 ver_frm_8 rotate_frm_8 width_frm_8 height_frm_8 rx_frm_8 fill_frm_8 stroke-width_frm_8 stroke_frm_8 opacity_frm_8 
+lr_frm_9 hor_frm_9 tb_frm_9 ver_frm_9 rotate_frm_9 width_frm_9 height_frm_9 rx_frm_9 fill_frm_9 stroke-width_frm_9 stroke_frm_9 opacity_frm_9 
+lr_frm_10 hor_frm_10 tb_frm_10 ver_frm_10 rotate_frm_10 width_frm_10 height_frm_10 rx_frm_10 fill_frm_10 stroke-width_frm_10 stroke_frm_10 opacity_frm_10 
+)
+
+
+<div style="position: relative; height:$height$px; width:$width$px">      
+<span style="position: relative">$bckgrnd_txt$</span>
+ 
+<svg>
+<defs>
+<marker id="arr1_end" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill=$col_arr_1$ /></marker>
+<marker id="arr1_start" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M9,0 L9,6 L0,3 z" fill=$col_arr_1$ /></marker>
+<marker id="arr2_end" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill=$col_arr_2$ /></marker>
+<marker id="arr2_start" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M9,0 L9,6 L0,3 z" fill=$col_arr_2$ /></marker>
+<marker id="arr3_end" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill=$col_arr_3$ /></marker>
+<marker id="arr3_start" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M9,0 L9,6 L0,3 z" fill=$col_arr_3$ /></marker>
+<marker id="arr4_end" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill=$col_arr_4$ /></marker>
+<marker id="arr4_start" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M9,0 L9,6 L0,3 z" fill=$col_arr_4$ /></marker>
+<marker id="arr5_end" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill=$col_arr_5$ /></marker>
+<marker id="arr5_start" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M9,0 L9,6 L0,3 z" fill=$col_arr_5$ /></marker>
+<marker id="arr6_end" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill=$col_arr_6$ /></marker>
+<marker id="arr6_start" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M9,0 L9,6 L0,3 z" fill=$col_arr_6$ /></marker>
+<marker id="arr7_end" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill=$col_arr_7$ /></marker>
+<marker id="arr7_start" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M9,0 L9,6 L0,3 z" fill=$col_arr_7$ /></marker>
+<marker id="arr8_end" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill=$col_arr_8$ /></marker>
+<marker id="arr8_start" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M9,0 L9,6 L0,3 z" fill=$col_arr_8$ /></marker>
+<marker id="arr9_end" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill=$col_arr_9$ /></marker>
+<marker id="arr9_start" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M9,0 L9,6 L0,3 z" fill=$col_arr_9$ /></marker>
+<marker id="arr10_end" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill=$col_arr_10$ /></marker>
+<marker id="arr10_start" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M9,0 L9,6 L0,3 z" fill=$col_arr_10$ /></marker>
+</defs>
+</svg>
+
+<span style="position: absolute; $lr_arr_1$:$hor_arr_1$%; $tb_arr_1$:$ver_arr_1$%; zoom:$zoom_arr_1$%; transform:rotate($rotate_arr_1$deg);"><svg width=$len_arr_1$><line x1=50 y1=20 x2=$len_arr_1$ y2=20 stroke=$col_arr_1$ stroke-width=$width_arr_1$ $marker_arr_1$/></svg></span>
+<span style="position: absolute; $lr_arr_2$:$hor_arr_2$%; $tb_arr_2$:$ver_arr_2$%; zoom:$zoom_arr_2$%; transform:rotate($rotate_arr_2$deg);"><svg width=$len_arr_2$><line x1=50 y1=20 x2=$len_arr_2$ y2=20 stroke=$col_arr_2$ stroke-width=$width_arr_2$ $marker_arr_2$/></svg></span>
+<span style="position: absolute; $lr_arr_3$:$hor_arr_3$%; $tb_arr_3$:$ver_arr_3$%; zoom:$zoom_arr_3$%; transform:rotate($rotate_arr_3$deg);"><svg width=$len_arr_3$><line x1=50 y1=20 x2=$len_arr_3$ y2=20 stroke=$col_arr_3$ stroke-width=$width_arr_3$ $marker_arr_3$/></svg></span>
+<span style="position: absolute; $lr_arr_4$:$hor_arr_4$%; $tb_arr_4$:$ver_arr_4$%; zoom:$zoom_arr_4$%; transform:rotate($rotate_arr_4$deg);"><svg width=$len_arr_4$><line x1=50 y1=20 x2=$len_arr_4$ y2=20 stroke=$col_arr_4$ stroke-width=$width_arr_4$ $marker_arr_4$/></svg></span>
+<span style="position: absolute; $lr_arr_5$:$hor_arr_5$%; $tb_arr_5$:$ver_arr_5$%; zoom:$zoom_arr_5$%; transform:rotate($rotate_arr_5$deg);"><svg width=$len_arr_5$><line x1=50 y1=20 x2=$len_arr_5$ y2=20 stroke=$col_arr_5$ stroke-width=$width_arr_5$ $marker_arr_5$/></svg></span>
+<span style="position: absolute; $lr_arr_6$:$hor_arr_6$%; $tb_arr_6$:$ver_arr_6$%; zoom:$zoom_arr_6$%; transform:rotate($rotate_arr_6$deg);"><svg width=$len_arr_6$><line x1=50 y1=20 x2=$len_arr_6$ y2=20 stroke=$col_arr_6$ stroke-width=$width_arr_6$ $marker_arr_6$/></svg></span>
+<span style="position: absolute; $lr_arr_7$:$hor_arr_7$%; $tb_arr_7$:$ver_arr_7$%; zoom:$zoom_arr_7$%; transform:rotate($rotate_arr_7$deg);"><svg width=$len_arr_7$><line x1=50 y1=20 x2=$len_arr_7$ y2=20 stroke=$col_arr_7$ stroke-width=$width_arr_7$ $marker_arr_7$/></svg></span>
+<span style="position: absolute; $lr_arr_8$:$hor_arr_8$%; $tb_arr_8$:$ver_arr_8$%; zoom:$zoom_arr_8$%; transform:rotate($rotate_arr_8$deg);"><svg width=$len_arr_8$><line x1=50 y1=20 x2=$len_arr_8$ y2=20 stroke=$col_arr_8$ stroke-width=$width_arr_8$ $marker_arr_8$/></svg></span>
+<span style="position: absolute; $lr_arr_9$:$hor_arr_9$%; $tb_arr_9$:$ver_arr_9$%; zoom:$zoom_arr_9$%; transform:rotate($rotate_arr_9$deg);"><svg width=$len_arr_9$><line x1=50 y1=20 x2=$len_arr_9$ y2=20 stroke=$col_arr_9$ stroke-width=$width_arr_9$ $marker_arr_9$/></svg></span>
+<span style="position: absolute; $lr_arr_10$:$hor_arr_10$%; $tb_arr_10$:$ver_arr_10$%; zoom:$zoom_arr_10$%; transform:rotate($rotate_arr_10$deg);"><svg width=$len_arr_10$><line x1=50 y1=20 x2=$len_arr_10$ y2=20 stroke=$col_arr_10$ stroke-width=$width_arr_10$ $marker_arr_10$/></svg></span>
+
+<span style="position: absolute; $lr_frm_1$:$hor_frm_1$%; $tb_frm_1$:$ver_frm_1$%; transform:rotate($rotate_frm_1$deg); fill: $fill_frm_1$; stroke-width: $stroke-width_frm_1$; stroke: $stroke_frm_1$; opacity: $opacity_frm_1$;"><svg><rect width=$width_frm_1$ height=$height_frm_1$ rx=$rx_frm_1$/></svg></span>
+<span style="position: absolute; $lr_frm_2$:$hor_frm_2$%; $tb_frm_2$:$ver_frm_2$%; transform:rotate($rotate_frm_2$deg); fill: $fill_frm_2$; stroke-width: $stroke-width_frm_2$; stroke: $stroke_frm_2$; opacity: $opacity_frm_2$;"><svg><rect width=$width_frm_2$ height=$height_frm_2$ rx=$rx_frm_2$/></svg></span>
+<span style="position: absolute; $lr_frm_3$:$hor_frm_3$%; $tb_frm_3$:$ver_frm_3$%; transform:rotate($rotate_frm_3$deg); fill: $fill_frm_3$; stroke-width: $stroke-width_frm_3$; stroke: $stroke_frm_3$; opacity: $opacity_frm_3$;"><svg><rect width=$width_frm_3$ height=$height_frm_3$ rx=$rx_frm_3$/></svg></span>
+<span style="position: absolute; $lr_frm_4$:$hor_frm_4$%; $tb_frm_4$:$ver_frm_4$%; transform:rotate($rotate_frm_4$deg); fill: $fill_frm_4$; stroke-width: $stroke-width_frm_4$; stroke: $stroke_frm_4$; opacity: $opacity_frm_4$;"><svg><rect width=$width_frm_4$ height=$height_frm_4$ rx=$rx_frm_4$/></svg></span>
+<span style="position: absolute; $lr_frm_5$:$hor_frm_5$%; $tb_frm_5$:$ver_frm_5$%; transform:rotate($rotate_frm_5$deg); fill: $fill_frm_5$; stroke-width: $stroke-width_frm_5$; stroke: $stroke_frm_5$; opacity: $opacity_frm_5$;"><svg><rect width=$width_frm_5$ height=$height_frm_5$ rx=$rx_frm_5$/></svg></span>
+<span style="position: absolute; $lr_frm_6$:$hor_frm_6$%; $tb_frm_6$:$ver_frm_6$%; transform:rotate($rotate_frm_6$deg); fill: $fill_frm_6$; stroke-width: $stroke-width_frm_6$; stroke: $stroke_frm_6$; opacity: $opacity_frm_6$;"><svg><rect width=$width_frm_6$ height=$height_frm_6$ rx=$rx_frm_6$/></svg></span>
+<span style="position: absolute; $lr_frm_7$:$hor_frm_7$%; $tb_frm_7$:$ver_frm_7$%; transform:rotate($rotate_frm_7$deg); fill: $fill_frm_7$; stroke-width: $stroke-width_frm_7$; stroke: $stroke_frm_7$; opacity: $opacity_frm_7$;"><svg><rect width=$width_frm_7$ height=$height_frm_7$ rx=$rx_frm_7$/></svg></span>
+<span style="position: absolute; $lr_frm_8$:$hor_frm_8$%; $tb_frm_8$:$ver_frm_8$%; transform:rotate($rotate_frm_8$deg); fill: $fill_frm_8$; stroke-width: $stroke-width_frm_8$; stroke: $stroke_frm_8$; opacity: $opacity_frm_8$;"><svg><rect width=$width_frm_8$ height=$height_frm_8$ rx=$rx_frm_8$/></svg></span>
+<span style="position: absolute; $lr_frm_9$:$hor_frm_9$%; $tb_frm_9$:$ver_frm_9$%; transform:rotate($rotate_frm_9$deg); fill: $fill_frm_9$; stroke-width: $stroke-width_frm_9$; stroke: $stroke_frm_9$; opacity: $opacity_frm_9$;"><svg><rect width=$width_frm_9$ height=$height_frm_9$ rx=$rx_frm_9$/></svg></span>
+<span style="position: absolute; $lr_frm_10$:$hor_frm_10$%; $tb_frm_10$:$ver_frm_10$%; transform:rotate($rotate_frm_10$deg); fill: $fill_frm_10$; stroke-width: $stroke-width_frm_10$; stroke: $stroke_frm_10$; opacity: $opacity_frm_10$;"><svg><rect width=$width_frm_10$ height=$height_frm_10$ rx=$rx_frm_10$/></svg></span>
+
+      
+<span style="position: absolute; $lr_1$:$hor_1$%; $tb_1$:$ver_1$%; zoom:$zoom_1$%; transform:rotate($rotate_1$deg);">$txt_1$</span>
+<span style="position: absolute; $lr_2$:$hor_2$%; $tb_2$:$ver_2$%; zoom:$zoom_2$%; transform:rotate($rotate_2$deg);">$txt_2$</span>
+<span style="position: absolute; $lr_3$:$hor_3$%; $tb_3$:$ver_3$%; zoom:$zoom_3$%; transform:rotate($rotate_3$deg);">$txt_3$</span>
+<span style="position: absolute; $lr_4$:$hor_4$%; $tb_4$:$ver_4$%; zoom:$zoom_4$%; transform:rotate($rotate_4$deg);">$txt_4$</span>
+<span style="position: absolute; $lr_5$:$hor_5$%; $tb_5$:$ver_5$%; zoom:$zoom_5$%; transform:rotate($rotate_5$deg);">$txt_5$</span>
+<span style="position: absolute; $lr_6$:$hor_6$%; $tb_6$:$ver_6$%; zoom:$zoom_6$%; transform:rotate($rotate_6$deg);">$txt_6$</span>
+<span style="position: absolute; $lr_7$:$hor_7$%; $tb_7$:$ver_7$%; zoom:$zoom_7$%; transform:rotate($rotate_7$deg);">$txt_7$</span>
+<span style="position: absolute; $lr_8$:$hor_8$%; $tb_8$:$ver_8$%; zoom:$zoom_8$%; transform:rotate($rotate_8$deg);">$txt_8$</span>
+<span style="position: absolute; $lr_9$:$hor_9$%; $tb_9$:$ver_9$%; zoom:$zoom_9$%; transform:rotate($rotate_9$deg);">$txt_9$</span>
+<span style="position: absolute; $lr_10$:$hor_10$%; $tb_10$:$ver_10$%; zoom:$zoom_10$%; transform:rotate($rotate_10$deg);">$txt_10$</span>
+<span style="position: absolute; $lr_11$:$hor_11$%; $tb_11$:$ver_11$%; zoom:$zoom_11$%; transform:rotate($rotate_11$deg);">$txt_11$</span>
+<span style="position: absolute; $lr_12$:$hor_12$%; $tb_12$:$ver_12$%; zoom:$zoom_12$%; transform:rotate($rotate_12$deg);">$txt_12$</span>
+<span style="position: absolute; $lr_13$:$hor_13$%; $tb_13$:$ver_13$%; zoom:$zoom_13$%; transform:rotate($rotate_13$deg);">$txt_13$</span>
+<span style="position: absolute; $lr_14$:$hor_14$%; $tb_14$:$ver_14$%; zoom:$zoom_14$%; transform:rotate($rotate_14$deg);">$txt_14$</span>
+<span style="position: absolute; $lr_15$:$hor_15$%; $tb_15$:$ver_15$%; zoom:$zoom_15$%; transform:rotate($rotate_15$deg);">$txt_15$</span>
+<span style="position: absolute; $lr_16$:$hor_16$%; $tb_16$:$ver_16$%; zoom:$zoom_16$%; transform:rotate($rotate_16$deg);">$txt_16$</span>
+<span style="position: absolute; $lr_17$:$hor_17$%; $tb_17$:$ver_17$%; zoom:$zoom_17$%; transform:rotate($rotate_17$deg);">$txt_17$</span>
+<span style="position: absolute; $lr_18$:$hor_18$%; $tb_18$:$ver_18$%; zoom:$zoom_18$%; transform:rotate($rotate_18$deg);">$txt_18$</span>
+<span style="position: absolute; $lr_19$:$hor_19$%; $tb_19$:$ver_19$%; zoom:$zoom_19$%; transform:rotate($rotate_19$deg);">$txt_19$</span>
+<span style="position: absolute; $lr_20$:$hor_20$%; $tb_20$:$ver_20$%; zoom:$zoom_20$%; transform:rotate($rotate_20$deg);">$txt_20$</span>   
+
+</div>       
+\end
+
+<<tabs "[[_my/html_tool/global]][[_my/html_tool/elements]][[_my/html_tool/arrows]][[_my/html_tool/frames]]">>

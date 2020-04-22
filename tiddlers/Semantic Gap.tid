@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200212085238090
+modified: 20200325164037822
+tags: [[Introduction to Convolutional Neural Networks for Visual Recognition (Stanford)]] [[Computer Vision]]
+title: Semantic Gap
+tmap.id: 9d62c9c5-cfe2-4df7-9458-ef6a351a04d7
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/Semantic_gap
+
+A human sees the cat - a computer sees just numbers.

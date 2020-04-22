@@ -1,0 +1,23 @@
+[
+    {
+        "created": "20191216151110295",
+        "text": "|<<prs mnemonic>>|\n|<<prs example>>|",
+        "title": "Baroco",
+        "tags": "dd Logic [[100 Days of Logic (carneades.org)]]",
+        "modified": "20200325163931855",
+        "type": "text/vnd.tiddlywiki",
+        "tmap.id": "4fe0a28c-1dc8-4e8d-bf9f-d1abc6546c63",
+        ".temp": "All informative things are useful. (PaM)<br>\nSome websites are not useful. (SoM)<br>\n∴ Some websites are not informative. (SoP)",
+        ".prs.mnemonic-2": "F__''a''__k__''o''__f__''o''__",
+        ".prs.mnemonic": "B__''a''__r__''o''__c__''o''__",
+        ".prs.example": "All lesbians are females.<br>\nSome kinksters are not females.<br>\n&there4; Some kinksters are not lesbians.<br>",
+        ".hsk.tagged_topic": "[<currentTiddler>tags[]field:icon[_my/images/icons/topic]]",
+        ".hsk.tagged_feature": "[<currentTiddler>tags[]field:icon[_my/images/icons/feature]]",
+        ".hsk.tagged_exemplar": "[<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]",
+        ".hsk.tagged_diagram": "[<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]",
+        ".hsk.macrocall": "[[_my/macros/appear/prs]]",
+        ".att.valid": "unconditionally",
+        ".att.mood": "AOO Mood",
+        ".att.figure": "Figure II"
+    }
+]

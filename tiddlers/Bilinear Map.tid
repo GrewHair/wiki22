@@ -1,0 +1,61 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200310213040902
+modified: 20200325163826342
+tags: Map [[Linear Algebra]] Stub
+title: Bilinear Map
+tmap.id: 11f74750-d204-47a7-9a33-11c6545124e7
+type: text/vnd.tiddlywiki
+
+Let $$V$$, $$W$$ and $$X$$ be three [[Vector Spaces]] over the same base [[Field]] $$\mathbb F$$. A [[Bilinear Map]] is a [[Function]] 
+
+$$
+\begin{aligned}
+B: V \times W \to &X \\
+v, w \mapsto &B(v,w)
+\end{aligned}
+$$
+
+such that:
+
+*> for all $$w \in W$$, the map 
+*><$latex text="
+\begin{aligned}
+B_w: V &\to X \\
+v &\mapsto B(v,w)
+\end{aligned}
+"/>
+*>is a [[Linear Map]] from $$V$$ to $$X$$
+
+*
+
+*> for all $$v \in V$$, the map 
+*><$latex text="
+\begin{aligned}
+B_v: W &\to X \\
+w &\mapsto B(v,w)
+\end{aligned}
+"/>
+*>is a [[Linear Map]] from $$W$$ to $$X$$.
+
+In other words, if we fix one of the arguments, the [[Bilinear Map]] turns into a [[Linear Map]] operating on the other argument.
+
+Such a map $$B$$ satisfies the following properties:
+
+* <$latex text="
+B(\vec {v_1} + \vec {v_2}, \vec w) =
+B(\vec {v_1}, \vec w) +
+B(\vec {v_2}, \vec w)\\
+
+B(\vec v, \vec {w_1} + \vec {w_2}) =
+B(\vec v, \vec {w_1}) +
+B(\vec v, \vec {w_2})
+"/> - [[Additivity]] in both components
+
+* for any $$\lambda \in \mathbb F$$, <$latex text="
+B(\lambda v, w) = 
+B(v, \lambda w) = 
+\lambda B(v,w)
+"/> - [[Homogeneity]] in both components.

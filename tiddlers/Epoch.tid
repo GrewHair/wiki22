@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200418165729799
+modified: 20200419091050436
+tags: [[Introduction to Deep Learning in Python (Datacamp)]]
+title: Epoch
+tmap.id: 6a176a5f-9e47-484f-8bd1-485a73531a43
+type: text/vnd.tiddlywiki
+
+[[Stochastic Gradient Descent]] utilizes only a part of the training data in calculation of the [[Cost Function]] during training for computational effeciency purposes. This part of the training data is usually called a [[Batch]].
+
+On each iteration of the a [[Neural Network|Neural Networks]]'s training (i.e. one forward propagation plus one [[Back Propagation|Error Backpropagation]]), a different [[Batch]] is used.
+
+Once the whole training dataset is used, it is commonly said that a [[Neural Network|Neural Networks]] has been through one [[Epoch]].

@@ -1,0 +1,10 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200212072207820
+modified: 20200325164037836
+tags: Stub [[Introduction to Convolutional Neural Networks for Visual Recognition (Stanford)]] [[Computer Vision]]
+title: ImageNet Large Scale Visual Recognition Challenge
+tmap.id: 8379a715-0b66-405d-b73d-b3f6f1a6f608
+type: text/vnd.tiddlywiki

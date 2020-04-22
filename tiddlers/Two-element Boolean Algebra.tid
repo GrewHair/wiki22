@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200314143051199
+modified: 20200325164003942
+tags: [[Boolean Algebra]]
+title: Two-element Boolean Algebra
+tmap.id: f26b0c71-afc8-4a6e-878f-08fd106ae3b4
+type: text/vnd.tiddlywiki
+
+The [[Two-element Boolean Algebra]] is a [[Boolean Algebra|Boolean Algebra (Structure)]] whose [[Universe]] is the [[Boolean Domain]].
+
+https://en.wikipedia.org/wiki/Two-element_Boolean_algebra

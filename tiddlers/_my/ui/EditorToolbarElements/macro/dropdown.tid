@@ -1,0 +1,73 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191213083743304
+modified: 20200325165156124
+title: _my/ui/EditorToolbarElements/macro/dropdown
+tmap.id: 6a4822d3-ed61-4bbd-89c8-6a7ef16a22a9
+type: text/vnd.tiddlywiki
+
+\define add_to_macrocall()
+$(currentMacrocall)$[[$(macroTiddler)$]]
+\end
+
+\define lingo-base() $:/language/Buttons/Link/
+
+\define add-link-actions()
+
+<$wikify name="macroTiddler" text={{$(linkTiddler)$}} type="text/plain">
+<$wikify name="currentMacrocall" text={{{ [has[draft.of]sort[created[]last[]get[.hsk.macrocall]] }}} type="text/plain">
+
+<$action-setfield $tiddler={{{ [has[draft.of]sort[created[]last[]] }}} $field=".hsk.macrocall" $value=<<add_to_macrocall>> />
+
+</$wikify>
+</$wikify>
+
+<$action-sendmessage $message="tm-edit-text-operation" $param="replace-selection" text={{$(linkTiddler)$}} />
+<$action-sendmessage $message="tm-edit-text-operation" $param="wrap-selection" prefix="<<" suffix=">>" />
+
+<$action-deletetiddler $tiddler=<<dropdown-state>> />
+<$action-deletetiddler $tiddler=<<searchTiddler>> />
+<$action-deletetiddler $tiddler=<<linkTiddler>> />
+\end
+
+\define external-link()
+<$button class="tc-btn-invisible" style="width: auto; display: inline-block; background-colour: inherit;" actions=<<add-link-actions>>>
+{{$:/core/images/chevron-right}}
+</$button>
+\end
+
+\define body(config-title)
+''<<lingo Hint>>''
+
+<$vars searchTiddler="""$config-title$/search""" linkTiddler="""$config-title$/link""" linktext="" >
+
+<$vars linkTiddler=<<searchTiddler>>>
+<$keyboard key="ENTER" actions=<<add-link-actions>>>
+<$edit-text tiddler=<<searchTiddler>> type="search" tag="input" focus="true" placeholder={{$:/language/Search/Search}} default=""/>
+<$reveal tag="span" state=<<searchTiddler>> type="nomatch" text="">
+<<external-link>>
+<$button class="tc-btn-invisible" style="width: auto; display: inline-block; background-colour: inherit;">
+<$action-setfield $tiddler=<<searchTiddler>> text="" />
+{{$:/core/images/close-button}}
+</$button>
+</$reveal>
+</$keyboard>
+</$vars>
+
+<$reveal tag="div" state=<<searchTiddler>> type="nomatch" text="">
+
+<$linkcatcher actions=<<add-link-actions>> to=<<linkTiddler>>>
+
+{{$:/core/ui/SearchResults}}
+
+</$linkcatcher>
+
+</$reveal>
+
+</$vars>
+
+\end
+
+<$macrocall $name="body" config-title=<<qualify "$:/state/Link/">>/>

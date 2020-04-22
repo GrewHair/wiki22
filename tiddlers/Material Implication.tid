@@ -1,0 +1,17 @@
+.hsk.macrocall: [[_my/macros/TruthTables/trth_binary]] [[_my/macros/appear/prs_v]] [[_my/macros/appear/res]]
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.prs.truth_table: <<trth_binary &rarr; T F T T>>
+.res.youtube: <iframe width="560" height="315" src="https://www.youtube.com/embed/do5vRAnntKI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+created: 20191016113624543
+modified: 20200325163932116
+tags: Logic Conditional Binary Secondary [[100 Days of Logic (carneades.org)]]
+title: Material Implication
+tmap.id: 1eec2295-efe8-4c92-a3b8-0c024d0aef7b
+type: text/vnd.tiddlywiki
+
+It's [[truth table|Truth Tables]] <<prs_v 'is (click to see):' truth_table>>
+
+<<res youtube>>

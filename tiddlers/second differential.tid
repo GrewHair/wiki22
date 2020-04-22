@@ -1,0 +1,34 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200302151516692
+modified: 20200325165249463
+tags: 
+title: second differential
+tmap.id: f2c09ec5-c377-4475-b3e9-6190628f4619
+type: text/vnd.tiddlywiki
+
+The [[Differential|Differential of a Function]] is the [[Principal Part]] of the change in a function with respect to changes in the independent variable.
+
+The differential of a function $$f(x)$$ is the function $$df$$ of two independent variables $$x$$ and $$\Delta x$$:
+
+$$
+df(x, \Delta{x})   \stackrel{def}=   f'(x)\Delta x
+$$
+
+$$
+\begin{aligned}
+dy = f'(x)dx \\[6pt]
+d(dy) = d(f'(x)dx) \\[6pt]
+d(dy) = (f'(x)dx)'dx \\[6pt]
+d(dy) = (f'(x))'dxdx\\[6pt]
+d(dy) = (f'(x))'dx^2\\[6pt]
+d(dy) = f''(x)dx^2\\[6pt]
+d^2y = f''(x)dx^2\\[6pt]
+\end{aligned}
+$$
+
+$$
+{\displaystyle d^{2}y=d(df)=d(f'(x)dx)=(df'(x))dx=f''(x)\,(dx)^{2},}\\
+$$

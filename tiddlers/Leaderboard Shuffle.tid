@@ -1,0 +1,26 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[_my/images/png/leaderboard_shuffle_example]]
+created: 20200217124746505
+modified: 20200325164053147
+tags: Stub [[How to Win a Data Science Competition]] Kaggle
+title: Leaderboard Shuffle
+tmap.id: fd7327b9-9536-4fcc-b991-e292097fe128
+type: text/vnd.tiddlywiki
+
+{{_my/images/png/leaderboard_shuffle_example}}
+In this example, the competitor that ended up third was initially 389 positions lower!!
+
+Three main reasons for leaderboard shuffle are:
+
+* randomness
+*> in such cases all participants usually have pretty similar (good //or// bad) scores. Examples:
+** https://www.kaggle.com/c/liberty-mutual-group-property-inspection-prediction
+** https://www.kaggle.com/c/two-sigma-financial-modeling
+* too little data
+** restaurant-revenue-prediction
+* different public/private distributions
+*> this is often the case with time-series prediction:
+** https://www.kaggle.com/c/rossmann-store-sales - in this competition, the public-private test split was also time-based - so a lot of people overfitted because of trying too hard to adjust to the public leaderboard, and there was a big [[Leaderboard Shuffle]].

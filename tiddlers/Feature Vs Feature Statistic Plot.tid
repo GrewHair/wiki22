@@ -1,0 +1,17 @@
+.hsk.transcludes: [[_my/images/png/feature_vs_feature_statistic_plot]][[_my/images/png/feature_vs_feature_statistic_plot_sorted]]
+created: 20200114094408781
+modified: 20200325163851259
+tags: [[How to Win a Data Science Competition]] [[Machine Learning]]
+title: Feature Vs Feature Statistic Plot
+tmap.id: a59371c7-6e92-4ae7-a853-ccdbf0de0887
+type: text/vnd.tiddlywiki
+
+One of the ways to arrange features into groups is to calculate some statistic of each of the features, plot this statistic against feature names (column index in pandas DataFrame):
+{{_my/images/png/feature_vs_feature_statistic_plot}}
+`df.mean().plot(style='.')`
+
+,and then sort the features with respect to the values of that statistic:
+{{_my/images/png/feature_vs_feature_statistic_plot_sorted}}
+`df.mean().sort_values().plot(style='.')`
+
+It's sometimes useful to generate new features based on groups of features (for example, these very statistics over one group could serve as a feature).

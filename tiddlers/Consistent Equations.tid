@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200314163403728
+modified: 20200325163826315
+tags: [[Linear Algebra]]
+title: Consistent Equations
+tmap.id: b9e9ceba-3612-4cb4-acad-13a80cdcaaf5
+type: text/vnd.tiddlywiki
+
+An [[Equation]] or a [[System of Equations|System of Linear Equations]] is [[consistent|Consistent Equations]] if it has at least one solution.
+
+In other words, the [[Solution Set]] of a [[Consistent System|Consistent Equations]] is necessarily not empty.

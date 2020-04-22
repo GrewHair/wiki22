@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200311165849039
+modified: 20200325163826492
+tags: [[Linear Algebra]]
+title: Vector
+tmap.id: 6cd3cb11-6f89-48a9-9337-653711c425c6
+type: text/vnd.tiddlywiki
+
+A [[Vector]] is an element of a [[Vector Space]].
+
+It can be considered a 1-[[Tensor]].
+
+One should distinguish a [[Vector]] itself and it's corresponding [[Coordinate Vector]] (or a [[row|Row Vector]] or [[column|Column Vector]] vector matrix as alternative ways to denote it): while [[the former|Vector]] just lives in a [[Vector Space]] and is the same regardless of the choice of [[Basis|Ordered Basis]], the coordinates of [[the letter|Coordinate Vector]] change with the [[Change of Basis]].

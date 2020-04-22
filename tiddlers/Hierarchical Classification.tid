@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200212075423805
+modified: 20200325163857476
+tags: Stub [[Introduction to Convolutional Neural Networks for Visual Recognition (Stanford)]] [[Deep Learning]]
+title: Hierarchical Classification
+tmap.id: fd492de2-9d9f-4ed0-ba54-c10696b62db3
+type: text/vnd.tiddlywiki
+
+https://www.kdnuggets.com/2018/03/hierarchical-classification.html

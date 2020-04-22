@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200320071349049
+modified: 20200325164007528
+tags: Topology
+title: Clopen Set
+tmap.id: 0266722d-1cca-4d07-9716-cc37c9c955d2
+type: text/vnd.tiddlywiki
+
+A [[Set]] $$X$$ is called [[Clopen|Clopen Set]] if it is [[Closed|Closed Set]] and it is also [[Open|Open Set]].

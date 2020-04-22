@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200309132035084
+modified: 20200325163826369
+tags: [[Linear Algebra]]
+title: Vector Subspace
+tmap.id: cb3dea5f-9b24-4d5f-bb27-1af2762467b4
+type: text/vnd.tiddlywiki
+
+AKA ''//Linear Subspace//''
+
+https://en.wikipedia.org/wiki/Linear_subspace

@@ -1,0 +1,30 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200128083409674
+modified: 20200325163749033
+tags: Python Pandas
+title: Building DataFrame From Multiple Files
+tmap.id: f2e21322-ec97-4432-9b73-eeb7a0013ecc
+type: text/vnd.tiddlywiki
+
+Let's say we have 3 files: //data/data1.csv//, //data/data2.csv// and //data/data3.csv//.
+
+! Read them row-wise
+
+```
+from glob import glob
+
+data_files = sorted(glob('data/data*.csv'))
+pd.concat((pd.read_csv(file) for file in data_files), ignore_index=True)
+```
+
+! Read them column-wise
+
+```
+from glob import glob
+
+data_files = sorted(glob('data/data*.csv'))
+pd.concat((pd.read_csv(file) for file in data_files), axis='columns')
+```

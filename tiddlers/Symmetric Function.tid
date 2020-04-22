@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200418114031888
+modified: 20200418114426129
+tags: Mathematics
+title: Symmetric Function
+tmap.id: cd66d897-c266-42cf-88be-01adfdd642ff
+type: text/vnd.tiddlywiki
+
+''Not to be confused with [[Even Function]]!''
+
+A [[Function]] of $$n$$ variables is [[Symmetric|Symmetric Function]] if its value is the same no matter the order of its arguments.
+
+https://en.wikipedia.org/wiki/Symmetric_function

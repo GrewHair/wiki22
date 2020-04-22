@@ -1,0 +1,60 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200310183712065
+modified: 20200325163826278
+tags: [[MIT 18.065 Matrix Methods in Data Analysis, Signal Processing, and Machine Learning]] [[Linear Algebra]] [[Lecture 2]]
+title: Example of a Simple Matrix Multiplication
+tmap.id: 2157bd21-ee16-4210-9834-85b3d7500125
+type: text/vnd.tiddlywiki
+
+$$
+\displaystyle
+S =
+Q \Lambda Q^T =
+(Q \Lambda) Q^T =
+\sum_{k=1}^n 
+\text{(col k)}_{Q \Lambda}
+\text{(row k)}_{Q^T} =
+\text{(sum of rank-one matrices)} = \\
+= (\lambda_1 q_1) q_1^T + 
+  (\lambda_2 q_2) q_2^T + ... +
+  (\lambda_n q_n) q_n^T
+$$
+
+(this is called the [[Spectral Theorem|Finite Dimensional Spectral Theorem]])
+
+Let us prove that this decomposition is correct. $$Q$$'s columns are [[Eigenvectors|Eigenvector]] of $$S$$ (by definition) - so let's try:
+
+$$
+S \vec q_1 =
+  \lambda_1 q_1 q_1^T q_1 +
+  \lambda_2 q_2 q_2^T q_1 + ... +
+  \lambda_n q_n q_n^T q_1
+$$
+
+Now, because of the fact that [[Eigenvectors|Eigenvector]] of [[Symmetric Matrices|Symmetric Matrix]] are [[Orthogonal|Orthogonality]], their [[Dot Products|Dot Product]] must be zero:
+
+$$
+q_2^T q_1 = 0, \;...\;,\; q_n^T q_1 = 0
+$$
+
+So, all the terms other than the first one go to zero:
+
+$$
+S \vec q_1 =
+  \lambda_1 q_1 q_1^T q_1;
+$$
+
+More - because we are free to [[normalize|Normalized Vector]] all the [[Eigenvectors|Eigenvector]], we can assume that $$q_1^T q_1 = 1$$. So finally:
+
+$$
+S \vec q_1 =
+  \lambda_1 q_1.
+$$
+
+As you can see, multiplication by an [[Eigenvector]] resturns this same [[Eigenvector]] times it's [[Eigenvalue]] - exactly as it should. So the decomposition is valid! 
+
+We've split up <$link to="Symmetric Matrix">$$S$$</$link> into a sum of [[Rank-one|Rank-one Matrix]] pieces. What's more, these pieces are [[symmetric|Symmetric Matrix]].
+

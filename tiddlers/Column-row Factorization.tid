@@ -1,0 +1,22 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200309230733864
+modified: 20200325163826326
+tags: [[Lecture 1]] [[MIT 18.065 Matrix Methods in Data Analysis, Signal Processing, and Machine Learning]] [[Linear Algebra]]
+title: Column-row Factorization
+tmap.id: f7a17577-38c5-41cf-8a2f-070bbe37d51c
+type: text/vnd.tiddlywiki
+
+Recall [[this|Another Matrix Factorization]]. This is a case of what is sometimes called the [[Column-row Factorization]] of a [[Matrix]] $$A$$. See:
+
+http://mathsci.kaist.ac.kr/~schoi/lin2010L23-7_6.pdf
+
+There is a related ''theorem'':
+
+If $$A$$ is a nonzero $$m \times n$$ matrix of [[Rank]] k, then $$A$$ can be factored as
+$$A = CR$$, where:
+
+* $$C$$ is the $$m \times k$$ [[Matrix]] whose column [[vectors|Vector]] are the [[Pivot Columns]] of $$A$$, and 
+* $$R$$ is the $$k \times n$$ [[Matrix]] whose row [[vectors|Vector]] are the nonzero rows in the [[Row Reduced Echelon Form]] of $$A$$.

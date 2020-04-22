@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191214210545400
+modified: 20200325133421104
+tags: $:/tags/Macro
+title: _my/macros/appear/res_v
+tmap.id: c943f0e1-32b5-47fc-b98a-7c06df44d0e8
+type: text/vnd.tiddlywiki
+
+\define res_v(show field)
+<$appear show="$show$" $state="state-$field$">
+{{!!.res.$field$}}
+</$appear>
+\end

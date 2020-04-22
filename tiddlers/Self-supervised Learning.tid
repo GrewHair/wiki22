@@ -1,0 +1,11 @@
+created: 20200206063822964
+modified: 20200325163851037
+tags: [[Machine Learning]]
+title: Self-supervised Learning
+tmap.id: b08819a7-1967-4b72-8764-1d76272f3fec
+type: text/vnd.tiddlywiki
+
+[[Self-supervised Learning]] is a relatively new concept in [[Machine Learning]].
+
+* On one hand, it doesn't require explicit labels at it's input to train - which makes it similar to [[Unsupervised Learning]].
+* On the other hand, these models learn through [[Error Backpropagation]] (which never happens with true [[Unsupervised|Unsupervised Learning]] models), which means that it still needs labels - it's just that the models generates them by itself, from implicit data characteristics - so it's really a very special case of [[Supervised Learning]].

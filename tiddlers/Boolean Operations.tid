@@ -1,0 +1,11 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191021094828297
+list: Conjunction Disjunction [[Exclusive Disjunction]] [[Joint Denial]] [[Material Equivalence]] [[Material Implication]] Negation
+modified: 20200325163931837
+tags: Stub Logic [[100 Days of Logic (carneades.org)]]
+title: Boolean Operations
+tmap.id: c3960706-f086-471d-bade-75aad248796b
+type: text/vnd.tiddlywiki

@@ -1,0 +1,22 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[_my/images/png/random_vs_time-based_validation]][[_my/images/png/random_vs_time-based_validation_time_test]]
+created: 20200203104148740
+modified: 20200325164053108
+tags: Stub [[How to Win a Data Science Competition]] Kaggle [[Machine Learning]]
+title: Train-Validation Data-splitting Strategies
+tmap.id: 4115a49b-a5a2-40a0-9979-0429b0f66dbd
+type: text/vnd.tiddlywiki
+
+The main principle of train-validation data splitting is to mimic the organizers' train-test split as accurately as possible - otherwise your validation pipeline may affect your model in such a way that it will get bad scores on the leaderboard. The reasons for this are:
+
+* Different [[Models]]/sets of [[Generated Features|Feature Engineering]] are optimal for different kinds of [[Validation Splits]]. Example:
+*> {{_my/images/png/random_vs_time-based_validation}}
+** the left picture will work better with a model that interpolates the previous and next train points' target values
+** the right picture will not work with such a model, because for the majority of validation points there ain't going to be neither previous nor next train points. It will work better with a model that relies on time-based trend (like a [[Linear Model|Linear Models]]) instead
+* Even if one intelligently engineers the correct features and chooses the right model, the inappropriate validation split will still show bad score (i.e. worse then the leaderboard) - and may also lead to choice of inadequate [[Hyperparameters]]. Example: 
+*>{{_my/images/png/random_vs_time-based_validation_time_test}}
+** on the left picture, the validation target values are closer to the overal target mean value
+** on the right picture, the validation target values are closer to the test target values (which we desire)

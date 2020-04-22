@@ -1,0 +1,14 @@
+.hsk.macrocall: [[_my/macros/TruthTables/trth_binary]] [[_my/macros/appear/prs]]
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.prs.truth_table: <<trth_binary ▽ T T T T>>
+created: 20191020004340826
+modified: 20200325163931934
+tags: Logic
+title: Tautologous Proposition
+tmap.id: ecb26e44-fb1b-4894-9839-e60f67bfddbb
+type: text/vnd.tiddlywiki
+
+<<prs truth_table>>

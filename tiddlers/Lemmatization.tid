@@ -1,0 +1,12 @@
+created: 20200104061619989
+modified: 20200325163851195
+tags: Stub [[How to Win a Data Science Competition]] [[Machine Learning]]
+title: Lemmatization
+tmap.id: af8f3729-b2cc-40ef-82b6-e35b369567aa
+type: text/vnd.tiddlywiki
+
+It's like [[Stemming]], but more sophisticated.
+
+!//Example://
+
+democracy, democratic, democratization &rarr; //democracy//

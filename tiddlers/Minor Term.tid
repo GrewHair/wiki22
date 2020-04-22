@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191113134649649
+modified: 20200325163932102
+tags: Logic
+title: Minor Term
+tmap.id: c0aa54a1-44db-40bf-81d2-229b03372819
+type: text/vnd.tiddlywiki
+
+! ''S''
+
+In a [[Categorical Syllogism]], the [[Term]] that is the [[Subject]] of the [[Conclusion]] is called the [[Minor Term]]

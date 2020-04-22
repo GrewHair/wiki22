@@ -1,0 +1,39 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[_my/images/png/problem_with_train-test_split_by_id]]
+created: 20200203132224586
+modified: 20200325164053112
+tags: Stub [[How to Win a Data Science Competition]] [[Machine Learning]] Kaggle
+title: Train-Test Data-splitting Strategies
+tmap.id: 4de0b592-b0f4-45c3-81c9-603a57ab4e29
+type: text/vnd.tiddlywiki
+
+Three basic ways in which the organizers split the data are as follows:
+
+* Random, row-wise
+*> In such cases the organizers assume that the rows are independent. If, however, some dependency between the rows is accidentally allowed, this can be exploited - //for example say we have a loan payment dataset and a classification task "will/will not pay the loan". Then if some man happens to appear in the train set, and the payment for the same loan made at other time by his wife appears in the test set - that's a leak.// 
+* Timewise
+*> This can be a signal to use some special approaches to [[Feature Generation|Feature Engineering]] based on the nature of the target - //for example, if the target is the number of customers for each day of the next week, the good features to generate will be the number of customers for the same day of previous weeks, average weekly number of customers, etc.//
+*> One special type of time-based validation is the [[Moving Window Validation]]
+** Examples of [[Kaggle]] competitions with a time-based train-test split:
+*** https://www.kaggle.com/c/rossmann-store-sales
+*** https://www.kaggle.com/c/grupo-bimbo-inventory-demand
+* By id
+*> The id could be identifiers of any kind of entity, like user id, batch id, etc. An exapmle of implicitly id-based train-test split can be found here: https://www.kaggle.com/c/caterpillar-tube-pricing. The two main problems that should be recognized with this type of split are as follows:
+*** because of the fact that no train rows should appear in the test set and vice versa, it means that features that are descriptive of the entity's history (like previously liked videos by the user, amount of songs he listened to, etc) will be useless for predictions for new entities:
+***>{{_my/images/png/problem_with_train-test_split_by_id}}
+*** the id may actually be hidden from participants, and thus we have to try and derive it. Examples of such cases are (in both cases the ids could be derived by clustering images):
+**** https://www.kaggle.com/c/the-nature-conservancy-fisheries-monitoring
+**** https://www.kaggle.com/c/intel-mobileodt-cervical-cancer-screening
+* Combined
+** Examples:
+*** If we have a task of predicting sales in a shop, we can choose a splitting date for each shop independently instead of the same split for every shop in the dataset
+*** If we have search queries from multiple users using multiple search engines, we might want to split the data based on the combination of user id //and// engine id
+*** https://www.kaggle.com/c/deloitte-western-australia-rental-prices - in this competition the train-test split was based on a single date, __but the public/private split__ was made based on different dates for different geographic areas
+*** Qualification stage of Data Science Game 2017 - the task was to predict whether a used of an online music service will listen to the song. The train-test split was made in the following way: for each user, the last song he listened to was placed in the test set, while other songs were placed in the train set
+
+<br>
+
+The train-test split may be somewhat non-trivial. For example, in this competition: https://www.kaggle.com/c/home-depot-product-search-relevance the participants were asked to estimate search relevance. The data consisted of search terms and search results for those terms. But the test set contained only completely new search terms. The random split favoured too complicated models and lead to overfitting, while search term-based split lead to underfitting - so in order to select the optimal model it was crucial to mimic the ratio of the train-test split. 

@@ -1,0 +1,39 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200201103831664
+modified: 20200325163851285
+tags: Stub [[Machine Learning]]
+title: Feature Engineering
+tmap.id: 4bbfaeeb-5136-447b-adc9-eaa6413cae45
+type: text/vnd.tiddlywiki
+
+Ways to proceed with feature generation:
+
+* prior/domain knowledge
+* EDA
+<br>
+
+''I'll further organize this tiddler later. ''
+
+For now here's a bunch of terms I've come across in the internet:
+
+* Feature Engineering
+* Feature Selection
+* Feature Extraction
+* Feature Generation
+* Feature Elimination
+* Feature Transformation
+
+Here are some google search results:
+
+* https://datascience.stackexchange.com/questions/29006/feature-selection-vs-feature-extraction-which-to-use-when
+
+* https://towardsdatascience.com/feature-selection-and-dimensionality-reduction-f488d1a035de
+
+* https://en.wikipedia.org/wiki/Feature_selection
+* https://blog.featurelabs.com/feature-engineering-vs-feature-selection/
+* https://datascience.stackexchange.com/questions/130/what-is-dimensionality-reduction-what-is-the-difference-between-feature-selecti
+
+So far i've read only the first of them.

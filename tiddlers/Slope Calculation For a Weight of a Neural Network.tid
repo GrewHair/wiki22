@@ -1,0 +1,33 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[_my/images/png/slope_calculation_for_a_node]]
+created: 20200418120731935
+modified: 20200419091130125
+tags: [[Introduction to Deep Learning in Python (Datacamp)]]
+title: Slope Calculation For a Weight of a Neural Network
+tmap.id: 5fe83e1c-2d10-4d4f-ba5a-9a8a3e2e4824
+type: text/vnd.tiddlywiki
+
+To calculate a [[Slope]] for any weight of a [[Neural Network]] one has to multiply three things:
+
+* Slope of the [[Loss Function]] w.r.t. value of our weight's ''output node''
+** the [[Loss Function]] is the function of two variables, the prediction and the true target value. The differentiation must be w.r.t. the prediction! ([[please see this|Root Mean Squared Error]])
+* The value of our weight's ''input node''
+* Slope of the [[Activation Function]] w.r.t. value of the ''output node''
+<br>
+
+''Example:''
+
+{{_my/images/png/slope_calculation_for_a_node}}
+
+assume that the [[Loss Function]] is squared error, the [[Activation Function]] is just an [[Identity Function]].
+
+* $$\displaystyle \frac{\partial}{\partial \hat y}(\hat y - y)^2 = 2(\hat y - y) = 2(6 - 10) = -8$$
+* $$3$$
+* the [[Derivative]] an [[Identity Function]] is simply $$1$$
+
+So we have: $$-8 \cdot 3 \cdot 1 = -24$$.
+
+''Note:'' this rule arises from the [[Chain Rule]].

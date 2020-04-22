@@ -1,0 +1,14 @@
+[
+    {
+        "created": "20200226154545358",
+        "text": "https://towardsdatascience.com/a-quick-introduction-to-derivatives-for-machine-learning-people-3cd913c5cf33\n\nyou should rework the interpretation of the formula more thoroughly. The two formulas you have written are not the same. The first implies the second, but not vice versa - meanwhile, the second has a special name and interpretation.",
+        "title": "Comment by '(anonymous)' on 'Partial Derivative'",
+        "modified": "20200325165502898",
+        "type": "text/vnd.tiddlywiki",
+        "tmap.id": "f36054e1-c635-4bdf-adc0-ec32f54004ab",
+        "saved-text": "https://towardsdatascience.com/a-quick-introduction-to-derivatives-for-machine-learning-people-3cd913c5cf33\n\nyou should rework the interpretation of the formula more thoroughly. The two formulas you have written are not the same. The first implies the second, but not vice versa - meanwhile, the second has a special name and interpretation.",
+        "role": "comment",
+        "list": "[[Partial Derivative]]",
+        "edit-mode": "no"
+    }
+]

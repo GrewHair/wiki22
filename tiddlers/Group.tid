@@ -1,0 +1,33 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200315155445067
+modified: 20200325163952475
+tags: [[Set Theory]] [[Group Theory]] Stub [[Abstract Algebra]] [[Abstract Algebra (Socratica)]]
+title: Group
+tmap.id: b1389f0a-e7ae-4cfc-82cf-bec7fb275037
+type: text/vnd.tiddlywiki
+
+Let $$G$$ be a [[Set]] and $$\cdot$$ be a [[Binary Operation]] on $$G$$. Then a [[Group]] is a [[Tuple]] $$(G, \cdot$$), that satisfies four requirements called the //group axioms//:
+
+* [[Closure]]
+*> $$\forall a, b \in G: a \cdot b \in G$$
+* [[Associativity]]
+*> $$\forall a, b, c \in G: (a \cdot b) \cdot c = a \cdot (b \cdot c)$$
+* [[Identity Element]]
+*> $$\exists e \in G: e \cdot a = a \cdot e = a \;\forall a \in G$$
+* [[Inverse Element]]
+*> $$\forall a \in G: \; \exists a^{-1} \in G: a \cdot a^{-1} = a^{-1} \cdot a = e$$
+
+https://en.wikipedia.org/wiki/Group_(mathematics)
+
+Examples:
+
+* [[Modular Arithmetics]] (i.e. integers $$\mod 7$$)
+*> $$\{0, 1, 2, 3, 4, 5, 6\}$$
+* <a href="http://mathonline.wikidot.com/the-group-of-symmetries-of-the-equilateral-triangle">Symmetries of the Equilateral Triangle</a>
+*> $$\{1, r, r^2, f, r\cdot f, r^2 \cdot f\}$$ ($$f$$ for rotation, $$r$$ for reflexion, $$1$$ for identity)
+* [[Set of Integers|Integers]]
+
+Notice that [[Groups]] are not required to be [[Commutative|Commutativity]] (see [[Commutative Group]]).

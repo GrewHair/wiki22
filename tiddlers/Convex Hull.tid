@@ -1,0 +1,21 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200316103508447
+modified: 20200325164022859
+tags: [[Convex Geometry]]
+title: Convex Hull
+tmap.id: e7678719-144f-449f-8549-8eca44a79693
+type: text/vnd.tiddlywiki
+
+''AKA Convex Envelope, Convex Closure''
+
+The [[Convex Hull]] of a given [[Set]] $$X$$ may be defined as:
+
+* The unique minimal [[Convex Set]] containing $$X$$
+* The [[Intersection|Set Intersection]] of all [[Convex Sets|Convex Set]] containing $$X$$
+* The [[Set]] of all [[Convex Combinations|Convex Combination]] of points of $$X$$
+* The union of all [[Simplices|Simplex]] with vertices in $$X$$
+
+Note that a [[Convex Hull]] need not be a [[Polytope]] and therefore need not be a [[Simplex]], although it often is - it depends on the [[Set]] $$X$$.

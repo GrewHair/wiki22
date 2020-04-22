@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191113120820825
+modified: 20200325163931778
+tags: Logic [[100 Days of Logic (carneades.org)]]
+title: Conclusion
+tmap.id: f20dd814-35fc-4eae-a23a-9a15fb647a4f
+type: text/vnd.tiddlywiki
+
+In [[Arguments|Argument]], the [[Proposition|Propositions]] to the right of the  [[Consequence|Logical Consequence]] sign is called a [[Conclusion]].

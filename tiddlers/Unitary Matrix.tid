@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200311112243197
+modified: 20200325163826118
+tags: [[Linear Algebra]]
+title: Unitary Matrix
+tmap.id: 807ca915-7f0a-4e83-a4dd-47b0029ae6a0
+type: text/vnd.tiddlywiki
+
+A [[Complex|Complex Numbers]] [[Square Matrix]] $$U$$ is [[Unitary|Unitary Matrix]] if it's [[Conjugate Transpose]] $$U^*$$ is also it's [[Inverse|Inverse Matrix]], that is:
+
+$$U^* U = U U^* = I,$$
+
+where $$I$$ is the [[Identity Matrix]].

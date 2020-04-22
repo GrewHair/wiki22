@@ -1,0 +1,12 @@
+created: 20200318140523418
+edit-mode: no
+list: [[Logarithmic Loss]]
+modified: 20200325165502956
+role: comment
+title: Comment by '(anonymous)' on 'Logarithmic Loss'
+tmap.id: ce49cc15-8de5-478f-ab4a-d3ce418ef5f7
+type: text/vnd.tiddlywiki
+
+see the "important note".
+fix what it is saying later!
+also note that for multiclass classification you actually have a categorical random variable - it may be connected with the multinomial thing! you should sort it out!

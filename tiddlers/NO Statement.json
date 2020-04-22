@@ -1,0 +1,21 @@
+[
+    {
+        "created": "20191029122716799",
+        "text": "The [[Universal]] [[Negative]] [[statement|Categorical Proposition]]\n\nNo //S// are //P//:\n\n<<prs venn-boolean>>\n\nTo see [[Aristotelian|Aristotelian Logic]] version, <<prs_v 'click this:' venn-aristotelian>>\n\n|<<prs mnemonic>>|\n|<<res youtube>>|\n\n<!--Links (for context-aware search):-->\n[[|Subject]]\n[[|Predicate (Categorical Logic)]]",
+        "title": "NO Statement",
+        "tags": "Logic",
+        "modified": "20200325163932084",
+        "type": "text/vnd.tiddlywiki",
+        "tmap.id": "f3068494-0651-42e6-9f3d-e24ece2bcabb",
+        ".res.youtube": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/3qSki3zWSBY\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        ".prs.venn-boolean": "<div style=\"position: relative\">       \n<div style=\"position: relative\">\n{{_my/images/venn/boolean/NO_Statement}}\n</div>       \n<span style=\"position: absolute;left: -3px;top: -21px;\">\n<h1>[[S|Subject]]</h1>\n</span>       \n<span style=\"position: absolute;left: 370px;top: -16px;\">\n<h1>[[P|Predicate (Categorical Logic)]]</h1>\n</span>       \n</div>",
+        ".prs.venn-aristotelian": "<div style=\"position: relative\">       \n<div style=\"position: relative\">\n{{_my/images/venn/aristotelian/NO_Statement}}\n</div>       \n<span style=\"position: absolute;left: -3px;top: -21px;\">\n<h1>[[S|Subject]]</h1>\n</span>       \n<span style=\"position: absolute;left: 370px;top: -16px;\">\n<h1>[[P|Predicate (Cagegorical Proposition)]]</h1>\n</span>       \n</div>",
+        ".prs.mnemonic": "n__''e''__g''o''",
+        ".hsk.transcludes": "[[_my/images/venn/aristotelian/NO_Statement]] [[_my/images/venn/boolean/NO_Statement]]",
+        ".hsk.tagged_topic": "[<currentTiddler>tags[]field:icon[_my/images/icons/topic]]",
+        ".hsk.tagged_feature": "[<currentTiddler>tags[]field:icon[_my/images/icons/feature]]",
+        ".hsk.tagged_exemplar": "[<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]",
+        ".hsk.tagged_diagram": "[<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]",
+        ".hsk.macrocall": " [[_my/macros/appear/prs]] [[_my/macros/appear/prs_v]] [[_my/macros/appear/res]]"
+    }
+]

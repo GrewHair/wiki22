@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200310200218383
+modified: 20200325163826284
+tags: [[Linear Algebra]] Stub
+title: Eigenvector
+tmap.id: d6b6ec3f-c478-49f8-8ddf-61306b558b8f
+type: text/vnd.tiddlywiki
+
+[[Eigenvectors|Eigenvector]] of a [[Symmetric Matrix]] are [[Orthogonal|Orthogonality]]!
+
+https://math.stackexchange.com/questions/255172/eigenvectors-of-similar-matrices

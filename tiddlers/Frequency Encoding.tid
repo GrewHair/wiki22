@@ -1,0 +1,14 @@
+created: 20191226223248356
+modified: 20200325163851255
+tags: [[How to Win a Data Science Competition]] [[Machine Learning]]
+title: Frequency Encoding
+tmap.id: 62dc0aec-4310-4812-96cf-8b0326a5fe93
+type: text/vnd.tiddlywiki
+
+Just replace the values with frequencies of their appearance.
+
+This encoding method can be useful with both [[Tree-based|Tree-based Models]] and [[Non-tree-based Models]].
+
+[[Tree-based Models]] will make less splits because of the frequency information, and [[Non-tree-based Models]] can gain performance in case there is a correlation between the frequencies of these categorical values and the target value.
+
+''Warning:'' this method may run into problems in cases when multiple feature values occur with same frequencies. In such cases it might help to further apply [[Rank Transform]] to the results.

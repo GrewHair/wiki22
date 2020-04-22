@@ -1,0 +1,17 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191031105818692
+modified: 20200325163931923
+tags: Logic
+title: Term Complement
+tmap.id: 550a6e23-5c02-40f5-a7cd-232011739143
+type: text/vnd.tiddlywiki
+
+A Term Complement is a [[Term]], which is opposite of whatever the initial [[Term]] is.
+
+Examples:
+
+* The term complement of //Mortal// is //Immortal//
+* The term complement of //Spanish// is //Non-Spanish//

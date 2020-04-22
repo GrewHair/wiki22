@@ -1,0 +1,19 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200309205236339
+modified: 20200325163826160
+tags: [[Lecture 1]] [[Fundamental Matrix Subspaces]] [[Linear Algebra]] [[MIT 18.065 Matrix Methods in Data Analysis, Signal Processing, and Machine Learning]]
+title: Row Space
+tmap.id: 4d8b1c42-7081-4885-a736-3c07d52e30c8
+type: text/vnd.tiddlywiki
+
+The [[Row Space]] of a [[Matrix]] is the [[Span|Linear Span]] of its row [[vectors|Vector]].
+
+The [[Row Space]] of a [[Matrix]] is the [[Coimage]] of the corresponding [[Matrix Transformation|Linear Map]].
+
+The [[Row Space]] of a [[Matrix]] $$A$$ is just the [[Column Space]] of a [[Transpose]] [[Matrix]] $$A^T$$. This fact is commonly exploited in notation: instead of using something like $$R(A)$$, people just write $$C(A^T)$$. This is convenient in two ways:
+
+* No need for an additional symbol for another vector space
+* Look at the first paragraph of this tiddler: it requires to write down linear combination of ''row'' vectors! By a widely accepted convention, when we say "vector", we mean "column vector" (same in [[Python]], etc) - so this trick avoids using row vectors! Thus, less confusion

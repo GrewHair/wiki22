@@ -1,0 +1,23 @@
+[
+    {
+        "created": "20191216144412841",
+        "text": "|<<prs  mnemonic>>|\n|<<prs  example>>|\n",
+        "title": "Barbari",
+        "tags": "dd Logic [[100 Days of Logic (carneades.org)]]",
+        "modified": "20200325163931859",
+        "type": "text/vnd.tiddlywiki",
+        "tmap.id": "0b68948a-f7c1-411f-9498-2f8de0f32338",
+        ".temp": "All men are mortal. (MaP)<br>\nAll Greeks are men. (SaM)<br> \n∴ Some Greeks are mortal. (SiP)",
+        ".prs.mnemonic": "B__''a''__rb__''a''__r__''i''__",
+        ".prs.example": "All females are humans.<br>\nAll lesbians are females.<br>\n&there4; Some lesbians are humans.",
+        ".hsk.tagged_topic": "[<currentTiddler>tags[]field:icon[_my/images/icons/topic]]",
+        ".hsk.tagged_feature": "[<currentTiddler>tags[]field:icon[_my/images/icons/feature]]",
+        ".hsk.tagged_exemplar": "[<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]",
+        ".hsk.tagged_diagram": "[<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]",
+        ".hsk.macrocall": "[[_my/macros/appear/prs]]",
+        ".att.weakened": "yes",
+        ".att.valid": "conditionally",
+        ".att.mood": "AAI Mood",
+        ".att.figure": "Figure I"
+    }
+]

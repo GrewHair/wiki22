@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200418114435250
+modified: 20200418115245037
+tags: [[Quick Notes]]
+title: Note on loss functions
+tmap.id: 91ca19dc-d938-43bd-94e2-4ea87be4f43a
+type: text/vnd.tiddlywiki
+
+Although a lot of [[Loss Functions|Loss Function]] are [[Symmetric|Symmetric Function]], the [[Gradient Descent]] (or any other) optimization algorithm requires taking [[Derivatives|Derivative]] of them, which are most probably non-symmetric (just because of their very purpose). Just look at the derivative of square loss function w.r.t. a prediction - it will be something like $$2(y - \hat y)$$ !
+
+Because of this, it //''matters''// to remember the order of their arguments!

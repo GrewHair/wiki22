@@ -1,0 +1,22 @@
+[
+    {
+        "created": "20191216152737983",
+        "text": "|<<prs mnemonic>>|\n|<<prs example>>|",
+        "title": "Bramalip",
+        "tags": "dd Logic [[100 Days of Logic (carneades.org)]]",
+        "modified": "20200325163931834",
+        "type": "text/vnd.tiddlywiki",
+        "tmap.id": "a4442faa-ac1f-4bb4-97af-2b43a50ff79a",
+        ".prs.mnemonic-2": "Br__''a''__m__''a''__nt__''i''__p",
+        ".prs.mnemonic": "Br__''a''__m__''a''__l__''i''__p",
+        ".prs.example": "All lesbians are females.<br>\nAll females are humans.<br>\n&there4; Some humans are lesbians.",
+        ".hsk.tagged_topic": "[<currentTiddler>tags[]field:icon[_my/images/icons/topic]]",
+        ".hsk.tagged_feature": "[<currentTiddler>tags[]field:icon[_my/images/icons/feature]]",
+        ".hsk.tagged_exemplar": "[<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]",
+        ".hsk.tagged_diagram": "[<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]",
+        ".hsk.macrocall": "[[_my/macros/appear/prs]]",
+        ".att.valid": "conditionally",
+        ".att.mood": "AAI Mood",
+        ".att.figure": "Figure IV"
+    }
+]

@@ -1,0 +1,42 @@
+.hsk.macrocall: [[_my/macros/Railroad/rlrd_syll]] [[_my/macros/appear/prs]]
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.prs.railroad: <<rlrd_syll 'Major Premise' 'Minor Premise' 'Conclusion (Categorical Syllogism)' >>
+color: #18b8e7
+created: 20191112121443770
+icon: _my/images/icons/exemplar
+modified: 20200325171046960
+tags: Logic [[100 Days of Logic (carneades.org)]]
+title: Categorical Syllogism
+tmap.id: e2bfa3f7-5c28-496c-b963-7fea2986e8e2
+type: text/vnd.tiddlywiki
+
+Categorical Syllogism is a type of [[Argument]], in which [[Premises|Premise]] and [[Conclusions|Conclusion]] are all [[Categorical Propositions|Categorical Proposition]].
+
+It's important to note, that an argument is only called a [[Categorical Syllogism]] if the [[Terms|Term]] of the [[Propositions|Categorical Proposition]] it consists of satisfy the following:
+
+* there's exactly three of them;
+* each of these [[Terms|Term]] appears exactly twice in the whole [[Argument|Categorical Syllogism]];
+* both [[Middle Terms|Middle Term]] (see below) never occur in the same [[sentence|Categorical Proposition]];
+* the [[Conclusion]] necessarily contains both the [[Major|Major Term]] and the [[Minor|Minor Term]] terms (see below).
+
+Based on these conditions, the [[Terms|Term]] are conventionally named (according to their roles):
+
+* [[Minor Term]] (''S'')
+* [[Middle Term]] (''M'')
+* [[Major Term]] (''P'')
+
+<<prs railroad>>
+
+<!--Links (for context-aware search):-->
+[[|Major Premise]]
+[[|Minor Premise]]
+[[|Conclusion (Categorical Syllogism)]]
+[[|Conjunction]]
+[[|Material Implication]]
+
+
+
+ 

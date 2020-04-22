@@ -1,0 +1,11 @@
+.hsk.transcludes: [[_my/images/png/scatter_matrix]]
+created: 20200114075912724
+modified: 20200325163851044
+tags: Stub [[How to Win a Data Science Competition]] [[Machine Learning]]
+title: Scatter Matrix
+tmap.id: ec0c23ee-d6dd-49be-8910-957ed7f6cb42
+type: text/vnd.tiddlywiki
+
+`pd.scatter_matrix(df)`
+
+{{_my/images/png/scatter_matrix}}

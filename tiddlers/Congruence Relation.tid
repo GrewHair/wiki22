@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200317063541365
+modified: 20200325163854437
+tags: [[Abstract Algebra]] Stub
+title: Congruence Relation
+tmap.id: 329c5745-c23a-47b9-9aa9-9e9e08c71909
+type: text/vnd.tiddlywiki
+
+A [[Congruence Relation]] is an [[Equivalence Relation]] on an [[Algebraic Structure]] such that algebraic operations done with equivalent elements will yield equivalent elements.
+
+If $$G$$ is a [[Group]] with operation $$*$$, a [[Congruence Relation]] on $$G$$ is an [[Equivalence Relation]] $$\equiv$$ on the elements of $$G$$ satisfying:
+
+$$
+g_1 \equiv g_2 \text{ and } h_1 \equiv h_2 \implies g_1 * h_1 \equiv g_2 * h_2
+$$
+
+for all $$g_1, g_2, h_1, h_2 \in G$$.

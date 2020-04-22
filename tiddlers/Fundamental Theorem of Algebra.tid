@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200309173301278
+modified: 20200325163908238
+tags: Algebra [[Fundamental Theorem]]
+title: Fundamental Theorem of Algebra
+tmap.id: 7733179a-ca30-4d2f-83bd-34b0805a1db7
+type: text/vnd.tiddlywiki
+
+The [[Field]] of [[Complex Numbers]] is [[Algebraically Closed]].

@@ -1,0 +1,29 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[_my/images/png/metrics_vs_decision_boundries]][[_my/images/png/stock_prediction_example]]
+created: 20200224100848410
+modified: 20200325163851155
+tags: [[Machine Learning]] [[How to Win a Data Science Competition]]
+title: Metrics Motivation, Advice and Pitfalls
+tmap.id: ee3c84b0-37a6-46c4-bf69-b440fe0724a5
+type: text/vnd.tiddlywiki
+
+* ''Chosen metric determines optimal decision boundary''
+*>{{_my/images/png/metrics_vs_decision_boundries}}
+
+*>Picture from: https://arxiv.org/pdf/1608.04802.pdf
+* Thus, ''in order to get better scores'', one generally wants to ''optimize his models using the exact same metric'' as the one specified by the organizer of a competition
+* However, ''Some metrics can not be directly optimized'' for. //Or// optimization of a metric specified in a competition may sometimes not lead to good score.
+*>In particular, time series can be very hard to predict. For example:
+*>{{_my/images/png/stock_prediction_example}}
+*>$$\displaystyle
+Loss(\hat{y_i}; y_i) = \left\{\begin{matrix}
+|y_i - \hat{y_i}|, \quad  \operatorname{if\ trend\ predicted\ correctly} \\
+(y_i - \hat{y}_i)^2, \quad \operatorname{if\ trend\ predicted\ incorrectly}\\
+\end{matrix}\right.
+$$
+*>Here if the prediction goes up from the previous tick, and the real target also goes up - this means that the trend is predicted correctly, if the opposite happens, the trend is predicted incorrectly.
+*>This kind of loss function cares more for the trend (up/down), then for the amount. More, this loss function can not be easily optimized for.
+*>In this case a better solution will be to predict //only// the trend: $$y_{last} + 10^{-6}\ or\ y_{last} - 10^{-6}$$.

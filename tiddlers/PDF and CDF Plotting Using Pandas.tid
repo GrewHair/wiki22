@@ -1,0 +1,13 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200127083312142
+modified: 20200325163745786
+tags: Stub Pandas
+title: PDF and CDF Plotting Using Pandas
+tmap.id: 20f50583-5060-495c-a7f5-9ac849fafb73
+type: text/vnd.tiddlywiki
+
+* To plot a PDF, use `normed=True`
+* To plot a CDF, use `normed=True` and `cumulative=True`

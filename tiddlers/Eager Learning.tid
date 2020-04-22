@@ -1,0 +1,18 @@
+created: 20200201100122344
+modified: 20200325163851313
+tags: Models [[Machine Learning]] Eager
+title: Eager Learning
+tmap.id: 88b7cde4-ffb9-462a-9822-a40281ad5903
+type: text/vnd.tiddlywiki
+
+[[Eager Learning]] models try to construct a general, input-independent target function during training of the system, as opposed to [[Lazy Learning]].
+
+The main advantage of this is that it requires a lot less space, the approximating function occupies much less then having to memorize all the data until the query to predict arrives.
+
+Examples:
+
+* [[Linear Models]]
+* [[Neural Networks]]
+* Probably, majority of mahine learning models
+
+https://en.wikipedia.org/wiki/Eager_learning

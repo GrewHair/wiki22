@@ -1,0 +1,25 @@
+.hsk.transcludes: [[_my/images/png/premature_nan_imputation_example]][[_my/images/png/premature_nan_imputation_example_2]][[_my/images/png/test-only_category]]
+created: 20191227130028757
+modified: 20200325163851139
+tags: [[How to Win a Data Science Competition]] [[Machine Learning]]
+title: Missing Values
+tmap.id: 5869fdd1-b5dc-4d6b-b089-c4eaf5be9ca7
+type: text/vnd.tiddlywiki
+
+* They can manifest themselfes in the data in a number of ways, like: //NaN, 0, "", -inf, -1, 9999, some particular value, etc.//
+* One can recognize the missing values by plotting [[Histograms]] - the missing values will show up on them as [[Outliers]] or probably anomalously large peaks (in general, any anomaly in the [[Histogram|Histograms]] may witness about [[Missing Values]]).
+* They may actually be very informative by themselves, in that one can get a hint about the data collection method, etc, from their patterns and/or form. So in general it is not recommended to [[impute|Missing Value Imputation]] them before the [[Feature Generation|Feature Engineering]] stage.
+* Besides that, unthoughtful [[Imputation|Missing Value Imputation]] can lead the [[Model|Models]] astray, because after it is done, you may not recognize NaNs anymore and [[generate|Feature Generation]] screwed-up features - so missing values handling almost always should come __after__ the [[Feature Generation]] stage.
+* To illustrate the two previous points, take a look at the picture below. Say we have two features: temperature and time, and some temperature values are missing. If we immediately impute them with, say, a yearly [[Median]], they will probably get near-zero values. If, then, we decide to generate a feature like 'difference in temperature between two different days', we are going to get some crazy values in them, that will lead our [[Model|Models]] astray.
+*>{{_my/images/png/premature_nan_imputation_example}}
+* Another example of premature NaN imputation.  Say we want to encode some categorical feature with category-wise mean values of some other feature which is numeric (see the last point in [[Label Encoding]]). If we impute the missing values of the numeric feature with -999 //before this//, we'll get screwed-up encoding:
+*>{{_my/images/png/premature_nan_imputation_example_2}}
+*> This also shows two other important things:
+** One should look out for missing values any time he decides to generate features
+** Since some missing values may happen to be imputed for us out of the box, sometimes we should track and 'un-impute' them if possible.
+* ``XGBoost`` can handle NaNs natively - __this is important__.
+* Sometimes one can treat outliers as missing values, for example if some [[datetime]] feature like 'year of birth' has value '2100'
+*  If we have a [[Categorical Feature|Categorical Features]], some values of which are only present in the test set, and not in the train set (see picture below), we can replace the these test set-only values with NaNs (make them missing values), which may help our score, because otherwise the model will treat a row with such a value randomly (since it hasn't seen it before). 
+*>{{_my/images/png/test-only_category}}
+*> It may also help to encode such features using [[Frequency Encoding]], because it may be the case that there exists a dependency between the target and the frequency of the mentioned category
+* Missing values are best replaced with something easy to find later, like a particular value outside the feature's range, __and__, if possible, unique (which means one should thoroughly examine the dataset for values which by bad luck may coincide with the value one chooses to substitute missing values for).

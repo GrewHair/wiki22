@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200310230848390
+modified: 20200325163826156
+tags: [[Linear Algebra]] Stub
+title: Scalar
+tmap.id: e843042e-60f0-40b2-b746-91c1224dc95e
+type: text/vnd.tiddlywiki
+
+A [[Scalar]] is an element of a [[Field]] which is used to define a [[Vector Space]].

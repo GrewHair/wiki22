@@ -1,0 +1,19 @@
+created: 20200104064817197
+modified: 20200325163850973
+tags: [[How to Win a Data Science Competition]] [[Machine Learning]]
+title: Word2vec
+tmap.id: 50f985d4-0e1d-4149-895f-4be118e9e169
+type: text/vnd.tiddlywiki
+
+[[Word2vec]] is a [[shallow|Shallow Neural Network]] two-layer [[Neural Network]], that is fed a large corpus of text and produces a (several hundred-dimensional) [[Vector Space]].
+
+It is a [[Self-supervised|Self-supervised Learning]] model.
+
+Some implementations:
+
+* ''Words:'' Word2vec, Glove, FastText, etc
+* ''Sentences:'' Doc2vec, etc
+
+There exist pretrained models (on Wikipedia for example)
+
+If one chooses to try to train his own word2vec (which is long and hard), all the text preprocessings (Lowercase, [[Lemmatization]], [[Stemming]], [[Stopwords]]) apply before training.

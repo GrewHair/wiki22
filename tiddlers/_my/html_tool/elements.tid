@@ -1,0 +1,91 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+caption: Elements
+created: 20191208181509199
+modified: 20200325133132533
+title: _my/html_tool/elements
+tmap.id: cb05b652-f929-430d-bc62-e1df4d890b46
+type: text/vnd.tiddlywiki
+
+\define el_ctrl_table(id)
+<table>
+<thead>
+<$edit-text tiddler="_my/temp/$id$/text" tag="input" default=''/>
+</thead>
+<tbody>
+<tr>
+<td>
+<$select tiddler='_my/temp/$id$/lr'>
+<option value='left'>left</option><option value='right'>right</option>
+</$select>
+</td>
+<td>
+<$range tiddler="_my/temp/$id$/hor" min="0" max="100" default="0" increment="1"/>
+</td>
+<td>
+<$edit-text tiddler="_my/temp/$id$/hor" size="1" tag="input" default=''/>%
+</td>
+</tr>
+<tr>
+<td>
+<$select tiddler='_my/temp/$id$/tb'>
+<option value='top'>top</option><option value='bottom'>bottom</option>
+</$select>
+</td>
+<td>
+<$range tiddler="_my/temp/$id$/ver" min="0" max="100" default="0" increment="1"/>
+</td>
+<td>
+<$edit-text tiddler="_my/temp/$id$/ver" size="1" tag="input" default=''/>%
+</td>
+</tr>
+<tr>
+<td>
+zoom: 
+</td>
+<td>
+<$range tiddler="_my/temp/$id$/zoom" min="1" max="200" default="100" increment="1"/>
+</td>
+<td>
+<$edit-text tiddler="_my/temp/$id$/zoom" size="1" tag="input" default=''/>%
+</td>
+</tr>
+<tr>
+<td>
+rotate: 
+</td>
+<td>
+<$range tiddler="_my/temp/$id$/rotate" min="-100" max="100" default="0" increment="1"/>
+</td>
+<td>
+<$edit-text tiddler="_my/temp/$id$/rotate" size="1" tag="input" default=''/>deg
+</td>
+</tr>
+</tbody>
+</table>
+\end
+
+<$scrollable class='tc-scrollable-demo'>
+<<el_ctrl_table 1>>
+<<el_ctrl_table 2>>
+<<el_ctrl_table 3>>
+<<el_ctrl_table 4>>
+<<el_ctrl_table 5>>
+<<el_ctrl_table 6>>
+<<el_ctrl_table 7>>
+<<el_ctrl_table 8>>
+<<el_ctrl_table 9>>
+<<el_ctrl_table 10>>
+<<el_ctrl_table 11>>
+<<el_ctrl_table 12>>
+<<el_ctrl_table 13>>
+<<el_ctrl_table 14>>
+<<el_ctrl_table 15>>
+<<el_ctrl_table 16>>
+<<el_ctrl_table 17>>
+<<el_ctrl_table 18>>
+<<el_ctrl_table 19>>
+<<el_ctrl_table 20>>
+</$scrollable>

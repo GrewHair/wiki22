@@ -1,0 +1,49 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200321195437003
+modified: 20200325165156137
+tags: 
+title: _my/stylesheets/fonts/.list
+tmap.id: 76fa21ad-9960-401d-be8b-1c816319983c
+type: text/vnd.tiddlywiki
+
+* lexie
+** lexie_readablebold
+** lexie_readableregular
+
+* open dyslexic
+** opendyslexicaltabold
+** opendyslexicaltabold_italic
+** opendyslexicaltaitalic
+** opendyslexicaltaregular
+** opendyslexicbold
+** opendyslexicbold_italic
+** opendyslexicitalic
+** opendyslexicmonoregular
+** opendyslexicregular
+
+* open dyslexic 2
+** opendyslexic2altabold
+** opendyslexic2altabold_italic
+** opendyslexic2altaitalic
+** opendyslexic2altaregular
+** opendyslexic2bold
+** opendyslexic2bold_italic
+** opendyslexic2italic
+** opendyslexic2regular
+
+* open dyslexic 3
+** opendyslexic3bold
+** opendyslexic3regular
+
+* new open dyslexic 3
+** new_opendyslexic3bold
+** new_opendyslexic3bold-italic
+** new_opendyslexic3italic
+** new_opendyslexic3regular
+
+* opendyslexic_monoregular
+
+* ariamark

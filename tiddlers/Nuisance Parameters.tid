@@ -1,0 +1,45 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[_my/images/png/likelihood_vs_profile_likelihood]]
+created: 20200228234959147
+modified: 20200325163913746
+tags: Statistics
+title: Nuisance Parameters
+tmap.id: c8609c56-c404-4868-8dab-0d34498cc322
+type: text/vnd.tiddlywiki
+
+Consider that we usually have only one parameter of interest (usually it's [[Mean]]).
+
+Other parameters requiring estimation (say, [[Standard Deviation]]) are considered [[Nuisance Parameters]].
+
+$$\displaystyle
+  \mathcal L(\mu, \sigma^2) =
+  \left(                      \frac 1 {2 \pi \sigma^2}       \right)
+                            ^{\frac   {\displaystyle n} 
+                                      {\displaystyle 2}}
+  \text{exp}
+  \left\{
+ -\sum_{i=1}^n                \frac   {(y_i - \mu)^2}
+                                      {2 \sigma^2}           \right\}
+$$
+
+We can replace nuisance parameters in [[Likelihood Functions|Likelihood Function]] with their estimates to create a [[Profile Likelihood]].
+
+The estimate for [[Standard Deviation]] is the [[Sample Variance]] $$S^2$$. We can replace $$\sigma^2$$ with $$S^2$$ in out [[Likelihood Function]], and through this it will become a function of just $$\mu$$ (the [[Profile Likelihood]]):
+
+$$\displaystyle
+  \mathcal L(\mu) =
+  \left(                      \frac 1 {2 \pi S^2}       \right)
+                            ^{\frac   {\displaystyle n} 
+                                      {\displaystyle 2}}
+  \text{exp}
+  \left\{
+ -\sum_{i=1}^n                \frac   {(y_i - \mu)^2}
+                                      {2 S^2}           \right\}
+$$
+
+The [[Profile Likelihood]] function is simply a cross-section of the full [[Likelihood Function]] at some given value of the [[Nuisance Parameter|Nuisance Parameters]]. Visually it means that the surface described by the function loses dimension:
+
+{{_my/images/png/likelihood_vs_profile_likelihood}}

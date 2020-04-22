@@ -1,0 +1,32 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200318104055745
+modified: 20200325163928018
+tags: [[Information Theory]]
+title: Entropy (Information Theory)
+tmap.id: cee3b55d-356a-4f0a-9acd-76b96f0f5fb5
+type: text/vnd.tiddlywiki
+
+''AKA Information Entropy, Shannon Entropy''
+
+The [[Entropy|Entropy (Information Theory)]] is the [[Expected Value]] of [[Information Content]].
+
+In is well defined only for [[Discrete Random Variables|Discrete Random Variable]].
+
+Let $$X$$ be a [[Discrete Random Variable]] with possible values $$\{x_1, x_2, ..., x_n\}$$ and [[PMF|Probability Mass Function]] $$P(X)$$. The [[Entropy|Entropy (Information Theory)]] is defined as:
+
+$$\Eta(X) = \mathbb E[I(X)]
+          = \mathbb E[-\log(P(X))],$$
+
+where $$\mathbb E$$ is the [[Expected Value Operator|Expected Value]] and $$I(X)$$ is the [[Information Content]] of $$X$$.
+
+It is explicitly written as:
+
+$$
+\displaystyle
+\Eta(X) = - \sum_{i=1}^n P(x_i)\log_b P(x_i),
+$$
+
+where $$b$$ is the chosen base of the logarithm (normally chosen to be 2).

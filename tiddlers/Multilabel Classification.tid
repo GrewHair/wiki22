@@ -1,0 +1,17 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[_my/images/png/multilabel_classification]]
+created: 20200419091805517
+modified: 20200419114910846
+tags: [[Introduction to Deep Learning With Keras (Datacamp)]] Stub
+title: Multilabel Classification
+tmap.id: 57f1c5e2-ad35-47a4-b7fb-87971eff4eab
+type: text/vnd.tiddlywiki
+
+In [[Multilabel Classification]] problems it is allowed for 'classes' to overlap (very similar to tagging systems).
+
+{{_my/images/png/multilabel_classification}}
+
+While [[One-Hot Encoding]] may be benefitial for any binary or multiclass [[Classification]] models, for [[Multilabel Classification]] it is just an absolute necessity (as can be seen it the picture above)

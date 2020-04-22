@@ -1,0 +1,40 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200226112601585
+modified: 20200325163947173
+tags: Questionable Stub [[Multivariable Calculus]] [[Jan Bronnikau]]
+title: Partial Derivative
+tmap.id: 77f1c7f7-20ed-403c-9c88-d0356fa11f60
+type: text/vnd.tiddlywiki
+
+[[Partial Derivatives|Partial Derivative]] are easier to take analytically than [[Total Derivatives|Total Derivative]]: you just naively treat the variable you are differentiating with respect to as the only variable, and all the other variables as constants.
+
+[[Partial Derivatives|Partial Derivative]] don't take into account the possibility that other variables may turn out to also be functions of the variable you are differentiating by, and through this they will also influence the function you are differentiating. In this sense, [[Partial Derivatives|Partial Derivative]] don't really carry any interpretable meaning in terms of increments of the function and the variables, other than just //"it is a derivative of a function with respect to x under the assumption that no other variable it depends on, also depends on x"//.
+
+Thus, claiming that some equation holds true that has a [[Partial Derivative]] in it is a //weaker statement// than stating the same with [[Total Derivative]], i.e. it is easier to justify, since it assumes only a [[Subset]] of the [[Set]] of all dependencies that the [[Total Derivative]] requires.
+
+Also, there is no such thing as $$\partial f$$ or $$\partial x$$ - there is no "partial differential" - so one can not "multiply both sides by $$\partial x$$".
+
+One of the main uses of [[Partial Derivatives|Partial Derivative]] is basically as a stepping stone to calculating the [[Total Derivative]]:
+
+$$\displaystyle \frac {d q}{d x_p} = \sum_{i=1}^M\frac{\partial q}{\partial x_i} \frac{d x_i}{d x_p}, \quad or \quad d q = \sum_{i=1}^M\frac {\partial q}{\partial x_i} d x_i,$$
+
+which can be formulated in words as //"find partial derivatives of q with respect to all the variables it depends on; find total derivatives of all of these variables with respect to the variable you're differentiating by; multiply all of them pairwise, and sum up all of the products"//.
+
+Note that this important definition is [[recursive|Recursion]], because in order to calculate the [[Total Derivative]] you are asked to calculate some [[Total Derivatives|Total Derivative]] (by the way, that is probably why this second form exists - to cover this shame =D).
+
+Also note that in this formula, //p// may or may ''not'' belong to //[1; M]// - so nobody stops you from calculating [[Total Derivatives|Total Derivative]] with respect to variables on which a function does not //explicitly// depend (i.e. they are not present in the function's expression).
+
+Another context in which [[Partial Derivatives|Partial Derivative]] often occur is [[Vector Calculus]]. Because of how widely they are used in that field (for reasons not //yet// very apparent to me) and the very way they are used there, it's tempting to just begin to think of them as "spacial derivatives" while the derivative with respect to time is associated with [[total differentiation|Total Derivative]]. While this semi-apparent, semi-obscure distinction is interesting and worth attention, it is basically ''false''.
+
+Sometimes in [[Statistical|Statistics]] and [[Data Science]] papers one can come across some equations with partial derivatives in unusual places (where one would normally see the [[Total Derivative]]) (examples: <span style="color:red">PLACE GRADIENT BOOSTING EXAMPLE HERE!!</span>, [[example 2|Root Mean Squared Error]]). I'm really not sure why - it may be because as stated above it is a weaker, safer statement, or maybe it has something to do with the notion and the possibility of statistical dependence, or some other reasons.
+
+In general, $$\frac {\partial f}{\partial x} \neq \frac {d f}{d x}$$, but from a purely formal perspective, a lot of times they are equivalent. These cases are:
+
+* With univariate functions
+* With [[Vector-valued Functions]] of one argument
+* With [[multivariate functions|Multivariable Calculus]], when it is clear that the independent variables don't in turn depend on each other (which is in general hard to assume)
+
+A related notion is the [[Parametric Derivative]].

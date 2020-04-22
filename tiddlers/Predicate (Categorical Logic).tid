@@ -1,0 +1,10 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191031062210282
+modified: 20200325163932062
+tags: Stub Logic
+title: Predicate (Categorical Logic)
+tmap.id: d9b2d54e-e6c2-478e-8d80-755bbce9e20e
+type: text/vnd.tiddlywiki

@@ -1,0 +1,19 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200315150617890
+modified: 20200325163938032
+tags: [[Set Theory]] Algebra [[Predicate Logic]] Stub
+title: Binary Operation
+tmap.id: 677a6e2f-a8ec-4d92-9ef3-ba2c4e1ff072
+type: text/vnd.tiddlywiki
+
+''AKA Dyadic Operation''
+
+A [[Binary Operation]] on a [[Set]] $$S$$ is a [[mapping|Map]] of the elements of the [[Cartesian Product]] $$S \times S$$ to $$S$$:
+
+$$f: S \times S \to S.$$
+
+https://en.wikipedia.org/wiki/Binary_operation
+

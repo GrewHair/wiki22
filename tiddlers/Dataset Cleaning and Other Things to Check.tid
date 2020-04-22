@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200115104843231
+modified: 20200325163851352
+tags: Stub [[How to Win a Data Science Competition]] [[Machine Learning]]
+title: Dataset Cleaning and Other Things to Check
+tmap.id: 4c4c4b46-0e28-4133-97df-e06fe0b7c42b
+type: text/vnd.tiddlywiki
+
+* Dataset Cleaning
+** [[Constant Features|Constant Features Handling]]
+** [[Duplicated Features|Duplicated Features Handling]]
+* Other Things to Check
+** [[Duplicated Rows|Duplicated Rows Handling]]
+** [[Check|Index Vs Value Plot]] if the dataset is [[Shuffled|Shuffled Data]]
+** Misc.
+*** Count NaNs across both features and rows  (using `df.isna().sum()`)- you might find some patterns
+*** count unique values for each feature (using `df.nunique(dropna=False)`) - because often the types of variables are far from clear, and this method tells you ''a lot''. Additionally it informs you about [[Constant Features|Constant Features Handling]]

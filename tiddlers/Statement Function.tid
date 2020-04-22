@@ -1,0 +1,16 @@
+created: 20191222155055248
+modified: 20200325163937988
+tags: [[Predicate Logic]] Logic
+title: Statement Function
+tmap.id: d2617cb4-7532-4a1d-9ecd-0b4504e540f4
+type: text/vnd.tiddlywiki
+
+[[Statement Function]] is a combination of a [[Predicate|Predicate (Predicate Logic)]] with a [[Variable|Variable (Predicate Logic)]].
+
+Example:
+
+[[A|Predicate (Predicate Logic)]][[x|Variable]][[→|Material Implication]][[B|Predicate (Predicate Logic)]][[x|Variable]]
+
+It is basically a [[Statement|Statement (Predicate Logic)]] with individual [[Variables|Variable (Predicate Logic)]] and no [[Quantifier|Quantifier (Predicate Logic)]].
+
+Since the variables can be anything, and are not bound with any [[Quantifiers|Quantifier (Predicate Logic)]], a [[Statement Function]] by itself does not carry any concrete meaning, unlike a [[Statement|Statement (Predicate Logic)]].

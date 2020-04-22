@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200316112629704
+modified: 20200325163905054
+tags: [[Affine Geometry]]
+title: Affine Hull
+tmap.id: 3342a394-2ec0-4f29-97b6-a2d9b5bff0a2
+type: text/vnd.tiddlywiki
+
+''AKA Affine Span''
+
+An [[Affine Hull]] of a [[Set]] $$S$$ in [[Euclidian Space]] $$\R^n$$ is the smallest [[Affine Set|Affine Space]] containing $$S$$, i.e. the [[Intersection|Set Intersection]] of all [[Affine Sets|Affine Space]] containing $$S$$

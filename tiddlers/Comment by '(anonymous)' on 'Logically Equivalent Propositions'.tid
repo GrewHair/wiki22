@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191030134649163
+edit-mode: no
+list: [[Logically Equivalent Propositions]]
+modified: 20200325165502944
+role: comment
+title: Comment by '(anonymous)' on 'Logically Equivalent Propositions'
+tmap.id: 1b709f42-f0ab-475e-b8b3-0a9eb171c0fd
+type: text/vnd.tiddlywiki
+
+the formulas are likely wrong

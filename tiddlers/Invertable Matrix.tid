@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200309201737628
+modified: 20200325163826251
+tags: [[Linear Algebra]]
+title: Invertable Matrix
+tmap.id: 1cd63f70-ab0f-4855-a593-b916e6fedaab
+type: text/vnd.tiddlywiki
+
+An $$n \times n$$ [[Square Matrix]] $$A$$ is called [[Invertable|Invertable Matrix]] if there exists an $$n \times n$$ square matrix $$A^{-1}$$ such that
+
+$$AA^{-1} = A^{-1}A = I_n$$
+
+The matrix $$A^{-1}$$ it called the [[Inverse|Inverse Matrix]] of $$A$$.
+
+https://en.wikipedia.org/wiki/Invertible_matrix

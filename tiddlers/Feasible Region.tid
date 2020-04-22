@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200314151708029
+modified: 20200325163901133
+tags: [[Mathematical Optimization]]
+title: Feasible Region
+tmap.id: 289d8879-7717-40f4-84a4-606b91ee56f2
+type: text/vnd.tiddlywiki
+
+The [[Feasible Region]] of a constrained optimization problem is the [[Solution Set]] of the constraints.

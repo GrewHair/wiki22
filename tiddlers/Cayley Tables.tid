@@ -1,0 +1,30 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200316175517400
+modified: 20200325163854449
+tags: [[Abstract Algebra]] [[Abstract Algebra (Socratica)]] Stub
+title: Cayley Tables
+tmap.id: 47144850-c221-4fc5-81ab-b5a668ebba21
+type: text/vnd.tiddlywiki
+
+Consider a [[Group]] $$(\{1, -1, i, -i\}, \times)$$, where $$i$$ is the [[Imaginary Unit]]:
+
+$$
+\begin{array}{r|rrrr}
+\times & \mathbf{1} & \mathbf{-1} & \mathbf{i} & \mathbf{-i} \\ \hline
+\mathbf {1} &  1 & -1 &  i & -i\\
+\mathbf{-1} & -1 &  1 & -i &  i\\
+\mathbf {i} &  i & -i & -1 &  1\\
+\mathbf{-i} & -i &  i &  1 & -1\\
+\end{array}
+$$
+
+Properties of [[Cayley Tables]]:
+
+* The first row and first column just repeat the headers (because conventionally the [[Identity Element]] comes first)
+* Every row and every column contains an [[Identity Element]] (this is because every element has an [[inverse|Inverse Element]]
+* For [[Abelian Groups|Commutative Group]], the [[Cayley Tables]] are symmetric about the [[Main Diagonal]]
+* No duplicate elements in rows and columns
+* Each row and each column contains  all the group elements in some order

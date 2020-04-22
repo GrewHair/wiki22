@@ -1,0 +1,19 @@
+created: 20191227163339736
+modified: 20200325163850948
+tags: [[How to Win a Data Science Competition]] [[Machine Learning]]
+title: Bag of Words
+tmap.id: 6edad572-5444-428b-a14d-eb09b603479a
+type: text/vnd.tiddlywiki
+
+One feature per each word found in text. The values of features are just numbers of occurancies of corresponding words.
+
+>``sklearn.feature_extraction.text.CountVectorizer``
+
+Some additional processing may be applied to it:
+
+The pipeline for applying [[BOW|Bag of Words]]:
+
+* __Pre-processing__: Lowercase, [[Stemming]], [[Lemmatization]], [[Stopwords]]
+* [[N-grams]] (add to BOW)
+* BOW
+* __Post-processing__: [[TFiDF]]

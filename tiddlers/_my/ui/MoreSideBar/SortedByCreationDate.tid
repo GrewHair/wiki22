@@ -1,0 +1,13 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+caption: By Date
+created: 20191112071142986
+modified: 20200325082917981
+tags: _my/tags/MoreSideBar
+title: _my/ui/MoreSideBar/SortedByCreationDate
+tmap.id: b97e89c5-df61-4e4d-b7d8-d9b0f1d6a0d0
+type: text/vnd.tiddlywiki
+
+<$list filter="[!is[system]has[created]!sort[created]]"/>

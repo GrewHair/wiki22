@@ -1,0 +1,17 @@
+[
+    {
+        "created": "20191115072654389",
+        "text": "The [[Conclusion]] of a [[Categorical Syllogism]] has the [[Minor Term]] as it's [[Subject]], and the [[Major Term]] as it's [[Predicate|Predicate (Categorical Logic)]].\n\n<<prs railroad>>\n\n<!--Links (for context-aware search):-->\n[[|Quantifier]]\n[[|Copula]]\n\n",
+        "title": "Conclusion (Categorical Syllogism)",
+        "tags": "Logic [[100 Days of Logic (carneades.org)]]",
+        "modified": "20200325163931775",
+        "type": "text/vnd.tiddlywiki",
+        "tmap.id": "b2778fa4-6834-4f63-ae3a-5e8c1bcea6c1",
+        ".prs.railroad": "<<rlrd_cat_prop 'Minor Term' 'Major Term'>>",
+        ".hsk.tagged_topic": "[<currentTiddler>tags[]field:icon[_my/images/icons/topic]]",
+        ".hsk.tagged_feature": "[<currentTiddler>tags[]field:icon[_my/images/icons/feature]]",
+        ".hsk.tagged_exemplar": "[<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]",
+        ".hsk.tagged_diagram": "[<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]",
+        ".hsk.macrocall": " [[_my/macros/appear/prs]] [[_my/macros/Railroad/rlrd_cat_prop]]"
+    }
+]

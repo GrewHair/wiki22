@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+color: #80ffff
+created: 20191016142825027
+icon: _my/images/icons/feature
+modified: 20200325163932294
+tags: Logic
+title: Unary
+tmap.id: 773f6c8e-b7df-4cd1-9d01-b6267c5acb1e
+type: text/vnd.tiddlywiki

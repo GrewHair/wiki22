@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191030124919181
+modified: 20200325163931873
+tags: Logic [[100 Days of Logic (carneades.org)]]
+title: Aristotelian Logic
+tmap.id: dc0b2b19-7b63-481b-bc8a-9316923a4a42
+type: text/vnd.tiddlywiki
+
+It's main differences with [[Boolean Logic]] are:
+
+* It has [[Existential Import]], and therefore:
+* [[A|ALL Statement]] [[⇒|Logical Consequence]] [[I|SOME Statement]]
+* [[E|NO Statement]] [[⇒|Logical Consequence]] [[O|SOME ARE NOT Statement]]

@@ -1,0 +1,33 @@
+.hsk.macrocall: [[_my/macros/tex]]
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200228191436009
+modified: 20200325163913757
+tags: Statistics
+title: Likelihood Function
+tmap.id: b77f4593-c2d8-4bb5-9d9b-0650f95454a3
+type: text/vnd.tiddlywiki
+
+[[likelihood]] is just a number for a particular $$\theta_0$$, while [[Likelihood Function]] gives values to all existing $$\theta$$.
+
+$$\displaystyle
+  \mathcal             L      (\theta)    =
+  \mathcal             L      (\theta; y) =
+                       f_Y (y; \theta)
+$$
+
+Notice in the equation above that while $$\mathcal L$$ is a function both of [[data|Statistical Sample]] //and// <<tex \theta "Statistical Parameter">>, it can often be seen as a function only of $$\theta$$, because almost everything dependent on data can often be factored out (see [[Sufficient Statistic]]) and become just a scaling constant (utilizing the meaninglessness of [[likelihood]]).
+
+$$\displaystyle
+  \mathcal            L       (\theta)    = 
+  \prod_{i=1}^n      f_i (y_i; \theta)
+$$
+
+<center>''Log Likelihood Function''</center>
+
+$$\displaystyle
+  \ell                        (\theta)    = 
+  \sum_{i=1}^n   \log f_i(y_i; \theta)
+$$

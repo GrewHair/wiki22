@@ -1,0 +1,22 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191227183317412
+modified: 20200325163851130
+tags: Stub [[How to Win a Data Science Competition]] [[Machine Learning]]
+title: N-grams
+tmap.id: 2170cc7b-faba-45e7-b4ca-3d4c69116638
+type: text/vnd.tiddlywiki
+
+The [[BOW|Bag of Words]] approach can also be used on [[N-grams]], turning into something that one could call a "Bag of N-grams".
+
+N-grams can help to use the local context.
+
+<<<
+`sklearn.feature_extraction.text.CountVectorizer`<br>
+`kwargs: Ngram_range, analyzer`
+<<<
+
+* It can be used with words //or// with characters
+* Usually it means adding only N //consequent// words/characters as new features - but sometimes it may involve adding //all// possible combinations of N characters (in case of low N). At times this is more effective than to add each word in the corpus

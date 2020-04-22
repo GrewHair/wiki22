@@ -1,0 +1,24 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200320071539889
+modified: 20200325164007520
+tags: Topology
+title: Closed Set
+tmap.id: f543d59a-4176-4860-a1f5-5f44af612a82
+type: text/vnd.tiddlywiki
+
+A [[Closed Set]] is a [[Set]] whose [[Complement|Set Complement]] is [[Open|Open Set]].
+
+''Caution:'' just because the [[Complement|Set Complement]] of some [[Set]] $$X$$ is [[Closed|Closed Set]], it doesn't necessarily mean that $$X$$ itself is not [[Closed|Closed Set]]. It, however, indeed implies that $$X$$ is also [[Open|Open Set]] - so in this case $$X$$ might turn out to be [[both|Clopen Set]].
+
+This is because [[Openness|Open Set]] and [[Closedness|Closed Set]] are neither mutually exclusive, nor necessary.
+
+''Properties:''
+
+* A finite [[Union|Set Union]] of [[Closed Sets|Closed Set]] is [[Closed|Closed Set]]
+* An arbitrary (finite, countable or uncountable) [[Intersection|Set Intersection]] of [[Closed Sets|Closed Set]] is [[Closed|Closed Set]]
+* A [[Complement|Set Complement]] of an [[Closed Set]] is [[Open|Open Set]]
+* The [[Empty Set]] is [[Closed|Closed Set]]
+* The [[Universal Set]] is [[Closed|Closed Set]]

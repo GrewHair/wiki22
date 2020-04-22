@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200419064935554
+modified: 20200419091014717
+tags: Problem Stub [[Introduction to Deep Learning in Python (Datacamp)]]
+title: Vanishing Gradient Problem
+tmap.id: 41170f8d-74f7-41e8-9629-baeee2e5beac
+type: text/vnd.tiddlywiki
+
+This problem is typical of [[Sigmoid|Sigmoid Function]] [[Activation Functions|Activation Function]], such as [[tanh]] and the like - such functions never have slopes exactly equal to zero, however their slope gets progressively smaller the further the input gets from zero. In [[Deep Networks|Deep Neural Network]] stacking of this effect across multiple layers leads to the gradient tending strongly towards zero, and hense the network can't really learn much - hense the name of this problem!

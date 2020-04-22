@@ -1,0 +1,18 @@
+[
+    {
+        "created": "20191112104813341",
+        "text": "Subalternation is a relation between either a pair of [[Affirmative]], or a pair of [[Negative]] [[Categorical Propositions|Categorical Proposition]]. In any of these two cases, the first statement in the pair is [[Universal]], and the second one is [[Particular]].\n\nThe distinctive feature, that sets [[Subalternation]] apart from all other relations in the [[Traditional Square of Opposition]], is that it is //unilateral// - you can't swap two propositions.\n\nIf the [[Universal]] proposition is known to be //True//, then the [[Particular]] one __must also be //True//__.\n\nIf the [[Particular]] proposition is known to be //False//, then the [[Universal]] one __must also be //False//__.\n\n\n\n|Universal Statement|Particular Statement|\n|{{ALL Statement!!.prs.venn-aristotelian}}|{{SOME Statement!!.prs.venn-boolean}}|\n\n\n\nor\n\n\n\n|Universal Statement|Particular Statement|\n|{{NO Statement!!.prs.venn-aristotelian}}|{{SOME ARE NOT Statement!!.prs.venn-boolean}}|\n\n\n\nIf a pair of [[Propositions|Categorical Proposition]] use the same [[Terms|Term]], in order to have [[Subalternation]] relationship they must either be  [[A|ALL Statement]] and [[I|NO Statement]] propositions, or [[E|NO Statement]] and [[O|SOME ARE NOT Statement]] propositions respectively.\n\nIn order for the [[Subalternation]] relationship to hold, the [[Propositions|Categorical Proposition]] must have [[Existential Import]], i.e. this relationship is only meaningful if we assume the existance of the [[Subject]] in reality. \n\nThus, the Subalternation relationship is a feature of [[Aristotelian|Aristotelian Logic]] and not [[Boolean|Boolean Logic]] logical system.\n\nSince [[Boolean Logic]] doesn't have [[Existential Import]], in it's framework the relationships between the [[A|ALL Statement]] and [[I|NO Statement]] statements and [[E|NO Statement]] and [[O|SOME ARE NOT Statement]] statements are [[Undetermined]].\n\n''Examples:'' \n\n//'All men are corrupt'// vs //'Some men are corrupt'//. \n\n//'No men are corrupt'// vs //'Some men are not corrupt'//.\n\nIf the first statement is //True//, then the second statement must be //True//; if the second statement is //False//, then the first statement must be //False//.\n\n<<res youtube>>",
+        "title": "Subalternation",
+        "tags": "Logic",
+        "modified": "20200325163931950",
+        "type": "text/vnd.tiddlywiki",
+        "tmap.id": "a366b5f9-6a39-4053-a49c-c9d351f38706",
+        ".res.youtube": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/M70gx2-mv9Y\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        ".hsk.transcludes": "[[ALL Statement]] [[SOME Statement]] [[NO Statement]] [[SOME ARE NOT Statement]]",
+        ".hsk.tagged_topic": "[<currentTiddler>tags[]field:icon[_my/images/icons/topic]]",
+        ".hsk.tagged_feature": "[<currentTiddler>tags[]field:icon[_my/images/icons/feature]]",
+        ".hsk.tagged_exemplar": "[<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]",
+        ".hsk.tagged_diagram": "[<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]",
+        ".hsk.macrocall": " [[_my/macros/appear/res]]"
+    }
+]

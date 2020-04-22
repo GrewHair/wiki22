@@ -1,0 +1,98 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200311230634325
+modified: 20200325163826238
+tags: [[MIT 18.065 Matrix Methods in Data Analysis, Signal Processing, and Machine Learning]] [[Lecture 2]] [[Linear Algebra]] Stub
+title: LU Example
+tmap.id: e09e3fea-7249-4600-ad36-e8edd0e78679
+type: text/vnd.tiddlywiki
+
+* The conventional way:
+$$
+\underbrace{
+\begin{bmatrix}
+2 & 3 \\
+4 & 7 \\
+\end{bmatrix}}_A
+\xrightarrow{\text{subtract 2x row}_1 \text{ from row}_2}
+\underbrace{
+\begin{bmatrix}
+2 & 3 \\
+0 & 1 \\
+\end{bmatrix}}_U
+\\
+
+L = 
+\begin{bmatrix}
+1 & 0 \\
+2 & 1 \\
+\end{bmatrix}
+
+\quad\text{(the 2 is there because we used 2 in our elimination),}\\
+
+\text{so finally:}\\[5pt]
+
+\underbrace{
+\begin{bmatrix}
+2 & 3 \\
+4 & 7 \\
+\end{bmatrix}}_A =
+
+\underbrace{
+\begin{bmatrix}
+1 & 0 \\
+2 & 1 \\
+\end{bmatrix}}_L
+
+\underbrace{
+\begin{bmatrix}
+2 & 3 \\
+0 & 1 \\
+\end{bmatrix}}_U
+
+$$
+
+* The "columns times rows" way:
+
+$$
+\begin{bmatrix}
+2 & 3 \\
+4 & 7 \\
+\end{bmatrix}
+
+\xlongequal{\text{write it as sum of rank-1's}}
+
+\underbrace{
+\begin{bmatrix}
+2 & 3  \\
+4 & \_ \\
+\end{bmatrix}}_\text{choose a number to make it rank-1} +
+
+\underbrace{
+\begin{bmatrix}
+0 & 0  \\
+0 & \_ \\
+\end{bmatrix}}_\text{any number fits, cos others are 0} = \\[10pt] =
+
+\begin{bmatrix}
+2 & 3 \\
+4 & 6 \\
+\end{bmatrix} +
+
+\begin{bmatrix}
+0 & 0 \\
+0 & 1 \\
+\end{bmatrix} =
+
+\begin{bmatrix}1 \\ 2\end{bmatrix}
+\begin{bmatrix}2 & 3\end{bmatrix} +
+\begin{bmatrix} 0 \\ 1\end{bmatrix}
+\begin{bmatrix} 0 & 1\end{bmatrix} = \\ =
+
+\begin{bmatrix}\ \\ l_1\\ \ \end{bmatrix}
+\begin{bmatrix}\ & u_1^T & \ \end{bmatrix} +
+\begin{bmatrix}\ \\ l_2\\ \ \end{bmatrix}
+\begin{bmatrix}\ & u_2^T & \ \end{bmatrix} = LU
+$$

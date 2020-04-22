@@ -1,0 +1,36 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200314185901734
+modified: 20200325163826332
+tags: [[Linear Algebra]]
+title: Coefficient Matrix
+tmap.id: 362fdbdb-3979-490c-bd1e-a7f86f722011
+type: text/vnd.tiddlywiki
+
+A [[Coefficient Matrix]] $$A$$ is a [[Matrix]] consisting of the coefficients of the variables in a [[System of Linear Equations]]:
+
+
+$$
+\displaystyle 
+\begin{aligned}
+a_{11}x_1 + a_{12}x_2 + \cdots + a_{1n}x_n  &=  b_1               \\
+a_{21}x_1 + a_{22}x_2 + \cdots + a_{2n}x_n  &=  b_2               \\
+&\ \ \vdots                                                       \\
+a_{m1}x_1 + a_{m2}x_2 + \cdots + a_{mn}x_n  &=  b_m,
+\end{aligned}                                                     \\[20pt]
+
+
+\displaystyle
+ 
+A=
+\begin{bmatrix}
+a_{11}  &  a_{12}  &  \cdots  &  a_{1n}                           \\
+a_{21}  &  a_{22}  &  \cdots  &  a_{2n}                           \\
+\vdots  &  \vdots  &  \ddots  &  \vdots                           \\
+a_{m1}  &  a_{m2}  &  \cdots  &  a_{mn}                           \\
+\end{bmatrix}
+
+
+$$

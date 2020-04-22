@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200310234540179
+modified: 20200325163826205
+tags: [[Linear Algebra]] Stub
+title: Normalized Vector
+tmap.id: 0dcbf966-a2ae-47d0-8f4a-0902db5c446e
+type: text/vnd.tiddlywiki
+
+''AKA Unit Vector''
+
+[[Normalized Vector]] of [[Vector]] $$\vec x$$ is a vector in the same direction but with [[Norm]] equal to 1.
+
+We can normalize a [[Vector]] by multiplying it by a [[Scalar]] equal to the inverse of the vector's [[Norm]].

@@ -1,0 +1,23 @@
+[
+    {
+        "created": "20191216152558408",
+        "text": "|<<prs mnemonic>>|\n|<<prs example>>|",
+        "title": "Bocardo",
+        "tags": "dd Logic [[100 Days of Logic (carneades.org)]]",
+        "modified": "20200325163931845",
+        "type": "text/vnd.tiddlywiki",
+        "tmap.id": "9a19be4f-dc63-4d58-b741-b7cc94287a9f",
+        ".temp": "Some cats have no tails. (MoP)<br>\nAll cats are mammals. (MaS)<br>\n∴ Some mammals have no tails. (SoP)",
+        ".prs.mnemonic-2": "D__''o''__k__''a''__m__''o''__k",
+        ".prs.mnemonic": "B__''o''__c__''a''__rd__''o''__",
+        ".prs.example": "Some lesbians are not kinksters.<br>\nAll lesbians are females.<br>\n&there4; Some females are not kinksters.",
+        ".hsk.tagged_topic": "[<currentTiddler>tags[]field:icon[_my/images/icons/topic]]",
+        ".hsk.tagged_feature": "[<currentTiddler>tags[]field:icon[_my/images/icons/feature]]",
+        ".hsk.tagged_exemplar": "[<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]",
+        ".hsk.tagged_diagram": "[<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]",
+        ".hsk.macrocall": "[[_my/macros/appear/prs]]",
+        ".att.valid": "unconditionally",
+        ".att.mood": "OAO Mood",
+        ".att.figure": "Figure III"
+    }
+]

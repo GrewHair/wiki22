@@ -1,0 +1,59 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200331115703817
+modified: 20200331124556099
+tags: [[Regular Expressions]]
+title: More Quanrifiers (Regular Expressions)
+tmap.id: 80f216d5-9f87-4461-a670-f2d248ff2e49
+type: text/vnd.tiddlywiki
+
+<table border="0">
+<tbody>
+<tr>
+<th scope="col">Quantifier</th>
+<th scope="col">Legend</th>
+<th scope="col">Example</th>
+<th scope="col">Sample Match</th>
+</tr>
+<tr>
+<td>+</td>
+<td>The + (one or more) is "greedy"</td>
+<td>\d+</td>
+<td>12345</td>
+</tr>
+<tr>
+<td>?</td>
+<td>Makes quantifiers "lazy"</td>
+<td>\d+?</td>
+<td>1 in <strong>1</strong>2345</td>
+</tr>
+<tr>
+<td>*</td>
+<td>The * (zero or more) is "greedy"</td>
+<td>A*</td>
+<td>AAA</td>
+</tr>
+<tr>
+<td>?</td>
+<td>Makes quantifiers "lazy"</td>
+<td>A*?</td>
+<td>empty in AAA</td>
+</tr>
+<tr>
+<td>{2,4}</td>
+<td>Two to four times, "greedy"</td>
+<td>\w{2,4}</td>
+<td>abcd</td>
+</tr>
+<tr>
+<td>?</td>
+<td>Makes quantifiers "lazy"</td>
+<td>\w{2,4}?</td>
+<td>ab in <strong>ab</strong>cd</td>
+</tr>
+</tbody>
+</table>
+
+https://www.rexegg.com/regex-quickstart.html

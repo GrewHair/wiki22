@@ -1,0 +1,40 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200318063546252
+modified: 20200325163928013
+tags: [[Information Theory]]
+title: Information Content
+tmap.id: 61327b6a-9514-49ec-afa8-e44ba1d995e1
+type: text/vnd.tiddlywiki
+
+''AKA Self-information, Shannon Information, Surprisal''
+
+[[Information Content]] is an alternative way of expressing [[Probability]]. Thus, like [[Probability]] itself, [[Information Content]] can be thought of as a [[Measure]] on the [[Sample Space]].
+
+It is a monotonically decreasing [[Function]] of [[Probability]].
+
+Claude Shannon defined [[Self-Information|Information Content]] to meet several axioms:
+
+* An [[Event|Event (Probability Theory)]] with [[Probability]] 1 yields 0 [[information|Information Content]]
+* The less probable an [[Event|Event (Probability Theory)]] is the more surprising it is and the more [[information|Information Contentn]] in yields
+* For two independent [[events|Event (Probability Theory)]], the total amount of [[information|Information Content]] is the sum of [[self-informations|Information Content]] of the individual [[events|Event (Probability Theory)]]
+
+A message informing of an occurence of [[Event|Event (Probability Theory)]] $$\omega_n$$ carries information $$I$$. The amount of this information depends only on the [[Probability]] of that [[Event|Event (Probability Theory)]]:
+
+$$
+I(\omega_n) = f(P(\omega_n)).
+$$
+
+* If $$P(\omega_n) = 1$$, then $$I(\omega_n) = 0$$
+* If $$P(\omega_n) < 1$$, then $$I(\omega_n) > 0$$
+* For independent events $$A$$ and $$B$$:
+** $$I(C) = I(A \cap B) = I(A) + I(B)$$
+** $$P(C) = P(A \cap B) = P(A) \cdot P(B)$$
+** $$I(C) = f(P(C)) = f(P(A) \cdot P(B)) = f(P(A)) + f(P(B)) = f(P(A) \cdot P(B))$$
+** $$f(x \cdot y) = f(x) + f(y)$$
+** So $$f(\cdot)$$ should be of the form $$K \log(x)$$, where $$K$$ is some scaling constant
+* The [[Probabilities|Probability]] are always between 0 and 1, the logarithm of which is negative. Hence, for $$f(\cdot)$$ to be positive, it is necessary that $$K<0$$.
+* Thus, [[Self-information|Information Content]] is defined as:
+*> $$\displaystyle I(\omega_n) = -\log(P(\omega_n)) = \log \frac 1 {P(\omega_n)}.$$

@@ -1,0 +1,8 @@
+created: 20191226205559687
+modified: 20200325163850995
+tags: [[How to Win a Data Science Competition]] [[Machine Learning]] Models
+title: Tree-based Models
+tmap.id: 24199e17-a27f-4513-b0cb-4684d5de08ab
+type: text/vnd.tiddlywiki
+
+[[Tree-based Models]] don't require numeric features' [[Scaling]], as they treat all the features one at a time on each iteration, and the criteria which decide where to make splits don't depend on features' scales. 

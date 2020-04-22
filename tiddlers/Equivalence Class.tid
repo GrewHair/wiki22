@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200317070522880
+modified: 20200325163854429
+tags: [[Abstract Algebra]] [[Set Theory]]
+title: Equivalence Class
+tmap.id: 0bb1f710-8d08-47bb-a722-1705994a4e42
+type: text/vnd.tiddlywiki
+
+Given a [[Set]] $$S$$ and an [[Equivalence Relation]] $$\sim$$ on $$S$$, the [[Equivalence Class]] of an element $$a$$ in $$S$$ is the [[Set]]
+
+$$\{x \in S | x \sim a\}$$.

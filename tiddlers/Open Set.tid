@@ -1,0 +1,28 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200320072240318
+modified: 20200325164007564
+tags: Topology
+title: Open Set
+tmap.id: ca4f2abc-4902-49f2-906e-4196265d90ff
+type: text/vnd.tiddlywiki
+
+The [[Open Set]] has no definition in [[Topology]]. One Just decides for himself which [[Sets|Set]] to call [[Open]] - and so it goes!
+
+This is allowed partially because [[Openness|Open Set]] and [[Closedness|Closed Set]] are neither mutually exclusive, nor necessary.
+
+Sometimes it is said that an [[Open Set]] is a [[Set]] which is a [[Neighbourhood]] of each of its points.
+
+''Properties:''
+
+* An arbitrary (finite, countable or uncountable) [[Union|Set Union]] of [[Open Sets|Open Set]] is [[Open|Open Set]]
+* A finite [[Intersection|Set Intersection]] of [[Open Sets|Open Set]] is [[Open|Open Set]]
+* A [[Complement|Set Complement]] of an [[Open Set]] is [[Closed|Closed Set]]
+* The [[Empty Set]] is [[Open|Open Set]]
+* The [[Universal Set]] is [[Open|Open Set]]
+
+https://math.stackexchange.com/questions/2152735/what-does-open-set-mean-in-the-concept-of-a-topology/2152742
+
+https://math.stackexchange.com/questions/4114/why-do-we-require-a-topological-space-to-be-closed-under-finite-intersection

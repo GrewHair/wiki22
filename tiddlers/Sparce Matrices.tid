@@ -1,0 +1,10 @@
+created: 20191226231544919
+modified: 20200325163851027
+tags: Stub [[How to Win a Data Science Competition]] [[Machine Learning]]
+title: Sparce Matrices
+tmap.id: a32f1b8f-0b30-41f3-a302-61337a63535e
+type: text/vnd.tiddlywiki
+
+[[Sparce Matrices]] are useful with [[Categorical Features]] and text data.
+
+A lot of libraries can work with them directly: ``XGBoost``, ``sklearn``, ``LightGBM``, and others.

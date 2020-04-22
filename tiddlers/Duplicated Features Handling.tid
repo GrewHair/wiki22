@@ -1,0 +1,41 @@
+created: 20200115115004275
+modified: 20200325163851328
+tags: [[How to Win a Data Science Competition]] [[Machine Learning]]
+title: Duplicated Features Handling
+tmap.id: 1cfe019e-485d-4596-b51b-711d697025a1
+type: text/vnd.tiddlywiki
+
+Duplicated features should be removed from the dataset, since they possess no new information and only slow down the training.
+
+The first problem is to detect them.
+Several important cases may exist here:
+
+* If the duplicated features are //numeric//, to detect them, one can simply compare them element-wise
+* If the duplicated features are //categorical//, it is common that they can be //identical up to permutation//, i.e. they don't look identical out of the box, but if one renames the labels of one of them in a certain way, they become obviously identical. In order to detect this kind of identity of features, one should perform [[Label Encoding]] by order of appearance (normally using `pandas.factorize()`) - but strictly from top to bottom:
+
+```
+for f in categorical_features:
+    data[f] = data[f].factorize()
+
+data.T.drop_duplicates()
+```
+
+Sometimes, when the dataframe of interest is very large, the [[Pandas]] `duplicated()` and `drop_duplicates()` methods fail. In such cases it helps to use just simple [[Python]] loops:
+
+```
+dup_cols = {}
+
+for i, c1 in enumerate(data.columns):
+    for c2 in data.columns[i + 1:]:
+        if c2 not in dup_cols and np.all(train_enc[c1] == train_enc[c2]):
+            dup_cols[c2] = c1
+
+data.drop(dup_cols.keys(), axis = 1,inplace=True)
+```
+
+But since this operation will take a long time to accomplish, one should not forget to store the results on the hard drive:
+
+```
+import cPickle as pickle
+pickle.dump(dup_cols, open('dup_cols.p', 'w'), protocol=pickle.HIGHEST_PROTOCOL)
+```

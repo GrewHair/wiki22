@@ -1,0 +1,22 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200109091924078
+modified: 20200325163749028
+tags: Stub Numpy Pandas Python
+title: datetime
+tmap.id: b6b2d342-647c-4791-aa2b-3efd66120d13
+type: text/vnd.tiddlywiki
+
+https://docs.python.org/3/library/datetime.html
+
+https://jakevdp.github.io/PythonDataScienceHandbook/03.11-working-with-time-series.html
+
+In [[Pandas]]:
+
+* Timestamp, DatetimeIndex
+* Period, PeriodIndex
+* Timedelta, TimedeltaIndex
+
+(make a diagram later, with methods to_datetime, to_period, subtraction, etc.)

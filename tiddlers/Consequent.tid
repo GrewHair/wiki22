@@ -1,0 +1,10 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191023110638960
+modified: 20200325163931753
+tags: Stub Logic [[100 Days of Logic (carneades.org)]]
+title: Consequent
+tmap.id: 13a0f6f7-b5ee-41a6-967d-7b0c2ea8bf23
+type: text/vnd.tiddlywiki

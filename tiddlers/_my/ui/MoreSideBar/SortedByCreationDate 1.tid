@@ -1,0 +1,13 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+caption: By Date 1
+created: 20200319074548912
+modified: 20200325082917975
+tags: _my/tags/MoreSideBar
+title: _my/ui/MoreSideBar/SortedByCreationDate 1
+tmap.id: 09de4cca-0efd-486a-befd-c2ea2cb176ab
+type: text/vnd.tiddlywiki
+
+<$list filter="[!is[system]has[created]tag[How to Win a Data Science Competition]!sort[created]]"/>

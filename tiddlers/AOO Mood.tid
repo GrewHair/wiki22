@@ -1,0 +1,37 @@
+.hsk.filter-links: [field:.att.mood<currentTiddler>.att.valid[unconditionally]]
+.hsk.filter-links-2: [field:.att.mood<currentTiddler>.att.valid[conditionally]!has[.att.weakened]]
+.hsk.filter-links-3: [field:.att.mood<currentTiddler>has[.att.weakened]]
+.hsk.macrocall: [[_my/macros/Railroad/rlrd_syll]][[_my/macros/appear/prs]]
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.prs.railroad: <<rlrd_syll 'ALL Statement' 'SOME ARE NOT Statement' 'SOME ARE NOT Statement'>>
+created: 20191127102842550
+modified: 20200325163931881
+tags: [[Categorical Syllogism]] Logic [[100 Days of Logic (carneades.org)]]
+title: AOO Mood
+tmap.id: 61649772-6415-464d-ae2e-dae148d19581
+type: text/vnd.tiddlywiki
+
+Conditionally valid syllogisms:
+
+<ul><$list filter={{!!.hsk.filter-links}}><li><$link to=<<currentTiddler>>/></li></$list></ul>
+
+Unconditionally valid syllogisms:
+
+<ul><$list filter={{!!.hsk.filter-links-2}}><li><$link to=<<currentTiddler>>/></li></$list></ul>
+
+Weakened moods:
+
+<ul><$list filter={{!!.hsk.filter-links-3}}><li><$link to=<<currentTiddler>>/></li></$list></ul>
+
+<hr>
+
+<<prs railroad>>
+
+<!--Links (for context-aware search):-->
+[[|ALL Statement]]
+[[|SOME ARE NOT Statement]]
+[[|Conjunction]]
+[[|Material Implication]]

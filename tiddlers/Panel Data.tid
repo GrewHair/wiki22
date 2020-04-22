@@ -1,0 +1,17 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200201102257890
+modified: 20200325163729813
+tags: Stub Data
+title: Panel Data
+tmap.id: f0bc3ddb-9f81-4cea-8fbd-5d0633ac2e77
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/Panel_data
+
+Extreme special cases:
+
+* [[Time-series Data]]
+* [[Cross-sectional Data]]

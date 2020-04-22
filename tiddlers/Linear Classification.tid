@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200212134749352
+modified: 20200325164037832
+tags: Stub [[Introduction to Convolutional Neural Networks for Visual Recognition (Stanford)]] [[Computer Vision]]
+title: Linear Classification
+tmap.id: 436d5f18-221e-473f-ac82-36da755e8a46
+type: text/vnd.tiddlywiki
+
+f(x, W) = Wx + b
+
+In W, each row is a category, each column is  pixel 'template' for a category.
+
+The problem with a linear classifier is that it only stores one template per category.

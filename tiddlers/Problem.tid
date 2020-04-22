@@ -1,0 +1,11 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200219121345875
+icon: _my/images/icons/feature
+modified: 20200419065816877
+tags: Stub [[Designing Machine Learning Systems (David Julian)]]
+title: Problem
+tmap.id: e75ddae1-f792-4a04-a190-95ebcada5513
+type: text/vnd.tiddlywiki

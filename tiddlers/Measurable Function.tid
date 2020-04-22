@@ -1,0 +1,24 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200308103716433
+modified: 20200325164034457
+tags: [[Measure Theory]]
+title: Measurable Function
+tmap.id: c29eab9d-aef4-4ace-a2cf-387d2d9c4311
+type: text/vnd.tiddlywiki
+
+Let $$(X, \Sigma)$$ and $$(Y, T)$$ be [[Measurable Spaces|Measurable Space]]. A [[Function]] $$f: X \to Y$$ is said to be [[measurable|Measurable Function]] if for every $$E \in T$$ the [[Pre-image|Inverse Image]] of $$E$$ under $$f$$ is in $$\Sigma$$, i.e.:
+
+$${\displaystyle f^{-1}(E):=\{x\in X|\;f(x)\in E\}\in \Sigma ,\;\;\forall E\in \mathrm {T} .}$$
+
+Examples of ''Non-measurable functions:''
+
+* [[Indicator Function]] is non-measurable in some cases (see wikipedia)
+
+''TL;DR''
+
+A [[Measurable Function]] is a [[Function]] from one [[Measurable Space]] to another.
+
+https://en.wikipedia.org/wiki/Measurable_function

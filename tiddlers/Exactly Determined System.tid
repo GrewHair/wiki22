@@ -1,0 +1,22 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200314171551711
+modified: 20200325163826281
+tags: [[Linear Algebra]]
+title: Exactly Determined System
+tmap.id: 18601396-e816-48cb-935e-053de889ca5f
+type: text/vnd.tiddlywiki
+
+A [[system|System of Linear Equations]] is [[Exactly Determined|Exactly Determined System]] when it has the same number of equations and unknowns.
+
+Example:
+
+$$
+\displaystyle 
+\begin{aligned}
+ x + 2y &= -1\\
+3x -  y &=  2\\
+\end{aligned}
+$$

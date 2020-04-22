@@ -1,0 +1,53 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200331115601527
+modified: 20200331124535648
+tags: [[Regular Expressions]]
+title: Logic (Regular Expressions)
+tmap.id: 78629a67-2c5f-45fe-83c7-21b9efc73ec4
+type: text/vnd.tiddlywiki
+
+<table border="0">
+<tbody>
+<tr>
+<th scope="col">Logic</th>
+<th scope="col">Legend</th>
+<th scope="col">Example</th>
+<th scope="col">Sample Match</th>
+</tr>
+<tr>
+<td>|</td>
+<td>Alternation / OR operand</td>
+<td>22|33</td>
+<td>33</td>
+</tr>
+<tr>
+<td>( &hellip; )</td>
+<td>Capturing group</td>
+<td>A(nt|pple)</td>
+<td>Apple (captures "pple")</td>
+</tr>
+<tr>
+<td>\1</td>
+<td>Contents of Group 1</td>
+<td>r(\w)g\1x</td>
+<td>regex</td>
+</tr>
+<tr>
+<td>\2</td>
+<td>Contents of Group 2</td>
+<td>(\d\d)\+(\d\d)=\2\+\1</td>
+<td>12+65=65+12</td>
+</tr>
+<tr>
+<td>(?: &hellip; )</td>
+<td>Non-capturing group</td>
+<td>A(?:nt|pple)</td>
+<td>Apple</td>
+</tr>
+</tbody>
+</table>
+
+https://www.rexegg.com/regex-quickstart.html

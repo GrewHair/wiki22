@@ -1,0 +1,19 @@
+.hsk.transcludes: [[_my/images/png/correlation_matrix]][[_my/images/png/correlation_matrix_reordered]]
+created: 20200114082123434
+modified: 20200325163850897
+tags: [[How to Win a Data Science Competition]] [[Machine Learning]]
+title: Correlation Matrix
+tmap.id: d118e014-a6c7-448b-bd22-9bd25248d229
+type: text/vnd.tiddlywiki
+
+{{_my/images/png/correlation_matrix}}
+`df.corr()` - to compute the correlations themselves;
+
+`plt.matshow( ... )` - to show them as a matrix
+
+If the matrix looks messy and complex (like on the picture above), the order of the features can be changed in some such way, that would make the features with similar correlation values apper nearby. It's usually hard to do by hand because of the large number of features - but one can use come [[Clustering]] algorithm ([[K-Means]], for example) to automate this. Based on the clustering result, the features can then be reordered, and the matrix starts to look somewhat like this:
+{{_my/images/png/correlation_matrix_reordered}}
+
+As a nice bonus side effect of this procedure, the //features// are now organized in //feature groups//, which helps to analyze not only pairwise feature interactions, but to view them more generally.
+
+''Note:'' this kind of (features) x (features) matrices can in fact be populated with any pairwise metric one might choose - for example something like the quantity of objects which have the value of //feature 1// greater then the value of //feature 2//.

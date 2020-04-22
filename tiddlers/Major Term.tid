@@ -1,0 +1,13 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191113134343438
+modified: 20200325163932126
+tags: Logic [[100 Days of Logic (carneades.org)]]
+title: Major Term
+tmap.id: fb4b8826-c1aa-4e8d-bf3b-13ff74870907
+type: text/vnd.tiddlywiki
+
+! ''P''
+In a [[Categorical Syllogism]], the [[Term]] that is the [[Predicate|Predicate (Categorical Logic)]] of the [[Conclusion]] is called the [[Major Term]]

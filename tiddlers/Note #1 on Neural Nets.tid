@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200417123721461
+modified: 20200417124436962
+tags: [[Quick Notes]]
+title: Note #1 on Neural Nets
+tmap.id: 706a3b8f-3154-4916-ac43-1319ce58f594
+type: text/vnd.tiddlywiki
+
+The hidden layers of [[Deep Neural Nets|Deep Neural Network]] in some sense serve as a replacement of [[Feature Generation|Feature Engineering]], as they basically are new features based on nonlinear combinations of the existing ones.

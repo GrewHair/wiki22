@@ -1,0 +1,17 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[_my/images/png/missing_value_reconstruction-time_series]]
+created: 20191227132309087
+modified: 20200325163851143
+tags: [[How to Win a Data Science Competition]] [[Machine Learning]]
+title: Missing Value Reconstruction
+tmap.id: 090ed3ef-9818-4ddc-a866-d3b79d48ec28
+type: text/vnd.tiddlywiki
+
+In general, [[Missing Value Reconstruction]] is rarely a possibiliy, although in some special cases it can be accomplished. Such special cases require, however, pretty strong assumptions about the nature of the values.
+
+One example of this is when the [[Missing Values]] are in a [[Time Series]]: in such cases we can approximate them using nearby observations, assuming some degree of smoothness of the process captured by the [[Time Series]]:
+
+{{_my/images/png/missing_value_reconstruction-time_series}}

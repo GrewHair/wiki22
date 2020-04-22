@@ -1,0 +1,26 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[_my/images/png/numpy_axes]][[_my/images/png/numpy_sum_axis_1]][[_my/images/png/numpy/concatenate_axis_1]]
+created: 20200114102203359
+modified: 20200412122810561
+tags: Stub Numpy
+title: Numpy axes
+tmap.id: 51b24a8f-c334-4453-b9f2-3a4c88737664
+type: text/vnd.tiddlywiki
+
+{{_my/images/png/numpy_axes}}
+
+The `axis` parameter specifies the axis, along which the function will be performed:
+
+* With aggregating functions (like `min()`, `mean()`, `sum()`, `median()`, etc.) the axis specified will be collapsed 
+<span style="display:table; zoom:15%">{{_my/images/png/numpy_sum_axis_1}}</span>
+
+* With `concatenate()` function, the axis specified will be lengthened 
+<span style="zoom:15%">{{_my/images/png/numpy/concatenate_axis_1}}</span>
+
+* With `np.delete()` function, a vector will be deleted, the id of which is stored in the specified axis
+** ''Important!'' This essentially means that `axis=0` will delete a __''row''__! (Even despite the axis itself looks like a column)
+
+https://www.sharpsightlabs.com/blog/numpy-axes-explained/

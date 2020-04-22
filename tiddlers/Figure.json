@@ -1,0 +1,19 @@
+[
+    {
+        "created": "20191127135457819",
+        "text": "In  [[Categorical Syllogisms|Categorical Syllogism]], the [[Figure]] is the arrangement of a Syllogism's [[Terms|Term]].\n\n<<prs summary>>\n\n<!--Links (for context-aware search):-->\n[[|Middle Term]]\n[[|Major Term]]\n[[|Minor Term]]\n[[|Logical Consequence]]\n[[|Figure I]]\n[[|Figure II]]\n[[|Figure III]]\n[[|Figure IV]]",
+        "title": "Figure",
+        "tags": "Logic [[100 Days of Logic (carneades.org)]]",
+        "modified": "20200325163932177",
+        "type": "text/vnd.tiddlywiki",
+        "tmap.id": "cd094797-0ebe-4fa4-8050-fbd6f9194b3b",
+        ".prs.summary": "<table> \n<$list filter={{!!.hsk.filter-links}} >\n<th>\n<$link to=<<currentTiddler>>/>\n<$transclude tiddler=<<currentTiddler>> field=\".prs.columnar\"/>\n</th>\n</$list> \n</table>",
+        ".hsk.transcludes": " [[Figure I]] [[Figure II]] [[Figure III]] [[Figure IV]]",
+        ".hsk.tagged_topic": "[<currentTiddler>tags[]field:icon[_my/images/icons/topic]]",
+        ".hsk.tagged_feature": "[<currentTiddler>tags[]field:icon[_my/images/icons/feature]]",
+        ".hsk.tagged_exemplar": "[<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]",
+        ".hsk.tagged_diagram": "[<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]",
+        ".hsk.macrocall": " [[_my/macros/appear/prs]]",
+        ".hsk.filter-links": "[[Figure I]][[Figure II]][[Figure III]][[Figure IV]]"
+    }
+]

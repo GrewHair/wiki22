@@ -1,0 +1,65 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191021103703232
+modified: 20200325163932065
+tags: Stub Bad Logic
+title: Operators Precedence
+tmap.id: be846e3a-eeb4-45fb-8931-f1d9fc786082
+type: text/vnd.tiddlywiki
+
+<table style="width:200px; text-align:center">
+  <thead>
+    <tr>
+      <th >Precedence</th>
+      <th>Logic</th>
+      <th>Set Theory</th>
+			<th>Algebra</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>()</td>
+      <td>()</td>
+			<td>()</td>
+
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>[[~|Negation]]</td>
+      <td>[[□^^C^^]]</td>
+			<td>-</td>
+
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>[[∧|Conjunction]]</td>
+      <td>[[∩|Intersection]]</td>
+			<td>[[×|Multiplication]]</td>
+
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>[[∨|Disjunction]]</td>
+      <td>[[∪|Union]]</td>
+			<td>[[+|Addition]]</td>
+
+    </tr>
+		
+	    <tr>
+      <td>4</td>
+      <td>[[→|Material Implication]]</td>
+      <td></td>
+			<td></td>
+    </tr>
+		
+		<tr>
+      <td>5</td>
+      <td>[[↔|Material Equivalence]]</td>
+      <td></td>
+			<td></td>
+    </tr>
+  </tbody>
+</table>

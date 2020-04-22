@@ -1,0 +1,26 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200219122337066
+modified: 20200325163420906
+tags: [[Designing Machine Learning Systems (David Julian)]]
+title: Task
+tmap.id: 7c5f4826-7e7c-4f5b-aa92-efc633205c07
+type: text/vnd.tiddlywiki
+
+A task is a specific activity conducted over a period of time:
+
+* Human Tasks (planning, designing, implementing..)
+* [[Machine Tasks|Major Machine Learning Tasks]] ([[Classification]], [[Clustering]], [[Regression]], etc..)
+* Some tasks may have overlap between human and machine (e.g. [[Feature selection]])
+
+Our goal in [[Machine Learning]] is to transform as many of the human tasks to machine tasks, as we can.
+
+Tasks are generally fulfilled to to solve [[Problems|Problem]], but there is no simple way to know which [[Problem]] requires which [[Task]].
+
+[[Machine Learning]] tasks occur in three broad settings:
+
+* [[Supervised Learning]]
+* [[Unsupervised Learning]]
+* [[Reinforcement Learning]]

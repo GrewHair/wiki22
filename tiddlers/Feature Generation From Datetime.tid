@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191227000414399
+modified: 20200325163851267
+tags: [[How to Win a Data Science Competition]] [[Machine Learning]]
+title: Feature Generation From Datetime
+tmap.id: 73767e05-8ada-47cd-8fa6-bd0024abb5c8
+type: text/vnd.tiddlywiki
+
+* Periodic 
+** Usual periods (features like //day, week, month,year, etc.//)
+** Special periods (like //battery self-discharge period (10 days)//)
+* Time elapsed since a particular event / left until a particular event
+** Row-independent
+** Row-dependent
+* Various time differences (like //time from user registration  until first purchase//)
+
+''Note:'' generating features from datetime usually yields either [[Numeric Features]] (like time past since some event) or [[Categorical Features]] (like month, number of week, cycle, etc.). These features need further preprocessing according to their types.

@@ -1,0 +1,10 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200212073857844
+modified: 20200325163857456
+tags: Stub [[Introduction to Convolutional Neural Networks for Visual Recognition (Stanford)]] [[Deep Learning]]
+title: Object Detection
+tmap.id: c6304c6b-70b2-4992-a076-e6d31e49ec68
+type: text/vnd.tiddlywiki

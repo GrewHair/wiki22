@@ -1,0 +1,29 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200315164839976
+modified: 20200325163952470
+tags: [[Group Theory]]
+title: Group Homomorphism
+tmap.id: 30912688-beef-40b4-8271-5e74023c2b62
+type: text/vnd.tiddlywiki
+
+Given two [[Groups|Group]] $$(G, *)$$ and $$(H, \cdot)$$, a [[Group Homomorphism]] from $$(G, *)$$ to $$(H, *)$$ is a [[Function]] $$h: G \to H$$ such that for all $$u$$ and $$v$$ in $$G$$ it holds that:
+
+$$h( u * v ) = h(u) \cdot h(v)$$.
+
+From this definition it follows that a [[Homomorphism|Group Homomorphism]] maps an [[Identity Element]] to an [[Identity Element]] and also [[inverses]] to [[inverses]]:
+
+* $$h(e_G) = e_H$$
+* $$h(u^{-1}) = h(u)^{-1}$$.
+
+Hence one can say that $$h$$ //"is compatible with the group structure"//.
+
+''Types of [[Group Homomorphism]]:''
+
+* [[Monomorphism]]
+* [[Epimorphism]]
+* [[Isomorphism]]
+* [[Endomorphism]]
+* [[Automorphism]]

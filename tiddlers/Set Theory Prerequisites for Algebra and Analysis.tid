@@ -1,0 +1,24 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200307210707980
+modified: 20200325163830928
+tags: [[Set Theory]]
+title: Set Theory Prerequisites for Algebra and Analysis
+tmap.id: a0c74af8-9091-49fe-a327-4511e4d83475
+type: text/vnd.tiddlywiki
+
+https://www.quora.com/How-can-I-understand-set-theory
+
+You don't have to have any deep understanding of [[ZFC Set Theory]] in order to use it to define and explain mathematical objects from algebra and analysis, as long as you don't do this:
+
+$$S = \left\{x|\phi(S,x)\right\},$$
+
+Where $$|$$ means "such that", $$\phi$$ is a logical formula.
+
+I.e. it is very unsafe to define a set in terms of itself.
+
+If you neglect this rule, you're vulnerable to paradoxes.
+
+One example is $$x \in x$$, a set that is an element of itself. Normally, refering to something like this is forbidden.

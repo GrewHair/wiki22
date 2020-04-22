@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200212142802005
+modified: 20200325163857473
+tags: [[Introduction to Convolutional Neural Networks for Visual Recognition (Stanford)]] [[Deep Learning]] Stub
+title: Hinge Loss
+tmap.id: 9b0f6b5a-7b2a-4937-b8f4-ec150975d516
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/Hinge_loss

@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200214115440515
+modified: 20200325163857452
+tags: Stub [[Introduction to Convolutional Neural Networks for Visual Recognition (Stanford)]] [[Deep Learning]]
+title: Recurrent Neural Networks
+tmap.id: f9f18ee5-8108-48d4-a258-539ddf4d8e6a
+type: text/vnd.tiddlywiki
+
+They are like a non-linear version of IIR filters.
+
+They are used in [[Language Models|Language Model]]
+
+They are typically not too [[Deep|Deep Neural Network]] - up to 4-5 layers only.
+
+They are used in conjunction with [[Convolutional Neural Networks]] for [[Image Captioning]].

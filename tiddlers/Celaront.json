@@ -1,0 +1,23 @@
+[
+    {
+        "created": "20191216144417545",
+        "text": "|<<prs mnemonic>>|\n|<<prs example>>|",
+        "title": "Celaront",
+        "tags": "dd Logic [[100 Days of Logic (carneades.org)]]",
+        "modified": "20200325163931803",
+        "type": "text/vnd.tiddlywiki",
+        "tmap.id": "db336278-f003-4976-91fc-c4c89eae7e2b",
+        ".temp": "No reptiles have fur. (MeP)<br>\nAll snakes are reptiles. (SaM)<br>\n∴ Some snakes have no fur. (SoP)",
+        ".prs.mnemonic": "C__''e''__l__''a''__r__''o''__nt",
+        ".prs.example": "No females are gay.<br>\nAll lesbians are females.<br>\n&there4; Some lesbians are not gay.",
+        ".hsk.tagged_topic": "[<currentTiddler>tags[]field:icon[_my/images/icons/topic]]",
+        ".hsk.tagged_feature": "[<currentTiddler>tags[]field:icon[_my/images/icons/feature]]",
+        ".hsk.tagged_exemplar": "[<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]",
+        ".hsk.tagged_diagram": "[<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]",
+        ".hsk.macrocall": "[[_my/macros/appear/prs]]",
+        ".att.weakened": "yes",
+        ".att.valid": "conditionally",
+        ".att.mood": "EAO Mood",
+        ".att.figure": "Figure I"
+    }
+]

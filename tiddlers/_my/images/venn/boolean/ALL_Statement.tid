@@ -1,0 +1,39 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191210134304293
+modified: 20200325165156158
+title: _my/images/venn/boolean/ALL_Statement
+tmap.id: b3cd6d2e-ad1d-492e-8c85-4dd8ee788513
+type: text/vnd.tiddlywiki
+
+<!--?xml version="1.0" encoding="UTF-8"?--> 
+<!-- Created with Inkscape (http://www.inkscape.org/) -->  
+<svg width="102.37mm" height="65.197mm" version="1.1" viewBox="0 0 102.37 65.197" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">   
+<defs>   
+<pattern id="pattern1553" patternTransform="matrix(.9873 -.10965 .090467 .81455 125.43 138.27)" xlink:href="#pattern2376"></pattern>   
+<pattern id="pattern2435" patternTransform="matrix(.059009 0 0 .049221 125.43 138.27)" xlink:href="#pattern2376"></pattern>   
+<pattern id="pattern2376" width="8.242717" height="8.2427481" patternTransform="matrix(.26458 0 0 .26458 125.43 138.27)" patternUnits="userSpaceOnUse">    
+<path d="m0.62136 7.6214 7-7" fill="#3fc060" stroke="#3ec060" stroke-width="1.7575"></path>   
+</pattern>  
+</defs>  
+<metadata>   
+<rdf:rdf>    
+<cc:work rdf:about="">     
+<dc:format>image/svg+xml</dc:format>     
+<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type>     
+<dc:title></dc:title>    
+</cc:work>   
+</rdf:rdf>  
+</metadata>  
+<g transform="translate(-16.186 -119.8)">   
+<a xlink:title="No member of the Subject class is outside of the Predicate class">    
+<path transform="matrix(.26458 0 0 .26458 16.186 119.8)" d="m123.42 1.6348a121.78 121.57 0 0 0-121.78 121.57 121.78 121.57 0 0 0 121.78 121.57 121.78 121.57 0 0 0 69.98-22.258 121.78 121.57 0 0 1-51.67-99.316 121.78 121.57 0 0 1 51.801-99.314 121.78 121.57 0 0 0-70.111-22.258z" fill="url(#pattern1553)" stroke="#3fc060" stroke-width="3.2693"></path>   </a>   
+<rect x="125.43" y="138.27" width="2.1809" height="2.1809" fill="url(#pattern2435)"></rect>   
+<path d="m67.39 126.12a32.221 32.166 0 0 0-13.706 26.277 32.221 32.166 0 0 0 13.671 26.277 32.221 32.166 0 0 0 13.706-26.277 32.221 32.166 0 0 0-13.671-26.277z" fill="none" stroke="#3fc060" stroke-width=".865">
+</path>   
+<path d="m85.94 120.24a32.221 32.166 0 0 1 32.221 32.166 32.221 32.166 0 0 1-32.221 32.167 32.221 32.166 0 0 1-18.516-5.889 32.221 32.166 0 0 0 13.671-26.277 32.221 32.166 0 0 0-13.706-26.277 32.221 32.166 0 0 1 18.55-5.889z" fill="none" stroke="#3fc060" stroke-width=".865">
+</path>  
+</g>  
+</svg>

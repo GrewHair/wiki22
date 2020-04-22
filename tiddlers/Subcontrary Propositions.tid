@@ -1,0 +1,33 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[SOME Statement]] [[SOME ARE NOT Statement]]
+created: 20191101063608187
+modified: 20200325163931946
+tags: Logic
+title: Subcontrary Propositions
+tmap.id: ea85b6df-c927-4f8f-b6ce-7a19c69bf86b
+type: text/vnd.tiddlywiki
+
+A pair of [[Categorical Propositions|Categorical Proposition]], at least one of which __must be //True//__.
+
+If one proposition is known to be //False//, the other __must be //True//__.
+
+If one proposition is known to be //True//, the other __may be either //True// or //False//__.
+
+The two [[Subcontrary Propositions]] __can not both be //False//__, because of [[Existential Import]] (see below).
+
+|{{SOME Statement!!.prs.venn-boolean}}|{{SOME ARE NOT Statement!!.prs.venn-boolean}}|
+
+If a pair of [[Propositions|Categorical Proposition]] use the same [[Terms|Term]], in order to have [[Subcontrary|Subcontrary Propositions]] relationship they must be  [[I|SOME Statement]] and [[O|SOME ARE NOT Statement]] propositions respectively (or vice versa).
+
+In order for the [[Subcontrary|Subcontrary Propositions]] relationship to hold, the [[Propositions|Categorical Proposition]] must have [[Existential Import]], i.e. this relationship is only meaningful if we assume the existance of the [[Subject]] in reality. 
+
+Thus, the Subcontrary relationship is a feature of [[Aristotelian|Aristotelian Logic]] and not [[Boolean|Boolean Logic]] logical system.
+
+Since [[Boolean Logic]] doesn't have [[Existential Import]], in it's framework the relationship between the [[I|SOME Statement]] and [[O|SOME ARE NOT Statement]] statements is [[Undetermined]].
+
+''Example:'' //'Some men are corrupt'// vs //'Some men are not corrupt'//.
+
+At least one of these propositions must be //True//, unless there are no men.

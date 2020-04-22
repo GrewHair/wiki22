@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191111140111190
+modified: 20200325163831045
+tags: Stub [[Set Theory]]
+title: Axiom of Separation
+tmap.id: e9ccb38c-645a-4447-9ad3-0a27c13d0ba3
+type: text/vnd.tiddlywiki
+
+Also referred to as ''//the Axiom Schema of Specification//''.

@@ -1,0 +1,10 @@
+created: 20200130120842510
+edit-mode: no
+list: [[Duplicated Features Handling]]
+modified: 20200325165502989
+role: comment
+title: Comment by '(anonymous)' on 'Duplicated Features Handling'
+tmap.id: a8d96702-e9cb-4d9f-8f1c-afe297c76005
+type: text/vnd.tiddlywiki
+
+I should ask Vova why is this that you should use loops instead of pandas methods. Pandas are no doubt faster. But it seems like the guy from the course just trusts loops more - like they'll not break or something

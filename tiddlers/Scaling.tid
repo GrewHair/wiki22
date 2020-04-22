@@ -1,0 +1,20 @@
+created: 20191226205318225
+modified: 20200325163851047
+tags: [[How to Win a Data Science Competition]] [[Machine Learning]]
+title: Scaling
+tmap.id: 6deec83f-c788-4d20-98c0-7d8471c04b57
+type: text/vnd.tiddlywiki
+
+Different types of models depend on [[Scaling]] of features to different extends.
+
+By this criterion they can be roughly divided into:
+
+* [[Tree-based Models]]
+* [[Non-tree-based Models]]
+
+<br>
+
+The main scaling methods are:
+
+* MinMax scaling (`sklearn.preprocessing.MinMaxScaler`)
+* Standard scaling (`sklearn.preprocessing.StandardScaler`)

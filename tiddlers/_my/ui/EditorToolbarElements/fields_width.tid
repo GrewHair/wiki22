@@ -1,0 +1,19 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+caption: foo
+condition: [<targetTiddler>!has[type]] [<targetTiddler>type[text/vnd.tiddlywiki]]
+created: 20191122154059768
+modified: 20200326095028343
+tags: $:/tags/EditorToolbar
+title: _my/ui/EditorToolbarElements/fields_width
+tmap.id: 2c75dcdf-d8e4-4d49-ba3f-d5f2c9a4ec36
+type: text/vnd.tiddlywiki
+
+fields width:
+
+<$select tiddler='_my/stylesheets/fields_width'>
+<option value='.tc-edit-field-value {width: 10000px}'>large</option>
+<option value='.tc-edit-field-value {width: auto}'>auto</option>
+</$select>

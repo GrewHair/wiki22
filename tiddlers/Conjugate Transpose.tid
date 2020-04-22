@@ -1,0 +1,17 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200311113007223
+modified: 20200325163826322
+tags: [[Linear Algebra]]
+title: Conjugate Transpose
+tmap.id: 98276782-2b59-482f-9f73-c9b81c107463
+type: text/vnd.tiddlywiki
+
+''AKA Hermitian Transpose''
+
+A [[Conjugate Transpose]] of an $$m \times n$$ [[Matrix]] $$A$$ with [[Complex|Complex Numbers]] entries is the $$n \times m$$ matrix $$A^H$$ (or $$A^*$$) obtained by:
+
+* taking the [[Transpose]] of $$A$$
+* and then taking the [[Complex Conjugate]] of each entry.

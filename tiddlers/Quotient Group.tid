@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200317111034366
+modified: 20200325163952465
+tags: [[Abstract Algebra]] [[Group Theory]]
+title: Quotient Group
+tmap.id: 0d1df271-a79a-4719-9a2e-e768f94709ef
+type: text/vnd.tiddlywiki
+
+''AKA Factor Group''
+
+A [[Quotient Group]] is a [[Group]] obtained by [[Aggregating]] similar/[[equivalent|Equivalence Relation]]/[[congruent|Congruence Relation]] elements from a larger [[Group]].
+
+So the elements of the [[Quotient Group]] are in fact [[sets|Set]], or, more specifically, [[equivalence|Equivalence Class]]/[[congruence classes|Congruence Class]].
+
+Thus, the [[Quotient Group]] is not a [[Subgroup]] of the one that was used to create it.

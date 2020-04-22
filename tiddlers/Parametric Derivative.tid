@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200226134728810
+modified: 20200325163947178
+tags: [[Multivariable Calculus]]
+title: Parametric Derivative
+tmap.id: 4afa63c2-f1a0-48b4-9c28-e4484f0d7fb9
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/Parametric_derivative

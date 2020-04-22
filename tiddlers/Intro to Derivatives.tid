@@ -1,0 +1,33 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200226102509303
+modified: 20200325163729418
+tags: Stub
+title: Intro to Derivatives
+tmap.id: 143b4a50-3d99-4c2f-843e-2845e6cf72fa
+type: text/vnd.tiddlywiki
+
+https://towardsdatascience.com/a-quick-introduction-to-derivatives-for-machine-learning-people-3cd913c5cf33
+
+$$\displaystyle f(x, y, z)$$
+
+$$\displaystyle \frac {\partial f}{\partial x}$$
+
+$$\displaystyle f(x, y, z) = \frac {4\pi}{3} xyz$$
+
+$$\displaystyle z\!=\!a,\; x\!=\!b,\; y\!=\!c$$
+
+$$\displaystyle \frac {\partial f}{\partial x} = \frac {4\pi}{3} yz$$
+
+$$\displaystyle \frac {df}{dx} \;=\;  \frac {\partial f}{\partial x} \frac {dx}{dx}\!+\!\frac {\partial f}{\partial y} \frac {dy}{dx}\!+\!\frac {\partial f}{\partial z} \frac {dz}{dx} \;=\; \frac {\partial f}{\partial x}\!+\!\frac {\partial f}{\partial y} \frac {dy}{dx} \!+\!\frac {\partial f}{\partial z} \frac {dz}{dx}$$
+
+$$z=x$$
+
+$$\displaystyle \frac {\partial f}{\partial y} \frac {d y}{d x} = \frac {4\pi}{3}xz \cdot 0 = 0$$
+
+$$\displaystyle \frac {d f}{d x} \; = \; \frac {4\pi}{3}xy \! + \! \frac {4\pi}{3}yz \! + \! 0 \; = \; \frac {4\pi}3\!\left(z \! + \!x\right)\!y \; = \;\frac{4\pi}3 2xy $$
+
+$$ d \neq \dot df
+

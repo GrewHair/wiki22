@@ -1,0 +1,10 @@
+created: 20191226215043810
+modified: 20200325163851096
+tags: [[How to Win a Data Science Competition]] [[Machine Learning]]
+title: Raising to The Power <1
+tmap.id: 84aa9e13-48a6-4cb1-b3f3-7921b90e9585
+type: text/vnd.tiddlywiki
+
+``np.sqrt(x + 2/3)``
+
+It is mostly used with [[Neural Networks]].

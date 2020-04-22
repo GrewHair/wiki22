@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191208201719045
+modified: 20200325090530618
+tags: $:/tags/Stylesheet
+title: _my/stylesheets/scrollable
+tmap.id: 48aa74fb-1fba-447c-a6b8-af5f562a4eab
+type: text/vnd.tiddlywiki
+
+.tc-scrollable-demo {
+	border: 1px solid <<colour message-border>>;
+	background-color: <<colour message-background>>;
+	padding: 1em;
+	height: 400px;
+	position: relative;
+}

@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200310185730844
+modified: 20200325163826274
+tags: [[Linear Algebra]] Stub
+title: Finite Dimensional Spectral Theorem
+tmap.id: 5812908f-3bb8-4795-a1be-c57e6e7e0e33
+type: text/vnd.tiddlywiki
+
+Let $$T$$ be a [[Linear Operator|Linear Map]] on a finite-dimensional [[Inner Product Space]] $$V$$. Then the [[matrix|Matrix]] $$T$$ is [[orthogonally|Orthogonal Matrix]] [[Diagonalizable|Diagonalizable Matrix]] if and only if $$T$$ is [[Normal|Normal Matrix]].
+
+http://www.math.mcgill.ca/labute/courses/251.04/spectral.pdf
+
+https://en.wikipedia.org/wiki/Spectral_theorem

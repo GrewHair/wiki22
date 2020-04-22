@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191223081036572
+modified: 20200325163937991
+tags: [[Predicate Logic]] Logic
+title: Statement (Predicate Logic)
+tmap.id: f751c251-4fea-4662-b2b2-6586566078be
+type: text/vnd.tiddlywiki
+
+[[Statement|Statement (Predicate Logic)]] is a combination of a [[Predicate|Predicate (Predicate Logic)]] with a [[Constant|Constant (Predicate Logic)]].
+
+//[[A|Predicate (Predicate Logic)]][[p|Constant (Predicate Logic)]], [[B|Predicate (Predicate Logic)]][[q|Constant (Predicate Logic)]],// etc.
+
+''Examples:'' Pat is amiable, Rio is cool.
+
+They also may involve [[Boolean Operations]]:
+
+//[[A|Predicate (Predicate Logic)]][[p|Constant (Predicate Logic)]] [[→|Material Implication]] [[B|Predicate (Predicate Logic)]][[p|Constant (Predicate Logic)]]//

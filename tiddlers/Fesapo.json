@@ -1,0 +1,22 @@
+[
+    {
+        "created": "20191216152731575",
+        "text": "|<<prs mnemonic>>|\n|<<prs example>>|",
+        "title": "Fesapo",
+        "tags": "dd Logic [[100 Days of Logic (carneades.org)]]",
+        "modified": "20200325163932185",
+        "type": "text/vnd.tiddlywiki",
+        "tmap.id": "c1e84154-eeae-4a6b-89d2-73f15ad068d3",
+        ".temp": "No flowers are animals. (MeP)<br>\nAll animals are chordate. (MaS)<br>\n∴ Some chordate are not flowers. (SoP)",
+        ".prs.mnemonic": "F__''e''__s__''a''__p__''o''__",
+        ".prs.example": "No gays are females.<br>\nAll females are humans.<br>\n&there; Some humans are not gay.",
+        ".hsk.tagged_topic": "[<currentTiddler>tags[]field:icon[_my/images/icons/topic]]",
+        ".hsk.tagged_feature": "[<currentTiddler>tags[]field:icon[_my/images/icons/feature]]",
+        ".hsk.tagged_exemplar": "[<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]",
+        ".hsk.tagged_diagram": "[<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]",
+        ".hsk.macrocall": "[[_my/macros/appear/prs]]",
+        ".att.valid": "conditionally",
+        ".att.mood": "EAO Mood",
+        ".att.figure": "Figure IV"
+    }
+]

@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200308134918251
+modified: 20200325164034421
+tags: [[Measure Theory]]
+title: σ-ring
+tmap.id: d507da20-6577-485e-936b-cd306d784c7e
+type: text/vnd.tiddlywiki
+
+A [[σ-ring]] is a special case of a [[δ-ring]].

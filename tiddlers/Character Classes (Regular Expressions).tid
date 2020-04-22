@@ -1,0 +1,83 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200331115746363
+modified: 20200331124605812
+tags: [[Regular Expressions]]
+title: Character Classes (Regular Expressions)
+tmap.id: 6afa5dfd-1ee8-4405-8b0a-5d778e559e9a
+type: text/vnd.tiddlywiki
+
+<table border="0">
+<tbody>
+<tr>
+<th scope="col">Character</th>
+<th scope="col">Legend</th>
+<th scope="col">Example</th>
+<th scope="col">Sample Match</th>
+</tr>
+<tr>
+<td>[ &hellip; ]</td>
+<td>One of the characters in the brackets</td>
+<td>[AEIOU]</td>
+<td>One uppercase vowel</td>
+</tr>
+<tr>
+<td>[ &hellip; ]</td>
+<td>One of the characters in the brackets</td>
+<td>T[ao]p</td>
+<td><em>Tap</em> or <em>Top</em></td>
+</tr>
+<tr>
+<td>-</td>
+<td>Range indicator</td>
+<td>[a-z]</td>
+<td>One lowercase letter</td>
+</tr>
+<tr>
+<td>[x-y]</td>
+<td>One of the characters in the range from x to y</td>
+<td>[A-Z]+</td>
+<td>GREAT</td>
+</tr>
+<tr>
+<td>[ &hellip; ]</td>
+<td>One of the characters in the brackets</td>
+<td>[AB1-5w-z]</td>
+<td>One of either: A,B,1,2,3,4,5,w,x,y,z</td>
+</tr>
+<tr>
+<td>[x-y]</td>
+<td>One of the characters in the range from x to y</td>
+<td>[&ensp;-~]+</td>
+<td>Characters in the printable section of the <a href="http://www.asciitable.com/" target="_blank">ASCII table</a>.</td>
+</tr>
+<tr>
+<td>[^x]</td>
+<td>One character that is not x</td>
+<td>[^a-z]{3}</td>
+<td>A1!</td>
+</tr>
+<tr>
+<td>[^x-y]</td>
+<td>One of the characters <strong>not</strong> in the range from x to y</td>
+<td>[^&ensp;-~]+</td>
+<td>Characters that are <strong>not</strong> in the printable section of the <a href="http://www.asciitable.com/" target="_blank">ASCII table</a>.</td>
+</tr>
+<tr>
+<td>[\d\D]</td>
+<td>One character that is a digit or a non-digit</td>
+<td>[\d\D]+</td>
+<td>Any characters, inc-<br />luding new lines, which the regular dot doesn't match</td>
+</tr>
+<tr>
+<td>[\x41]</td>
+<td>Matches the character at hexadecimal position 41 in the ASCII table, i.e. A</td>
+<td>[\x41-\x45]{3}</td>
+<td>ABE</td>
+</tr>
+</tbody>
+</table>
+
+https://www.rexegg.com/regex-quickstart.html

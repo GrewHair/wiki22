@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191111111311636
+modified: 20200325163831050
+tags: Stub [[Set Theory]]
+title: Axiom of Extensionality
+tmap.id: 93cc6d83-4ad4-4584-9b1f-d889bf3f4c7f
+type: text/vnd.tiddlywiki
+
+All [[sets|Set]] or [[classes|Class]], which contain the same members are the same.
+
+[[∀|Universal Quantifier]]A [[∀|Universal Quantifier]]B ([[∀|Universal Quantifier]]X (X&isin;A [[↔|Material Equivalence]] X&isin;B) [[→|Material Implication]] A[[=|Set Equality]]B)
+
+It means that:
+
+* the order of members in a [[set|Set]] doesn't matter;
+*the same member can not appear in a class multiple times;
+* if two [[classes|Class]] are subclasses of each other, they are the same [[Class]].

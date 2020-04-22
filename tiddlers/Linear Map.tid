@@ -1,0 +1,23 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200310205422308
+modified: 20200325163826244
+tags: [[Linear Algebra]] Map Stub
+title: Linear Map
+tmap.id: 753dede7-dd24-4765-9c0a-078346535884
+type: text/vnd.tiddlywiki
+
+''AKA Linear Transformation''.
+
+In some special cases it can also be (not super correctly) referred to as ''Matrix Transformation'' - because of the fact that [[Linear Maps|Linear Map]] can be represented by [[Matrices|Matrix]].
+
+Let $$V$$ and $$W$$ be [[Vector Spaces|Vector Space]] over the same [[Field]] $$K$$. A [[Linear Map]] is a [[Function]] $$f: V \to W$$ that for any two vectors $$\vec u, \vec v \in V$$ and any scalar $$c \in K$$ satisfies two properties:
+
+* $$f(\vec u + \vec v) = f(\vec u) + f(\vec v)$$ - [[Additivity]]
+* $$f(c \vec u) = c f(\vec u)$$ - [[Homogeneity]]
+
+An $$m \times n$$ [[Matrix]] describes a [[Linear Map]] $$\R^n \to \R^m$$.
+
+One should distinguish a [[Linear Map]] itself and a [[Matrix]] used to represent it: while [[the former|Linear Map]] just maps elements from one [[Vector Space]] to another and is the same regardless of the choice of [[Basis|Ordered Basis]], the entries of [[the letter|Matrix]] change with the [[Change of Basis]].

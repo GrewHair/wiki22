@@ -1,0 +1,22 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200314141955281
+modified: 20200325164003948
+tags: [[Boolean Algebra]]
+title: Boolean-valued Function
+tmap.id: 87715b62-e3a3-4ef9-8f6f-12786cd114e1
+type: text/vnd.tiddlywiki
+
+A [[Boolean-valued Function]] is a [[Function]] of the type $$f: X \to \mathbb B$$, where $$\mathbb B$$ is a [[Boolean Domain]].
+
+Examples:
+
+* [[Indicator Function]]
+* [[Predicate|Predicate (Predicate Logic]]
+* [[Proposition|Propositions]]
+* [[Truth Function]]
+* [[Boolean Operator|Boolean Operations]]
+
+Note that a [[Boolean-valued Function]] doesn't have to have [[Truth Values]] as its inputs.

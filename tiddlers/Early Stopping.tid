@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200419081742380
+modified: 20200419090924885
+tags: Stub [[Introduction to Deep Learning in Python (Datacamp)]]
+title: Early Stopping
+tmap.id: 80dc0e59-6ab6-43d1-850f-e7c8db9ae859
+type: text/vnd.tiddlywiki
+
+[[Early Stopping]] is a technique and a type of [[Keras]] [[callback]] that is used to stop training of a [[Neural Net|Neural Networks]] in case there hasn't been an improvement of the [[Loss Function]] for a (specified) number of [[Epochs|Epoch]]. This specified number is called `patience`.
+
+The rationale behind this technique is that unlike most classic [[Machine Learning]] [[Models]], [[Neural Networks]] are still very computationally expensive at the current state of art, and their training may take large amounts of time - so it makes sense to only proceed if there is an observable progress, and to quit if there isn't, to aviod wasting precious time.

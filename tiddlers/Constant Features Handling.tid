@@ -1,0 +1,19 @@
+created: 20200115110448339
+modified: 20200325163850908
+tags: [[How to Win a Data Science Competition]] [[Machine Learning]]
+title: Constant Features Handling
+tmap.id: 224766ac-6892-47f2-a0de-7b2edee4cb51
+type: text/vnd.tiddlywiki
+
+* If a feature is constant everywhere (i.e. both in [[Train|Train Set]] __and__ [[Test|Test Set]] sets), it is better to remove it from the dataset, since it only occupies memory 
+* If a feature is constant in the [[Train Set]], but not constant in the [[Test Set]], it should //all the more// be removed, for:
+** The first item of this list still holds - the model will not learn anything useful from such a feature
+** [[Linear Models]] utilize the so-called //intercept// parameter which is constant. If a constant feature is present, it can "steal" some fraction of this //intercept// parameter in the process of learning (since this process is to some degree probabilistic), leading to the model relying partially on the //intercept//, and partially on the constant feature weight. If, after this, such a model encounters a completely new value of this feature in the test set, this can completely screw up the model's performance
+* If a feature is not constant in the [[Train Set]], but constant in the [[Test Set]], it is ok to go either way, but it could as well be left in the dataset, for:
+** It only means that the [[Test Set]]'s data are a special case of the [[Train Set]]'s
+** Since the model encountered the value which is constant in the [[Test Set]] during training, no [[Overfitting]] will happen
+** Maybe the model is going to become more reusable, or maybe the [[Private Test Set]] may have this feature being non-constant - you don't know for sure!
+
+''Additionally'':
+
+* If a feature is not constant everywhere, but is categorical, and the [[Test Set]] includes rows that have values never met in the [[Train Set]], //that's a complicated situation//. One will need to decide if such a feature should or should not be removed, and if it should not - what measures to take to deal with the danger of [[Overfitting]] in this case. Often this basically boils down to first just checking the performance of the model both with and without the feature in question

@@ -1,0 +1,22 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200219134332734
+modified: 20200325164053124
+tags: Kaggle [[How to Win a Data Science Competition]]
+title: Leaks in Time Series
+tmap.id: 701a783c-9da1-4d71-9659-1433d0c4b7ce
+type: text/vnd.tiddlywiki
+
+* Split should be done on time
+** In real life we don't have information from future
+** In competitions first thing to look: train/public/private split - is it on time?
+* Even when split by time, features may contain information about future
+** User history in CTR tasks
+** Weather
+
+There are only two ways to completely eliminate the possibility of [[Data Leakage]]:
+
+* [[Code Competitions]] (where one can not access rows from future)
+* A test set with no features at all - only id's

@@ -1,0 +1,22 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[_my/images/png/fundamental_matrix_subspaces]]
+created: 20200309162240234
+icon: _my/images/icons/exemplar
+modified: 20200325171046947
+tags: [[Linear Algebra]]
+title: Fundamental Matrix Subspaces
+tmap.id: c38c4ee3-a348-4f62-8aa3-02f30e926d2e
+type: text/vnd.tiddlywiki
+
+Given a [[Real|Real Numbers]] $$m \times n$$ [[Matrix]] $$A$$ of [[Rank]] $$r$$, there are four associated [[Vector Subspaces|Vector Subspace]]:
+
+* [[Column Space]] $$C(A)$$ ($$\dim = r$$)
+* [[Row Space]] $$C(A^T)$$ (which is just the [[Column Space]] of the [[Transpose]] [[Matrix]] $$A^T$$) ($$\dim = r$$)
+* [[Null Space]] $$N(A)$$ ($$\dim = n - r$$)
+* [[Null Space]] of the [[Transpose]] [[Matrix]] $$N(A^T)$$ ($$\dim = m - r$$)
+{{_my/images/png/fundamental_matrix_subspaces}}
+
+https://mathworld.wolfram.com/FundamentalMatrixSubspaces.html

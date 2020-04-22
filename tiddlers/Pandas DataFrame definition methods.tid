@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200109082418119
+modified: 20200325163745797
+tags: Pandas
+title: Pandas DataFrame definition methods
+tmap.id: 534cab09-0dc0-4c18-aadd-024f05563618
+type: text/vnd.tiddlywiki
+
+* `dict` of `list`'s (keys are column names, lists are data in columns)
+* `list` of `tuple`'s, `index`=`[ some list ]`, `columns`=`( some tuple )`
+* `read_csv()`, `read_excel()`, etc..

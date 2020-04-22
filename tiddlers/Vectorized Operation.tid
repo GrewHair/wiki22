@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200120150310123
+modified: 20200325163745778
+tags: Stub Numpy Pandas
+title: Vectorized Operation
+tmap.id: 09c2faa9-19fd-4b1a-8cbc-518d6f408e3c
+type: text/vnd.tiddlywiki
+
+`+` `-` `*` `/` `>` `<` `==` `!=` ...
+
+[[Vectorized Operations|Vectorized Operation]] are implemented in [[Numpy]] through [[ufuncs]].

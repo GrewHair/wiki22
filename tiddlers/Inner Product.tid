@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200310232919066
+modified: 20200325163826254
+tags: [[Linear Algebra]] Stub
+title: Inner Product
+tmap.id: 49e509fe-c6f0-4381-be88-ba176c625277
+type: text/vnd.tiddlywiki
+
+[[Inner Product]] is a generalization of the notion of [[Dot Product]] for cases of [[Abstract Vector Spaces]] like [[Function Spaces|Function Space]], etc.
+
+Often people choose to just use the name "Inner Product" and not return to using "Dot Product".

@@ -1,0 +1,21 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[_my/images/affine_transformations_examples]]
+created: 20200316095503351
+modified: 20200325163905049
+tags: [[Affine Geometry]]
+title: Affine Transformation
+tmap.id: cc1c133d-aac8-42ba-b542-a17d20b81d71
+type: text/vnd.tiddlywiki
+
+''AKA Affinity''
+
+An [[Affine Transformation]] is an [[Automorphism]] of an [[Affine Space]].
+
+It is a [[Function]] mapping an [[Affine Space]] onto itself that preserves the [[Dimension]] of any [[Affine Subspaces|Affine Subspace]] (it sends points to points, lines to lines, planes to planes, etc.) and also preserves ratios of the lengths of parallel line segments: [[Sets]] of parallel [[Affine Subspaces|Affine Subspace]] remain parallel. It does not necessarily preserve angles.
+
+{{_my/images/affine_transformations_examples}}
+
+https://en.wikipedia.org/wiki/Affine_transformation

@@ -1,0 +1,17 @@
+created: 20200115141024322
+modified: 20200325163851321
+tags: [[How to Win a Data Science Competition]] [[Machine Learning]]
+title: Duplicated Rows Handling
+tmap.id: 75f385a5-d112-4c87-a70c-8d62120cac0e
+type: text/vnd.tiddlywiki
+
+If there are duplicate rows in the dataset, there is a couple of things to do:
+
+* Check whether or not the duplicated rows have the same labels. If they do not, then it may be that: 
+** if the labels differ a lot, it means that the score will be pretty much random in the end
+** this is a result of some mistake that occured at the stage of data generation
+* Try to understand why they have been duplicated
+* Try to remove these duplicated rows - sometimes it may lead to better scores
+* Check if any [[Test Set]] rows are duplicated in the [[Train Set]]:
+** It may lead to insight about the data generation process
+** Since in this case we get correct labels for free, we might set them manually in the [[Test Set]] - it can lead to some increase of the score

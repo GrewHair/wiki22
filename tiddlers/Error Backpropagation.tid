@@ -1,0 +1,69 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[_my/images/png/backprop_example_0]][[_my/images/png/backprop_example_1_0]][[_my/images/png/backprop_example_2_0]][[_my/images/png/backprop_example_1_1]][[_my/images/png/backprop_example_2_1]]
+created: 20200418141005178
+modified: 20200419091112547
+tags: [[Introduction to Deep Learning in Python (Datacamp)]]
+title: Error Backpropagation
+tmap.id: c6958f67-ca3b-4168-b0f7-47298697a812
+type: text/vnd.tiddlywiki
+
+\define product(loss input activation result)
+<$latex text="
+\underbrace{$loss$}_{\begin{gathered}
+												\scriptsize\text{slope} \\
+												\scriptsize\text{of loss} \\
+												\scriptsize\text{func}
+							 \end{gathered}}
+\cdot
+\underbrace{$input$}_{\begin{gathered}
+												\scriptsize\text{input} \\
+												\scriptsize\text{node}
+							 \end{gathered}}
+\cdot 
+\underbrace{$activation$}_{\begin{gathered}
+												\scriptsize\text{slope of} \\
+												\scriptsize\text{activation} \\
+												\scriptsize\text{func} 
+							 \end{gathered}}
+=\; $result$"/>
+\end
+
+[[Error Backpropagation]] in [[Neural Networks]] is done iteratively, starting from the layer closest to the target prediction and moving back layer by layer (hence the name).
+
+The procedure is as follows:
+
+* Start by calculating the [[slopes|Slope]] for all of the weights of the [[Output Layer]], as described [[here|Slope Calculation For a Weight of a Neural Network]]
+* Continue with the next layer, using the slopes calculated at the previous step as the slopes of the [[Loss Function]] w.r.t. the output nodes of this layer (i.e. one of the three factors described [[here|Slope Calculation For a Weight of a Neural Network]])
+* Proceed recursively until all of the slopes are calculated
+<br>
+
+''Example:''
+
+Let's look at this toy network:
+{{_my/images/png/backprop_example_0}}
+
+* First the output layer:
+*> {{_my/images/png/backprop_example_1_0}}
+*> {{_my/images/png/backprop_example_1_1}}
+
+** Upper weight:
+**><<product '2 \cdot (7 - 4)' 1 1 6>>
+** Lower weight:
+**><<product '2 \cdot (7 - 4)' 3 1 18>>
+
+* Next layer:
+*> {{_my/images/png/backprop_example_2_0}}
+*> {{_my/images/png/backprop_example_2_1}}
+** Upper weight:
+**><<product 6 0 1 0>>
+** Downright weight:
+**><<product 18 0 1 0>>
+** Upright weight:
+**><<product 6 1 1 6>>
+** Lower weight:
+**><<product 18 1 1 18>>
+* Next layer...
+** @@color:red; CAUTION! you should later fill it in too, because it seems that for the next layer the current results should be linearly combined, which is a new thing worth showing explicitly@@

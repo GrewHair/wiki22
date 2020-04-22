@@ -1,0 +1,23 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[_my/images/png/mape_behaviour_and_optimal_baseline]]
+created: 20200221121620421
+modified: 20200325163851169
+tags: Stub [[Machine Learning]] [[How to Win a Data Science Competition]] Metrics Regression
+title: Mean Absolute Percentage Error
+tmap.id: 73407331-e6e3-4e2c-8139-38ae8a7797fd
+type: text/vnd.tiddlywiki
+
+This is the weighted version of [[MAE|Mean Absolute Error]]:
+
+$$\displaystyle \operatorname {MAPE} ={\frac {100\%}{N}}\sum _{i=1}^{N}\left|{\frac {y_{i}-{\hat {y_{i}}}}{y_i}}\right|$$
+
+The motivation behind it is similar to that behind [[MSPE|Mean Squared Percentage Error]].
+
+Let's study it's behavior in the same way we did with [[MSE|Mean Squared Error]], [[MAE|Mean Absolute Error]] and [[MSPE|Mean Squared Percentage Error]]. The resulting plots are as follows:
+
+{{_my/images/png/mape_behaviour_and_optimal_baseline}}
+
+The optimal [[Constant Predictor]] for this metric is the [[Weighted Median]].

@@ -1,0 +1,32 @@
+.hsk.transcludes: [[_my/images/png/target_vs_categorical_nonlin]][[_my/images/png/label_encoding_lin_vs_tree]]
+created: 20191226221953902
+modified: 20200325163851203
+tags: [[How to Win a Data Science Competition]] [[Machine Learning]]
+title: Label Encoding
+tmap.id: 98ae13b0-cec9-443c-83f3-73db88969712
+type: text/vnd.tiddlywiki
+
+Just map the feature's unique values to some numbers - for example //sex: male, female or non-binary// becomes just //1, 2 or 3//.
+
+It is nice with [[Tree-based Models]], but not really useful with other types of models. To understand why, one can take a look at the following example:
+
+{{_my/images/png/target_vs_categorical_nonlin}}
+
+Here, target has a nonlinear dependency on a categorical feature 'pclass'. A [[Linear Model|Linear Models]] would not capture it, but a [[Tree-based Model|Tree-based Models]] would. (On the picture below, the left graph depicts the performance of a linear model, and the right graph shows the tree's):
+
+{{_my/images/png/label_encoding_lin_vs_tree}}
+In order for [[Non-tree-based Models]] to render such dependencies better, one should go for [[One-Hot Encoding]] instead.
+
+But on the other hand, [[Label Encoding]] doesn't have the disadvantage of increasing the number of features in the dataset.
+
+Also, no matter what kind of model one eventually decides to use, [[Label Encoding]] can be very useful at the [[EDA|EDA Steps]] stage with large datasets to help identify [[duplicated|Duplicated Features Handling]] [[Categorical Features]].
+
+It has three main types:
+
+* Alphabetical (sorted) - ``sklearn.preprocessing.LabelEncoder``
+* By order of appearance - ``pandas`` method ``Series.factorize`` (this can make sense if rows vere sorted in some meaningful way)
+* [[Frequency Encoding]]
+
+There were also mentions of one more label encoding type:
+
+* calculate [[Mean]] value of some (appropriate) numeric feature for every category (i.e. for every value of the categorical feature of interest), and replace the categorical feature's values with these mean values.

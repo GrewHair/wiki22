@@ -1,0 +1,15 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200226144049292
+modified: 20200325171722414
+tags: [[Probability Theory]] [[Chain Rule]]
+title: Chain Rule of Probability
+tmap.id: bb21743e-dadc-4520-ae6f-87b62fe2e9a1
+type: text/vnd.tiddlywiki
+
+* Two events
+*>$$P(A \cap B) = P(B|A)\cdot P(A)$$
+* Two [[Random Variables|Random Variable]]
+*>$$P(X, Y) = P(X|Y) \cdot P(Y)

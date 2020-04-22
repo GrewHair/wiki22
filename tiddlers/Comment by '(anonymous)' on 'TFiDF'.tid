@@ -1,0 +1,10 @@
+created: 20191230094212536
+edit-mode: no
+list: TFiDF
+modified: 20200325165502877
+role: comment
+title: Comment by '(anonymous)' on 'TFiDF'
+tmap.id: 80942f9d-34c8-4919-aef6-b9476591440c
+type: text/vnd.tiddlywiki
+
+in the term frequency tex formula, the numerator should be changed to 1 in order to be in accordance with the code on the right. it seems the 'term frequency' is defined a bit loosely in different sources. we'll see how it goes and change things later.

@@ -1,0 +1,30 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[_my/images/png/mae_behaviour_and_optimal_baseline]][[_my/images/png/mae_derivatives]]
+created: 20200221114311132
+modified: 20200325163851173
+tags: Stub [[Machine Learning]] [[How to Win a Data Science Competition]] Metrics Regression
+title: Mean Absolute Error
+tmap.id: 489229ef-cd0c-4213-bd40-73db953d7e58
+type: text/vnd.tiddlywiki
+
+$$\displaystyle \operatorname {MAE} ={\frac {1}{N}}\sum _{i=1}^{N}|y_{i}-{\hat {y}_i}|$$
+
+Let's study it's behavior in the same way we did with MSE (see [[MSE|Mean Squared Error]] for details). The resulting plots are as follows:
+
+{{_my/images/png/mae_behaviour_and_optimal_baseline}}
+
+Notice that the minimum of the lower plot (the optimal [[Constant Predictor]]'s value) this time turns out to be the [[Median]] of the target value (again, because the [[Median]] is the [[MLE|Maximum Likelihood Estimate]] of $$\mathbb E(Y)$$, if the [[Likelihood Function]] is of the form of  [[MAE|Mean Absolute Error]]).
+
+[[MAE|Mean Absolute Error]] has the following important differences with [[MSE|Mean Squared Error]]:
+
+* It penalizes larger errors less severely than [[MSE|Mean Squared Error]]
+* Thus, it is less sensitive to [[Outliers]] than [[MSE|Mean Squared Error]] (i.e. is more [[Robust|Robust Statistics]])
+* It differs from [[MSE|Mean Squared Error]] in terms of applications:  e.g. it is widely used in finance, where a $10 error is exactly two times worse than $5 error
+* It is easier to interpret than [[MSE|Mean Squared Error]], thanks to piece-wise linearity
+* Formally speaking, it isn't differentiable at point //0// (that's why people hesitated to use it in the past) - so it's a potential minor "problem" for [[Gradient Descent]]. However, because the problem exists only in one point (floats tend to never be //exactly// equal to zero anyway), it can be solved with just a single `if` statement, so it doesn't matter at the end of the day. See picture:
+*>{{_my/images/png/mae_derivatives}}
+
+''Important note:'' one should ''not'' blindly prefer [[MAE|Mean Absolute Error]] to [[MSE|Mean Squared Error]] whatever the case is! If the data contains objects that look like [[Outliers]] (i.e. they are distant from the majority), //but// one can not dismiss them as data collection errors, etc., or especially if one has reasons to believe that these values are //not// erroneous, and are true, representative observations, one should consider [[MSE|Mean Squared Error]] instead!

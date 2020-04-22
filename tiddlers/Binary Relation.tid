@@ -1,0 +1,21 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200314144225865
+modified: 20200325163831035
+tags: [[Set Theory]]
+title: Binary Relation
+tmap.id: b1969c50-a920-4349-995b-662ddb675355
+type: text/vnd.tiddlywiki
+
+Let $$X$$ and $$Y$$ be [[sets|Set]]. A [[Binary Relation]] is a [[Subset]] of $$X \times Y$$ ([[Cartesian Product]] of X and Y). It encodes the information of //relation//: an element $$x$$ is related to an element $$y$$ if and only if the pair $$(x, y)$$ belongs to the set.
+
+Examples:
+
+* Greater than
+* Less than
+* Is orthogonal to
+* ...
+
+https://en.wikipedia.org/wiki/Binary_relation

@@ -1,0 +1,59 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200331120047457
+modified: 20200331124715405
+tags: [[Regular Expressions]]
+title: Character Class Operations (Regular Expressions)
+tmap.id: 2e9c41f9-b01e-45b7-b474-aa41b769ee03
+type: text/vnd.tiddlywiki
+
+<table border="0">
+<tbody>
+<tr>
+<th scope="col">Class Operation</th>
+<th scope="col">Legend</th>
+<th scope="col">Example</th>
+<th scope="col">Sample Match</th>
+</tr>
+<tr>
+<td>[&hellip;-[&hellip;]]</td>
+<td>.NET: character class subtraction. One character that is in those on the left, but not in the subtracted class.</td>
+<td>[a-z-[aeiou]]</td>
+<td>Any lowercase consonant</td>
+</tr>
+<tr>
+<td>[&hellip;-[&hellip;]]</td>
+<td>.NET: character class subtraction.</td>
+<td>[\p{IsArabic}-[\D]]</td>
+<td>An Arabic character that is not a non-digit, i.e., an Arabic digit</td>
+</tr>
+<tr>
+<td>[&hellip;&amp;&amp;[&hellip;]]</td>
+<td>Java, Ruby 2+: character class intersection. One character that is both in those on the left and in the &amp;&amp; class.</td>
+<td>[\S&amp;&amp;[\D]]</td>
+<td>An non-whitespace character that is a non-digit.</td>
+</tr>
+<tr>
+<td>[&hellip;&amp;&amp;[&hellip;]]</td>
+<td>Java, Ruby 2+: character class intersection.</td>
+<td>[\S&amp;&amp;[\D]&amp;&amp;[^a-zA-Z]]</td>
+<td>An non-whitespace character that a non-digit and not a letter.</td>
+</tr>
+<tr>
+<td>[&hellip;&amp;&amp;[^&hellip;]]</td>
+<td>Java, Ruby 2+: character class subtraction is obtained by intersecting a class with a negated class</td>
+<td>[a-z&amp;&amp;[^aeiou]]</td>
+<td>An English lowercase letter that is not a vowel.</td>
+</tr>
+<tr>
+<td>[&hellip;&amp;&amp;[^&hellip;]]</td>
+<td>Java, Ruby 2+: character class subtraction</td>
+<td>[\p{InArabic}&amp;&amp;[^\p{L}\p{N}]]</td>
+<td>An Arabic character that is not a letter or a number</td>
+</tr>
+</tbody>
+</table>
+
+https://www.rexegg.com/regex-quickstart.html

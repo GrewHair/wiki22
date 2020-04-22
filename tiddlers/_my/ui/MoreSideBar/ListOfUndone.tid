@@ -1,0 +1,15 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+caption: Undone
+created: 20191025102841549
+modified: 20200325082917994
+tags: _my/tags/MoreSideBar
+title: _my/ui/MoreSideBar/ListOfUndone
+tmap.id: 25134714-6dcf-4846-a3d6-535660cf25aa
+type: text/vnd.tiddlywiki
+
+!!! ''<$list filter="[!tag[Done]!prefix[$]count[]]"><<currentTiddler>></$list> tiddlers left:''
+
+<$list filter="[!tag[Done]!prefix[$]]"/>

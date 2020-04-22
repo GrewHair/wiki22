@@ -1,0 +1,19 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200221153705029
+modified: 20200325163851183
+tags: Stub [[Machine Learning]] [[How to Win a Data Science Competition]] Metrics Classification
+title: Logarithmic Loss
+tmap.id: 54c07913-5520-4e2d-b990-d0ff807bac51
+type: text/vnd.tiddlywiki
+
+* Binary:
+*>$$\displaystyle \operatorname {LogLoss} = -{\frac {1}{N}}\sum_{i=1}^{N}\left(y_i\log{\hat{y_i}}+(1-y_i)\log{(1-\hat{y_i})}\right)$$
+*>$$y_i \in {\mathbb  R},  \hat y_i \in {\mathbb  R}$$
+* Multiclass:
+*>$$\displaystyle \operatorname {LogLoss} = -{\frac {1}{N}}\sum_{i=1}^{N}\sum_{l=1}^{L}y_{il}\log{\hat y_{il}}$$
+*>$$y_i \in {\mathbb R}^L, {\hat y_i} \in {\mathbb R}^L$$
+
+''Important Note:'' here it is presented as a metric, but usually it is considered a [[Loss Function]]. And [[Loss Fuctions|Loss Function]] are usually defined for one single point - so in normal definition there is no summation over N. If you get rid of the summation over N, you will see that it is nothing but a [[Cross Entropy]] between a probability vector output from the model and the true distribution, which is in fact degenerate, because one of the classes has probability 1, and all other classes have probability 0!

@@ -1,0 +1,17 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191030114126185
+modified: 20200325163932043
+tags: Logic
+title: Quality
+tmap.id: 71d864d5-6bb9-430c-a044-42f7bca7a2f9
+type: text/vnd.tiddlywiki
+
+The Quality property of a [[Categorical Proposition]] specifies whether it is stated that the [[subject class|Subject]] is included or excluded from the [[predicate class|Predicate (Categorical Logic)]]. It is determined by the [[Copula]]. Based on the Quality property the propositions can be:
+
+* Affirmative
+* Negative
+
+<span style="color:red">''Important note:''</span> in english language, the Quality may sometimes be determined not by the [[Copula]], but by an additional (redundant) type of [[Quantifier]], which is confusing. 

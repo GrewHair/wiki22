@@ -1,0 +1,17 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[_my/images/png/one-vs-rest_classification]]
+created: 20200419120816884
+modified: 20200419121740550
+tags: [[Introduction to Deep Learning With Keras (Datacamp)]]
+title: One-vs-rest Classification
+tmap.id: cf2c78e0-01d9-4acf-a764-ed7bbb0e9a34
+type: text/vnd.tiddlywiki
+
+{{_my/images/png/one-vs-rest_classification}}
+
+[[One-vs-rest Classification]] is a classical machine learning approach to solving [[Multilabel Classification]] problems. The basic idea is to train multiple binary classifiers, each discriminating its different class, and then somehow connect the results.
+
+Nowadays it is somewhat abandoned, because it takes only a few easy tweaks to make a [[Multiclass Classification]] [[Neural Network|Neural Networks]] suitable for [[Multilabel Classification]] (namely change the [[Activation Function]] of the [[Output Layer]] from [[Softmax]] to [[Sigmoid]]), which is an easier and more elegant approach.

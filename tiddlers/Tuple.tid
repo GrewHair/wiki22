@@ -1,0 +1,23 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200308071143460
+modified: 20200325163830906
+tags: [[Set Theory]]
+title: Tuple
+tmap.id: b09e05ee-0f9f-4e8b-b526-1536c2f60baf
+type: text/vnd.tiddlywiki
+
+A [[Tuple]] is a finite ordered list of elements.
+
+It is a [[Sequence]] with a [[finite|Finite Set]] [[Index Set]] of non-negative [[Integers]].
+
+* 0-tuple: empty sequence
+* 1-tuple
+* 2-tuple: ordered pair, or couple
+* 3-tuple: triple, or triplet
+* ...
+* n-tuples are often defined inductively, as nested ordered pairs
+
+In cases when the elements of a tuple are [[scalars|Scalar]], it is also called a [[Vector|Coordinate Vector]].

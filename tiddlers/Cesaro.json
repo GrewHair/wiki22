@@ -1,0 +1,22 @@
+[
+    {
+        "created": "20191216151117431",
+        "text": "|<<prs mnemonic>>|\n|<<prs example>>|",
+        "title": "Cesaro",
+        "tags": "dd Logic [[100 Days of Logic (carneades.org)]]",
+        "modified": "20200325163931795",
+        "type": "text/vnd.tiddlywiki",
+        "tmap.id": "e91bc184-0b27-4641-b34f-b3e294dfacbf",
+        ".prs.mnemonic": "C__''e''__s__''a''__r__''o''__",
+        ".prs.example": "No gays are females.<br> \nAll lesbians are females.<br> \n&there4; Some lesbians are not gay. ",
+        ".hsk.tagged_topic": "[<currentTiddler>tags[]field:icon[_my/images/icons/topic]]",
+        ".hsk.tagged_feature": "[<currentTiddler>tags[]field:icon[_my/images/icons/feature]]",
+        ".hsk.tagged_exemplar": "[<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]",
+        ".hsk.tagged_diagram": "[<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]",
+        ".hsk.macrocall": "[[_my/macros/appear/prs]]",
+        ".att.weakened": "yes",
+        ".att.valid": "conditionally",
+        ".att.mood": "EAO Mood",
+        ".att.figure": "Figure II"
+    }
+]

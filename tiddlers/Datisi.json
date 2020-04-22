@@ -1,0 +1,22 @@
+[
+    {
+        "created": "20191216152307113",
+        "text": "|<<prs mnemonic>>|\n|<<prs example>>|",
+        "title": "Datisi",
+        "tags": "dd Logic [[100 Days of Logic (carneades.org)]]",
+        "modified": "20200325163931699",
+        "type": "text/vnd.tiddlywiki",
+        "tmap.id": "3bd69083-f008-42a2-8896-ef5124055987",
+        ".temp": "All rabbits have fur. (MaP)<br>\nSome rabbits are females. (SiM)<br>\n∴ Some females have fur. (SiP)",
+        ".prs.mnemonic": "D__''a''__t__''i''__s__''i''__",
+        ".prs.example": "All lesbians are females.<br>\nSome lesbians are kinksters.<br>\n&there4; Some kinksters are females.",
+        ".hsk.tagged_topic": "[<currentTiddler>tags[]field:icon[_my/images/icons/topic]]",
+        ".hsk.tagged_feature": "[<currentTiddler>tags[]field:icon[_my/images/icons/feature]]",
+        ".hsk.tagged_exemplar": "[<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]",
+        ".hsk.tagged_diagram": "[<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]",
+        ".hsk.macrocall": "[[_my/macros/appear/prs]]",
+        ".att.valid": "unconditionally",
+        ".att.mood": "AII Mood",
+        ".att.figure": "Figure III"
+    }
+]

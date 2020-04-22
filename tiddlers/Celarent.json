@@ -1,0 +1,22 @@
+[
+    {
+        "created": "20191216144310458",
+        "text": "|<<prs mnemonic>>|\n|<<prs example>>|",
+        "title": "Celarent",
+        "tags": "dd Logic [[100 Days of Logic (carneades.org)]]",
+        "modified": "20200325163931807",
+        "type": "text/vnd.tiddlywiki",
+        "tmap.id": "60e6b3ed-db46-4859-8f13-4317c122ce30",
+        ".temp": "No reptiles have fur. (MeP)<br>\nAll snakes are reptiles. (SaM)<br>\n∴ No snakes have fur. (SeP)",
+        ".prs.mnemonic": "C__''e''__l__''a''__r__''e''__nt",
+        ".prs.example": "No females are gay.<br>\nAll lesbians are females.<br>\n&there4; No lesbians are gay.",
+        ".hsk.tagged_topic": "[<currentTiddler>tags[]field:icon[_my/images/icons/topic]]",
+        ".hsk.tagged_feature": "[<currentTiddler>tags[]field:icon[_my/images/icons/feature]]",
+        ".hsk.tagged_exemplar": "[<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]",
+        ".hsk.tagged_diagram": "[<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]",
+        ".hsk.macrocall": "[[_my/macros/appear/prs]]",
+        ".att.valid": "unconditionally",
+        ".att.mood": "EAE Mood",
+        ".att.figure": "Figure I"
+    }
+]

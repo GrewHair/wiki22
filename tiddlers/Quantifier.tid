@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191028102635223
+modified: 20200325163932035
+tags: Logic
+title: Quantifier
+tmap.id: 099bd96b-6507-4047-aa81-7b0112ce0496
+type: text/vnd.tiddlywiki
+
+Quantifiers characterise the [[Quantity]] property of a Categorical Proposition. They specify how much of the [[subject class|Subject]] is included in/excluded from the [[predicate class|Predicate (Categorical Logic)]].
+
+Examples:
+
+*all
+*<span style="color:red">no</span>
+*some
+
+<span style="color:red">''Important note:''</span> the <span style="color:red">no</span> quantifier is present in the natural language form of [[Categorical Propositions|Categorical Proposition]] mainly due to features of english grammar and is in fact <span style="color:red">redundant</span>. It <span style="color:red">confuses matters</span>, because it characterises not only the [[Quantity]], but also the [[Quality]] property of a [[Categorical Proposition]], thereby "stealing the job" of [[Copula]] when it is used. [[Categorical Propositions|Categorical Proposition]] can be formalized <span style="color: red">in a much cleaner way //without it//</span> - and that is why it didn't make its way to more formalized first-order [[Predicate Calculus|Predicate Logic]].

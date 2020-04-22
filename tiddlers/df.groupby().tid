@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200110054851327
+modified: 20200325163745811
+tags: Stub Pandas
+title: df.groupby()
+tmap.id: a4d690c6-b44c-442f-94d8-dd267c89f4e1
+type: text/vnd.tiddlywiki
+
+It's the Pandas implementation of the [[Split-Apply-Combine]] paradigm

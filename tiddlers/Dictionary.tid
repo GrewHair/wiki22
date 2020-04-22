@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200127081801358
+modified: 20200325163836572
+tags: English
+title: Dictionary
+tmap.id: 7172dc91-dffa-4b19-8ff2-b250677e4524
+type: text/vnd.tiddlywiki
+
+* mpg - miles per gallon (unit of fuel efficiency)
+* hp - horsepower
+* tips - чаевые
+* customer churn - отток клиентов
+* impressions - ?????
+* ctr - click through rate
+* line segment - отрезок
+* consistent/inconsistent - совместный/семовместный (о системе уравнений)
+* linear span - линейная оболочка

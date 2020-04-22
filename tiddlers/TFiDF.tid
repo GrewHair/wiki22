@@ -1,0 +1,45 @@
+created: 20191227164039994
+modified: 20200325163851006
+tags: [[How to Win a Data Science Competition]] [[Machine Learning]]
+title: TFiDF
+tmap.id: 533bac35-337c-4bbf-8acf-cd62a9be40c3
+type: text/vnd.tiddlywiki
+
+or //tf-idf//: term frequency -- inverse document frequency.
+
+It consists of two essential parts:
+
+''Term Frequency''<br>
+
+
+<table style="width:600px">
+<td height="50" valign="middle">
+$$\mathrm{tf}(t, d) =  \frac{f_{t,d}}{\sum \limits_{t'\in d}{f_{t',d}}}$$
+</td>
+<td height="50" valign="middle">
+``tf = 1 / x.sum(axis=1) [:,None]
+x = x * tf``
+</td>
+</table>
+
+
+''Inverse Document Frequency''<br>
+
+<table style="width:600px">
+<td height="50" valign="middle">
+ $$\mathrm{idf}(t, D) =  \log \frac{|D|}{|\{d \in D: t \in d\}|}$$
+</td>
+<td height="50" valign="middle">
+``idf = np.log(x.shape[0] / (x > 0).sum(0))
+x = x * idf``
+</td>
+</table>
+
+
+$$\mathrm{D}$$ - corpus;<br>
+$$\mathrm{d}$$ - document;<br>
+$$\mathrm{t}$$ - term;<br>
+$$f_{t,d}$$ - raw count of $$\mathrm{t}$$ in $$\mathrm{d}$$.
+
+<br>
+It can be found here: ``sklearn.feature_extraction.text.TfidfVectorizer``

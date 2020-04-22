@@ -1,0 +1,19 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200131112153730
+modified: 20200325163850984
+tags: [[How to Win a Data Science Competition]] [[Machine Learning]]
+title: Validation Types
+tmap.id: 187aaf4c-9be8-4e7f-8d5c-3ee4b7908407
+type: text/vnd.tiddlywiki
+
+* Holdout: ngroups = 1
+*> `sklearn.model_selection.ShuffleSplit`
+*> //acceptible when we have enough data; the con is that some samples never make it to the validation set//
+* K-fold: ngroups = k
+*> `sklearn.model_selection.Kfold`
+* Leave-one-out: ngroups = len(train)
+*> `sklearn.model_selection.LeaveOneOut`
+*> //plausible when we have not enough data and a model that is fast to retrain//

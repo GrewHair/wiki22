@@ -1,0 +1,23 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200307224150178
+modified: 20200325163831026
+tags: [[Set Theory]]
+title: Cartesian Product
+tmap.id: a59c4a2e-4b49-4d14-a773-ab765fc75372
+type: text/vnd.tiddlywiki
+
+A [[Cartesian Product]] of two [[sets|Set]] is a [[Set]] of [[Tuples|Tuple]] of all possible combinations of elements of the two sets.
+
+* Binary Cartesian product
+$$A \times B = \{(a,b)|a \in A \;\ \text{and}\;\ b \in B \}$$
+
+* n-ary Cartesia product 
+$$X_1 \times ... \times X_2 = \{(x_1,...,x_n)|x_i \in X_i  \forall i \in \{1,...,n\}\}.$$
+
+*  n-ary Cartesian power
+$$X^n = \underbrace{X \times X \times ... \times X}_{n} = \{(x_1, ..., x_n\} | x_i \in X \forall i \in \{1, ..., n \}\}.$$
+
+https://en.wikipedia.org/wiki/Cartesian_product

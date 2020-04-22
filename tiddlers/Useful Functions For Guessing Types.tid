@@ -1,0 +1,13 @@
+created: 20200110065323767
+modified: 20200325163745782
+tags: [[How to Win a Data Science Competition]] Pandas
+title: Useful Functions For Guessing Types
+tmap.id: 276f7c5b-2be4-4a49-a28a-4806fa79da6c
+type: text/vnd.tiddlywiki
+
+* `df.dtypes`
+* `df.info()`
+* `s.value_counts()`
+* `s.isnull()`
+
+To select only columns that contain specific dtype/dtypes, one can use `df.select_dtypes`. The `include` //and/or// `exclude` keyword argument is needed - it can be a string or a list of strings. The string should be [[one of Numpy's dtypes|Numpy dtype Hierarchy]].

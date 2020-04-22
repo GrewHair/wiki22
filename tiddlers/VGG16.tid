@@ -1,0 +1,17 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[_my/images/png/vgg16]]
+created: 20200206122720963
+modified: 20200325163850980
+tags: Stub [[How to Win a Data Science Competition]] [[Machine Learning]]
+title: VGG16
+tmap.id: e961eb5c-fb6c-4b72-ade9-0bd65e9e8cb6
+type: text/vnd.tiddlywiki
+
+https://neurohive.io/en/popular-networks/vgg16/
+
+[[VGG16]] is a [[Convolutional Neural Network|Convolutional Neural Networks]] for [[Classification]] and detection.
+
+{{_my/images/png/vgg16}}

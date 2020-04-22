@@ -1,0 +1,47 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200331120018218
+modified: 20200331124705662
+tags: [[Regular Expressions]]
+title: Lookarounds (Regular Expressions)
+tmap.id: aa9c44e6-ad3c-48d2-88e9-16b9d2d6af2d
+type: text/vnd.tiddlywiki
+
+<table border="0">
+<tbody>
+<tr>
+<th scope="col">Lookaround</th>
+<th scope="col">Legend</th>
+<th scope="col">Example</th>
+<th scope="col">Sample Match</th>
+</tr>
+<tr>
+<td>(?=&hellip;)</td>
+<td><a href="regex-disambiguation.html#lookahead">Positive lookahead</a></td>
+<td>(?=\d{10})\d{5}</td>
+<td>01234 in <strong>01234</strong>56789</td>
+</tr>
+<tr>
+<td>(?&lt;=&hellip;)</td>
+<td><a href="regex-disambiguation.html#lookbehind">Positive lookbehind</a></td>
+<td>(?&lt;=\d)cat</td>
+<td>cat in 1<strong>cat</strong></td>
+</tr>
+<tr>
+<td>(?!&hellip;)</td>
+<td><a href="regex-disambiguation.html#negative-lookahead">Negative lookahead</a></td>
+<td>(?!theatre)the\w+</td>
+<td>theme</td>
+</tr>
+<tr>
+<td>(?&lt;!&hellip;)</td>
+<td><a href="regex-disambiguation.html#negative-lookbehind">Negative lookbehind</a></td>
+<td>\w{3}(?&lt;!mon)ster</td>
+<td>Munster</td>
+</tr>
+</tbody>
+</table>
+
+https://www.rexegg.com/regex-quickstart.html

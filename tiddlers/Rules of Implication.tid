@@ -1,0 +1,11 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191023135708502
+list: Addition [[Conjunction (Rule of Implication)]] [[Constructive Dilemma]] [[Disjunctive Syllogism]] [[Hypothetical Syllogism]] [[Modus Ponens]] [[Modus Tollens]] Simplification
+modified: 20200325163932023
+tags: Stub Logic
+title: Rules of Implication
+tmap.id: 99c529fd-a942-4bc7-9d1c-4619479c7ef3
+type: text/vnd.tiddlywiki

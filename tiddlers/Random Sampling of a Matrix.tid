@@ -1,0 +1,23 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200309222735992
+modified: 20200325163851092
+tags: [[Lecture 1]] Stub [[MIT 18.065 Matrix Methods in Data Analysis, Signal Processing, and Machine Learning]] [[Linear Algebra]] [[Machine Learning]]
+title: Random Sampling of a Matrix
+tmap.id: 25c989aa-7470-4f81-a949-28dc5c07b988
+type: text/vnd.tiddlywiki
+
+* Say you have a matrix $$A$$ of size ~$$10^5$$
+* You can't even load it into RAM
+* How do you deal with it? How do you even look at it?
+* Here's how:
+** Generate a random [[Vector]] $$\vec x$$ of size equal to the number of columns
+**> `np.random.rand((100_000, 1))`
+** Calculate $$A \vec x$$ ([[see this|Multiplying a Matrix by a Vector]])
+** Now you have some (hopefully) typical "citizen" of $$A$$'s [[Column Space]] (because there's a huge amount of columns in this matrix, you can think of it as "some average/typical column")
+**> This technique is better than just picking some column of $$A$$ at random - it's better to take a mixture
+** Repeat this procedure a hundred times to obtain a stripped-down version of $$A$$ of size ~100
+
+https://arxiv.org/pdf/1905.06942.pdf

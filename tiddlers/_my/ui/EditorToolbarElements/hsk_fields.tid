@@ -1,0 +1,42 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+button-classes: tc-text-editor-toolbar-item-start-group
+caption: 
+condition: [<targetTiddler>]
+created: 20191214122847171
+custom-icon: yes
+description: 
+icon: _my/images/icons/box-open
+modified: 20200325140446929
+shortcuts: 
+tags: $:/tags/EditorToolbar
+title: _my/ui/EditorToolbarElements/hsk_fields
+tmap.id: 2b444e3f-14a2-4a2d-acb1-82ec6752633b
+type: text/vnd.tiddlywiki
+
+\define hide_field(field)
+<$action-setfield $tiddler="$:/config/EditTemplateFields/Visibility/$field$" $value="hide"/>
+\end
+
+\define show_field(field)
+<$action-setfield $tiddler="$:/config/EditTemplateFields/Visibility/$field$" $value="show"/>
+\end
+
+<$reveal state="_my/ui/EditorToolbarElements/hsk_fields/state" type="match" text="show" tag="span">
+{{_my/images/icons/box-open}}
+<$action-setfield $tiddler="_my/ui/EditorToolbarElements/hsk_fields/state" $value="hide"/>
+<<hide_field .hsk.transcludes>>
+<<hide_field .hsk.macrocall>>
+<<hide_field icon>>
+<<hide_field color>>
+</$reveal>
+<$reveal state="_my/ui/EditorToolbarElements/hsk_fields/state" type="nomatch" text="show" tag="span">
+{{_my/images/icons/box-closed}}
+<$action-setfield $tiddler="_my/ui/EditorToolbarElements/hsk_fields/state" $value="show"/>
+<<show_field .hsk.transcludes>>
+<<show_field .hsk.macrocall>>
+<<show_field icon>>
+<<show_field color>>
+</$reveal>

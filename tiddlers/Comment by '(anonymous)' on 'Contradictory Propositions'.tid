@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191030134744450
+edit-mode: no
+list: [[Contradictory Propositions]]
+modified: 20200325165502994
+role: comment
+title: Comment by '(anonymous)' on 'Contradictory Propositions'
+tmap.id: e6ea8503-e6d1-485a-ad65-c3daba7bbeda
+type: text/vnd.tiddlywiki
+
+the formulas are likely wrong

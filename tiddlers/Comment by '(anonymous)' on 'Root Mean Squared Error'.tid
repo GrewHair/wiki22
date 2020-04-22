@@ -1,0 +1,11 @@
+created: 20200319080941825
+edit-mode: no
+list: [[Root Mean Squared Error]]
+modified: 20200325165502885
+role: comment
+title: Comment by '(anonymous)' on 'Root Mean Squared Error'
+tmap.id: 58022e31-e685-4159-a9f2-64ac1408bc3e
+type: text/vnd.tiddlywiki
+
+In the last paragraph i made a distinction between optimization and evaluation. Usually, people think of losses and objective functions as instruments for optimization, and metrics as instruments for evaluation.
+However, in this cource it may turn out (i'm not yet quite sure) that they've just thrown everything into this one category of 'metrics' (hence the strange name - 'metrics optimization') - in which case you should better rearrange it later when you are done with the cource.

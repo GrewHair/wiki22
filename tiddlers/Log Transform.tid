@@ -1,0 +1,15 @@
+created: 20191226214945460
+modified: 20200325163851187
+tags: [[How to Win a Data Science Competition]] [[Machine Learning]]
+title: Log Transform
+tmap.id: d1c76d7f-1106-4e06-84e2-afb1ff1863c0
+type: text/vnd.tiddlywiki
+
+``np.log(1+x)``,
+or alternatively, `np.log1p(x)`
+
+It is mostly used with [[Neural Networks]].
+
+''Note:'' the "`(1+x)`" part is probably used because of the fact that:
+
+ $$\log{(1+0)} =  0$$

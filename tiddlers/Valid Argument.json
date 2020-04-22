@@ -1,0 +1,17 @@
+[
+    {
+        "created": "20191020024607224",
+        "text": "An [[Argument]] is valid when it takes a form in which it is impossible for the premises to be //True// and the conclusion to be //False//.\n\nIf an [[Argument]] is [[Valid|Valid Argument]], then it's corresponding [[Conditional Proposition]], is a [[Tautology|Tautologous Proposition]].\n\n<<res youtube>>",
+        "title": "Valid Argument",
+        "tags": "Logic",
+        "modified": "20200325163932276",
+        "type": "text/vnd.tiddlywiki",
+        "tmap.id": "9b53d728-8136-40fc-9368-1f973938b1a3",
+        ".res.youtube": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/pMtMDypKYHU\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        ".hsk.tagged_topic": "[<currentTiddler>tags[]field:icon[_my/images/icons/topic]]",
+        ".hsk.tagged_feature": "[<currentTiddler>tags[]field:icon[_my/images/icons/feature]]",
+        ".hsk.tagged_exemplar": "[<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]",
+        ".hsk.tagged_diagram": "[<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]",
+        ".hsk.macrocall": " [[_my/macros/appear/res]]"
+    }
+]

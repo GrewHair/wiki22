@@ -1,0 +1,28 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200316185709696
+modified: 20200325163854412
+tags: [[Abstract Algebra]] [[Abstract Algebra (Socratica)]]
+title: Lagrange's Theorem
+tmap.id: 2e77de15-cf5a-44f6-9cf9-661f5c55d430
+type: text/vnd.tiddlywiki
+
+If $$H \leq G$$ ($$H$$ is a [[Subgroup]] of a [[Finite Group]] $$G$$), then the [[order|Order of a Group]] of $$H$$ [[divides|Divisor]] the [[order|Order of a Group]] of $$G$$:
+
+$$
+H \leq G \implies
+|H| \text{  divides  } |G|
+$$
+
+[[Proof|Proof of the Lagrange's Theorem]].
+
+''Note:'' the converse may __not__ be true! Just because some number divides |G|, doesn't mean that this [[subgroup|Subgroup]] will exist. E.g. there's an [[Alternating Group]] $$A_4$$. it's [[order|Order of a Group]] is 12. It doesn't have a [[Subgroup]] of [[order|Order of a Group]] 6. 
+
+* ''Example of its application:'' 
+*>Let $$G$$ be a [[Group]] with $$|G| = 323 = 17 \times 19$$.
+*>Divisors of $$323$$: $$1, 17, 19, 323$$.
+*>Possible [[subgroups|Subgroup]] [[orders|Order of a Group]]: $$1, 17, 19, 323$$.
+*>[[Standard Subgroups]]: $$G$$, $$\{e\}$$; $$|G| = 323$$, $$|\{e\}| = 1$$.
+*>Thus, //any// other subgroup has order 17 or 19. The list of suspects has shortened dramatically!

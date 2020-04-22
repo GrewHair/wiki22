@@ -1,0 +1,35 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191216170145998
+modified: 20200325133349828
+tags: $:/tags/Macro
+title: _my/macros/syll_pivot_table
+tmap.id: b0ae7914-eb82-4ec2-96bd-d51b1f03137a
+type: text/vnd.tiddlywiki
+
+\define syll_pivot_table(data column_field column_list row_field row_list)
+<table style="text-align:center">   
+<thead>     
+<tr>       
+<th></th>
+<$list filter='$column_list$'><th><$link/></th></$list>     
+</tr>   
+</thead>   
+<tbody>
+<$list filter='$row_list$'>
+<tr>
+<th><$link/></th>
+<$list filter='$column_list$' variable=currentColumn>
+<td>
+<$list filter="[$data$field:$row_field$<currentTiddler>field:$column_field$<currentColumn>]">
+<$link to=<<currentTiddler>> ><$transclude tiddler=<<currentTiddler>> field=".prs.mnemonic"/></$link>
+</$list>
+</td>
+</$list> 
+</tr>
+</$list>   
+</tbody>
+</table>
+\end

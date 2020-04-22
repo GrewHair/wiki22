@@ -1,0 +1,11 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191023171416820
+list: [[Associativity (Rule of Replacement)]] [[Commutativity (Rule of Replacement)]] [[De Morgan's Laws]] [[Distribution (Rule of Replacement)]] [[Double Negation]] Exportation [[Material Equivalence (Rule of Replacement)]] [[Material Implication (Rule of Replacement)]] [[Tautology (Rule of Replacement)]] Transposition
+modified: 20200325163932012
+tags: Stub Logic
+title: Rules of Replacement
+tmap.id: 84e2ddd9-c7f4-471b-a97e-0ab740ced716
+type: text/vnd.tiddlywiki

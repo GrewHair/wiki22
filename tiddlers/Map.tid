@@ -1,0 +1,13 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200310211351735
+icon: _my/images/icons/feature
+modified: 20200325171301944
+tags: 
+title: Map
+tmap.id: 7344928a-8c81-473b-ac25-ff10315bd2b5
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/Map_(mathematics)

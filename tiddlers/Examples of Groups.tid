@@ -1,0 +1,46 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200316191000164
+modified: 20200325163854425
+tags: [[Abstract Algebra]] [[Abstract Algebra (Socratica)]]
+title: Examples of Groups
+tmap.id: 37fe143c-94c9-4025-8a34-00906257fc79
+type: text/vnd.tiddlywiki
+
+* The [[Trivial Group]]
+*><$latex text="
+\begin{array}{c|c}
+* & \mathbf e \\ \hline
+\mathbf e & e \\
+\end{array}
+"/>
+
+* [[Groups|Group]] of [[order|Order of a Group]] 2 (there's only one such [[Group]]!)
+*><$latex text="
+\begin{array}{c|c}
+* & \mathbf{e} & \mathbf{a} \\ \hline
+\mathbf{e} & e & a \\
+\mathbf{a} & a & e \\
+\end{array}
+\cong \Z/2\Z \;\text{(integers mod 2)}
+"/>
+
+* [[Groups|Group]] of [[order|Order of a Group]] 3 (there's only one such [[Group]]!)
+*><$latex text="
+\begin{array}{c|ccc}
+* & \mathbf{e} & \mathbf{a} & \mathbf{b} \\ \hline
+\mathbf{e} & e & a & b \\
+\mathbf{a} & a & b & e \\
+\mathbf{b} & b & e & a \\
+\end{array}
+\cong \Z/2\Z \;\text{(integers mod 3)}
+"/>
+
+* [[Groups]] of [[order|Order of a Group]] 4
+** 4 [[Cayley Tables]]
+** 3 are identical ([[Isomorphic|Isomorphism]]?)
+** So there are only two distinct [[Groups]]
+
+* ...

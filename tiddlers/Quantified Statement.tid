@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191222154604245
+modified: 20200325163937997
+tags: [[Predicate Logic]] Logic
+title: Quantified Statement
+tmap.id: 74be508e-ad07-46ce-9564-28d9149cd168
+type: text/vnd.tiddlywiki
+
+A [[Quantified Statement]] is a [[Statement Function]] together with a [[Quantifier|Quantifier (Predicate Logic)]].
+
+Example:
+
+([[∀|Universal Quantifier]]x)([[Ax→Bx|Statement Function]])
+
+The use of [[Quantifier|Quantifier (Predicate Logic)]] on the [[Variable|Variable (Predicate Logic)]] //x// gives the [[Statement Function]] a concrete meaning, just like in [[Statements|Statement (Predicate Logic)]] with [[Constanst|Constant (Predicate Logic)]].

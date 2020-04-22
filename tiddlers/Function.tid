@@ -1,0 +1,19 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200308081735734
+modified: 20200325163830989
+tags: [[Set Theory]]
+title: Function
+tmap.id: b17aa9d6-0b2d-44c7-982b-a99cf52b60f6
+type: text/vnd.tiddlywiki
+
+Let $$A$$ and $$B$$ be [[sets|Set]]. A //function// $$f:  A \to B$$ is a [[Subset]] of $$A \times B$$ ([[Cartesian Product]] of A and B) such that for every $$x \in A$$ there is exactly one $$y \in B$$ such that $$(x, y) \in f$$.
+
+* There are [[uncountably many|Uncountable Set]] functions from $$\N$$ to $$\N$$.
+*>''Proof:'' for each positive real number $$\alpha$$ let's define $$f(n) = \lceil \alpha n \rceil$$(the smallest integer greater than $$\alpha n$$) - they are all different functions! //And// there are [[uncountably many|Uncountable Set]] positive real pumbers. End of proof.
+
+
+
+https://gowers.wordpress.com/2011/10/13/domains-codomains-ranges-images-preimages-inverse-images/

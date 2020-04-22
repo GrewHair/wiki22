@@ -1,0 +1,22 @@
+[
+    {
+        "created": "20191216151101191",
+        "text": "|<<prs mnemonic>>|\n|<<prs example>>|",
+        "title": "Festino",
+        "tags": "dd Logic [[100 Days of Logic (carneades.org)]]",
+        "modified": "20200325163932181",
+        "type": "text/vnd.tiddlywiki",
+        "tmap.id": "8881d95f-5453-4c50-a3ff-e669109ba8ba",
+        ".temp": "No homework is fun. (MeP)<br>\nSome reading is fun. (SiM)<br>\n∴ Some reading is not homework. (SoP)",
+        ".prs.mnemonic": "F__''e''__st__''i''__n__''o''__",
+        ".prs.example": "No vanillas are bottoms.<br>\nSome lesbians are bottoms.<br>\n&there4; Some lesbians are not vanilla.",
+        ".hsk.tagged_topic": "[<currentTiddler>tags[]field:icon[_my/images/icons/topic]]",
+        ".hsk.tagged_feature": "[<currentTiddler>tags[]field:icon[_my/images/icons/feature]]",
+        ".hsk.tagged_exemplar": "[<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]",
+        ".hsk.tagged_diagram": "[<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]",
+        ".hsk.macrocall": "[[_my/macros/appear/prs]]",
+        ".att.valid": "unconditionally",
+        ".att.mood": "EIO Mood",
+        ".att.figure": "Figure II"
+    }
+]

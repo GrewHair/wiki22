@@ -1,0 +1,20 @@
+[
+    {
+        "created": "20191029125123175",
+        "text": "The [[Particular]] [[Negative]] [[statement|Categorical Proposition]]\n\nSome //S// are not //P//:\n\n|<<prs venn-boolean>>|\n|<<prs mnemonic>>|\n|<<res youtube>>|\n\n<!--Links (for context-aware search):-->\n[[|Subject]]\n[[|Predicate (Categorical Logic)]]",
+        "title": "SOME ARE NOT Statement",
+        "tags": "Logic",
+        "modified": "20200325163931978",
+        "type": "text/vnd.tiddlywiki",
+        "tmap.id": "735172c9-62ba-4440-b79d-98428790678e",
+        ".res.youtube": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/a8n2elUbgIw\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        ".prs.venn-boolean": "<div style=\"position: relative\">       \n<div style=\"position: relative\">\n{{_my/images/venn/boolean/SOME_ARE_NOT_Statement}}\n</div>       \n<span style=\"position: absolute;left: -3px;top: -21px;\">\n<h1>[[S|Subject]]</h1>\n</span>       \n<span style=\"position: absolute;left: 370px;top: -16px;\">\n<h1>[[P|Predicate (Categorical Logic)]]</h1>\n</span>       \n</div>",
+        ".prs.mnemonic": "n''e''g__''o''__",
+        ".hsk.transcludes": "[[_my/images/venn/boolean/SOME_ARE_NOT_Statement]]",
+        ".hsk.tagged_topic": "[<currentTiddler>tags[]field:icon[_my/images/icons/topic]]",
+        ".hsk.tagged_feature": "[<currentTiddler>tags[]field:icon[_my/images/icons/feature]]",
+        ".hsk.tagged_exemplar": "[<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]",
+        ".hsk.tagged_diagram": "[<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]",
+        ".hsk.macrocall": " [[_my/macros/appear/prs]] [[_my/macros/appear/res]]"
+    }
+]

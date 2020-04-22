@@ -1,0 +1,14 @@
+[
+    {
+        "created": "20200201110541684",
+        "text": "there's some discussion of something called 'instance-based learning' , and how it's connected to lazy learning here:\nhttps://www.cs.rutgers.edu/~elgammal/classes/cs536/lectures/IBL.pdf\n\ngoogling 'instance-based learning' yields this:\nhttps://www.quora.com/What-are-the-differences-between-instance-based-and-model-based-learning-in-machine-learning\n, which introduces yet another notion of 'model-based learning'.\nI'll deal with all this crap later.",
+        "title": "Comment by '(anonymous)' on 'Lazy Learning'",
+        "modified": "20200325165502968",
+        "type": "text/vnd.tiddlywiki",
+        "tmap.id": "9de8767f-e720-484f-bc30-07482cb8b569",
+        "saved-text": "there's some discussion of something called 'instance-based learning' , and how it's connected to lazy learning here:\nhttps://www.cs.rutgers.edu/~elgammal/classes/cs536/lectures/IBL.pdf\n\ngoogling 'instance-based learning' yields this:\nhttps://www.quora.com/What-are-the-differences-between-instance-based-and-model-based-learning-in-machine-learning\nwhich introduces yet another notion of 'model-based learning'.\nI'll deal with all this crap later.",
+        "role": "comment",
+        "list": "[[Lazy Learning]]",
+        "edit-mode": "no"
+    }
+]

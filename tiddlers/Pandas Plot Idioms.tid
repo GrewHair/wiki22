@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200127075045504
+modified: 20200325163745794
+tags: Pandas
+title: Pandas Plot Idioms
+tmap.id: e69476a0-316e-4d43-b236-04f2de7c6a99
+type: text/vnd.tiddlywiki
+
+There are three different DataFrame plot idioms:
+
+* `df.plot(kind = 'hist')`
+* `df.plt.hist()`
+* `df.hist()`
+
+The results //differ// slightly!
+
+This is relevant for `hist`, `scatter`, `box` and related plot functions.

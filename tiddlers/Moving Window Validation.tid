@@ -1,0 +1,13 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[_my/images/png/moving_window_validation]]
+created: 20200203135120530
+modified: 20200325163851134
+tags: Stub [[How to Win a Data Science Competition]] [[Machine Learning]]
+title: Moving Window Validation
+tmap.id: bd1ca3bf-aac2-428d-8a66-806f0c759a59
+type: text/vnd.tiddlywiki
+
+{{_my/images/png/moving_window_validation}}

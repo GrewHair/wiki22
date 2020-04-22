@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191214205904944
+modified: 20200325133421118
+tags: $:/tags/Macro
+title: _my/macros/appear/prs
+tmap.id: a48a5ec4-01cd-4d4e-add1-11628cc8e014
+type: text/vnd.tiddlywiki
+
+\define prs(field)
+<$appear show="$field$" $state="state-$field$">
+{{!!.prs.$field$}}
+</$appear>
+\end

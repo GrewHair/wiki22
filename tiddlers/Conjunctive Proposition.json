@@ -1,0 +1,17 @@
+[
+    {
+        "created": "20191023111158275",
+        "text": "<<prs railroad>>\n\n<!--Links (for context-aware search):-->\n[[|Propositions]]\n[[|Negation]]\n[[|Conjunction]]",
+        "title": "Conjunctive Proposition",
+        "tags": "Stub Logic [[100 Days of Logic (carneades.org)]]",
+        "modified": "20200325163931756",
+        "type": "text/vnd.tiddlywiki",
+        "tmap.id": "a6f2eac2-1350-4416-88c0-b9b8b4499300",
+        ".prs.railroad": "<$railroad text=\"\"\"[[\"~\"|Negation]]\"(\"[[Proposition|Propositions]] [[\"∧\"|\"Conjunction\"]] [[Proposition|Propositions]]\")\" \"\"\"/>",
+        ".hsk.tagged_topic": "[<currentTiddler>tags[]field:icon[_my/images/icons/topic]]",
+        ".hsk.tagged_feature": "[<currentTiddler>tags[]field:icon[_my/images/icons/feature]]",
+        ".hsk.tagged_exemplar": "[<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]",
+        ".hsk.tagged_diagram": "[<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]",
+        ".hsk.macrocall": " [[_my/macros/appear/prs]]"
+    }
+]

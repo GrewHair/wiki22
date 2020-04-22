@@ -1,0 +1,10 @@
+created: 20200104061423422
+modified: 20200325163851020
+tags: Stub [[How to Win a Data Science Competition]] [[Machine Learning]]
+title: Stemming
+tmap.id: 53fb15e8-3033-42ef-aa03-8d35be1cfd9f
+type: text/vnd.tiddlywiki
+
+!//Example://
+
+democracy, democratic, democratization &rarr; //democr//

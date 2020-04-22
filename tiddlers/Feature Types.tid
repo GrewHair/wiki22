@@ -1,0 +1,62 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200205063710074
+modified: 20200325163851263
+tags: [[How to Win a Data Science Competition]] [[Machine Learning]] [[Designing Machine Learning Systems (David Julian)]]
+title: Feature Types
+tmap.id: 8de87060-e236-43fb-98f8-fecfc21d717d
+type: text/vnd.tiddlywiki
+
+* Quantitative
+** Int //(counts)//
+** Float
+** DateTime
+** Coordinates
+* Ordinal //(ordered categorical)//
+* Categorical
+** Binary 
+
+<table>
+    <thead>
+        <tr>
+            <th>Feature type</th>
+            <th>Order</th>
+            <th>Scale</th>
+            <th>Tendency</th>
+            <th>Dispersion</th>
+            <th>Shape</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td><strong>Quantitative</strong></td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Mean</td>
+            <td>Range, variance, and standard deviation</td>
+            <td>Skewness, kurtosis</td>
+        </tr>
+
+        <tr>
+            <td><strong>Ordinal</strong></td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>Median</td>
+            <td>Quantiles</td>
+            <td>N/A</td>
+        </tr>
+
+        <tr>
+            <td><strong>Categorical</strong></td>
+            <td>No</td>
+            <td>No</td>
+            <td>Mode</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+
+    </tbody>
+</table>

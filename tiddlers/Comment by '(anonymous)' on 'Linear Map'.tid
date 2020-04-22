@@ -1,0 +1,13 @@
+created: 20200311221215718
+edit-mode: no
+list: [[Linear Map]]
+modified: 20200325165502962
+role: comment
+saved-text: on the distinction between maps and matrices: PLEASE care to check later whether the change of basis EVEN APPLIES to the maps when m!=n.
+title: Comment by '(anonymous)' on 'Linear Map'
+tmap.id: bd2cfde4-8f2b-4348-be66-f8e635b121b9
+type: text/vnd.tiddlywiki
+
+on the distinction between maps and matrices: PLEASE care to check later whether the change of basis EVEN APPLIES to the maps when m!=n.
+
+(if the answer is no, then you'll have to make a correction that it only applies for square ones)

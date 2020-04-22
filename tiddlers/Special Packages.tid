@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200204131556759
+modified: 20200325163851024
+tags: Stub [[How to Win a Data Science Competition]] Python [[Machine Learning]]
+title: Special Packages
+tmap.id: e069f0f4-7722-4f24-96a4-ebd5b7661dc2
+type: text/vnd.tiddlywiki
+
+* dmlc
+* XGBoost
+* Keras
+* Microsoft / LightGBM
+* danielfrg / tsne

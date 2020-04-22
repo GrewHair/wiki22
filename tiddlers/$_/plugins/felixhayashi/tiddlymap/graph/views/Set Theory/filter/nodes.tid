@@ -1,0 +1,5 @@
+created: 20191217083600617
+filter: [field:tmap.id[93cc6d83-4ad4-4584-9b1f-d889bf3f4c7f]] [field:tmap.id[2a15bfa1-659f-414a-b593-548bf1618aeb]] [field:tmap.id[fe237d13-35e8-4219-add3-e6d55f0c2518]] [field:tmap.id[dc14729f-0aba-4906-a17d-7d8b3563b9e1]] [field:tmap.id[e9ccb38c-645a-4447-9ad3-0a27c13d0ba3]]
+modified: 20200325183252032
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Set Theory/filter/nodes
+type: text/vnd.tiddlywiki

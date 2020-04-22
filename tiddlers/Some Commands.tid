@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200229194524899
+modified: 20200325163755303
+tags: Matplotlib
+title: Some Commands
+tmap.id: 2800b9eb-aae0-4e77-895c-1ecdac795934
+type: text/vnd.tiddlywiki
+
+* `matplotlib.__version__`
+* `matplotlib.get_backend()`
+* `matplotlib.use('nbagg')` - pick the backend that integrates with [[Jupyter]] (javascript) framework
+
+<br>
+
+* `plt.figaspect(2.0)` - returns figsize based on the passed value of aspect ratio (height/width)

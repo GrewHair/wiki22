@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200322161633216
+modified: 20200326105947221
+tags: Numpy
+title: ndarray.reshape()
+tmap.id: c7624f68-9945-4b1e-b93e-fc795000e493
+type: text/vnd.tiddlywiki
+
+This reshapes [[arrays|Numpy Array]] according to the  specified dimension.
+
+For this to work, the [[Size|Numpy Array Size]] of the initial [[array|Numpy Array]] should be equal to the size you're specifying (i.e. equal to the product of all elements in the [[Shape|Numpy Array Shape]] tuple)
+
+Additionally one may let [[Numpy]] decide of the shape by setting one of the dimensions in the [[Shape|Numpy Array Shape]] tuple to `-1`.
+
+It can be used to convert 1-[[dimensional|Dimension]] arrays to explicit [[column|Column Vector]] and [[row vectors|Row Vector]], although sometimes it is more preferable to use [[Indexing Notation|Numpy Indexing & Slicing]] together with the [[np.newaxis]] constant, because this way the transposition can be done simultaneously with [[slicing|Numpy Indexing & Slicing]], for example, without the need to stack methods, which can make life easier.

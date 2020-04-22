@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200316110944206
+modified: 20200325163905045
+tags: [[Affine Geometry]]
+title: Affinely Independent Points
+tmap.id: e5d5fec5-6f52-464a-a99a-085cc0d558cc
+type: text/vnd.tiddlywiki
+
+A [[Set]] of [[Points|Point]] in an [[Affine Space]] $$ u_0,\dots ,u_k\in R^k$$ is said to be [[Affinely Independent|Affinely Independent Points]] if all the [[Vectors|Vector]] $$u_1-u_0,\dots ,u_k-u_0$$ issuing from an arbitrarily chosen [[point|Point]] $$u_0$$ to the rest of the [[points|Point]] $$u_1, ..., u_k$$ are [[Linearly Independent]].
+
+https://en.wiktionary.org/wiki/affinely_independent
+
+https://en.wikipedia.org/wiki/Simplex

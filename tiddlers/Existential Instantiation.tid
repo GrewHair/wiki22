@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191223092158054
+modified: 20200325163938017
+tags: [[Predicate Logic]] Logic [[100 Days of Logic (carneades.org)]]
+title: Existential Instantiation
+tmap.id: 17eec62f-f8da-4126-9a14-c2619f758914
+type: text/vnd.tiddlywiki
+
+! //''EI''//
+
+([[∃|Existential Quantifier]][[x|Variable (Predicate Logic)]])ℱ[[x|Variable (Predicate Logic)]] [[∴|Logical Consequence]] ℱ[[a|Constant (Predicate Logic)]].
+
+''Note 1:'' unlike the case with [[Universal Instantiation]], we can't instantiate a [[variable|Variable (Predicate Logic)]], only a [[constant|Constant (Predicate Logic)]] - that is we can only say 'for some specific instance //a, ℱa// holds - because the [[Quantifier|Quantifier (Predicate Logic)]] is not universal.
+
+''Note 2:'' we can ''only'' instantiate a constant that ''hasn't been used before in the same proof!''. So we have to create a new one for this.

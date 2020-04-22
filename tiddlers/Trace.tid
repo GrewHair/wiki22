@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200311202518289
+modified: 20200325163826128
+tags: [[Linear Algebra]] Stub
+title: Trace
+tmap.id: 7fa48841-ef31-46c2-be41-ad59c4ac3a12
+type: text/vnd.tiddlywiki
+
+The [[Trace]] of a [[Square Matrix]] $$A$$ is the sum of elements on it's [[Main Diagonal]].
+
+At the same time, it is the  sum of $$A$$'s [[Eigenvalues|Eigenvalue]].
+
+[[Trace]] is [[Invariant]] w.r.t. [[Change of Basis]].
+
+https://en.wikipedia.org/wiki/Trace_(linear_algebra)

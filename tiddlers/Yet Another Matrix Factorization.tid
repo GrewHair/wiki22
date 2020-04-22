@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200309232153547
+modified: 20200325163826365
+tags: [[Lecture 1]] [[MIT 18.065 Matrix Methods in Data Analysis, Signal Processing, and Machine Learning]] [[Linear Algebra]]
+title: Yet Another Matrix Factorization
+tmap.id: 7fa93676-0fcd-403d-9be7-eb18ea5eaa64
+type: text/vnd.tiddlywiki
+
+Remember [[C-R Factorization|Column-row Factorization]]. There, columns of $$C$$ are actually columns of $$A$$, while rows of $$R$$ are [[something different|Row Reduced Echelon Form]].
+
+Say now we want another [[factorization|Matrix Factorization]], in which one of the [[matrices|Matrix]] ($$C$$) would have the columns from $$A$$, and another one ($$\tilde R$$) would have the actual rows from it.
+
+Yet it would be incorrect to write that $$A = C \tilde R$$, since we know that $$A = CR$$ is true, and $$R \neq \tilde R$$.
+
+So in order for the equality to hold, we'll put in the middle some [[Matrix]] $$U$$ of the appropriate shape:
+
+$$A = CU \tilde R.$$

@@ -1,0 +1,19 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[_my/images/png/model_capacity]]
+created: 20200419082721862
+modified: 20200419090156317
+tags: Stub [[Introduction to Deep Learning in Python (Datacamp)]]
+title: Model Capacity
+tmap.id: 36e5211e-abe2-4252-a019-ec61c15a987b
+type: text/vnd.tiddlywiki
+
+[[Model Capacity]] is a term usually used in the context of [[Neural Networks]]. It is closely related to classical notions of [[Underfitting & Overfitting]] of [[Machine Learning]] and serves as a loose measure of [[Model|Models]] complexity.
+
+Basically, the more neurons, layers, etc. a network has - the larger its [[Capacity|Model Capacity]] is.
+
+[[Models]] with too large a [[Capacity|Model Capacity]] may [[overfit|Underfitting & Overfitting]], while ones with insufficient [[Capacity|Model Capacity]] tend to [[underfit|Underfitting & Overfitting]].
+
+{{_my/images/png/model_capacity}}

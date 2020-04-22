@@ -1,0 +1,22 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200224103714507
+modified: 20200325163851061
+tags: Stub [[Machine Learning]] [[How to Win a Data Science Competition]] Metrics Regression
+title: Root Mean Squared Error
+tmap.id: 1210cd9a-1f81-4e7f-93d0-8bea90082d54
+type: text/vnd.tiddlywiki
+
+$$\displaystyle \operatorname {RMSE} ={\sqrt {{\frac {1}{N}}\sum _{i=1}^{N}(y_{i}-{\hat {y_{i}}})^{2}}} = {\sqrt{\displaystyle \operatorname {MSE}}}$$
+
+Whatever minimizes [[MSE|Mean Squared Error]], also minimizes [[RMSE|Root Mean Squared Error]], and vice versa, because of the monotonicity of the square root function. The main purpose of this metric is to make the [[MSE|Mean Squared Error]] metric more interpretable, because the square root returns the scale of the error to be the same as the scale of the target.
+
+There is, however, a real difference between the two for gradient-based methods:
+
+$$\displaystyle \frac {\partial RMSE}{\partial \hat y_i} = \frac 1 {2 \sqrt{MSE}} \frac {\partial MSE}{\partial \hat y_i}$$ ([[please see note|Note #1]])
+
+The derivative of [[RMSE|Root Mean Squared Error]] with respect to //i//'th prediction is equal to the derivative of  [[MSE|Mean Squared Error]], scaled by some number which doesn't depend in //i//, but rather depends on the value of [[MSE|Mean Squared Error]] itself, so the [[Learning Rate]] of [[Gradient Descent]] effectively alters throughout the iterations. So in terms of the process of optimization itself, they in fact behave differently.
+
+Given all of the above, usually people optimize [[MSE|Mean Squared Error]], and then, at the evaluation stage, just take the square root to see [[RMSE|Root Mean Squared Error]] if needed.

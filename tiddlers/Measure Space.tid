@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200318071428648
+modified: 20200325164034446
+tags: [[Measure Theory]]
+title: Measure Space
+tmap.id: 010d2c93-d5c0-4e1b-9314-82c56738cd79
+type: text/vnd.tiddlywiki
+
+A [[Measure Space]] is a [[Triple|Tuple]] $$(X, \mathcal A, \mu)$$, where
+
+* $$X$$ is a [[Set]]
+* $$\mathcal A$$ is a [[σ-algebra]] on the [[set|Set]] $$X$$
+* $$\mu$$ is a [[Measure]] on the [[Measurable Space]] $$(X, \mathcal A)$$
+
+Examples:
+
+* [[Probability Space]]

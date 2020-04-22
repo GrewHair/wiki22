@@ -1,0 +1,17 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200219123837561
+modified: 20200325163850931
+tags: Stub [[Designing Machine Learning Systems (David Julian)]] [[Machine Learning]]
+title: Classification
+tmap.id: 51f84b83-2198-49fa-8cde-9ce1475fa304
+type: text/vnd.tiddlywiki
+
+[[Classification]] is the most common [[task|Task]] in [[Supervised Learning]]:
+
+* Binary classification
+* Multiclass classification
+
+Usually they are treated separately. There is a way to achieve multiclass classification by chaining multiple binary classification tasks together (see [[Hierarchical Classification]]), but generally this leads to loss of information.

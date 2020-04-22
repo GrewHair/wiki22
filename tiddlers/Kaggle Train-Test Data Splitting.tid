@@ -1,0 +1,26 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[_my/images/png/train_validation_public_private]]
+created: 20200131073154683
+modified: 20200325164053158
+tags: [[How to Win a Data Science Competition]] [[Machine Learning]] Kaggle
+title: Kaggle Train-Test Data Splitting
+tmap.id: 793144d9-f386-474a-9af6-7294cb952d97
+type: text/vnd.tiddlywiki
+
+When downloading competition data from [[Kaggle]], you'll (in the simplest case) usually see three files:
+
+* ''train.csv'' (//data with labels//)
+* ''test.csv'' (//data without labels//; note that not only labels can be removed - organizers do often remove various other features to avoid [[Data Leaks|Data Leakage]], so one can try and exploit the fact of absence of some features, for example focusing on examining of their relations to the target variable)
+* ''sample submission.csv'' (//an example of expected data format of your submission// - it can also sometimes serve as a [[Baseline Model]])
+
+After downloading the files, the following things should be kept in mind:
+
+{{_my/images/png/train_validation_public_private}}
+
+* ''train.csv'' should be split by the participant into the ''TRAIN'' and ''VALIDATION'' sets, to validate the model
+* ''test.csv'' contains ''TEST'' data without labels,  which is split in some way (unknown to the participants) into the ''PUBLIC'' and ''PRIVATE'' parts
+* the ''PUBLIC LEADERBOARD'' instantly shows your score based on the performance of your latest submission on the ''PUBLIC'' part of test data. because one can  make multiple submissions, and the scores are shown instantly, one is able to //probe the public leaderboard// in order to try to improve one's model
+* the ''PRIVATE LEADERBOARD'' is  revealed only after the ending of the competition, and it shows your score evaluated on the (previously hidden) ''PRIVATE'' part of the test data. The winners are picked based on it. It exists because of the fact that participants are allowed to make multiple submissions during the competition, and thus //[[probing|Leaderboard Probing]] of the (non-split) leaderboard// would inevitably cause [[Overfitting|Underfitting & Overfitting]].

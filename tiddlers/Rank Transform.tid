@@ -1,0 +1,10 @@
+created: 20191226214409667
+modified: 20200325163851086
+tags: Stub [[How to Win a Data Science Competition]] [[Machine Learning]]
+title: Rank Transform
+tmap.id: cf6b5be4-ff29-4825-922d-031636ac4e48
+type: text/vnd.tiddlywiki
+
+It can be found here: ``scipy.stats.rankdata``
+
+''Warning:'' one is going to need to store mapping from original to ranked data - or alternatively apply [[Rank Transform]] on both train //and// test data at the very start.

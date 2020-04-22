@@ -1,0 +1,25 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200320065416891
+modified: 20200325164007543
+tags: Topology Stub
+title: Topology on a Set
+tmap.id: 2a7292f7-80be-437c-9e0d-2a17eadcef4d
+type: text/vnd.tiddlywiki
+
+A [[Topology|Topology on a Set]] $$\tau$$ on a [[Set]] $$X$$ is a [[Collection]] of [[Subsets|Subset]] of $$X$$ satisfying one of the two following sets of axioms:
+
+* Via [[Open Sets|Open Set]]
+** $$\emptyset \in \tau$$, $$X \in \tau$$
+** $$\tau$$ is [[Closed|Closure]] under arbitrary (finite, countable or uncountable) [[Unions|Set Union]]
+** $$\tau$$ is [[Closed|Closure]] under finite [[Intersections|Set Intersection]]
+* Via [[Closed Sets|Closed Set]]
+** $$\emptyset \in \tau$$, $$X \in \tau$$
+** $$\tau$$ is [[Closed|Closure]] under finite [[Unions|Set Union]]
+** $$\tau$$ is [[Colsed|Closure]] under arbitrary (finite, countable or uncountable) [[Intersections|Set Intersection]]
+
+These two alternative axiom sets are interchangeable and arise from the [[De Morgan's Laws]].
+
+https://math.stackexchange.com/questions/4114/why-do-we-require-a-topological-space-to-be-closed-under-finite-intersection

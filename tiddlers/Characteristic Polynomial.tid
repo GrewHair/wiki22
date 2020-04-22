@@ -1,0 +1,32 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200319132359409
+modified: 20200325163826335
+tags: [[Linear Algebra]] Stub
+title: Characteristic Polynomial
+tmap.id: 1ab4b83d-492b-4fff-8cfa-fd2c264a1b1a
+type: text/vnd.tiddlywiki
+
+$$
+\begin{aligned}
+A \vec v &= \lambda \vec v &\implies \\
+\lambda \vec v - A \vec v &= \vec 0 &\implies \\
+(\lambda I - A) \vec v &= \vec 0
+\end{aligned}
+$$
+
+From the last equation it is clear that in order for $$A$$ to have an [[Eigenvector]] $$\vec v$$ with an [[Eigenvalue]] $$\lambda$$, the [[Matrix]] $$(\lambda I - A)$$ must be [[Singular|Singular Matrix]] (because $$\vec v$$ is non-zero by definition).
+
+To achieve this, we must turn its [[Determinant|Determinant of a Matrix]] to zero:
+
+$$
+\det(\lambda I - A) = 0,
+$$
+
+where $$I$$ is the [[Identity Matrix]].
+
+This very [[Determinant|Determinant of a Matrix]] is the [[Characteristic Polynomial]] of $$A$$ (indeed, notice how it's just simply a [[Polynomial]] in $$\lambda$$). Its roots are, obviously, the [[Eigenvalues]] of $$A$$.
+
+The [[Characteristic Polynomial]] is [[Invariant]] under [[Matrix Similarity|Similar Matrices]].

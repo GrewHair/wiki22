@@ -1,0 +1,23 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191226232301474
+modified: 20200325163850940
+tags: [[How to Win a Data Science Competition]] [[Machine Learning]]
+title: Categorical Feature Generation
+tmap.id: da2c176c-e15e-4e03-a99c-db2809a14120
+type: text/vnd.tiddlywiki
+
+//Feature interaction:// you can make features, that are combinations of several categorical features.
+
+For example if you have: //sex: male, female// and //class: 1, 2 and 3//, using [[dummy variables|One-Hot Encoding]] creatively, you can come up with the following dummies:
+
+1male, 1female, 2male, 2female, 3male, 3female.
+
+This is especially useful with [[Non-tree-based Models]].
+
+How to do it:
+
+* First just concatenate two features
+* Second, use [[One-Hot|One-Hot Encoding]].

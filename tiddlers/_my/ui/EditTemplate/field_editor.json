@@ -1,0 +1,12 @@
+[
+    {
+        "created": "20191217104159007",
+        "text": "\\define my_editor(field)\n<$edit-text field=\"$field$\" tag=\"textarea\" class=\"tc-edit-texteditor\"/>\n\\end\n\n<$appear show=\"field editor\">\n<$macrocall $name=\"my_editor\"  field={{_my/ui/EditTemplate/field_editor/state}} />\n</$appear>\n\n<$select tiddler='_my/ui/EditTemplate/field_editor/state'>\n<$list filter=\"[<currentTiddler>fields[]prefix[.]]\">\n<option value=<<currentTiddler>> ><<currentTiddler>></option>\n<$/list>\n</$select>\n",
+        "title": "_my/ui/EditTemplate/field_editor",
+        "tags": "$:/tags/EditTemplate",
+        "modified": "20200325132722527",
+        "type": "text/vnd.tiddlywiki",
+        "tmap.id": "74f80f23-cb5d-41e9-95ff-1d38dc20e256",
+        ".hsk.tagged_topic": "dddcfffffff\ndd\ndd\ndd\ndd\ndd\ndd\ndd"
+    }
+]

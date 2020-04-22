@@ -1,0 +1,17 @@
+[
+    {
+        "created": "20191006152507633",
+        "text": "If [[Material Equivalence]] of two or more [[Propositions]] is [[Self-contradictory|Self-contradictory Proposition]], then these propositions are said to be [[Contradictory|Contradictory Propositions]]\n\np &rarr;&larr; q\n\n⊥ (p&and;q &rarr; ⊥)\n\n<<res youtube>>",
+        "title": "Contradictory Propositions",
+        "tags": "Stub Logic [[100 Days of Logic (carneades.org)]]",
+        "modified": "20200325163931733",
+        "type": "text/vnd.tiddlywiki",
+        "tmap.id": "70ba8b4c-e928-4caf-ae50-f2aa9d6e6d22",
+        ".res.youtube": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/HUBAFF0fqJg\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        ".hsk.tagged_topic": "[<currentTiddler>tags[]field:icon[_my/images/icons/topic]]",
+        ".hsk.tagged_feature": "[<currentTiddler>tags[]field:icon[_my/images/icons/feature]]",
+        ".hsk.tagged_exemplar": "[<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]",
+        ".hsk.tagged_diagram": "[<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]",
+        ".hsk.macrocall": " [[_my/macros/appear/res]]"
+    }
+]

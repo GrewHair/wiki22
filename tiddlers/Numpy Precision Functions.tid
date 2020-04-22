@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200327055430700
+modified: 20200327062913070
+tags: Numpy
+title: Numpy Precision Functions
+tmap.id: 542bc2fa-7807-4a30-bc3c-0a836f0944b1
+type: text/vnd.tiddlywiki
+
+* `np.expm1(x)` - this is a version of `np.exp(x)` optimized for small `x`
+* `np.log1p(x)` - this is a version of `np.log(x)` optimized for small `x`
+* `np.logaddexp(x, y)` - this is a function that computes `np.log(np.exp(x)) + np.log(np.exp(y))` with more precision than the straightforward approach 

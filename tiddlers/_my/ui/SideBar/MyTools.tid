@@ -1,0 +1,16 @@
+.hsk.macrocall: [[$:/core/macros/tabs]]
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+caption: My Tools
+created: 20191201105248228
+modified: 20200325082438837
+tags: $:/tags/SideBar
+title: _my/ui/SideBar/MyTools
+tmap.id: 9868ebaa-479d-435b-9f8c-6dc04911d971
+type: text/vnd.tiddlywiki
+
+<div class="tc-more-sidebar">
+<$macrocall $name="tabs" tabsList="[all[shadows+tiddlers]tag[_my/tags/MoreSideBar]!has[draft.of]]" default={{$:/config/DefaultMoreSidebarTab}} state="$:/state/tab/moresidebar" class="tc-vertical" />
+</div>

@@ -1,0 +1,8 @@
+created: 20191226210141876
+modified: 20200325163851217
+tags: [[How to Win a Data Science Competition]] [[Machine Learning]] Models
+title: K-Nearest Neighbours
+tmap.id: 727bb31c-10de-44fa-b991-c28684f3020e
+type: text/vnd.tiddlywiki
+
+K-Nearest Neighbours requires features' [[Scaling]], because it essentially just calculates distances between the points in the feature space. and so if the scale of one feature is going to be x100 000 times the scale of the other, this other feature will be totally neglected, as it's impact on the distance (say, L2-distance, for demonstration's sake) will be negligible.

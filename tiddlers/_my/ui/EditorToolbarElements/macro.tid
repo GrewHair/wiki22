@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+button-classes: tc-text-editor-toolbar-item-start-group
+caption: Macro
+condition: [<targetTiddler>!has[type]] [<targetTiddler>type[text/vnd.tiddlywiki]]
+created: 20191213083637145
+dropdown: _my/ui/EditorToolbarElements/macro/dropdown
+icon: _my/images/icons/macro
+modified: 20200325141146884
+shortcuts: 
+tags: $:/tags/EditorToolbar
+title: _my/ui/EditorToolbarElements/macro
+tmap.id: b8b871c5-0a5d-471b-ba70-7d261c7e8e25
+type: text/vnd.tiddlywiki

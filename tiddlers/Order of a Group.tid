@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200316182323464
+modified: 20200325163854402
+tags: [[Abstract Algebra]] [[Abstract Algebra (Socratica)]]
+title: Order of a Group
+tmap.id: 4908232d-03df-49db-a4ea-5468cfa488f3
+type: text/vnd.tiddlywiki
+
+[[Order of a Group]] is the number of its elements (i.e. the [[Cardinality]] of the [[Set]]).
+
+I.e. the [[Group]] $$(\{1, -1, i, -i\}, \times)$$ has the order 
+
+$$|G| = 4$$.

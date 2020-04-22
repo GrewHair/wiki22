@@ -1,0 +1,27 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200224103900170
+modified: 20200325163850917
+tags: Stub [[Machine Learning]] [[How to Win a Data Science Competition]] Metrics Regression
+title: Coefficient of Determination
+tmap.id: f511f6be-76d4-482b-b045-6ae1ab98b807
+type: text/vnd.tiddlywiki
+
+Alternatively called the ''R-squared'' metric.
+
+$$\displaystyle R^2 = 1 - \frac {{\frac {1}{N}}\sum _{i=1}^N(y_i-\hat {y}_i)^{2}}{{\frac {1}{N}}\sum _{i=1}^{N}(y_i-{\bar {y}})^{2}} = 1 - {\frac {MSE}{{\frac {1}{N}}\sum _{i=1}^{N}(y_i-{\bar {y}})^{2}}}$$
+
+Where $$\displaystyle \bar y = {\frac {1}{N}}{\sum_{i=1}^N y_i} $$
+
+As can be seen from the equation, it is a simple linear function of [[MSE|Mean Squared Error]] (notice that the denominator of the fraction is just a number, which doesn't depend on the predictions), so it behaves completely identically to [[MSE|Mean Squared Error]] in terms of maximization, just like the [[RMSE|Root Mean Squared Error]] does.
+
+The purpose of this metric becomes clear if one thinks about the interpretabilily of the [[MSE|Mean Squared Error]] metric: whatever value it gets to (like say 25, //or 0.01//), it is unclear by itself whether it is good or bad.
+
+With the [[R-squared|Coefficient of Determination]], the numerator of the fraction in the formula is just the [[MSE|Mean Squared Error]] of the predictor in question, while the denominator of the fraction is in fact the [[MSE|Mean Squared Error]] of the optimal [[Constant Predictor]] for the same data (which happens to be the [[Mean]] $$\bar y$$), which is used as a [[baseline|Baseline Model]] - so the [[R-squared|Coefficient of Determination]] metric compares the two:
+
+* If the predictor in question is worse then the [[baseline|Baseline Model]], the fraction gets greater then zero, and the metric goes negative: //the predictor is no good//
+* If the predictor in question performs equivalently to  the [[baseline|Baseline Model]], the fraction turns to one and the metric turns to zero: //the predictor is no better then the baseline//
+* If the [[MSE|Mean Squared Error]] of the predictor in question is less then that of the [[baseline|Baseline Model]], the fraction becomes less then one and the metric starts to increase, gradually approaching 1: //the predictor is better then the baseline//
+*  If the [[MSE|Mean Squared Error]] of the predictor in question is zero, the fraction turns to zero and the metric turns to 1: //the predictor is ideal//

@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200318112446457
+modified: 20200325163928028
+tags: [[Information Theory]] Stub
+title: Conditional Entropy
+tmap.id: 0bdb0a79-14bd-423e-a00d-7cdf69f667c2
+type: text/vnd.tiddlywiki
+
+$$
+\displaystyle
+\Eta(Y|H) = - \sum_{x \in \mathcal X
+                    y \in \mathcal Y } p(x, y)
+              \log    \frac {p(x,y)}
+                            {p(x)}
+$$

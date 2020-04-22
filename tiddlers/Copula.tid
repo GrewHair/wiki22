@@ -1,0 +1,17 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191028102917265
+modified: 20200325163931716
+tags: Logic [[100 Days of Logic (carneades.org)]]
+title: Copula
+tmap.id: a6e31327-9eba-469d-a28e-92be04a6d8ea
+type: text/vnd.tiddlywiki
+
+Copulae characterize the [[Quality]] property of a [[Categorical Proposition]]. They are words that couple the [[Subject]] and the [[Predicate|Predicate (Categorical Logic)]].
+
+Examples:
+
+* are
+* are not

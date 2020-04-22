@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200322162124685
+modified: 20200325163742408
+tags: Numpy
+title: Numpy Array Size
+tmap.id: 4a7e2e72-c097-4afc-a56d-645d5c206f41
+type: text/vnd.tiddlywiki
+
+`ndarray.size`
+
+It is simply the [[number of elements in the array|Set Cardinality]].

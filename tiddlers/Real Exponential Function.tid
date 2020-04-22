@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200320091301304
+modified: 20200325164026735
+tags: Mathematics Stub
+title: Real Exponential Function
+tmap.id: 53037e69-3d8d-4839-87b2-a46d044136fc
+type: text/vnd.tiddlywiki
+
+It can be defined in several different ways:
+
+*  $$ f: \R \to \R^+,\; x \mapsto b^x $$
+*> in which case it is [[bijective|Bijection]] and has an inverse
+
+*  $$ f: \R \to \R,  \; x \mapsto b^x $$
+*> 
+
+https://en.wikipedia.org/wiki/Exponential_function

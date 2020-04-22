@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200310233638877
+modified: 20200325163826186
+tags: [[Linear Algebra]]
+title: Orthogonality
+tmap.id: 79b88be8-5df2-4637-bfbd-d81effac7fb9
+type: text/vnd.tiddlywiki
+
+[[Orthogonality]] is the generalization of the notion of [[Perpendicularity]] to the [[Linear Algebra]] of [[Bilinear Forms|Bilinear Form]].
+
+Two elements $$\vec u$$ and $$\vec v$$ of a [[Vector Space]] with [[Bilinear Form]] $$B$$ are ''orthogonal'' when $$B(\vec u, \vec v) = 0$$.
+
+Most frequently, the role of the [[Bilinear Form]] in this definition is taken by the [[Dot Product]].

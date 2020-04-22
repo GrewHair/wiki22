@@ -1,0 +1,47 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[_my/images/function_diagrams/bijection]][[_my/images/function_diagrams/injection]][[_my/images/function_diagrams/surjection]][[_my/images/function_diagrams/general_function]]
+created: 20200320120600474
+modified: 20200325165249478
+tags: 
+title: Function Types
+tmap.id: c2ed5959-fa29-41e7-acfc-f7e3659c05f3
+type: text/vnd.tiddlywiki
+
+<table>
+    <tbody>
+        <tr>
+            <th></th>
+            <th>surjective</th>
+            <th>non-surjective</th>
+        </tr>
+        <tr>
+            <th>injective</th>
+            <td>
+                {{_my/images/function_diagrams/bijection}}
+                <br>
+                bijective
+            </td>
+            <td>
+                {{_my/images/function_diagrams/injection}}
+                <br>
+                injective-only
+            </td>
+        </tr>
+        <tr>
+            <th>non-injective</th>
+            <td>
+                {{_my/images/function_diagrams/surjection}}
+                <br>
+                surjective-only
+            </td>
+            <td>
+                {{_my/images/function_diagrams/total_function}}
+                <br>
+                general
+            </td>
+        </tr>
+    </tbody>
+</table>

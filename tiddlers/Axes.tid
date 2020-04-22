@@ -1,0 +1,27 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200229212711776
+modified: 20200325163755327
+tags: Matplotlib
+title: Axes
+tmap.id: cd9c7914-1bd5-4611-8a64-73c1d0102d7e
+type: text/vnd.tiddlywiki
+
+Axes, or subplot (a subplot is just an 'axes' on a grid system),  is the second level container in [[Matplotlib]]. It is contained in a [[Figure|Figure (Matplotlib)]] object. It itself contains [[XAxis]], [[YAxis]], etc.
+
+Normally, it is not supposed to be added via an explicit constructor call! Use the [[Figure|Figure (Matplotlib)]]'s `figure.add_subplot()` or `figure.add_axes()` method instead!
+
+Methods:
+
+* `ax.set()` - quickly set various parameters of the object (like `xlim`, `ylim`, `title`, `ylabel`, `xlabel`, etc
+* `ax.set_xlim()`, `ax.set_ylim()`, `ax.set_title()`, `ax.set_ylabel()`, `ax.set_xlabel()`, ... - an alternative interface to set parameters, which allows for additional parameters (like font size)
+
+<br>
+
+* `ax.plot()`
+* `ax.scatter()`
+* `ax.fill_between()`
+* `ax.box()`
+* `ax.hist()`

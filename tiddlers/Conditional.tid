@@ -1,0 +1,11 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+color: #a5ac13
+created: 20191127072411342
+icon: _my/images/icons/feature
+modified: 20200325171301964
+title: Conditional
+tmap.id: 22759d28-44a2-4875-adb6-4ff4e7c9a5ca
+type: text/vnd.tiddlywiki

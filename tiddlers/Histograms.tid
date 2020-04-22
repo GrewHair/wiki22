@@ -1,0 +1,16 @@
+created: 20200110095200054
+modified: 20200325163851251
+tags: Stub [[How to Win a Data Science Competition]] [[Machine Learning]]
+title: Histograms
+tmap.id: 4271ae3e-c15b-488a-b958-619e9d6db065
+type: text/vnd.tiddlywiki
+
+`plt.hist(x)`
+
+''Disagvantages and hints:''
+
+* They are prone to [[Binning Bias]], so it's a good idea to vary the number of bins in order not to miss something
+* They //aggregate// the data - so we don't have access to exact values through them (so one can't directly track repeated/unique values)
+* Sometimes it can be useful to apply [[Log Transform]] to the data before plotting it's histogram - for example in case you see just one bin
+* Sometimes one can observe strange peaks at the mean/median values of the features - it may indicate that some [[Missing Value Imputation]] technique has been applied to the data before (to prove this, one should check the data points - they most probably should be exactly equal)
+* Often there are [[Outliers]] in the data, that can easily be seen on histograms - they can represent [[Missing Values]] of some anomalies

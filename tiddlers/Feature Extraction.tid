@@ -1,0 +1,27 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200205130925308
+modified: 20200325163851281
+tags: [[How to Win a Data Science Competition]] [[Machine Learning]]
+title: Feature Extraction
+tmap.id: 0f83fae0-edfa-4d7a-ac81-98fa9c10d27e
+type: text/vnd.tiddlywiki
+
+Some [[Kaggle]] competitions are dedicated solely to text or image processing. The examples are:
+
+* https://www.kaggle.com/c/the-allen-ai-science-challenge - a text processing competition, successfully handled with usage of search engines
+* https://www.kaggle.com/c/datasciencebowl - an image processing competition, requiring use of Convolutional [[Neural Networks]]
+
+In this case we can use a specific approach, appropriate to the type of dataset.
+
+However, if we have the case of a general competition, which also has images or text as additional data, we are usually supposed to use this data to extract meaningful features from it, and use these extracted features in conjunction with the rest of features of the main dataset.
+
+This process is known as [[Feature Extraction]].
+
+There are several common kinds of it:
+
+* [[Feature Extraction from Text]]
+* [[Feature Extraction from Images]]
+* ...

@@ -1,0 +1,27 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200120140319732
+modified: 20200326081844006
+tags: Stub Pandas Numpy
+title: Numpy Indexing & Slicing
+tmap.id: 7379496a-ca9a-4541-bdfc-293e42260dc5
+type: text/vnd.tiddlywiki
+
+* Indexing (`var[0, 2]`)
+* Slicing (`var[ lower:upper:step, lower:upper:step ]`, `var[ : , :-3:2 ]`)
+* Fancy indexing
+** By position (`list = [0, 2, -1]; var[list]`)
+** With booleans (`mask = [True, False, True, False, False, True]; var[mask]`)
+
+''Important note:'' [[Numpy Slicing|Numpy Indexing & Slicing]] works very differently from [[Python Lists|Python List]] slicing under the hood:
+
+* [[Python List]] slices return __''copies''__ of the array data, which can then be changed not affecting the original list which was sliced
+* [[Numpy Array]] slices return only __''views''__ of the array data, so if you thange something in a slice - the original @@color:red; will change too!@@
+* In order to actually __''copy''__ the data, one should use the [[Numpy]]'s `.copy()` method:
+*>`array_sub_copy = array[:2, :2].copy()`
+
+''A very important article to read:''
+
+https://docs.scipy.org/doc/numpy/user/basics.indexing.html#module-numpy.doc.indexing

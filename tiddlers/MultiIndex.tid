@@ -1,0 +1,10 @@
+created: 20200131071925638
+modified: 20200325163745804
+tags: Pandas
+title: MultiIndex
+tmap.id: 9fd00c1a-3832-46a5-a2f3-281459df964d
+type: text/vnd.tiddlywiki
+
+[[MultiIndex]], alternatively referred to as Hierarchical Index, a is [[Pandas]]' way to implement multidimensional data structures (based on [[Numpy]] ndarrays).
+
+Before version 0.24, there was a third, special data structure in [[Pandas]], called Panel. But it eventually got deprecated, and now the preferred implementation is by utilizing [[MultiIndex]]

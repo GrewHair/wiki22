@@ -1,0 +1,17 @@
+[
+    {
+        "created": "20191115095407127",
+        "text": "In [[Categorical Syllogisms|Categorical Syllogism]], the [[Mood]] is the arrangement of a Syllogism's [[Propositions|Categorical Proposition]].\n\n(4 types of [[Propositions|Categorical Proposition]])^^(3 [[Propositions|Categorical Proposition]] in a [[Syllogism|Categorical Syllogism]]) ^^ = 64 [[Moods|Mood]]\n\n<<prs summary>>\n\n",
+        "title": "Mood",
+        "tags": "Logic",
+        "modified": "20200325163932092",
+        "type": "text/vnd.tiddlywiki",
+        "tmap.id": "55c8aeb0-08b3-46f2-81e9-a6d326b035d5",
+        ".prs.summary": "\\define mood_link()\n[[$(premise1)$$(premise2)$$(conclusion)$ Mood]]\n\\end\n\n\\define mood_link2()\n$(premise1)$$(premise2)$$(conclusion)$ Mood\n\\end\n\n<$scrollable class='tc-scrollable-demo'>\n<table>\n<$list filter=\"A E I O\" variable=\"premise1\">\n<$list filter=\"A E I O\" variable=\"premise2\">\n<$list filter=\"A E I O\" variable=\"conclusion\">\n<tr>\n<th>\n<<mood_link>>\n</th>\n<$list filter=\"[[Figure I]][[Figure II]][[Figure III]][[Figure IV]]\">\n<td>\n<$list filter=\"[field:.att.figure<currentTiddler>field:.att.mood<mood_link2>]\"/>\n</td>\n</$list>\n</tr>\n</$list>\n</$list>\n</$list>\n</table>\n</$scrollable>",
+        ".hsk.tagged_topic": "[<currentTiddler>tags[]field:icon[_my/images/icons/topic]]",
+        ".hsk.tagged_feature": "[<currentTiddler>tags[]field:icon[_my/images/icons/feature]]",
+        ".hsk.tagged_exemplar": "[<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]",
+        ".hsk.tagged_diagram": "[<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]",
+        ".hsk.macrocall": "[[_my/macros/appear/prs]]"
+    }
+]

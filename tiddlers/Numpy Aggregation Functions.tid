@@ -1,0 +1,25 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200323170516647
+modified: 20200325163742412
+tags: Numpy
+title: Numpy Aggregation Functions
+tmap.id: 7adfa880-ebfc-4858-9b90-8e7fe4ab15d8
+type: text/vnd.tiddlywiki
+
+|Function Name  |NaN-safe Version  |Description           |
+|`np.sum`       |`np.nansum`       |Sum                   |
+|`np.prod`      |`np.nanprod`      |Product               |
+|`np.mean`      |`np.nanmean`      |Mean                  |
+|`np.std`       |`np.nanstd`       |Standard Deviation    |
+|`np.var`       |`np.nanvar`       |Variance              |
+|`np.min`       |`np.nanmin`       |Minimum               |
+|`np.max`       |`np.nanmax`       |Maximum               |
+|`np.argmin`    |`np.nanargmin`    |Index of minimum value|
+|`np.argmax`    |`np.nanargmax`    |Index of maximum value|
+|`np.median`    |`np.nanmedian`    |Median                |
+|`np.percentile`|`np.nanpercentile`|Rank-based statistic  |
+|`np.any`       |N/A               |Evaluate whether any elements are true                                                  |
+|`np.all`       |N/A               |Evaluate whether all elements are true                                                  |

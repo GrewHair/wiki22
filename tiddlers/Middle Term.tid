@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191113134059501
+modified: 20200325163932109
+tags: Logic [[100 Days of Logic (carneades.org)]]
+title: Middle Term
+tmap.id: 5e2c0fba-3636-44f2-88ca-393cb2229577
+type: text/vnd.tiddlywiki
+
+! ''M''
+
+In a [[Categorical Syllogism]], the [[Term]] that is located in both of the [[Premises|Premise]] is called the [[Middle Term]]

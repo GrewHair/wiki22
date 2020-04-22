@@ -1,0 +1,83 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200331111809823
+modified: 20200331124427529
+tags: [[Regular Expressions]]
+title: Characters (Regular Expressions)
+tmap.id: a72e03e8-993b-4b85-b57a-c494d106b155
+type: text/vnd.tiddlywiki
+
+<table>
+<tbody>
+<tr>
+<th>Character</th>
+<th>Legend</th>
+<th>Example</th>
+<th>Sample Match</th>
+</tr>
+<tr>
+<td> \d</td>
+<td>Most engines: one digit<br /> from 0 to 9</td>
+<td>file_\d\d</td>
+<td>file_25</td>
+</tr>
+<tr>
+<td> \d</td>
+<td>.NET, Python 3: one Unicode digit in any script</td>
+<td>file_\d\d</td>
+<td>file_9੩</td>
+</tr>
+<tr>
+<td> \w</td>
+<td>Most engines: "word character": ASCII letter, digit or underscore</td>
+<td>\w-\w\w\w</td>
+<td>A-b_1</td>
+</tr>
+<tr>
+<td> \w</td>
+<td>.Python 3: "word character": Unicode letter, ideogram, digit, or underscore</td>
+<td>\w-\w\w\w</td>
+<td>字-ま_۳</td>
+</tr>
+<tr>
+<td> \w</td>
+<td>.NET: "word character": Unicode letter, ideogram, digit, or connector</td>
+<td>\w-\w\w\w</td>
+<td>字-ま‿۳</td>
+</tr>
+<tr>
+<td> \s</td>
+<td>Most engines: "whitespace character": space, tab, newline, carriage return, vertical tab</td>
+<td>a\sb\sc</td>
+<td>a b<br /> c</td>
+</tr>
+<tr>
+<td> \s</td>
+<td>.NET, Python 3, JavaScript: "whitespace character": any Unicode separator</td>
+<td>a\sb\sc</td>
+<td>a b<br /> c</td>
+</tr>
+<tr>
+<td> \D</td>
+<td>One character that is not a <em> digit</em> as defined by your engine's <em> \d</em></td>
+<td>\D\D\D</td>
+<td>ABC</td>
+</tr>
+<tr>
+<td> \W</td>
+<td>One character that is not a <em> word character</em> as defined by your engine's <em> \w</em></td>
+<td>\W\W\W\W\W</td>
+<td>*-+=)</td>
+</tr>
+<tr>
+<td> \S</td>
+<td>One character that is not a <em> whitespace character</em> as defined by your engine's <em> \s</em></td>
+<td>\S\S\S\S</td>
+<td>Yoyo</td>
+</tr>
+</tbody>
+</table>
+
+https://www.rexegg.com/regex-quickstart.html

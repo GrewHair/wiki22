@@ -1,0 +1,15 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.prs.railroad: 
+created: 20191216071743636
+modified: 20200325133435374
+tags: $:/tags/Macro
+title: _my/macros/Railroad/rlrd_cat_prop
+tmap.id: 7c830e9f-6abd-436c-a897-f5dcfa8f6a19
+type: text/vnd.tiddlywiki
+
+\define rlrd_cat_prop(term_1 term_2)
+<$railroad text="""[[Quantifier|Quantifier]]  [["$term_1$"|"$term_1$"]] [[Copula|Copula]] [["$term_2$"|"$term_2$"]]"""/>
+\end

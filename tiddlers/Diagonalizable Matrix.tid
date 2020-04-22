@@ -1,0 +1,36 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200311125532935
+modified: 20200325163826298
+tags: [[Linear Algebra]] Stub
+title: Diagonalizable Matrix
+tmap.id: abf23cf1-d093-4227-a483-27f3e6f879f9
+type: text/vnd.tiddlywiki
+
+''AKA Nondefective Matrix''
+
+A [[Square Matrix]] is [[Diagonalizable|Diagonalizable Matrix]] if it is [[Similar|Similar Matrices]] to a [[Diagonal Matrix]].
+
+Formally, a [[Square Matrix]] $$A$$ is [[Diagonalizable|Diagonalizable Matrix]] if there exists an [[Invertable Matrix]] $$P$$ and a [[Diagonal Matrix]] $$D$$ such that:
+
+$$
+P^{-1}AP = D,
+$$
+
+or equivalently
+
+$$
+A = PDP^{-1}
+$$
+
+(note that such $$P, D$$ are not unique).
+
+For a finite-dimensional [[Vector Space]] $$V$$, a [[Linear Map]] $$T: V \to V$$ is called ''diagonalizable'' if there exists an [[Ordered Basis]] of $$V$$ consisting of [[Eigenvectors|Eigenvector]] of $$T$$.
+
+The diagonalization of a matrix can be interpreted as a rotation of the axes to align them with the eigenvectors:
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Diagonalization_as_rotation.gif"/>
+
+https://en.wikipedia.org/wiki/Diagonalizable_matrix

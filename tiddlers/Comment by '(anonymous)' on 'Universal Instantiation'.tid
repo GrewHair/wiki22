@@ -1,0 +1,10 @@
+created: 20191223094008815
+edit-mode: no
+list: [[Universal Instantiation]]
+modified: 20200325165502864
+role: comment
+title: Comment by '(anonymous)' on 'Universal Instantiation'
+tmap.id: 4b5951b9-864d-4c44-beff-cfc6dbc6f9d7
+type: text/vnd.tiddlywiki
+
+ℱy — (for any y, ℱy holds) !!!! this is not technically correct, since it's a [[Statement Function]] and doesn't have any meaning to describe in natural language. But since it is syntactically useful, we'll describe it in words like this, rather than just write formulas.

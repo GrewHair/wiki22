@@ -1,0 +1,17 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200219142255645
+modified: 20200325164053153
+tags: Stub [[How to Win a Data Science Competition]] Kaggle
+title: Leaderboard Probing
+tmap.id: 10480caf-e9eb-40ca-9220-c1f19d12d36b
+type: text/vnd.tiddlywiki
+
+Extracting all ground truth from public part of the leaderboard. It is easy to do: in every submission change only a small set of rows so that you can unambiguously calculate ground truth for those rows from the leaderboard score. Useful link on this:
+https://www.kaggle.com/olegtrott/the-perfect-score-script
+
+The second type:
+
+The public/private test split is supposed to protect the private part of the test set from information extraction - but it's still vulnerable. Sometimes it's possible to submit predictions in such a way that will give out information about private data.

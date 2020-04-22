@@ -1,0 +1,55 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[_my/images/png/likelihood_function_of_mu_&_sigma]]
+created: 20200228224424892
+modified: 20200325163913750
+tags: Statistics
+title: Multiple Parameters
+tmap.id: bd31da95-ea49-45e1-b3b1-01afdcb0a240
+type: text/vnd.tiddlywiki
+
+In this example we try to come up with a [[Sufficient Statistic]] for the [[Mean]]
+of a [[normally distributed|Normal Distribution]] [[sample|Statistical Sample]], but this time we will not set the value of $$\sigma$$ to be fixed, like we did in the example [[here|Sufficient Statistic]]. Of course, not knowing $$\sigma$$ in advance will complicate matters:
+
+$$\displaystyle
+  \mathcal L(\mu, \sigma^2) =
+  \left(                      \frac 1 {2 \pi \sigma^2}       \right)
+                            ^{\frac   {\displaystyle n} 
+                                      {\displaystyle 2}}
+  \text{exp}
+  \left\{
+ -\sum_{i=1}^n                \frac   {(y_i - \mu)^2}
+                                      {2 \sigma^2}           \right\}
+
+
+\\
+
+
+  \mathcal L(\mu, \sigma^2) =
+  \left(                      \frac 1 {2 \pi \sigma^2}       \right)
+                            ^{\frac   {\displaystyle n} 
+                                      {\displaystyle 2}}
+  \text{exp}
+  \left\{                    -\frac 1 {2 \sigma^2}
+  \left
+                           (T_2(y) - 2\mu T_1(y) + n\mu^2    \right)
+                                                             \right\},
+
+
+\\
+
+
+  \text{where}                \quad                             T(y) = 
+  \left(                      T_1(y),  T_2(y)                \right) =
+  \left(            \sum_{i=1}^n y_i,  \sum_{i=1}^n y_i^2    \right)
+
+
+$$
+
+As can be seen from the above equations, in case when we have multiple unknown [[parameters|Statistical Parameter]] of some distribution, the [[Sufficient Statistic]] for the parameter of interest may take [[Vector]] form.
+
+The 3D plot of the [[Likelihood Function]] of two [[parameters|Statistical Parameter]] looks like this:
+
+{{_my/images/png/likelihood_function_of_mu_&_sigma}}

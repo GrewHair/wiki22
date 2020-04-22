@@ -1,0 +1,17 @@
+[
+    {
+        "created": "20191023111210823",
+        "text": "<<prs railroad>>\n\n<!--Links (for context-aware search):-->\n[[|Propositions]]\n[[|Exclusive Disjunction]]",
+        "title": "Disjunctive Proposition",
+        "tags": "Stub Logic [[100 Days of Logic (carneades.org)]]",
+        "modified": "20200325163932256",
+        "type": "text/vnd.tiddlywiki",
+        "tmap.id": "9b30ba64-b71d-4c4c-a24d-700216fada3d",
+        ".prs.railroad": "<$railroad text=\"\"\"[[Proposition|Propositions]] [[\"⊻\"|\"Exclusive Disjunction\"]] [[Proposition|Propositions]] \"\"\"/>",
+        ".hsk.tagged_topic": "[<currentTiddler>tags[]field:icon[_my/images/icons/topic]]",
+        ".hsk.tagged_feature": "[<currentTiddler>tags[]field:icon[_my/images/icons/feature]]",
+        ".hsk.tagged_exemplar": "[<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]",
+        ".hsk.tagged_diagram": "[<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]",
+        ".hsk.macrocall": " [[_my/macros/appear/prs]]"
+    }
+]

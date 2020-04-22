@@ -1,0 +1,15 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200328191105836
+modified: 20200328221737151
+tags: Python
+title: Importing Libraries
+tmap.id: 50df7865-886c-4905-bbf7-f866bafe3626
+type: text/vnd.tiddlywiki
+
+* All the imports should be as narrow as they can be in order to not occupy too much [[RAM]]
+* One should not import with `from foo import *`, but rather organize all the imports into neat namespaces (like `np`, `pd`, `plt`, etc.), in order not to clutter the namespace
+* One should try to put all the imports at the very beginning of a session/notebook - this is not required, but this keeps the notebook cleaner
+* The imports should be separated from all the other code (i.e. placed into a separate cell) - this makes it possible to run this cell prior to all the other cells, which enables one to view help/signatures/etc. of the functions/modules/classes they import (all of these are loaded into [[RAM]] only after the import is executed).

@@ -1,0 +1,19 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191226215717270
+list: 
+modified: 20200325163851115
+tags: [[How to Win a Data Science Competition]] [[Machine Learning]]
+title: Numeric Features Generation
+tmap.id: 712de9b0-ce98-40b8-8b51-b890651a87f5
+type: text/vnd.tiddlywiki
+
+Examples:
+
+* if you have real estate data like price of houses and their area, you can make a feature 'price per m2'
+* if you have satellites' longitude, station coordinates and the orbit height, you can make a feature 'direct distance to the satellite'
+* taking fractional part of features' values (for human/robot distinction or evaluation of attractiveness of prices)
+
+''Note:'' although [[Tree-based Models]] mostly don't care for preprocessing, they can still benefit from feature generation. They have a sort of 'steppy character' to them because of how they work (one perpendicular line, one axis at a time) - and so if the features are inter-related in some non-linear way (like sides of a right triangle for instance), then they these models will produce a 'steppy version' of this interrelation. So giving them a feature like this explicitly helps this steppiness.

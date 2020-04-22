@@ -1,0 +1,32 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200318073904664
+modified: 20200325163830972
+tags: [[Set Theory]]
+title: Image of a Set
+tmap.id: a362eaa9-b80e-43a0-b67f-b66ff835484f
+type: text/vnd.tiddlywiki
+
+Let $$f$$ be a function from $$X$$ to $$Y$$:
+
+$$
+f: X \to Y
+$$
+
+The [[Image|Image of a Set]] of a [[Set]] $$A \subseteq X$$ under $$f$$ is the [[Subset]] of $$Y$$ defined by
+
+$$
+f[A] = \{f(x) | x \in A \}.
+$$
+
+Not to be confused with the [[Image of a Function]] (hense the square bracket notation - to try to minimize confusion).
+
+E.g.
+
+Take $$f(x) = x^2$$:
+
+* the [[Image|Image of a Set]] of $$\{2\}$$ is $$\{4\}$$
+* the [[Image|Image of a Set]] of $$\{-2\}$$ is $$\{4\}$$
+* the [[Image|Image of a set]] of $$\{-2, 2\}$$ is $$\{4\}$$

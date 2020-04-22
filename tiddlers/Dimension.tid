@@ -1,0 +1,25 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200309172935523
+modified: 20200325163826295
+tags: [[Linear Algebra]]
+title: Dimension
+tmap.id: e5de14ee-2164-4e5e-b051-1ccb29e25e22
+type: text/vnd.tiddlywiki
+
+[[Dimension]] of a [[Vector Space]] $$V$$ is the [[Cardinality]] of a [[Basis]] of $$V$$ over it's base [[Field]].
+
+$$
+\dim_R(\R^3) = 3 \\
+\dim_R(\R^n) = n \\
+\dim_F(F^n) = n$$ for any [[Field]] $$F$$.
+
+One should be ''careful'', since [[Dimension]] depends on the base [[Field]]. E.g., the [[Complex Numbers]] $$\mathbb C$$ are both a [[Real|Real Numbers]] and a complex [[Vector Space]], so we have:
+
+$$
+\dim_R(\mathbb C) = 2,
+\quad \text{but} \quad
+\dim_C(\mathbb C) = 1.
+$$

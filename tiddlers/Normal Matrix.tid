@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200311113543806
+modified: 20200325163826208
+tags: [[Linear Algebra]]
+title: Normal Matrix
+tmap.id: 36db102b-c55d-49e8-bf46-dd53f38d10d9
+type: text/vnd.tiddlywiki
+
+A [[Complex|Complex Numbers]] [[Square Matrix]] $$A$$ is [[Normal|Normal Matrix]] if it [[commutes|Commutativity]] with it's [[Conjugate Transpose]] $$A^*$$:
+
+$$A^* A = A A^*$$
+
+If a [[Normal Matrix]] is [[real-valued|Real Numbers]], one can reduce this to:
+
+$$A^T A = A A^T$$

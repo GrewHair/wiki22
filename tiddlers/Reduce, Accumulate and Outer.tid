@@ -1,0 +1,30 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200322174934765
+modified: 20200325163742385
+tags: Numpy [[Python Data Science Handbook (Jake VanderPlas)]]
+title: Reduce, Accumulate and Outer
+tmap.id: c222be2c-68bf-48c3-9edc-46b118ad6c91
+type: text/vnd.tiddlywiki
+
+`numpy.ufunc.reduce`
+`numpy.ufunc.accumulate`
+`numpy.ufunc.outer`
+
+These functions operate on [[Numpy Arrays|Numpy Array]] applying a function to entries one by one:
+
+* `np.add.reduce(x)` results in a scalar
+*> There are some dedicated versions of this function:
+** `np.sum`
+** `np.prod`
+** ...
+
+* `np.add.accumulate(x)` results in a vector of the same size as `x`, but the entries will be accumulated
+*> There are some dedicated versions of this function:
+** `np.cumsum`
+** `np.cumprod`
+** ...
+
+* `np.multiply.outer(x, y)` results in an outer product of two vectors (one could replace the multiplication with any other operation)

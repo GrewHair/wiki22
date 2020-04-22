@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200316115313639
+modified: 20200325163905040
+tags: [[Affine Geometry]]
+title: Translation
+tmap.id: 43ffd960-8c35-477c-9c4f-3d35cf0a3842
+type: text/vnd.tiddlywiki
+
+[[Translation]] is an [[Affine Transformation]] with __''no''__ [[Fixed Points|Fixed Point]].
+
+Thus, there is a problem with [[Matrix]] representation of it, since matrix multiplications always have the origin as a fixed point.
+
+https://en.wikipedia.org/wiki/Translation_(geometry)

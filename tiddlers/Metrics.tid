@@ -1,0 +1,20 @@
+.hsk.transcludes: 
+created: 20200221103306765
+icon: _my/images/icons/section
+modified: 20200325171428277
+tags: [[Machine Learning]] [[How to Win a Data Science Competition]]
+title: Metrics
+tmap.id: dac5b6fe-b130-4742-a4d9-f2c3544e0a9e
+type: text/vnd.tiddlywiki
+
+''[[Regression]] metrics:''
+
+* [[MSE|Mean Squared Error]], [[RMSE|Root Mean Squared Error]], [[R-squared|Coefficient of Determination]]
+* [[MAE|Mean Absolute Error]]
+* (R)[[MSPE|Mean Squared Percentage Error]], [[MAPE|Mean Absolute Percentage Error]]
+* [[MSLE|Mean Squared Logarithmic Error]], [[RMSLE|Root Mean Squared Logarithmic Error]]
+
+''[[Classification]] metrics:''
+
+* [[Accuracy|Accuracy Score]], [[LogLoss|Logarithmic Loss]], [[AUC|Area Under ROC Curve]]
+* [[Cohen's Kappa]]

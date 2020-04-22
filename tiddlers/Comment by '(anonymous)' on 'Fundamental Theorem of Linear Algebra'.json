@@ -1,0 +1,14 @@
+[
+    {
+        "created": "20200309210519062",
+        "text": "Here R(A) is notation for Column Space (R for //range//). I borrowed it from the wolfram (see link in the tiddler).\n\nHowever, Dr Strang is using C(A) for this instead (C for //column//).\n\nIn the tiddler [[Row Space]] i briefly used R(A) to denote the row space - so:\n\n1. Be careful with C(A) and R(A)!!\n\n2. Don't forget to fix this tiddler later, to unify the notation",
+        "title": "Comment by '(anonymous)' on 'Fundamental Theorem of Linear Algebra'",
+        "modified": "20200325165502976",
+        "type": "text/vnd.tiddlywiki",
+        "tmap.id": "61285ece-a37a-45cd-a52c-e02345f1bff1",
+        "saved-text": "Here R(A) is notation for Column Space (R for //range//). I borrowed it from the wolfram (see link in the tiddler).\n\nHowever, Dr Strang is using C(A) for this instead (C for //column//).\n\nIn the tiddler [[Row Space]] i briefly used R(A) to denote the row space - so:\n\n1. Be careful with C(A) and R(A)!!\n2. Don't forget to fix this tiddler later, to unify the notation",
+        "role": "comment",
+        "list": "[[Fundamental Theorem of Linear Algebra]]",
+        "edit-mode": "no"
+    }
+]

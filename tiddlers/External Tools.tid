@@ -1,0 +1,17 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200204131759980
+modified: 20200325163851288
+tags: [[How to Win a Data Science Competition]] [[Machine Learning]] Python
+title: External Tools
+tmap.id: 0530bd5b-8e65-49dc-ad04-e09302c46207
+type: text/vnd.tiddlywiki
+
+Tools that are //not// Python packages, but are useful non the less:
+
+* Vowpal Wabbit
+* srendle / libfm
+* guestwalk / libffm
+* baidu / fast_rgf

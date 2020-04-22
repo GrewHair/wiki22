@@ -1,0 +1,33 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[ALL Statement]] [[NO Statement]]
+created: 20191101065619815
+modified: 20200325163931724
+tags: Logic [[100 Days of Logic (carneades.org)]]
+title: Contrary Propositions
+tmap.id: 1a0c7cbd-bcd7-4a81-a484-5fc1c0b43f71
+type: text/vnd.tiddlywiki
+
+A pair of [[Categorical Propositions|Categorical Proposition]], at least one of which __must be //False//__.
+
+If one proposition is known to be //True//, the other __must be //False//__.
+
+If one proposition is known to be //False//, the other __may be either //True// or //False//__.
+
+The two [[Contrary Propositions]] __can not both be //True//__, because of [[Existential Import]] (see below).
+
+|{{ALL Statement!!.prs.venn-aristotelian}}|{{NO Statement!!.prs.venn-aristotelian}}|
+
+If a pair of [[Propositions|Categorical Proposition]] use the same [[Terms|Term]], in order to have [[Contrary|Contrary Propositions]] relationship they must be  [[A|ALL Statement]] and [[E|NO Statement]] propositions respectively (or vice versa).
+
+In order for the [[Contrary|Contrary Propositions]] relationship to hold, the [[Propositions|Categorical Proposition]] must have [[Existential Import]], i.e. this relationship is only meaningful if we assume the existance of the [[Subject]] in reality. 
+
+Thus, the Contrary relationship is a feature of [[Aristotelian|Aristotelian Logic]] and not [[Boolean|Boolean Logic]] logical system.
+
+Since [[Boolean Logic]] doesn't have [[Existential Import]], in it's framework the relationship between the [[A|ALL Statement]] and [[E|NO Statement]] statements is [[Undetermined]].
+
+''Example:'' //'All men are corrupt'// vs //'No men are corrupt'//. 
+
+At least one of these propositions must be //False//, there are no men.

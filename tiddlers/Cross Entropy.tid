@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200318132012941
+modified: 20200325163928023
+tags: [[Information Theory]]
+title: Cross Entropy
+tmap.id: b713a0be-65bf-4bac-a878-0200f418873d
+type: text/vnd.tiddlywiki
+
+Let's say we have a [[Set]] of [[Events|Event (Probability Theory)]] (a [[σ-algebra]]) $$\mathcal F$$ and two [[Probability Distributions|Probability Distribution]] over it: the //estimated// distribution $$q$$ and the //true// distribution $$p$$.
+
+The [[Cross Entropy]] between $$p$$ and $$q$$ is the average number of bits needed to identify an [[Event|Event (Probability Theory)]] if the coding scheme used for the set is optimized for $$q$$.

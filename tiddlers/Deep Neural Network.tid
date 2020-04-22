@@ -1,0 +1,17 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[_my/images/png/deep_vs_shallow_nn]]
+created: 20200206071837779
+modified: 20200325163857480
+tags: [[Deep Learning]] Stub [[Machine Learning]] Deep
+title: Deep Neural Network
+tmap.id: f9a7c32b-0b0e-4c6c-82a0-955f5f61755e
+type: text/vnd.tiddlywiki
+
+A deep neural net has a lot of inner layers.
+
+There are papers that conclude that a deep neural net is more effective then a [[shallow|Shallow Neural Network]] one with the same amount of nodes.
+
+{{_my/images/png/deep_vs_shallow_nn}}

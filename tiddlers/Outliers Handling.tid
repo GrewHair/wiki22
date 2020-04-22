@@ -1,0 +1,11 @@
+created: 20191226212137957
+modified: 20200325163851103
+tags: Stub [[How to Win a Data Science Competition]] [[Machine Learning]]
+title: Outliers Handling
+tmap.id: fc4c4a0c-c5cd-4467-a339-67c77d1ca1e9
+type: text/vnd.tiddlywiki
+
+* [[Winsorization]]
+* [[Rank Transform]] (`scipy.stats.rankdata`)
+* [[Log Transform]]
+* [[Raising to The Power <1]]

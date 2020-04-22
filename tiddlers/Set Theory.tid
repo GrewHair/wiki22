@@ -1,0 +1,10 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191127072520860
+icon: _my/images/icons/topic
+modified: 20200325171645524
+title: Set Theory
+tmap.id: c5239171-570e-4b45-9445-388d6ceb4516
+type: text/vnd.tiddlywiki

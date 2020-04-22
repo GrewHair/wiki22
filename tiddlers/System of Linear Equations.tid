@@ -1,0 +1,60 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200314125613258
+modified: 20200325163826133
+tags: [[Linear Algebra]]
+title: System of Linear Equations
+tmap.id: 6ebab245-1e23-4d2e-a56c-0e63a9fce099
+type: text/vnd.tiddlywiki
+
+$$
+\displaystyle 
+\begin{aligned}
+a_{11}x_1 + a_{12}x_2 + \cdots + a_{1n}x_n  &=  b_1               \\
+a_{21}x_1 + a_{22}x_2 + \cdots + a_{2n}x_n  &=  b_2               \\
+&\ \ \vdots                                                       \\
+a_{m1}x_1 + a_{m2}x_2 + \cdots + a_{mn}x_n  &=  b_m,
+\end{aligned}                                                     \\
+
+
+\Large\Downarrow                                                  \\
+
+
+x_1\begin{bmatrix}a_{11}\\a_{21}\\\vdots\\a_{m1}\end{bmatrix} +
+x_2\begin{bmatrix}a_{12}\\a_{22}\\\vdots\\a_{m2}\end{bmatrix} +
+                                  \cdots                      +
+x_n\begin{bmatrix}a_{1n}\\a_{2n}\\\vdots\\a_{mn}\end{bmatrix} =
+   \begin{bmatrix}b_{1} \\b_{2} \\\vdots\\b_{m} \end{bmatrix}     \\
+
+
+\Large\Downarrow                                                  \\
+
+
+A\mathbf x = \mathbf b,                                           \\
+
+\text{where}                                                      \\
+
+\displaystyle
+ 
+A=
+\begin{bmatrix}
+a_{11}  &  a_{12}  &  \cdots  &  a_{1n}                           \\
+a_{21}  &  a_{22}  &  \cdots  &  a_{2n}                           \\
+\vdots  &  \vdots  &  \ddots  &  \vdots                           \\
+a_{m1}  &  a_{m2}  &  \cdots  &  a_{mn}                           \\
+\end{bmatrix},
+
+\quad 
+\mathbf x = \begin{bmatrix}x_1\\x_2\\\vdots \\x_n\end{bmatrix},
+\quad 
+\mathbf b = \begin{bmatrix}b_1\\b_2\\\vdots \\b_m\end{bmatrix}
+
+$$
+
+$$A$$ is a [[Coefficient Matrix]];
+
+$$\vec x$$ is a [[Variable Vector]];
+
+$$\vec b$$ is a [[Vector of Constant Terms]].

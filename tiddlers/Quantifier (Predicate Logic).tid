@@ -1,0 +1,13 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191111112303690
+list: [[Existential Quantifier]] [[Universal Quantifier]]
+modified: 20200325163932032
+tags: Stub [[Set Theory]] Logic
+title: Quantifier (Predicate Logic)
+tmap.id: 2a15bfa1-659f-414a-b593-548bf1618aeb
+type: text/vnd.tiddlywiki
+
+A formalized version of [[Quantifier]] from [[Categorical Logic]]

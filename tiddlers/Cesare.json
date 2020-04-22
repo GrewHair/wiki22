@@ -1,0 +1,22 @@
+[
+    {
+        "created": "20191216150929568",
+        "text": "|<<prs mnemonic>>|\n|<<prs example>>|",
+        "title": "Cesare",
+        "tags": "dd Logic [[100 Days of Logic (carneades.org)]]",
+        "modified": "20200325163931800",
+        "type": "text/vnd.tiddlywiki",
+        "tmap.id": "d8d818e9-56cf-42aa-8640-99a198f7f9a0",
+        ".temp": "No reptiles have fur. (MeP)<br>\nAll rabbits have fur. (SaM)<br>\n∴ No rabbits are reptiles. (SeP)",
+        ".prs.mnemonic": "C__''e''__s__''a''__r__''e''__",
+        ".prs.example": "No gays are females.<br> All lesbians are females.<br> &there4; No lesbians are gay. ",
+        ".hsk.tagged_topic": "[<currentTiddler>tags[]field:icon[_my/images/icons/topic]]",
+        ".hsk.tagged_feature": "[<currentTiddler>tags[]field:icon[_my/images/icons/feature]]",
+        ".hsk.tagged_exemplar": "[<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]",
+        ".hsk.tagged_diagram": "[<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]",
+        ".hsk.macrocall": "[[_my/macros/appear/prs]]",
+        ".att.valid": "unconditionally",
+        ".att.mood": "EAE Mood",
+        ".att.figure": "Figure II"
+    }
+]

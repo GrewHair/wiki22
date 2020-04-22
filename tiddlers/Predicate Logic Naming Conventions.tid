@@ -1,0 +1,28 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191223060047027
+modified: 20200325163938001
+tags: [[Predicate Logic]] Logic
+title: Predicate Logic Naming Conventions
+tmap.id: 2e45eda8-3ffc-4fd0-a6e1-9c1fddcb0cdd
+type: text/vnd.tiddlywiki
+
+//p, q, r, s// - lower case letters from the beginning of the alphabet represent //objects, subjects// or //individual ''constants''//.
+
+''Examples:'' Paul, Mary, London, year of 2020.
+
+//w, x, y, z// - lower case letters from the end of the alphabet  represent //individual ''variables''//, that don't reference any specific particular.
+
+''Example:'' //w// could represent anything from Bill Clinton to the Rio Grande :)
+
+//A, B, C, D// - upper case letters represent //categories, predicates, relations, predicate symbols//.
+
+''Examples:'' Is an apple, Is blue, Is colorful.
+
+They are each paired with an //object// or a //variable//, creating //''statements''//:
+
+//Ap, Bq, Cr, Ds//, etc.
+
+''Examples'' of statements: Pat is amiable, Rio is cool.

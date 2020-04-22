@@ -1,0 +1,17 @@
+[
+    {
+        "created": "20191031113314112",
+        "text": "Obversion is valid for all four types of [[categorical statements|Categorical Proposition]].\n\nSteps:\n\n* Flip the [[Quality]] of the [[proposition|Categorical Proposition]]\n* Replace [[Subject]] with it's [[Term Complement]]\n\n<<res youtube>>",
+        "title": "Obversion",
+        "tags": "Logic",
+        "modified": "20200325163932069",
+        "type": "text/vnd.tiddlywiki",
+        "tmap.id": "dea4c0c0-4e0d-4d87-880a-8cb69f67eb22",
+        ".res.youtube": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/sB9f1i2jKgY\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        ".hsk.tagged_topic": "[<currentTiddler>tags[]field:icon[_my/images/icons/topic]]",
+        ".hsk.tagged_feature": "[<currentTiddler>tags[]field:icon[_my/images/icons/feature]]",
+        ".hsk.tagged_exemplar": "[<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]",
+        ".hsk.tagged_diagram": "[<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]",
+        ".hsk.macrocall": " [[_my/macros/appear/res]]"
+    }
+]

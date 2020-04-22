@@ -1,0 +1,24 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200313091125829
+modified: 20200325163826231
+tags: [[Linear Algebra]]
+title: Matrix
+tmap.id: c9c017c5-52e0-4d40-a83e-1882f8b0290d
+type: text/vnd.tiddlywiki
+
+A [[Matrix]] is a table of numbers, typically [[Real|Real Numbers]] or [[Complex|Complex Numbers]].
+
+A [[Matrix]] may represent:
+
+* Coefficients of a [[System of Linear Equations]]
+* A [[Linear Map]]
+* A [[Change of Basis]]
+* A [[DataFrame]]
+* A 2-[[Tensor]]
+* A set of [[Vectors|Vector]]
+* A [[Vector]] (see [[Row Vector]], [[Column Vector]]).
+
+In any case, one should remember that an object like [[Tensor]], [[Vector]], [[Linear Map]], etc., is [[Invariant]] of the [[Change of Basis]] - but it's [[Matrix]] representation - since it's just an array of numbers - ''will change'' depending on the [[basis|Change of Basis]].

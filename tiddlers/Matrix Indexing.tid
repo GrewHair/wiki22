@@ -1,0 +1,51 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200313111956809
+modified: 20200325163826227
+tags: [[Linear Algebra]]
+title: Matrix Indexing
+tmap.id: 5f187353-b21c-4802-a0a2-65df3f9166bb
+type: text/vnd.tiddlywiki
+
+Unfortunately, there are two natural ways to visualize and memorize the [[indexing|Matrix Indexing]] of [[matrix|Matrix]] elements. In order to avoid confusion and mis-indexing, one should be aware of both of them and how they're different:
+
+* The first approach (the one __actually implied__ in [[matrix algebra|Linear Algebra]]) is [[verbal|Verbal Thinking]]:
+*> An $${\color{grey}m} \times {\color{red} n}$$ [[matrix|Matrix]] is a matrix <span title="how many? →">__''that has''__</span>  $$\color{grey} m$$ <span class="grey-links">[[rows|Row Vector]]</span> and $$\color {red} n$$ <span class="red-links">[[columns|Column Vector]]</span>;
+*> an element $$a_{\color{grey}i\color{red}j}$$ of a [[matrix|Matrix]] is an element <span title="in which? →">__''that is in''__</span> its $$\color{grey} i\text{'th}$$ <span class="grey-links">[[row|Row Vector]]</span> and $$\color {red} j\text{'th}$$ <span class="red-links">[[column|Column Vector]]</span>.
+
+* The second approach arises from the usual intuition from working with plots of continuous [[functions|Function]] and equations in 2-[[dimensional|Dimension]] [[Cartesian Coordinate System]]. It is, conversely, [[visual|Visual Thinking]]. One may tend to picture a matrix as just a discrete (and finite) version of the [[Cartesian Coordinates|Cartesian Coordinate System]], that has its $$y$$-axis flipped. In that case:
+*> Dimensions $$\color{grey} m$$ and $$\color{red} n$$ of a [[matrix|Matrix]] <span title="boundries where? →">__''look like boundries of a "rectangle"''__</span> at  $$\color{grey} y=m$$ and $$\color{red} x=n$$;
+*> an element $$a_{\color{grey}i\color{red}j}$$ of a [[matrix|Matrix]] seems to __''have its <span style="color:grey">"//y// coordinate"</span> <span title="what?
+ →">equal to</span> ''__  $$\color{grey} i$$ and __''have its <span style="color:red">"//x// coordinate"</span> <span title="what?
+ →">equal to</span> ''__  $$\color{red} j$$.
+
+
+$$
+
+\begin{array}{cc}
+
+\ &
+
+\color{red} \overbrace{\begin{matrix}      1\;\;\; & 
+                                           2\;\;\; & 
+                                      \cdots\;\;\; & n 
+                         \end{matrix}}^{j \;\rightarrow} \\
+
+{\color{grey}  \begin{matrix}i\\\downarrow\end{matrix}\begin{cases}1\\[-2pt]2\\[-2pt]3\\[-2pt]\vdots\\m\end{cases}  } &
+
+\begin{bmatrix}
+a_{\color{grey}1\color{red}1} & a_{\color{grey}1\color{red}2} & \cdots & a_{\color{grey}1\color{red}n} \\
+a_{\color{grey}2\color{red}1} & a_{\color{grey}2\color{red}2} & \cdots & a_{\color{grey}2\color{red}n} \\
+a_{\color{grey}3\color{red}1} & a_{\color{grey}3\color{red}2} & \cdots & a_{\color{grey}3\color{red}n} \\
+\vdots & \vdots & \ddots & \vdots \\
+a_{\color{grey}m\color{red}1} & a_{\color{grey}m\color{red}2} & \cdots & a_{\color{grey}m\color{red}n} \\
+\end{bmatrix}
+\end{array}
+
+$$
+
+Notice that if one uses the second approach, he should be aware that unlike in the conventional coordinate notation, here these "quasi-coordinates" come in the reverse order! I.e. <span style="color:grey">''first comes''</span> $$\color{grey} y$$, <span style="color:red">''then comes''</span> $$\color{red} x$$. So one should preferably use the first approach.
+
+https://en.wikipedia.org/wiki/Index_notation

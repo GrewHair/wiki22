@@ -1,0 +1,15 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200128071915838
+modified: 20200325163745808
+tags: Pandas
+title: df.reset_index()
+tmap.id: ecf4b691-e404-4038-bc23-f532c54fc349
+type: text/vnd.tiddlywiki
+
+Use cases:
+
+* If you've reversed the order of rows and now want them to still be indexed in ascending order starting from 0 (in this case, set `drop=True` to drop the previous index)
+* If you've performed a [[groupby|df.groupby()]], grouping by several columns, and now want to get rid of the [[Hierarchical Index|MultiIndex]] and just make it plain (in this case, leave `drop=False` to keep the existing columns as they carry useful data)

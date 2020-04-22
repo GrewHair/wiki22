@@ -1,0 +1,32 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[_my/images/png/mspe_behaviour_and_optimal_baseline]]
+created: 20200221122415069
+modified: 20200325163851162
+tags: Stub [[Machine Learning]] [[How to Win a Data Science Competition]] Metrics Regression
+title: Mean Squared Percentage Error
+tmap.id: 56a1ddb6-702e-4fda-ae80-44f76f9b8116
+type: text/vnd.tiddlywiki
+
+This is the weighted version of [[MSE|Mean Squared Error]]:
+
+$$\displaystyle \operatorname {MSPE} ={\frac {100\%}{N}}\sum _{i=1}^{N}\left({\frac {y_{i}-{\hat {y_{i}}}}{y_i}}\right)^2$$
+
+''Motivation:''
+
+|''Shop''|''Predicted''|''Sold''|[[MSE|Mean Squared Error]]|[[MSPE|Mean Squared Percentage Error]]|''Comment''|
+|''Shop1''|@@color:#0ff; 9@@|@@color:#ff0; 10@@|@@color:red; 1@@|@@color:red; 1@@|This is a reasonable difference|
+|''Shop2''|@@color:#0ff; 999@@|@@color:#ff0; 1000@@|@@color:red; 1@@|@@color:red; &asymp; 0@@|This is a negligable difference - but [[MSE|Mean Squared Error]] thinks it's reasonable|
+|''Shop3''|@@color:#0ff; 900@@|@@color:#ff0; 1000@@|@@color:red; 10000@@|@@color:red; 1@@|This is a reasonable difference - but [[MSE|Mean Squared Error]] thinks it's a disaster|
+
+Note that the weights do not sum up to one.
+
+The penalty for a fixed value of absolute error depends on the target value: as the target increases, the penalty becomes smaller.
+
+Let's study it's behavior in the same way we did with [[MSE|Mean Squared Error]] and [[MAE|Mean Absolute Error]]. The resulting plots are as follows:
+
+{{_my/images/png/mspe_behaviour_and_optimal_baseline}}
+
+The optimal [[Constant Predictor]] for this metric is the [[Weighted Mean]] of the target. Notice (on the lower plot) that it is biased towards the smaller targets - this is because the weights of them are the highest (just look at the formula).

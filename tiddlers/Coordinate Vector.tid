@@ -1,0 +1,32 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200310231858142
+modified: 20200325163826309
+tags: [[Linear Algebra]] Stub
+title: Coordinate Vector
+tmap.id: b39900be-fdca-45d7-a43f-e6247a9a6a0e
+type: text/vnd.tiddlywiki
+
+A [[Coordinate Vector]] is a representation of a [[Vector]] $$\vec v$$ with respect to some [[basis|Ordered Basis]] $$B$$.
+
+Let $$V$$ be a [[Vector Space]] of [[Dimension]] $$n$$ over a [[Field]] $$F$$ and let
+$$
+B = (b_1, b_2, ..., b_n)
+$$
+be an [[Ordered Basis]] for $$V$$. Then for every [[Vector]] $$\vec v \in V$$ there is a unique [[Linear Combination]] of the basis vectors that equals $$\vec v$$:
+
+$$
+\vec v = \alpha_1 \vec b_1 +
+         \alpha_2 \vec b_2 + ... +
+         \alpha_n \vec b_n.
+$$
+
+The [[Coordinate Vector]] of [[Vector]] $$\vec v$$ relative to $$B$$ is the [[Sequence]] of [[Coordinates|Coordinate]]
+
+$$
+[v]_B = (\alpha_1, \alpha_2, ...,\; \alpha_n).
+$$
+
+[[Coordinate Vectors|Coordinate Vector]] of finite-dimensional [[Vector Spaces|Vector Space]] can be represented by [[Matrices|Matrix]] as [[column|Column Vector]] or [[row|Row Vector]] vectors.

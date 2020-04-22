@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200309112305186
+modified: 20200325163729315
+tags: ≥0 Stub
+title: Measure
+tmap.id: 8420b907-dd61-40ce-bfbe-7e8e668d7c71
+type: text/vnd.tiddlywiki
+
+https://mathworld.wolfram.com/Measure.html
+
+https://math.stackexchange.com/questions/1483770/difference-between-a-measure-and-a-norm-in-a-euclidean-space

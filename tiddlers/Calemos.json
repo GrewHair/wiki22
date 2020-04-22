@@ -1,0 +1,22 @@
+[
+    {
+        "created": "20191216152723470",
+        "text": "|<<prs mnemonic>>|\n|<<prs example>>|",
+        "title": "Calemos",
+        "tags": "dd Logic [[100 Days of Logic (carneades.org)]]",
+        "modified": "20200325163931825",
+        "type": "text/vnd.tiddlywiki",
+        "tmap.id": "ad997121-b8b8-4409-9ecf-bd6ebc7def13",
+        ".prs.mnemonic": "C__''a''__l__''e''__m__''o''__s",
+        ".prs.example": "All lesbians are females.<br>\nNo females are gay.<br>\n&there4; Some gays are not lesbians.",
+        ".hsk.tagged_topic": "[<currentTiddler>tags[]field:icon[_my/images/icons/topic]]",
+        ".hsk.tagged_feature": "[<currentTiddler>tags[]field:icon[_my/images/icons/feature]]",
+        ".hsk.tagged_exemplar": "[<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]",
+        ".hsk.tagged_diagram": "[<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]",
+        ".hsk.macrocall": "[[_my/macros/appear/prs]]",
+        ".att.weakened": "yes",
+        ".att.valid": "conditionally",
+        ".att.mood": "AEO Mood",
+        ".att.figure": "Figure IV"
+    }
+]

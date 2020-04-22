@@ -1,0 +1,17 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[_my/images/png/python_quirks_1]]
+created: 20200417120019526
+modified: 20200417120420565
+tags: Python
+title: Python Quirk #1
+tmap.id: abd9cae9-db62-4fca-b752-83767339cdf2
+type: text/vnd.tiddlywiki
+
+{{_my/images/png/python_quirks_1}}
+
+Here I obviously just forgot to close the parentheses in line 11 - however it thought that it's ok and reported a syntax error only in line 14.
+
+''Lesson learned:'' when you see a syntax error and can't make sense of it, look at the stuff that happened before!

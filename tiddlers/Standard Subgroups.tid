@@ -1,0 +1,15 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200316185101251
+modified: 20200325163854384
+tags: [[Abstract Algebra]] [[Abstract Algebra (Socratica)]]
+title: Standard Subgroups
+tmap.id: 832bd281-e995-4580-a61d-c24f38700c55
+type: text/vnd.tiddlywiki
+
+Any [[Group]] $$G$$ has at least two [[Subgroups|Subgroup]] (called [[Standard Subroups]]):
+
+* $$G$$ (itself)
+* the [[Trivial Group]] $$=\{e\}$$

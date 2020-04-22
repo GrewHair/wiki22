@@ -1,0 +1,19 @@
+[
+    {
+        "created": "20191011104234057",
+        "text": "|<<prs railroad>>|\n|<<res youtube>>|\n\n\n\n<!--Links (for context-aware search):-->\n[[|Propositions]]\n[[|Negation]]\n[[|Conjunction]]\n[[|Disjunction]]\n[[|Material Equivalence]]\n[[|Material Implication]]\n[[|Joint Denial]]\n[[|Exclusive Disjunction]]",
+        "type": "text/vnd.tiddlywiki",
+        "title": "Compound Propositions",
+        "tags": "Logic [[100 Days of Logic (carneades.org)]]",
+        "modified": "20200325163931783",
+        "tmap.id": "a689c3b1-1ac5-4cc7-9e53-e3c6cc0282ef",
+        "list": "[[Tautologous Proposition]] [[Self-contradictory Proposition]] [[Consistent Proposition]]",
+        ".res.youtube": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/r5Eb1bJR9Mw\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        ".prs.railroad": "<$railroad text=\"\"\"{[:[[\"~\"|Negation]]]([[Proposition|Propositions]]|\"(\"[[Proposition|Propositions]]\")\")+([[\"∧\"|Conjunction]]|[[\"∨\"|Disjunction]]|[[\"⊻\"|\"Exclusive Disjunction\"]]|[[\"↓\"|\"Joint Denial\"]]|[[\"→\"|\"Material Implication\"]]|[[\"↔\"|\"Material Equivalence\"]])}\"\"\"/>",
+        ".hsk.tagged_topic": "[<currentTiddler>tags[]field:icon[_my/images/icons/topic]]",
+        ".hsk.tagged_feature": "[<currentTiddler>tags[]field:icon[_my/images/icons/feature]]",
+        ".hsk.tagged_exemplar": "[<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]",
+        ".hsk.tagged_diagram": "[<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]",
+        ".hsk.macrocall": " [[_my/macros/appear/prs]] [[_my/macros/appear/res]]"
+    }
+]

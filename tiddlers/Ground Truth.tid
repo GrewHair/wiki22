@@ -1,0 +1,10 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200228194825500
+modified: 20200325163913765
+tags: Statistics
+title: Ground Truth
+tmap.id: d58e566d-15e8-4dbc-b99a-8e5ea71a290a
+type: text/vnd.tiddlywiki

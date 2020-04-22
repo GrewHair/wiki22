@@ -1,0 +1,10 @@
+created: 20191217120227338
+modified: 20200325175756870
+tags: $:/tags/PageControls
+title: _my/ui/PageToolbarButtons/CustomNewTiddler
+tmap.id: 0bb2058a-3bca-48dd-868e-f3987b0a0426
+type: text/vnd.tiddlywiki
+
+<$button message="tm-new-tiddler" param="_my/NewTiddlerTemplate" class=<<tv-config-toolbar-class>>>
+{{$:/core/images/new-button}}{{$:/core/images/new-button}}
+</$button>

@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191217135452924
+modified: 20200325133349848
+tags: $:/tags/Macro
+title: _my/macros/columnar
+tmap.id: 2df27332-1f54-4858-8050-58197567d0ca
+type: text/vnd.tiddlywiki
+
+\define columnar(row1 row2 row3)
+<div style="display:table;">
+$row1$<br>
+$row2$
+<hr>
+$row3$<br>
+\end

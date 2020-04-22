@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191223092243818
+modified: 20200325163937980
+tags: [[Predicate Logic]] Logic
+title: Universal Generalization
+tmap.id: 3d1b898d-c757-4551-8f07-64b3d9d19511
+type: text/vnd.tiddlywiki
+
+! //''UG''//
+
+ℱ[[y|Variable (Predicate Logic)]] [[∴|Logical Consequence]] ([[∀|Universal Quantifier]][[x|Variable (Predicate Logic)]])ℱ[[x|Variable (Predicate Logic)]]
+
+Note that we can't write ℱ[[a|Constant (Predicate Logic)]] [[∴|Logical Consequence]] ([[∀|Universal Quantifier]][[x|Variable (Predicate Logic)]])ℱ[[x|Variable (Predicate Logic)]] -- this would be incorrect, because //a// is just a [[constant|Constant (Predicate Logic)]] and not a [[variable|Variable (Predicate Logic)]]. It does not represent //any// entity, just a //specific// one. So we can't generalize.

@@ -1,0 +1,53 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200331115511319
+modified: 20200331124525507
+tags: [[Regular Expressions]]
+title: More Characters (Regular Expressions)
+tmap.id: 4d4c7624-a825-451d-b4a9-8c091fe86b0a
+type: text/vnd.tiddlywiki
+
+<table border="0">
+<tbody>
+<tr>
+<th scope="col">Character</th>
+<th scope="col">Legend</th>
+<th scope="col">Example</th>
+<th scope="col">Sample Match</th>
+</tr>
+<tr>
+<td><strong>.</strong></td>
+<td>Any character except line break</td>
+<td>a.c</td>
+<td>abc</td>
+</tr>
+<tr>
+<td><strong>.</strong></td>
+<td>Any character except line break</td>
+<td>.*</td>
+<td>whatever, man.</td>
+</tr>
+<tr>
+<td>\<strong>.</strong></td>
+<td>A period (special character: needs to be escaped by a \)</td>
+<td>a\.c</td>
+<td>a.c</td>
+</tr>
+<tr>
+<td>\</td>
+<td>Escapes a special character</td>
+<td>\.\*\+\? \$\^\/\\</td>
+<td>.*+? $^/\</td>
+</tr>
+<tr>
+<td>\</td>
+<td>Escapes a special character</td>
+<td>\[\{\(\)\}\]</td>
+<td>[{()}]</td>
+</tr>
+</tbody>
+</table>
+
+https://www.rexegg.com/regex-quickstart.html

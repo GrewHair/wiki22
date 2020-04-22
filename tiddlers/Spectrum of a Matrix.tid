@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200319124808464
+modified: 20200325163826145
+tags: [[Linear Algebra]]
+title: Spectrum of a Matrix
+tmap.id: 58f84fca-af04-4eca-87b3-55416c15e51d
+type: text/vnd.tiddlywiki
+
+[[Spectrum of a Matrix]] is the [[Set]] of its [[Eigenvalues|Eigenvalue]].

@@ -1,0 +1,24 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200314150339022
+modified: 20200325163830923
+tags: [[Set Theory]] Stub
+title: Set-builder Notation
+tmap.id: bc0afbd9-87d8-4c5e-9f23-0f31465bb621
+type: text/vnd.tiddlywiki
+
+''Sets defined by a predicate''
+
+In this form, [[Set-builder Notation]] has three parts:
+
+* a [[Variable|Variable (Predicate Logic)]]
+* $$;$$ or $$|$$ standing for //"such that", "for which", "with a property that"//, etc.
+* a [[Logical Predicate|Predicate (Predicate Logic)]] $$\Phi(x)$$
+
+$$\{x;\Phi(x)\}$$ or $$\{x|\Phi(x)\}$$.
+
+Additionally, a [[Domain|Domain of a Function]] may be specified:
+
+$$\{x \in E; \Phi(x)\}$$ or $$\{x; x \in E \;\wedge\; \Phi(x)\}$$.

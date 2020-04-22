@@ -1,0 +1,22 @@
+[
+    {
+        "created": "20191216144355865",
+        "text": "|<<prs mnemonic>>|\n|<<prs example>>|",
+        "title": "Darii",
+        "tags": "dd Logic [[100 Days of Logic (carneades.org)]]",
+        "modified": "20200325163931703",
+        "type": "text/vnd.tiddlywiki",
+        "tmap.id": "eb819981-03ee-47a8-9187-b7548e16dd59",
+        ".temp": "All rabbits have fur. (MaP)<br>\nSome pets are rabbits. (SiM)<br>\n∴ Some pets have fur. (SiP)",
+        ".prs.mnemonic": "D__''a''__r__''ii''__",
+        ".prs.example": "All lesbians are females.<br>\nSome kinksters are lesbians.<br>\n&there4; Some kinksters are females.",
+        ".hsk.tagged_topic": "[<currentTiddler>tags[]field:icon[_my/images/icons/topic]]",
+        ".hsk.tagged_feature": "[<currentTiddler>tags[]field:icon[_my/images/icons/feature]]",
+        ".hsk.tagged_exemplar": "[<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]",
+        ".hsk.tagged_diagram": "[<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]",
+        ".hsk.macrocall": "[[_my/macros/appear/prs]]",
+        ".att.valid": "unconditionally",
+        ".att.mood": "AII Mood",
+        ".att.figure": "Figure I"
+    }
+]

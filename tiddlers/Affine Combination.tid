@@ -1,0 +1,39 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200316090707458
+modified: 20200325163905059
+tags: [[Affine Geometry]] [[Linear Algebra]]
+title: Affine Combination
+tmap.id: aecf3d71-80d8-4cc2-a7a5-8ea705ec3ca2
+type: text/vnd.tiddlywiki
+
+An [[Affine Combination]] of $$x_1, x_2, ..., x_n$$ is a [[Linear Combination]]
+
+$$
+\displaystyle \sum_{i=1}^n \alpha_i x_i = \alpha_1 x_1 + 
+                           \alpha_2 x_2 + ... + 
+                           \alpha_i x_i
+$$
+
+such that
+
+$$
+\displaystyle \sum_{i=1}^n \alpha_i = 1.
+$$
+
+Here $$x_1, x_2, ..., x_i$$ can be [[vectors|Vector]] of a [[Vector Space]] over a [[field|Field]] $$K$$, and the coefficients $$\alpha_i$$ are elements of $$K$$.
+
+The elements $$x_1, x_2, ..., x_i$$ can also be points of a [[Euclidian Space]], and, more generally, of an [[Affine Space]] over a [[Field]] $$K$$ - in such a case, the combination is also a point (the so-called [[Barycenter]]).
+
+The [[Set]] of all [[Affine Combinations|Affine Combination]] of a [[Set]] of points form the smallest subspace containing the points, just like the [[Set]] of all [[Linear Combinations]] of a [[Set]] of [[Vectors|Vector]] form their [[Linear Span]].
+
+[[Affine Combinations|Affine Combination]] [[commute|Commutativity]] with any [[Affine Transformation]] $$T$$:
+
+$$
+\displaystyle T\sum_{i=1}^n \alpha_i   x_i =
+               \sum_{i=1}^n \alpha_i T x_i
+$$
+
+When a [[Stochastic Matrix]], $$A$$, acts on a [[Column Vector]], $$\vec b$$, the result is a [[Column Vector]] whose entries are [[Affine Combinations]] of $$\vec b$$ with coefficients from the [[rows|Row Vector]] in $$A$$.

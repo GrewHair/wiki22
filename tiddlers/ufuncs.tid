@@ -1,0 +1,25 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200322170628246
+modified: 20200325163742380
+tags: Numpy Stub
+title: ufuncs
+tmap.id: 933e81c8-f113-427b-ba24-d413288faeef
+type: text/vnd.tiddlywiki
+
+''AKA Universal Functions''
+
+* Unary [[ufuncs]]
+* Binary [[ufuncs]]
+
+|Operator|Equivalent [[ufunc|ufuncs]]|Description|
+|`+`|`np.add`|Addition|
+|`-`|`np.subtract`|Subtraction|
+|`-`|`np.negative`|Unary negation|
+|`*`|`np.multiply`|Mupliplication|
+|`/`|`np.divide`|Division|
+|`//`|`np.floor_divide`|Floor division|
+|`**`|`np.power`|Exponentiation|
+|`%`|`np.mod`|Modulus/remainder|

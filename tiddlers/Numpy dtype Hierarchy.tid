@@ -1,0 +1,15 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[_my/images/png/numpy_dtype_hierarchy]]
+created: 20200128070649047
+modified: 20200325163742399
+tags: Stub Numpy
+title: Numpy dtype Hierarchy
+tmap.id: 275b8d35-577b-4d62-80b4-36314bf2ab7d
+type: text/vnd.tiddlywiki
+
+{{_my/images/png/numpy_dtype_hierarchy}}
+
+https://docs.scipy.org/doc/numpy/reference/arrays.scalars.html

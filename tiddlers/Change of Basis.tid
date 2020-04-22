@@ -1,0 +1,29 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[_my/images/matrices_relationship_in_a_linear_transformation]]
+created: 20200311210055385
+modified: 20200325163826339
+tags: [[Linear Algebra]] Questionable
+title: Change of Basis
+tmap.id: 1dfbae4c-f8a4-4af5-93ce-24cbb9484d42
+type: text/vnd.tiddlywiki
+
+* for [[Vectors|Vector]]:
+*> $$\vec v_2 = P^{-1} \vec v_1$$
+
+* for [[Matrix Transformations|Linear Map]]:
+*> $$T_2 = PT_1P^{-1}$$
+
+Where $$P$$ is a [[Change of Basis]] [[Matrix]].
+
+The image below describes why there's $$P$$ __and__ $$P^{-1}$$ in the expression for [[Matrix Transformation|Linear Map]]:
+
+{{_my/images/matrices_relationship_in_a_linear_transformation}}
+
+You can see that this $$P$$ is really very much like an [[FFT|Fast Fourier Transform]] (which it actually really is - [[see this|Integral Transform]]).
+
+https://en.wikipedia.org/wiki/Change_of_basis
+
+https://en.wikipedia.org/wiki/Linear_map#Matrices

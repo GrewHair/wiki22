@@ -1,0 +1,32 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200316104401302
+modified: 20200325164007560
+tags: Topology
+title: Simplex
+tmap.id: 414eaefa-11dd-4ec5-b3a0-0c9cbccfff24
+type: text/vnd.tiddlywiki
+
+[[Simplex]] is a generatization of the notion of [[Triangle]] or [[Tetrahedron]] to arbitrary [[dimensions|Dimension]].
+
+E.g.:
+
+* a 0-[[simplex|Simplex]] is a [[Point]]
+* a 1-[[simplex|Simplex]] is a [[Line Segment]]
+* a 2-[[simplex|Simplex]] is a [[Triangle]]
+* a 3-[[simplex|Simplex]] is a [[Tetrahedron]]
+* a 4-[[simplex|Simplex]] is a [[5-cell]]
+
+A k-[[simplex|Simplex]] is a k-[[dimensional|Dimension]] [[Polytope]] which is a [[Convex Hull]] of k+1 [[vertices|Vertex]].
+
+For $$k$$ [[Affinely Independent Points]]:
+
+$$
+\displaystyle
+C = \{ \theta_0 u_0+...+\theta_k u_k | 
+       \sum_{i=0}^k\theta_i = 1 
+       \text{ and } 
+       \theta_i \geq 0 \text{ for all }i\}
+$$

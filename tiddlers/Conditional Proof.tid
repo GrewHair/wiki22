@@ -1,0 +1,32 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[Material Implication]]
+created: 20191028073244665
+modified: 20200325163931771
+tags: Logic [[100 Days of Logic (carneades.org)]]
+title: Conditional Proof
+tmap.id: 63535ce4-0e22-495c-9532-3fa30784a3f2
+type: text/vnd.tiddlywiki
+
+It is used to prove conditional (if &rarr; then) statements. The procedure is as follows:
+
+* Assume some //p// (this step is called ACP for 'assume conditional proof')
+* Prove some //q// based on this assumption (using the [[Rules of Inference]])
+* After that you are allowed to state that //p&rarr;q//
+* (end of proof)
+It is not necessery to then check what happens if //p// is false, since from the truth table:
+
+<div style="position: relative">
+<span style="position: absolute; top:24px">
+<svg width="400" height="110">
+  <rect width="200" height="40" rx="10" style="fill:rgb(150,120,0);opacity:0.5;" /> 
+</svg>
+</span>
+<span>
+{{Material Implication!!.prs.truth_table}}
+</span>
+</div>
+
+The only case in which the implication can be false is when //p// is true anyway!

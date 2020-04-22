@@ -1,0 +1,14 @@
+.hsk.macrocall: [[_my/macros/TruthTables/trth_binary]] [[_my/macros/appear/prs_v]]
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.prs.truth_table: <<trth_binary ⊻ F T T F>>
+created: 20191016113015559
+modified: 20200325163932219
+tags: Logic Secondary Binary [[100 Days of Logic (carneades.org)]]
+title: Exclusive Disjunction
+tmap.id: f2581c6d-beb4-491e-82fc-9b379b6860d0
+type: text/vnd.tiddlywiki
+
+It's [[truth table|Truth Tables]] <<prs_v 'is (click to see):' truth_table>>

@@ -1,0 +1,62 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200224064722370
+modified: 20200325165249455
+tags: 
+title: TeX
+tmap.id: c5b55e65-aa32-4403-80a2-0eaef2516125
+type: text/vnd.tiddlywiki
+
+* `_{foo}` - lower index
+* `^{foo}` - upper index
+* `\displaystyle` - make formula large (without this, fractions are pretty much unreadable)
+* `\operatorname` - makes text non-italic?
+* `\mathbb` - script font, useful to denote expectations, set of real numbers, etc.
+* `\text` - inserts non-math text
+* `\left`, `\right` - make some symbol the left/right delimiter of some expression (in case expression is higher then normal string height)
+* `\begin{matrix}`, `\end{matrix}` - delimit a matrix
+* `\sqrt` - square root
+* `\frac` - fraction
+* `\sum` - summation
+* `\prod` - product
+* `\int` -integral
+* `\hat` - a "^" hat above a symbol/expression
+* `\bar` - a "--" bar above a symbol/expression
+* `\in`, `\ni` - set membership
+* `\partial` - partial differential
+* `\{`, `\}` - a brace
+* `\%` - percent sign
+* `\#` - #
+* `\\` - new line
+* `\!`, `(nothing)`, `\,`, `\:`, `\;`, `\ `, `\quad`, `\qquad` - spacings
+* `\neq`, `\ne` - not equal
+* `\approx` - $$\approx$$
+* `\to` - $$\to$$
+* `\stackrel{foo}=` - $$\stackrel{foo}=$$ 
+* `\pi` - pi
+* `\cdot` - dot product
+* `\dot` - derivative in [[Newton's Notation]]
+* `\cup` - set intersection
+* `\cap` - set union
+* `\vec` - vector
+* `\R` - set of real numbers
+* `\N` - set of natural numbers
+* `\Z` - set of integers
+* `\alpha` - $$\alpha$$
+* `\beta` - $$\beta$$
+* `\gamma` - $$\gamma$$
+* `\theta` - $$\theta$$
+* `\lambda` - $$\lambda$$
+* `\chi` - $$\chi$$
+* `\phi` - $$\phi$$
+* `\psi` - $$\psi$$
+* `\nabla` - $$\nabla$$
+* `\varepsilon` - $$\varepsilon$$
+* `\vee` - disjunction
+* `\wedge`, `\land` - conjunction
+* `\times` - cross product
+* `\newcommand\foo{<bar>}` - define command `\foo`, that will output "$$bar$$"
+* `\newcommand\foo[2]{#1, #2}` - define command `\foo` with two input parameters
+* `\renewcommand\foo{<bar>}` - override an existing command (for example to make vectors be bold and don't have arrows)

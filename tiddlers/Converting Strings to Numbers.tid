@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200128074723734
+modified: 20200325163745821
+tags: Pandas
+title: Converting Strings to Numbers
+tmap.id: ade3150b-5a27-4d56-aa93-5e1064c1b2d3
+type: text/vnd.tiddlywiki
+
+* `df.astype({'column_1': 'float', 'column_2': 'float'})` - convert several columns to numbers, ''but it will fail'' if the columns contain non-numeric symbols
+* `pd.to_numeric(df.column_1, errors='coerce').fillna(0)` - convert one column to numbers, rendering errors as NaN, then replace NaNs with zeros
+* `df =df.apply(pd.to_numeric, errors='coerce').fillna(0)` - convert all columns to numbers, rendering errors as NaN, then replace NaNs with zeros

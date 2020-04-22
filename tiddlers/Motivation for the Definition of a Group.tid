@@ -1,0 +1,21 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200316173049580
+modified: 20200325163854407
+tags: [[Abstract Algebra (Socratica)]] [[Abstract Algebra]]
+title: Motivation for the Definition of a Group
+tmap.id: 2c0e6e9f-960d-4fc1-bc80-767aaac38f20
+type: text/vnd.tiddlywiki
+
+To see //why// the definition of a ''Group'' is [[this|Group]], let's try to solve an equation:
+
+|$$x+3=5$$                                           |                           |
+|$$(x+3) + (-3) = 5 + (-3)$$                     |Introducing [[Inverse Element]]|
+|$$(x+3) + (-3) = 2$$                                |Utilizing [[Closure]]      |
+|$$x + (3 + (-3)) = 2$$                              |Utilizing [[Associativity]]|
+|$$x + 0 = 2$$                                     |Utilizing [[Inverse Element]]|
+|$$x = 2$$                                        |Utilizing [[Identity Element]]|
+
+As you can see, we needed all the properties for this!

@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200311214625783
+modified: 20200325163729422
+tags: Stub
+title: Integral Transform
+tmap.id: c847756e-1a2c-45b2-8b16-f3712f482e87
+type: text/vnd.tiddlywiki
+
+[[Integral Transform]] is a continuous analogue of [[Change of Basis]] from [[Linear Algebra]].

@@ -1,0 +1,102 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200228194906703
+modified: 20200325163913724
+tags: Statistics
+title: Sufficient Statistic
+tmap.id: 0e70a219-2fa7-41f2-90b3-c199f72ff17c
+type: text/vnd.tiddlywiki
+
+A [[Statistic]] is [[Sufficient|Sufficient Statistic]] if it conveys all the available information about the [[parameter|Statistical Parameter]].
+
+Simply speaking, suppose you have a [[Sample|Statistical Sample]] and you are interested in some <<tex \theta "Statistical Parameter">>. If then you come up with a [[Sufficient Statistic]], you can then throw all the data away, because all the information you need sits in that statistic. 
+
+When the [[Likelihood Function]] can be decomposed into two factors, one of which depends only on //y// (i.e. the [[sample|Statistical Sample]]) and another one depends on <<tex \theta "Statistical Parameter">> and some [[statistic|Statistic]] $$T(y)$$:
+
+$$\mathcal L  (\theta;    y) = 
+  c(y)
+  \mathcal L^*(\theta; T(y)),
+$$
+
+then this statistic $$T(y)$$ is called [[Sufficient|Sufficient Statistic]].
+
+Note that $$c(y)$$ here is considered just some completely irrelevant scaling constant, because:
+
+* It doesn't depend on <<tex \theta "Statistical Parameter">>, and thus you can not solve for $$\theta$$
+* The exact value of likelihood is meaningless anyway (see [[likelihood]]). 
+
+''//Example 1://'' to calculate the [[Mean]] all you need is the sum of all values - thus the sum of all values is a [[Sufficient Statistic]] for the [[Mean]].
+
+''//Example 2://'' a sample of 5 pregnant women have their SBP taken, which is considered to be normally distributed with $$\sigma=10.$$ 
+
+Sample: `{135, 123, 120, 102, 110}`
+
+$$
+\mathcal                  L(\mu) = 
+\prod_{i=1}^5  f_i     (y_i;\mu),
+
+\quad \text{where} \quad
+
+f(y; \mu, \sigma) = \frac 1 {\sqrt             {200 \pi}}
+              e^{ - \frac   {\displaystyle   {(y-\mu)^2}}
+                            {\displaystyle         {200}} }
+$$
+
+
+$$ \displaystyle
+   \mathcal L(\mu) =
+   \left(           \frac 1 {200\pi}            \right)
+                  ^{\frac   {\displaystyle 5} 
+                            {\displaystyle 2}}
+   \text{exp}
+   \left\{
+  -\sum_{i=1}^5     \frac   {(y_i - \mu)^2}
+                            {200}               \right\}
+
+
+
+   \\
+
+
+
+   \mathcal L(\mu) =
+   \left(           \frac 1 {200\pi}            \right)
+                  ^{\frac   {\displaystyle 5}
+                            {\displaystyle 2}}
+   \text{exp}
+   \left\{
+  -\sum_{i=1}^5     \frac   {y_i^2}
+                            {200}               \right\}
+   \text{exp}
+   \left\{          \frac   {\mu T(y)}
+                            {100}                  -
+                    \frac   {n \mu^2}
+                            {200}               \right\},
+
+   \\ \text{where} \quad
+   T(y) = \sum{y_i}.
+$$
+
+In this example,
+$$     c(y) = 
+   \left(           \frac 1 {200\pi}            \right)
+                  ^{\frac   {\displaystyle 5}
+                            {\displaystyle 2}}
+   \text{exp}
+   \left\{
+  -\sum_{i=1}^5     \frac   {y_i^2}
+                            {200}               \right\},
+
+
+\qquad
+
+
+   \mathcal L^*(\theta; T(y)) =
+   \text{exp}
+   \left\{          \frac   {\mu T(y)}
+                            {100}                  -
+                    \frac   {n \mu^2}
+                            {200}               \right\}
+$$

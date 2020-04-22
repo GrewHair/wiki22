@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200320081807931
+modified: 20200325164007572
+tags: Topology Stub
+title: Neighbourhood
+tmap.id: 3e1f5ed7-d78c-43e6-b252-b29651a20826
+type: text/vnd.tiddlywiki
+
+It seems that this term exists in [[Topology]] to a certain extent just in order to bridge it with calculus, analysis, etc, which use this term historically all the time. And yes, this term is consistent with them, just more general. Using just [[Set Theory]], one probably might get away with simply calling it an [[Open Set]] containing $$x$$.
+
+https://math.stackexchange.com/questions/157735/definition-of-neighborhood-and-open-set-in-topology
+
+https://en.wikipedia.org/wiki/Neighbourhood_(mathematics)#Topology_from_neighbourhoods

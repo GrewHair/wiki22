@@ -1,0 +1,17 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191028085911286
+modified: 20200325163932142
+tags: Logic [[100 Days of Logic (carneades.org)]]
+title: Indirect Proof
+tmap.id: e9fc4802-a92a-4640-824b-88ab6a668d56
+type: text/vnd.tiddlywiki
+
+Also known as the [[Proof by Contradiction|Indirect Proof]]. It is used to prove atomic propositions (like //p// for example). The procedure is as follows:
+
+* Assume //~p// (this step is called AIP for 'assume indirect proof')
+* Reach a [[contradiction|Self-contradictory Proposition]] like //q&and;~q//
+* Conclude that therefore the assumption //~p// must be wrong, and hense, by [[Double Negation]], //p// must be true
+* (end of proof)

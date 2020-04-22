@@ -1,0 +1,28 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191223092115632
+modified: 20200325163937976
+tags: [[Predicate Logic]] Logic
+title: Universal Instantiation
+tmap.id: 30046945-3706-4da4-8177-65d7c88aec60
+type: text/vnd.tiddlywiki
+
+! //''UI''//
+
+([[∀|Universal Quantifier]][[x|Variable (Predicate Logic)]])ℱ[[x|Variable (Predicate Logic)]] [[∴|Logical Consequence]] ℱ[[y|Variable (Predicate Logic)]] and ([[∀|Universal Quantifier]][[x|Variable (Predicate Logic)]])ℱ[[x|Variable (Predicate Logic)]] [[∴|Logical Consequence]] ℱ[[a|Constant (Predicate Logic)]].
+
+<br>
+
+''Let's break it down:''
+
+([[∀|Universal Quantifier]][[x|Variable (Predicate Logic)]])ℱ[[x|Variable (Predicate Logic)]] --- (for all //x//, //ℱx// holds)
+
+''implies''
+
+ℱ[[y|Variable (Predicate Logic)]] --- (for any //y//, //ℱy// holds)
+
+''and implies''
+
+ℱ[[a|Constant (Predicate Logic)]] --- (for one specific object //a//, //ℱa// holds).

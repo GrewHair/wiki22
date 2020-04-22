@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191113120810169
+modified: 20200325163932051
+tags: Logic
+title: Premise
+tmap.id: 86d5a61b-e61d-4e71-9aac-c9c23ff1cf74
+type: text/vnd.tiddlywiki
+
+In [[Arguments|Argument]], any [[Propositions]] to the left of the  [[Consequence|Logical Consequence]] sign are called [[Premises|Premise]].

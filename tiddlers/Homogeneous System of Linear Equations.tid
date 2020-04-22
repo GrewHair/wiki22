@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200315125714712
+modified: 20200325163826261
+tags: [[Linear Algebra]]
+title: Homogeneous System of Linear Equations
+tmap.id: cd3847f0-d740-4c9d-ae5b-cffe31c09fde
+type: text/vnd.tiddlywiki
+
+A [[System of Linear Equations]] is [[homogeneous|Homogeneous System of Linear Equations]] if all the [[equations|Equation]] in the system have zero constant terms.
+
+It's [[matrix|Matrix]] representation is said to have the zero [[Vector of Constant Terms]] $$\vec b = 0$$:
+
+$$
+A \vec x = 0.
+$$

@@ -1,0 +1,22 @@
+.hsk.transcludes: [[_my/images/png/index_versus_value_plot]][[_my/images/png/unshuffled_feature]][[_my/images/png/log_plot]]
+created: 20200114064749121
+modified: 20200325163851222
+tags: [[How to Win a Data Science Competition]] [[Machine Learning]]
+title: Index Vs Value Plot
+tmap.id: 8659ea20-07ef-48da-845f-96f740177878
+type: text/vnd.tiddlywiki
+
+`plt.plot(x, '.')`
+
+These are just plots of single features versus the row index of the Pandas DataFrame (or just a Series, or even just a list).
+
+* If the order of data has been preserved intact, this plot may look like some basic [[Time Series]]:
+{{_my/images/png/unshuffled_feature}}
+* If the data has been [[Shuffled|Shuffled Data]], this plot may look somewhat like this:
+{{_my/images/png/index_versus_value_plot}}
+
+''Note:''
+
+Sometimes this kind of plot doesn't indicate clearly enough that a feature is, say, integer/discrete - this can happen if the values are many and/or the scale is large. In such cases it can sometimes be beneficial to plot the [[Log Transform]] of the feature instead of the feature itself - this way many repeated values may manifest themselves as horizontal lines:
+
+{{_my/images/png/log_plot}}

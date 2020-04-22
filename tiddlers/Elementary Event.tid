@@ -1,0 +1,21 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200319065727956
+modified: 20200325171722410
+tags: [[Probability Theory]] [[Measure Theory]]
+title: Elementary Event
+tmap.id: 7b067582-293f-4f80-b8cc-b3e12cb86a1c
+type: text/vnd.tiddlywiki
+
+''AKA Outcome''
+
+An [[Elementary Event]] is an element of the [[Sample Space]]. 
+
+It contains a single outcome of an experiment.
+
+E.g. consider rolling a die:
+
+* $$\{2\}$$ is an [[Elementary Event]]
+* $$\{2, 4, 6\} = \{i|i \text{ is even}\}$$ (pronounced //"2 or 4 or 6"//, or equivalently //"the number is odd"//)- this [[Event|Event (Probability Theory)]] is not [[Elementary|Elementary Event]]

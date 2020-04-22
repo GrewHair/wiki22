@@ -1,0 +1,43 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200318063939388
+modified: 20200325171722406
+tags: [[Probability Theory]]
+title: Event (Probability Theory)
+tmap.id: 96ad5ef0-5051-4208-90b7-fc25b26202f8
+type: text/vnd.tiddlywiki
+
+An [[Event|Event (Probability Theory)]] is a [[Subset]] of the [[Sample Space]].
+
+In cases when the [[Sample Space]]
+ is not [[finite|Finite Set]], it is more correct to say that an [[Event|Event (Probability Theory)]] is an element of the [[σ-algebra]] of [[subsets|Subset]] of the [[Sample Space]].
+
+It should be stressed that an [[Event]] is a [[Set]]. E.g.:
+
+$$
+\{\omega \in \Omega | u < X(\omega) \leq v \},
+$$
+
+where $$X(\omega)$$ is a [[Random Variable]].
+
+From this it is clear that the [[Event|Event (Probability Theory)]] that a [[Random Variable]] $$X$$ takes on a value in range $$(u, v]$$ is really an [[Inverse Image|Inverse Image of a Set]] of $$(u, v]$$ under $$X$$.
+
+However, they are often written as [[predicates|Predicate (Predicate Logic)]] or [[indicators|Indicator Function]] involving [[Random Variables|Random Variable]]. E.g.:
+
+$$
+u < X(\omega) \leq v.
+$$
+
+Thus, the common notation for [[Probability]]
+
+$$
+P(u < X \leq v) = F(v) - F(u)
+$$
+
+is really a shorthand for
+
+$$
+P(\{\omega \in \Omega | u < X \leq v \}) = F(v) - F(u)
+$$

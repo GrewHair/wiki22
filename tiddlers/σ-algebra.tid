@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200308112533607
+modified: 20200325164034427
+tags: [[Measure Theory]] [[Set Theory]]
+title: σ-algebra
+tmap.id: 3c4f37da-c671-404f-9acf-6e38d5413ee0
+type: text/vnd.tiddlywiki
+
+A [[σ-algebra]] (also referred to as a σ-field) is just a [[σ-ring]] that contains a [[Universal Set]]. That means that it is closed under [[Complementation|Set Complement]].
+
+Is is also closed under countable unions.
+
+Any [[Power Set]] is a [[σ-algebra]], but not vice verca.
+
+https://www.quora.com/How-are-sigma-algebras-different-from-power-sets

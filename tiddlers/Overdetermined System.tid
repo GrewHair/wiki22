@@ -1,0 +1,23 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200314170956255
+modified: 20200325163826179
+tags: [[Linear Algebra]]
+title: Overdetermined System
+tmap.id: 84bb9964-b8b0-422d-a63e-d635bafc607f
+type: text/vnd.tiddlywiki
+
+A [[system|System of Linear Equations]] is [[overdetermined|Overdetermined System]] when it has more equations than unknowns.
+
+Example:
+
+$$
+\displaystyle 
+\begin{aligned}
+2x + y &= -1\\
+3x - y &=  2\\
+ x - y &= -1\\
+\end{aligned}
+$$

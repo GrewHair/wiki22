@@ -1,0 +1,18 @@
+created: 20191226230243342
+modified: 20200325163851107
+tags: [[How to Win a Data Science Competition]] [[Machine Learning]]
+title: One-Hot Encoding
+tmap.id: 94ccc10e-85d6-4783-bee0-30ecec5fc60e
+type: text/vnd.tiddlywiki
+
+Also sometimes referred to as //Dummy Variables Encoding//.
+
+``pandas.get_dummies``, ``sklearn.preprocessing.OneHotEncoder``
+
+This type of encoding is [[Non-tree-based Models]]-friendly.
+
+Note that this method gives already [[Scaled|Scaling]] features.
+
+The use of this method is usually discouraged with [[Tree-based Models]], because it produces a lot of features, and hence all other (for example numerical) features can get underused, even if they are important.
+
+If this method has to be used on [[Categorical Features]], which have a lot of unique values, it may be needed to use [[Sparce Matrices]] for dummy variables' storage, because of a lot of zeros that come up.

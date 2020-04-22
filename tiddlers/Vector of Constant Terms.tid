@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200315125101985
+modified: 20200325163826488
+tags: [[Linear Algebra]]
+title: Vector of Constant Terms
+tmap.id: faf3305f-90b6-405a-9c49-5a2074a1775d
+type: text/vnd.tiddlywiki
+
+A [[Vector of Constant Terms]] $$\vec b$$ as a [[Column Vector]] of constant terms of a [[System of Linear Equations]]. 

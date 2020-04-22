@@ -1,0 +1,38 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200304104924395
+modified: 20200325133554753
+tags: 
+title: _my/_a_tiddler_with_a_nice_reveal_widget_usage_that_may_help
+tmap.id: d536600b-f5fa-412a-9acc-746c7fd34d17
+type: text/vnd.tiddlywiki
+
+\define toc-heading(caption,body)
+<$reveal type="nomatch" state=<<qualify "$:/state/toc/$caption$">> text="show">
+<$button set=<<qualify "$:/state/toc/$caption$">> setTo="show" class="btn-invisible">{{$:/core/images/right-arrow}} $caption$
+</$button>
+</$reveal>
+<$reveal type="match" state=<<qualify "$:/state/toc/$caption$">> text="show">
+<$button set=<<qualify "$:/state/toc/$caption$">> setTo="hide" class="btn-invisible">{{$:/core/images/down-arrow}} $caption$
+</$button>
+</$reveal>
+<$reveal type="match" state=<<qualify "$:/state/toc/$caption$">> text="show" retain="yes" animate="yes">
+
+$body$
+
+</$reveal>
+\end
+
+<div class="tw-table-of-contents">
+
+# <<toc-heading "Instructions" "
+# {{ Traditional Square of Opposition }}
+">>
+
+</div>
+
+<hr>
+
+<$list filter="[tags[]!is[system]sort[title]]" itemClass="tw-menu-list-item"><$transclude tiddler="$:/core/ui/TagTemplate"/></$list>

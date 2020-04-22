@@ -1,0 +1,19 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200309174607519
+modified: 20200325163826349
+tags: [[Linear Algebra]]
+title: Basis
+tmap.id: 57bc94a3-39f2-481b-99bd-72a7a9d6e4cf
+type: text/vnd.tiddlywiki
+
+A [[Basis]] of a [[Vector Space]] $$V$$ over a [[Field]] $$F$$ is a [[linearly independent|Linear Dependency]] [[Subset]] of $$V$$ that [[spans|Linear Span]] $$V$$.
+
+Say it again: it is a collection of [[vectors|Vector]] that:
+
+* are [[Linearly Independent|Linear Dependence]]
+* [[Span|Linear Span]] the whole [[space|Vector Space]]
+
+For many purposes, just a [[Basis]] is not enough. One might need to additionally impose an order on this [[Set]] - e.g. when one needs [[the scalar coefficients of a vector with respect to|Coordinate Vector]] some [[Basis|Ordered Basis]]. Thus, the notion of [[Ordered Basis]] arizes.

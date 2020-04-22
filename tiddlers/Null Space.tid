@@ -1,0 +1,24 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200312161958883
+modified: 20200325163826198
+tags: [[Linear Algebra]] [[Fundamental Matrix Subspaces]]
+title: Null Space
+tmap.id: 3fae70c1-bcde-4da3-af73-a9ee8ca36faa
+type: text/vnd.tiddlywiki
+
+''AKA Kernel''
+
+The [[Null Space]] of a [[Linear Mapping]] is the [[Set]] of [[Vectors|Vector]] in the [[Domain]] of the mapping which are mapped to zero vector:
+
+$$\ker(L) = \{\vec v \in V | L(\vec v) = \vec 0\}.$$
+
+In other words, it is the set of solutions of the [[Homogeneous Equation|Homogeneous System of Linear Equations]] $$A\vec x = 0.$$
+
+Contrary to the [[Column Space]] and the [[Row Space]], the [[Null Space]] "isn't taken from the matrix itself".
+
+The fact that there exists the whole [[space]] of non-zero [[vectors|Vector]] that turn $$A$$ to zero by multiplying it is sometimes described as $$A$$ is being a [[Zero Divisor]] (all [[matrices|Matrix]] that are [[Zero Divisors|Zero Divisor]] are [[Singular|Singular Matrix]]).
+
+It happens because [[columns|Column Vector]] of a [[Singular Matrix]] are [[Linearly Dependent|Linear Dependency]], and thus one could construct a [[Non-trivial Linear Combination]] of them which would evaluate to zero (the coefficients of this combination form a vector which is a member of the [[Null Space]].

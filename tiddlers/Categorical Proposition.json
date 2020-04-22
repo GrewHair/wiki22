@@ -1,0 +1,17 @@
+[
+    {
+        "created": "20191029105521896",
+        "text": "<<prs railroad>>\n\n<table style=\"text-align:center\">   \n<thead>     \n<tr>       \n<th></th>       \n<th>[[Universal|Quantity]]</th>\n<th>[[Particular|Quantity]]</th>\n</tr>   \n</thead>   \n<tbody>     \n<tr>       \n<th>[[Affirmative|Quality]]</th>       \n<td>[[A|ALL Statement]]<br>\nAll <span style=\"color:orange\">Dogs</span> are Mammals\n</td>\n<td>[[I|SOME Statement]]<br>\nSome Women are Republicans\n</td>  \n</tr>     \n<tr>       \n<th>[[Negative|Quality]]</th>       \n<td>[[E|NO Statement]]<br>\nNo <span style=\"color:orange\">Fish</span> are <span style=\"color:orange\">Philosophers</span>\n</td>\n<td>[[O|SOME ARE NOT Statement]]<br>\nSome Philosophers are not <span style=\"color:orange\">Crazy</span>\n</td>\n</tr>   \n</tbody> \n</table>\n\n<$appear show=\"see version without the //''no''// quantifier\" $state=\"slider-button\">\n<table style=\"text-align:center\">   \n<thead>     \n<tr>       \n<th></th>       \n<th>[[Universal|Quantity]]</th>\n<th>[[Particular|Quantity]]</th>\n</tr>   \n</thead>   \n<tbody>     \n<tr>       \n<th>[[Affirmative|Quality]]</th>       \n<td>[[A|ALL Statement]]<br>\nAll <span style=\"color:orange\">Dogs</span> are Mammals\n</td>\n<td>[[I|SOME Statement]]<br>\nSome Women are Republicans\n</td>  \n</tr>     \n<tr>       \n<th>[[Negative|Quality]]</th>       \n<td>[[E|NO Statement]]<br>\nAll <span style=\"color:orange\">Fish</span> are not <span style=\"color:orange\">Philosophers</span>\n</td>\n<td>[[O|SOME ARE NOT Statement]]<br>\nSome Philosophers are not <span style=\"color:orange\">Crazy</span>\n</td>\n</tr>   \n</tbody> \n</table>\n</$appear>\n(I included it because of [[this|Quantifier]].)\n\n<span style=\"color:orange\">Highlighted in orange are the [[Distributed|Distributed Term]] terms</span>\n\n<!--Links (for context-aware search):-->\n[[|Quantifier]]\n[[|Subject]]\n[[|Copula]]\n[[|Predicate (Categorical Logic)]]",
+        "title": "Categorical Proposition",
+        "tags": "Logic [[100 Days of Logic (carneades.org)]]",
+        "modified": "20200325163931814",
+        "type": "text/vnd.tiddlywiki",
+        "tmap.id": "de8367be-2d16-473e-81df-544c77ab7570",
+        ".prs.railroad": "<<rlrd_cat_prop Subject 'Predicate (Categorical Logic)'>>",
+        ".hsk.tagged_topic": "[<currentTiddler>tags[]field:icon[_my/images/icons/topic]]",
+        ".hsk.tagged_feature": "[<currentTiddler>tags[]field:icon[_my/images/icons/feature]]",
+        ".hsk.tagged_exemplar": "[<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]",
+        ".hsk.tagged_diagram": "[<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]",
+        ".hsk.macrocall": " [[_my/macros/appear/prs]] [[_my/macros/Railroad/rlrd_cat_prop]]"
+    }
+]

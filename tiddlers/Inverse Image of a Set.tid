@@ -1,0 +1,30 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200318072604534
+modified: 20200325163830947
+tags: [[Set Theory]]
+title: Inverse Image of a Set
+tmap.id: 61a05ed4-fdae-4c3e-9aa3-799ecdcb12fa
+type: text/vnd.tiddlywiki
+
+''AKA Preimage''
+
+Let $$f$$ be a function from $$X$$ to $$Y$$:
+
+$$
+f: X \to Y
+$$
+
+The [[Inverse Image|Inverse Image of a Set]] of a [[Set]] $$B \subseteq Y$$ under $$f$$ is the [[Subset]] of $$X$$ defined by
+
+$$
+f^{-1}[B] = \{ x \in X | f(x) \in B \}.
+$$
+
+Not to be confused with the [[Inverse Function]] or [[Pre-image of a Function]]. The [[Inverse Image of a Set]] is a [[Set]]!! (Hense the square bracket notation - to try to minimize confusion.)
+
+E.g.
+
+Take $$f(x) = x^2$$, the [[Inverse Image|Inverse Image of a Set]] of $$\{4\}$$ is $$\{-2, 2\}$$.

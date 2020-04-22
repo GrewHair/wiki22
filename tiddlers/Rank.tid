@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200309175121829
+modified: 20200325163826172
+tags: [[Linear Algebra]]
+title: Rank
+tmap.id: 02d005ce-632f-4e68-8834-2df45ff3896f
+type: text/vnd.tiddlywiki
+
+The [[Rank]] of a [[Matrix]] $$A$$ is the [[Dimension]] of it's [[Column Space]] (and also of it's [[Row Space]] - thanks to the [[Fundamental Theorem of Linear Algebra]]).
+
+Informally speaking, it's the number of [[independent|Linear Dependence]] columns.

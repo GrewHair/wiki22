@@ -1,0 +1,24 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200311164722129
+modified: 20200325163830934
+tags: [[Set Theory]]
+title: Sequence
+tmap.id: fcb50a27-d3cb-46d6-ab60-0ba6f5206e5e
+type: text/vnd.tiddlywiki
+
+A [[Sequence]] is an [[Indexed Family]], the [[Index Set]] of which is [[countable|Countable Set]].
+
+Formally, it is a [[Function]]
+
+$$
+f: \{1, 2, ...\} \to X
+$$
+
+given by $$f(i) = x_i$$.
+
+https://math.stackexchange.com/questions/1593384/what-is-the-difference-between-an-indexed-family-and-a-sequence/1593393
+
+If the [[Index Set]] is also [[finite|Finite Set]], such a [[Sequence]] may be referred to as a [[Tuple]].

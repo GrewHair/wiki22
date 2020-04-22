@@ -1,0 +1,75 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200331115823964
+modified: 20200331124622953
+tags: [[Regular Expressions]]
+title: Anchors and Boundries (Regular Expressions)
+tmap.id: 34cbd35c-e679-46db-8ad4-495d1615a684
+type: text/vnd.tiddlywiki
+
+<table border="0">
+<tbody>
+<tr>
+<th scope="col">Anchor</th>
+<th scope="col">Legend</th>
+<th scope="col">Example</th>
+<th scope="col">Sample Match</th>
+</tr>
+<tr>
+<td>^</td>
+<td><a href="regex-anchors.html#caret">Start of string</a> or <a href="regex-anchors.html#carmulti">start of line</a> depending on multiline mode. (But when [^inside brackets], it means "not")</td>
+<td>^abc .*</td>
+<td>abc (line start)</td>
+</tr>
+<tr>
+<td>$</td>
+<td><a href="regex-anchors.html#dollar">End of string</a> or <a href="regex-anchors.html#eol">end of line</a> depending on multiline mode. Many engine-dependent subtleties.</td>
+<td>.*? the end$</td>
+<td>this is the end</td>
+</tr>
+<tr>
+<td>\A</td>
+<td><a href="regex-anchors.html#A">Beginning of string</a><br />(all major engines except JS)</td>
+<td>\Aabc[\d\D]*</td>
+<td>abc (string...<br />...start)</td>
+</tr>
+<tr>
+<td>\z</td>
+<td><a href="regex-anchors.html#z">Very end of the string</a><br />Not available in Python and JS</td>
+<td>the end\z</td>
+<td>this is...\n...<strong>the end</strong></td>
+</tr>
+<tr>
+<td>\Z</td>
+<td><a href="regex-anchors.html#Z">End of string</a> or (except Python) before final line break<br />Not available in JS</td>
+<td>the end\Z</td>
+<td>this is...\n...<strong>the end</strong>\n</td>
+</tr>
+<tr>
+<td>\G</td>
+<td><a href="regex-anchors.html#G">Beginning of String or End of Previous Match</a><br /> .NET, Java, PCRE (C, PHP, R&hellip;), Perl, Ruby</td>
+</tr>
+<tr>
+<td>\b</td>
+<td><a href="regex-boundaries.html#wordboundary">Word boundary</a><br /> Most engines: position where one side only is an ASCII letter, digit or underscore</td>
+<td>Bob.*\bcat\b</td>
+<td>Bob ate the cat</td>
+</tr>
+<tr>
+<td>\b</td>
+<td><a href="regex-boundaries.html#wordboundary">Word boundary</a><br />.NET, Java, Python 3, Ruby: position where one side only is a Unicode letter, digit or underscore</td>
+<td>Bob.*\b\кошка\b</td>
+<td>Bob ate the кошка</td>
+</tr>
+<tr>
+<td>\B</td>
+<td><a href="regex-boundaries.html#notb">Not a word boundary</a></td>
+<td>c.*\Bcat\B.*</td>
+<td>copycats</td>
+</tr>
+</tbody>
+</table>
+
+https://www.rexegg.com/regex-quickstart.html

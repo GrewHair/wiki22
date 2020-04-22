@@ -1,0 +1,22 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200314193715359
+modified: 20200325163826358
+tags: [[Linear Algebra]] Stub
+title: Affine Space
+tmap.id: 7ee8a231-a4fe-44f2-9294-2c364e052208
+type: text/vnd.tiddlywiki
+
+An [[Affine Space]] may be defined as the [[Translation]] of a [[Vector Subspace]]. It is a [[Coset]] of a [[Vector Space]].
+
+The elements of an [[Affine Space]] are called //points//, and the differences between them also lie in it.
+
+But there is no origin in the [[Affine Space]], and sums of its elements do not lie in it.
+
+An Affine Subspace is a subspace of a [[Vector Space]] that does not go through the origin of it - thus, if the basis stays the same, an [[Affine Space]] is not a [[Vector Space]] itself, since it doesn't contain its [[Identity Element]].
+
+* https://en.wikipedia.org/wiki/Affine_space#Affine_subspaces_and_parallelism
+* https://math.stackexchange.com/questions/884666/what-are-differences-between-affine-space-and-vector-space
+* https://www.quora.com/Is-an-affine-subspace-simply-a-linear-subspace-with-an-offset

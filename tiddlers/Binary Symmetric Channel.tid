@@ -1,0 +1,99 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[_my/images/graphs/binary_symmetric_channel]]
+created: 20200303140754921
+modified: 20200325163928002
+tags: [[Information Theory]] [[Information Theory, Pattern Recognition, and Neural Networks (David MakKay, University of Cambridge)]]
+title: Binary Symmetric Channel
+tmap.id: 533296c5-7946-4ec4-99de-41529741ebe8
+type: text/vnd.tiddlywiki
+
+|<center>''//x//'', <br>input</center>|{{_my/images/graphs/binary_symmetric_channel}}|<center>''//y//'', <br>output</center> |
+
+
+
+<$latex text="
+
+\begin{aligned}
+P( y\!=\!0  |  x\!=\!0 )\;   &=\;   1-f  \\[4pt]
+P( y\!=\!1  |  x\!=\!0 )\;   &=\;   f    \\[4pt]
+P( y\!=\!0  |  x\!=\!1 )\;   &=\;   1-f  \\[4pt]
+P( y\!=\!1  |  x\!=\!1 )\;   &=\;   f
+\end{aligned}
+
+"/>
+
+Typically, $$f \approx 0.1.$$
+
+<br>
+
+Let's say we are using 3x majority vote repetition coding, i.e. the decoder will receive values of //r// in grops of three.
+
+The first question is to give probabilistic judgements to the majority voting decoder's outputs, i.e. with what probabilities will they be correct? This is an [[Inference|Statistical Inference]] problem, thus it requires [[Inverse Probability]].
+
+Using [[Rules of Probability]]:
+
+
+If someone tells us //r//, and we want to know how probable the alternative values of //s// are, we'll have to calculate the [[Posterior Probability]] of //s//:
+
+$$
+\displaystyle P(s|r) \;=\; 
+\frac{
+\overbrace{P(r|s)}^{\text{likelihood of s}} \cdot 
+\overbrace{P(s)}^{\text{prior of s}}}
+                                           {P(r)}, \quad \text{where}\\[8pt]
+\text{s - source bits}\\
+\text{t - transmitted bits}\\
+\text{r - received bits}
+$$
+
+We'll find $$P(r)$$ using the sum rule:
+
+$$P(r)  \;=\;  \sum_s P(s,r)  \;=\;  P(s\!=\!0, r) + P(s\!=\!1, r)$$
+
+And we'll find $$P(s=0,r)$$ and $$P(s=1,r)$$ using the product rule:
+
+$$P(r) \;=\; P(r|s=0)P(s=0)  \;+\;  P(r|s=1)P(s=1)$$
+
+E.g. $$r = 011$$. Then:
+
+$$
+\begin{aligned}
+P(r|s\!=\!0)  \;&=\;  (1\!-\!f) \cdot f \cdot f &=\; (1-f)f^2\\
+P(r|s\!=\!1) \;&=\; f \cdot (1\!-\!f)\cdot(1\!-\!f) &=\; f(1-f)^2
+\end{aligned}
+$$
+
+$$f^{\text{number of flips (errors)}}\cdot(1-f)^{\text{number of agreements}}$$
+
+Now we need to assume the prior probabilities of //s//.
+
+If $$P(s=0) = \frac 12$$ and $$P(s=1) = \frac 12$$, then
+
+$$\displaystyle P(s=1|r=011)=\frac{(1-f)^2f \cdot \cfrac 12}{(1-f)f^2\cdot \cfrac 12 + f(1-f)^2\cdot \cfrac 12} = (1-f)$$
+
+$$
+P(s=1|r) > P(s=0|r), \\
+\text{so } \hat s=1 \text{ is the best guess.}
+$$
+
+This procedure should be repeated for all other values of //r// (111, 101, etc.)
+
+This was an example of [[Inverse Probability]].
+
+Another question is how well does this encoder perform, which is a [[Forward Probability]] problem. It can be formulated as follows: //what is the probability $$P(\hat s \neq s)$$ that the encoder's output not equal to the initial message (for a single bit)?//
+
+For this to happen, two or more bits in a block must be fripped by the channel. So the calculation goes like this:
+
+
+$$P(\hat s \!\neq\! s)  \;=\;  f^3 + 3f^2(1-f)  \;\approx\;  3f^2$$.
+
+For [[Hamming(7,4) Coding]]:
+
+$$
+\displaystyle
+P(x|r) = \frac{\overbrace{P(r|s)} P(x)}
+                                 {P(r)}
+$$

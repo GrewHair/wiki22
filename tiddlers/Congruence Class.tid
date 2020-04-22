@@ -1,0 +1,26 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200317070830943
+modified: 20200325163854441
+tags: [[Abstract Algebra]] [[Set Theory]]
+title: Congruence Class
+tmap.id: 06c02226-0132-4e7a-954a-6ca70f865afd
+type: text/vnd.tiddlywiki
+
+Given a [[Set]] $$S$$ and a [[Congruence Relation]] $$\equiv$$ on $$S$$, the [[Congruence Class]] of an element $$a$$ in $$S$$ is the [[Set]]
+
+$$\{x \in S | x \equiv a\}$$.
+
+In [[Modular Arithmetics]], for modulo $$n$$, the [[Congruence Class]] of the [[integer|Integers]] $$a$$, denoted $$\bar a_n$$ is the [[Set]]
+
+$$
+\bar a_n = \{..., a-2n, a-n, a, a+n, a+2n, ...\}.
+$$
+
+When $$a$$ and $$b$$ are in the same [[Congruence Class]], we write:
+
+$$a \equiv b \pmod n$$
+
+and pronounce it as //"a is congruent to b mod n"//

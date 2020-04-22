@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+color: #ff80c0
+created: 20191016143114467
+icon: _my/images/icons/feature
+modified: 20200325163931852
+tags: Logic [[100 Days of Logic (carneades.org)]]
+title: Basic
+tmap.id: 6387fb9a-dbb5-40ff-b4ca-0e0898834329
+type: text/vnd.tiddlywiki

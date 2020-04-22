@@ -1,0 +1,19 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[_my/images/png/deep_vs_shallow_nn]]
+created: 20200206071528467
+modified: 20200325163851034
+tags: [[Machine Learning]] Shallow
+title: Shallow Neural Network
+tmap.id: 087ff7e6-77eb-44a1-a593-97d6a2f26872
+type: text/vnd.tiddlywiki
+
+A shallow neural net has only one (or some sources say only a few) inner layer.
+
+In theory, a shallow net (only one layer) should be enough to fit any function, but in practice this leads them to be too fat and ineffective, as compared with [[Deep Networks|Deep Neural Network]].
+
+They are useful for educational purposes (but not exclusively - see [[Word2vec]]).
+
+{{_my/images/png/deep_vs_shallow_nn}}

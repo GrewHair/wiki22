@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200201102419051
+modified: 20200325163729688
+tags: Stub Data
+title: Time-series Data
+tmap.id: d456c6d8-ec06-4ca9-bb45-ad7185008a43
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/Time_series

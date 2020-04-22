@@ -1,0 +1,17 @@
+.hsk.macrocall: [[_my/macros/TruthTables/trth_binary]] [[_my/macros/appear/res]] [[_my/macros/appear/prs_v]]
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.prs.truth_table: <<trth_binary &and; T F F F>>
+.res.youtube: <iframe width="560" height="315" src="https://www.youtube.com/embed/NyU_C73BHBc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+created: 20191012155646226
+modified: 20200325163931764
+tags: Logic Binary Basic [[100 Days of Logic (carneades.org)]]
+title: Conjunction
+tmap.id: b32a7277-8fd1-40cb-871d-4355ef995f19
+type: text/vnd.tiddlywiki
+
+It's [[truth table|Truth Tables]] <<prs_v 'is (click to see):' truth_table>>
+
+<<res youtube>>

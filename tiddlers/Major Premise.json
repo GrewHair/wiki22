@@ -1,0 +1,18 @@
+[
+    {
+        "created": "20191115070724421",
+        "text": "Major Premise is the first of the two [[premises|Premise]] of a [[Categorical Syllogism]]. It contains the [[Major Term]] and the [[Middle Term]].\n\nDepending on the [[Figure]] of a [[syllogism|Categorical Syllogism]], the syntactic diagram of the [[Major Premise]] may either look like:<br>\n<<prs railroad>>,\n\nor like:<br>\n<<prs railroad-2>>.\n\n<!--Links (for context-aware search):-->\n[[|Quantifier]]\n[[|Copula]]\n\n\n\n",
+        "title": "Major Premise",
+        "tags": "Logic [[100 Days of Logic (carneades.org)]]",
+        "modified": "20200325163932129",
+        "type": "text/vnd.tiddlywiki",
+        "tmap.id": "00bd6213-afc6-46b1-a97e-febc7d8c1c82",
+        ".prs.railroad-2": "<<rlrd_cat_prop 'Major Term' 'Middle Term'>>",
+        ".prs.railroad": "<<rlrd_cat_prop 'Middle Term' 'Major Term'>>",
+        ".hsk.tagged_topic": "[<currentTiddler>tags[]field:icon[_my/images/icons/topic]]",
+        ".hsk.tagged_feature": "[<currentTiddler>tags[]field:icon[_my/images/icons/feature]]",
+        ".hsk.tagged_exemplar": "[<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]",
+        ".hsk.tagged_diagram": "[<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]",
+        ".hsk.macrocall": " [[_my/macros/appear/prs]] [[_my/macros/Railroad/rlrd_cat_prop]]"
+    }
+]

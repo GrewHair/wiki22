@@ -1,0 +1,19 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200419115243590
+modified: 20200419120025597
+tags: [[Introduction to Deep Learning With Keras (Datacamp)]] Stub
+title: Sigmoid Function
+tmap.id: 03185d4d-a690-41bb-a344-9f2812cfed11
+type: text/vnd.tiddlywiki
+
+[[Sigmoid Function]] is commonly used as an [[Activation Function]] in [[Machine Learning]], usually at the output layer of [[Classification]] [[Neural Networks]], as well as in [[Logistic Regression]].
+
+While for multiclass [[Classification]] problems the [[Softmax]] function is usually preferred, the [[Sigmoid|Sigmoid Function]] is still a more appropriate choice for:
+
+* Binary [[Classification]]
+* [[Multilabel Classification]],
+
+because in this second case the [[Probabilities|Probabitily]] of the target labels must not sum up to one (since they're not mutually exclusive by definition).

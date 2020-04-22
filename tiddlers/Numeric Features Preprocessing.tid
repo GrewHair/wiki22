@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191226205052718
+list: 
+modified: 20200325163851111
+tags: Stub [[How to Win a Data Science Competition]] [[Machine Learning]]
+title: Numeric Features Preprocessing
+tmap.id: 3beb934d-ccaf-46f2-9da2-78a23f38bd47
+type: text/vnd.tiddlywiki
+
+* [[Scaling]]
+* [[Outliers Handling]]
+
+''Note:'' It is sometimes beneficial to train models on concatenated dataframes produced by different preprocessings - //or// to mix models trained on differently preprocessed data.

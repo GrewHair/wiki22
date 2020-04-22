@@ -1,0 +1,28 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200104071527337
+modified: 20200325163851278
+tags: [[How to Win a Data Science Competition]] [[Machine Learning]]
+title: Feature Extraction from Images
+tmap.id: ac19fc26-3d64-42ae-ae99-d01a26bd3791
+type: text/vnd.tiddlywiki
+
+The main model for this are Convolutional [[Neural Networks]]. The choices are:
+
+* Use a pretrained net (like VGG-16)
+** Using [[descriptors]] (inner layers of a net - the closer a layer is to the output - the more task-specific it is), and retraining it on your own dataset
+** Fine-tuning
+* Train one from scratch
+
+Usually fine-tuning works best - especially with small datasets:
+
+* It is better then training standalone models on [[descriptors]], because it allows to tune all network parameters, and thus extract more effective image representations
+* It is also better then training models from scratch, because the available nets were pretrained on incomparably larger datasets then you are likely  to have at your disposal, especially if the task you are solving is similar to one the models were trained on.
+
+One can use [[Image Augmentation]] to increase the training set.
+
+Examples of competitions involving [[Feature Extraction from Images]] are:
+
+* https://www.kaggle.com/c/avito-duplicate-ads-detection

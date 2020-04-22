@@ -1,0 +1,18 @@
+[
+    {
+        "created": "20191024104702373",
+        "text": "!!//''Assoc''//\n\n|<<prs columnar>>|\n|<<res youtube>>|",
+        "title": "Associativity (Rule of Replacement)",
+        "tags": "Logic [[100 Days of Logic (carneades.org)]]",
+        "modified": "20200325163931870",
+        "type": "text/vnd.tiddlywiki",
+        "tmap.id": "f090c7bb-8dc2-48fb-be66-e2fb1357e1be",
+        ".res.youtube": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/IvOzs5U9YZ0\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        ".prs.columnar": "<<columnar p&and;(q&and;r) '' (p&and;q)&and;r>> <br> <<columnar p&or;(q&or;r) '' (p&or;q)&or;r>>",
+        ".hsk.tagged_topic": "[<currentTiddler>tags[]field:icon[_my/images/icons/topic]]",
+        ".hsk.tagged_feature": "[<currentTiddler>tags[]field:icon[_my/images/icons/feature]]",
+        ".hsk.tagged_exemplar": "[<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]",
+        ".hsk.tagged_diagram": "[<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]",
+        ".hsk.macrocall": " [[_my/macros/columnar]] [[_my/macros/appear/prs]] [[_my/macros/appear/res]]"
+    }
+]

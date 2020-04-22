@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200316100638463
+modified: 20200325163952479
+tags: [[Group Theory]]
+title: Automorphism
+tmap.id: 8e25f322-056a-481e-b284-e20cc6e27c7e
+type: text/vnd.tiddlywiki
+
+An [[Automorphism]] is an [[Isomorphism]] from a [[Mathematical Object]] to itself.
+
+Alternatively, an [[Automorphism]] is an [[Endomorphism]] that is [[bijective|Bijection]].

@@ -1,0 +1,15 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191111132026420
+edit-mode: no
+list: [[Axiom of Extensionality]]
+modified: 20200325165503025
+role: comment
+saved-text: maybe material implication should be replaced by logical consequence in this formula - i'm not sure. but to figure it out it'll take digging deeper into proof theory, model theory, etc. (which i can't afford right now.
+title: Comment by '(anonymous)' on 'Axiom of Extensionality'
+tmap.id: 6cf4a561-fba7-4078-ad4b-b79ef1bc4444
+type: text/vnd.tiddlywiki
+
+maybe material implication should be replaced by logical consequence in this formula - i'm not sure. but to figure it out it'll take digging deeper into proof theory, model theory, etc. (which i can't afford right now).

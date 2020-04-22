@@ -1,0 +1,17 @@
+[
+    {
+        "created": "20191031112611465",
+        "text": "Conversion is valid for [[E|NO Statement]] and [[I|SOME Statement]] [[statements|Categorical Proposition]].\n\nSteps:\n\n* Switch [[Subject]] and [[Predicate|Predicate (Categorical Logic)]]\n\n<<res youtube>>",
+        "title": "Conversion",
+        "tags": "Logic [[100 Days of Logic (carneades.org)]]",
+        "modified": "20200325163931720",
+        "type": "text/vnd.tiddlywiki",
+        "tmap.id": "2d24bece-91e9-4d0a-88aa-52c23e533e8b",
+        ".res.youtube": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/XF9pC786Shc\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        ".hsk.tagged_topic": "[<currentTiddler>tags[]field:icon[_my/images/icons/topic]]",
+        ".hsk.tagged_feature": "[<currentTiddler>tags[]field:icon[_my/images/icons/feature]]",
+        ".hsk.tagged_exemplar": "[<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]",
+        ".hsk.tagged_diagram": "[<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]",
+        ".hsk.macrocall": " [[_my/macros/appear/res]]"
+    }
+]

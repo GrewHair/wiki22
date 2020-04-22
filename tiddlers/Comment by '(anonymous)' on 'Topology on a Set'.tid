@@ -1,0 +1,18 @@
+created: 20200320065858336
+edit-mode: no
+list: [[Topology on a Set]]
+modified: 20200325165502873
+role: comment
+title: Comment by '(anonymous)' on 'Topology on a Set'
+tmap.id: 819f9fe6-f041-4800-a61f-baf62886eb66
+type: text/vnd.tiddlywiki
+
+the definition of a topology is seductively similar to the definition of a sigma-algebra.
+a sigma-algebra is closed under complements.
+the question is - is a topology closed under complements too?
+
+on one hand, de morgan's laws require complements. and it may turn out arbitrary unions imply complements closure too, but who knows..
+
+on the other hand these two sets of axioms are SEPARATE.. so it may well be that complements don't work.
+
+we'll see later

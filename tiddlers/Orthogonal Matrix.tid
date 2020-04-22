@@ -1,0 +1,28 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200311110106629
+modified: 20200325163826190
+tags: [[Linear Algebra]]
+title: Orthogonal Matrix
+tmap.id: 06885f07-d4c3-4f8f-9d30-103a55922cc5
+type: text/vnd.tiddlywiki
+
+''AKA Orthonormal Matrix''
+
+An [[Orthogonal Matrix]] is a [[Square Matrix]] whose columns and rows are [[Orthonormal Vectors|Orthonormality]].
+
+$$Q^T Q = Q Q^T = I, $$
+
+where $$Q^T$$ is the [[Transpose]] of $$Q$$ and $$I$$ is the [[Identity Matrix]]. Therefore:
+
+$$Q^T = Q^{-1}.$$
+
+An [[Orthogonal Matrix]] is necessarily:
+
+* [[Invertable|Invertable Matrix]]
+* [[Unitary|Unitary Matrix]]
+* [[Normal|Normal Matrix]] over the [[Real Numbers]]
+
+The [[Determinant|Determinant of a Matrix]] of any [[Orthogonal Matrix]] is either +1 or -1.

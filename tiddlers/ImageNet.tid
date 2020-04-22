@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200206120659547
+modified: 20200325164042282
+tags: [[How to Win a Data Science Competition]] [[Machine Learning]] image-net
+title: ImageNet
+tmap.id: 5d42bce0-2608-4911-9d99-2ed7c4826744
+type: text/vnd.tiddlywiki
+
+http://www.image-net.org
+
+[[ImageNet]] is an open source online image classification database used for training and benchmarking of [[Convolutional Neural Networks]]. It has ~15 million images and 22 thousand classes.
+
+It is hosting a machine learning competition called [[ImageNet Large Scale Visual Recognition Challenge]], providing ~1 million images of 1000 classes for image classification NNs to train.

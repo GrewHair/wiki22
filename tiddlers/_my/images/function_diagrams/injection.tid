@@ -1,0 +1,52 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200320123450692
+modified: 20200325164436979
+tags: 
+title: _my/images/function_diagrams/injection
+tmap.id: d2803c65-3227-46f8-8f1b-10892be0b00e
+type: text/vnd.tiddlywiki
+
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+<title>Injection</title>
+
+<defs>
+<style type="text/css"><![CDATA[
+    .ellipse  { stroke-width: 2.0; stroke: black; fill: none; }
+    .setlabel { font-size: 18pt; text-anchor: middle; }
+    .xelement { font-size: 14pt; text-anchor: middle; }
+    .yelement { font-size: 14pt; text-anchor: middle; }
+    .map      { stroke-width: 1.0; stroke: black; fill: none; marker-end: url(#arrow); }
+    .arrow    { fill: black; }
+]]></style>
+<marker id="arrow" markerWidth="4" markerHeight="8" refX="3" refY="4" orient="auto">
+    <polyline points="0,0 4,4 0,8" class="arrow"/>
+</marker>
+</defs>
+
+<ellipse cx="50" cy="110" rx="40" ry="80" class="ellipse"/>
+<text x="50" y="26" class="setlabel">X</text>
+<g class="xelement">
+    <text x="50" y="60">1</text>
+    <text x="50" y="95">2</text>
+    <text x="50" y="130">3</text>
+</g>
+
+<ellipse cx="150" cy="110" rx="40" ry="80" class="ellipse"/>
+<text x="150" y="26" class="setlabel">Y</text>
+<g class="yelement">
+    <text x="150" y="60">D</text>
+    <text x="150" y="95">B</text>
+    <text x="150" y="130">C</text>
+    <text x="150" y="165">A</text>
+</g>
+
+<g class="map">
+    <line x1="57" y1="53" x2="142" y2="53"/>
+    <line x1="57" y1="88" x2="142" y2="88"/>
+    <line x1="57" y1="123" x2="142" y2="158"/>
+</g>
+
+</svg>

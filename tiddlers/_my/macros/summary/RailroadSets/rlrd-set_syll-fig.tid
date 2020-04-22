@@ -1,0 +1,26 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191216085931817
+modified: 20200325133449184
+tags: $:/tags/Macro
+title: _my/macros/summary/RailroadSets/rlrd-set_syll-fig
+tmap.id: c43b0655-cfac-4c33-acaa-49ee1905712f
+type: text/vnd.tiddlywiki
+
+\define rlrd-set_syll-fig(rlrd-maj rlrd-min)
+
+<$link to=<<currentTiddler>>/> [[Categorical Syllogism]]
+{{Categorical Syllogism!!.prs.railroad}}
+
+[[Major Premise]]
+<span style="zoom:70%">{{Major Premise!!.prs.$rlrd-maj$}}</span>
+
+[[Minor Premise]]
+<span style="zoom:70%">{{Minor Premise!!.prs.$rlrd-min$}}</span>
+
+[[Conclusion|Conclusion (Categorical Syllogism)]]
+<span style="zoom:70%">{{Conclusion (Categorical Syllogism)!!.prs.railroad}}</span>
+
+\end

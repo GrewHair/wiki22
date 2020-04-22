@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200319064522747
+modified: 20200325171722460
+tags: [[Probability Theory]] [[Measure Theory]]
+title: Probability Space
+tmap.id: 574c252e-a1cf-48fc-957f-3f39c92eaafc
+type: text/vnd.tiddlywiki
+
+[[Probability Space]] is a [[Measure Space]] such that the [[Measure]] of the whole space is equal to one.
+
+It is a [[Triple|Tuple]] $$(\Omega, \mathcal F, P)$$ consisting of:
+
+* [[Sample Space]] $$\Omega$$
+* A [[σ-algebra]] $$\mathcal F$$ on $$\Omega$$
+* The [[Probability Measure]] $$P: \mathcal F \to [0, 1]$$

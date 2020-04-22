@@ -1,0 +1,31 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200321140440166
+modified: 20200325164315177
+title: _my/_how_to_embed_fonts
+tmap.id: f53c8a1b-e92e-483e-93f0-92d5da8d6824
+type: text/vnd.tiddlywiki
+
+<link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Alex Brush' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Akronim' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Annie Use Your Telescope' rel='stylesheet'>
+
+<style>
+.st2 {font-family: 'Playfair Display';font-size: 42px;}
+.st3 {font-family: 'Sofia';font-size: 42px;}
+.st4 {font-family: 'Alex Brush';font-size: 42px;}
+.st5 {font-family: 'Akronim';font-size: 42px;}
+.st6 {font-family: 'Annie Use Your Telescope';font-size: 42px;}
+</style>
+
+<h1 class="st2">'Playfair Display'  1234567890 ABC abc</h1>
+<h1 class="st3">'Sofia'  1234567890 ABC abc</h1>
+<h1 class="st4">'Alex Brush'  1234567890 ABC abc</h1>
+<h1 class="st5">'Akronim'  1234567890 ABC abc</h1>
+<h1 class="st6">Sofia  1234567890 ABC abc</h1>
+
+<h1 class="st6">Sofia  1234567890 ABC abc</h1>

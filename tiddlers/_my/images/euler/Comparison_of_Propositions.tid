@@ -1,0 +1,55 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191210182648804
+modified: 20200325164436987
+title: _my/images/euler/Comparison_of_Propositions
+tmap.id: 5f128497-e099-4926-8630-0066dd093865
+type: text/vnd.tiddlywiki
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="401px" height="201px" viewBox="-0.5 -0.5 401 201" content="&lt;mxfile host=&quot;www.draw.io&quot; modified=&quot;2019-10-10T03:00:58.147Z&quot; agent=&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36&quot; etag=&quot;3rVU9zmmSNiHNjeRirGv&quot; version=&quot;12.1.0&quot; type=&quot;device&quot; pages=&quot;1&quot;&gt;&lt;diagram id=&quot;3228e29e-7158-1315-38df-8450db1d8a1d&quot; name=&quot;Page-1&quot;&gt;1VZBm5sgEP01HrefQmLMUU2ye+kph56JEqWLYpEkpr++oCNq4ra7/dJ+rRfhzcAM8x6ODo6L5lmSKv8sUsod5KaNgzcOQp6LFvplkGuHLIJlB2SSpeA0AHv2nfYrAT2xlNYTRyUEV6yagokoS5qoCUakFJep21HwadSKZPQO2CeE36NfWKpyQD1/PRheKMtyCB2gVWc4kOQ1k+JUQjwH4WP7dOaC9HvBQeucpOIygvDWwbEUQnWjookpN7Xty9at271htXlLWqqZBeLw1ZQLuZwcNGWQos+1b5Sys0lIXaEI/reTySJStFFPhLOsdHBoaq63plIPtK2tbame6pZBY/X8qhnW6lEG7zbGQd4iOrU2cI+i0WmQ5+OVLYo97JAi0oCWhJ5El5wpuq9IYiwXrUqN5aowZ/T00NbZZG1S3pGCcaPOF8rPVLGEgAHE6PkwjwUXso2G3fbROFRjA6XQ2yspXq1UTMAj43y0dOcGK3epcaFTZMoEXrr2wGO+gMIzlbrwIwhq8ExFQZW8ahewBiAluGrB4hPctctIub1TPhLtGi4pgcuS2a0HwegB1L2fgoTm9WcYC+AAhJ9orzA0pa29IDQFOh5OXfAO6jg9qvcQt8J+HAaPJW5EDHJniLHgB5iZpWL9X1Ahu5P/mgsPhWH0Zy6RLfnf4mbhznDzr32If+dLS+qq68hH1hhdRYPC7iSUcVLXMG47UmTbZ097KUpqtTEL/kQw4XbhYWQCSZIyOsgQNnh8I7hRphGg3pGH4HcQSonCpG78yiyC+cZbDmA/fYSsb5rDCt23Bje4V7kFP9Ybhv+W1jb6OcTbHw==&lt;/diagram&gt;&lt;/mxfile&gt;" style="background-color: rgb(255, 255, 255);">
+<defs/>
+<g>
+<ellipse cx="170" cy="131.5" rx="90" ry="47" fill-opacity="0.5" fill="#f08705" stroke="#000000" stroke-opacity="0.5" pointer-events="none"/>
+<g transform="translate(169.5,122.5)">
+<switch>
+<foreignObject style="overflow:visible;" pointer-events="none" width="1" height="17" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+<div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 16px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 1px; white-space: nowrap; overflow-wrap: normal; text-align: center;">
+<div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;white-space:normal;">
+<div style="text-align: center ; font-size: 16px">
+<br />
+</div>
+</div>
+</div>
+</foreignObject>
+<text x="0" y="17" fill="#000000" text-anchor="middle" font-size="16px" font-family="Helvetica">
+&lt;div style="text-align: center ; font-size: 16px"&gt;&lt;br&gt;&lt;/div&gt;
+</text>
+</switch>
+</g>
+<rect x="0" y="0" width="200" height="200" fill-opacity="0.5" fill="#736ca8" stroke="#000000" stroke-opacity="0.5" pointer-events="none"/>
+<rect x="200" y="0" width="200" height="200" fill-opacity="0.5" fill="#12aab5" stroke="#000000" stroke-opacity="0.5" pointer-events="none"/>
+<ellipse cx="334" cy="126" rx="54" ry="54" fill-opacity="0.5" fill="#ae4132" stroke="none" pointer-events="none"/>
+<g transform="translate(333.5,131.5)">
+<switch>
+<foreignObject style="overflow:visible;" pointer-events="none" width="1" height="17" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+<div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 16px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 1px; white-space: nowrap; overflow-wrap: normal; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;white-space:normal;">
+<div style="text-align: center ; font-size: 16px">
+<br />
+</div>
+</div>
+</div>
+</foreignObject>
+<text x="0" y="17" fill="#000000" text-anchor="middle" font-size="16px" font-family="Helvetica">
+&lt;div style="text-align: center ; font-size: 16px"&gt;&lt;br&gt;&lt;/div&gt;
+</text>
+</switch>
+</g>
+</g>
+<foreignObject x=202 y=105 width="100" height="800" font-size=10>([[Both are self-contradictory]])</foreignObject><foreignObject x=150 y=-24 width="800" height="800" font-size=16>[[Propositions|Propositions]]</foreignObject>
+<foreignObject x=30 y=10 width="800" height="800" font-size=16>[[Consistent|Consistent Propositions]]</foreignObject>
+<foreignObject x=288 y=10 width="800" height="800" font-size=16>[[Inconsistent|Inconsistent Propositions]]</foreignObject>
+<foreignObject x=105 y=100 width="80" height="800" font-size=16>[[Logically equivalent|Logically Equivalent Propositions]]</foreignObject>
+<foreignObject x=288 y=111 width="800" height="800" font-size=16>[[Contradictory|Contradictory Propositions]]</foreignObject>
+</svg>

@@ -1,0 +1,21 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200219112644096
+modified: 20200325163850962
+tags: Stub [[Designing Machine Learning Systems (David Julian)]] [[Machine Learning]]
+title: Approaches to Problem Solving
+tmap.id: 3ecbd0d2-59b1-450f-9ab9-56b94c017f94
+type: text/vnd.tiddlywiki
+
+When given a [[Problem]], we can ask the following general kinds of questions:
+
+* [[Exploratory|EDA]]
+* [[Descriptive|Descriptive Statistics]]
+* [[Inferential|Inference]]
+* Predictive
+* Causal
+*>What causes this?
+* Mechanistic
+*>What are the mechanisms that link A with B?

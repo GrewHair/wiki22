@@ -1,0 +1,25 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200311163027625
+modified: 20200325163830955
+tags: [[Set Theory]]
+title: Indexed Family
+tmap.id: 3adb5c93-8b02-44ba-a9af-086fac53c34f
+type: text/vnd.tiddlywiki
+
+Let $$I$$ and $$X$$ be [[sets|Set]] and $$x$$ is a [[Surjective Function]], such that
+
+$$
+\begin{aligned}
+x: I &\to X \\
+i &\mapsto x_i = x(i),
+\end{aligned}
+$$
+
+then this establishes a ''family of elements in $$X$$ indexed by $$I$$, which is denoted by $$(x_i)_{i \in I}$$''.
+
+$$I$$ is called an [[Index Set]] for this [[family|Indexed Family]]. It is not restricted to be [[countable|Countable Set]].
+
+When $$I$$ is [[countable|Countable Set]] or [[finite|Finite Set]], the  [[Indexed Family]] may be referred to as a [[Sequence]].

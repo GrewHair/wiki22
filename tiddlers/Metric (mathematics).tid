@@ -1,0 +1,23 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200308152258305
+modified: 20200325164007488
+tags: [[Linear Algebra]] Topology ≥0
+title: Metric (mathematics)
+tmap.id: bcfddf6b-c323-408d-bca3-79791df37fbf
+type: text/vnd.tiddlywiki
+
+A [[Metric|Metric (mathematics)]] (also referred to as //Distance Function//) on a [[Set]] $$X$$ is a [[Function]]
+
+$$d: X \times X \to [0, \infty)$$
+
+with the following properties:
+
+* $$d(x,y) \geq 0$$
+* $$d(x,y) = 0 \iff x=y$$
+* $$d(x,y) = d(y,x)$$ ([[Symmetry]])
+* $$d(x,y) \leq d(x,z) + d(z,y)$$ (the [[Triangle Inequality]])
+
+[[Metric|Metric (mathematics)]] of a [[Normed Vector Space]] can be //induced// by the [[Norm]].

@@ -1,0 +1,33 @@
+[
+    {
+        "created": "20200303132540794",
+        "text": "<<probability_distribution_summary>>\n\n\nhttps://en.wikipedia.org/wiki/Binomial_distribution",
+        "title": "Binomial Distribution",
+        "tags": "[[Probability Theory]] [[Probability Distribution]]",
+        "modified": "20200325171722419",
+        "type": "text/vnd.tiddlywiki",
+        "tmap.id": "3edc68a3-936c-469e-b987-6710155036c4",
+        ".hsk.tagged_topic": "[<currentTiddler>tags[]field:icon[_my/images/icons/topic]]",
+        ".hsk.tagged_feature": "[<currentTiddler>tags[]field:icon[_my/images/icons/feature]]",
+        ".hsk.tagged_exemplar": "[<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]",
+        ".hsk.tagged_diagram": "[<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]",
+        ".hsk.macrocall": "[[_my/macros/probability_distribution_summary]]",
+        ".att.variance": "$$npq$$",
+        ".att.support": "$$k\\in\\{0,1,...,n\\}$$ - number of successes",
+        ".att.skewness": "$$\\cfrac{q-p}{\\sqrt{npg}}$$",
+        ".att.pmf": "$$\\displaystyle{n \\choose k}p^kq^{n-k}$$",
+        ".att.pgf": "$$G(z)=[q+pz]^n$$",
+        ".att.pdf": "",
+        ".att.parameters": "$$\n\\begin{gathered}\nn \\in \\{0,1,2,...\\} - \\text{number of trials}          \\\\\np \\in [0,1] - \\text{success probability for one trial} \\\\\nq = 1-p - \\text{failure probability for one trial}\n\\end{gathered}\n$$",
+        ".att.notation": "$$B(n,p)$$",
+        ".att.mode": "$$\\lfloor(n+1)p\\rfloor \\ or\\ \\lceil(n+1)p-1\\rceil$$",
+        ".att.mgf": "$$(q+pe^t)^n$$",
+        ".att.median": "$$\\lceil  np \\rceil\\ or\\ \\lfloor np\\rfloor$$",
+        ".att.mean": "$$np$$",
+        ".att.kurtosis": "$$\\displaystyle \\frac{1-6pq}{npq}$$",
+        ".att.fisher_info": "$$\\displaystyle g_n(p)=\\frac n{pq}$$",
+        ".att.entropy": "$$\\cfrac 12\\log_2(2\\pi enpq)+O\\left(\\cfrac 1n\\right)$$",
+        ".att.cf": "$$(q+pe^{it})^n",
+        ".att.cdf": "$$I_q(n-k, 1+k)$$"
+    }
+]

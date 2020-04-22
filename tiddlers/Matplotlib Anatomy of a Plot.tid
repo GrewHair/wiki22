@@ -1,0 +1,24 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200229205445798
+modified: 20200325163755318
+tags: Matplotlib
+title: Matplotlib Anatomy of a Plot
+tmap.id: 170464c4-27a0-4ef9-8b57-a85d1d3c43d8
+type: text/vnd.tiddlywiki
+
+* [[Figure|Figure (Matplotlib)]]
+** [[Axes]]/supblot (name is interchangeable)
+*** XAxis
+**** ticks
+**** tick locations
+**** labels
+**** ...
+*** YAxis
+**** ...
+*** ...
+** [[Axes]]/subplot 2
+*** ...
+** ..

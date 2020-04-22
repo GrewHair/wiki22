@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20191115124548868
+modified: 20200325163932290
+tags: Stub Logic
+title: Unconditionally Valid
+tmap.id: 0e20aa05-06c0-46c9-9add-c6112c513bce
+type: text/vnd.tiddlywiki
+
+A [[Syllogism|Categorical Syllogism]] is said to be [[Unconditionally Valid]], if it is [[Valid|Valid Argument]] in the [[Boolean|Boolean Logic]] sense.
+
+Since [[Boolean Logic]] doesn't have [[Existential Import]], you can do less [[Immediate Inferences|Immediate Inference]] in it's framework, then in the [[Aristotelian|Aristotelian Logic]] one - and hence //less// [[Syllogisms|Categorical Syllogism]] are [[Valid|Valid Argument]] [[Unconditionally|Unconditionally Valid]],  then [[Conditionally|Conditionally Valid]].

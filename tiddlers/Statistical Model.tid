@@ -1,0 +1,53 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200319160300102
+modified: 20200325163913733
+tags: Statistics Stub [[MIT 18.650 Statistics for Applications]]
+title: Statistical Model
+tmap.id: ae416da3-afe7-46b0-8463-ee03cb9a806a
+type: text/vnd.tiddlywiki
+
+A [[Statistical Model]] is a [[Pair|Tuple]]:
+
+$$
+(E, (\mathbb P_\theta)_{\theta \in \Theta}),
+$$
+
+where:
+
+* $$E$$ is a [[Sample Space]]
+* $$(\mathbb P_\theta)_{\theta \in \Theta}$$ is a family of [[Probability Distributions|Probability Distribution]] on $$E$$
+* $$\Theta$$ is a [[Parameter Set]]
+
+''Examples''
+
+* For //n// Bernoulli trials:
+$$
+\Big(\{0, 1\}, (\operatorname{Ber}(p))_{p \in (0,1)}\Big).
+$$
+
+* If $$X_1, ..., X_n \stackrel{iid}{\sim} \operatorname{Exp}(\lambda)$$, for some unknown $$\lambda > 0$$:
+$$
+\Big(\R_+^*, (\operatorname{Exp}(\lambda))_{\lambda > 0} \Big).
+$$
+
+* If $$X_1, ..., X_n \stackrel{iid}{\sim} \operatorname{Poiss}(\lambda)$$, for some unknown $$\lambda > 0$$:
+$$
+\Big(\N, (\operatorname{Poiss}(\lambda))_{\lambda > 0}\Big).
+$$
+
+* If $$X_1, ..., X_n \stackrel{iid}{\sim} \mathcal N(\mu, \sigma^2)$$, for some unknown $$\mu \in \R$$ and $$\sigma^2 > 0$$:
+$$
+\displaystyle
+\Big(\R, (\mathcal N(\mu, \sigma^2))_{(\mu, \sigma^2) \in \R \times \R_+^*}\Big).
+$$
+
+<br>
+
+The parameter $$\theta$$ is called //identified// [[iff|If and Only If]] the [[map|Function]] $$\theta \in \Theta \mapsto \mathbb P_\theta$$ is [[Injective]], i.e.,
+
+$$
+\theta = \theta' \implies \mathbb{P_\theta = P_{\theta'}}.
+$$

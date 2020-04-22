@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200319125749655
+modified: 20200325163826288
+tags: [[Linear Algebra]]
+title: Eigendecomposition of a Matrix
+tmap.id: 5abf4059-3936-45d6-bf55-7125ce17f99e
+type: text/vnd.tiddlywiki
+
+[[Eigendecomposition of a Matrix]] is  a [[Factorization|Matrix Factorization]] of a [[Matrix]] into its [[Canonical Form]], whereby the [[Matrix]] is represented in terms of its [[Eigenvectors|Eigenvector]] and [[Eigenvalues|Eigenvalue]].
+
+Only [[Diagonalizable|Diagonalizable Matrix]] matrices can be factorized in this way.

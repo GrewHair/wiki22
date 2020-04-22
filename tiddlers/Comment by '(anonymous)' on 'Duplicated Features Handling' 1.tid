@@ -1,0 +1,11 @@
+created: 20200130124315553
+edit-mode: no
+list: [[Duplicated Features Handling]]
+modified: 20200325165502984
+role: comment
+saved-text: Vova said that it is most likely due to the need to dump data on disc since it does not fit the RAM
+title: Comment by '(anonymous)' on 'Duplicated Features Handling' 1
+tmap.id: e340f5bd-d498-434a-bd3b-3f5542104954
+type: text/vnd.tiddlywiki
+
+Vova said that it is most likely due to the need to dump data on disc in cases when it does not fit the RAM

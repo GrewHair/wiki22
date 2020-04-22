@@ -1,0 +1,17 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200301000300938
+modified: 20200325163742375
+tags: Numpy
+title: Useful Attributes and Functions
+tmap.id: 7faaaf2e-261c-4a47-8a06-d480fbfbd7e2
+type: text/vnd.tiddlywiki
+
+* `ndarray.flat` - fratten the array (e.g. for iterating)
+* `ndarray.cumsum()` -cumulative sum over an axis
+
+<br>
+
+* `np.linspace()`, `np.logspace()`, `np.geomspace()` - create spaced intervals
