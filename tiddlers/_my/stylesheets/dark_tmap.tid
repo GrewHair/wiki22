@@ -3,11 +3,11 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20191019233553839
-modified: 20200325090118770
+modified: 20200423222742635
 tags: $:/tags/Stylesheet
 title: _my/stylesheets/dark_tmap
 tmap.id: ac669941-f619-473a-a391-d8c4d69b5d36
-type: text/vnd.tiddlywiki
+type: text/css
 
 .tmap-widget {
     background: #555;
