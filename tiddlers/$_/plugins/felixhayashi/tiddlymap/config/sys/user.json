@@ -18,5 +18,6 @@
     "nodeFilterNeighbours": "false",
     "editorMenuBar.showNeighScopeButton": "true",
     "editorMenuBar.showRasterMenuButton": "true",
-    "editorMenuBar.showScreenshotButton": "true"
+    "editorMenuBar.showScreenshotButton": "true",
+    "suppressedDialogs.dublicateIdInfo": true
 }

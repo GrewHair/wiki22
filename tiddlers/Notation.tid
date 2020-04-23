@@ -1,0 +1,51 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200423203523229
+modified: 20200423220616722
+tags: [[All of Statistics]]
+title: Notation
+tmap.id: 0cf72859-c8d4-4a57-ba96-91d7954dd1b1
+type: text/vnd.tiddlywiki
+
+|$$\R$$                |[[Real Numbers]]|
+|$$\inf_{x \in A} f(x)$$|[[Infimum]]|
+|$$\sup_{x \in A} f(x)$$|[[Supremum]]|
+|$$n!$$                       |$$n \times (n-1) \times (n-2) \times\cdots\times 3 \times 2 \times 1$$|
+|$$\displaystyle {n \choose k}$$|$$\displaystyle \frac {n!}{k!(n-k)!}$$|
+|$$\Gamma(\alpha)$$|[[Gamma Function]]|
+|$$\omega$$|outcome|
+|$$\Omega$$|[[Sample Space]]|
+|$$A$$|[[Event|Elementary Event]]|
+|$$I_A(\omega)$$|[[Indicator Function]]|
+|$$\mathbb P(A)$$|[[Probability]] of [[Event|Elementary Event]] $$A$$|
+|$$|A|$$|[[Number of Points|Cardinality]] in set $$A$$|
+|$$F_X$$|[[Cumulative Distribution Function]]|
+|$$f_X$$|[[Probability Density Function]]|
+|$$X \sim F$$|$$X$$ has [[distribution|Probability Distribution]] $$F$$|
+|$$X \sim f$$|$$X$$ hs [[density|Probability Density Function]] $$f$$|
+|$$X \overset{d}{=} Y$$|$$X$$ and $$Y$$ have the same [[distribution|Probability Distribution]]|
+|$$X_1, ..., X_n \sim F$$|[[Sample|Sample (Statistics)]] of size $$n$$ from $$F$$|
+|$$\phi$$|[[Standard Normal|Standard Normal Distribution]] [[probability density|Probability Density Function]]|
+|$$\Phi$$|[[Standard Normal|Standard Normal Distribution]] [[distribution function|Cumulative Distribution Function]]|
+|$$z_\alpha$$|upper $$\alpha$$ [[Quantile]] of $$N(0,1)$$, i.e. $$\Phi^{-1}(1-\alpha)$$|
+|$$\mathbb E(X) = \int xdF(x)$$|[[Expected Value]] ([[Mean]]) of [[Random Variable]] $$X$$|
+|$$\mathbb E(r(X)) = \int r(x)dF(x)$$|[[Expected Value]] ([[Mean]]) of $$r(X)$$|
+|$$\mathbb V(X)$$|[[Variance]] of [[Random Variable]] $$X$$|
+|$$\operatorname{Cov}(X,Y)$$|[[Covariance]] between $$X$$ and $$Y$$|
+|$$X_1, X_2, ..., X_n$$|data|
+|$$n$$|[[Sample|Sample (Statistics)]] size|
+|$$\overset{P}{\longrightarrow}$$|[[Convergance in Probability]]|
+|$$\rightsquigarrow$$|[[Convergence in Distribution]]|
+|$$\overset\text{qm}{\longrightarrow}$$|[[Convergance in Quadratic Mean]]|
+|$$X_n \approx N(\mu, \sigma^2_n)$$|$$(X_n - \mu)/\sigma_n \rightsquigarrow N(0,1)$$|
+|$$\mathfrak F$$|[[Statistical Model]]; a [[set|Set]] of distribution functions, density functions or regression functions|
+|$$\theta$$|[[Parameter|Statistical Parameter]]|
+|$$\hat\theta$$|[[Estimate]] of [[Parameter|Statistical Parameter]]|
+|$$T(F)$$|statistical functional (i.e. [[Mean]])|
+|$$\mathcal L_n(\theta)$$|[[Likelihood Function]]|
+|$$x_n = o(a_n)$$|$$x_n/a_n \to 0$$|
+|$$x_n = O(a_n)$$|$$|x_n/a_n|$$ is bounded for large $$n$$|
+|$$X_n = o_P(a_n)$$|$$X_n/a_n \overset{P}{\longrightarrow}0$$|
+|$$X_n = O_P(a_n)$$|$$|X_n/a_n|$$ is bounded in probability for large $$n$$|
