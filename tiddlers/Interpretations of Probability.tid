@@ -1,0 +1,13 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200424174338634
+modified: 20200424180700161
+tags: [[Probability Theory]] [[All of Statistics]]
+title: Interpretations of Probability
+tmap.id: 94adcce7-ff0d-466a-ae14-9b94f48db4c2
+type: text/vnd.tiddlywiki
+
+* ''Frequencies'' (gives rise to the [[Frequentist|Frequentist Statistics]] school)
+* ''Degrees of belief'' (gives rise to the [[Bayesian|Bayesian Statistics]] school)

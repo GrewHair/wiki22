@@ -1,0 +1,25 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200424183842009
+modified: 20200424184314801
+tags: [[Probability Theory]] [[All of Statistics]]
+title: Sum Rule (Probability)
+tmap.id: c06c0123-23e4-44e9-ac7e-1d5e50c2fe45
+type: text/vnd.tiddlywiki
+
+$$
+\mathbb P(A \cup B) =
+\mathbb P(A) + \mathbb P(B)
+-
+\mathbb P(A \cap B)
+$$
+
+A special case:
+
+$$
+A \cap B = \empty \implies
+\mathbb P(A \cap B) =
+\mathbb P(A) + \mathbb P(B)
+$$

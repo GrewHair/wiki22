@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200424181750905
+modified: 20200424181926644
+tags: [[Probability Theory]] [[All of Statistics]]
+title: Probability of the Empty Set
+tmap.id: d78a9bcf-c439-4407-9025-314a051c66c2
+type: text/vnd.tiddlywiki
+
+$$\mathbb P(\empty) = 0

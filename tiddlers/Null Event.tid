@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200424120243638
-modified: 20200424122132648
+modified: 20200424181744056
 tags: [[Probability Theory]] Stub [[All of Statistics]]
 title: Null Event
 tmap.id: 616dc701-9fac-4e7e-b9f0-6b024ebe94eb
@@ -14,3 +14,5 @@ $$\empty$$
 The [[Null Event]] is an [[Event|Event (Probability Theory)]], which is an [[Empty Set]].
 
 Its [[Probability|Probability Measure]] is always zero - i.e. it is ''always [[false|Truth Value]]''
+
+This property arises from the [[Probability of the Empty Set]]

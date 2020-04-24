@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200424120656840
-modified: 20200424122240391
+modified: 20200424182504292
 tags: [[Probability Theory]] Stub [[All of Statistics]]
 title: True Event
 tmap.id: 01ed1fe5-1769-49be-84fa-ff1c7b91f328
@@ -14,3 +14,5 @@ $$\Omega$$
 The [[True Event]] is an [[Event|Event (Probability Theory)]], which is equal to the [[Universal Set]].
 
 Its [[Probability|Probability Measure]] is always equal to one - i.e. it is ''always [[true|Truth Value]]''
+
+This property arises from the [[Probability Axioms]] (axiom 2)

@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200424182137900
+modified: 20200424182353166
+tags: [[Probability Theory]] [[All of Statistics]]
+title: Monotonicity (Property of Probability)
+tmap.id: 8351dec0-461a-4961-a7de-a16c2e9af3fd
+type: text/vnd.tiddlywiki
+
+$$A \subset B \implies \mathbb P(A) \leq \mathbb P(B)$$

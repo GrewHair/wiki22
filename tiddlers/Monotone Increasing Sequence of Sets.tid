@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200424162852081
+modified: 20200424163552528
+tags: [[Set Theory]] [[All of Statistics]]
+title: Monotone Increasing Sequence of Sets
+tmap.id: 576c1e81-41b6-4e52-8daa-03c09ac77dab
+type: text/vnd.tiddlywiki
+
+A [[Sequence]] of [[sets|Set]] $$A_1, A_2, ...$$ is [[Monotone Increasing|Monotone Increasing Sequence of Sets]] if $$A_1 \subset A_2 \subset \cdots$$.
+
+If a [[Sequence]] of [[sets|Set]] is [[Monotone Increasing|Monotone Increasing Sequence of Sets]], it has a [[limit|Limit of Monotone Increasing Sequence of Sets]].
