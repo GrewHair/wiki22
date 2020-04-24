@@ -3,11 +3,11 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200224125948322
-modified: 20200325090530631
+modified: 20200423232401649
 tags: $:/tags/Stylesheet
 title: _my/stylesheets/external_links_color
 tmap.id: ca4b604b-1674-4791-9a9a-7764fdccd288
-type: text/vnd.tiddlywiki
+type: text/css
 
 a {
     color: #6d709b;

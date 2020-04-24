@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200318063939388
-modified: 20200325171722406
+modified: 20200423235458097
 tags: [[Probability Theory]]
 title: Event (Probability Theory)
 tmap.id: 96ad5ef0-5051-4208-90b7-fc25b26202f8
@@ -24,7 +24,7 @@ where $$X(\omega)$$ is a [[Random Variable]].
 
 From this it is clear that the [[Event|Event (Probability Theory)]] that a [[Random Variable]] $$X$$ takes on a value in range $$(u, v]$$ is really an [[Inverse Image|Inverse Image of a Set]] of $$(u, v]$$ under $$X$$.
 
-However, they are often written as [[predicates|Predicate (Predicate Logic)]] or [[indicators|Indicator Function]] involving [[Random Variables|Random Variable]]. E.g.:
+However, [[they|Event (Probability Theory)]] are often written as [[predicates|Predicate (Predicate Logic)]] or [[indicators|Indicator Function]] involving [[Random Variables|Random Variable]]. E.g.:
 
 $$
 u < X(\omega) \leq v.

@@ -1,11 +1,11 @@
 created: 20200324132257801
-modified: 20200325085311425
+modified: 20200423232802532
 module-type: codemirror-theme
 name: monokai-bright
 tags: $:/tags/Stylesheet
 title: _my/stylesheets/codemirror_themes/monokai-bright
 tmap.id: f8a9d477-3db2-48be-824a-efcf133e2ee9
-type: text/vnd.tiddlywiki
+type: text/css
 
 .cm-s-monokai-bright {
 	font-size: 1em;

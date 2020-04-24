@@ -3,15 +3,15 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20191023152830720
-modified: 20200325090530639
+modified: 20200423232457291
 tags: $:/tags/Stylesheet
 title: _my/stylesheets/green_hr
 tmap.id: e91686bc-bd7a-42ff-8d9e-89f8217b6e2b
-type: text/vnd.tiddlywiki
+type: text/css
 
 hr {
 		border: none;
-    color: #3fc060;
+		color: #3fc060;
 		background-color: #3fc060;
 		height: 2px;
 }

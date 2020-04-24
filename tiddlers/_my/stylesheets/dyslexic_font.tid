@@ -3,11 +3,11 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200321174632468
-modified: 20200325090530635
+modified: 20200423232315446
 tags: $:/tags/Stylesheet
 title: _my/stylesheets/dyslexic_font
 tmap.id: 5f434f53-29b8-44ae-8b28-5117360ab47d
-type: text/vnd.tiddlywiki
+type: text/css
 
 p {
     font-family: lexie_readableregular;

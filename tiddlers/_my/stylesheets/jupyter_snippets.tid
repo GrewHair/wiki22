@@ -1,11 +1,11 @@
 created: 20200328133130412
-modified: 20200328142210712
+modified: 20200423232559692
 tags: $:/tags/Stylesheet
 title: _my/stylesheets/jupyter_snippets
 tmap.id: 8b59d275-d4ad-4254-8a8d-870f9aea0235
-type: text/vnd.tiddlywiki
+type: text/css
 
 .CodeMirror.cm-s-jupyter.cm-fat-cursor {
-background:#272822;
-color:white;
+	background:#272822;
+	color:white;
 }
