@@ -1,0 +1,21 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: 
+created: 20200424113905490
+modified: 20200424115518749
+tags: [[Set Theory]] [[All of Statistics]]
+title: Subset
+tmap.id: 2dfdf4f9-33dc-4264-8fa8-bb1f1590570c
+type: text/vnd.tiddlywiki
+
+''AKA Set Inclusion''
+
+If every element of [[Set]] $$A$$ is also contained in [[Set]] $$B$$, [[Set]] $$A$$ is said to be a [[Subset]] of $$B$$:
+
+$$A \subseteq B$$ or $$B \supseteq A$$.
+
+Technically,
+
+$$A \subseteq A$$

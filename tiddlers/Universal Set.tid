@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200308121925988
-modified: 20200325163830895
+modified: 20200424105359194
 tags: [[Set Theory]]
 title: Universal Set
 tmap.id: 48e77081-60e1-41dd-8f8e-f73c6e6a7f6e
@@ -12,6 +12,10 @@ type: text/vnd.tiddlywiki
 The [[Universal Set]] is a [[Set]] that contains all the possible elements in the area of interest. All other [[sets|Set]] are [[subsets|Subset]] of the [[Universal Set]].
 
 The notion of [[Universal Set]] gives rise to the operation of [[Set Complement]].
+
+The [[complement|Set Complement]] of the [[Universal Set]] is the [[Empty Set]]:
+
+$$\Omega^C = \empty$$
 
 In [[Naive Set Theory]] the [[Universal Set]] contains everything, including itself, which leads to [[Russel's Paradox]] (also see: [[Set Theory Prerequisites for Algebra and Analysis]]).
 

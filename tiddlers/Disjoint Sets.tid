@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200424122503550
+modified: 20200424123557614
+tags: [[Set Theory]] [[All of Statistics]]
+title: Disjoint Sets
+tmap.id: bd69da32-ba26-4548-960d-4d27b2079ad4
+type: text/vnd.tiddlywiki
+
+''AKA Mutually Exclusive Sets''
+
+[[Sets|Set]] $$A_1, A_2, ...$$ are [[Disjoint|Disjoint Sets]] if $$A_i \cap A_j = \empty$$ whenever $$i \neq j$$.
+
+''Example:''
+
+$$
+A_1 = [0,1), A_2 = [1, 2), A_3 = [2, 3), ...
+$$
