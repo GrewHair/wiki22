@@ -1,0 +1,19 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200425173750631
+modified: 20200425175905844
+tags: [[All of Statistics (Larry Wasserman)]] [[Probability Theory]]
+title: Continuity of Probability
+tmap.id: 8c2bbae7-1b42-478f-b045-3b488fa3516b
+type: text/vnd.tiddlywiki
+
+The [[Probability Measure]] is a [[Continuous Function]].
+
+If a [[Sequence of Sets|Set Sequences]] has a [[limit|Set Limits]] $$A_n \to A$$ then $$\mathbb P(A_n) \to P(A)$$ as $$n\to\infty$$.
+
+$$\displaystyle \lim_{n\to\infty}\mathbb P(A_n) = \mathbb P(A)
+$$
+
+(The proof is on page 25 - it involves constructing a [[partition|Partition of a Set]] of the limit set and using [[axiom 3|Probability Axioms]])

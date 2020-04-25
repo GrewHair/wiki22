@@ -3,8 +3,8 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200424105520933
-modified: 20200424113320517
-tags: [[Set Theory]] Stub [[All of Statistics]]
+modified: 20200425165227616
+tags: [[Set Theory]] Stub [[All of Statistics (Larry Wasserman)]]
 title: Set Union
 tmap.id: b609913f-582a-45ed-bc23-7fba2a3c9e47
 type: text/vnd.tiddlywiki

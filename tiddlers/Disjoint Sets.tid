@@ -3,8 +3,8 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200424122503550
-modified: 20200424123557614
-tags: [[Set Theory]] [[All of Statistics]]
+modified: 20200425165227196
+tags: [[Set Theory]] [[All of Statistics (Larry Wasserman)]]
 title: Disjoint Sets
 tmap.id: bd69da32-ba26-4548-960d-4d27b2079ad4
 type: text/vnd.tiddlywiki

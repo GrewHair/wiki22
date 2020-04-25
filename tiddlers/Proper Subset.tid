@@ -3,8 +3,8 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200424114840899
-modified: 20200424115413382
-tags: [[Set Theory]] [[All of Statistics]]
+modified: 20200425165227593
+tags: [[Set Theory]] [[All of Statistics (Larry Wasserman)]]
 title: Proper Subset
 tmap.id: c49660a5-3b15-4ccc-b62c-13a7334108a0
 type: text/vnd.tiddlywiki

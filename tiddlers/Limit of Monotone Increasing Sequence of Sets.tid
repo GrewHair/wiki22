@@ -3,8 +3,8 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200424163957246
-modified: 20200424171134759
-tags: [[Set Theory]] [[All of Statistics]]
+modified: 20200425165227439
+tags: [[Set Theory]] [[All of Statistics (Larry Wasserman)]]
 title: Limit of Monotone Increasing Sequence of Sets
 tmap.id: afcf9e5e-f6cc-491b-9ad3-1fbdb639ba11
 type: text/vnd.tiddlywiki

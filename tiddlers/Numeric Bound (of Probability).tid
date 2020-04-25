@@ -3,8 +3,8 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200424182636074
-modified: 20200424182750324
-tags: [[Probability Theory]] [[All of Statistics]]
+modified: 20200425165227564
+tags: [[Probability Theory]] [[All of Statistics (Larry Wasserman)]]
 title: Numeric Bound (of Probability)
 tmap.id: e76a7952-b9d2-414f-9f19-5d4ae87cd5fe
 type: text/vnd.tiddlywiki

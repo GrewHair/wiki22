@@ -3,8 +3,8 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200424163555454
-modified: 20200424163946357
-tags: [[Set Theory]] [[All of Statistics]]
+modified: 20200425165227468
+tags: [[Set Theory]] [[All of Statistics (Larry Wasserman)]]
 title: Monotone Decreasing Sequence of Sets
 tmap.id: 4d5f4d2b-a0af-4854-a370-2d19e1e5aa7e
 type: text/vnd.tiddlywiki

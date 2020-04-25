@@ -3,8 +3,8 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200424113020368
-modified: 20200424113449994
-tags: [[Set Theory]] Stub [[All of Statistics]]
+modified: 20200425165227611
+tags: [[Set Theory]] Stub [[All of Statistics (Larry Wasserman)]]
 title: Set Intersection
 tmap.id: 98516781-463b-459e-af6a-8008eee1eecf
 type: text/vnd.tiddlywiki

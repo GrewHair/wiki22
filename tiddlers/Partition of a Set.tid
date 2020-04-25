@@ -3,8 +3,8 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200424124330768
-modified: 20200424124624157
-tags: [[All of Statistics]] [[Set Theory]]
+modified: 20200425165227570
+tags: [[All of Statistics (Larry Wasserman)]] [[Set Theory]]
 title: Partition of a Set
 tmap.id: 5b0f90d5-fd5c-459f-804d-e8ce6b2c539e
 type: text/vnd.tiddlywiki

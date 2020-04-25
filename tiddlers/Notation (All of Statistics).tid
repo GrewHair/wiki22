@@ -3,8 +3,8 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200423203523229
-modified: 20200424122425087
-tags: [[All of Statistics]]
+modified: 20200425165227551
+tags: [[All of Statistics (Larry Wasserman)]]
 title: Notation (All of Statistics)
 tmap.id: 0cf72859-c8d4-4a57-ba96-91d7954dd1b1
 type: text/vnd.tiddlywiki

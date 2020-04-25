@@ -3,8 +3,8 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200424175951303
-modified: 20200424183840005
-tags: [[Probability Theory]] [[All of Statistics]]
+modified: 20200425165227178
+tags: [[Probability Theory]] [[All of Statistics (Larry Wasserman)]]
 title: Consequences of Probability Axioms
 tmap.id: ea2e3e1f-bfe7-407c-96ef-b2f9733bb010
 type: text/vnd.tiddlywiki

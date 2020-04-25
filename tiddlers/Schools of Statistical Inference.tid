@@ -3,8 +3,8 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200424174002253
-modified: 20200424174247821
-tags: Statistics [[All of Statistics]] Stub
+modified: 20200425165227599
+tags: Statistics [[All of Statistics (Larry Wasserman)]] Stub
 title: Schools of Statistical Inference
 tmap.id: 3cde4269-1327-426b-8609-2e1bf9cacb1d
 type: text/vnd.tiddlywiki

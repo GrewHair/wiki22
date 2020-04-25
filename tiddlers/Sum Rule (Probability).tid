@@ -2,9 +2,10 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[_my/images/venn/2-venn_all_filled]][[_my/images/venn/2-venn_left_filled]][[_my/images/venn/2-venn_center_filled]][[_my/images/venn/2-venn_right_filled]]
 created: 20200424183842009
-modified: 20200424184314801
-tags: [[Probability Theory]] [[All of Statistics]]
+modified: 20200425165227628
+tags: [[Probability Theory]] [[All of Statistics (Larry Wasserman)]]
 title: Sum Rule (Probability)
 tmap.id: c06c0123-23e4-44e9-ac7e-1d5e50c2fe45
 type: text/vnd.tiddlywiki
@@ -16,6 +17,42 @@ $$
 \mathbb P(A \cap B)
 $$
 
+''Proof:''
+
+$$A \cup B = (A \cap B^C)\;\cup\; (A \cap B) \;\cup\; (A^C \cap B)$$
+
+|{{_my/images/venn/2-venn_all_filled}}|$$=$$|{{_my/images/venn/2-venn_left_filled}}|$$\cup$$|{{_my/images/venn/2-venn_center_filled}}|$$\cup$$|{{_my/images/venn/2-venn_right_filled}}|
+
+$$
+\begin{aligned}
+\mathbb
+P(A \cup B) &= \mathbb P \left( (A \cap B^C)\;\cup\; (A \cap B) \;\cup\; (A^C \cap B) \right) \\
+&= \mathbb P (A \cap B^C) + \mathbb P(A \cap B) +\mathbb P(A^C \cap B) \\
+&= \mathbb P (A \cap B^C) + \mathbb P(A \cap B) +\mathbb P(A^C \cap B) + \mathbb P(A \cap B) - \mathbb P(A \cap B)\\
+&= \mathbb P \left( (A \cap B^C) \cup (A \cap B) \right) + \mathbb P \left( (A^C \cap B) \cup (A \cap B) \right) - \mathbb P(A \cap B) \\
+&= \mathbb P (A) + \mathbb P(B) - \mathbb P(A \cap B).
+\end{aligned}
+$$
+
+''Example:''
+
+Two coin tosses. Let $$G_1$$ be the event that heads occurs on toss 1 and $$G_2$$ be the event that heads occurs on toss 2. All outcomes are equally likely. what's the probability of the event $$G_1 \cup G_2$$, i.e. the probability that heads occur at least once?
+
+* The [[Elementary Events|Elementary Event]] of this experiment are as follows:
+** Heads, Heads
+** Heads, Tails
+** Tails, Heads
+** Tails, Tails
+* The [[Event|Event (Probability Theory)]] $$G_1$$ is comprised of two [[outcomes|Elementary Event]]:
+** Heads, Heads
+** Heads, Tails
+* The [[Event|Event (Probability Theory)]] $$G_2$$ is comprised of two [[outcomes|Elementary Event]]:
+** Heads, Heads
+** Tails, Heads
+* The [[intersection|Set Intersection]] $$G_1 \cap G_2$$ is comprised of one [[outcome|Elementary Event]]:
+** Heads, Heads
+* $$\mathbb P(G_1 \cup G_2) = \mathbb P(G_1) + \mathbb P(G_2) - \mathbb P(G_1 \cap G_2) = \frac 1 2 + \frac 1 2 - \frac 1 4 = \frac 3 4$$
+
 A special case:
 
 $$
@@ -23,3 +60,5 @@ A \cap B = \empty \implies
 \mathbb P(A \cap B) =
 \mathbb P(A) + \mathbb P(B)
 $$
+
+@@color:red; Important Note:@@ I would normally rather calculate this example using a [[Contingency Table]] (just like I would with the [[Bayes Rule]] - so later I should study the connection deeper!!)

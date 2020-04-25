@@ -4,8 +4,8 @@
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 .hsk.transcludes: 
 created: 20200424113905490
-modified: 20200424115518749
-tags: [[Set Theory]] [[All of Statistics]]
+modified: 20200425165227622
+tags: [[Set Theory]] [[All of Statistics (Larry Wasserman)]]
 title: Subset
 tmap.id: 2dfdf4f9-33dc-4264-8fa8-bb1f1590570c
 type: text/vnd.tiddlywiki

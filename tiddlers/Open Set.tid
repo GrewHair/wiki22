@@ -3,13 +3,13 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200320072240318
-modified: 20200325164007564
+modified: 20200425170120262
 tags: Topology
 title: Open Set
 tmap.id: ca4f2abc-4902-49f2-906e-4196265d90ff
 type: text/vnd.tiddlywiki
 
-The [[Open Set]] has no definition in [[Topology]]. One Just decides for himself which [[Sets|Set]] to call [[Open]] - and so it goes!
+The [[Open Set]] has no definition in [[Topology]]. One Just decides for himself which [[Sets|Set]] to call [[Open|Open Set]] - and so it goes!
 
 This is allowed partially because [[Openness|Open Set]] and [[Closedness|Closed Set]] are neither mutually exclusive, nor necessary.
 

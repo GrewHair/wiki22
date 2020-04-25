@@ -3,8 +3,8 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200319065727956
-modified: 20200424122348560
-tags: [[Probability Theory]] [[Measure Theory]] [[All of Statistics]]
+modified: 20200425165227202
+tags: [[Probability Theory]] [[Measure Theory]] [[All of Statistics (Larry Wasserman)]]
 title: Elementary Event
 tmap.id: 7b067582-293f-4f80-b8cc-b3e12cb86a1c
 type: text/vnd.tiddlywiki

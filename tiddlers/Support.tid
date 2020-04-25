@@ -3,13 +3,13 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200318105741154
-modified: 20200325164007553
+modified: 20200425170930388
 tags: [[Set Theory]] Topology [[Real Analysis]]
 title: Support
 tmap.id: 3a7e56ae-049e-4dbc-9273-80b5a232318b
 type: text/vnd.tiddlywiki
 
-The [[Support]] of a [[real-valued|Real Numbers]] [[Function]] $$f$$ is the [[Subset]] of the [[Domain]] containing those elements which are not mapped to zero:
+The [[Support]] of a [[real-valued|Real Numbers]] [[Function]] $$f$$ is the [[Subset]] of its [[Domain|Domain of a Function]] containing those elements which are not mapped to zero:
 
 $$
 \operatorname{supp}(f) = \{x \in X | f(x) \neq 0 \}.

@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200312161958883
-modified: 20200325163826198
+modified: 20200425170833917
 tags: [[Linear Algebra]] [[Fundamental Matrix Subspaces]]
 title: Null Space
 tmap.id: 3fae70c1-bcde-4da3-af73-a9ee8ca36faa
@@ -11,7 +11,7 @@ type: text/vnd.tiddlywiki
 
 ''AKA Kernel''
 
-The [[Null Space]] of a [[Linear Mapping]] is the [[Set]] of [[Vectors|Vector]] in the [[Domain]] of the mapping which are mapped to zero vector:
+The [[Null Space]] of a [[Linear Mapping]] is the [[Set]] of [[Vectors|Vector]] in the [[Domain|Domain of a Function]] of the mapping which are mapped to zero vector:
 
 $$\ker(L) = \{\vec v \in V | L(\vec v) = \vec 0\}.$$
 

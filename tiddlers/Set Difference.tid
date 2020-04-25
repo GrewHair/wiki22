@@ -3,8 +3,8 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200424113452445
-modified: 20200424113644632
-tags: [[Set Theory]] Stub [[All of Statistics]]
+modified: 20200425165227605
+tags: [[Set Theory]] Stub [[All of Statistics (Larry Wasserman)]]
 title: Set Difference
 tmap.id: 5c616d74-d1d9-4b6c-81a5-2e7ce21fd337
 type: text/vnd.tiddlywiki

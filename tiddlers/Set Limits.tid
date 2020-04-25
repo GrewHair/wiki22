@@ -2,11 +2,12 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-created: 20200424182853315
-modified: 20200425165227146
-tags: [[Probability Theory]] [[All of Statistics (Larry Wasserman)]]
-title: Complement Rule (Probability)
-tmap.id: c3d87bad-5ddc-48f1-9f0b-31e914b2e634
+created: 20200425174438271
+modified: 20200425174553870
+tags: [[Set Theory]] [[All of Statistics (Larry Wasserman)]]
+title: Set Limits
+tmap.id: a2221233-ccb2-4dc2-9b80-6607c5327b92
 type: text/vnd.tiddlywiki
 
-$$\mathbb P(A^C) = 1 - \mathbb P(A)
+* [[Limit of Monotone Decreasing Sequence of Sets]]
+* [[Limit of Monotone Increasing Sequence of Sets]]

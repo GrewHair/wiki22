@@ -3,8 +3,8 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200424171758755
-modified: 20200424175920330
-tags: [[Probability Theory]] [[All of Statistics]]
+modified: 20200425165227577
+tags: [[Probability Theory]] [[All of Statistics (Larry Wasserman)]]
 title: Probability Axioms
 tmap.id: e7494fbc-d43e-4ae0-a479-88d00adf8c65
 type: text/vnd.tiddlywiki
