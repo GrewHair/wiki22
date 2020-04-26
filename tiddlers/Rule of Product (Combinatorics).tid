@@ -1,0 +1,10 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200426180815376
+modified: 20200426200509203
+tags: Combinatorics Stub
+title: Rule of Product (Combinatorics)
+tmap.id: 966ff3ae-890c-4d5a-a032-8f00885fbaeb
+type: text/vnd.tiddlywiki

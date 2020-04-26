@@ -2,14 +2,16 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-created: 20200226144049292
-modified: 20200426100003486
-tags: [[Probability Theory]] [[Chain Rule]]
-title: Chain Rule of Probability
-tmap.id: bb21743e-dadc-4520-ae6f-87b62fe2e9a1
+created: 20200426123744546
+modified: 20200426124205708
+tags: Combinatorics
+title: Combination
+tmap.id: c31e5396-9550-4670-be41-376bd300d21f
 type: text/vnd.tiddlywiki
 
-* Two [[Events|Event (Probability Theory)]]
-*>$$P(A \cap B) = P(B|A)\cdot P(A)$$
-* Two [[Random Variables|Random Variable]]
-*>$$P(X, Y) = P(X|Y) \cdot P(Y)
+$$
+\displaystyle
+{n \choose k} =
+\frac {n(n-1)\cdots(n - k +1)} {k(k-1)\cdots1} =
+\frac {n!}{k!(n-k)!}
+$$

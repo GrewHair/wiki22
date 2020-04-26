@@ -2,10 +2,10 @@
     {
         "created": "20200303132540794",
         "text": "<<probability_distribution_summary>>\n\n\nhttps://en.wikipedia.org/wiki/Binomial_distribution",
+        "type": "text/vnd.tiddlywiki",
         "title": "Binomial Distribution",
         "tags": "[[Probability Theory]] [[Probability Distribution]]",
-        "modified": "20200325171722419",
-        "type": "text/vnd.tiddlywiki",
+        "modified": "20200426110312137",
         "tmap.id": "3edc68a3-936c-469e-b987-6710155036c4",
         ".hsk.tagged_topic": "[<currentTiddler>tags[]field:icon[_my/images/icons/topic]]",
         ".hsk.tagged_feature": "[<currentTiddler>tags[]field:icon[_my/images/icons/feature]]",

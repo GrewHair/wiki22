@@ -21,8 +21,8 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200303124736657
-modified: 20200325165156133
-tags: 
+modified: 20200426104044069
+tags: [[Probability Distribution]]
 title: _my/templates/probability_distribution
 tmap.id: 70ae4694-e1c4-4d25-b476-06fef2617f73
 type: text/vnd.tiddlywiki

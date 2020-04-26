@@ -4,7 +4,7 @@
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 .hsk.transcludes: [[_my/images/png/slope_calculation_for_a_node]]
 created: 20200418120731935
-modified: 20200419091130125
+modified: 20200426100159284
 tags: [[Introduction to Deep Learning in Python (Datacamp)]]
 title: Slope Calculation For a Weight of a Neural Network
 tmap.id: 5fe83e1c-2d10-4d4f-ba5a-9a8a3e2e4824
@@ -30,4 +30,4 @@ assume that the [[Loss Function]] is squared error, the [[Activation Function]] 
 
 So we have: $$-8 \cdot 3 \cdot 1 = -24$$.
 
-''Note:'' this rule arises from the [[Chain Rule]].
+''Note:'' this rule arises from the [[Chain Rule|Multivariate Chain Rule]].

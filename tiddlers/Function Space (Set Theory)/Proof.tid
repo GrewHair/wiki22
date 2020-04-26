@@ -1,0 +1,19 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200426193451088
+modified: 20200426200556449
+tags: [[Set Theory]]
+title: Function Space (Set Theory)/Proof
+tmap.id: 287e5c03-8425-4c73-8497-fc4232fcd5f4
+type: text/vnd.tiddlywiki
+
+Let [[Set]] $$X$$ have $$|X|$$ elements and [[Set]] $$Y$$ have $$|Y|$$ elements. Each element in $$X$$ has $$|Y|$$ choices to be mapped to, and there are $$|X|$$ such elements. Thus, using the [[Rule of Product|Rule of Product (Combinatorics)]] there are:
+
+$$
+\underbrace
+{|Y| \times |Y| \times \cdots \times |Y|}_{|X|\text{ times}} =
+|Y|^{|X|} \;\;\blacksquare$$
+
+https://math.stackexchange.com/questions/223240/how-many-distinct-functions-can-be-defined-from-set-a-to-b

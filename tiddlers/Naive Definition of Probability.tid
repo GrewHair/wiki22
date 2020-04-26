@@ -1,0 +1,27 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200426154831714
+modified: 20200426160732199
+tags: [[Statistics 110 (Harvard University)]] [[Probability Theory]]
+title: Naive Definition of Probability
+tmap.id: ecd346e1-4635-4976-98b8-2e8def00dbc0
+type: text/vnd.tiddlywiki
+
+The [[Naive Definition of Probability]] assumes that all [[Outcomes|Elementary Event]] are __equally likely__.
+
+This definition is historical and, generally speaking, imprecise. It may be used only when one has a strong justification for the assumption it needs to be true.
+
+Assuming all [[Outcomes|Elementary Event]] are equally likely, the [[Probability|Probability Measure]] of an [[Event|Event (Probability Theory)]] is defined as a ratio of [[Cardinalities|Set Cardinality]] of the [[Event]] and the [[Sample Space]] respectively:
+
+$$
+\displaystyle
+\mathbb P(A) = \frac {|A|}{|\Omega|}
+$$
+
+This definition is bad in at least two ways:
+
+* It assumes the [[Outcomes|Elementary Event]] to be equally likely, which is a strong assumption to ask for
+** What's the probability to meet a T-Rex on my way back home from work? - it's 50%!!
+* It only works if the [[Sample Space]] is [[Finite|Finite Set]]

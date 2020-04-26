@@ -1,0 +1,27 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200426101528033
+modified: 20200426103316798
+tags: [[Probability Distribution]]
+title: Symmetric Probability Distribution
+tmap.id: 6f4e3e3c-68f9-4a1e-897b-5eeb122d8877
+type: text/vnd.tiddlywiki
+
+A [[Symmetric Probability Distribution]] is a [[Probability Distribution]] which remains unchanged when its [[PDF|Probability Density Function]] or [[PMF|Probability Mass Function]] is reflected around a vertical line at some value of the [[Random Variable]] represented by this distribution.
+
+This vertical line is the symmetry of the distribution.
+
+A [[Probability Distribution]] is [[Symmetric|Symmetric Probability Distribution]] [[if and only if|If and Only If]] there exists a value $$x_0$$ such that:
+
+$$f(x_0 - \delta) = f(x_0 + \delta)$$ for all [[real|Real Numbers]] $$\delta$$, where $$f$$ is [[PDF|Probability Density Function]] or [[PMF|Probability Mass Function]].
+
+Properties:
+
+* The [[Median]] and [[Mean]] (if it exists) of a [[Symmetric Distribution|Symmetric Probability Distribution]] coincide and occur at the point $$x_0$$ about which the symmetry occurs.
+* If a [[Symmetric Distribution|Symmetric Probability Distribution]] is [[Unimodal|Unimodal Probability Distribution]], the [[Mode]] coincides with the [[Median]] and [[Mean]].
+* All odd [[Central Moments|Central Moment]] of a [[Symmetric Distribution]] equal zero (if they exist).
+* Every measure of [[Skewness]] of a [[Symmetric Distribution]] equals zero.
+
+https://en.wikipedia.org/wiki/Symmetric_probability_distribution

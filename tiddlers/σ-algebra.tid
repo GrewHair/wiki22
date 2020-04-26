@@ -3,13 +3,15 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200308112533607
-modified: 20200325164034427
+modified: 20200426184104180
 tags: [[Measure Theory]] [[Set Theory]]
 title: σ-algebra
 tmap.id: 3c4f37da-c671-404f-9acf-6e38d5413ee0
 type: text/vnd.tiddlywiki
 
-A [[σ-algebra]] (also referred to as a σ-field) is just a [[σ-ring]] that contains a [[Universal Set]]. That means that it is closed under [[Complementation|Set Complement]].
+''AKA σ-field''
+
+A [[σ-algebra]] is just a [[σ-ring]] that contains a [[Universal Set]]. That means that it is closed under [[Complementation|Set Complement]].
 
 Is is also closed under countable unions.
 

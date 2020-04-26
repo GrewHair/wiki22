@@ -3,8 +3,8 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200318063939388
-modified: 20200423235458097
-tags: [[Probability Theory]]
+modified: 20200426154018505
+tags: [[Probability Theory]] [[Statistics 110 (Harvard University)]]
 title: Event (Probability Theory)
 tmap.id: 96ad5ef0-5051-4208-90b7-fc25b26202f8
 type: text/vnd.tiddlywiki

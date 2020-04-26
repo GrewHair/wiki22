@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200426184248446
+modified: 20200426200259563
+tags: [[Set Theory]] [[Abstract Algebra]]
+title: Power Set
+tmap.id: 435a621f-24b7-43ea-bf86-de87b8c66156
+type: text/vnd.tiddlywiki
+
+The [[Power Set]] $$\mathscr P(S)$$ is the [[Set]] of all [[Subsets|Subset]] of any [[Set]] $$S$$.
+
+The [[Power Set]] can be interpreted as the [[Set of All Indicator Functions|Function Space (Set Theory)]] in $$S$$ (i.e. [[Indicator Functions|Indicator Function]] for all possible [[Subsets]] of $$S$$, denoted $$\{0, 1 \}^S)$$, and thus its cardinality is given by:
+
+$$|\mathscr P(S)| = |\{0, 1 \}^S| = |\{0, 1 \}|^{|S|} = 2^{|S|}.$$
+
+https://en.wikipedia.org/wiki/Power_set

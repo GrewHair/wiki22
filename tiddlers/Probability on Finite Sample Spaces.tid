@@ -1,0 +1,23 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200426122253180
+modified: 20200426155754337
+tags: [[Probability Theory]] [[All of Statistics (Larry Wasserman)]]
+title: Probability on Finite Sample Spaces
+tmap.id: 506466d3-0328-4bc3-b222-1a6ff070bfd7
+type: text/vnd.tiddlywiki
+
+In general, if <$link to="Sample Space">$$\Omega$$</$link> is [[Finite|Finite Set]] and all [[Outcomes|Elementary Event]] are equally likely, then:
+
+$$\displaystyle \mathbb P(A) = \frac {|A|}{|\Omega|}$$
+
+where:
+
+* $$\mathbb P$$ is [[Probability|Probability Measure]]
+* $$A$$ is an [[Event|Event (Probability Theory)]]
+* $$\Omega$$ is [[Sample Space]]
+* $$|\cdot|$$ is [[Cardinality|Set Cardinality]]
+
+Such a [[Probability Distribution]] is called [[Uniform|Discrete Uniform Distribution]], and such a formula is sometimes referred to as the [[Naive Definition of Probability]].

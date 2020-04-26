@@ -1,11 +1,11 @@
 created: 20200226135753879
-modified: 20200417124517955
+modified: 20200426100503595
 tags: [[Quick Notes]]
 title: Note #1
 tmap.id: 7d355084-8f03-476d-ba94-26c88bbf14cc
 type: text/vnd.tiddlywiki
 
-You can see the usage of the [[Chain Rule]] in this equation, as well as some [[Partial Derivatives|Partial Derivative]]. Thus it may instantly lead you to thinking this is a [[multivariate|Multivariable Calculus]] case, since usually [[Partial Derivatives|Partial Derivative]] are indicative of this. 
+You can see the usage of the [[Chain Rule|Univariate Chain Rule]] in this equation, as well as some [[Partial Derivatives|Partial Derivative]]. Thus it may instantly lead you to thinking this is a [[multivariate|Multivariate Chain Rule]] case, since usually [[Partial Derivatives|Partial Derivative]] are indicative of this. 
 
 ''But don't get fooled!'' Because it may cost you some confusion later. 
 

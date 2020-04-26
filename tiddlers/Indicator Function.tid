@@ -3,13 +3,30 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200424124732111
-modified: 20200425165227316
-tags: [[Probability Theory]] Statistics [[All of Statistics (Larry Wasserman)]]
+modified: 20200426192446194
+tags: [[Probability Theory]] Statistics [[All of Statistics (Larry Wasserman)]] [[Set Theory]]
 title: Indicator Function
 tmap.id: 3f06ea40-94d0-4d56-8a19-6aeca4f1ba91
 type: text/vnd.tiddlywiki
 
-Given an [[Event|Event (Probability Theory)]] $$A$$, the [[Indicator Function]] of $$A$$ is a [[Function]] which is defined by:
+''AKA Characteristic Function''
+
+In [[Mathematics]], an [[Indicator Function]] is a [[Function]] defined on a [[Set]] $$X$$ that indicates membership of an element $$x$$ of $$X$$ in a [[Subset]] $$A$$:
+
+$$
+I_A: X \to \{0, 1 \} \\[7pt]
+
+I_A(x)     =
+I(x \in A) = 
+\begin{cases}
+1 \quad\text{if}\quad x \in A \\
+0 \quad\text{if}\quad x \notin A
+\end{cases}
+$$
+
+<br>
+
+In [[Probability|Probability Theory]] and [[Statistics]], given an [[Event|Event (Probability Theory)]] $$A$$, the [[Indicator Function]] of $$A$$ is a [[Function]] which is defined by:
 
 $$
 I_A(\omega)     =
@@ -18,4 +35,7 @@ I(\omega \in A) =
 1 \quad\text{if}\quad \omega \in A \\
 0 \quad\text{if}\quad \omega \notin A
 \end{cases}
+,
 $$
+
+where $$\omega$$ is an [[Outcome|Elementary Event]].

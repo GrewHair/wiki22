@@ -1,0 +1,22 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200426192012806
+modified: 20200426193444797
+tags: [[Set Theory]]
+title: Function Space (Set Theory)
+tmap.id: 2d835879-932a-45c3-b68f-9d47f849d040
+type: text/vnd.tiddlywiki
+
+A [[Function Space|Function Space (Set Theory)]] is a [[Set]] of [[Functions|Function]] between two fixed [[Sets|Set]] (e.g., $$X$$ and $$Y$$).
+
+It is denoted $$X \to Y$$ or $$Y^X$$
+
+This notation comes from the fact that [[Cardinality|Set Cardinality]] of a [[Set of All Functions|Function Space]] from $$X$$ to $$Y$$ is given by:
+
+$$|Y^X| = |Y|^{|X|},$$
+
+where $$|X|$$ and $$|Y|$$ are [[Cardinalities|Set Cardinality]] of $$X$$ and $$Y$$ respectively ([[Proof|Function Space (Set Theory)/Proof]]).
+
+''Note:'' the [[Set]] of all [[Bijections]] from $$X$$ to $$X$$ has [[Cardinality|Set Cardinality]] $$|X|!$$ (see [[Permutation]]), and therefore is often denoted $$X!$$.
