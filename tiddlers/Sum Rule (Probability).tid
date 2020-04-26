@@ -4,7 +4,7 @@
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 .hsk.transcludes: [[_my/images/venn/2-venn_all_filled]][[_my/images/venn/2-venn_left_filled]][[_my/images/venn/2-venn_center_filled]][[_my/images/venn/2-venn_right_filled]]
 created: 20200424183842009
-modified: 20200425165227628
+modified: 20200426082921484
 tags: [[Probability Theory]] [[All of Statistics (Larry Wasserman)]]
 title: Sum Rule (Probability)
 tmap.id: c06c0123-23e4-44e9-ac7e-1d5e50c2fe45
@@ -17,22 +17,7 @@ $$
 \mathbb P(A \cap B)
 $$
 
-''Proof:''
-
-$$A \cup B = (A \cap B^C)\;\cup\; (A \cap B) \;\cup\; (A^C \cap B)$$
-
-|{{_my/images/venn/2-venn_all_filled}}|$$=$$|{{_my/images/venn/2-venn_left_filled}}|$$\cup$$|{{_my/images/venn/2-venn_center_filled}}|$$\cup$$|{{_my/images/venn/2-venn_right_filled}}|
-
-$$
-\begin{aligned}
-\mathbb
-P(A \cup B) &= \mathbb P \left( (A \cap B^C)\;\cup\; (A \cap B) \;\cup\; (A^C \cap B) \right) \\
-&= \mathbb P (A \cap B^C) + \mathbb P(A \cap B) +\mathbb P(A^C \cap B) \\
-&= \mathbb P (A \cap B^C) + \mathbb P(A \cap B) +\mathbb P(A^C \cap B) + \mathbb P(A \cap B) - \mathbb P(A \cap B)\\
-&= \mathbb P \left( (A \cap B^C) \cup (A \cap B) \right) + \mathbb P \left( (A^C \cap B) \cup (A \cap B) \right) - \mathbb P(A \cap B) \\
-&= \mathbb P (A) + \mathbb P(B) - \mathbb P(A \cap B).
-\end{aligned}
-$$
+[[Proof|Sum Rule (Probability)/Proof]]
 
 ''Example:''
 

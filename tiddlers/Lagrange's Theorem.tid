@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200316185709696
-modified: 20200325163854412
+modified: 20200426083711266
 tags: [[Abstract Algebra]] [[Abstract Algebra (Socratica)]]
 title: Lagrange's Theorem
 tmap.id: 2e77de15-cf5a-44f6-9cf9-661f5c55d430
@@ -16,7 +16,7 @@ H \leq G \implies
 |H| \text{  divides  } |G|
 $$
 
-[[Proof|Proof of the Lagrange's Theorem]].
+[[Proof|Lagrange's Theorem/Proof]].
 
 ''Note:'' the converse may __not__ be true! Just because some number divides |G|, doesn't mean that this [[subgroup|Subgroup]] will exist. E.g. there's an [[Alternating Group]] $$A_4$$. it's [[order|Order of a Group]] is 12. It doesn't have a [[Subgroup]] of [[order|Order of a Group]] 6. 
 

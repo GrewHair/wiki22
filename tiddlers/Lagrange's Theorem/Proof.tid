@@ -4,9 +4,9 @@
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 .hsk.transcludes: [[_my/images/png/proof_of_lagrange_theorem]]
 created: 20200316204618705
-modified: 20200325163854398
+modified: 20200426083643405
 tags: [[Abstract Algebra]] [[Abstract Algebra (Socratica)]] [[Indirect Proof]]
-title: Proof of the Lagrange's Theorem
+title: Lagrange's Theorem/Proof
 tmap.id: f51b277a-01ab-4797-babd-5fa3096df79e
 type: text/vnd.tiddlywiki
 
@@ -46,11 +46,13 @@ $$
 * $$d \cdot k = n \implies d|n$$, where $$n = |G|$$, $$d = |H|$$, $$k$$ is the number of [[cosets|Coset]].
 * $$|H| \text{ divides } |G|$$
 
+$$\blacksquare$$
+
 ''TL;DR:''
 
 * Split $$G$$ into [[cosets|Coset]]
 * Show that they don't overlap
 * Show that they have the same size
-* End of proof
+* $$\blacksquare$$
 
 ''Note:'' it should also be proved for rights [[cosets|Coset]].

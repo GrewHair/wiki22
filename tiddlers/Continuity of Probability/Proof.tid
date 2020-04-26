@@ -1,0 +1,27 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[_my/images/venn/set_sequence_inner_filled]][[_my/images/venn/set_sequence_2_filled]][[_my/images/venn/set_sequence_2nd_filled]][[_my/images/venn/set_sequence_3_filled]][[_my/images/venn/set_sequence_3rd_filled]][[_my/images/venn/set_sequence_all_filled]][[_my/images/venn/set_sequence_outer_filled]]
+created: 20200426082329655
+modified: 20200426082407550
+tags: [[All of Statistics (Larry Wasserman)]] [[Probability Theory]]
+title: Continuity of Probability/Proof
+tmap.id: 7bfbd5a5-477b-472f-aa46-647dadb8e75d
+type: text/vnd.tiddlywiki
+
+|$$A_1 \subset A_2 \subset A_3 \subset A_4 \subset \cdots$$|{{_my/images/venn/set_sequence_inner_filled}}|$$B_1 = A_1$$|{{_my/images/venn/set_sequence_inner_filled}}|
+|$$A_2 \subset A_3 \subset A_4 \subset \cdots$$|{{_my/images/venn/set_sequence_2_filled}}|$$B_2 = \{\omega\in\Omega:\omega\in A_2, \omega\notin A_1\}$$|{{_my/images/venn/set_sequence_2nd_filled}}|
+|$$A_3 \subset A_4 \subset \cdots$$|{{_my/images/venn/set_sequence_3_filled}}|$$B_3 = \{\omega\in\Omega:\omega\in A_3, \omega\notin A_2, \omega\notin A_1\}$$|{{_my/images/venn/set_sequence_3rd_filled}}|
+|$$A_4 \subset \cdots$$|{{_my/images/venn/set_sequence_all_filled}}|$$B_4 = \{\omega\in\Omega:\omega\in A_4, \omega\notin A_3, \omega\notin A_2, \omega\notin A_1\}$$|{{_my/images/venn/set_sequence_outer_filled}}|
+|<center>$$\cdots$$</center>|<center>$$\cdots$$</center>|<center>$$\cdots$$</center>|<center>$$\cdots$$</center>|
+|$$A = \lim_{n \to\infty}A_n = \bigcup_{i=1}^n A_i$$|{{_my/images/venn/set_sequence_all_filled}}|$$\bigcup_{i=1}^n B_i = A$$|{{_my/images/venn/set_sequence_all_filled}}|
+
+Notice that $$B_1, B_2, ...$$ are [[Disjoint|Disjoint Sets]]! Because of that, using the [[Third Axiom|Probability Axioms]]:
+
+$$
+\displaystyle
+\mathbb P(A_n) = \mathbb P \left( \bigcup_{i=1}^n B_i \right) = \sum_{i=1}^n \mathbb P(B_i) \\
+\lim_{n \to\infty}\mathbb P(A_n) = \lim_{n \to\infty}\sum_{i=1}^n \mathbb P(B_i) = \mathbb P \left( \bigcup_{i=1}^\infty B_i \right) = \mathbb P(A).
+\;\;\blacksquare
+$$

@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200426083236543
+modified: 20200426083407516
+tags: [[Set Theory]]
+title: Function/Proof
+tmap.id: 9bd4a13c-787b-41d0-8451-8a531240b452
+type: text/vnd.tiddlywiki
+
+For each positive real number $$\alpha$$ let's define $$f(n) = \lceil \alpha n \rceil$$(the smallest integer greater than $$\alpha n$$) - they are all different functions! //And// there are [[uncountably many|Uncountable Set]] positive real pumbers. $$\;\blacksquare$$

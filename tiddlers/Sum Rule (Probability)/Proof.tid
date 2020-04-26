@@ -1,0 +1,26 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[_my/images/venn/2-venn_all_filled]][[_my/images/venn/2-venn_left_filled]][[_my/images/venn/2-venn_center_filled]][[_my/images/venn/2-venn_right_filled]]
+created: 20200426082605578
+modified: 20200426082823201
+tags: [[Probability Theory]] [[All of Statistics (Larry Wasserman)]]
+title: Sum Rule (Probability)/Proof
+tmap.id: fdac5d87-220e-4e91-9f3b-0e86322953bd
+type: text/vnd.tiddlywiki
+
+$$A \cup B = (A \cap B^C)\;\cup\; (A \cap B) \;\cup\; (A^C \cap B)$$
+
+|{{_my/images/venn/2-venn_all_filled}}|$$=$$|{{_my/images/venn/2-venn_left_filled}}|$$\cup$$|{{_my/images/venn/2-venn_center_filled}}|$$\cup$$|{{_my/images/venn/2-venn_right_filled}}|
+
+$$
+\begin{aligned}
+\mathbb
+P(A \cup B) &= \mathbb P \left( (A \cap B^C)\;\cup\; (A \cap B) \;\cup\; (A^C \cap B) \right) \\
+&= \mathbb P (A \cap B^C) + \mathbb P(A \cap B) +\mathbb P(A^C \cap B) \\
+&= \mathbb P (A \cap B^C) + \mathbb P(A \cap B) +\mathbb P(A^C \cap B) + \mathbb P(A \cap B) - \mathbb P(A \cap B)\\
+&= \mathbb P \left( (A \cap B^C) \cup (A \cap B) \right) + \mathbb P \left( (A^C \cap B) \cup (A \cap B) \right) - \mathbb P(A \cap B) \\
+&= \mathbb P (A) + \mathbb P(B) - \mathbb P(A \cap B). \;\;\blacksquare
+\end{aligned}
+$$
