@@ -3,8 +3,8 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200315150617890
-modified: 20200325163938032
-tags: [[Set Theory]] Algebra [[Predicate Logic]] Stub
+modified: 20200427082857209
+tags: [[Set Theory]] Algebra [[Predicate Logic]] Stub Binary
 title: Binary Operation
 tmap.id: 677a6e2f-a8ec-4d92-9ef3-ba2c4e1ff072
 type: text/vnd.tiddlywiki

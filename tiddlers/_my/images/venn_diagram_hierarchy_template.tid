@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200303204058292
-modified: 20200325165156171
+modified: 20200427155318643
 tags: 
 title: _my/images/venn_diagram_hierarchy_template
 tmap.id: 314422db-cc85-424d-b38e-ca7e18bcaab6
@@ -14,8 +14,8 @@ type: text/vnd.tiddlywiki
   <circle cx="190" cy="250" r="100" stroke=currentColor stroke-width="3" fill="none" />
   <circle cx="190" cy="220" r="140" stroke=currentColor stroke-width="3" fill="none" />
   <circle cx="190" cy="190" r="180" stroke=currentColor stroke-width="3" fill="none" />
-  <foreignObject x="165" y="250" width="50">foo</foreignObject>
-  <foreignObject x="145" y="170" width="100">bar</foreignObject>
-  <foreignObject x="150" y="90" width="100">baz</foreignObject>
-  <foreignObject x="130" y="22" width="150">eggs</foreignObject>
+  <foreignObject x="165" y="250" width="50" height="150">foo</foreignObject>
+  <foreignObject x="145" y="170" width="100" height="150">bar</foreignObject>
+  <foreignObject x="150" y="90" width="100" height="150">baz</foreignObject>
+  <foreignObject x="130" y="22" width="150" height="150">eggs</foreignObject>
 </svg>

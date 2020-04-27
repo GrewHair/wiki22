@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200426192012806
-modified: 20200426193444797
+modified: 20200427085312611
 tags: [[Set Theory]]
 title: Function Space (Set Theory)
 tmap.id: 2d835879-932a-45c3-b68f-9d47f849d040
@@ -19,4 +19,4 @@ $$|Y^X| = |Y|^{|X|},$$
 
 where $$|X|$$ and $$|Y|$$ are [[Cardinalities|Set Cardinality]] of $$X$$ and $$Y$$ respectively ([[Proof|Function Space (Set Theory)/Proof]]).
 
-''Note:'' the [[Set]] of all [[Bijections]] from $$X$$ to $$X$$ has [[Cardinality|Set Cardinality]] $$|X|!$$ (see [[Permutation]]), and therefore is often denoted $$X!$$.
+''Note:'' the [[Set]] of all [[Bijections|Bijection]] from $$X$$ to $$X$$ has [[Cardinality|Set Cardinality]] $$|X|!$$ (see [[Permutation]]), and therefore is often denoted $$X!$$.

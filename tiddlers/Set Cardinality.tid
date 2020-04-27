@@ -1,0 +1,27 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200427064018069
+modified: 20200427074642143
+tags: [[Set Theory]]
+title: Set Cardinality
+tmap.id: 709709e3-165b-4866-992a-b56a86bb91a7
+type: text/vnd.tiddlywiki
+
+Informally speaking, [[Cardinality|Set Cardinality]] is the "size" of a [[Set]].
+
+The [[Cardinality|Set Cardinality]] of a [[Set]] $$A$$ is defined as its [[Equivalence Class]] under [[Equinumerosity]].
+
+For [[Finite Sets|Finite Set]], [[Cardinality|Set Cardinality]] is just the number of elements of the [[Set]] (i.e. a [[Natural Number|Natural Numbers]]).
+
+Generally, the [[Cardinalities|Set Cardinality]] of two [[Sets|Set]] ([[finite|Finite Set]] __or__ [[infinite|Infinite Set]]) can be compared [[functionally|Function]]:
+
+* $$|A| = |B|$$
+*> Two [[Sets|Set]] have the same [[Cardinality|Set Cardinality]] if there exists a [[Bijection]] from $$A$$ to $$B$$
+* $$|A| \leq |B|$$
+*> $$A$$ has [[Cardinality|Set Cardinality]] less than or equal to $$B$$ if there exists an [[Injection]] from $$A$$ to $$B$$
+* $$|A| < |B|$$
+*> $$A$$ has [[Cardinality|Set Cardinality]] strictly less than $$B$$ if there exists an [[Injection]], but no [[Bijection]] from $$A$$ to $$B$$
+
+[[Cardinal Numbers|Cardinal Number]] are used to describe [[Cardinality of a Set|Set Cardinality]].

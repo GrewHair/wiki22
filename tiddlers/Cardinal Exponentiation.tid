@@ -2,12 +2,13 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-created: 20191021094828297
-list: Conjunction Disjunction [[Exclusive Disjunction]] [[Joint Denial]] [[Material Equivalence]] [[Material Implication]] Negation
-modified: 20200427083631820
-tags: Stub Logic [[100 Days of Logic (carneades.org)]]
-title: Boolean Operations
-tmap.id: c3960706-f086-471d-bade-75aad248796b
+created: 20200427091328321
+modified: 20200427091802191
+tags: [[Set Theory]]
+title: Cardinal Exponentiation
+tmap.id: 4934c351-9e41-4024-810c-25567c6af101
 type: text/vnd.tiddlywiki
 
-<$list filter={{!!list}}/>
+The cardinality of [[The Set of All Functions|Function Space (Set Theory)]] from $$X$$ to $$Y$$ is given by:
+
+$$|Y^X| = |Y|^{|X|}

@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200427100002266
+modified: 20200427101547583
+tags: Combinatorics
+title: Rule of Sum (Combinatorics)
+tmap.id: feca3ad7-5b80-431a-b305-6976ee23099b
+type: text/vnd.tiddlywiki
+
+If there are $$n(A)$$ ways to do $$A$$ and, distinct from them, $$n(B)$$ ways to do $$B$$, then the number of ways to do $$A \; or \; B$$ is:
+
+$$n(A)+n(B)$$.
+
+In terms of [[Set Theory]], this corresponds to [[Cardinal Addition]].
+
+Here, __"or"__ is represented by [[Set Union]] and __"distinct from them"__ is captured in the fact that the [[Sets|Set]] are [[Disjoint|Disjoint Sets]].
+
+http://www.cs.cornell.edu/courses/cs280/2004fa/280wk6_x4.pdf

@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200427163042782
+modified: 20200427163236218
+tags: [[Probability Theory]] Stub
+title: Tree Diagram (Probability Theory)
+tmap.id: eb8b1b3d-c1c4-4e19-8b93-b93666b47787
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/Tree_diagram_(probability_theory)
+
+http://onemathematicalcat.org/Math/Algebra_II_obj/prob_tree_diagrams.htm
+
+https://www.bbc.co.uk/bitesize/guides/zsrq6yc/revision/5

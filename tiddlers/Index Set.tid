@@ -3,10 +3,10 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200311181034093
-modified: 20200325163830964
+modified: 20200427080355986
 tags: [[Set Theory]]
 title: Index Set
 tmap.id: 68b5c2bb-f3c9-450f-8f78-ab72bdecc26d
 type: text/vnd.tiddlywiki
 
-If the elements of a [[Set]] $$A$$ may be //indexed// or //labeled// by means of the elements of another [[Set]] $$J$$, then $$J$$ is an [[Index Set]]. The indexing consists of a [[Surjective Function]] from $$J$$ onto $$A$$ and the indexed collection is typically called an [[Indexed Family]] (or sometimes simply ''Family''), often written as $$\{A_j\}_{j\in J}$$.
+If the elements of a [[Set]] $$A$$ may be //indexed// or //labeled// by means of the elements of another [[Set]] $$J$$, then $$J$$ is an [[Index Set]]. The indexing consists of a [[Surjective Function|Surjection]] from $$J$$ onto $$A$$ and the indexed collection is typically called an [[Indexed Family]] (or sometimes simply ''Family''), often written as $$\{A_j\}_{j\in J}$$.

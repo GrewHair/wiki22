@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200427091056341
+modified: 20200427093729654
+tags: [[Set Theory]] Stub
+title: Cardinal Multiplication
+tmap.id: 794fe75d-5a92-4d8a-adcf-b5c622c982b0
+type: text/vnd.tiddlywiki
+
+The [[Cardinality|Set Cardnality]] of the [[Cartesian Product]] of two [[Sets|Set]] is given by:
+
+$$|X \times Y| = |X| \cdot |Y|$$
+
+''Note:'' for [[Infinite Sets|Infinite Set]] $$|X|\cdot|Y| = \max\{|X|, |Y|\}$$ (https://en.wikipedia.org/wiki/Cardinal_number#Cardinal_arithmetic)

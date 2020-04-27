@@ -3,8 +3,8 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200314144225865
-modified: 20200325163831035
-tags: [[Set Theory]]
+modified: 20200427082936706
+tags: [[Set Theory]] Binary
 title: Binary Relation
 tmap.id: b1969c50-a920-4349-995b-662ddb675355
 type: text/vnd.tiddlywiki

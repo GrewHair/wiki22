@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200427065901294
+modified: 20200427070621897
+tags: [[Set Theory]]
+title: Equinumerosity
+tmap.id: e388b2a0-8a0e-43ac-8163-79510120b6bb
+type: text/vnd.tiddlywiki
+
+[[Equinumerosity]] is an [[Equivalence Relation]] on the [[Class]] of all [[Sets|Set]].
+
+Two [[Sets|Set]] are [[Equinumerous|Equinumerosity]] if there exists a [[Bijection]] between them, and they are said to have the same [[Cardinality|Set Cardinality]].
+
+Equivalently, two [[Sets|Set]] are said to belong to the same [[Equivalence Class]] under [[Equinumerosity]] if they have the same [[Cardinality|Set Cardinality]].
+
+https://en.wikipedia.org/wiki/Equinumerosity

@@ -1,0 +1,21 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200427063232067
+modified: 20200427064234382
+tags: [[Set Theory]]
+title: Set Equality
+tmap.id: 12edab84-8586-447c-b888-ad1ac021724d
+type: text/vnd.tiddlywiki
+
+The two [[Sets|Set]] $$S$$ and $$T$$ are said to be [[Equal|Set Equality]] [[if and only if|If and Only If]] they contain the same elements.
+
+* [[Set Theory]] definition:
+*> $$S = T$$ means $$\forall x: (x \in S \iff x \in T)$$
+* [[Set Theory]] axiom:
+*> $$S = T \implies (\forall x: x \in S \iff x \in T)$$
+
+https://proofwiki.org/wiki/Definition:Set_Equality
+
+https://en.wikipedia.org/wiki/Equality_(mathematics)#Equality_in_set_theory

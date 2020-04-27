@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200427093853357
+modified: 20200427094120650
+tags: [[Abstract Algebra]]
+title: Direct Product
+tmap.id: f607d6f6-5d53-4915-99aa-cd2880ff6703
+type: text/vnd.tiddlywiki
+
+[[Direct Product]] is a generalization of the notion of [[Cartesian Product]] from [[Sets|Set]] to other algebraic structures that additionally impose some structure on the [[Set]] - like [[Groups|Group]], [[Rings|Ring]], etc.

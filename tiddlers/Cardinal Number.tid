@@ -1,0 +1,21 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200427074317769
+modified: 20200427075111232
+tags: [[Set Theory]]
+title: Cardinal Number
+tmap.id: 0b52d6ab-f009-4c41-8e80-6ada0b3e1f50
+type: text/vnd.tiddlywiki
+
+[[Cardinal Numbers|Cardinal Number]] are a [[Genealization of Natural Numbers|Generalizations of Natural Numbers]] used to measure [[Cardinality|Set Cardinality]] of [[Sets|Set]].
+
+$$
+\displaystyle
+0,1,2,3,\ldots
+,n,\ldots ;
+\aleph _{0},\aleph _{1},\aleph _{2},\ldots ,\aleph _{\alpha },\ldots .\ 
+$$
+
+The sequence starts with the [[Natural Numbers]], which are followed by the [[Aleph Numbers]].

@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200427072812915
+modified: 20200427073456812
+tags: [[Set Theory]] Mathematics
+title: Generalizations of Natural Numbers
+tmap.id: df4036c3-a5a4-44b7-ae0e-12d537e6378a
+type: text/vnd.tiddlywiki
+
+* [[Cardinal|Cardinal Number]] - ''how many?''
+* [[Ordinal|Ordinal Number]] - ''which (position)?''
+* [[Nominal|Nominal Number]] - ''id''
+
+https://www.mathsisfun.com/numbers/cardinal-ordinal-nominal.html

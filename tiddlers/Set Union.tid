@@ -2,12 +2,15 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[_my/images/venn/2-venn_all_filled]]
 created: 20200424105520933
-modified: 20200425165227616
-tags: [[Set Theory]] Stub [[All of Statistics (Larry Wasserman)]]
+modified: 20200427084333091
+tags: [[Set Theory]] Stub [[All of Statistics (Larry Wasserman)]] Binary
 title: Set Union
 tmap.id: b609913f-582a-45ed-bc23-7fba2a3c9e47
 type: text/vnd.tiddlywiki
+
+{{_my/images/venn/2-venn_all_filled}}
 
 $$\displaystyle 
 A \cup B =

@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200424122503550
-modified: 20200425165227196
+modified: 20200427090731665
 tags: [[Set Theory]] [[All of Statistics (Larry Wasserman)]]
 title: Disjoint Sets
 tmap.id: bd69da32-ba26-4548-960d-4d27b2079ad4
@@ -11,7 +11,13 @@ type: text/vnd.tiddlywiki
 
 ''AKA Mutually Exclusive Sets''
 
-[[Sets|Set]] $$A_1, A_2, ...$$ are [[Disjoint|Disjoint Sets]] if $$A_i \cap A_j = \empty$$ whenever $$i \neq j$$.
+[[Sets|Set]] $$A_1, A_2, ...$$ are [[Disjoint|Disjoint Sets]] if 
+$$A_i$$
+<$link to="Set Intersection">$$\cap$$</$link>
+$$A_j$$
+<$link to="Set Equality">$$=$$</$link>
+<$link to="Empty Set">$$\empty$$</$link>
+whenever $$i \neq j$$.
 
 ''Example:''
 

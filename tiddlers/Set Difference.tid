@@ -2,12 +2,15 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[_my/images/venn/2-venn_left_filled]]
 created: 20200424113452445
-modified: 20200425165227605
-tags: [[Set Theory]] Stub [[All of Statistics (Larry Wasserman)]]
+modified: 20200427084505957
+tags: [[Set Theory]] Stub [[All of Statistics (Larry Wasserman)]] Binary
 title: Set Difference
 tmap.id: 5c616d74-d1d9-4b6c-81a5-2e7ce21fd337
 type: text/vnd.tiddlywiki
+
+{{_my/images/venn/2-venn_left_filled}}
 
 $$\displaystyle 
 A - B =

@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20191028085911286
-modified: 20200325163932142
+modified: 20200427080529150
 tags: Logic [[100 Days of Logic (carneades.org)]]
 title: Indirect Proof
 tmap.id: e9fc4802-a92a-4640-824b-88ab6a668d56

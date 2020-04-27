@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200426193451088
-modified: 20200426200556449
+modified: 20200427055349893
 tags: [[Set Theory]]
 title: Function Space (Set Theory)/Proof
 tmap.id: 287e5c03-8425-4c73-8497-fc4232fcd5f4
@@ -13,7 +13,7 @@ Let [[Set]] $$X$$ have $$|X|$$ elements and [[Set]] $$Y$$ have $$|Y|$$ elements.
 
 $$
 \underbrace
-{|Y| \times |Y| \times \cdots \times |Y|}_{|X|\text{ times}} =
+{|Y| \cdot |Y| \cdot ... \cdot |Y|}_{|X|\text{ times}} =
 |Y|^{|X|} \;\;\blacksquare$$
 
 https://math.stackexchange.com/questions/223240/how-many-distinct-functions-can-be-defined-from-set-a-to-b

@@ -3,8 +3,18 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200426180815376
-modified: 20200426200509203
+modified: 20200427101600715
 tags: Combinatorics Stub
 title: Rule of Product (Combinatorics)
 tmap.id: 966ff3ae-890c-4d5a-a032-8f00885fbaeb
 type: text/vnd.tiddlywiki
+
+If there are $$n(A)$$ ways to do $$A$$ and $$n(B)$$ ways to do $$B$$, then the number of ways to do $$A\;and\;B$$ is:
+
+$$n(A) \cdot n(B)$$.
+
+In terms of [[Set Theory]], this corresponds to the [[Cardinal Multiplication]].
+
+Here, __"and"__ is represented by the [[Cartesian Product]] (although sometimes people mention [[Direct Product]] instead).
+
+http://www.cs.cornell.edu/courses/cs280/2004fa/280wk6_x4.pdf
