@@ -1,0 +1,22 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200428164835267
+modified: 20200428165350199
+tags: Mathematics
+title: Ceiling
+tmap.id: 7cb46cc9-565b-4add-8638-9f9ad1afc87d
+type: text/vnd.tiddlywiki
+
+$$\huge{\lceil x \rceil}$$
+
+The [[Ceiling]] of a [[real number|Real Numbers]]  $$x$$ is the smallest integer not less then $$x$$: 
+
+$$\lceil x \rceil = \lfloor x \rfloor + 1.$$
+
+It has a property:
+
+$$\lceil x \rceil = - \lfloor -x \rfloor,$$
+
+where $$\lfloor x \rfloor$$ is the [[Floor]] of $$x$$.

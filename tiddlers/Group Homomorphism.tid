@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200315164839976
-modified: 20200325163952470
+modified: 20200429082615028
 tags: [[Group Theory]]
 title: Group Homomorphism
 tmap.id: 30912688-beef-40b4-8271-5e74023c2b62
@@ -24,6 +24,6 @@ Hence one can say that $$h$$ //"is compatible with the group structure"//.
 
 * [[Monomorphism]]
 * [[Epimorphism]]
-* [[Isomorphism]]
+* [[Isomorphism|Group Isomorphism]]
 * [[Endomorphism]]
 * [[Automorphism]]

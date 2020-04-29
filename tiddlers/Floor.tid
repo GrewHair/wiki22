@@ -1,0 +1,17 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200428164427225
+modified: 20200428164833367
+tags: Mathematics
+title: Floor
+tmap.id: a159aa2b-5cfe-4911-a0db-ea9c908cc221
+type: text/vnd.tiddlywiki
+
+$$\huge{\lfloor x \rfloor}$$
+
+The [[Floor]] of a [[real number|Real Numbers]]  $$x$$ is the integer $$m$$ such that
+
+$$m \leq x < m + 1$$.
+

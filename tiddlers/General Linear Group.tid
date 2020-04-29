@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200429092955904
+modified: 20200429093110588
+tags: [[Group Theory]] Stub
+title: General Linear Group
+tmap.id: 950d4098-b1e5-446b-9d0e-042612c23b1c
+type: text/vnd.tiddlywiki
+
+The [[General Linear Group]] is a [[Group]] of [[Invertable Matrices|Invertable Matrix]].

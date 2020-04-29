@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200429085831326
+modified: 20200429090125047
+tags: [[Group Theory]] Stub
+title: Cayley's Theorem
+tmap.id: 3b1dbf13-80a6-47b7-a556-9201201ebc13
+type: text/vnd.tiddlywiki
+
+Every [[Finite Group]] is a [[Subgroup]] of a [[Symmetric Group]].

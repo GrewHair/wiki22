@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200317111034366
-modified: 20200325163952465
+modified: 20200429103048668
 tags: [[Abstract Algebra]] [[Group Theory]]
 title: Quotient Group
 tmap.id: 0d1df271-a79a-4719-9a2e-e768f94709ef
@@ -16,3 +16,5 @@ A [[Quotient Group]] is a [[Group]] obtained by [[Aggregating]] similar/[[equiva
 So the elements of the [[Quotient Group]] are in fact [[sets|Set]], or, more specifically, [[equivalence|Equivalence Class]]/[[congruence classes|Congruence Class]].
 
 Thus, the [[Quotient Group]] is not a [[Subgroup]] of the one that was used to create it.
+
+A [[Quotient Group]] is a [[Group]] of [[Cosets|Coset]]!
