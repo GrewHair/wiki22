@@ -1,6 +1,34 @@
+.hsk.transcludes: [[_my/images/png/PDF_for_uniform]]
 created: 20200227065011865
-modified: 20200325171722400
-tags: [[Probability Theory]]
+modified: 20200430140956640
+tags: [[Probability Theory]] [[All of Statistics (Larry Wasserman)]]
 title: Probability Density Function
 tmap.id: d8beff2f-f3d0-4edf-aea2-9c6ed405a07e
 type: text/vnd.tiddlywiki
+
+A [[Probability Density Function]] $$f_X(x)$$ of a [[Continuous Random Variable]] $$X$$ is a non-negative [[Lebesgue-integrable|Lebesgue Integral]] [[Function]], if:
+
+$$
+\displaystyle
+\mathbb P(a \leq X < b) = \int_a^b f_X(x)dx.
+$$
+
+A [[PDF|Probability Density Function]] for a [[Uniform Distribution|Continuous Uniform Distribution]]:
+
+{{_my/images/png/PDF_for_uniform}}
+
+It is related with [[CDF|Cumulative Distribution Function]] by:
+
+$$
+\displaystyle
+F_X(x) = \int_{-\infty}^x f_X(u)du.
+$$
+
+Its main differences from the [[PMF|Probability Mass Function]] (its [[Discrete|Discrete Random Variable]] counterpart) are:
+
+* $$\mathbb P(X=x)=0$$ for every x
+* A [[PDF|Probability Density Function]] can be bigger than $$1$$ - in fact it can even be unbounded! (see [[Delta Function|Dirac Delta Function]])
+
+The [[PDF|Probability Density Function]] __is meant to be integrated__.
+
+[[Lemma|Probability Density Function/Lemma]]

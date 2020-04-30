@@ -2,9 +2,25 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-created: 20200227064847200
-modified: 20200325171722394
-tags: [[Probability Theory]]
+.hsk.transcludes: [[_my/images/png/PMF_for_flipping_a_coin_twice]]
+created: 20200430132004983
+modified: 20200430133831759
+tags: [[Probability Theory]] [[All of Statistics (Larry Wasserman)]]
 title: Probability Mass Function
-tmap.id: 8064051b-34ab-4a4a-94f7-d56087f37993
+tmap.id: 79e22500-ade5-4283-b20f-4fcbb84cb3b3
 type: text/vnd.tiddlywiki
+
+A [[Probability Mass Function]] of a [[Discrete Random Variable]] is defined by:
+
+$$f_X(x) = \mathbb P(X = x)$$.
+
+A [[PMF|Probability Mass Function]] for [[flipping a coin twice|Random Variable/Example]]:
+
+{{_my/images/png/PMF_for_flipping_a_coin_twice}}
+
+It is related to the [[CDF|Cumulative Distribution Function]] by:
+
+$$
+\displaystyle
+F_X(x) = \mathbb P(X \leq x) = \sum_{x_i \leq x} f_X(x_i).
+$$

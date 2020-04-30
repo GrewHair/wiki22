@@ -1,0 +1,39 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: 
+created: 20200430113853843
+modified: 20200430121456164
+tags: [[Probability Theory]]
+title: Cumulative Distribution Function/Proof
+tmap.id: 5da7f3fa-56ca-4da3-a56d-7eac4a85ca68
+type: text/vnd.tiddlywiki
+
+Suppose that $$F$$ is a [[CDF|Cumulative Distribution Function]].
+
+Let $$x$$ be a [[real number|Real Numbers]] and let $$y_1, y_2, \ldots$$ be a [[Sequence]] of of [[Real Numbers]] such that
+
+$$y_1 > y_2 > \ldots$$ and
+
+$$\lim_i y_i = x$$.
+
+Let [[Events|Event (Probability Theory)]] $$A_i = (-\infty, y_i]$$ and let [[Event|Event (Probability Theory)]] $$A = (-\infty, x]$$.
+
+$$A = \bigcap_{i=1}^\infty A_i$$ and
+
+$$A_1 \supset A_2 \supset \cdots.$$
+
+Because the [[Events are monotone|Monotone Decreasing Sequence of Sets]],
+
+$$\lim_i \mathbb P(A_i) = \mathbb P(\cap_i A_i)$$.
+
+Thus,
+
+$$
+\displaystyle
+F(x) = \mathbb P(A) = \mathbb P\left(\bigcap_i A_i\right)
+     = \lim_i \mathbb P(A_i) = \lim_i F(y_i) = F(x^+)
+$$
+
+(We used [[Continuity of Probability]] here).

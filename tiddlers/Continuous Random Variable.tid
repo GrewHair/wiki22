@@ -1,0 +1,19 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200430133904974
+modified: 20200430134504490
+tags: [[All of Statistics (Larry Wasserman)]] [[Probability Theory]]
+title: Continuous Random Variable
+tmap.id: c8be83ba-2451-45a0-b5a0-aa9fdd7576b2
+type: text/vnd.tiddlywiki
+
+A [[Random Variable]] $$X$$ is [[Continuous|Continuous Random Variable]] if there exists a function $$f_X$$ such that $$f_X(x) \geq 0$$ for all $$x$$, $$\int_{-\infty}^\infty f_X(x)dx = 1$$ and for every $$a \leq b$$,
+
+$$
+\displaystyle
+\mathbb P(a \leq X < b) = \int_a^b f_X(x)dx.
+$$
+
+The [[Function]] $$f_X$$ is called the [[Probability Density Function]]

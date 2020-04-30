@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200430143235688
+modified: 20200430143551154
+tags: [[Probability Theory]] [[All of Statistics (Larry Wasserman)]]
+title: Equality in Distribution
+tmap.id: 323ac9b8-81ed-4e0c-af1d-075474b5194c
+type: text/vnd.tiddlywiki
+
+Two [[Random Variables|Random Variable]] $$X$$ and $$Y$$ are [[Equal in Distribution|Equality in Distribution]]:
+
+$$X \stackrel{d}{=} Y$$
+
+if $$F_X(x) = F_Y(x)$$ for all $$x$$.

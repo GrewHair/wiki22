@@ -1,0 +1,22 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200430121628741
+modified: 20200430122021554
+tags: [[Set Theory]] [[All of Statistics (Larry Wasserman)]]
+title: Countable Set
+tmap.id: 8ec126c6-e876-4b53-9fae-f094ea575023
+type: text/vnd.tiddlywiki
+
+A [[Set]] is [[Countable|Countable Set]] is it is [[Finite|Finite Set]] or if it can be put in a [[one-to-one correspondence|Bijection]] with the [[Set]] of [[integers|Integer Numbers]].
+
+''Examples:''
+
+* Even numbers
+* Odd numbers
+* [[Rational Numbers]]
+
+''Non-examples:''
+
+* [[Real Numbers]] between 0 and 1

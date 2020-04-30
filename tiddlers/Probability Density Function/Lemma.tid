@@ -1,0 +1,23 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200430140920256
+modified: 20200430141708688
+tags: [[Probability Theory]] [[All of Statistics (Larry Wasserman)]]
+title: Probability Density Function/Lemma
+tmap.id: 247a1dc5-b623-433d-b174-32623f577cdc
+type: text/vnd.tiddlywiki
+
+Let $$F$$ be the [[CDF|Cumulative Distribution Function]] for a [[Random Variable]] $$X$$. Then:
+
+* $$\mathbb P(X = x) = F(x) - X(x^-)$$, where $$F(x^-) = \lim_{y \uparrow x} F(y)$$,
+* $$\mathbb P(x < X \leq y) = F(y) - F(x),$$
+* $$\mathbb P(X > x) = 1 - F(x),$$
+* if $$X$$ is [[Continuous|Continuous Random Variable]], then:
+
+$$\mathbb P(a < X < b) =
+  \mathbb P(a \leq X < b) =
+	\mathbb P(a < X \leq b) =
+  \mathbb P(a \leq X \leq b).
+$$

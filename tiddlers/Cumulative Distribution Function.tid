@@ -2,8 +2,9 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[_my/images/png/CDF_for_flipping_a_coin_twice]][[_my/images/png/PMF_for_flipping_a_coin_twice]][[_my/images/png/PMF_for_flipping_a_coin_twice]]
 created: 20200429215414863
-modified: 20200430034450710
+modified: 20200430133819143
 tags: [[Probability Theory]]
 title: Cumulative Distribution Function
 tmap.id: a7986863-513b-4107-8ac2-0e7c402c3f91
@@ -12,3 +13,23 @@ type: text/vnd.tiddlywiki
 The [[Cumulative Distribution Function]] $$F_X: \R \to [0, 1]$$ of a random variable $$X$$ is defined by
 
 $$F_X(x) = \mathbb P(\{ \omega \in \Omega | X(\omega) \leq x\}) = \mathbb P(X \leq x).$$
+
+A [[CDF|Cumulative Distribution Function]] for [[flipping a coin twice|Random Variable/Example]]:
+
+{{_my/images/png/CDF_for_flipping_a_coin_twice}}
+
+* Right-continuous
+* Non-deceasing
+* Defined for all $$x$$ (even for non-discete)
+
+''Theorem:''
+
+A [[Function]] $$F: \R \to [0, 1]$$ is a [[CDF|Cumulative Distribution Function]] for some [[Probability Measure]] $$\mathbb P$$ [[if and only if|If and Only If]] it satisfies the following three conditions:
+
+* $$F$$ is non-decreasing, i.e. $$x_1 < x_2 \implies F(x_1) \leq F(x_2).$$
+* $$F$$ is normalized: $$\lim_{x \to -\infty}F(x) = 0$$ __and__ $$\lim_{x \to \infty}F(x) = 1.$$
+* $$F$$ is right-continuous, i.e. $$F(x) = F(x^+)$$ for all $$x$$, where
+
+$$\displaystyle F(x^+) = \lim_{\begin{gathered}y \to x\\ y > x\end{gathered}} F(y)$$.
+
+[[Proof|Cumulative Distribution Function/Proof]]

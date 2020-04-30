@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200430123506439
+modified: 20200430123843047
+tags: [[All of Statistics (Larry Wasserman)]] [[Probability Theory]]
+title: Discrete Random Variable
+tmap.id: 8d3343ba-3c3b-47e2-9a6e-feb4b6e5b9e6
+type: text/vnd.tiddlywiki
+
+A [[Random Variable]] $$X$$ is [[Discrete|Discrete Random Variable]] if it takes [[countably many|Countable Set]] values
+
+$$\{x_1, x_2, \ldots \}$$.
+
+[[Discrete Random Variables|Discrete Random Variable]] are described using [[Probability Mass Functions|Probability Mass Function]].
