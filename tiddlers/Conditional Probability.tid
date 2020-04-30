@@ -1,0 +1,33 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200429183840896
+modified: 20200429192327302
+tags: [[Probability Theory]] [[All of Statistics (Larry Wasserman)]]
+title: Conditional Probability
+tmap.id: 540e17aa-9221-4e36-bd2c-a6a215059e99
+type: text/vnd.tiddlywiki
+
+If $$\mathbb P(B) > 0$$, then the [[Conditional Probability]] of [[Event|Event (Probability Theory)]] $$A$$ given [[Event|Event (Probability Theory)]] $$B$$ is:
+
+$$\displaystyle \mathbb P(A|B) = \frac {\mathbb P(A \cap B)}{\mathbb P(B)}.$$
+
+Assumption that $$B$$ occured effectively defines a new [[Probability Measure]].
+
+Notes:
+
+* All the [[Probability Axioms]], etc. apply to [[Conditional Probability]] just as well - though __only the part to the left of the vertical bar inside the parentheses can be treated in this way!__ Everything to the right of the bar is not considered subject to probability
+* $$\mathbb P(A|B) \neq \mathbb P(B|A)$$ !!!
+
+<br>
+
+If $$A$$ and $$B$$ are [[Independent|Independent Events]] then
+
+$$
+\displaystyle
+\mathbb P(A|B) =
+\frac {\mathbb P(A \cap B)}{\mathbb P(B)} =
+\frac {\mathbb P(A) \mathbb P(B)}{\mathbb P(B)} =
+\mathbb P(A).
+$$

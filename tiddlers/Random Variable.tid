@@ -3,22 +3,32 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200308073233673
-modified: 20200325171722453
-tags: [[Probability Theory]]
+modified: 20200429205333021
+tags: [[Probability Theory]] [[All of Statistics (Larry Wasserman)]]
 title: Random Variable
 tmap.id: 1eb538f9-2055-4f18-aad5-07db22fad6c3
 type: text/vnd.tiddlywiki
 
-A [[Random Variable]] is a variable, whos values __depend__ on outcomes of a random phenomenon.
+A [[Random Variable]] is a variable, whos values __depend__ on [[Outcomes|Elementary Event]] of a random phenomenon.
 
-Thus, a [[Random Variable]] is a function.
+Thus, a [[Random Variable]] is a [[Function]].
 
-A [[Random Variable]] is a [[Measurable Function]] $$X: \Omega \to E$$ from a sample space $$\Omega$$ to a measurable space $$E$$.
+A [[Random Variable]] is a [[Measurable Function]] $$X: \Omega \to E$$ from a [[Sample Space]] $$\Omega$$ to a [[Measurable Space]] $$E$$.
 
-The probability that $$X$$ takes on a value in a measurable set $$S \subseteq E$$ is written as:
+In many cases, $$E =$$ <$link to="Real Numbers">$$\R$$</$link>.
 
-$$P(X \in S) = P(\{\omega \in \Omega | X(\omega) \in S \})$$
+<br>
 
-In many cases, $$E = \R$$.
+The [[Probability|Probability Measure]] that $$X$$ takes on a value in a [[Measurable Set]] $$S \subseteq E$$ is written as:
+
+$$P(X \in S) = P(X^{-1}(A)) = P(\{\omega \in \Omega | X(\omega) \in S \})$$
+
+And the [[Probability|Probability Measure]] that $$X$$ takes on a value $$x$$ is:
+
+$$P(X = x) = P(X^{-1}(x)) = P(\{\omega \in \Omega | X(\omega) = x \})$$
+
+(note that for [[Continuous Random Variables|Continuous Random Variable]] the letter [[Probability|Probability Measure]] is zero).
+
+[[Example|Random Variable/Example]]
 
 https://en.wikipedia.org/wiki/Random_variable

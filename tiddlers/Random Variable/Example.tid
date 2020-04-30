@@ -1,0 +1,25 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200429205337076
+modified: 20200429211014343
+tags: [[Probability Theory]] [[All of Statistics (Larry Wasserman)]]
+title: Random Variable/Example
+tmap.id: b9b0398e-8d9d-4cec-8c6d-6e7837f67ef5
+type: text/vnd.tiddlywiki
+
+Flip a coin twice and let $$X$$ be the number of heads. Then:
+
+|!<$link to="Elementary Event">$$\omega$$</$link>|!<$link to="Probability Measure">$$\mathbb P(\{\omega \})$$</$link>|!<$link to="Random Variable">$$X(\omega)$$</$link>|
+|Tails, Tails|<center>$$1/4$$</center>|<center>$$0$$</center>|
+|Tails, Heads|<center>$$1/4$$</center>|<center>$$1$$</center>|
+|Heads, Tails|<center>$$1/4$$</center>|<center>$$1$$</center>|
+|Heads, Heads|<center>$$1/4$$</center>|<center>$$2$$</center>|
+
+and:
+
+|!$$x$$|!$$\mathbb P(X = x)$$|
+|$$0$$|<center>$$1/4$$</center>|
+|$$1$$|<center>$$1/2$$</center>|
+|$$2$$|<center>$$1/4$$</center>|

@@ -1,0 +1,46 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200429180537167
+modified: 20200429192810156
+tags: [[Probability Theory]] [[All of Statistics (Larry Wasserman)]]
+title: Independent Events
+tmap.id: 7f772e6d-bd1d-4ad9-b96a-8c11e6f2a8d8
+type: text/vnd.tiddlywiki
+
+$$\huge A \perp\!\!\!\perp B$$
+
+Two [[Events|Event (Probability Theory)]] $$A$$ and $$B$$ are [[Independent|Independent Events]] if:
+
+$$\mathbb P(A \cap B) = \mathbb P(A) \mathbb P(B)$$
+
+<br>
+
+A [[Set]] of [[Events|Event]] $${A_i: i \in I}$$ is independent if:
+
+$$
+\displaystyle
+\mathbb P \left(\bigcap_{i \in J} A_i \right) = \prod_{i \in J} \mathbb P(A_i)
+$$
+
+for every finite subset $$J$$ of $$I$$.
+
+Note that this means that not only pairwise [[Independence]] is required, but __''all''__ possible combinations of [[Events|Event (Probability Theory)]] have to be independent (which is a hell of a lot of work)!!
+
+Another interpretation of [[Independence|Independent Events]] is that knowing $$B$$ doesn't change the probability of $$A$$ (see [[Conditional Probability]]):
+
+$$\mathbb P(A|B) = \mathbb P(A).$$
+
+[[Independence|Independent Events]] can arise in two ways:
+
+* Sometimes we can explicitly assume it in advance (e.g. two or more coin tosses can be considered [[Independent|Independent Events]] since a coin most likely doesn't care and doesn't "remember" what was the previous toss like) - in this case we don't have to do any work, but we're responsible for this assumption
+* Other times [[Independence|Independent Events]] can be derived by verifying the above equations hold.
+
+Note that [[Disjoint Events|Disjoint Event]] __can not__ be [[Independent|Independent Events]], because:
+
+$$\mathbb P(A \cap B) = \mathbb(\empty) = 0$$,
+
+yet $$\mathbb P(A)\mathbb P(B) > 0$$.
+
+Except for this special case, there is no way to judge [[Independence|Independent Events]] by looking at [[Venn Diagrams|Venn Diagram]].

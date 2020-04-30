@@ -1,0 +1,25 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200429195303331
+modified: 20200429200405686
+tags: [[Probability Theory]] [[All of Statistics (Larry Wasserman)]]
+title: Bayes' Theorem
+tmap.id: aabeb346-6192-431c-879e-2fedaac53b3b
+type: text/vnd.tiddlywiki
+
+Let $$A_1, A_2, \ldots, A_k$$ be a [[Partition|Partition of a Set]] of <$link to="Sample Space">$$\Omega$$</$link> such that $$\mathbb P(A_i) > 0$$ for each $$i$$. If $$\mathbb P(B) > 0$$ then for each $$i = 1, \ldots, k,$$
+
+$$
+\displaystyle
+\mathbb P(A_i|B) = \frac {\mathbb P(B|A_i)\mathbb P(A_i)}
+								 {\sum_i \mathbb P(B|A_j)\mathbb(A_j)}.
+$$
+
+''Note:'' 
+
+* $$\mathbb P(A_i)$$ is called the [[Prior Probability]] of $$A$$
+* $$\mathbb P(A_i|B)$$ is called the [[Posterior Probability]] of $$A$$
+
+[[Proof|Bayes' Theorem/Proof]]

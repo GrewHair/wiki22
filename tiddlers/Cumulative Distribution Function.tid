@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200429215414863
+modified: 20200430034450710
+tags: [[Probability Theory]]
+title: Cumulative Distribution Function
+tmap.id: a7986863-513b-4107-8ac2-0e7c402c3f91
+type: text/vnd.tiddlywiki
+
+The [[Cumulative Distribution Function]] $$F_X: \R \to [0, 1]$$ of a random variable $$X$$ is defined by
+
+$$F_X(x) = \mathbb P(\{ \omega \in \Omega | X(\omega) \leq x\}) = \mathbb P(X \leq x).$$

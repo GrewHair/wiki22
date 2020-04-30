@@ -1,0 +1,21 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200429200412669
+modified: 20200429200953873
+tags: [[Probability Theory]] [[All of Statistics (Larry Wasserman)]]
+title: Bayes' Theorem/Proof
+tmap.id: 43ab3597-33bc-4c87-8ad8-84804d746264
+type: text/vnd.tiddlywiki
+
+Apply the definition of [[Conditional Probability]] twice, followed by the [[Law of Total Probability]]:
+
+$$
+\displaystyle
+\mathbb P(A_i|B) = \frac{\mathbb P(A_i \cap B)}{\mathbb P(B)}
+               = \frac{\mathbb P(B|A_i)\mathbb P(A_i)}{\mathbb P(B)}
+               = \frac{\mathbb P(B|A_i)\mathbb P(A_i)}
+							  			{\sum_j \mathbb P(B|A_j)\mathbb P(A_j)}.
+\quad\blacksquare
+$$
