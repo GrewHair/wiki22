@@ -1,11 +1,11 @@
 [
     {
         "created": "20200303132540794",
-        "text": "<<probability_distribution_summary>>\n\n\nhttps://en.wikipedia.org/wiki/Binomial_distribution",
+        "text": "<<probability_distribution_summary>>\n\nProbability of exactly $$k$$ successes out of $$n$$ trials.\n\n$$\n\\displaystyle\nB(n, p) =\n\\underbrace{\n\\underbrace{\\quad p^k\\quad}\n_{\\begin{gathered}\n\t\t\t\t\\text{prob. of}\\\\\n\t\t\t\tk\\\\\n\t\t\t\t\\text{successes}\n  \\end{gathered}}\n\\times\n\\underbrace{(1-p)^{n-k}}\n_{\\begin{gathered}\n\t\t\t\t\\text{prob. of}\\\\\n\t\t\t\tn - k\\\\\n\t\t\t\t\\text{failures}\n  \\end{gathered}}\n}_{\\text{all }n\\text{ trials covered}}\n\\times\n\\underbrace{n \\choose k}\n_{\\begin{gathered}\n\t\t\t\t\\text{num. of}\\\\\n\t\t\t\t\\text{such}\\\\\n\t\t\t\t\\text{combi-}\\\\\n\t\t\t\t\\text{nations}\n  \\end{gathered}}\n$$\n\nIt is called [[Binomial|Binomial Distribution]] because the proof that it sums up to $$1$$ involves the [[Binomial Theorem]].\n\n* If $$X_1 \\sim B(n,p_1)$$ and $$X_2 \\sim B(n,p_2)$$, then $$X_1 + X_2 \\sim B(n, p_1 + p_2)$$.\n\nhttps://en.wikipedia.org/wiki/Binomial_distribution",
         "type": "text/vnd.tiddlywiki",
         "title": "Binomial Distribution",
         "tags": "[[Probability Theory]] [[Probability Distribution]]",
-        "modified": "20200426110312137",
+        "modified": "20200430205323573",
         "tmap.id": "3edc68a3-936c-469e-b987-6710155036c4",
         ".hsk.tagged_topic": "[<currentTiddler>tags[]field:icon[_my/images/icons/topic]]",
         ".hsk.tagged_feature": "[<currentTiddler>tags[]field:icon[_my/images/icons/feature]]",

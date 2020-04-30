@@ -1,0 +1,34 @@
+.att.cdf: $$F(x) = \begin{cases}0 \quad\text{if } x<a\\ 1 \quad\text{if } x \geq a.\end{cases}
+.att.cf: 
+.att.entropy: 
+.att.fisher_info: 
+.att.kurtosis: 
+.att.mean: $$a$$
+.att.median: $$a$$
+.att.mgf: 
+.att.mode: $$a$$
+.att.notation: $$\delta_a$$
+.att.parameters: $$a$$
+.att.pdf: $$f(x) = \delta(x - a)$$
+.att.pgf: 
+.att.pmf: $$f(x) = \begin{cases}1 \quad\text{if } x=a \\ 0 \quad\text{otherwise.}\end{cases}$$
+.att.skewness: 
+.att.support: 
+.att.variance: $$0$$
+.hsk.macrocall: [[_my/macros/probability_distribution_summary]]
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200430180232179
+modified: 20200430181554932
+tags: [[Probability Distribution]] Stub
+title: Point Mass Distribution
+tmap.id: 777112c3-7ab9-4d74-b923-73194c36876c
+type: text/vnd.tiddlywiki
+
+<<probability_distribution_summary>>
+
+$$ \displaystyle X \sim \delta_a$$
+
+It is really just a non-random (i.e. deterministic) value!

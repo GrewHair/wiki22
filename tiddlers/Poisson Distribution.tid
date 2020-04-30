@@ -1,0 +1,38 @@
+.att.cdf: $$\displaystyle \frac{\Gamma(\lfloor k+1\rfloor, \lambda)}{\lfloor k \rfloor !}, \text{  or  } e^{-\lambda}\sum_{i=0}^{\lfloor k \rfloor} \frac{\lambda^i}{i!}, \text{  or  } Q(\lfloor k+1 \rfloor, \lambda)$$
+.att.cf: $$\exp[\lambda(e^{it} - 1)]$$
+.att.entropy: $$\displaystyle \lambda[1-\log(\lambda)] + e^{-\lambda}\sum_{k=0}^\infty \frac {\lambda^k \log(k!)}{k!}\\ \text{(for large }\lambda)\\ \frac 1 2\log(2\pi e\lambda) - \frac 1 {12\lambda} - \frac 1 {24\lambda^2} - \frac{19}{360\lambda^3} + O\left(\frac 1 {\lambda^4}\right)$$
+.att.fisher_info: $$\displaystyle \frac 1 \lambda$$
+.att.kurtosis: $$\lambda^{-1}$$
+.att.mean: $$\lambda$$
+.att.median: $$\approx \lfloor \lambda + 1/3 - 0.02/\lambda \rfloor$$
+.att.mgf: $$\exp[\lambda(e^t - 1)]$$
+.att.mode: $$\lceil \lambda \rceil - 1, \; \lfloor \lambda \rfloor$$
+.att.notation: $$\operatorname{Pois}(\lambda)$$
+.att.parameters: $$\lambda \in \R^+ \text{ (rate)}
+.att.pdf: 
+.att.pgf: $$\exp[\lambda(z - 1)]$$
+.att.pmf: $$\displaystyle \frac {\lambda^k e^{-\lambda}}{k!}$$
+.att.skewness: $$\lambda^{-1/2}$$
+.att.support: $$k \in \N_0$$ ([[Natural Numbers]] starting from 0)
+.att.variance: $$\lambda$$
+.hsk.macrocall: [[_my/macros/probability_distribution_summary]]
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200430210728089
+modified: 20200430213940919
+tags: [[Probability Distribution]]
+title: Poisson Distribution
+tmap.id: ac818d7e-50a8-46c1-905d-c598492f7b8a
+type: text/vnd.tiddlywiki
+
+<<probability_distribution_summary>>
+
+It is often used as a model for counts of "rare" events like traffic accidents - so a "rare version" of the [[Binomial|Binomial Distribution]].
+
+* If $$X_1 \sim \operatorname{Pois}(n, \lambda_1)$$ and $$X_2 \sim \operatorname{Pois}(n, \lambda_2)$$ then $$X_1 + X_2 \sim \operatorname{Pois}(n, \lambda_1 + \lambda_2)$$.
+
+[[Derivation|Poisson Distribution/Derivation]]
+
+[[Proof|Poisson Distribution/Proof]]

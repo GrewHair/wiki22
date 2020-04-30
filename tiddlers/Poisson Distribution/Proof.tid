@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200430213947142
+modified: 20200430214349805
+tags: [[Probability Theory]] [[All of Statistics (Larry Wasserman)]]
+title: Poisson Distribution/Proof
+tmap.id: 486543b5-2f61-43f9-a8b7-17f717744351
+type: text/vnd.tiddlywiki
+
+$$
+\displaystyle
+\sum_{x=0}^\infty f(x) = e^{-\lambda}\sum_{x=0}^\infty \frac{\lambda^x}{x!} =
+e^{-\lambda}e^\lambda = 1.
+\;\;
+\blacksquare
+$$
