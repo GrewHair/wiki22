@@ -3,8 +3,8 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200313120905282
-modified: 20200325165249447
-tags: 
+modified: 20200501015437358
+tags: Mathematics
 title: Usage of Latin Letters in Math
 tmap.id: e9713727-8bf9-4441-bf46-6ed3d8181ee0
 type: text/vnd.tiddlywiki

@@ -1,0 +1,30 @@
+.att.cdf: $$\begin{cases} 0 &\text{for } x < a \\ \displaystyle \frac{x-a}{b-a} &\text{for } x \in [a,b] \\ 1 &\text{for } x > b \end{cases}$$
+.att.cf: $$\begin{cases} \displaystyle \frac {e^{itb} - e^{ita}}{it(b-a)} &\text{for } t \neq 0 \\ 1 &\text{for } t = 0 \end{cases}$$
+.att.entropy: $$\ln(b-a)$$
+.att.fisher_info: 
+.att.kurtosis: $$\displaystyle -\frac 6 5$$
+.att.mean: $$\displaystyle \frac 1 2 (a+b)$$
+.att.median: $$\displaystyle \frac 1 2 (a+b)$$
+.att.mgf: $$\begin{cases} \displaystyle \frac {e^{tb} - e^{ta}}{t(b-a)} &\text{for } t \neq 0 \\ 1 &\text{for } t = 0 \end{cases}$$
+.att.mode: any value in $$(a, b)$$
+.att.notation: $$\mathcal U(a, b)$$
+.att.parameters: $$-\infty < a < b < \infty$$
+.att.pdf: $$\begin{cases} \displaystyle \frac 1 {b-a} &\text{for } x \in [a,b] \\ 0 &\text{otherwise} \end{cases}$$
+.att.pgf: 
+.att.pmf: 
+.att.skewness: $$0$$
+.att.support: $$x \in [a, b]$$
+.att.variance: $$\displaystyle \frac 1 {12} (b - a)^2$$
+.hsk.macrocall: [[_my/macros/probability_distribution_summary]]
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200303124736657
+modified: 20200430223449040
+tags: [[Probability Distribution]] [[Probability Theory]] [[All of Statistics (Larry Wasserman)]]
+title: Continuous Uniform Distribution
+tmap.id: 70ae4694-e1c4-4d25-b476-06fef2617f73
+type: text/vnd.tiddlywiki
+
+<<probability_distribution_summary>>

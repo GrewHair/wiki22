@@ -2,10 +2,9 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-created: 20191214152310100
-modified: 20200501224232881
-title: _my/ui/EditorToolbarElements/hsk_fields/state
-tmap.id: 25100a9b-d4df-44d8-a115-204678eedc57
-type: text/vnd.tiddlywiki
-
-show
+created: 20200501014012955
+modified: 20200501014016614
+tags: $:/tags/Stylesheet
+title: _my/stylesheets/green_hr 1
+tmap.id: 0c1e97de-1e18-4cb9-ada8-4398287015c6
+type: text/css

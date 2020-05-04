@@ -1,10 +1,10 @@
 [
     {
         "created": "20200427061525409",
-        "title": "$:/plugins/felixhayashi/tiddlymap/graph/views/foo/filter/nodes",
         "text": "",
         "type": "text/vnd.tiddlywiki",
-        "filter": "[field:tmap.id[09d22b04-516f-4ab2-8ced-3d2e4da7c98c]]",
-        "modified": "20200427061525409"
+        "title": "$:/plugins/felixhayashi/tiddlymap/graph/views/foo/filter/nodes",
+        "modified": "20200501185730621",
+        "filter": "[field:tmap.id[09d22b04-516f-4ab2-8ced-3d2e4da7c98c]] [field:tmap.id[a59c4a2e-4b49-4d14-a773-ab765fc75372]] [field:tmap.id[0bbc8a79-d358-4f51-903d-9be8706ed402]]"
     }
 ]

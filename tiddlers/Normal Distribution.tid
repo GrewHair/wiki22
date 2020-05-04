@@ -1,0 +1,39 @@
+.att.cdf: $$\displaystyle \frac 1 2 \left[ 1 + \operatorname{erf} \left( \frac {x - \mu}{\sigma \sqrt 2} \right) \right]$$
+.att.cf: $$\exp(i\mu t - \sigma^2 t^2/2)$$
+.att.entropy: $$\displaystyle \frac 1 2 \log(2\pi e \sigma^2)
+.att.fisher_info: $$\mathcal I(\mu, \sigma) = \begin{pmatrix} 1/\sigma^2 & 0 \\ 0 & 2/\sigma^2\end{pmatrix} \\ \mathcal I(\mu, \sigma^2) = \begin{pmatrix} 1/\sigma^2 & 0 \\ 0 & 1/(2\sigma^4) \end{pmatrix}$$
+.att.kullback-leibler: $$\displaystyle D_\text{KL}(\mathcal N_0 || \mathcal N_1) = \frac 1 2 \left\{ \left( \frac{\sigma_0}{\sigma_1}^2 \right) + \frac{(\mu_1 - \mu_0)^2}{\sigma^2_1} - 1 + 2\ln\frac{\sigma_1}{\sigma_0}\right\}$$
+.att.kurtosis: $$0$$
+.att.mad: $$\sigma\sqrt{2/\pi}$$
+.att.mean: $$\mu$$
+.att.median: $$\mu$$
+.att.mgf: $$\exp(\mu t + \sigma^2 t^2/2)$$
+.att.mode: $$\mu$$
+.att.notation: $$\mathcal N(\mu, \sigma^2)$$
+.att.parameters: $$\mu \in \R \\ \sigma^2 > 0$$
+.att.pdf: $$\displaystyle \frac 1 {\sigma \sqrt{2\pi}} e^{\large{- \frac 1 2 \left( \frac{x-\mu} \sigma \right)^2}}
+.att.pgf: 
+.att.pmf: 
+.att.skewness: $$0$$
+.att.support: $$x \in \R$$
+.att.variance: $$ \sigma^2 $$
+.hsk.macrocall: [[_my/macros/probability_distribution_summary]]
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200430223934739
+modified: 20200501125551576
+tags: [[Probability Distribution]] [[Probability Theory]] [[All of Statistics (Larry Wasserman)]]
+title: Normal Distribution
+tmap.id: ed000480-4875-4542-8a9b-229d48a620aa
+type: text/vnd.tiddlywiki
+
+<<probability_distribution_summary>>
+
+If $$X_i \sim N(\mu_i, \sigma^2_i), i = 1, \ldots, n$$ are [[independent|Independent Random Variables]] then
+
+$$
+\displaystyle
+\sum_{i=1}^n X_i \sim N \left(\sum_{i=1}^n \mu_i, \sum_{i=1}^n \sigma^2_i \right)
+$$

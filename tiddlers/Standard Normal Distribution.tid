@@ -1,0 +1,32 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200501123205814
+modified: 20200501125221896
+tags: [[Probability Distribution]] [[Probability Theory]] [[All of Statistics (Larry Wasserman)]]
+title: Standard Normal Distribution
+tmap.id: 38c23e84-c8ef-4290-b96d-2dd3103f230d
+type: text/vnd.tiddlywiki
+
+The [[Standard Normal Distribution]] is a [[Normal Distribution]] with the [[Parameters|Statistical Parameter]] $$\mu = 0$$ and $$\sigma^2 = 1$$.
+
+The standard notation for a [[Standard Normal|Standard Normal Distribution]] [[Random Variable]] is $$Z$$.
+
+The [[PDF|Probability Density Function]] of a [[Standard Normal|Standard Normal Distribution]] is denoted $$\phi(z)$$.
+
+The [[CDF|Cumulative Distribution Function]] of a [[Standard Normal|Standard Normal Distribution]] is denoted $$\Phi(z)$$.
+
+* If <$link to="Random Variable">$$X$$</$link> $$\sim$$ <$link to="Normal Distribution">$$N(\mu, \sigma^2)$$</$link>,  then $$\displaystyle Z = \frac{X-\mu} \sigma \sim N(0, 1)$$.
+
+* If $$Z \sim N(0, 1)$$, then $$X = \mu + \sigma Z \sim N(\mu, \sigma^2)$$.
+
+* From the above it follows that if $$X \sim N(\mu, \sigma^2)$$, then
+
+$$
+\displaystyle
+\mathbb P(a < X < b) = 
+\mathbb P\left(\frac{a - \mu} \sigma < Z < \frac{b - \sigma} \mu\right) =
+\Phi \left( \frac{b - \mu} \sigma \right) -
+\Phi \left( \frac{a - \mu} \sigma \right).
+$$

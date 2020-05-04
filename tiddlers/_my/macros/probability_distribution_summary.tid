@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200303131116136
-modified: 20200325133349833
+modified: 20200501140339223
 tags: $:/tags/Macro
 title: _my/macros/probability_distribution_summary
 tmap.id: 14028036-80e7-49de-9d04-20153fa1b26a
@@ -16,10 +16,12 @@ type: text/vnd.tiddlywiki
 |[[pmf|Probability Mass Function]]         |{{!!.att.pmf}}          |
 |[[PDF|Probability Density Function]]      |{{!!.att.pdf}}          |
 |[[CDF|Cumulative Distribution Function]]  |{{!!.att.cdf}}          |
+|[[Quantile|Quantile Function]]           |{{!!.att.quantile}}      |
 |[[Mean]]                                  |{{!!.att.mean}}         |
 |[[Median]]                                |{{!!.att.median}}       |
 |[[Mode]]                                  |{{!!.att.mode}}         |
 |[[Variance]]                              |{{!!.att.variance}}     |
+|[[MAD|Mean Absolute Deviation]]             |{{!!.att.mad}}         |
 |[[Skewness]]                              |{{!!.att.skewness}}     |
 |[[Ex. kurtosis|Kurtosis]]                 |{{!!.att.kurtosis}}     |
 |[[Entropy]]                               |{{!!.att.entropy}}      |
@@ -27,4 +29,5 @@ type: text/vnd.tiddlywiki
 |[[CF|Characteristic Function]]            |{{!!.att.cf}}           |
 |PGF                                       |{{!!.att.pgf}}          |
 |[[Fisher Information]]                    |{{!!.att.fisher_info}}  |
+|[[Kullback-Leibler Divergence]]            |{{!!.att.kullback-leibler}}|
 \end

@@ -1,0 +1,19 @@
+created: 20200501185801073
+description: this is a description of foo!!
+modified: 20200502072841832
+title: /home/boris/tiddlywiki/wiki22/tiddlers/$_/plugins/felixhayashi/tiddlymap/graph/edgeTypes/foo.tid
+tmap.id: 16e2a1f8-932a-4a8c-ace5-6f1dbabe926b
+type: text/vnd.tiddlywiki
+
+this is another line!
+
+$$\frac 1 2 \alpha$$
+
+[[link]]
+
+[[Binomial Distribution]]
+
+{{_my/images/png/correlation_matrix}}
+modified: 20200501190146878
+title: $:/plugins/felixhayashi/tiddlymap/graph/edgeTypes/foo
+type: text/vnd.tiddlywiki

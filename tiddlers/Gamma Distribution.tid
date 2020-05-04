@@ -23,11 +23,11 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-created: 20200430223709184
-modified: 20200501140533460
-tags: [[Probability Distribution]] [[Probability Theory]]
-title: _my/templates/probability_distribution
-tmap.id: 64ff8cad-01d8-45ec-bfac-4c8b3f2fae52
+created: 20200501142734080
+modified: 20200501151646824
+tags: [[Probability Distribution]] [[Probability Theory]] [[All of Statistics (Larry Wasserman)]]
+title: Gamma Distribution
+tmap.id: 20079689-9e5b-49c8-bb6e-5916f35c5a04
 type: text/vnd.tiddlywiki
 
 <<probability_distribution_summary>>

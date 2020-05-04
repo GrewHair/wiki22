@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200309201538416
-modified: 20200325163826149
+modified: 20200502174523473
 tags: [[Linear Algebra]]
 title: Singular Matrix
 tmap.id: 0bbc8a79-d358-4f51-903d-9be8706ed402
@@ -15,6 +15,5 @@ A [[Singular Matrix]] is a [[Square Matrix]] which is not [[Invertable|Invertabl
 
 Alternatively, a [[Matrix]] is [[Singular]] if and only if it's [[Determinant|Determinant of a Matrix]] is equal to zero.
 
-If an $$n \times n$$ matrix is [[Singular|Singular Matrix]], it's corresponding [[Linear Transformation|Linear Map]] maps any n-dimentional hypervolume to zero //(this is because it's [[Column Space]] is a [[subspace|Vector Subspace]] of $$\R^n$$ - see the [[Invertable Matrix Theorem]]).//
-
+If an $$n \times n$$ matrix is [[Singular|Singular Matrix]], it's corresponding [[Linear Transformation|Linear Map]] maps any n-dimentional hypervolume to zero //(this is because it's [[Column Space]] is a [[subspace|Vector Subspace]] of $$\R^n$$ - see the [[Invertable Matrix Theorem]]).// 
 [[Singular Matrices|Singular Matrix]] are [[Zero Divisors|Zero Divisor]].

@@ -1,0 +1,35 @@
+.att.cdf: $$1 - e^{-\beta x}$$
+.att.cf: $$\displaystyle \frac \beta {\beta - it}$$
+.att.entropy: $$1 - \ln \beta$$
+.att.fisher_info: $$\displaystyle \frac 1 {\beta^2}$$
+.att.kullback-leibler: $$\displaystyle \ln \frac{\beta_0} \beta + \frac \beta {\beta_0} -1$$
+.att.kurtosis: $$6$$
+.att.mad: 
+.att.mean: $$\displaystyle \frac 1 \beta$$
+.att.median: $$\displaystyle \frac {(\ln 2)} \beta$$
+.att.mgf: $$\displaystyle \frac \beta {\beta - t}, \;\text{for } t < \beta$$
+.att.mode: $$0$$
+.att.notation: $$\operatorname{Exp}(\beta)$$
+.att.parameters: $$\beta > 0$$, rate, or inverse [[Scale|Scale Parameter (Statistics)]]
+.att.pdf: $$\beta e^{-\beta x}$$
+.att.pgf: 
+.att.pmf: 
+.att.quantile: $$\displaystyle -\frac {\ln(1-F)} \beta$$
+.att.skewness: $$2$$
+.att.support: $$x \in [0, \infty)$$
+.att.variance: $$\displaystyle \frac 1 {\beta^2}
+.hsk.macrocall: [[_my/macros/probability_distribution_summary]]
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200501135907281
+modified: 20200501142704802
+tags: [[Probability Distribution]] [[Probability Theory]] [[All of Statistics (Larry Wasserman)]]
+title: Exponential Distribution
+tmap.id: 657cee7c-883b-4c9c-8254-f7bcb0a7148b
+type: text/vnd.tiddlywiki
+
+<<probability_distribution_summary>>
+
+Used to model the waiting times between rare events.
