@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200322161633216
-modified: 20200326105947221
+modified: 20200508153534336
 tags: Numpy
 title: ndarray.reshape()
 tmap.id: c7624f68-9945-4b1e-b93e-fc795000e493
@@ -15,4 +15,6 @@ For this to work, the [[Size|Numpy Array Size]] of the initial [[array|Numpy Arr
 
 Additionally one may let [[Numpy]] decide of the shape by setting one of the dimensions in the [[Shape|Numpy Array Shape]] tuple to `-1`.
 
-It can be used to convert 1-[[dimensional|Dimension]] arrays to explicit [[column|Column Vector]] and [[row vectors|Row Vector]], although sometimes it is more preferable to use [[Indexing Notation|Numpy Indexing & Slicing]] together with the [[np.newaxis]] constant, because this way the transposition can be done simultaneously with [[slicing|Numpy Indexing & Slicing]], for example, without the need to stack methods, which can make life easier.
+It can be used to convert 1-[[dimensional|Dimension]] arrays to explicit [[column|Column Vector]] and [[row vectors|Row Vector]], although sometimes it is more preferable to use [[Indexing Notation|Numpy Indexing & Slicing]] together with the <$link to="np.newaxis">`np.newaxis`</$link> constant, because this way the transposition can be done simultaneously with [[slicing|Numpy Indexing & Slicing]], for example, without the need to stack methods, which can make life easier.
+
+If you want to just flatten the non-flat array, it's easier to use <$link to="ndarray.flatten()">`ndarray.flatten()`</$link> or <$link to="ndarray.ravel()">`ndarray.ravel()`</$link> method!

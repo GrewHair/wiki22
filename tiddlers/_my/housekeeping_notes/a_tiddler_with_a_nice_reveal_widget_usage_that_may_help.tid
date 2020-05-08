@@ -3,9 +3,9 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200304104924395
-modified: 20200325133554753
+modified: 20200508160248025
 tags: 
-title: _my/_a_tiddler_with_a_nice_reveal_widget_usage_that_may_help
+title: _my/housekeeping_notes/a_tiddler_with_a_nice_reveal_widget_usage_that_may_help
 tmap.id: d536600b-f5fa-412a-9acc-746c7fd34d17
 type: text/vnd.tiddlywiki
 

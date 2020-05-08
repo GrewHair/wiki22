@@ -2,24 +2,13 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-created: 20200424002246553
-modified: 20200424003200929
-tags: 
-title: _my/that's_how_i'm_gonna_put_jupyter_snippets_into_here
-tmap.id: 78d62fb6-05a2-4481-b6dc-0eca85c39cc8
+created: 20200508162902983
+modified: 20200508163018199
+tags: Pandas
+title: df.sample()
+tmap.id: 424956b3-1a3a-42bc-9f85-b9b8f30498a1
 type: text/vnd.tiddlywiki
 
-\define some_code(foo bar)
-```python
-$foo$
-```
+take a random sample out of an axis of object
 
-aaand some postfix.. //$bar$//
-\end
-
-<<some_code "
-def foo(bar, baz):
-	return 'fuck you!'
-"
-this_should_be_italic!
->>
+https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.sample.html

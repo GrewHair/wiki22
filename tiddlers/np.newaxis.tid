@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200322164958334
-modified: 20200326114856893
+modified: 20200508153143272
 tags: Numpy
 title: np.newaxis
 tmap.id: ac653a50-877a-4b36-b1d6-8e6c6c4024f0
@@ -13,6 +13,6 @@ https://medium.com/@ian.dzindo01/what-is-numpy-newaxis-and-when-to-use-it-8cb61c
 
 `np.newaxis` is an indexing tool (think square brackets). It is really just an alias to `None` (so it's just one of [[Numpy]]'s constants).
 
-It affects the shape of the output [[Array|Numpy Array]] in the same way that a `1` in the [[ndarray.reshape()]]'s argument would, but it is meant to be used in conjunction with [[indexing|Numpy Indexing & Slicing]] instead, so you don't have to call a method - it's especially handy if you mean to [[slice|Numpy Indexing & Slicing]] your array anyway. 
+It affects the shape of the output [[Array|Numpy Array]] in the same way that a `1` in the <$link to="ndarray.reshape()">`ndarray.reshape()`</$link>'s argument would, but it is meant to be used in conjunction with [[indexing|Numpy Indexing & Slicing]] instead, so you don't have to call a method - it's especially handy if you mean to [[slice|Numpy Indexing & Slicing]] your array anyway. 
 
 `x.reshape(-1, 1)` is equivalent to `x[:, np.newaxis]`

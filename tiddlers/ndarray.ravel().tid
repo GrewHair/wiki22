@@ -1,0 +1,21 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200508153930071
+modified: 20200508154856940
+tags: Numpy
+title: ndarray.ravel()
+tmap.id: a8a3d391-56d2-40c5-ac7f-b47bf8e59cf8
+type: text/vnd.tiddlywiki
+
+`ndarray.ravel()` flattens the array.
+
+It's similar to <$link to="ndarray.flatten()">`ndarray.flatten()`</$link>, but has some differences:
+
+* It always returns a [[View|View (Numpy)]], rather than a [[Copy|Copy (Numpy)]].
+* Unlike <$link to="ndarray.flatten()">`ndarray.flatten()`</$link>, `ravel()` is a [[Library-Level Function]] and works not only on [[Numpy Arrays|Numpy Array]], but really on anything that can be parsed
+
+https://stackoverflow.com/questions/28930465/what-is-the-difference-between-flatten-and-ravel-functions-in-numpy
+
+https://stackoverflow.com/questions/28837312/what-is-the-difference-between-flatten-and-ravel-in-numpy/28846614#28846614

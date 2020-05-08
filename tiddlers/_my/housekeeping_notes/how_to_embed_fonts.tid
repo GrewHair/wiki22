@@ -3,8 +3,8 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200321140440166
-modified: 20200325164315177
-title: _my/_how_to_embed_fonts
+modified: 20200508160424308
+title: _my/housekeeping_notes/how_to_embed_fonts
 tmap.id: f53c8a1b-e92e-483e-93f0-92d5da8d6824
 type: text/vnd.tiddlywiki
 
