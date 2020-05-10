@@ -3,9 +3,9 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200504160004067
-modified: 20200505092147444
+modified: 20200510155856394
 tags: 
-title: _plotly_test
+title: _my/housekeeping_notes/plotly_test
 tmap.id: 05459c6d-8921-49c2-a373-791ae6ccae92
 type: text/vnd.tiddlywiki
 
