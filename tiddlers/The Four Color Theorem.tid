@@ -2,13 +2,11 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-created: 20191023124727838
-modified: 20200527154500262
-tags: Stub Logic [[100 Days of Logic (carneades.org)]]
-title: Logical Consequence
-tmap.id: 9870edf7-2151-41e3-906b-9d0db3ac5e0a
+created: 20200527151742836
+modified: 20200527153346283
+tags: [[MIT 6.042 Mathematics for Computer Science]]
+title: The Four Color Theorem
+tmap.id: 0f2dd989-d076-4bef-b620-bcc756a4b730
 type: text/vnd.tiddlywiki
 
-! &there4;
-
-Note that this symbol is not a [[Boolean Operator|Boolean Operations]], nor is it a [[Truth Function]]. It is in fact a [[Metalanguage]] symbol.
+The regions in any map can be coloured in four colors so that adjacent regions have different colors.

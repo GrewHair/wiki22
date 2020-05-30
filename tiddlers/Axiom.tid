@@ -1,0 +1,19 @@
+created: 20200527155554067
+modified: 20200527163035291
+tags: [[MIT 6.042 Mathematics for Computer Science]]
+title: Axiom
+tmap.id: bcf4c68c-bdd1-44d4-b770-cc276a076b66
+type: text/vnd.tiddlywiki
+
+An [[Axiom]] is a [[Proposition]] that is assumed to be [[True|Truth Value]]
+
+//Example://
+
+If $$a=b$$ and $$b=c$$, then $$a=c$$.
+
+[[Axioms|Axiom]] are bound to contexts - e.g. [[Axiom]] [[Sets|Set]] of [[Euclidian|Euclidian Geometry]], [[Spherical|Spherical Geometry]] and [[Hyperbolic Geometry]] contradict each other.
+
+Axioms should be:
+
+* [[Consistent|Consistent Set of Axioms]]
+* [[Complete|Complete Set of Axioms]]

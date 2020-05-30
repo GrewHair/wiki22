@@ -1,0 +1,112 @@
+created: 20200528061327033
+modified: 20200529202119639
+tags: [[Postgre SQL]]
+title: Psql Commands
+tmap.id: 4a6c06e3-50f0-43f6-a69a-d9dff4c54c5a
+type: text/vnd.tiddlywiki
+
+<table>
+<thead>
+<tr>
+<th>Task</th>
+<th>Psql command</th>
+<th>SQL query</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>Close connection</th>
+<td>
+<$codeblock code="\q" language="bash"/>
+</td>
+<td></td>
+</tr>
+<tr>
+<th>Connect to a database</th>
+<td><$codeblock code="\c <db_name>" language="bash"/></td>
+<td></td>
+</tr>
+<tr>
+<th>List databases</th>
+<td><$codeblock code="\l" language="bash"/></td>
+<td></td>
+</tr>
+<tr>
+<th>Show table definition & triggers</th>
+<td><$codeblock code="\d <table>" language="bash"/></td>
+<td></td>
+</tr>
+<tr>
+<th>List schemas</th>
+<td><$codeblock code="\dn" language="bash"/></td>
+<td></td>
+</tr>
+<tr>
+<th>List functions</th>
+<td><$codeblock code="\df" language="bash"/></td>
+<td></td>
+</tr>
+<tr>
+<th>List tables</th>
+<td><$codeblock code="\dt" language="bash"/></td>
+<td>
+<$codeblock code=
+"SELECT table_name
+FROM information_schema.tables
+WHERE table_schema = 'public'
+ORDER BY table_name;
+" language="sql"/>
+</td>
+</tr>
+<tr>
+<th>List views</th>
+<td><$codeblock code="\dv" language="bash"/></td>
+<td></td>
+</tr>
+<tr>
+<th>Show function SQL code</th>
+<td><$codeblock code="\df+ <name_of_function>" language="bash"/></td>
+<td></td>
+</tr>
+<tr>
+<th>Pretty format</th>
+<td><$codeblock code="\x" language="bash"/></td>
+<td></td>
+</tr>
+<tr>
+<th>Show data in a table</th>
+<td><$codeblock code="TABLE <table_name>;" language="bash"/></td>
+<td><$codeblock code="SELECT * FROM <table_name>;" language="sql"/></td>
+</tr>
+<tr>
+<th>Show first 10 rows in a table</th>
+<td></td>
+<td><$codeblock code="SELECT * FROM <table_name> LIMIT 10;" language="sql"/></td>
+</tr>
+<tr>
+<th>Create a database</th>
+<td><$codeblock code="CREATE DATABASE <database_name>;" language="sql"/></td>
+<td></td>
+</tr>
+<tr>
+<th>Extend a database with TimescaleDB</th>
+<td></td>
+<td><$codeblock code="CREATE EXTENSION IF NOT EXISTS timescaledb CASCADE;" language="sql"/></td>
+</tr>
+<tr>
+<th>Quit</th>
+<td><$codeblock code="\q" language="bash"/></td>
+<td></td>
+</tr>
+<tr>
+<th>List hypertables</th>
+<td></td>
+<td><$codeblock code="SELECT * FROM _timescaledb_catalog.hypertable;" language="sql"/></td>
+</tr>
+<tr>
+<th>Convert a table to a hypertable (and set chunk size to be 1 hour)</th>
+<td></td>
+<td><$codeblock code="SELECT create_hypertable(<table_name>, <time_column_name>, migrate_data => TRUE, chunk_time_interval => 3600000000);" language="sql"/></td>
+</tr>
+</tbody>
+</table>

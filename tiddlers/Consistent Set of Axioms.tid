@@ -1,0 +1,8 @@
+created: 20200527160550438
+modified: 20200527160724813
+tags: [[MIT 6.042 Mathematics for Computer Science]]
+title: Consistent Set of Axioms
+tmap.id: bffc260f-9a29-4bdd-a429-53fd4c3e9403
+type: text/vnd.tiddlywiki
+
+A [[Set]] of [[Axioms|Axiom]] is [[Consistent|Consistent Set of Axioms]] if no [[Proposition]] can be proved to be both [[True|Truth Value]] and [[False|Truth Value]].

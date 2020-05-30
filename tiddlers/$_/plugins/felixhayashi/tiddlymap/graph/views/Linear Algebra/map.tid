@@ -1,5 +1,5 @@
 created: 20200325183336942
-modified: 20200325183336943
+modified: 20200515131020131
 title: $:/plugins/felixhayashi/tiddlymap/graph/views/Linear Algebra/map
 type: text/vnd.tiddlywiki
 
@@ -222,8 +222,8 @@ type: text/vnd.tiddlywiki
   "y": 45
  },
  "3d3352fe-5d6a-4ff4-a148-5e623e0ba14e": {
-  "x": -66,
-  "y": -243
+  "x": -111,
+  "y": -304
  },
  "cd3847f0-d740-4c9d-ae5b-cffe31c09fde": {
   "x": 128,

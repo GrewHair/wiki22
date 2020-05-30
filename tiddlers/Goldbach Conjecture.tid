@@ -1,0 +1,10 @@
+created: 20200527153440594
+modified: 20200527153727605
+tags: [[MIT 6.042 Mathematics for Computer Science]]
+title: Goldbach Conjecture
+tmap.id: dcbcba7b-0bf5-477d-b45d-4db68b949948
+type: text/vnd.tiddlywiki
+
+Every even [[Integer|Integers]] but $$2$$ is the sum of two [[Primes|Prime Numbers]].
+
+It is not proved yet
