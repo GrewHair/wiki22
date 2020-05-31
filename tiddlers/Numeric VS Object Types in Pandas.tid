@@ -1,0 +1,17 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[_my/images/png/numeric_vs_string_in_pandas]]
+created: 20200531165644220
+modified: 20200531170322344
+tags: Python Pandas Numpy
+title: Numeric VS Object Types in Pandas
+tmap.id: 99b55e3b-c45e-4500-8fe2-d1c379a20948
+type: text/vnd.tiddlywiki
+
+[[Numpy]] lacks support for `string` type, therefore [[Pandas]] just stores strings in the `object` type, which is nothing but [[Python String Objects|Python String Object]].
+
+This type is ineffecient in terms of memory usage, because each element of the `object` type is really a [[Pointer]] that contains the address of the actual value's location in memory (due to [[Python]]'s mechanism) - hence the overhead.
+
+{{_my/images/png/numeric_vs_string_in_pandas}}

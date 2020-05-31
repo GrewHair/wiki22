@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200531170816074
+modified: 20200531171152947
+tags: Pandas
+title: Pandas Categorical Data
+tmap.id: b0864df0-83b2-4b83-b261-21838a4cabb9
+type: text/vnd.tiddlywiki
+
+https://pandas.pydata.org/pandas-docs/stable/user_guide/categorical.html
+
+[[Pandas]] features the [[Categorical|Pandas Categorical Data]] type since 0.15. It can be very handy when working with [[Medium-sized Datasets]], because it consumes much less memory than the [[Object Type|Pandas Object Type]] ([[see this for explapation|Numeric VS Object Types in Pandas]]).

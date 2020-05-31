@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200531021437823
+modified: 20200531021828231
+tags: Python
+title: Literal
+tmap.id: 80b1c44a-2944-4de4-9296-e779a7e97c87
+type: text/vnd.tiddlywiki
+
+* //int// literals: `6`, `3`, `-2`, ...
+* //float// literals: `6.0`, `-3.2`, `4.5E10`, ...
+* //str// literals: `'hi there'`, `"how are you"`, ...
+* //list// literals: `[]`, `[6, 'hi']`
+* //dict// literals: `{}`, `{'hi there': 5, 'how are you': 3}`

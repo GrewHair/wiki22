@@ -1,0 +1,23 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200531020753054
+modified: 20200531021430693
+tags: Python
+title: Assignment
+tmap.id: 484d48cc-b3b8-48c0-b013-c39444abb70e
+type: text/vnd.tiddlywiki
+
+All [[Assignments|Assignment]] in [[Python]] point [[References|Reference]] at [[Objects|Object]].
+
+//Example://
+
+```python
+x = 6
+```
+
+* On the left of the assignment operator (`=`) is a [[Reference]]
+* On the right of the assignment operator there may be:
+** either another [[Reference]]
+** or a newly created [[Object]]
