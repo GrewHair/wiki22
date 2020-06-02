@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200602074356068
+modified: 20200602074544149
+tags: [[Learning SQL by Alan Beaulieu]]
+title: Optimizer Hints
+tmap.id: 434d1c1d-b5c7-4c85-8e87-6ed900fe1ed5
+type: text/vnd.tiddlywiki
+
+[[Optimizer Hints]] are a way for a user of a [[Database]] to alter [[Optimizer|Query Optimizer]]'s behaviour.

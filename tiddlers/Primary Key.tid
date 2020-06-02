@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200602065830356
+modified: 20200602070035784
+tags: [[Learning SQL by Alan Beaulieu]]
+title: Primary Key
+tmap.id: e633c72a-fced-4c96-94a8-447b0f150a16
+type: text/vnd.tiddlywiki
+
+A [[Primary Key]] is one or more [[Columns|Column]] that are used as a unique identifier for each [[Row]] in a [[Table]].

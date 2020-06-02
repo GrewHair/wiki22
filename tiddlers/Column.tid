@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200602064241500
+modified: 20200602064423201
+tags: [[Learning SQL by Alan Beaulieu]]
+title: Column
+tmap.id: 5397558d-0d69-4e48-b2e0-c88a0575f04d
+type: text/vnd.tiddlywiki
+
+A [[Column]] is an individual piece of data stored in a [[Table]].

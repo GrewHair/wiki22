@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200602064130800
+modified: 20200602064316375
+tags: [[Learning SQL by Alan Beaulieu]]
+title: Entity
+tmap.id: 9becdb85-d3b9-4b9e-ab99-5de3dcd22512
+type: text/vnd.tiddlywiki
+
+An [[Entity]] is something of interest to the [[Database]] user community (e.g. a customer, a product, etc.)
