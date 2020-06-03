@@ -1,0 +1,13 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200603154734324
+modified: 20200603155000063
+tags: [[Learning SQL by Alan Beaulieu]]
+title: SQL
+tmap.id: 16d51e6e-afb2-4e78-a2b9-ab8017f60111
+type: text/vnd.tiddlywiki
+
+* [[SQL]] is [[Declarative|Declarative Programming]] (non-imperative)
+* [[SQL]]'s keywords are case-insensitive

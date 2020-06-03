@@ -1,0 +1,22 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200603105540379
+modified: 20200603111105763
+tags: [[Learning SQL by Alan Beaulieu]]
+title: MySQL Text Types
+tmap.id: adfaf545-cdcb-4c23-87b3-9004f3c6a8e5
+type: text/vnd.tiddlywiki
+
+|!Text type|!Maximum number of bytes|
+|`Tinytext`|255|
+|`Text`|65,535|
+|`Mediumtext`|16,777,215|
+|`Longtext`|4,294,967,295|
+
+* If the data exceeds the maximum size, it will be truncated
+* Trailing spaces are not removed
+* By default, only 1,024 bytes are used for sorting or grouping
+* The multitude of text types is unique to [[MySQL]]
+* `Tinytext` and `Text` types are by today obsolete since the <$link to="MySQL Text Types">`varchar`</$link> type now is allowed to be up to 65,535 bytes (it was only 255 bytes before)

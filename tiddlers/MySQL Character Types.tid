@@ -1,0 +1,31 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200603095841134
+modified: 20200603110344778
+tags: [[Learning SQL by Alan Beaulieu]]
+title: MySQL Character Types
+tmap.id: 04d0bc29-bf59-4cba-aa11-aa997918b8ea
+type: text/vnd.tiddlywiki
+
+* `char` - fixed-lenght strings
+* `varchar` - variable-lenght strings
+
+''Note:'' you always must specify the maximum number of characters when defining a [[Character|MySQL Character Types]] [[Column]]. E.g.:
+
+```sql
+char(20)
+varchar(20)
+```
+
+The maximum length is 255 bytes for `char` [[Columns|Column]] and 65,535 bytes for `varchar` [[Columns|Column]].
+
+For storage of longer text (e.g. [[XML]] documents, emails, etc.) one should use [[Text Types|MySQL Text Types]] like`mediumtext` or `longtext`.
+
+* To specify character set:
+*><$codeblock code="varchar(20) character set utf8;" language='sql'/>
+* To view supported character sets:
+*><$codeblock code="SHOW CHARACTER SET;" language='sql'/>
+* To set the default character set for a [[Database]]:
+*><$codeblock code="create database foreign_sales character set utf8" language='sql'/>

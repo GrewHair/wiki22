@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200603152446802
+modified: 20200603152900503
+tags: [[Learning SQL by Alan Beaulieu]]
+title: CHECK Constraint
+tmap.id: 66d88c07-e888-4dfe-a1f9-96bc9aef665a
+type: text/vnd.tiddlywiki
+
+The [[CHECK Constraint]] is a type of [[Constraint|SQL Constraints]] that is used to limit the range of values that can be placed in a [[Column]].
+
+''Example:''
+
+```sql
+gender CHAR(1) CHECK (gender IN ('M', 'F')),
+```

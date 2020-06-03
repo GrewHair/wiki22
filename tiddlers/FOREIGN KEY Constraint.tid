@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200603162844580
+modified: 20200603164451881
+tags: [[Learning SQL by Alan Beaulieu]]
+title: FOREIGN KEY Constraint
+tmap.id: af484d21-ab41-4900-992d-de029a978dd0
+type: text/vnd.tiddlywiki
+
+The [[FOREIGN KEY Constraint]] is a type of [[Constraint|SQL Constraints]] that sets one or a combination of several [[Columns|Column]] in a [[Table]] to serve as a [[Foreign Key]] referencing another [[Table]], i.e. the [[Column]] subject to it is constrained to include //only// values found in the [[Primary Key]] of the [[Referenced|REFERENCES]] [[Table]].
+
+With this constraint in place, one will not be able to add a [[Row]] to the [[Table]] if the value of of the [[Foreign Key]] in it is not already present in the [[Primary Key]] of the [[Referenced|REFERENCES]] [[Table]].
+
+''Example:''
+
+```sql
+CONSTRAINT fk_fav_food_person_id FOREIGN KEY (person_id) REFERENCES person (person_id)
+```

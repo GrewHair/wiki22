@@ -1,0 +1,30 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200603121608147
+modified: 20200603123735225
+tags: [[Learning SQL by Alan Beaulieu]]
+title: MySQL Temporal Types
+tmap.id: da7906fe-c789-4de8-a536-d243dac7b197
+type: text/vnd.tiddlywiki
+
+|!Type|!Default format|!Allowable values|
+|`Date`|`YYYY-MM-DD`|1000-01-01 to 9999-12-31|
+|`Datetime`|`YYYY-MM-DD HH:MI:SS`|1000-01-01 00:00:00 to 9999-12-31 23:59:59|
+|`Timestamp`|`YYYY-MM-DD HH:MI:SS`|1970-01-01 00:00:00 to 2037-12-31 23:59:59|
+|`Year`|`YYYY`|1901 to 2155|
+|`Time`|`HHH:MI:SS`|-838:59:59 to 838:59:59|
+
+The `timestamp` type holds the same information as the `datetime` type, but a `timestamp` [[Column]] is automatically populated with the current date/time by the [[MySQL]] server when a row is added to a [[Table]] or when a [[Row]] is later modified.
+
+''Date format components''
+
+|!Component|!Definition|!Range|
+|`YYYY`|Year, including century| 1000 to 9999|
+|`MM`|Month|01 (January) to 12 (December)|
+|`DD`|Day|01 to 31|
+|`HH`|Hour|00 to 23|
+|`HHH`|Hours (elapsed)| -838 to 838|
+|`MI`|Minute|00 to 59|
+|`SS`|Second|00 to 59|

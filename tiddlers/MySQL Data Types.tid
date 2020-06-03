@@ -1,0 +1,15 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200603095625917
+modified: 20200603121602748
+tags: [[Learning SQL by Alan Beaulieu]]
+title: MySQL Data Types
+tmap.id: 2313963f-ee29-4986-ba05-80c74950a8ef
+type: text/vnd.tiddlywiki
+
+* [[Character Types|MySQL Character Types]]
+* [[Text Types|MySQL Text Types]]
+* [[Temporal Types|MySQL Temporal Types]]
+* [[Numeric Types|MySQL Numeric Types]]

@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200603150305808
+modified: 20200603164501947
+tags: [[Learning SQL by Alan Beaulieu]]
+title: PRIMARY KEY Constraint
+tmap.id: 1ab01e28-65c1-411b-8d48-511d5d99acb5
+type: text/vnd.tiddlywiki
+
+The [[PRIMARY KEY Constraint]] is a type of [[Constraint|SQL Constraints]] that sets one or a combination of several [[Columns|Column]] in a [[Table]] to serve as its [[Primary Key]].
+
+''Example:''
+
+```sql
+CONSTRAINT pk_person PRIMARY KEY (person_id)
+```

@@ -1,0 +1,36 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200603111210754
+modified: 20200603114655618
+tags: [[Learning SQL by Alan Beaulieu]]
+title: MySQL Numeric Types
+tmap.id: a3ceb5f1-70d1-46cc-a716-5840398c2e9d
+type: text/vnd.tiddlywiki
+
+* ''Integer types''
+
+|!Type|!Signed range|!Unsigned range|
+|`Tinyint`|-128 to 127|0 to 255|
+|`Smallint`|-32,768 to 32,767|0 to 65,535|
+|`Mediumint`|-8,388,608 to 8,388,607|0 to 16,777,215|
+|`Int`|-2,147,483,648 to 2,147,483,647|0 to 4,294,967,295|
+|`Bigint`|-9,223,372,036,854,775,808 to 9,223,372,036,854,775,807|0 to 18,446,744,073,709,551,615|
+
+* ''Floating-point types''
+
+|!Type|!Numeric range|
+|`Float(p,s)`|-3.402834577E+38 to -1.175494351E-38 and 3.402823466E+38|
+|`Double(p,s)`|-1.7976931348623157E+308 to -2.2250738585072014E-308 and 2.2250738585072014E-308 to 1.7976931348623157E+308|
+
+For floating-point types you can specify:
+
+* //precision// - the total number of allowable digits both to the left and to the right of the decimal point
+* //scale// - the number of allowable digits to the right of the decimal point
+
+This is not required, but if they //are// specified, then the data stored in this column will be rounded accordingly.
+
+E.g., `float(4,2)` will store a total of four digits, two to the left and two to the right of the decimal point.
+
+Both integer and floating-point types can be defined as `unsigned` - this will prevent negative numbers from being stored.
