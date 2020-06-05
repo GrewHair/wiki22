@@ -1,0 +1,23 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200604225115181
+modified: 20200604225311436
+tags: 
+title: _my/housekeeping_notes/plantuml_example
+tmap.id: a7a5ef1b-3e87-4cef-97b2-7b5deef33267
+type: text/vnd.tiddlywiki
+
+[[plantuml width="300px" tooltip="The Real Hunger Games™?" [
+title Vegan Nutrition
+repeat
+while (Hungry?) is (Yes)
+  :Eat Healthy;
+  note right
+    No Animal Products
+    Certainly No Dairy
+  end note
+endwhile (No)
+repeatwhile (Go To Sleep)
+]]]

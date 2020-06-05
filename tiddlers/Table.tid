@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200602064758854
-modified: 20200602065429244
+modified: 20200605043146298
 tags: [[Learning SQL by Alan Beaulieu]]
 title: Table
 tmap.id: 89a52edc-b602-4e31-add6-ab5fd000f379
@@ -12,3 +12,9 @@ type: text/vnd.tiddlywiki
 ''AKA Relation''
 
 A [[Set]] of [[Rows|Row]] held either in non-persistent memory (in which case it is usually called a [[View|Result Set]]) or on permanent storage.
+
+Generally, there are three types of [[Tables|Table]] in [[SQL]]:
+
+* Permanent tables (i.e. created with the `CREATE TABLE` statement)
+* Temporary tables (i.e., rows returned by a [[Subquery]])
+* [[Virtual Tables|Virtual Table]] (i.e., created using the `CREATE VIEW` statement)

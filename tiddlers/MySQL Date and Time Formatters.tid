@@ -1,0 +1,24 @@
+created: 20200604204819770
+modified: 20200604212431595
+tags: [[Learning SQL by Alan Beaulieu]]
+title: MySQL Date and Time Formatters
+tmap.id: d594f0f9-5422-410c-b8e1-fa70021e6dc2
+type: text/vnd.tiddlywiki
+
+|!Formatter|!Description|!Example|
+|`%a`|The short weekday name|Sun, Mon, ...|
+|`%b`|The short month name|Jan, Feb, ...|
+|`%c`|The numeric month|0..12|
+|`%d`|The numeric day of the month|0..31|
+|`%f`|The number of microseconds|000000..999999|
+|`%H`|The hour of the day in 24-hour format|00..23|
+|`%h`|The hour of the day in 12-hour format|01..12|
+|`%i`|The minutes within the hour|00..59|
+|`%j`|The day of year|001..366|
+|`%M`|The full month name|January..December|
+|`%m`|The numeric month||
+|`%p`|AM or PM||
+|`%s`|The number of seconds|00..59|
+|`%W`|The full weekday name|Sunday..Saturday|
+|`%w`|The numeric day of the week|0=Sunday..6=Saturday|
+|`%Y`|The four-digit year||

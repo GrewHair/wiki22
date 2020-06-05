@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200604204324896
+modified: 20200604212626490
+tags: [[Learning SQL by Alan Beaulieu]]
+title: Specifying the Date Format
+tmap.id: f2d3b5d1-54aa-4f3f-8e41-69030cc38c37
+type: text/vnd.tiddlywiki
+
+Here's how one can explicitly specify the date format string in a query in order for the server to parse it correctly:
+
+```sql
+UPDATE person
+SET birth_date = str_to_date('DEC-21-1980', '%b-%d-%Y')
+WHERE person_id = 1;
+```
+
+[[See the list of formatters|MySQL Date and Time Formatters]]

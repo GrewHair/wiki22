@@ -2,13 +2,12 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-created: 20200602071316593
-modified: 20200604201321568
+created: 20200604213715485
+modified: 20200604213906267
 tags: [[Learning SQL by Alan Beaulieu]]
-title: SQL Statement Classes
-tmap.id: d05d632e-5ab7-40bf-8a03-e1d9b937fd13
+title: SQL Schema Statements
+tmap.id: 0b3ea68a-0ce9-4a3d-87a6-a8b644b9bf80
 type: text/vnd.tiddlywiki
 
-* [[SQL Schema Statements]]
-* [[SQL Data Statements]]
-* [[SQL Transaction Statements]]
+* <$link to="CREATE"><$codeblock code="CREATE" language="sql"/></$link>
+* <$link to="DROP"><$codeblock code="DROP" language="sql"/></$link>

@@ -3,13 +3,13 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200603165719760
-modified: 20200603170124434
+modified: 20200604203513690
 tags: [[Learning SQL by Alan Beaulieu]]
 title: SQL Data Statements
 tmap.id: fa1006aa-25d7-4d85-84ba-a30b8a41a8a0
 type: text/vnd.tiddlywiki
 
-* <$codeblock code="INSERT" language="sql"/>
-* <$codeblock code="UPDATE" language="sql"/>
-* <$codeblock code="DELETE" language="sql"/>
-* <$codeblock code="SELECT" language="sql"/>
+* <$link to="INSERT"><$codeblock code="INSERT" language="sql"/></$link>
+* <$link to="UPDATE"><$codeblock code="UPDATE" language="sql"/></$link>
+* <$link to="DELETE"><$codeblock code="DELETE" language="sql"/></$link>
+* <$link to="SELECT"><$codeblock code="SELECT" language="sql"/></$link>

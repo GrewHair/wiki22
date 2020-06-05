@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200603154024676
-modified: 20200603154451463
+modified: 20200605022511972
 tags: 
 title: scratch (pandas & sql)
 tmap.id: 845f7d52-a5aa-495f-83d3-3fd685987b99
@@ -12,3 +12,4 @@ type: text/vnd.tiddlywiki
 |!pandas|!SQL|
 |<$codeblock code="df.describe()" language="python"/>|<$codeblock code="DESCRIBE" language="sql"/>|
 |<$codeblock code="df.drop()" language="python"/>|<$codeblock code="DROP" language="sql"/>|
+|<$codeblock code="df.groupby()" language="python"/>|<$codeblock code="GROUP BY" language="sql"/>|

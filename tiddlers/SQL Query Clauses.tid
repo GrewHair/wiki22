@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200605021820284
+modified: 20200605023218314
+tags: [[Learning SQL by Alan Beaulieu]]
+title: SQL Query Clauses
+tmap.id: 1cf4e856-ae4c-4365-958d-264e9c534665
+type: text/vnd.tiddlywiki
+
+|!Clause name|!Purpose|
+|`SELECT`|Determines which columns to include in the query's result set|
+|`FROM`|Identifies the tables from which to draw data and how the tables should be joined|
+|`WHERE`|Filters out unwanted data|
+|`GROUP BY`|Used to group rows together by common column values|
+|`HAVING`|Filters out unwanted groups|
+|`ORDER BY`|Sorts the rows of the final result set by one or more columns|
+
+Only the `SELECT` clause is mandatory!

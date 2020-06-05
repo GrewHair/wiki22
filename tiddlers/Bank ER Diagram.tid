@@ -1,0 +1,146 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200605001253496
+modified: 20200605014959107
+tags: [[Learning SQL by Alan Beaulieu]]
+title: Bank ER Diagram
+tmap.id: 2bbc204b-120f-4e6d-94d5-2001a1768dc3
+type: text/vnd.tiddlywiki
+
+<$scrollable class="tc-scrollable-plantuml-1">
+[[plantuml tooltip="The Real Hunger Games™?" [
+@startuml
+
+skinparam linetype ortho
+skinparam monochrome reverse
+hide circle
+
+entity "branch" as branch {
+	**branch_id : smallint unsigned <<PK>>**
+	--
+	name : varchar(30)
+	address : varchar(30)
+	city :varchar(20)
+	state : varchar(2)
+	zip : varchar(12)
+}
+
+entity "department" as department {
+	**dept_id : smallint unsigned <<PK>>**
+	--
+	name : varchar(20)
+}
+
+entity "product_type" as product_type {
+	**product_type_cd : varchar(10) <<PK>>**
+	--
+	name : varchar(50)
+}
+
+entity "employee" as employee {
+	**emp_id : smallint unsigned <<PK>>**
+	--
+	fname : varchar(20)
+	lname : varchar(20)
+	start_date : date
+	end_date : date
+	superior_emp_id : smallint unsigned <<FK>>
+	dept_id : smallint unsigned <<FK>>
+	title : varchar(20)
+	assigned_branch_id : smallint unsigned <<FK>>
+}
+
+entity "product" as product {
+	**product_cd : varchar(10) <<PK>>**
+	--
+	name : varchar(50)
+	product_type_cd : varchar(10) <<FK>>
+	date_offered : date
+	date_retired : date
+}
+
+entity "account" as account {
+	**account_id : integer unsigned <<PK>>**
+	--
+	product_id : varchar(10) <<FK>>
+	cust_id : integer unsigned <<FK>>
+	open_date : date
+	close_date : date
+	last_activity_date : date
+	status : varchar(10)
+	open_branch_id : smallint unsigned <<FK>>
+	open_emp_id : smallint unsigned <<FK>>
+	avail_balance : float(10,2)
+	pending_balance : float(10,2)
+}
+
+entity "transaction" as transaction {
+	**txn_id : integer unsigned <<PK>>**
+	--
+	txn_date : datetime
+	account_id : integer unsigned <<FK>>
+	txn_type_cd : varchar(10)
+	amount : double(10,2)
+	teller_emp_id : smallint unsigned <<FK>>
+	execution_branch_id : smallint unsigned <<FK>>
+	funds_avail_date : datetime
+}
+
+entity "customer" as customer {
+	**cust_id : integer unsigned <<PK>>**
+	--
+	fed_id : varchar(12)
+	cust_type_cd : char(2)
+	address : varchar(30)
+	city : varchar(20)
+	state : varchar(20)
+	postal_code : varchar(10)
+}
+
+entity "officer" as officer {
+	**officer_id : smallint unsigned <<PK>>**
+	cust_id : integer unsigned <<FK>>
+	--
+	fname : varchar(30)
+	lname : varchar(30)
+	title : varchar(20)
+	start_date : date
+	end_date : date
+}
+
+entity "business" as business {
+	**cust_id : integer unsigned <<FK>>**
+	--
+	name : varchar(40)
+	state_id : varchar(10)
+	incorp_date : date
+}
+
+entity "individual" as individual {
+	**cust_id : integer unsigned <<FK>>**
+	--
+	fname : varchar(30)
+	lname : varchar(30)
+	birth_date : date
+}
+
+branch |o..o{ account
+branch |o..o{ employee
+branch |o..o{ transaction
+department |o..o{ employee
+employee |o..o{ employee
+employee |o..o{ account
+employee |o..o{ transaction
+product }o..|| product_type
+account }o..|| product
+account ||..o{ transaction
+account }o..|| customer
+customer ||..o{ business
+customer ||..o{ individual
+officer }o..|| business
+
+@enduml
+]]]
+</$scrollable>

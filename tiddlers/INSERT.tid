@@ -1,0 +1,12 @@
+created: 20200604200249388
+modified: 20200604200419448
+tags: [[Learning SQL by Alan Beaulieu]]
+title: INSERT
+tmap.id: 01e47b87-c870-4b52-8749-9417a8dc74e9
+type: text/vnd.tiddlywiki
+
+```sql
+INSERT INTO person
+	(person_id, fname, lname, gender, birth_date)
+	VALUES (null, 'William', 'Turner', 'M', '1972-05-27');
+```

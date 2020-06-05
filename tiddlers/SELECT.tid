@@ -1,0 +1,13 @@
+created: 20200604201003187
+modified: 20200604201042405
+tags: [[Learning SQL by Alan Beaulieu]]
+title: SELECT
+tmap.id: 0c5cc6e8-81a0-4de5-aad5-03167c062eb7
+type: text/vnd.tiddlywiki
+
+```sql
+SELECT food
+FROM favorite_food
+WHERE person_id = 1
+ORDER BY food;
+```

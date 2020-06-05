@@ -1,0 +1,36 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200604180013062
+modified: 20200604191505249
+tags: [[Learning SQL by Alan Beaulieu]]
+title: Database Example #1
+tmap.id: d251296f-d052-4e7e-a792-bead940d3253
+type: text/vnd.tiddlywiki
+
+Let's say we need to store different peoples' favourite foods. Let's look at the requirements it must satisfy:
+
+* one person may have several favourite foods
+* two or more different persons may have an overlap in favourite foods, which should not be mixed
+*it is not desirable to store lists of foods in one [[Column]] as text, since the lengths of lists may vary from person to person, and this way it will for example be hard to judge if tho persons have overlapping tastes, because it would involve parsing, which is a pain in the arse.
+
+So, given that we already have the `person` [[Table]] with a [[Primary Key]] "`person_id`", how would we store lists of foreign foods of these different persons using the [[Relational Model]]?
+
+One solution is to create a [[Table]] with two [[Columns|Column]]:
+
+* `person_id`, which will be the [[Foreign Key]], referencing the `person` [[Table]]
+* `food`, which will store exactly one food
+* the [[Primary Key]] will be [[Composite|Composite Key]]: it will consist of both the `person_id` and `food` columns:
+
+```sql
+CREATE TABLE favorite_food
+	(person_id SMALLINT UNSIGNED,
+	food VARCHAR(20),
+	CONSTRAINT pk_favorite_food PRIMARY KEY (person_id, food),
+	CONSTRAINT fk_fav_food_person_id FOREIGN KEY (person_id)
+		REFERENCES person (parson_id)
+	);
+```
+
+This way, neither of the two columns is forced to be unique, which is what we want (see the first two bullet points of the first list), and each [[Record|Row]] contains exactly one type of food, so they're easy to distinguish!

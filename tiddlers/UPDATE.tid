@@ -1,0 +1,16 @@
+created: 20200604200508111
+modified: 20200604200638050
+tags: [[Learning SQL by Alan Beaulieu]]
+title: UPDATE
+tmap.id: a478f67a-2cf1-4f85-9feb-5a4e276b3f2c
+type: text/vnd.tiddlywiki
+
+```sql
+UPDATE person
+SET street = '1225 Tremont St.',
+	city = 'Boston',
+	state = 'MA',
+	country = 'USA',
+	postal_code = '02138'
+WHERE person_id = 1;
+```

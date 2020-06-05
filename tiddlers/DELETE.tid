@@ -1,0 +1,11 @@
+created: 20200604203540173
+modified: 20200604203606379
+tags: [[Learning SQL by Alan Beaulieu]]
+title: DELETE
+tmap.id: 00589c61-4fb6-4907-8f37-9283d69154f6
+type: text/vnd.tiddlywiki
+
+```sql
+DELETE FROM person
+WHERE person_id = 2;
+```

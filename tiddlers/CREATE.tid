@@ -1,0 +1,22 @@
+created: 20200604214030566
+modified: 20200604214320770
+tags: [[Learning SQL by Alan Beaulieu]]
+title: CREATE
+tmap.id: 31295708-da35-4d25-81dc-d0dcad83a0b8
+type: text/vnd.tiddlywiki
+
+```sql
+CREATE TABLE person
+	(person_id SMALLINT UNSIGNED,
+	fname VARCHAR(20),
+	lname VARCHAR(20),
+	gender CHAR(1),
+	birth_date DATE,
+	street VARCHAR(30),
+	city VARCHAR(20),
+	state VARCHAR(20),
+	country VARCHAR(20),
+	postal_code VARCHAR(20),
+	CONSTRAINT pk_person PRIMARY KEY (person_id)
+	);
+```

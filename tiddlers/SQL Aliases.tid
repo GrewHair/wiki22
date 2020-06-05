@@ -1,0 +1,13 @@
+created: 20200605044248411
+modified: 20200605044647847
+tags: [[Learning SQL by Alan Beaulieu]]
+title: SQL Aliases
+tmap.id: 22b6127f-8ff7-4b2f-b5fe-94e9ba0bcb7a
+type: text/vnd.tiddlywiki
+
+[[SQL Aliases]] are used to give a [[Table]] or a [[Column]] a temporary name. Thus, there are two types:
+
+* [[Column Alias]]
+* [[Table Alias|SQL Aliases]]
+
+An [[Alias|SQL Aliases]] only exists for the duration of the [[Query|SQL Query]].

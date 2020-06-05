@@ -1,0 +1,24 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200605042920961
+modified: 20200605044810132
+tags: [[Learning SQL by Alan Beaulieu]]
+title: Subquery
+tmap.id: db342d87-12da-46ea-ac14-0f15f284d8eb
+type: text/vnd.tiddlywiki
+
+* A [[Subquery]] is a [[SQL Query]] within a [[Query|SQL Query]]
+* [[Subqueries|Subquery]] are nested [[Queries|Query]] that provide data to the enclosing [[Query|SQL Query]]
+* [[Subqueries|Subquery]] can return individual values or a list of records
+* [[Subqueries|Subquery]] must be enclosed with parenthesis
+
+```sql
+SELECT e.emp_id, e.frame, e.lname
+FROM (SELECT emp_id, fname, lname, start_date, title
+	  FROM employee) e;
+```
+In this example, `e` is a [[Table Alias|SQL Aliases]].
+
+https://www.dofactory.com/sql/subquery

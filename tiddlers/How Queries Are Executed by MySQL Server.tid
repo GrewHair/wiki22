@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200605020512861
+modified: 20200605021525007
+tags: [[Learning SQL by Alan Beaulieu]]
+title: How Queries Are Executed by MySQL Server
+tmap.id: 490425ca-015d-47d9-8d24-036f867c76eb
+type: text/vnd.tiddlywiki
+
+Each time a [[Query]] is sent to the [[Server|Database Server]], the [[Server|Database Server]] checks the following things prior to statement execution:
+
+* Do you have permission to execute the statement?
+* Do you have permission to access the desired data?
+* Is your statement syntax correct?
+
+If all three tests are passed successfully, then the query is handed to the [[Query Optimizer]]. It picks an [[Execution Plan]].
+
+Once the [[Server|Database Server]] has finished executing the [[Query]], the [[Result Set]] is returned to the calling application.
