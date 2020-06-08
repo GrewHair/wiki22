@@ -1,0 +1,17 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200608133319797
+modified: 20200608141814132
+tags: [[Learning SQL by Alan Beaulieu]]
+title: SQL Set Operators
+tmap.id: 88d58abe-7953-4ff5-9a19-fd74b69577fe
+type: text/vnd.tiddlywiki
+
+* <$link to="UNION"><$codeblock code="UNION" language="sql"/></$link>
+* <$link to="UNION ALL"><$codeblock code="UNION ALL" language="sql"/></$link>
+* <$link to="INTERSECT"><$codeblock code="INTERSECT" language="sql"/></$link>
+* <$link to="INTERSECT ALL"><$codeblock code="INTERSECT ALL" language="sql"/></$link>
+* <$link to="EXCEPT"><$codeblock code="EXCEPT" language="sql"/></$link>
+* <$link to="EXCEPT ALL"><$codeblock code="EXCEPT ALL" language="sql"/></$link>

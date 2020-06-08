@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200608161155990
+modified: 20200608170931383
+tags: [[Learning SQL by Alan Beaulieu]]
+title: SQL Functions
+tmap.id: b76b3276-d370-414d-95d5-997437a5de74
+type: text/vnd.tiddlywiki
+
+|`QUOTE(text_fld)`|Places quotes around the entire returned string and adds escape characters (useful for exporting data to other programs)|
+|`CHAR(int1,int2,...)`|Assembles an ASCII string based on ASCII codes which are passed as arguments|
+|`CONCAT('foo', CHAR(148), 'bar', ...)`|Concatenates multiple strings|
+|`ASCII('foo')`|Returns ASCII code for a symbol|
+|`LENGTH('foo')`|Returns the number of characters in the string|
+|`POSITION('char' IN 'str of char')`|Returns the position of a substring in a string. Returns 0 if the substring is not found (1-based!)|
+|`LOCATE('char', 'str of char', 4)`|Like `POSITION`, but with an additional `int` parameters specifying the search start position|
+|`STRCMP(str_1, str_2)`|Returns 0 if strings are identical, -1 if the first string comes before the second string in sort order, 1 otherwise|
+|`INSERT('goodbye world', 1, 7, 'hello')`; `INSERT('goodbye world', 9, 0, 'cruel')`|Inserts a string into another string. The third argument, if not zero, specifies how many characters will be replaced|

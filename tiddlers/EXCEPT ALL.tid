@@ -1,0 +1,65 @@
+created: 20200608142002387
+modified: 20200608143505131
+tags: [[Learning SQL by Alan Beaulieu]]
+title: EXCEPT ALL
+tmap.id: 0a5f8b7c-6d32-4845-b1bf-6bd9770f0713
+type: text/vnd.tiddlywiki
+
+<table>
+<tr>
+<td style="vertical-align:top;">
+//Set A://
+
+<$codeblock code="
++--------+
+| emp_id |
++--------+
+|     10 |
+|     11 |
+|     12 |
+|     10 |
+|     10 |
++--------+
+"/>
+</td>
+<td style="vertical-align: top;">
+//Set B://
+
+<$codeblock code="
++--------+
+| emp_id |
++--------+
+|     10 |
+|     10 |
++--------+
+"/>
+</td>
+<td style="vertical-align:top;">
+//A// `EXCEPT` //B//:
+
+<$codeblock code="
++--------+
+| emp_id |
++--------+
+|     11 |
+|     12 |
++--------+
+"/>
+</td>
+<td style="vertical-align:top;">
+//A// `EXCEPT ALL` //B//:
+
+<$codeblock code="
++--------+
+| emp_id |
++--------+
+|     10 |
+|     11 |
+|     12 |
++--------+
+"/>
+</td>
+</tr>
+</table>
+
+`EXCEPT` removes all occurrences of duplicate data fom [[Set]] $$A$$, while `EXCEPT ALL`  only removes one occurrence of duplicate data from [[Set]] $$A$$ for every occurence in [[Set]] $$B$$.
