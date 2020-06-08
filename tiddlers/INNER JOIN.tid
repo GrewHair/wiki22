@@ -1,0 +1,13 @@
+created: 20200605093846843
+modified: 20200605203938545
+tags: [[Learning SQL by Alan Beaulieu]]
+title: INNER JOIN
+tmap.id: 5adb7b18-2d0f-49e8-948c-d53e5771ad32
+type: text/vnd.tiddlywiki
+
+```sql
+SELECT employee.emp_id, employee.fname,
+	employee.lname, department.name AS dept_name
+FROM employee INNER JOIN department
+	ON employee.dept_id = department.dept_id;
+```

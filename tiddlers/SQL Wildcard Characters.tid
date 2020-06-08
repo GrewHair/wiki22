@@ -1,0 +1,36 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200605230831072
+modified: 20200605231710733
+tags: [[Learning SQL by Alan Beaulieu]]
+title: SQL Wildcard Characters
+tmap.id: 6e73f4c5-3812-43a0-a48c-bc5dd0260669
+type: text/vnd.tiddlywiki
+
+They are typically used inside the `WHERE` clause.
+
+|!Wildcard character|!Matches|
+|`_`|Exactly one character|
+|`%`|Any number of characters (including 0)|
+
+They thould be used with the `LIKE` operator:
+
+```sql
+SELECT lname
+FROM employee
+WHERE lname LIKE '_a%e%';
+```
+
+```
++-----------+
+| lname     |
++-----------+
+| Barker    |
+| Hawthorne |
+| Parker    |
+| Jameson   |
++-----------+
+4 rows in set (0.00 sec)
+```

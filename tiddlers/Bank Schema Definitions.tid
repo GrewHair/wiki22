@@ -1,0 +1,23 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200605181057979
+modified: 20200605182112999
+tags: [[Learning SQL by Alan Beaulieu]]
+title: Bank Schema Definitions
+tmap.id: ed77b94e-9b8d-49e0-a6b5-3dbedf50b2f4
+type: text/vnd.tiddlywiki
+
+|!Table name|!Definition|
+|`Account`|A particular product opened for a particular customer|
+|`Branch`|A location at which banking transaction are conducted|
+|`Business`|A corporate customer (subtype of the Customer table)|
+|`Customer`|A person or corporation known to the bank|
+|`Department`|A group of bank employees implementing a particular banking function|
+|`Employee`|A person working for the bank|
+|`Individual`|A noncorporate customer (subtpe of the Customer table)|
+|`Officer`|A person allowed to transact business for a corporate customer|
+|`Product`|A banking service offered to customers|
+|`Product_type`|A group of products having a similar function|
+|`Transaction`|A change made to an account balance|

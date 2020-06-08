@@ -2,11 +2,19 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-created: 20200602065431801
-modified: 20200605080536149
+created: 20200605230412241
+modified: 20200605230730197
 tags: [[Learning SQL by Alan Beaulieu]]
-title: Result Set
-tmap.id: ade1c4ec-ad66-4dde-88f9-a19954d108f0
+title: LEFT()
+tmap.id: 6158d458-4350-40e3-ab7a-93023a3f0b18
 type: text/vnd.tiddlywiki
 
-A [[Result Set]] is just a non-persistent [[Table]]. It is usually a result of a [[SQL]] query.
+`LEFT()` is a [[SQL Built-in Function|SQL Built-in Functions]].
+
+''Example:'' Find all employees whose last name begins with T:
+
+```sql
+SELECT emp_id, fname, lname
+FROM employee
+WHERE LEFT(lname, 1) = 'T';
+```

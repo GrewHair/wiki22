@@ -1,0 +1,24 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200606010808647
+modified: 20200606011942018
+tags: [[Learning SQL by Alan Beaulieu]]
+title: WHERE Clause
+tmap.id: a31a42ca-82d9-416a-ab34-57498ce54ad8
+type: text/vnd.tiddlywiki
+
+The [[WHERE Clause]] filters out the unwanted data.
+
+It's like an `if` statement in [[Python]]'s [[List Comprehensions]].
+
+It uses the [[Comparison Operators|SQL Comparison Operators]].
+
+''Pitfalls:''
+
+* When using the `!=` [[operator|SQL Comparison Operators]], if the compared [[Column]] (to the left of the operator) is allowed to have [[Nulls|Null in SQL]] in it, some [[Rows|Row]] that are of interest may slip though and be lost, because [[Null|Null in SQL]] is not a number and the server will not let it pass the filter. In order to prevent this behaviour, it is good practice to `OR` the condition with `IS NULL` like this:
+*><$codeblock code="SELECT emp_id, fname, lname, superior_emp_id
+FROM employee
+WHERE superior_emp_id != 6 OR superior_emp_id IS NULL;
+" language="sql"/>

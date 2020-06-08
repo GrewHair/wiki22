@@ -1,0 +1,31 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200606000135971
+modified: 20200606004121920
+tags: [[Learning SQL by Alan Beaulieu]]
+title: Null in SQL
+tmap.id: b3d2fdc8-ca51-4a7b-84f2-43108abadd00
+type: text/vnd.tiddlywiki
+
+[[Null|Null in SQL]] is the absence of a value.
+
+When found in a [[Database]], it may mean one of several things:
+
+* Not applicable
+* Value not yet known
+* Value undefined
+
+Important things to remember:
+
+* An expression can //be// [[Null|Null in SQL]], but in can never //equal// [[Null|Null in SQL]]
+* Two [[Nulls|Null in SQL]] are never equal to each other.
+
+To test whether an expression is [[Null|Null in SQL]], one should use the `IS NULL` operator:
+
+```sql
+SELECT emp_id, fname, lname, superior_emp_id
+FROM employee
+WHERE superior_emp_id IS NULL;
+```

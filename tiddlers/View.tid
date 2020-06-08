@@ -1,0 +1,26 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200605080552941
+modified: 20200605083057757
+tags: [[Learning SQL by Alan Beaulieu]]
+title: View
+tmap.id: 2594759f-5e04-4df3-b7a5-f5b1329962af
+type: text/vnd.tiddlywiki
+
+''AKA Virtual Table''
+
+A [[View]] is a [[Query]] that is stored in the data dictionary.
+
+* Example of creation:
+```sql
+CREATE VIEW employee_vw AS
+SELECT emp_id, fname, lname,
+	YEAR(start_date) start_year
+FROM employee;
+```
+* Example of usage:
+```sql
+SELECT emp_id, start_year
+FROM employee-vw;

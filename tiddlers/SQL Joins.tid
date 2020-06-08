@@ -2,11 +2,12 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-created: 20200602065431801
-modified: 20200605080536149
+created: 20200605093615408
+modified: 20200605093802586
 tags: [[Learning SQL by Alan Beaulieu]]
-title: Result Set
-tmap.id: ade1c4ec-ad66-4dde-88f9-a19954d108f0
+title: SQL Joins
+tmap.id: 2b0e2ae0-61d9-4ecd-ad10-33409e7f38f1
 type: text/vnd.tiddlywiki
 
-A [[Result Set]] is just a non-persistent [[Table]]. It is usually a result of a [[SQL]] query.
+* <$link to="INNER JOIN">`INNER JOIN`,</$link>
+* ...
