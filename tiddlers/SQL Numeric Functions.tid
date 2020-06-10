@@ -1,0 +1,26 @@
+created: 20200610060839275
+modified: 20200610082235871
+tags: [[Learning SQL by Alan Beaulieu]]
+title: SQL Numeric Functions
+tmap.id: 68bf3e52-438e-41a8-93b4-989b36f661ee
+type: text/vnd.tiddlywiki
+
+|!Function name|!Description|
+|`Acos(x)`|Arc cosine of $$x$$|
+|`Asin(x)`|Arc sine of $$x$$|
+|`Atan(x)`|Arc tangent of $$x$$|
+|`Cos(x)`|Cosine of $$x$$|
+|`Cot(x)`|Cotangent of $$x$$|
+|`Exp(x)`|$$e^x$$|
+|`Ln(x)`|Natural log of $$x$$|
+|`Sin(x)`|Sine of $$x$$|
+|`Sqrt(x)`|Square root of $$x$$|
+|`Tan(x)`|Tangent of $$x$$|
+|`MOD(10,4)`|Modulo|
+|`POW(2,8)`|Power|
+|`CEIL(72.445)`|Rounds a `float` number up to the closest integer|
+|`FLOOR(72.445)`|Rounds a `float` number down to the closest integer|
+|`ROUND(72.5)`|Round a `float` number to the closest integer|
+|`TRUNCATE(72.0909, 3)`|Drops all the digits to the right of the specified decimal digit (in this case, the result is 72.090)|
+|`SIGN(avail_balance)`|Returns sign of a number (1 - positive, 0 - zero, -1 - negative)|
+|`ABS(avail_balance)`|Returns absolute value of a number|

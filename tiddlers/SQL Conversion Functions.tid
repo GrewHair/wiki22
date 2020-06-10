@@ -1,0 +1,10 @@
+created: 20200610103329212
+modified: 20200610103504075
+tags: [[Learning SQL by Alan Beaulieu]]
+title: SQL Conversion Functions
+tmap.id: dc05b8a0-2af3-463d-a681-4c753a9b7cf7
+type: text/vnd.tiddlywiki
+
+```sql
+SELECT CAST('1456328' AS SIGNED INTEGER);
+```

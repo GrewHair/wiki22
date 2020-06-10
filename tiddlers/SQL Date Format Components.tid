@@ -1,0 +1,15 @@
+created: 20200610090139873
+modified: 20200610090525139
+tags: [[Learning SQL by Alan Beaulieu]]
+title: SQL Date Format Components
+tmap.id: 18e71ad2-c399-4373-82ce-9dec73157913
+type: text/vnd.tiddlywiki
+
+|!Components|!Definition|!Range|
+|`YYYY`|Year, including century|1000 to 9999|
+|`MM`|Month|01 (January) to 12 (December)|
+|`DD`|Day|01 to 31|
+|`HH`|Hour|00 to 23|
+|`HHH`|Hours (elapsed)|-838 to 838|
+|`MI`|Minute|00 to 59|
+|`SS`|Second|00 to 59|

@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200608161155990
-modified: 20200608170931383
+modified: 20200610060834753
 tags: [[Learning SQL by Alan Beaulieu]]
 title: SQL Functions
 tmap.id: b76b3276-d370-414d-95d5-997437a5de74
@@ -18,3 +18,5 @@ type: text/vnd.tiddlywiki
 |`LOCATE('char', 'str of char', 4)`|Like `POSITION`, but with an additional `int` parameters specifying the search start position|
 |`STRCMP(str_1, str_2)`|Returns 0 if strings are identical, -1 if the first string comes before the second string in sort order, 1 otherwise|
 |`INSERT('goodbye world', 1, 7, 'hello')`; `INSERT('goodbye world', 9, 0, 'cruel')`|Inserts a string into another string. The third argument, if not zero, specifies how many characters will be replaced|
+|`REPLACE('goodbye world', 'goodbye', 'hello')`|Oracle's variant of `INSERT` - all instances of `goodbye` will be replaced|
+|`SUBSTRING('goodbye cruel world', 9, 5)`|Extracts a substring - in this case, `'cruel'`.|

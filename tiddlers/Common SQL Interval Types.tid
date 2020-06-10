@@ -1,0 +1,17 @@
+created: 20200610093605963
+modified: 20200610094154798
+tags: [[Learning SQL by Alan Beaulieu]]
+title: Common SQL Interval Types
+tmap.id: f58b3f48-6ed9-4c3f-b17e-be21d3296860
+type: text/vnd.tiddlywiki
+
+|!Interval name|!Description|
+|`Second`|Number of seconds|
+|`Minute`|Number of minutes|
+|`Hour`|Number of hours|
+|`Day`|Number of days|
+|`Month`|Number of months|
+|`Year`|Number of years|
+|`Minute_second`|Number of minutes and seconds, separated by ":"|
+|`Hour_second`|Number of hours, minutes, and seconds, separated by ":"|
+|`Year_month`|Number of years and months, separated by "-"|

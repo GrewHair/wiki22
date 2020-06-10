@@ -1,0 +1,12 @@
+created: 20200610090559498
+modified: 20200610091953025
+tags: [[Learning SQL by Alan Beaulieu]]
+title: SQL Required Date Components
+tmap.id: c3593e65-7884-43e3-ba16-d2262d4dffdf
+type: text/vnd.tiddlywiki
+
+|!Type|!Default format|
+|`Date`|`YYYY-MM-DD`|
+|`Datetime`|`YYYY-MM-dd HH:MI:SS`|
+|`Timestamp`|`YYYY-MM-DD HH:MI:SS`|
+|`Time`|`HHH:MI:SS`|

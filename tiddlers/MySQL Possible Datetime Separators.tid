@@ -1,0 +1,11 @@
+created: 20200610092223069
+modified: 20200610092527404
+tags: [[Learning SQL by Alan Beaulieu]]
+title: MySQL Possible Datetime Separators
+tmap.id: 02c3aa24-208c-4eea-ad7a-6caaa1f1ca29
+type: text/vnd.tiddlywiki
+
+* `'2008-09-17 15:30:00'`
+* `'2008/09/17 15:30:00'`
+* `'2008,09,17,15,30,00'`
+* `'20080917153000'`
