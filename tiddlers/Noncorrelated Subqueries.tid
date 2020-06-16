@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200613182007840
+modified: 20200613213325619
+tags: [[Learning SQL by Alan Beaulieu]]
+title: Noncorrelated Subqueries
+tmap.id: e1b4c614-8a0c-4e43-acd6-bfed0fc9bc04
+type: text/vnd.tiddlywiki
+
+[[Noncorrelated Subqueries]] are the most basic and widespread type of subqueries. They are completely standalone and don't reference the enclosing [[Statement|SQL Statements]]'s [[Tables|Table]] or [[Columns|Column]].
+
+Because of this, they are very handy in that one can call them separately from the enclosing [[Statement|SQL Statements]] in case one wants to inspect what they do.
+
+[[Noncorrelated Subqueries]] are executed prior to execution of the containing [[Statement|SQL Statements]].
+
+[[Subqueries|Subquery]] used in the [[FROM Clause]] //must always// be [[Noncorrelated|Subqueries]].

@@ -1,0 +1,23 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200613012529821
+modified: 20200613015134520
+tags: [[Learning SQL by Alan Beaulieu]]
+title: EXISTS Operator
+tmap.id: 3de774fc-c1cc-41ae-8d0e-eb3c98b5cb81
+type: text/vnd.tiddlywiki
+
+The [[EXISTS Operator]] is used to test for the existance of any records in a [[Subquery]].
+
+By convention, when using the [[EXISTS Operator]], the [[Subquery]] should have either `SELECT 1` or `SELECT *` in its [[SELECT Clause]].
+
+```sql
+SELECT a.account_id, a.product_cd, a.cust_id, a.avail_balance
+FROM account a
+WHERE EXISTS (SELECT 1
+	FROM transaction t
+	WHERE t.account_id = a.account_id
+		AND t.txn_date = '2008-09-22');
+```

@@ -3,13 +3,13 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200127081801358
-modified: 20200610110846774
+modified: 20200616083031314
 tags: English
 title: Dictionary
 tmap.id: 7172dc91-dffa-4b19-8ff2-b250677e4524
 type: text/vnd.tiddlywiki
 
-* mpg - miles per gallon (unit of fuel efficiency)
+* mpg - miles per gallon (unit of fuel effeciency)
 * hp - horsepower
 * tips - чаевые
 * customer churn - отток клиентов
@@ -19,3 +19,7 @@ type: text/vnd.tiddlywiki
 * consistent/inconsistent - совместный/семовместный (о системе уравнений)
 * linear span - линейная оболочка
 * bank teller - кассир
+* available balance - доступные средства
+* pending balance - средства в ожидании
+* leap year - високосный год
+* DBA - database administrator

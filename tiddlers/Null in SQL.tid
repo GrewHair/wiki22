@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200606000135971
-modified: 20200606004121920
+modified: 20200612190715567
 tags: [[Learning SQL by Alan Beaulieu]]
 title: Null in SQL
 tmap.id: b3d2fdc8-ca51-4a7b-84f2-43108abadd00
@@ -29,3 +29,5 @@ SELECT emp_id, fname, lname, superior_emp_id
 FROM employee
 WHERE superior_emp_id IS NULL;
 ```
+
+[[Aggregate Functions|SQL Aggregate Functions]] (like `Min()`, `Max()`, `Mean()`, ...) ignore [[Nulls|Null in SQL]].

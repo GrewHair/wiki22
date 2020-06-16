@@ -1,0 +1,34 @@
+created: 20200612191342242
+modified: 20200613214621508
+tags: [[Learning SQL by Alan Beaulieu]]
+title: GROUP BY Clause
+tmap.id: d3f8885f-50b4-4254-b5bd-0c9265c3c34f
+type: text/vnd.tiddlywiki
+
+* Group by multiple [[Columns|Column]]:
+*><$codeblock code="SELECT product_cd, open_branch_id,
+	SUM(avail_balance) tot_balance
+FROM account
+GROUP BY product_cd, open_branch_id;
+" language="sql"/>
+
+* Add sum total rows to the multicolumn grouping:
+*><$codeblock code="SELECT product_cd, open_branch_id,
+	SUM(avail_balance) tot_balance
+FROM account
+GROUP BY product_cd, open_branch_id WITH ROLLUP;
+" language="sql"/>
+
+* Add summary rows for //all// possible combinations of the grouping columns:
+*><$codeblock code="SELECT product_cd, open_branch_id,
+	SUM(avail_balance) tot_balance
+FROM account
+GROUP BY product_cd, open_branch_id WITH CUBE;
+" language="sql"/>
+
+* Group via expressions and/or functions:
+*><$codeblock code="SELECT EXTRACT(YEAR FROM start_date) year,
+	COUNT(*) how_many
+FROM employee
+GROUP BY EXTRACT(YEAR FROM start_date);
+" language="sql"/>

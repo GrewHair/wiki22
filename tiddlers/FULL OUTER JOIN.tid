@@ -2,17 +2,21 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-created: 20200606010808647
-modified: 20200613204845485
+created: 20200614003746453
+modified: 20200614004204980
 tags: [[Learning SQL by Alan Beaulieu]]
-title: WHERE Clause
-tmap.id: a31a42ca-82d9-416a-ab34-57498ce54ad8
+title: FULL OUTER JOIN
+tmap.id: 6ab9f1e4-5047-4628-897d-c69693252945
 type: text/vnd.tiddlywiki
 
-The [[WHERE Clause]] filters out the unwanted data.
+There is no [[FULL OUTER JOIN]] in [[MySQL]].
 
-It's like an `if` statement in [[Python]]'s [[List Comprehensions]].
+It can though be emulated through the [[UNION]] operator:
 
-It uses the [[Comparison Operators|SQL Comparison Operators]].
-
-[[Pitfalls|WHERE Clause/Pitfalls]]
+```sql
+SELECT * FROM t1
+LEFT JOIN t2 ON t1.id = t2.id
+UNION
+SELECT * FROM t1
+RIGHT JOIN t2 ON t1.id = t2.id
+```

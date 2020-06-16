@@ -1,0 +1,37 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200613193416514
+modified: 20200613204800436
+tags: [[Learning SQL by Alan Beaulieu]]
+title: Non-scalar Single-Column Subqueries
+tmap.id: 83990c6c-8202-4d56-8d3e-b8e761afdcd7
+type: text/vnd.tiddlywiki
+
+Unlike [[Scalar Subqueries]], [[Non-scalar Subqueries|Non-scalar Single-Column Subqueries]] can not be used with usual [[Comparison Operators|SQL Comparison Operators]] in the [[WHERE Clause]], since they return not a single value, but a list.
+
+Thus, in order to compare something in the [[WHERE Clause]] to this list, one needs special operators:
+
+* `IN` - checks whether a value is in the [[Result Set]] of the [[Subquery|Non-scalar Single-Column Subqueries]]:
+*><$codeblock code="SELECT emp_id, fname, lname, title
+FROM employee
+WHERE emp_id IN (SELECT superior_emp_id
+	FROM employee);
+" language="sql"/>
+
+* `NOT IN` - the opposite of the previous point
+* `ALL` - is placed next to usual [[Comparison Operators|SQL Comparison Operators]] to broadcast them to the whole [[Result Set]] of a [[Subquery|Non-scalar Subqueries]] - to check whether a value is equal to/less then/greater then/etc //all// of the values returned by the [[Subquery|Non-scalar Single-Column Subqueries]]
+*><$codeblock code="SELECT emp_id, fname, lname, title
+FROM employee
+WHERE emp_id <> ALL (SELECT superior_emp_id
+	FROM employee
+	WHERE superior_emp_id IS NOT NULL);
+" language="sql"/>
+** Notice the additional [[WHERE Clause]] in the last line of this example. [[See the last bullet point for explanation|WHERE Clause/Pitfalls]].
+* `ANY` - same is the previous point, but to check whether a value is equal to/less then/greater then/etc //any// of the values returned by the [[Subquery|Non-scalar Single-Column Subqueries]]
+
+These operators actually overlap:
+
+|`IN`|is equivalent to|`= ANY`|
+|`NOT IN`|is equivalent to|`<> ALL`|

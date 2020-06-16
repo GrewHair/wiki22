@@ -2,17 +2,11 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-created: 20200606010808647
-modified: 20200613204845485
+created: 20200616131458475
+modified: 20200616131543150
 tags: [[Learning SQL by Alan Beaulieu]]
-title: WHERE Clause
-tmap.id: a31a42ca-82d9-416a-ab34-57498ce54ad8
+title: MySQL Storage Engines
+tmap.id: 4f92f293-0903-402d-8e72-c117345f2253
 type: text/vnd.tiddlywiki
 
-The [[WHERE Clause]] filters out the unwanted data.
-
-It's like an `if` statement in [[Python]]'s [[List Comprehensions]].
-
-It uses the [[Comparison Operators|SQL Comparison Operators]].
-
-[[Pitfalls|WHERE Clause/Pitfalls]]
+https://www.mysqltutorial.org/basic-mysql-tutorial-aspx/understanding-mysql-table-types/

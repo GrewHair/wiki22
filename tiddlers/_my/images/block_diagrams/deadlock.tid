@@ -1,0 +1,42 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200616105212604
+modified: 20200616124350333
+tags: 
+title: _my/images/block_diagrams/deadlock
+tmap.id: df61c735-9dbf-46f9-8495-f102b7a671f3
+type: text/vnd.tiddlywiki
+
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns" xmlns="http://www.w3.org/2000/svg" height="270" width="600" version="1.1"> 
+	<defs>
+		<style type="text/css">.ellipse  { stroke-width: 2.0; stroke: currentColor; fill: none; }
+    .setlabel { font-size: 18pt; text-anchor: middle; }
+    .xelement { font-size: 14pt; text-anchor: middle; }
+    .yelement { font-size: 14pt; text-anchor: middle; }
+    .map      { stroke-width: 1.0; stroke: currentColor; fill: none; marker-end: url(#arrow); }
+    .arrow    { fill: currentColor; }</style>
+		<marker id="arrow" refY="4" refX="3" orient="auto" markerWidth="4" markerHeight="8">
+			<polyline points="0 0 4 4 0 8" class="arrow"/>
+		</marker>
+	</defs>
+	<g stroke="currentColor">
+		<line y2="83" marker-end="url(#arrow)" x2="82" y1="43" x1="202"/>
+		<line y2="230" marker-end="url(#arrow)" x2="202" y1="180" x1="85"/>
+		<line y2="180" marker-end="url(#arrow)" x2="462" y1="230" x1="357"/>
+		<line y2="43" marker-end="url(#arrow)" x2="357" y1="83" x1="462"/>
+	</g>
+  <rect x="220" y="10" width="120" height="60" fill=None stroke=currentColor stroke-width=4></rect>
+  <rect x="220" y="200" width="120" height="60" fill=None stroke=currentColor stroke-width=4></rect>
+	<ellipse cx="90" cy="135" rx="70" ry="35" fill=None stroke=currentColor stroke-width=4/>
+	<ellipse cx="470" cy="135" rx="70" ry="35" fill=None stroke=currentColor stroke-width=4/>
+  <foreignObject x="55" y="125" width="90" height="50">Process 1</foreignObject>
+  <foreignObject x="435" y="125" width="90" height="50">Process 2</foreignObject>
+  <foreignObject x="240" y="30" width="90" height="50">Resource 1</foreignObject>
+  <foreignObject x="240" y="220" width="90" height="50">Resource 2</foreignObject>
+  <foreignObject x="90" y="30" width="90" height="50">Assigned to</foreignObject>
+  <foreignObject x="390" y="220" width="90" height="50">Assigned to</foreignObject>
+  <foreignObject x="90" y="220" width="90" height="50">Waiting for</foreignObject>
+  <foreignObject x="390" y="30" width="90" height="50">Waiting for</foreignObject>
+</svg>

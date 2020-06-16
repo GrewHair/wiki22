@@ -1,0 +1,21 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[_my/images/block_diagrams/deadlock]]
+created: 20200616093314482
+modified: 20200616124449129
+tags: [[Learning SQL by Alan Beaulieu]]
+title: Database Deadlock
+tmap.id: 714ca629-5c32-45d4-968b-6e560ed05ccf
+type: text/vnd.tiddlywiki
+
+A [[Deadlock|Database Deadlock]] occurs when two different [[Transactions|Database Transaction]] are waiting for resources that the other [[Transaction|Database Transaction]] currently holds.
+
+''Example:''
+
+* [[Transaction|Database Transaction]] ''A'' has just updated the `account` [[Table]] and is waiting for a [[Write Lock]] on the `transaction` [[Table]].
+* [[Transaction|Database Transaction]] ''B'' has [[inserted|INSERT]] a [[Row]] into the `transaction` [[Table]] and is waiting for a [[Write Lock]] on the `account` [[Table]]
+* If both [[Transactions|Database Transaction]] are modifying the same [[Page]] of [[Row]] (depending on the [[Lock Granularity]] in use), they will wait forever for each other to finish and free up the resource.
+
+{{_my/images/block_diagrams/deadlock}}

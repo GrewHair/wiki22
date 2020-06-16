@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200605042920961
-modified: 20200605044810132
+modified: 20200613202755801
 tags: [[Learning SQL by Alan Beaulieu]]
 title: Subquery
 tmap.id: db342d87-12da-46ea-ac14-0f15f284d8eb
@@ -20,5 +20,20 @@ FROM (SELECT emp_id, fname, lname, start_date, title
 	  FROM employee) e;
 ```
 In this example, `e` is a [[Table Alias|SQL Aliases]].
+
+[[Subqueries|Subquery]] have //statement [[scope|Scope]]// - i.e. the server frees up any memory allocated to the [[Subquery]] results after the [[SQL Statement]] has finished execution.
+
+A [[Result Set]] of a subquery may be in the form of:
+
+* [[A single row with a single column|Scalar Subqueries]]
+* [[Multiple rows with a single column|Non-scalar Single-Column Subqueries]]
+* [[Multiple rows and columns|Multiple-Column Subqueries]]
+
+Depending on the form of this [[Result Set]], the use cases vary.
+
+Based on dependency on an enclosing [[Statement|SQL Statements]], [[Subqueries|Subquery]] may be:
+
+* [[Correlated|Correlated Subqueries]]
+* [[Noncorrelated|Noncorrelated Subqueries]]
 
 https://www.dofactory.com/sql/subquery

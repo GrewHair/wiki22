@@ -2,17 +2,16 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-created: 20200606010808647
-modified: 20200613204845485
+created: 20200614024318754
+modified: 20200614030326260
 tags: [[Learning SQL by Alan Beaulieu]]
-title: WHERE Clause
-tmap.id: a31a42ca-82d9-416a-ab34-57498ce54ad8
+title: CASE Expression
+tmap.id: 1c3791be-89e7-40e4-8b5d-bb5cfaa30c80
 type: text/vnd.tiddlywiki
 
-The [[WHERE Clause]] filters out the unwanted data.
+The [[CASE Expression]] can be included in any of the four [[SQL Data Statements]].
 
-It's like an `if` statement in [[Python]]'s [[List Comprehensions]].
+There are two main types:
 
-It uses the [[Comparison Operators|SQL Comparison Operators]].
-
-[[Pitfalls|WHERE Clause/Pitfalls]]
+* [[Searched CASE Expression]]
+* [[Simple CASE Expression]]

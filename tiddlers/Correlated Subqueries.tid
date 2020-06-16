@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200612234441763
+modified: 20200613183326842
+tags: [[Learning SQL by Alan Beaulieu]]
+title: Correlated Subqueries
+tmap.id: a39f2f80-6384-4325-a67e-5f210b84299f
+type: text/vnd.tiddlywiki
+
+A [[Correlated Subquery|Correlated Subqueries]] is depenpent on its containing [[Statement|SQL Statements]], from which it references one or more [[Columns|Column]].
+
+Instead of being executed once prior to execution of the containing [[Statement|SQL Statements]] (which is the case with [[Noncorrelated Subqueries]]), a [[Correlated Subquery|Correlated Subqueries]] is executed once per each candidate [[Row]].
+
+[[Correlated Subqueries]] can not be executed by themselves in case one wants to see what they do - due to the reference they hold to the enclosing [[Statement|SQL Statements]].
+
+[[Correlated Subqueries]] are most typically used with the [[EXISTS Operator]].
+
+[[Correlated Subqueries]] are often used with [[UPDATE]] and [[DELETE]] [[Statements|SQL Data Statements]].

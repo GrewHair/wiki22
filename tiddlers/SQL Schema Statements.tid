@@ -3,11 +3,16 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200604213715485
-modified: 20200604213906267
+modified: 20200616093022333
 tags: [[Learning SQL by Alan Beaulieu]]
 title: SQL Schema Statements
 tmap.id: 0b3ea68a-0ce9-4a3d-87a6-a8b644b9bf80
 type: text/vnd.tiddlywiki
 
+''AKA DDL, Data Definition Language, Data Description Language, DDL Statements''
+
 * <$link to="CREATE"><$codeblock code="CREATE" language="sql"/></$link>
 * <$link to="DROP"><$codeblock code="DROP" language="sql"/></$link>
+* <$link to="ALTER"><$codeblock code="ALTER" language="sql"/></$link>
+
+In some [[DBMS's|Database Management System]], some of [[DDL Statements|SQL Schema Statements]] can not be [[Rolled Back|Rollback]], and thus are not allowed to be placed inside a [[Transaction|Database Transaction]].

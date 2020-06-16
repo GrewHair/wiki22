@@ -2,11 +2,9 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-created: 20200606004413644
-modified: 20200612213949573
+created: 20200616082755790
+modified: 20200616092945893
 tags: [[Learning SQL by Alan Beaulieu]]
-title: SQL Comparison Operators
-tmap.id: 7c1ee4f0-de37-4a31-9169-503bc63d9baf
+title: Database Transaction
+tmap.id: de7711dc-ba9a-4f3a-b353-0fac0017b678
 type: text/vnd.tiddlywiki
-
-`=`, `!=`, `<`, `>`, `<>`, `LIKE`, `IN`, `NOT IN`, `BETWEEN`, `IS NULL`, `IS NOT NULL`

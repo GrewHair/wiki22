@@ -1,0 +1,30 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200614024854262
+modified: 20200614030158462
+tags: [[Learning SQL by Alan Beaulieu]]
+title: Searched CASE Expression
+tmap.id: 8bb1cddb-c3d7-46e9-8cf0-d967881e673d
+type: text/vnd.tiddlywiki
+
+```sql
+CASE
+	WHEN employee.title = 'Head Teller'
+		THEN 'Head Teller'
+	WHEN employee.title = 'Teller'
+		AND YEAR(employee.start_date) > 2007
+		THEN 'Teller Trainee'
+	WHEN employee.title = 'Teller'
+		AND YEAR(employee.start_date) < 2006
+		THEN 'Experienced Teller'
+	WHEN employee.title = 'Teller'
+		THEN 'Teller'
+	ELSE 'Non-Teller'
+END
+```
+
+All the expressions returned by the various `WHEN` clauses should evaluate to the same type.
+
+All the `WHEN` clauses are evaluated in order (top to bottom).

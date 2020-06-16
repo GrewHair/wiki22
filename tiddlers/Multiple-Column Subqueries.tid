@@ -1,0 +1,40 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200613202805650
+modified: 20200613210019987
+tags: [[Learning SQL by Alan Beaulieu]]
+title: Multiple-Column Subqueries
+tmap.id: 0bb5ae1c-02b1-47a8-9d2f-b121f066fdc4
+type: text/vnd.tiddlywiki
+
+[[Multiple-Column Subqueries]] are usually used to "pack" two or more [[Subqueries|Subquery]] into one, so one only has to write one [[Subquery]].
+
+''Note:'' in principle, these "packed" [[Subqueries]] may be either [[Scalar|Scalar Subqueries]] or [[Non-scalar|Non-scalar Single-Column Subqueries]] - both variants make sense.
+
+It is "unpacked" very similarly to [[Tuple Unpacking]] in [[Python]], i.e. the [[Result Set]] of such [[Subqueries|Multiple-Column Subqueries]] is compared to a list of values in the respective order.
+
+''Example:''
+
+* Here's a [[Query]] with two [[Subqueries|Subquery]]:
+*><$codeblock code="SELECT account_id, prodct_cd, cust_id
+FROM account
+WHERE open_branch_id = (SELECT branch_id
+	FROM branch
+	WHERE name = 'Woburn Branch')
+	AND open_emp_id IN (SELECT emp_id
+	FROM employee
+	WHERE title = 'Teller' OR title = 'Head Teller');
+	" language="sql"/>
+
+* It can be reorganized using a [[Multipe-Column Subquery|Multiple-Column Subqueries]]:
+*><$codeblock code="SELECT account_id, product_cd, cust_id
+FROM account
+WHERE (open_branch_id, open_emp_id) IN
+	(SELECT b.branch_id, e.emp_id
+	FROM branch b INNER JOIN employee e
+		ON b.branch_id = e.assigned_branch_id
+	WHERE b.name = 'Woburn Branch'
+		AND (e.title = 'Teller' OR e.title = 'Head Teller'));
+" language="sql"/>

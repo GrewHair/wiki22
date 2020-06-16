@@ -2,17 +2,16 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-created: 20200606010808647
-modified: 20200613204845485
+created: 20200616081455124
+modified: 20200616081606268
 tags: [[Learning SQL by Alan Beaulieu]]
-title: WHERE Clause
-tmap.id: a31a42ca-82d9-416a-ab34-57498ce54ad8
+title: ACID
+tmap.id: c952f9b3-d5ba-4444-b737-42796696be17
 type: text/vnd.tiddlywiki
 
-The [[WHERE Clause]] filters out the unwanted data.
+* [[Atomicity]]
+* [[Consistency]]
+* [[Isolation]]
+* [[Durability]]
 
-It's like an `if` statement in [[Python]]'s [[List Comprehensions]].
-
-It uses the [[Comparison Operators|SQL Comparison Operators]].
-
-[[Pitfalls|WHERE Clause/Pitfalls]]
+https://en.wikipedia.org/wiki/ACID

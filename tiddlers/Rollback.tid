@@ -2,13 +2,9 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-created: 20200602071316593
-modified: 20200604201321568
+created: 20200616090004337
+modified: 20200616090303904
 tags: [[Learning SQL by Alan Beaulieu]]
-title: SQL Statement Classes
-tmap.id: d05d632e-5ab7-40bf-8a03-e1d9b937fd13
+title: Rollback
+tmap.id: 1a82da5d-0090-4ee5-88d5-e2787210d5f9
 type: text/vnd.tiddlywiki
-
-* [[SQL Schema Statements]]
-* [[SQL Data Statements]]
-* [[SQL Transaction Statements]]

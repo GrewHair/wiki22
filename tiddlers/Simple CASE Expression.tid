@@ -1,0 +1,26 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200614030332264
+modified: 20200614032725766
+tags: [[Learning SQL by Alan Beaulieu]]
+title: Simple CASE Expression
+tmap.id: 7bb32b4e-328a-4a10-a875-cf202e993e22
+type: text/vnd.tiddlywiki
+
+```sql
+CASE customer.cust_type_cd
+	WHEN 'I' THEN
+		(SELECT CONCAT(i.fname, ' ', i.lname)
+		FROM individual i
+		WHERE i.cust_id = customer.cust_id)
+	WHEN 'B' THEN
+		(SELECT b.name
+		FROM business b
+		WHERE b.cust_id = customer.cust_id)
+	ELSE 'Unknown Customer Type'
+END
+```
+
+Unlike in [[Searched CASE Expressions|Searched CASE Expression]], in [[Simple CASE Expressions|Simple CASE Expression]] one can not specify his own conditions. Instead, conditions are constructed based on the `CASE` clause (the first line).

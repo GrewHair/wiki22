@@ -2,11 +2,11 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-created: 20200606004413644
-modified: 20200612213949573
-tags: [[Learning SQL by Alan Beaulieu]]
-title: SQL Comparison Operators
-tmap.id: 7c1ee4f0-de37-4a31-9169-503bc63d9baf
+created: 20200613021924227
+modified: 20200613022005577
+tags: [[Probability Theory]]
+title: Monty Hall Problem
+tmap.id: 49e9ec88-bf87-472f-8f1d-745acbc72646
 type: text/vnd.tiddlywiki
 
-`=`, `!=`, `<`, `>`, `<>`, `LIKE`, `IN`, `NOT IN`, `BETWEEN`, `IS NULL`, `IS NOT NULL`
+https://en.wikipedia.org/wiki/Monty_Hall_problem

@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200613190044409
+modified: 20200613193819510
+tags: [[Learning SQL by Alan Beaulieu]]
+title: Scalar Subqueries
+tmap.id: ccd7d032-d8a5-470b-b591-7f7749232e1d
+type: text/vnd.tiddlywiki
+
+[[Scalar Subqueries]] are subqueries that return a [[Result Set]] consisting of just a single [[Row]] and a single [[Column]] - so just a single value.
+
+[[Results|Result Set]] of [[Scalar Subqueries]] may be used with any usual [[Comparison Operators|SQL Comparison Operators]], like `=`, `!=`, `<>`, `<`, `>`, `<=`, `>=`.

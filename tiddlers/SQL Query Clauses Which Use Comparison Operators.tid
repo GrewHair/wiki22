@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200613214120912
+modified: 20200614013534584
+tags: [[Learning SQL by Alan Beaulieu]]
+title: SQL Query Clauses Which Use Comparison Operators
+tmap.id: d790f0b7-3595-4d7c-bbf1-acb71d49ae11
+type: text/vnd.tiddlywiki
+
+There are a number of [[SQL Query Clauses]] that make use of [[Comparison Operators|SQL Comparison Operators]]:
+
+* [[WHERE Clause]] - filters raw data
+* [[HAVING Clause]] - filters grouped data (i.e. after the [[GROUP BY Clause]])
+* [[ON Clause]] - defines [[Join Conditions|SQL Join Conditions]]

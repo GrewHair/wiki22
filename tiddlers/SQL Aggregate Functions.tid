@@ -1,5 +1,5 @@
 created: 20200610113709506
-modified: 20200610152853919
+modified: 20200612182557851
 tags: [[Learning SQL by Alan Beaulieu]]
 title: SQL Aggregate Functions
 tmap.id: 23717ffa-90f4-4a54-8d9b-6b663bb18579
@@ -12,6 +12,6 @@ type: text/vnd.tiddlywiki
 |`Min()`|Returns the minimum value within a set|
 |`Avg()`|Returns the average value across a set|
 |`Sum()`|Returns the sum of the values across a set|
-|`Count()`|Returns the number of values in a set|
+|<$link to="COUNT()">`COUNT()`</$link>|Returns the number of values in a set|
 
 [[Aggregate Functions|SQL Aggregate Functions]] __may not__ be referenced in the [[WHERE Clause]]. You have to reference them in the [[HAVING Clause]].

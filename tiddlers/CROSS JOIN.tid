@@ -1,0 +1,19 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200614005350314
+modified: 20200614013846080
+tags: [[Learning SQL by Alan Beaulieu]]
+title: CROSS JOIN
+tmap.id: 16f417cd-8900-43de-b188-4234ce4a6753
+type: text/vnd.tiddlywiki
+
+The [[CROSS JOIN]] returns the [[Cartesian Product]] of two [[Tables|Table]], i.e. all the possible combinations of rows of the two [[Tables|Table]].
+
+```sql
+SELECT pt.name, p.product_cd, p.name
+FROM product p CROSS JOIN product_type pt;
+```
+
+Whenever one forgets to specify the [[Join Conditions|SQL Join Conditions]] in a [[Query]] with any [[JOIN|SQL Joins]] keyword, the server will do a [[CROSS JOIN]] by default. Thus, to avoid confusion, whenever one specifically desires to obtain a [[Cartesian Product]], one should explicitly specify the [[CROSS JOIN]].

@@ -3,13 +3,13 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200605190823922
-modified: 20200605200630218
+modified: 20200614014234195
 tags: [[Learning SQL by Alan Beaulieu]]
 title: Defining Table Aliases
 tmap.id: cf627baf-953c-4f5c-9bb6-e64140b59fee
 type: text/vnd.tiddlywiki
 
-When multiple [[Tables|Table]] are [[Joined|SQL Joins]] together in a single [[Query]], one needs a way to identify which [[Table]] one is referring to when you reference [[Columns|Column]] in the <$link to="SELECT">`SELECT`</$link>, `WHERE`, `GROUP BY`, `HAVING` and `ORDER BY` [[Clauses|SQL Query Clauses]] (i.e. all the clauses other than the `FROM` clause itself).
+When multiple [[Tables|Table]] are [[Joined|SQL Joins]] together in a single [[Query]], one needs a way to identify which [[Table]] one is referring to when he references [[Columns|Column]] in the <$link to="SELECT">`SELECT`</$link>, `WHERE`, `GROUP BY`, `HAVING` and `ORDER BY` [[Clauses|SQL Query Clauses]] (i.e. all the clauses other than the `FROM` clause itself).
 
 One has two choices when referencing a [[Table]] outside the `FROM` clause:
 

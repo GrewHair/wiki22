@@ -3,11 +3,17 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200605093615408
-modified: 20200605093802586
+modified: 20200614013155090
 tags: [[Learning SQL by Alan Beaulieu]]
 title: SQL Joins
 tmap.id: 2b0e2ae0-61d9-4ecd-ad10-33409e7f38f1
 type: text/vnd.tiddlywiki
 
-* <$link to="INNER JOIN">`INNER JOIN`,</$link>
-* ...
+* <$link to="INNER JOIN">`INNER JOIN`</$link>
+* <$link to="LEFT OUTER JOIN">`LEFT OUTER JOIN`</$link>
+* <$link to="RIGHT OUTER JOIN">`RIGHT OUTER JOIN`</$link>
+* <$link to="FULL OUTER JOIN">`FULL OUTER JOIN`</$link>
+* <$link to="CROSS JOIN">`CROSS JOIN`</$link>
+* <$link to="NATURAL JOIN">`NATURAL JOIN`</$link>
+
+https://www.w3schools.com/sql/sql_join.asp

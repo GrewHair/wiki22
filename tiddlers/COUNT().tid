@@ -1,0 +1,24 @@
+created: 20200612182622226
+modified: 20200612184951511
+tags: [[Learning SQL by Alan Beaulieu]]
+title: COUNT()
+tmap.id: 2e623676-b541-492b-acb4-9cf3f4652e37
+type: text/vnd.tiddlywiki
+
+* Count distinct values in a [[Column]]:
+*><$codeblock code="SELECT COUNT(DISTINCT open_emp_id)
+FROM account;
+" language="sql"/>
+
+
+* Count all values in a [[Column]] (i.e. __non-[[Null|Null in SQL]]__ values!!)
+** It is less then or equal to the result of the previous bullet point, since it will not count the possible [[Nulls|Null in SQL]] as values
+*><$codeblock code="SELECT COUNT(cust_id)
+FROM account;
+"language="sql"/>
+
+
+* Count //all// the [[Rows|Row]] in a [[Table]]:
+*><$codeblock code="SELECT COUNT(*)
+FROM account;
+" language="sql"/>

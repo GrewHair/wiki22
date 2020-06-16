@@ -2,17 +2,15 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-created: 20200606010808647
-modified: 20200613204845485
+created: 20200602071316593
+modified: 20200612235134286
 tags: [[Learning SQL by Alan Beaulieu]]
-title: WHERE Clause
-tmap.id: a31a42ca-82d9-416a-ab34-57498ce54ad8
+title: SQL Statements
+tmap.id: d05d632e-5ab7-40bf-8a03-e1d9b937fd13
 type: text/vnd.tiddlywiki
 
-The [[WHERE Clause]] filters out the unwanted data.
+''SQL Statement Classes:''
 
-It's like an `if` statement in [[Python]]'s [[List Comprehensions]].
-
-It uses the [[Comparison Operators|SQL Comparison Operators]].
-
-[[Pitfalls|WHERE Clause/Pitfalls]]
+* [[SQL Schema Statements]]
+* [[SQL Data Statements]]
+* [[SQL Transaction Statements]]
