@@ -3,8 +3,24 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200616082755790
-modified: 20200616092945893
+modified: 20200619013815227
 tags: [[Learning SQL by Alan Beaulieu]]
 title: Database Transaction
 tmap.id: de7711dc-ba9a-4f3a-b353-0fac0017b678
 type: text/vnd.tiddlywiki
+
+A [[Transaction|Database Transaction]] is a device for grouping together multiple [[SQL Statements]] so either //all// or //none// of the [[Statements|SQL Statements]] succeed.
+
+[[Transactions|Database Transaction]] are used to implement [[Atomicity]].
+
+Any [[Transaction|Database Transaction]] should normally end with either of the two:
+
+*[[Commit|Commit (Databases)]] - if everything goes ok
+*[[Rollback|Rollback (Databases)]] - if something's wrong (insufficient funds, unexpected result, etc.)
+** If the server shuts down before a [[Commit|Commit (Databases)]] or [[Rollback|Rollback (Databases)]] is executed, the [[Transaction|Database Transaction]] will be [[Rolled Back|Rollback (Databases)]] when the server comes back online.
+
+Regardless of whether the [[Transaction|Database Transaction]] was [[Commited|Commit (Databases)]] or [[Rolled Back|Rollback (Databases)]], all resources acquired (e.g., [[Write Locks|Write Lock]]) during the execution of the [[Transaction|Database Transaction]] are released when the [[Transaction|Database Transaction]] completes.
+
+```sql
+START TRANSACTION;
+```

@@ -1,0 +1,32 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200619005250897
+modified: 20200619014920310
+tags: [[Learning SQL by Alan Beaulieu]]
+title: Starting a Transaction
+tmap.id: 64368f4e-88d5-4b3e-be77-aa2ad6fc8a90
+type: text/vnd.tiddlywiki
+
+[[Database]] servers handle [[Transaction|Database Transaction]] creation in one of two ways:
+
+* ''Approach #1'' - starting [[Transactions|Database Transaction]] implicitly
+*> An active [[Transaction|Database Transaction]] is always associated with a [[Database]] session, so there is no need or method to explicitly begin a [[Transaction|Database Transaction]]. When the current [[Transaction|Database Transaction]] ends, the server automatically begins a new [[Transaction|Database Transaction]] for your session.
+* ''Approach #2'' - starting [[Transactions|Database Transaction]] explicitly
+*> Unless you explicitly begin a [[Transaction|Database Transaction]], individual [[SQL Statements]] are automatically [[Commited|Commit (Databases)]] independently of one another. To begin [[Transaction|Database Transaction]], you must first issue a command.
+** [[MySQL]]
+**><$codeblock code="START TRANSACTION;"
+language="sql"/>
+** [[Microsoft SQL Server]]
+**><$codeblock code="BEGIN TRANSACTION;"
+language="sql"/>
+** In this approach, until you explicitly begin a [[Transaction|Database Transaction]], you are in the so-called [[Auto-commit Mode]].
+
+<br>
+
+''By database server:''
+
+* [[Oracle Database]] takes ''Approach #1''
+* [[Microsoft SQL Server]] takes ''Approach #2''
+* [[MySQL]] takes ''Approach #2''

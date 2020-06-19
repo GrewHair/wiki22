@@ -1,0 +1,25 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200617110446272
+modified: 20200618221553168
+tags: [[Learning SQL by Alan Beaulieu]]
+title: Read Lock
+tmap.id: 2bd49887-cc0b-4a3b-ad05-1b58488f1715
+type: text/vnd.tiddlywiki
+
+A [[Read Lock]] has the following features:
+
+* Multiple [[Read Locks|Read Lock]] for the same [[Table]] [[(or a portion thereof)|Lock Granularities]] may be acquired at the same time.
+*> In some implementations, other sessions can additionally read data without acquiring the [[Lock|Read Lock]].
+* Once at least one [[Read Lock]] is aquired, it prevents __anyone at all__ from modifying/writing (but not querying) into the locked [[Table]] [[(or a portion thereof)|Lock Granularities]].
+*> In some implementations, the write operations from another session will be put into the waiting states until the [[Read Lock]] is released.
+
+* If the session is terminated, either normally or abnormally, [[MySQL]] will release all the [[Locks|Read Lock]] implicitly.
+
+```sql
+LOCK TABLE messages READ;
+```
+
+https://www.mysqltutorial.org/mysql-table-locking/

@@ -2,15 +2,12 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-created: 20200616082238828
-modified: 20200618234831792
+created: 20200619014943812
+modified: 20200619015330998
 tags: [[Learning SQL by Alan Beaulieu]]
-title: Auto-commit Mode
-tmap.id: 06dc5379-025a-41cd-bc50-37abea70f0ce
+title: Ending a Transaction
+tmap.id: f4c69872-859c-4049-977d-22cc7e398a62
 type: text/vnd.tiddlywiki
 
-* Disabling the [[Auto-commit Mode]]:
-** [[Microsoft SQL Server]]:
-**><$codeblock code="SET IMPLICIT_TRANSACTIONS ON" language="sql"/>
-** [[MySQL]]:
-**><$codeblock code="SET AUTOCOMMIT=0" language="sql"/>
+Regardless of how a [[Transaction|Database Transaction]] was [[started|Starting a Transaction]], it must be [[ended|Ending a Transaction]] explicitly - otherwise it the changes will not be made permanent.
+

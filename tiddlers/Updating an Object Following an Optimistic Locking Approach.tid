@@ -1,0 +1,32 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200618101636503
+modified: 20200618192920062
+tags: SQL
+title: Updating an Object Following an Optimistic Locking Approach
+tmap.id: 9dd5a814-1723-4792-871a-9bae5d9bc99d
+type: text/vnd.tiddlywiki
+
+[[plantuml width="400px" tooltip="The Real Hunger Games™?" [
+@startuml
+skinparam monochrome reverse
+participant Application
+database Database
+
+Application -> Database : Read lock source data
+Application -> Database : Select data
+Application <-- Database : Result
+Application -> Database : Unlock
+Application -> Application : Work with the data
+Application -> Database : Write lock data
+Application -> Database : Select data
+Application <-- Database : Result
+Application -> Application : Detect collision
+Application -> Database : Update data
+Application -> Database : Unlock
+@enduml
+]]]
+
+http://www.agiledata.org/essays/concurrencyControl.html

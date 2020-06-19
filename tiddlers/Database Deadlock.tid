@@ -4,7 +4,7 @@
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 .hsk.transcludes: [[_my/images/block_diagrams/deadlock]]
 created: 20200616093314482
-modified: 20200616124449129
+modified: 20200617075540941
 tags: [[Learning SQL by Alan Beaulieu]]
 title: Database Deadlock
 tmap.id: 714ca629-5c32-45d4-968b-6e560ed05ccf
@@ -19,3 +19,5 @@ A [[Deadlock|Database Deadlock]] occurs when two different [[Transactions|Databa
 * If both [[Transactions|Database Transaction]] are modifying the same [[Page]] of [[Row]] (depending on the [[Lock Granularity]] in use), they will wait forever for each other to finish and free up the resource.
 
 {{_my/images/block_diagrams/deadlock}}
+
+https://www.geeksforgeeks.org/deadlock-detection-recovery/

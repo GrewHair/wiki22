@@ -1,0 +1,35 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200618180939246
+modified: 20200618230451752
+tags: [[Learning SQL by Alan Beaulieu]]
+title: Locking Strategies
+tmap.id: 37991d70-c81c-472f-bab6-c52e43e4283e
+type: text/vnd.tiddlywiki
+
+Most [[Database]] servers use one of two [[Locking Strategies]]:
+
+* ''Approach #1''
+** [[Database]] writers must request and receive from the server a [[Write Lock]] to modify data
+** [[Database]] readers must request and receive from the server a [[Read Lock]] to query data
+** (pros & cons):
+*** `(+)` [[secure|Pessimistic Locking]]
+*** `(-)` can lead to long wait times if there are many concurrent read and write requests
+
+* ''Approach #2''
+** [[Database]] writers must request and receive from the server a [[Write Lock]] to modify data
+** [[Database]] readers don't need any type of [[Lock|Database Locks]] to query data
+** The server provides the reader with a consistent view of the data from the time the query starts and until the query is finished - this requires the server to do [[Versioning]] (because during the query the actual data may change)
+** (pros & cons):
+*** `(+)` shorter wait times
+*** `(-)` can be problematic if there are long-running queries while data is being modified
+<br>
+
+''By database server:''
+
+* [[Microsoft SQL Server]] uses ''Approach #1''
+* [[Oracle Database]] uses ''Approach #2''
+* [[MySQL]] uses both approaches, depending on the choice of [[Storage Engine|MySQL Storage Engines]]
+(Page 218)

@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200331100602556
-modified: 20200331101930436
+modified: 20200617080217418
 tags: Vim
 title: Vim :set Commands
 tmap.id: b3c03c08-ba74-47a9-b334-b8324e646f13
@@ -13,5 +13,6 @@ type: text/vnd.tiddlywiki
 * `:set nonu` - no line numbers
 * `:set rnu` - set relative line numbers
 * `:set nornu` - no relative line numbers
+* `:set hlsearch` - set search highlighting
 
 https://www.cyberciti.biz/faq/vi-show-line-numbers/

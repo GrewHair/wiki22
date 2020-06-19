@@ -1,0 +1,39 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200617083009882
+modified: 20200618221450656
+tags: [[Learning SQL by Alan Beaulieu]]
+title: Database Locks
+tmap.id: 5fc50e71-41b6-4fa1-9d39-2cb4ecbc429e
+type: text/vnd.tiddlywiki
+
+[[Locking|Database Locks]] is used to implement [[Isolation]] among multiple database users.
+
+A [[Lock|Database Locks]] is a flag associated with a [[Table]] [[(or a portion thereof)|Lock Granularities]]. It prevents other sessions from accessing the same [[Table]] buring a specific period of time. It may be acquired explicitly:
+
+```sql
+LOCK TABLES table_name [READ | WRITE];
+```
+
+(i.e. __either__ `READ` __or__ `WRITE`).
+
+[[MySQL]] allows to lock multiple [[Tables|Table]] using a list:
+
+```sql
+LOCK TABLES table_name1 [READ | WRITE],
+			table_name2 [READ | WRITE],
+			 ... ;
+```
+
+To release a [[Lock|Database Locks]] for a [[Table]], one can use the following [[Statement|SQL Statements]]:
+
+```sql
+UNLOCK TABLES;
+```
+
+There are generally two types of [[Locks|Database Locks]]:
+
+* [[Read Lock]]
+* [[Write Lock]]

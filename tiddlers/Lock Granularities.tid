@@ -1,0 +1,30 @@
+created: 20200618224729484
+modified: 20200618233512934
+tags: [[Learning SQL by Alan Beaulieu]]
+title: Lock Granularities
+tmap.id: 8f6610e4-2326-413c-8ae9-6527675d6c51
+type: text/vnd.tiddlywiki
+
+* Table locks
+*> Keep multiple users from modifying data in the same [[Table]] simultaneously
+** (pros & cons):
+*** `(+)` takes very little bookkeeping
+*** `(-)` quickly yields unacceptable wait times as the number of users increases
+* Page locks
+*> Keep multiple users from modifying data on the same page (a page is a segment of memory generally in the range of 2 KB to 16 KB) of a [[Table]] simultaneously
+** (pros & cons):
+*** in between table locking and row locking
+* Row locks
+*> Keep multiple users from modifying the same [[Row]] in a [[Table]] simultaneously
+** (pros & cons):
+*** `(+)` allows many users to modify the same [[Table]] as long as they are interested in different [[Rows|Row]]
+*** `(-)` takes more bookkeeping
+<br>
+
+''By database server:''
+
+* [[Microsoft SQL Server]] uses page, [[Row]] and [[Table]] [[Locking|Database Locks]]
+*> [[Microsoft SQL Server]] will, under certain circumstances, //escalate// [[Locks|Database Locks]] from [[Row]] to page, and from page to [[Table]]
+* [[Oracle Database]] uses only [[Row]] [[Locking|Database Locks]]
+*> [[Oracle Database]] will never escalate [[Locks|Database Locks]]
+* [[MySQL]] uses [[Table]], page or [[Row]] [[Locking|Database Locks]], depending on the choice of [[Storage Engine|MySQL Storage Engines]] 

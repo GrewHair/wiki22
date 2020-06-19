@@ -3,8 +3,8 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200616090004337
-modified: 20200616090303904
+modified: 20200618234741887
 tags: [[Learning SQL by Alan Beaulieu]]
-title: Rollback
+title: Rollback (Databases)
 tmap.id: 1a82da5d-0090-4ee5-88d5-e2787210d5f9
 type: text/vnd.tiddlywiki

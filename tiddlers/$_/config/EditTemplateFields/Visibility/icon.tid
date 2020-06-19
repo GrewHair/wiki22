@@ -1,6 +1,6 @@
 created: 20200422040120962
-modified: 20200501224232938
+modified: 20200617075445620
 title: $:/config/EditTemplateFields/Visibility/icon
 type: text/vnd.tiddlywiki
 
-show
+hide

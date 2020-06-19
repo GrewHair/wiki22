@@ -2,9 +2,22 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-created: 20200616094117473
-modified: 20200616095913672
+created: 20200617113058976
+modified: 20200618233058619
 tags: [[Learning SQL by Alan Beaulieu]]
 title: Write Lock
-tmap.id: a4685be2-068b-46a9-8319-dd0907d7bc93
+tmap.id: a6b50ec2-a361-4a62-beaf-5d0148c753cd
 type: text/vnd.tiddlywiki
+
+A [[Write Lock]] has the following features:
+
+* One and only one [[Write Lock]] for the same [[Table]] [[(or a portion thereof)|Lock Granularities]] may be acquired at the same time.
+* Once the [[Write Lock]] is acquired, it prevents __anyone ''except'' the lock holder__ from @@color:aqua; either @@ querying @@color:aqua; or @@ modifying the locked [[Table]] (or a portion thereof).
+*> The user who has acquired the [[Write Lock]] (i.e. the lock holder) is the only one who can @@color:aqua; both @@ query @@color:aqua; and @@ modify the locked [[Table]] [[(or a portion thereof)|Lock Granularities]].
+* If the session is terminated, either normally or abnormally, [[MySQL]] will release all the [[Locks|Write Lock]] implicitly.
+
+```sql
+LOCK TABLE messages WRITE;
+```
+
+https://www.mysqltutorial.org/mysql-table-locking/
