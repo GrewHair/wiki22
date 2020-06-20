@@ -1,6 +1,6 @@
 created: 20200422040120962
-modified: 20200617075445616
+modified: 20200619230849441
 title: $:/config/EditTemplateFields/Visibility/color
 type: text/vnd.tiddlywiki
 
-hide
+show

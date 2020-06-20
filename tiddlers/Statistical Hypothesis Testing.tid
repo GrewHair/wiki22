@@ -2,10 +2,13 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-created: 20191023111142202
-list: [[Conditional Proposition]] [[Conjunctive Proposition]] [[Disjunctive Proposition]]
-modified: 20200620005053927
-tags: Stub Logic [[100 Days of Logic (carneades.org)]]
-title: Hypothetical Proposition
-tmap.id: 3f862e5d-f940-4db7-8c57-03b5b3d3ad5f
+created: 20200620011710473
+modified: 20200620024650777
+tags: Statistics
+title: Statistical Hypothesis Testing
+tmap.id: 286e602d-4464-4ed8-b20d-dc0ee7cbaf30
 type: text/vnd.tiddlywiki
+
+''AKA Confirmatory Data Analysis''
+
+A [[Statistical Hypothesis Test|Statistical Hypothesis Testing]] is a method of [[Statistical Inference]].

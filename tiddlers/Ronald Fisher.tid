@@ -2,10 +2,13 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-created: 20191023111142202
-list: [[Conditional Proposition]] [[Conjunctive Proposition]] [[Disjunctive Proposition]]
-modified: 20200620005053927
-tags: Stub Logic [[100 Days of Logic (carneades.org)]]
-title: Hypothetical Proposition
-tmap.id: 3f862e5d-f940-4db7-8c57-03b5b3d3ad5f
+created: 20200620024732276
+modified: 20200620025020376
+tags: Statistics Person
+title: Ronald Fisher
+tmap.id: 41a488c7-8842-4765-955c-17a01fa871b5
 type: text/vnd.tiddlywiki
+
+* [[Null Hypothesis]]
+* [[Analysis of Variance]]
+* [[Significance Test]]

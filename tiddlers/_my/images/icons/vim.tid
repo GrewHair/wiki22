@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200329153903511
-modified: 20200329154314825
+modified: 20200620024233429
 tags: 
 title: _my/images/icons/vim
 tmap.id: a5de1459-c370-4c80-b945-5613b31b1765

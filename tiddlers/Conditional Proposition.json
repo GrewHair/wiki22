@@ -2,10 +2,10 @@
     {
         "created": "20191023111254932",
         "text": "<<prs railroad>>\n\n<!--Links (for context-aware search):-->\n[[|Antecedent]]\n[[|Consequent]]\n[[|Material Implication]]\n[[|Material Equivalence]]",
+        "type": "text/vnd.tiddlywiki",
         "title": "Conditional Proposition",
         "tags": "Stub Logic [[100 Days of Logic (carneades.org)]]",
-        "modified": "20200325163931768",
-        "type": "text/vnd.tiddlywiki",
+        "modified": "20200620005058103",
         "tmap.id": "b11c793b-dda5-4a51-b7f3-18d25b6ba450",
         ".prs.railroad": "<$railroad text=\"\"\"[[Antecedent|Antecedent]] ([[\"→\"|\"Material Implication\"]]|[[\"↔\"|\"Material Equivalence\"]]) [[Consequent|Consequent]] \"\"\"/>",
         ".hsk.tagged_topic": "[<currentTiddler>tags[]field:icon[_my/images/icons/topic]]",

@@ -21,14 +21,20 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200430180232179
-modified: 20200430181554932
+modified: 20200620032154445
 tags: [[Probability Distribution]] Stub
 title: Point Mass Distribution
 tmap.id: 777112c3-7ab9-4d74-b923-73194c36876c
 type: text/vnd.tiddlywiki
+
+''AKA Degenerate Distribution''
 
 <<probability_distribution_summary>>
 
 $$ \displaystyle X \sim \delta_a$$
 
 It is really just a non-random (i.e. deterministic) value!
+
+This [[Distribution|Probability Distribution]] is actually pretty useful, because it allows to interpret a lot of elementary [[Probability|Probability Theory]] problems - e.g. given at job interviews (like the [[Monty Hall Problem]] and such) - using the framework of [[Statistical Hypothesis Testing]]. In such problems one is usually asked to calculate actual [[Probabilities|Probability Measure]] and/or values, which is exactly what this [[Distribution|Probability Distribution]] models!
+
+https://en.wikipedia.org/wiki/Degenerate_distribution

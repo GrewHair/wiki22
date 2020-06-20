@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200619214018545
+modified: 20200619222002223
+tags: 
+title: temp
+tmap.id: d3b5a118-bd56-4e9b-bb69-9299c1fd2345
+type: text/vnd.tiddlywiki
+
+|!Natural Language|!Set Theory|!Propositional Logic|
+|The car is either behind door #1 or door #2|$$D_1 \cup D_2$$|$$P$$|
+|The car is neither behind door #1 nor door #2|$$(D_1 \cup D_2)^C$$|$$\neg P$$|
+
+|!Natural Language|!Set Theory|!Propositional Logic|
+|The car is behind door #1|$$D_1$$|$$p$$|
+|The car is behind door #2|$$D_2$$|$$q$$|
+|The car is either behind door #1 or door #2|$$D_1 \cup D_2$$|$$p \vee q$$|
+|The car is neither behind door #1 nor door #2 <br>(It is not true that the car is either behind <br> door #1 or door #2)|$$(D_1 \! \cup \!D_2)^C$$|$$\neg (p \vee q)$$|

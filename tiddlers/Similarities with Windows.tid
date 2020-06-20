@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200620035556859
+modified: 20200620041419635
+tags: Ubuntu
+title: Similarities with Windows
+tmap.id: 46761120-ff71-4cc7-9f76-3e30740f316f
+type: text/vnd.tiddlywiki
+
+|!Ubuntu|!Windows|!Description|
+|dconf|registry|it's a database of Gnome configurations (including Gnome terminal)|
+|snap|Microsoft Store|it's a new packaging system forced by Canonical, it provides isolation and also it's somewhat non-open source. What's more important - it just sucks ass|

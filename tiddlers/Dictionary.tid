@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200127081801358
-modified: 20200617095717081
+modified: 20200620013147707
 tags: English
 title: Dictionary
 tmap.id: 7172dc91-dffa-4b19-8ff2-b250677e4524
@@ -24,3 +24,4 @@ type: text/vnd.tiddlywiki
 * leap year - високосный год
 * DBA - database administrator
 * atomicity - атомарность
+* p-value - достигаемый уровень значимости

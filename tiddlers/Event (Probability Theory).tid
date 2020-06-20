@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200318063939388
-modified: 20200426154018505
+modified: 20200620034830376
 tags: [[Probability Theory]] [[Statistics 110 (Harvard University)]]
 title: Event (Probability Theory)
 tmap.id: 96ad5ef0-5051-4208-90b7-fc25b26202f8
@@ -14,7 +14,7 @@ An [[Event|Event (Probability Theory)]] is a [[Subset]] of the [[Sample Space]].
 In cases when the [[Sample Space]]
  is not [[finite|Finite Set]], it is more correct to say that an [[Event|Event (Probability Theory)]] is an element of the [[σ-algebra]] of [[subsets|Subset]] of the [[Sample Space]].
 
-It should be stressed that an [[Event]] is a [[Set]]. E.g.:
+It should be stressed that an [[Event|Event (Probability Theory)]] is a [[Set]]. E.g.:
 
 $$
 \{\omega \in \Omega | u < X(\omega) \leq v \},
@@ -30,14 +30,14 @@ $$
 u < X(\omega) \leq v.
 $$
 
-Thus, the common notation for [[Probability]]
+Thus, the common notation for [[Probability|Probability Measure]]
 
 $$
-P(u < X \leq v) = F(v) - F(u)
+\mathbb P(u < X \leq v) = F(v) - F(u)
 $$
 
 is really a shorthand for
 
 $$
-P(\{\omega \in \Omega | u < X \leq v \}) = F(v) - F(u)
+\mathbb P(\{\omega \in \Omega | u < X \leq v \}) = F(v) - F(u)
 $$

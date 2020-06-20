@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20191223071551095
-modified: 20200325163938005
+modified: 20200619234618364
 tags: [[Predicate Logic]] Logic
 title: Predicate (Predicate Logic)
 tmap.id: 3dc03d1e-1709-4b63-a988-988c53dca443
@@ -12,7 +12,7 @@ type: text/vnd.tiddlywiki
 A [[Predicate|Predicate (Predicate Logic]] is commonly understood to be a [[Boolean-valued Function]]
 $$P: X \to \{\text{True, False}\}$$, although the term is broad and the meaning may vary.
 
-When a theory defines a [[relation|Binary Relation]], then a [[Predicate|Predicate (Predicate Logic]] is simply an [[Indicator Function]] (also sometimes referred to as //Characteristic Function//) of a [[relation|Binary Relation]].
+When a theory defines a [[relation|Binary Relation]], then a [[Predicate|Predicate (Predicate Logic]] is simply an [[Indicator Function]] of a [[relation|Binary Relation]].
 
 Informally, a predicate is a statement that may be either [[True|Truth Value]] or [[False|Truth Value]] depending on the values of variables.
 

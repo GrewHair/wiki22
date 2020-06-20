@@ -3,10 +3,28 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200613021924227
-modified: 20200613022005577
+modified: 20200619230142710
 tags: [[Probability Theory]]
 title: Monty Hall Problem
 tmap.id: 49e9ec88-bf87-472f-8f1d-745acbc72646
 type: text/vnd.tiddlywiki
 
 https://en.wikipedia.org/wiki/Monty_Hall_problem
+
+There are three doors. There's a car behind one of them. After you've picked one, the show host opens up another one and there's nothing behind it. The host is asking: will you now change your decision?
+
+The correct answer is: __Yes__!
+
+''Solution:''
+
+Assume initially you've picked ''Door #1'', and the host opened up ''Door #3''.
+
+* The [[Sample Space]]:
+** The car is behind ''Door #1''
+** The car is behind ''Door #2''
+** The car is behind ''Door #3''
+
+* The [[Events|Event (Probability Theory)]] of interest:
+** [[Event A|Event (Probability Theory)]]: the car is behind ''Door #1''
+** [[Event B|Event (Probability Theory)]]: the car is either behind ''Door #1'' or ''Door #2''
+

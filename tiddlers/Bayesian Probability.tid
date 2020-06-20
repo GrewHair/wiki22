@@ -1,0 +1,41 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200619192041910
+modified: 20200620035542496
+tags: Statistics
+title: Bayesian Probability
+tmap.id: 85a0daaa-e0fa-44bb-a713-eb554a1f0977
+type: text/vnd.tiddlywiki
+
+$$
+\displaystyle
+\underbrace{
+\mathbb P(H\,|\,E) 
+}_{
+\text{Posterior}}
+=
+\frac
+{
+\overbrace{
+\mathbb P(E\,|\,H)
+}^{
+\text{Likelihood}}
+\cdot
+\overbrace{
+\mathbb P(H)
+}^{
+\text{Prior}\\
+}
+}
+{
+\underbrace{
+\mathbb P(E)
+}_{\text{Evidence}}
+}
+$$
+
+https://en.wikipedia.org/wiki/Bayesian_inference
+
+https://en.wikipedia.org/wiki/Bayesian_probability
