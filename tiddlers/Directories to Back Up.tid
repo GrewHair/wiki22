@@ -1,0 +1,24 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200620045013973
+modified: 20200620045719950
+tags: Ubuntu
+title: Directories to Back Up
+tmap.id: 124b8896-47ba-4514-ba8c-d3422b862a2a
+type: text/vnd.tiddlywiki
+
+* ''Back up:''
+** `/home`
+** `/etc`
+** `/usr`
+** `/var`
+* ''Don't back up:''
+** `/dev`
+** `/proc`
+** `/sys`
+** `/mnt`
+** `/media`
+** `/run`
+** `/tmp`
