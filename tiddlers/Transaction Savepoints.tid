@@ -1,0 +1,50 @@
+created: 20200624091235745
+modified: 20200624093043221
+tags: [[Learning SQL by Alan Beaulieu]]
+title: Transaction Savepoints
+tmap.id: 2818b4b1-2e75-4ed4-bd5c-8d9a551776b3
+type: text/vnd.tiddlywiki
+
+When one desires to [[Roll Back|Rollback (Databases)]] //some//, but not //all// of the [[Statements|SQL Statements]] within a [[Transaction|Database Transaction]], one can establish one or more [[Savepoints|Transaction Savepoints]] within a [[Transaction|Database Transaction]] and use them to [[Roll Back|Rollback (Databases)]] to a particular location within the [[Transaction|Database Transaction]], rather than rolling all the way back to the start.
+
+All [[Savepoints|Transaction Savepoints]] must be given a name.
+
+Create a [[Savepoint|Transaction Savepoints]]:
+
+```sql
+SAVEPOINT my_savepoint;
+```
+
+Roll back to a [[Savepoint|Transaction Savepoints]]:
+
+```sql
+ROLLBACK TO SAVEPOINT my_savepoint;
+```
+
+Full example:
+
+```sql
+START TRANSACTION;
+
+UPDATE product
+SET date_retired = CURRENT_TIMESTAMP()
+WHERE product_cd = 'XYZ';
+
+SAVEPOINT before_close_accounts;
+
+UPDATE account
+SET status = 'CLOSED',
+	close_date = CURRENT_TIMESTAMP(),
+	last_activity_date = CURRENT_TIMESTAMP()
+WHERE product_cd = 'XYZ';
+
+ROLLBACK TO SAVEPOINT before_close_accounts;
+COMMIT;
+```
+
+In this example, the product is retired, but the account is not closed.
+
+Keep in mind:
+
+* Nothing is really saved upon the [[Savepoint|Transaction Savepoints]] creation - one must eventually issue the [[Commit|Commit (Databases)]] [[statement|SQL Statements]] in order for the changes to be made permanent
+* If one issues a [[Rollback|Rollback (Databases)]] [[statement|SQL Statements]] without naming a [[Savepoint|Transaction Savepoints]], the whole [[Transaction|Database Transaction]] will be [[Rolled Back|Rollback (Databases)]]

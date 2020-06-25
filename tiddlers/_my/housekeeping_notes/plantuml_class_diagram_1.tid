@@ -1,0 +1,31 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200624145400299
+modified: 20200624145613132
+tags: [[Learning SQL by Alan Beaulieu]]
+title: _my/housekeeping_notes/plantuml_class_diagram_1
+tmap.id: 3d6a9e59-6512-46d5-9690-fbb0b52ee5d6
+type: text/vnd.tiddlywiki
+
+<$scrollable class="tc-scrollable-plantuml-1">
+[[plantuml tooltip="The Real Hunger Games™?" [
+@startuml
+
+class Dummy
+Dummy --> Foo : A link
+note on link #red: note that is red
+
+Dummy --> Foo2 : Another link
+note right on link #blue
+this is my note on right link
+and in blue
+end note
+
+@enduml
+
+]]]
+</$scrollable>
+
+https://plantuml.com/ru/class-diagram

@@ -1,0 +1,10 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200625213021626
+modified: 20200625213048406
+tags: 
+title: In Memory Container
+tmap.id: 669dc432-b323-4a3d-bf4a-25fb442ce54a
+type: text/vnd.tiddlywiki

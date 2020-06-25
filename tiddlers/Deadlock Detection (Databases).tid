@@ -1,0 +1,18 @@
+created: 20200624083025302
+modified: 20200624083854039
+tags: [[Learning SQL by Alan Beaulieu]]
+title: Deadlock Detection (Databases)
+tmap.id: ed193f42-2048-4a73-8d34-b8b0b6dd7b9b
+type: text/vnd.tiddlywiki
+
+The [[Deadlock Detection Mechanism|Deadlock Detection (Databases)]] is constantly sniffing for [[Deadlocks|Database Deadlock]], so that throughput doesn't halt.
+
+When a [[Deadlock|Database Deadlock]] is detected, one of the [[Transactions|Database Transaction]] is chosen (either arbitrarily or by some criteria) to be [[Rolled Back|Rollback (Databases)]] so that the other one may be proceeded.
+
+With [[MySQL]], the user will receive `error #1213`:
+
+```
+Message: Deadlock found when trying to get lock; try restarting transaction
+```
+
+After this, the [[Rolled Back|Rollback (Databases)]] [[Transaction|Database Transaction]] may be restarted, and will (likely) succeed without encountering another [[Deadlock|Database Deadlock]] situation.

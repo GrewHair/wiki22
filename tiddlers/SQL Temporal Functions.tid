@@ -1,11 +1,12 @@
 created: 20200610094158164
-modified: 20200610103325922
+modified: 20200624112608591
 tags: [[Learning SQL by Alan Beaulieu]]
 title: SQL Temporal Functions
 tmap.id: c4200876-3dfb-427d-9d11-376c072d1394
 type: text/vnd.tiddlywiki
 
 |!Function name|!Description|
+|`NOW()`||
 |`DATE_ADD(CURRENT_DATE(), INTERVAL 5 DAY)`|Adds an interval to a date ([[click here for the list of intervals|Common SQL Interval Types]])|
 |`LAST_DAY('2008-09-17')`|Returns the last date of the input month (i.e. in this case 2008-09-30)|
 |`CONVERT_TZ(CURRENT_TIMESTAMP(), 'US/Eastern', 'UTC')`|Converts timezone (in this case, from US/Eastern to UTC)|

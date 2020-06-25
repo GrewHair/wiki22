@@ -3,10 +3,37 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200616131458475
-modified: 20200616131543150
+modified: 20200624091202629
 tags: [[Learning SQL by Alan Beaulieu]]
 title: MySQL Storage Engines
 tmap.id: 4f92f293-0903-402d-8e72-c117345f2253
 type: text/vnd.tiddlywiki
+
+Unlike [[Oracle Database]] or [[Microsoft SQL Server]], [[MySQL]] has a selection of different storage engines to provide low-level database functionality, including resource [[Locking|Database Locks]] and [[Transaction]] management.
+
+[[MySQL]] version 6.0 includes the following engines:
+
+|MyISAM|A nontransactional engine employing table locking|
+|MEMORY|A nontransactional engine used for in-memory tables|
+|BDB|A transactional engine employing page-level locking|
+|InnoDB|A transactional engine employing row-level locking|
+|Merge|A specialty engine used to make multiple identical MyISAM tables appear as a single table (a.k.a. table partitioning)|
+|Maria|A MyISAM replacement included in version 6.0.6 that adds full recovery capabilities|
+|Falcon|A new (as of 6.0.4) high-performance transactional engine employing row-level locking|
+|Archive|A specialty engine used to store large amounts of unindexed data, mainly for archival purposes|
+
+The user is allowed to choose [[engines|MySQL Storage Engines]] on a per-[[Table]] basis. 
+
+Check which [[Engine|MySQL Storage Engines]] is assigned to a particular [[Table]]:
+
+```sql
+SHOW TABLE STATUS LIKE 'transaction' \G
+```
+
+Change the [[Engine|MySQL Storage Engines]] of a [[Table]]:
+
+```sql
+ALTER TABLE transaction ENGINE = INNODB;
+```
 
 https://www.mysqltutorial.org/basic-mysql-tutorial-aspx/understanding-mysql-table-types/

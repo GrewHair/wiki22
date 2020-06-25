@@ -3,11 +3,24 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200619014943812
-modified: 20200619015330998
+modified: 20200624084053610
 tags: [[Learning SQL by Alan Beaulieu]]
 title: Ending a Transaction
 tmap.id: f4c69872-859c-4049-977d-22cc7e398a62
 type: text/vnd.tiddlywiki
 
-Regardless of how a [[Transaction|Database Transaction]] was [[started|Starting a Transaction]], it must be [[ended|Ending a Transaction]] explicitly - otherwise it the changes will not be made permanent.
+Regardless of how a [[Transaction|Database Transaction]] was [[started|Starting a Transaction]], it must be [[ended|Ending a Transaction]] explicitly - otherwise it the changes will not be made permanent:
 
+* Either [[Commit|Commit (Databases)]]
+*><$codeblock code="COMMIT;" language="sql"/>
+* or [[Rollback|Rollback (Databases)]]
+*><$codeblock code="ROLLBACK;" language="sql"/>
+
+There are some other scenarios by which a [[Transaction|Database Transaction]] can end:
+
+* The server shuts down - then the [[Transaction|Database Transaction]] is [[Rolled Back|Rollback (Databases)]] automatically upon server restart
+* The user issues a [[SQL Schema Statement|SQL Schema Statements]] - this will cause the current [[Transaction|Database Transaction]] to be [[Commited|Commit (Databases)]] the new [[Transaction|Database Transaction]] to be started
+* The user issues a `START TRANSACTION` command - this will cause the previous [[Transaction|Database Transaction]] to be [[Commited|Commit (Databases)]]
+* The server detects a [[Deadlock|Database Deadlock]] and [[decides to roll back the transaction|Deadlock Detection (Databases)]]
+
+Note that the second bullet point happens silently!
