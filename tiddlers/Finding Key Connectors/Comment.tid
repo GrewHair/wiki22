@@ -1,0 +1,24 @@
+created: 20200629154919173
+modified: 20200629155629446
+tags: [[Data Science from Scratch (Joel Grus)]] Python
+title: Finding Key Connectors/Comment
+tmap.id: b04ecbc7-e8fb-4a5d-b737-fb1d2177e3f5
+type: text/vnd.tiddlywiki
+
+In the actual [[book|Data Science from Scratch (Joel Grus)]], the code is:
+
+```python
+sorted(num_friends_by_id,
+       key=lambda (user_id, num_friends): num_friends,
+	   reverse=True)
+```
+
+This is because it was written for [[Python 2]]. It doesn't work in [[Python 3]], because of [[this|Removal of Tuple Parameter Unpacking]].
+
+So what one should do instead is this:
+
+```python
+sorted(num_friends_by_id,
+       key=lambda (user_id, num_friends): num_friends,
+	   reverse=True)
+```

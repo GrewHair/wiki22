@@ -1,0 +1,32 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200629184450122
+modified: 20200629190648266
+tags: Python
+title: Nested List Comprehensions
+tmap.id: 5e0ed8c2-999d-473e-b589-bb48f4cfe009
+type: text/vnd.tiddlywiki
+
+[[List Comprehensions]] can be [[Nested|Nested List Comprehensions]] just like [[Loops|For Loops]] can be - i.e. for any [[Nested Loop|Nested For Loops]] one can come up with a corresponding [[Nested List Comprehension|Nested List Comprehensions]].
+
+That means this:
+
+```python
+[leaf for branch in tree for leaf in branch]
+```
+
+is just a [[List Comprehension|List Comprehensions]] version of this:
+
+```python
+for branch in tree:
+	for leaf in branch:
+		yield leaf
+```
+
+<a target="_blank" href="https://www.python.org/dev/peps/pep-0202/">PEP202</a> asserts this syntax with //"the last index varying fastest"//.
+
+Basically, [[Nested List Comprehensions]] posess the same disadvantages [[Nested Loops|Nested For Loops]] do, even though they are a bit quicker.
+
+https://stackoverflow.com/questions/20639180/explanation-of-how-nested-list-comprehension-works

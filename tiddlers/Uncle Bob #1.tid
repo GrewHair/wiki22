@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200629191617508
+modified: 20200629193924148
+tags: Philosophy [[Uncle Bob]]
+title: Uncle Bob #1
+tmap.id: 73e2ac51-ae2e-415b-9298-00d0606567bc
+type: text/vnd.tiddlywiki
+
+<<<.tc-big-quote
+Code gets read many more times that is written
+<<<
+
+https://www.goodreads.com/quotes/835238-indeed-the-ratio-of-time-spent-reading-versus-writing-is

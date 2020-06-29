@@ -1,0 +1,34 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200629173344793
+modified: 20200629191316503
+tags: [[Data Science from Scratch (Joel Grus)]]
+title: Data Scientists You May Know
+tmap.id: a8a29a3b-ecd0-4509-8c3f-55f6e53fcc2f
+type: text/vnd.tiddlywiki
+
+Suppose that having done [[this|Finding Key Connectors]], one wants to design a "People You May Know" suggester.
+
+The first quick and easy approach would be to suggest [[the friends of friends|Friend of a Friend]] - this can be done by simple iteration:
+
+```python
+def friends_of_friend_ids_bad(user):
+	# "foaf" is shoer for "friend of a friend"
+	return [foaf["id"]]
+			for friend in user["friends"]       # for each of user's friends
+			for foaf in friend["friends"]]	# get each of _their_ friends
+```
+
+>''note:'' this is called a [[Nested List Comprehension|Nested List Comprehensions]]
+
+Called upon `users[0]` (//Hero//), it produces:
+
+```python
+[0, 2, 3, 0, 1, 3]
+```
+
+* user 0 is included twice, while it shouldn't be included at all
+* users 1 and 2 are each included once, while they shouldn't be included at all
+* user 3 is included twice, while it should be included only once

@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200629162118070
+modified: 20200629173031381
+tags: [[Graph Theory]]
+title: Degree (Graph Theory)
+tmap.id: 04a09b43-f966-4827-9e85-de7e4b2f5611
+type: text/vnd.tiddlywiki
+
+''AKA Valency''
+
+[[Degree|Degree (Graph Theory)]] is the simplest type of [[Centrality|Centrality (Graph Theory)]] in [[Graphs|Graph]].
+
+A [[Degree|Degree (Graph Theory)]] of a [[Vertex|Node (Graph Theory)]] in a [[Graph]] is the number of [[Edges|Edge (Graph Theory)]] that are [[Incident|Incidence (Graph Theory)]] to it.
+
+One big advantage of [[Degree (Graph Theory)]] over other [[Centralities|Centrality (Graph Theory)]] is that it is easy to calculate.
+
+https://en.wikipedia.org/wiki/Degree_(graph_theory)

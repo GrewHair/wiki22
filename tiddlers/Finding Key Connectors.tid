@@ -3,44 +3,26 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200629113115860
-modified: 20200629135017087
+modified: 20200629193840713
 tags: [[Data Science from Scratch (Joel Grus)]]
 title: Finding Key Connectors
 tmap.id: bf3e08d0-5e26-43fa-aa15-3f8ae4feb3ee
 type: text/vnd.tiddlywiki
 
-<$codeblock code="
-users = [
-	{'id': 0, 'name': 'Hero'},
-	{'id': 1, 'name': 'Dunn'},
-	{'id': 2, 'name': 'Sue'},
-	{'id': 3, 'name': 'Chi'},
-	{'id': 4, 'name': 'Thor'},
-	{'id': 5, 'name': 'Clive'},
-	{'id': 6, 'name': 'Hicks'},
-	{'id': 7, 'name': 'Devin'},
-	{'id': 8, 'name': 'Kate'},
-	{'id': 9, 'name': 'Klein'},
-]
-
-friendships = [(0, 1), (0, 2), (1, 2), (1, 3), (2, 3), (3, 4),
-			   (4, 5), (5, 6), (5, 7), (6, 8), (7, 8), (8, 9)]
-" language="python"/>
-				 
-
+\define friendships_graph(small medium large)
 <$viz text="
 graph {
 rankdir=LR
-0 [shape=circle]
-1 [shape=circle]
-2 [shape=circle]
-3 [shape=circle]
-4 [shape=circle]
-5 [shape=circle]
-6 [shape=circle]
-7 [shape=circle]
-8 [shape=circle]
-9 [shape=circle]
+0 [shape=circle height=$medium$]
+1 [shape=circle height=$large$]
+2 [shape=circle height=$large$]
+3 [shape=circle height=$large$]
+4 [shape=circle height=$medium$]
+5 [shape=circle height=$large$]
+6 [shape=circle height=$medium$]
+7 [shape=circle height=$medium$]
+8 [shape=circle height=$large$]
+9 [shape=circle fixedsize=true height=$small$]
 
 0 -- 1
 0 -- 2
@@ -56,6 +38,27 @@ rankdir=LR
 8 -- 9
 }
 " class="dot_1"/>
+\end
+
+```python
+users = [
+	{'id': 0, 'name': 'Hero'  },
+	{'id': 1, 'name': 'Dunn'  },
+	{'id': 2, 'name': 'Sue'   },
+	{'id': 3, 'name': 'Chi'   },
+	{'id': 4, 'name': 'Thor'  },
+	{'id': 5, 'name': 'Clive' },
+	{'id': 6, 'name': 'Hicks' },
+	{'id': 7, 'name': 'Devin' },
+	{'id': 8, 'name': 'Kate'  },
+	{'id': 9, 'name': 'Klein' },
+]
+
+friendships = [(0, 1), (0, 2), (1, 2), (1, 3), (2, 3), (3, 4),
+			   (4, 5), (5, 6), (5, 7), (6, 8), (7, 8), (8, 9)]
+```
+				 
+<<friendships_graph 0.5 0.5 0.5>>
 
 ''Question:'' who are the "key connectors" in this collective?
 
@@ -96,32 +99,10 @@ sorted(num_friends_by_id,
        key=lambda (user_id, num_friends): num_friends,
 	   reverse=True)
 " language="python"/>
+*** [[Comment|Finding Key Connectors/Comment]]
 
-<$viz text="
-graph {
-rankdir=LR
-0 [shape=circle height=0.6]
-1 [shape=circle height=1]
-2 [shape=circle height=1]
-3 [shape=circle height=1]
-4 [shape=circle height=0.6]
-5 [shape=circle height=1]
-6 [shape=circle height=0.6]
-7 [shape=circle height=0.6]
-8 [shape=circle height=1]
-9 [shape=circle fixedsize=true height=0.3]
+What we've actually computed at the last step is called [[Degree Centrality|Degree (Graph Theory)]]. It can now be visualized right on our `friendships` [[Graph]] as the visual size of the [[Nodes|Node (Graph Theory)]]:
 
-0 -- 1
-0 -- 2
-1 -- 2
-1 -- 3
-2 -- 3
-3 -- 4
-4 -- 5
-5 -- 6
-5 -- 7
-6 -- 8
-7 -- 8
-8 -- 9
-}
-" class="dot_1"/>
+<<friendships_graph 0.3 0.6 1>>
+
+Notice how //Thor// (`id 4`) has less connections than nearly the half of the other people, and yet intuitively he seems somewhat central to this [[Graph]]. This indicates that [[Degree|Degree (Graph Theory)]] might not nececcarily always be the best [[measure of importance of a node|Centrality (Graph Theory)]], and thus there exist other [[Centralities|Centrality (Graph Theory)]].
