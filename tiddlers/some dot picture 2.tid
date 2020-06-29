@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200628235923129
-modified: 20200629013320462
+modified: 20200629121115674
 tags: 
 title: some dot picture 2
 tmap.id: b01c3a9a-2920-442f-b399-d3d02b31f121
@@ -11,10 +11,10 @@ type: text/vnd.tiddlywiki
 
 <$viz text='  digraph structs {
 node [shape=record];
-struct1 [shape=record, label="<f0> left|<f1> middle|<f2> right", color=green, fontcolor=green];
-struct2 [shape=record, label="<f0> one|<f1> two", color=green, fontcolor=green];
-struct3 [shape=record, label="hello\nworld |{ b | {c|<here> d|e}| f}| g | h", color=green, fontcolor=green];
-struct4 [shape=record, label="foo|bar", color=green, fontcolor=green]
-struct1:f1 -> struct2:f0 [color=green];
-struct1:f2 -> struct3:here [color=green];
+struct1 [shape=record, label="<f0> left|<f1> middle|<f2> right"];
+struct2 [shape=record, label="<f0> one|<f1> two"];
+struct3 [shape=record, label="hello\nworld |{ b | {c|<here> d|e}| f}| g | h"];
+struct4 [shape=record, label="foo|bar"]
+struct1:f1 -> struct2:f0;
+struct1:f2 -> struct3:here;
 }' class='dot_1'/>

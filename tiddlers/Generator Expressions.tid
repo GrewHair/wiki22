@@ -2,19 +2,13 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-created: 20200628222607149
-modified: 20200629113113178
-tags: 
-title: some dot picture 1
-tmap.id: 04dd347f-82e5-4311-b2be-09edc5ce66ef
+created: 20200629130253386
+modified: 20200629130517205
+tags: Python
+title: Generator Expressions
+tmap.id: 6f0e5861-70af-4350-93c4-f590036fc505
 type: text/vnd.tiddlywiki
 
-<$viz text="
-graph {
-a [fontcolor=green]
-b [color=green, fontcolor=green]
-a -- b [style=dotted]
-c -- d
-b -- d
-}
-" class="dot_1"/>
+	[[Generator Expressions]] are a high performance, memory efficient generalization of [[List Comprehensions]] and [[Generators]].
+
+https://www.python.org/dev/peps/pep-0289/

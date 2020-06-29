@@ -1,0 +1,127 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200629113115860
+modified: 20200629135017087
+tags: [[Data Science from Scratch (Joel Grus)]]
+title: Finding Key Connectors
+tmap.id: bf3e08d0-5e26-43fa-aa15-3f8ae4feb3ee
+type: text/vnd.tiddlywiki
+
+<$codeblock code="
+users = [
+	{'id': 0, 'name': 'Hero'},
+	{'id': 1, 'name': 'Dunn'},
+	{'id': 2, 'name': 'Sue'},
+	{'id': 3, 'name': 'Chi'},
+	{'id': 4, 'name': 'Thor'},
+	{'id': 5, 'name': 'Clive'},
+	{'id': 6, 'name': 'Hicks'},
+	{'id': 7, 'name': 'Devin'},
+	{'id': 8, 'name': 'Kate'},
+	{'id': 9, 'name': 'Klein'},
+]
+
+friendships = [(0, 1), (0, 2), (1, 2), (1, 3), (2, 3), (3, 4),
+			   (4, 5), (5, 6), (5, 7), (6, 8), (7, 8), (8, 9)]
+" language="python"/>
+				 
+
+<$viz text="
+graph {
+rankdir=LR
+0 [shape=circle]
+1 [shape=circle]
+2 [shape=circle]
+3 [shape=circle]
+4 [shape=circle]
+5 [shape=circle]
+6 [shape=circle]
+7 [shape=circle]
+8 [shape=circle]
+9 [shape=circle]
+
+0 -- 1
+0 -- 2
+1 -- 2
+1 -- 3
+2 -- 3
+3 -- 4
+4 -- 5
+5 -- 6
+5 -- 7
+6 -- 8
+7 -- 8
+8 -- 9
+}
+" class="dot_1"/>
+
+''Question:'' who are the "key connectors" in this collective?
+
+''Solution:'' 
+
+* Let's add a `"friends"` attribute to each `user`. This attribute will be the list of everyone a user has a friendship is:
+
+*><$codeblock code="for user in users:
+	user['friends'] = []
+	
+for i, j in friendships:
+	users[i]['friends'].append(users[j])
+	users[j]['friends'].append(users[i])
+" language="python"/>
+* Let's find the average number of connections
+** First find the //total// number of connections //(here, "Hero is a friend of Dunn" and "Dunn is a friend of Hero" will be considered two different connections - for the sake of simplicity of code)//
+**><$codeblock code='
+def number_of_friends(user):
+	"""how many friends does _user_ have?"""
+	return len(user["friends"])
+	
+total_connections = sum(number_of_friends(user) for user in users)
+' language='python'/>
+***''note:'' this is called a [[Generator Expression|Generator Expressions]]
+** And now just divide by the number of users:
+**><$codeblock code="
+num_users = len(users)
+avg_connections = total_connections / num_users
+" language="python"/>
+* Let's find the most connected people
+** Create a list of `(user_id, number_of_friends)`:
+**><$codeblock code="
+num_friends_by_id = [(user['id'], number_of_friends(user)) for user in users]
+" language="python"/>
+** Sort this list in reversed order (largest to smallest):
+**><$codeblock code="
+sorted(num_friends_by_id,
+       key=lambda (user_id, num_friends): num_friends,
+	   reverse=True)
+" language="python"/>
+
+<$viz text="
+graph {
+rankdir=LR
+0 [shape=circle height=0.6]
+1 [shape=circle height=1]
+2 [shape=circle height=1]
+3 [shape=circle height=1]
+4 [shape=circle height=0.6]
+5 [shape=circle height=1]
+6 [shape=circle height=0.6]
+7 [shape=circle height=0.6]
+8 [shape=circle height=1]
+9 [shape=circle fixedsize=true height=0.3]
+
+0 -- 1
+0 -- 2
+1 -- 2
+1 -- 3
+2 -- 3
+3 -- 4
+4 -- 5
+5 -- 6
+5 -- 7
+6 -- 8
+7 -- 8
+8 -- 9
+}
+" class="dot_1"/>
