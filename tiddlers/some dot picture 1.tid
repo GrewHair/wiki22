@@ -2,18 +2,19 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-created: 20200604230002752
-modified: 20200626210315752
+created: 20200628222607149
+modified: 20200629013311116
 tags: 
-title: _my/housekeeping_notes/plantuml_ER_diagram_example
-tmap.id: 00ef0003-0e56-4dd2-9ab1-1ceb087350f6
+title: some dot picture 1
+tmap.id: 04dd347f-82e5-4311-b2be-09edc5ce66ef
 type: text/vnd.tiddlywiki
 
-[[plantuml width="700px" tooltip="The Real Hunger Games™?" [
-@startuml
-Entity01 }|..|| Entity02
-Entity03 }o..o| Entity04
-Entity05 ||--o{ Entity06
-Entity07 |o--|| Entity08
-@enduml
-]]]
+<$viz text="
+graph {
+a [fontcolor=green]
+b [color=green, fontcolor=green]
+a -- b [style=dotted]
+c -- d
+b -- d
+}
+" class="dot_1"/>

@@ -2,11 +2,9 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-created: 20200504160004067
-modified: 20200626195454644
-tags: 
-title: _my/housekeeping_notes/plotly_test
-tmap.id: 05459c6d-8921-49c2-a373-791ae6ccae92
-type: text/vnd.tiddlywiki
-
-<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~Circuit_Rider_9/1.embed"></iframe>
+created: 20200629003600309
+modified: 20200629014337209
+tags: $:/tags/Stylesheet
+title: _my/stylesheets/dot_diagrams
+tmap.id: e14c30df-3f11-4271-a952-87260cb93f6d
+type: text/css

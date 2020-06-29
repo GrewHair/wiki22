@@ -3,24 +3,24 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200625225935651
-modified: 20200625230314150
+modified: 20200625233342286
 tags: Python
 title: How to Check for CUDA-enabled Devices
 tmap.id: 07d003e7-7594-4281-9717-00b48ed26fe6
 type: text/vnd.tiddlywiki
 
 ```bash
-numba -s
+boris@computer:~$ numba -s
 ```
 
 or
 
 ```bash
-numba -s | grep CUDA
+boris@computer:~$ numba -s | grep CUDA
 ```
 
 or
 
 ```bash
-numba -s | grep GeForce
+boris@computer:~$ numba -s | grep GeForce
 ```

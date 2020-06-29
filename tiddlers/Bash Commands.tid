@@ -1,0 +1,27 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200628224602510
+modified: 20200628232316040
+tags: Ubuntu
+title: Bash Commands
+tmap.id: b73e9a56-df89-4833-8f6c-b8c1fadbd299
+type: text/vnd.tiddlywiki
+
+* `date` - date
+* `cal` - calendar
+** `cal -3` - for three months
+** `cal june 1920` - for june, year 1920
+* `grep -v foo` - grep inverse match
+* `df` - file system disk space usage ("disk free")
+** `df -h` - humanly readable
+** `df -h | grep -v loop` - without snap loops
+* `du` - file space usage (without argument, it is going to scan ''all'' the files!)
+* `ps` - list current processes (by default it only lists the processes owned by this terminal instance)
+** `ps -ax` - list all the processes
+* `pidof foo` - [[PID|Process ID]] of process foo
+** `pgrep` - a somewhat similar command..
+* `top` - table of processes
+** `htop` - the same, but it's moving
+* `ip addr` - get ip address
