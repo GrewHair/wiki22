@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200629113115860
-modified: 20200629193840713
+modified: 20200630230015687
 tags: [[Data Science from Scratch (Joel Grus)]]
 title: Finding Key Connectors
 tmap.id: bf3e08d0-5e26-43fa-aa15-3f8ae4feb3ee
@@ -73,6 +73,8 @@ for i, j in friendships:
 	users[i]['friends'].append(users[j])
 	users[j]['friends'].append(users[i])
 " language="python"/>
+*>[[Comment|Finding Key Connectors/Comment#1]]
+
 * Let's find the average number of connections
 ** First find the //total// number of connections //(here, "Hero is a friend of Dunn" and "Dunn is a friend of Hero" will be considered two different connections - for the sake of simplicity of code)//
 **><$codeblock code='
@@ -99,7 +101,7 @@ sorted(num_friends_by_id,
        key=lambda (user_id, num_friends): num_friends,
 	   reverse=True)
 " language="python"/>
-*** [[Comment|Finding Key Connectors/Comment]]
+*** [[Comment|Finding Key Connectors/Comment#2]]
 
 What we've actually computed at the last step is called [[Degree Centrality|Degree (Graph Theory)]]. It can now be visualized right on our `friendships` [[Graph]] as the visual size of the [[Nodes|Node (Graph Theory)]]:
 

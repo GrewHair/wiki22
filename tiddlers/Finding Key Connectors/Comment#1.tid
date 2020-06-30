@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200630225531641
+modified: 20200630230127717
+tags: [[Data Science from Scratch (Joel Grus)]] Stub
+title: Finding Key Connectors/Comment#1
+tmap.id: dd877efc-5c23-40ca-a4ef-5f3b485b11d2
+type: text/vnd.tiddlywiki
+
+This turns out to be a really stupid move, because it spawns unintended [[Recursion]]: we append a user to a list of another user - but the user we append also has such a list, to which other users get appended.. and so it cycles. Fortunately, it terminates somehow and doesn't result in any [[Infinite Loops|Infinite Loop]], but what we're left with is a monstrous [[Tree]]-like structure inside each user's `'friends'` field, for no purpose at all! so it would really be better to append user ids and not users themselves. This can also be considered a dangerous bug, because it's there, but it's not directly noticable in that it doesn't break the computation results.

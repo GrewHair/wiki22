@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200629173344793
-modified: 20200629191316503
+modified: 20200630222409638
 tags: [[Data Science from Scratch (Joel Grus)]]
 title: Data Scientists You May Know
 tmap.id: a8a29a3b-ecd0-4509-8c3f-55f6e53fcc2f
@@ -15,7 +15,7 @@ The first quick and easy approach would be to suggest [[the friends of friends|F
 
 ```python
 def friends_of_friend_ids_bad(user):
-	# "foaf" is shoer for "friend of a friend"
+	# "foaf" is shorter for "friend of a friend"
 	return [foaf["id"]]
 			for friend in user["friends"]       # for each of user's friends
 			for foaf in friend["friends"]]	# get each of _their_ friends
@@ -29,6 +29,35 @@ Called upon `users[0]` (//Hero//), it produces:
 [0, 2, 3, 0, 1, 3]
 ```
 
-* user 0 is included twice, while it shouldn't be included at all
-* users 1 and 2 are each included once, while they shouldn't be included at all
-* user 3 is included twice, while it should be included only once
+The disadvantages of this approach are obvious from the result. They are listed in the table below, along with the solutions we might try:
+
+|!Problem|!Solution|
+|User 0 is included twice, while he shouldn't be included at all|Write a [[Helper Function|Helper Functions]] `not_the_same(user, other_user)` which will only let //others// through|
+|Users 1 and 2 are each included once, while they shouldn't be included at all|Write a [[Helper Function|Helper Functions]] `not_friends(user, other_user)` which will only let //non-friends// through|
+|user 3 is included twice, while it should be included only once|Use <$link to="Counter">`Counter`</$link> from the <$link to="collections">`collections`</$link> library to count the number of the user's friends who have the same foaf. This effectively will serve as a counter of mutual friends between the user and a particular person (foaf) suggested to him|
+
+The result of applying these solutions yield the following:
+
+```python
+from collections import Counter
+
+def not_the_same(user, other_user):
+	"""two users are not the same if they have different ids"""
+	return user["id"] != other_user["id"]
+
+def not_friends(user, other_user):
+	"""other_user is not a friend if he's not in user["friends"];
+	that is, if he's not_the_same as all the people in user["friends"]"""
+	return all(not_the_same(friend, other_user)
+	           for friend in user["friends"])
+
+def friends_of_friend_ids(user):
+	return Counter(foaf["id"]
+                   for friend in user["friends"]  # for each of my friends
+                   for foaf in friend["friends"]  # count *their* friends
+                   if not_the_same(user, foaf)    # who aren't me
+                   and not_friends(user, foaf))   # and aren't my friends
+
+print friends_of_friend_ids(users[3])             # Counter({0: 2, 5: 1})
+```
+>''notice'' the <$link to="all(iterable)">all()</$link> function

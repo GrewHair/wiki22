@@ -1,0 +1,30 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200630212341717
+modified: 20200630214204152
+tags: Python
+title: all(iterable)
+tmap.id: a7b56c55-61a7-4319-b11b-6647cf2ed519
+type: text/vnd.tiddlywiki
+
+<$link to="all(iterable)">`all`</$link> is a [[Python]]'s [[Built-in Function|Python Built-in Functions]].
+
+It returns `True` if all elements of an [[Iterable]] are `True`.
+
+It's equivalent to:
+
+```python
+def all(iterable):
+    for element in iterable:
+        if not element:
+            return False
+    return True
+```
+
+Basically it is like multiple `and` connectives between the elements of an [[Iterable]]. It is useful to do `and` between a large and/or variable amounts of predicates.
+
+It is to `and` connective what [[Countable Intersections]] are to normal [[Intersection|Set Intersection]] in [[Set Theory]].
+
+https://docs.python.org/2/library/functions.html#all
