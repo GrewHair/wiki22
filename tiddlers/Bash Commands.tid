@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200628224602510
-modified: 20200628232316040
+modified: 20200703152626564
 tags: Ubuntu
 title: Bash Commands
 tmap.id: b73e9a56-df89-4833-8f6c-b8c1fadbd299
@@ -25,3 +25,4 @@ type: text/vnd.tiddlywiki
 * `top` - table of processes
 ** `htop` - the same, but it's moving
 * `ip addr` - get ip address
+* `env` - view environment variables

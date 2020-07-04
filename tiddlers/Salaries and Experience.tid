@@ -1,0 +1,42 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[_my/images/png/salaries_and_experience_scatter_plot]]
+created: 20200704114126312
+modified: 20200704121950840
+tags: [[Data Science from Scratch (Joel Grus)]]
+title: Salaries and Experience
+tmap.id: e39c0f65-5a91-403e-80fa-f042915e3de7
+type: text/vnd.tiddlywiki
+
+Suppose you need to analyze how much data scientists earn based on their tenure. You have the data:
+
+```python
+salaries_and_tenures = [(83000, 8.7), (88000, 8.1),
+                        (48000, 0.7), (76000, 6),
+                        (69000, 6.5), (76000, 7.5),
+                        (60000, 2.5), (83000, 10),
+                        (48000, 1.9), (63000, 4.2)]
+```
+
+The first step is to just plot the data:
+
+```python
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+sns.set()
+
+salaries = [x[0] for x in salaries_and_tenures]
+tenures = [x[1] for x in salaries_and_tenures]
+
+plt.scatter(tenures, salaries)
+```
+
+{{_my/images/png/salaries_and_experience_scatter_plot}}
+
+So more experienced data scientists earn more. Thank you, Cap!!
+
+Now let's look at the [[Average|Mean]] salary for each tenure:
+

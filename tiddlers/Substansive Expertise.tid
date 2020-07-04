@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200701150233438
+modified: 20200701150311303
+tags: [[Data Science from Scratch (Joel Grus)]]
+title: Substansive Expertise
+tmap.id: a968e38e-10b0-4137-8ab3-7b77282d00bb
+type: text/vnd.tiddlywiki
+
+https://www.quora.com/What-is-substantive-expertise-in-data-science
+
+https://medium.com/@rushkirubi/why-substantive-expertise-in-data-science-isnt-just-experience-52276fe97132
