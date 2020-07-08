@@ -1,0 +1,62 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200708054119176
+modified: 20200708055543799
+tags: 
+title: Big-O Complexity Chart
+tmap.id: e5b796b4-0d04-471e-8a8f-f700437abc1c
+type: text/vnd.tiddlywiki
+
+<div>
+          <table id="legend" class="table">
+            <tbody>
+              <tr>
+                <td><code style="background:#7A0000">Horrible</code></td>
+                <td><code style="background:#A47100">Bad</code></td>
+                <td><code style="background:#CCCC00">Fair</code></td>
+                <td><code style="background:#A0BB00">Good</code></td>
+                <td><code style="background:#42A600">Excellent</code></td>
+              </tr>
+            </tbody>
+          </table> 
+        </div>
+<svg id="chart" width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+            <!-- horrible region -->
+            <path d="M50 450 L 50 0 L 800 0 L 800 450 Z" fill="#ff8989" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#7a0000;"></path>
+            <!-- bad region -->
+            <path d="M50 450 L 800 0 L 800 450 Z" fill="#FFC543" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#a47100;"></path>
+            <!-- fair region -->
+            <path d="M50 450 L 800 450 L 800 330 Z" fill="yellow" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#cccc00;"></path>
+            <!-- good region -->
+            <path d="M50 450 L 800 450 L 800 410 Z" fill="#C8EA00" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#a0bb00;"></path>
+            <!-- excellent region -->
+            <path d="M50 450 L 800 450 L 800 440 Z" fill="#53d000" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#42a600;"></path>
+
+            <!-- axes -->
+            <path d="M50 0 L 50 450 L 800 450" fill="transparent" stroke="black" stroke-width="2" data-darkreader-inline-fill="" data-darkreader-inline-stroke="" style="--darkreader-inline-fill:transparent; --darkreader-inline-stroke:#e8e6e3;"></path>
+
+            <path d="M50 448 L 800 448" fill="transparent" stroke="black" stroke-width="2" data-darkreader-inline-fill="" data-darkreader-inline-stroke="" style="--darkreader-inline-fill:transparent; --darkreader-inline-stroke:#e8e6e3;"></path>
+            <text x="700" y="438" fill="black" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#e8e6e3;">O(log n), O(1)</text>
+
+            <path d="M50 450 L 800 400" fill="transparent" stroke="black" stroke-width="2" data-darkreader-inline-fill="" data-darkreader-inline-stroke="" style="--darkreader-inline-fill:transparent; --darkreader-inline-stroke:#e8e6e3;"></path>
+            <text x="760" y="390" fill="black" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#e8e6e3;">O(n)</text>
+
+            <path d="M50 450 Q 400 350, 800 150" fill="transparent" stroke="black" stroke-width="2" data-darkreader-inline-fill="" data-darkreader-inline-stroke="" style="--darkreader-inline-fill:transparent; --darkreader-inline-stroke:#e8e6e3;"></path>
+            <text x="630" y="190" fill="black" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#e8e6e3;">O(n log n)</text>
+
+            <path d="M50 450 Q 180 380, 250 0" fill="transparent" stroke="black" stroke-width="2" data-darkreader-inline-fill="" data-darkreader-inline-stroke="" style="--darkreader-inline-fill:transparent; --darkreader-inline-stroke:#e8e6e3;"></path>
+            <text x="260" y="30" fill="black" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#e8e6e3;">O(n^2)</text>
+
+            <path d="M50 450 C 100 430, 120 350, 120 0" fill="transparent" stroke="black" stroke-width="2" data-darkreader-inline-fill="" data-darkreader-inline-stroke="" style="--darkreader-inline-fill:transparent; --darkreader-inline-stroke:#e8e6e3;"></path>
+            <text x="125" y="20" fill="black" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#e8e6e3;">O(2^n)</text>
+
+            <path d="M50 450 C 80 450, 80 350, 80 0" fill="transparent" stroke="black" stroke-width="2" data-darkreader-inline-fill="" data-darkreader-inline-stroke="" style="--darkreader-inline-fill:transparent; --darkreader-inline-stroke:#e8e6e3;"></path>
+            <text x="80" y="20" fill="black" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#e8e6e3;">O(n!)</text>
+
+            <text x="0" y="0" transform="translate(30 230) rotate(-90)" style="dominant-baseline: middle; text-anchor: middle; font-size: 20px; color: rgb(85, 85, 85); font-style: italic; --darkreader-inline-fill:#e8e6e3; --darkreader-inline-color:#b2aca2;" fill="black" data-darkreader-inline-fill="" data-darkreader-inline-color="">Operations</text>
+            <text x="0" y="0" transform="translate(420 470)" style="dominant-baseline: middle; text-anchor: middle; font-size: 20px; color: rgb(85, 85, 85); font-style: italic; --darkreader-inline-fill:#e8e6e3; --darkreader-inline-color:#b2aca2;" fill="black" data-darkreader-inline-fill="" data-darkreader-inline-color="">Elements</text>
+          </svg>
+					
+https://www.bigocheatsheet.com/

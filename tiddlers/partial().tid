@@ -1,0 +1,39 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200705061003576
+modified: 20200705063749970
+tags: Python [[Data Science from Scratch (Joel Grus)]]
+title: partial()
+tmap.id: c40511e9-b2bc-49bd-a121-a48062905c25
+type: text/vnd.tiddlywiki
+
+<$link to="partial()">`partial()`</$link> is a [[Function|Functions (Programming)]] from the <$link to="functools">`functools`</$link> module that can be used for [[Currying]] other [[Functions|Functions (Programming)]].
+
+One should pass it an initial [[Function|Functions (Programming)]], plus whatever arguments one wants to "fix" (i.e. substitute for a constant).
+
+''Example:''
+
+* Let's say we made a [[Function|Functions (Programming)]]:
+*><$codeblock code="
+def exp(base, power):
+    return base ** power
+" language="python"/>
+
+* And now we want a [[Function|Functions (Programming)]] of one variable. We can make from the existing one just using `def`:
+*><$codeblock code="
+def two_to_the(power):
+    return exp(2, power)
+" language="python"/>
+
+* Alternatively, we can use <$link to="partial()">`partial()`</$link> (this is better, because apart from the `import` statement this is a one-liner):
+*><$codeblock code="
+from functools import partial
+two_to_the = partial(exp, 2)
+" language="python"/>
+
+* It's not necessary to "fix" just the first argument - one can fill in any if he specifies their names:
+*><$codeblock code="
+square_of = partial(exp, power=2)
+" language="python"/>

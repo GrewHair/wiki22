@@ -1,0 +1,44 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200707225727831
+modified: 20200707231502602
+tags: R
+title: R commands
+tmap.id: 5162e15e-a862-46c1-9f37-34b5f61004db
+type: text/vnd.tiddlywiki
+
+Install a package
+
+```R
+> install.packages('txtplot')
+```
+Load a package
+
+```R
+> library('txtplot')
+```
+
+View help
+
+```R
+> help(txtplot)
+```
+
+quit
+
+```R
+> q()
+```
+
+Plot the 'cars' dataset
+
+```R
+> txtplot(cars[,1], cars[,2], xlab = 'speed', ylab = 'distance')
+```
+Create a [[Vector|R Vector]]
+
+```R
+> tutorial <- c("How", "to", "Install", "R", "on", "Ubuntu", "18.04")
+```

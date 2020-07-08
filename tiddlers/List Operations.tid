@@ -1,0 +1,27 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200704195231635
+modified: 20200704212800581
+tags: Python [[Data Science from Scratch (Joel Grus)]]
+title: List Operations
+tmap.id: 35cbe5df-58fc-44de-8298-2c3e488dc1a0
+type: text/vnd.tiddlywiki
+
+* Concatenate lists:
+*><$codeblock code="
+x = [1, 2, 3]
+x.extend([4, 5, 6]) # x is now [1,2,3,4,5,6]
+" language="python"/>
+* Append:
+*><$codeblock code=" x.append(0)
+" language="python"/>
+* Unpack (if you know how many elements it has):
+*><$codeblock code="x, y = [1, 2]"
+language="python"/>
+* Sort in place
+*><$codeblock code="x.sort()" language="python"/>
+* Sort returning a new [[List]]
+*><$codeblock code="y = sorted(x)" language="python"/>
+* list `in` is slower than dict `in`!

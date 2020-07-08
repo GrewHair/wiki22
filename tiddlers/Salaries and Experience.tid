@@ -4,7 +4,7 @@
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 .hsk.transcludes: [[_my/images/png/salaries_and_experience_scatter_plot]]
 created: 20200704114126312
-modified: 20200704121950840
+modified: 20200704191625398
 tags: [[Data Science from Scratch (Joel Grus)]]
 title: Salaries and Experience
 tmap.id: e39c0f65-5a91-403e-80fa-f042915e3de7
@@ -40,3 +40,75 @@ So more experienced data scientists earn more. Thank you, Cap!!
 
 Now let's look at the [[Average|Mean]] salary for each tenure:
 
+```python
+# keys are years, values are lists of the salaries for each tenure
+salary_by_tenure = defaultdict(list)
+
+for salary, tenure in salaries_and_tenures:
+    salary_by_tenure[tenure].append(salary)
+
+# keys are years, each value is average salary for that tenure
+average_salary_by_tenure = {
+    tenure: sum(salaries)/len(salaries)
+    for tenure, salaries in salary_by_tenure.items()
+}
+```
+
+This is not useful because none of the users have the same tenure:
+
+```python
+{8.7: 83000.0,
+ 8.1: 88000.0,
+ 0.7: 48000.0,
+ 6: 76000.0,
+ 6.5: 69000.0,
+ 7.5: 76000.0,
+ 2.5: 60000.0,
+ 10: 83000.0,
+ 1.9: 48000.0,
+ 4.2: 63000.0}
+```
+
+So let's [[Bucket|Data Binning]] the tenures:
+
+```python
+def tenure_bucket(tenure):
+    if tenure < 2:
+        return "less than two"
+    elif tenure < 5:
+        return "between two and five"
+    else:
+        return "more than five"
+```
+
+Then group together the salaries corresponding to each bucket:
+
+```python
+# keys are tenure buckets, values lists of salaries for that bucket
+salary_by_tenure_bucket = defaultdict(list)
+
+for salary, tenure in salaries_and_tenures:
+    bucket = tenure_bucket(tenure)
+    salary_by_tenure_bucket[bucket].append(salary)
+```
+
+And finally compute the average salary for each group:
+
+```python
+# keys are tenure buckets, values are average salary for that bucket
+average_salary_by_bucket = {
+    tenure_bucket: sum(salaries) / len(salaries)
+    for tenure_bucket, salaries in salary_by_tenure_bucket.iteritems()
+}
+```
+>[[Comment|Salaries and Experience/Comment]]
+
+which outputs:
+
+```python
+{'more than five': 79166.66666666667,
+ 'less than two': 48000.0,
+ 'between two and five': 61500.0}
+```
+
+Thus, data scientists with more than five years experience earn 65% more than data scientists with little or no experience!

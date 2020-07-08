@@ -1,0 +1,37 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200704211250657
+modified: 20200704212057951
+tags: Python [[Data Science from Scratch (Joel Grus)]]
+title: Boolean Expressions Witchcraft
+tmap.id: 4ac016b3-5157-45d7-ab9a-f77aa4590f42
+type: text/vnd.tiddlywiki
+
+```python
+s = some_function_that_returns_a_string()
+if s:
+    first_char = s[0]
+else:
+    first_char = ""
+```
+
+is equivalent to:
+
+```python
+s = some_function_that_returns_a_string()
+first_char = s and s[0]
+```
+because `and` will return the second value if the first one evaluates to `True`, and the first value if it evaluates to `False`.
+
+<br/>
+
+Similarly, if `x` is either a number or possibly `None`, one can use:
+
+```python
+safe_x = x or 0
+```
+where `safe_x` is guaranteed not to be `None`.
+
+(page 54)

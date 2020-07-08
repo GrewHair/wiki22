@@ -1,0 +1,32 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200705143419070
+modified: 20200706065215723
+tags: Python
+title: Python Keywords
+tmap.id: b53955f7-33ba-4902-ba4e-59a5fd879952
+type: text/vnd.tiddlywiki
+
+|!Choice||!Reference Deletion||!Scopes and Aliases|
+|<center><$link to="if">`if`</$link></center>||<center>`del`</center>||<center>`global`</center>|
+|<center>`elif`</center>||||<center>`nonlocal`</center>|
+|<center>`else`</center>||!Debugging||<center>`as`</center>|
+|||<center>`assert`</center>|||
+|!Loops||||!Boolean Expressions|
+|<center>`for`</center>||!Importing||<center>`and`</center>|
+|<center>`while`</center>||<center>`from`</center>||<center>`not`</center>|
+|||<center>`import`</center>||<center>`or`</center>|
+|!Exception Handling|||||
+|<center>`raise`</center>||!Concurrency Control||!Constants|
+|<center>`try`</center>||<center>`async`</center>||<center>`False`</center>|
+|<center>`except`</center>||<center>`await`</center>||<center>`True`</center>|
+|<center>`finally`</center>||||<center>`None`</center>|
+|||!Control Flow|||
+|!Classes and Functions||<center>`break`</center>||!Property Testing|
+|<center>`class`</center>||<center>`continue`</center>||<center>`in`</center>|
+|<center>`def`</center>||<center>`return`</center>||<center>`is`</center>|
+|||<center>`yield`</center>|||
+|!Context Management||<center>`pass`</center>||!Functional Programming|
+|<center>`with`</center>||||<center>`lambda`</center>|

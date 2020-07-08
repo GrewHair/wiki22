@@ -1,0 +1,22 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200704223227186
+modified: 20200704224156221
+tags: Python [[Data Science from Scratch (Joel Grus)]]
+title: Regular Expressions in Python
+tmap.id: 7d58ac0c-d140-4361-b85a-2c1373120ad6
+type: text/vnd.tiddlywiki
+
+```python
+import re
+
+print all([                                  # all of these are true, because
+    not re.match("a", "cat"),                # * 'cat' doesn't start with 'a'
+	re.search("a", "cat"),                   # * 'cat' has an 'a' in it
+	not re.search("c", "dog"),               # * 'dog' doesn't have a 'c' in it
+	3 == len(re.split("[ab]", "carbs")),     # * split on a or b to ['c', 'r', 's']
+	"R-D-" == re.sub("[0-9]", "-", "R2D2")   # * replace digits with dashes
+])                                           # prints True
+```

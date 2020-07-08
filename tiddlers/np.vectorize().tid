@@ -3,15 +3,15 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200126113019707
-modified: 20200325163742416
+modified: 20200708041348806
 tags: Numpy
-title: np.vectorize
+title: np.vectorize()
 tmap.id: cca2858d-31e4-481d-9d04-91df253ec590
 type: text/vnd.tiddlywiki
 
 This is a special function that vectorizes any (custom) function:
 
-```
+```python
 def func(x):
     print(x)
 
@@ -20,7 +20,7 @@ vectorized_func = np.vectorize(func)
 
 It can be used with more convenience using a [[Decorator]]:
 
-```
+```python
 @np.vectorize
 def func(x):
     print(x)

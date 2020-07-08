@@ -1,0 +1,160 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200708014324137
+modified: 20200708032215095
+tags: Python
+title: String Methods
+tmap.id: 231396a8-b82d-4a3c-aafb-2c989219c63a
+type: text/vnd.tiddlywiki
+
+<table>
+<tbody>
+<tr>
+<th colspan="3">Splitting and Joining</th>
+<td></td>
+<th>Checks</th>
+<td></td>
+<th>Formatting</th>
+</tr>
+<tr>
+<td>`partition()`</td>
+<td></td>
+<td>`rpartition()`</td>
+<td></td>
+<td>`isalnum()`</td>
+<td></td>
+<td>`format()`</td>
+</tr>
+<tr>
+<td>`split()`</td>
+<td></td>
+<td>`rsplit()`</td>
+<td></td>
+<td>`isalpha()`</td>
+<td></td>
+<td>`format_map()`</td>
+</tr>
+<tr>
+<td></td>
+<td>`splitlines()`</td>
+<td></td>
+<td></td>
+<td>`isascii()`</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>`join()`</td>
+<td></td>
+<td></td>
+<td>`isdecimal()`</td>
+<td></td>
+<th>Substitution</th>
+</tr>
+<tr>
+<td colspan="3"><br></td>
+<td></td>
+<td>`isdigit()`</td>
+<td></td>
+<td>`translate()`</td>
+</tr>
+<tr>
+<th colspan="3">Search</th>
+<td></td>
+<td>`isidentifier()`</td>
+<td></td>
+<td>`maketrans()`</td>
+</tr>
+<tr>
+<td>`find()`</td>
+<td></td>
+<td>`rfind()`</td>
+<td></td>
+<td>`islower()`</td>
+<td></td>
+<td>`replace()`</td>
+</tr>
+<tr>
+<td>`index()`</td>
+<td></td>
+<td>`rindex()`</td>
+<td></td>
+<td>`isnumeric()`</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>`count()`</td>
+<td></td>
+<td></td>
+<td>`isprintable()`</td>
+<td></td>
+<th>Case</th>
+</tr>
+<tr>
+<td colspan="3"><br></td>
+<td></td>
+<td>`isspace()`</td>
+<td></td>
+<td>`upper()`</td>
+</tr>
+<tr>
+<th colspan="3">Justification</th>
+<td></td>
+<td>`istitle()`</td>
+<td></td>
+<td>`lower()`</td>
+</tr>
+<tr>
+<td>`ljust()`</td>
+<td>`center()`</td>
+<td>`rjust()`</td>
+<td></td>
+<td>`isupper()`</td>
+<td></td>
+<td>`swapcase()`</td>
+</tr>
+<tr>
+<td colspan="3"><br></td>
+<td></td>
+<td>`startswith()`</td>
+<td></td>
+<td>`title()`</td>
+</tr>
+<tr>
+<th colspan="3">Stripping</th>
+<td></td>
+<td>`endswith()`</td>
+<td></td>
+<td>`capitalize()`</td>
+</tr>
+<tr>
+<td>`lstrip()`</td>
+<td>`strip()`</td>
+<td>`rstrip()`</td>
+<td></td>
+<td></td>
+<td></td>
+<td>`casefold()`</td>
+</tr>
+<tr>
+<td colspan="7"><br></td>
+</tr>
+<tr>
+<th>Encodings</th>
+<th>Tabs vs Spaces</th>
+<th>Zero Padding</th>
+<td colspan="4"></td>
+</tr>
+<tr>
+<td>`encode()`</td>
+<td>`expandtabs()`</td>
+<td>`zfill()`</td>
+<td colspan="4"></td>
+</tr>
+</tbody>
+</table>

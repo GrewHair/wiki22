@@ -3,10 +3,14 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200229195515875
-modified: 20200325163759173
+modified: 20200704194404432
 tags: Jupyter
 title: IPython Magics
 tmap.id: 35e22f73-36f6-4f4f-adfc-ea2b7d784698
 type: text/vnd.tiddlywiki
 
 * `%matplotlib` - sets the backend and calls `plt.ion()` putting Matplotlib in 'interactive mode' (so you don't have to type `plt.show()` to plot figures
+* `%paste` - to correctly paste whatever is in the clipboard, bypassing the indentation errors
+* `%history` - prints out the history of commands (useful in [[Notebooks|Jupyter Notebooks]] to check the order in which cells where executed)
+* `%qtconsole` - launches a [[qtconsole]] instance connected to the same [[Kernel|Jupyter Kernels]]
+* `%run` - runs a .py file

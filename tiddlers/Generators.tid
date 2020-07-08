@@ -1,0 +1,32 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200704214702654
+modified: 20200705125604119
+tags: Python Lazy [[Data Science from Scratch (Joel Grus)]]
+title: Generators
+tmap.id: e924b6bc-f9a9-4149-821a-3a169b5e980a
+type: text/vnd.tiddlywiki
+
+A [[Generator|Generators]] is something that one can iterate over, but whose values are produced only as needed (//lazily//).
+
+A [[Generator|Generators]] is an [[Iterator|Iterators]] that generates one item at a time.
+
+Ways to create [[Generators]]:
+
+* with [[Functions|Functions (Programming)]] and the `yield` operator:
+*><$codeblock code='def lazy_range(n):
+    """a lazy version of range"""
+		i = 0
+		while i < n:
+		    yield i
+			i += 1
+' language="python"/>
+
+* using [[Generator Expressions]]:
+*><$codeblock code='
+lazy_evens_below_20 = (i for i in lazy_range(20) if i % 2 == 0)
+' language="python"/>
+
+''Warning:'' you can only iterate through a [[Generator|Generators]] once!! If you need to iterate through it multiple times, you should either ''recreate'' the [[Generator|Generators]] each time, or use a [[List]].

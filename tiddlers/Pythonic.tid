@@ -1,0 +1,15 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200704200127176
+modified: 20200705063949271
+tags: Python [[Data Science from Scratch (Joel Grus)]]
+title: Pythonic
+tmap.id: e36641b8-4491-42c0-ad07-564dfd25f82d
+type: text/vnd.tiddlywiki
+
+* `x, y = y, x`
+* `foo = {}`, instead of `foo = dict()`
+* `"user" in tweet`, instead of `"user" in tweet.keys()`
+* [[List|List Comprehensions]], [[Dict|Dict Comprehensions]] and [[Set Comprehensions]] (over `map`, `reduce` and `filter`)

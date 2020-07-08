@@ -1,0 +1,32 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200704190709924
+modified: 20200704221947170
+tags: [[Data Science from Scratch (Joel Grus)]]
+title: Salaries and Experience/Comment
+tmap.id: ccce068c-1180-4ca1-a238-bee0173464ad
+type: text/vnd.tiddlywiki
+
+That was the [[Python 2]] version:
+
+```python
+average_salary_by_bucket = {
+    tenure_bucket: sum(salaries) / len(salaries)
+    for tenure_bucket, salaries in salary_by_tenure_bucket.iteritems()
+}
+```
+
+In [[Python 3]] one should just use `.items()`:
+
+```python
+average_salary_by_bucket = {
+    tenure_bucket: sum(salaries) / len(salaries)
+    for tenure_bucket, salaries in salary_by_tenure_bucket.items()
+}
+```
+
+(`.items()` returns a [[Generator|Generators]], while `.iteritems()` used to return a [[List]], which was chosen to be deprecated in [[Python 3]]).
+
+https://stackoverflow.com/questions/30418481/error-dict-object-has-no-attribute-iteritems

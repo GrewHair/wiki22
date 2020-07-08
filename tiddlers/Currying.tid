@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200705061636761
+modified: 20200705063805668
+tags: Python [[Data Science from Scratch (Joel Grus)]]
+title: Currying
+tmap.id: 7a952092-8fe6-4225-8161-0667d4c67bb9
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/Currying

@@ -3,13 +3,13 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200229235130423
-modified: 20200325163755309
+modified: 20200705095551883
 tags: Matplotlib
 title: plt.subplots
 tmap.id: 17a425be-6be5-457e-8ecc-7a3915c05c6d
 type: text/vnd.tiddlywiki
 
-```
+```python
 fig, axes = plt.subplots(nrows=2, ncols=2)
 axes[0,0].set(title='Upper Left')
 axes[0,1].set(title='Upper Right')

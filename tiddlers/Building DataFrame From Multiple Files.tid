@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200128083409674
-modified: 20200325163749033
+modified: 20200705095109737
 tags: Python Pandas
 title: Building DataFrame From Multiple Files
 tmap.id: f2e21322-ec97-4432-9b73-eeb7a0013ecc
@@ -13,7 +13,7 @@ Let's say we have 3 files: //data/data1.csv//, //data/data2.csv// and //data/dat
 
 ! Read them row-wise
 
-```
+```python
 from glob import glob
 
 data_files = sorted(glob('data/data*.csv'))
@@ -22,7 +22,7 @@ pd.concat((pd.read_csv(file) for file in data_files), ignore_index=True)
 
 ! Read them column-wise
 
-```
+```python
 from glob import glob
 
 data_files = sorted(glob('data/data*.csv'))

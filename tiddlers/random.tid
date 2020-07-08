@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200704222202677
+modified: 20200704223059827
+tags: Python [[Data Science from Scratch (Joel Grus)]]
+title: random
+tmap.id: cf354869-f3a3-4b1c-837e-d32b6fdcd3a6
+type: text/vnd.tiddlywiki
+
+```python
+import random
+```
+
+* `random.seed()` - to make results reproducable
+* `random.randrange(a, b)` - to draw a [[Uniformly Distributed|Discrete Uniform Distribution]] number from a range from `a` to `b`
+* `random.shuffle()` - randomly permute a [[List]]
+* `random.choice()` - randomly choose from a [[List]]; repeat multiple times for sampling with replacement
+* `random.sample()` - sample without replacement

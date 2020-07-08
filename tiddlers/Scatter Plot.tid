@@ -1,12 +1,14 @@
 .hsk.transcludes: [[_my/images/png/train_test_scatter_plot]][[_my/images/png/inequality_scatter_plot]][[_my/images/png/dependence_scatter_plot]][[_my/images/png/jittered_scatter_plot]]
 created: 20200114080114299
-modified: 20200325163851041
+modified: 20200705095534614
 tags: [[How to Win a Data Science Competition]] [[Machine Learning]]
 title: Scatter Plot
 tmap.id: a784c8a1-2685-44c1-8699-e749f9abd9ed
 type: text/vnd.tiddlywiki
 
-`plt.scatter(x1, x2)`
+```python
+plt.scatter(x1, x2)
+```
 
 Scatter plots are used to visualize pairwise feature interactions.
 
@@ -19,7 +21,8 @@ Sometimes they allow to notice some very specific aspects of the data:
 * //Example 3:// {{_my/images/png/dependence_scatter_plot}} If the scatter plot forms not a cloud, but a line (straight //or// curved), it means there is a direct functional mathematical relation between the two features. If it is not a line, but a family of lines, ,this also holds, but additionally it just means that (at least) one of the plotted features is a function of several variables (the remaining of them //may// or //may not// be a feature, present in the dataset.
 
 * //Example 4:// {{_my/images/png/jittered_scatter_plot}} If you observe much less point on the scatter plot, then there are rows in the dataset, then it is likely that the features are [[Label Encoded|Label Encoding]] [[Categoricals|Categorical Variable]] or integers in a certain range. This situation can be dangerous in case if you are using colormaps to visualise the target classes, because the topmost points will mask the lower ones and you may miss the fact that the dataset contains rows with identical values of plotted features, but different target classes. To fix it, it can be useful to [[Jitter]] the values like this (the result can be seen at the picture):
-```
+
+```python
 # y is a target vector
 plt.scatter(X, Y, c = y)
 

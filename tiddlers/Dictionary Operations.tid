@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200704200924158
+modified: 20200704212141762
+tags: Python [[Data Science from Scratch (Joel Grus)]]
+title: Dictionary Operations
+tmap.id: 8b36976c-bc25-4d53-8cd4-e399d63b8a25
+type: text/vnd.tiddlywiki
+
+* `dict.get(key, value_returned_if_key_not_found)`
+* `dict.keys()`
+* `dict.values()`
+* `dict.items()`
+* dict `in` is quicker than list `in`!

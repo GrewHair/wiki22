@@ -1,0 +1,45 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200706145039921
+modified: 20200706163653636
+tags: Python Stub
+title: Python Built-in Types' Methods (Excluding str)
+tmap.id: fab46c80-fd52-4284-8ae9-d1cf60fb85e8
+type: text/vnd.tiddlywiki
+
+||`str`|`tuple`|`range`|`list`|`dict`|`set`|`frozenset`|
+|`index()`|✔|✔|✔|✔||||
+|`count()`|✔|✔|✔|✔||||
+|`sort()`||||✔||||
+|`reverse()`||||✔||||
+|`append()`||||✔||||
+|`extend()`||||✔||||
+|`insert()`||||✔||||
+|`remove()`||||✔||✔||
+|`pop()`||||✔|✔|✔||
+|`clear()`||||✔|✔|✔||
+|`copy()`||||✔|✔|✔|✔|
+|`fromkeys()`|||||✔|||
+|`get()`|||||✔|||
+|`items()`|||||✔|||
+|`keys()`|||||✔|||
+|`popitem()`|||||✔|||
+|`setdefault()`|||||✔|||
+|`values()`|||||✔|||
+|`update()`|||||✔|✔||
+|`add()`||||||✔||
+|`discard()`||||||✔||
+|`difference`<br>`_update()`||||||✔||
+|`difference()`||||||✔|✔|
+|`union()`||||||✔|✔|
+|`intersection()`||||||✔|✔|
+|`isdisjoint()`||||||✔|✔|
+|`issubset()`||||||✔|✔|
+|`issuperset()`||||||✔|✔|
+|`symmetric`<br>`_difference()`||||||✔|✔|
+|`symmetric`<br>`_difference`<br>`_update()`||||||✔||
+|`intersection`<br>`_update()`||||||✔||
+
+<!-- Checkmark: U+2714 -->
