@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200708075904691
+modified: 20200708080002651
+tags: Infographics
+title: Small Multiple
+tmap.id: 9e352ad6-8f13-4166-a84a-ac32178ee0e3
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/Small_multiple

@@ -1,0 +1,42 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200709182104888
+modified: 20200709183610468
+tags: [[Data Science from Scratch (Joel Grus)]] Stub
+title: Matrices
+tmap.id: 4cdecfba-de21-402c-a590-50bb856d8688
+type: text/vnd.tiddlywiki
+
+We will be using [[Lists|Python Lists]] of [[Lists|Python Lists]] to represent [[Matrices|Matrix]]:
+
+```python
+A = [[1, 2, 3],    # A has 2 rows and 3 columns
+      4, 5, 6]]
+
+B = [[1, 2],       # B has 3 rows and 2 columns
+     [3, 4],
+     [5, 6]]
+```
+
+* Shape of a [[Matrix]]:
+*><$codeblock code='
+def shape(A):
+    num_rows = len(A)
+    num_cols = len(A[0]) if A else 0  #number of elements in first row
+    return num_rows, num_cols
+' language="python"/>
+
+* Get row:
+*><$codeblock code='
+def get_row(A, i):
+    return A[i]   # A[i] is already the ith row
+' language="python"/>
+
+* Get column:
+*><$codeblock code='
+def get_column(A, j):
+    return [A_i[j]        # jth element of row A_i
+            for A_i in A] # for each row A_i
+' language="python"/>

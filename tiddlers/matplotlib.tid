@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200709173644610
+modified: 20200709173835774
+tags: Python [[Data Science from Scratch (Joel Grus)]] Stub
+title: matplotlib
+tmap.id: eb52aa76-8167-4645-bce1-f86a7abd65fe
+type: text/vnd.tiddlywiki
+
+* [[Bar Charts]]
+* [[Line Charts]]
+* [[Scatterplots]]

@@ -1,0 +1,96 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200709174206126
+modified: 20200709182410564
+tags: [[Data Science from Scratch (Joel Grus)]]
+title: Vectors
+tmap.id: 61d11644-9e9a-40d8-aadd-7d69f61bac56
+type: text/vnd.tiddlywiki
+
+We will be using usual [[Python Lists]] to represent [[Vectors|Vector]].
+
+* Add two [[Vectors|Vector]]
+*><$codeblock code='
+def vector_add(v, w):
+    """adds corresponding elements"""
+    return [v_i + w_i
+		    for v_i, w_i in zip(v, w)]
+' language="python"/>
+
+* Subtract two [[Vectors|Vector]]
+*><$codeblock code='
+def vector_add(v, w):
+    """adds corresponding elements"""
+    return [v_i - w_i
+		    for v_i, w_i in zip(v, w)]
+' language="python"/>
+
+* Add up a list of [[Vectors|Vector]] (i.e., add up an arbitrary number of [[Vectors|Vector]])
+*><$codeblock code='
+def vector_sum(vectors):
+    """sums all corresponding elements"""
+    result = vectors[0]
+		for vector in vectors[1:]:
+		    result = vector_add(result, vector)
+    return result
+' language="python"/>
+
+* Let's rewrite the last function using <$link to="reduce()">`reduce()`</$link>:
+*><$codeblock code="
+def vector_sum(vectors):
+    return reduce(vector_add, vectors)
+" language="python"/>
+
+* Let's rewrite it once again, now also using <$link to="partial()">`partial()`</$link>:
+*><$codeblock code="
+vector_sum = partial(reduce, vector_add)
+" language="python"/>
+
+* Multiplication by a [[Scalar]]:
+*><$codeblock code='
+def scalar_multiply(c, v):
+    """c is a number, v is a vector"""
+    return [c * v_i for v_i in v]
+' language="python"/>
+
+* Computing a [[Mean]] of several [[Vectors|Vector]]:
+*><$codeblock code='
+def vector_mean(vectors):
+    """compute the vector whose ith element is the mean of the ith elements of the input vectors"""
+    n = len(vectors)
+    return scalar_multiply(1/n, vector_sum(vectors))
+' language="python"/>
+
+* [[Dot Product]]:
+*><$codeblock code='
+def dot(v, w):
+    """v_1 * w_1 + ... + v_n * w_n"""
+    return sum(v_i * w_i for v_i, w_i in zip(v, w))
+' language="python"/>
+
+* Sum of squares:
+*><$codeblock code='
+def sum_of_squares(v):
+    """v_1 * v_1 + ... + v_n * v_n"""
+    return dot(v, v)
+' language="python"/>
+
+* Magnitude:
+*><$codeblock code='
+import math
+
+def magnitude(v):
+    return math.sqrt(sum_of_squares(v))
+' language="python"/>
+
+* Distance between two [[Vectors|Vector]]:
+*><$codeblock code='
+def squared_distance(v, w):
+    """(v_1 - w_1) ** 2 + ... + (v_n - w_n) ** 2"""
+    return sum_of_squares(vector_subract(v, w))
+
+def distance(v, w):
+    return math.sqrt(squared_distance(v, w))
+' language="python"/>

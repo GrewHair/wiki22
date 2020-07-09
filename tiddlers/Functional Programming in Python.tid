@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200709171040889
+modified: 20200709175523688
+tags: Python [[Data Science from Scratch (Joel Grus)]]
+title: Functional Programming in Python
+tmap.id: 6ae64b7e-de4b-48fe-9264-58dfbff9df2e
+type: text/vnd.tiddlywiki
+
+[[Functional Programming]] may be achieved in [[Python]] by using:
+
+* the `lambda` [[statement|Python Keywords]]
+* the `map()` and `filter()` [[Built-in Functions|Python Built-in Functions]]
+* the <$link to="functools">`functools`</$link> module from the [[Standard Library|Python Standard Library]]
+
+''Note:'' in [[Python 2]], there was yet another [[Built-in Function|Python Built-in Functions]] called <$link to="reduce">`reduce()`</$link> - but in [[Python 3]] it was moved to the <$link to="functools">`functools`</$link> module.
