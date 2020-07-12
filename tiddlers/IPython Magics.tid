@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200229195515875
-modified: 20200704194404432
+modified: 20200712161043458
 tags: Jupyter
 title: IPython Magics
 tmap.id: 35e22f73-36f6-4f4f-adfc-ea2b7d784698
@@ -14,3 +14,4 @@ type: text/vnd.tiddlywiki
 * `%history` - prints out the history of commands (useful in [[Notebooks|Jupyter Notebooks]] to check the order in which cells where executed)
 * `%qtconsole` - launches a [[qtconsole]] instance connected to the same [[Kernel|Jupyter Kernels]]
 * `%run` - runs a .py file
+* `%timeit` - measure the performance of a line

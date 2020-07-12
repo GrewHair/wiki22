@@ -1,0 +1,11 @@
+created: 20200711170543297
+edit-mode: no
+list: Matrices
+modified: 20200711173236599
+role: comment
+saved-text: notice a rather interesting thing here with the [[Nested List Comprehension|Nested List Comprehensions]] in the matrix generating function: there are some additional square brackets that you don't quite understand!!
+title: Comment by '(anonymous)' on 'Matrices'
+tmap.id: e617f3b7-51c0-419e-94fe-3830e2a30524
+type: text/vnd.tiddlywiki
+
+notice a rather interesting thing here with the [[Nested List Comprehension|Nested List Comprehensions]] in the matrix generating function: these additional square brackets make our function to return a list of lists (i.e. a matrix). you should think about it a bit later: maybe this is the reason why nested list comprehensions are written in this particular order?

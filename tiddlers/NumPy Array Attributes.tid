@@ -1,0 +1,17 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200712022136153
+modified: 20200712022723454
+tags: Numpy [[Python Data Science Handbook (Jake VanderPlas)]]
+title: NumPy Array Attributes
+tmap.id: 35a9cedf-5861-49a8-b76a-4a224d081add
+type: text/vnd.tiddlywiki
+
+* <$link to="ndim">`ndim`</$link>
+* <$link to="Numpy Array Shape">`shape`</$link>
+* <$link to="Numpy Array Size">`size`</$link>
+* <$link to="Standard NumPy Data Types">`dtype`</$link>
+* <$link to="itemsize">`itemsize`</$link>
+* <$link to="nbytes">`nbytes`</$link>

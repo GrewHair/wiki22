@@ -3,8 +3,8 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200322170628246
-modified: 20200325163742380
-tags: Numpy Stub
+modified: 20200712175647157
+tags: Numpy Stub [[Python Data Science Handbook (Jake VanderPlas)]]
 title: ufuncs
 tmap.id: 933e81c8-f113-427b-ba24-d413288faeef
 type: text/vnd.tiddlywiki
@@ -14,12 +14,29 @@ type: text/vnd.tiddlywiki
 * Unary [[ufuncs]]
 * Binary [[ufuncs]]
 
-|Operator|Equivalent [[ufunc|ufuncs]]|Description|
-|`+`|`np.add`|Addition|
-|`-`|`np.subtract`|Subtraction|
-|`-`|`np.negative`|Unary negation|
-|`*`|`np.multiply`|Mupliplication|
-|`/`|`np.divide`|Division|
-|`//`|`np.floor_divide`|Floor division|
-|`**`|`np.power`|Exponentiation|
-|`%`|`np.mod`|Modulus/remainder|
+Here are some basic classes of [[ufuncs]]:
+
+* [[Array Arithmetic|NumPy Arithmetic Operators]]
+
+* `np.abs()`
+
+* ''Trigonometric Functions''
+** `np.sin()`
+** `np.cos()`
+** `np.tan()`
+** `np.arcsin()`
+** `np.arccos()`
+** `np.arctan()`
+
+* ''Exponents and logarithms''
+** `np.exp()`
+** `np.exp2()`
+** `np.power()`
+** `np.log()`
+** `np.log2()`
+** `np.log10()`
+
+* [[Numpy Precision Functions]]
+
+* <$link to="scipy.special">`scipy.special`</$link> - [[ufuncs]] are not just for [[Numpy]]!
+* [[Numpy Aggregation Functions]]

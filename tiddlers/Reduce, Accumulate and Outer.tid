@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200322174934765
-modified: 20200325163742385
+modified: 20200712175807178
 tags: Numpy [[Python Data Science Handbook (Jake VanderPlas)]]
 title: Reduce, Accumulate and Outer
 tmap.id: c222be2c-68bf-48c3-9edc-46b118ad6c91
@@ -16,7 +16,7 @@ type: text/vnd.tiddlywiki
 These functions operate on [[Numpy Arrays|Numpy Array]] applying a function to entries one by one:
 
 * `np.add.reduce(x)` results in a scalar
-*> There are some dedicated versions of this function:
+*> There are [[some dedicated versions|Numpy Aggregation Functions]] of this function:
 ** `np.sum`
 ** `np.prod`
 ** ...

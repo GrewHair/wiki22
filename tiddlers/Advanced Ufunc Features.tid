@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200712174957950
+modified: 20200712175248519
+tags: Numpy [[Python Data Science Handbook (Jake VanderPlas)]]
+title: Advanced Ufunc Features
+tmap.id: 56f139aa-a74b-462a-bc0e-8e93c26f0b82
+type: text/vnd.tiddlywiki
+
+* ''Specifying output''
+*><$codeblock code="
+x = np.arange(5)
+y = np.empty(5)
+np.multiply(x, 10, out=y)
+" language="python"/>
+
+* [[Aggregates|Reduce, Accumulate and Outer]]
+* [[Outer Products|Reduce, Accumulate and Outer]]

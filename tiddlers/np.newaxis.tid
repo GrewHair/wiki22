@@ -3,8 +3,8 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200322164958334
-modified: 20200508153143272
-tags: Numpy
+modified: 20200712023519799
+tags: Numpy [[Python Data Science Handbook (Jake VanderPlas)]]
 title: np.newaxis
 tmap.id: ac653a50-877a-4b36-b1d6-8e6c6c4024f0
 type: text/vnd.tiddlywiki

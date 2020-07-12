@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200629184450122
-modified: 20200629190648266
+modified: 20200711173026298
 tags: Python
 title: Nested List Comprehensions
 tmap.id: 5e0ed8c2-999d-473e-b589-bb48f4cfe009
@@ -30,3 +30,11 @@ for branch in tree:
 Basically, [[Nested List Comprehensions]] posess the same disadvantages [[Nested Loops|Nested For Loops]] do, even though they are a bit quicker.
 
 https://stackoverflow.com/questions/20639180/explanation-of-how-nested-list-comprehension-works
+
+There is also a slightly differerent variant of [[Nested List Comprehensions]]:
+
+```python
+[[f(leaf) for branch in tree] for leaf in branch]
+```
+
+The difference is that such a [[List Comprehension|Nested List Comprehensions]] returns a [[List]] of [[Lists|List]], rather than just a [[List]].

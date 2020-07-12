@@ -1,0 +1,15 @@
+created: 20200712173729612
+modified: 20200712173918081
+tags: Numpy Scipy [[Python Data Science Handbook (Jake VanderPlas)]]
+title: scipy.special
+tmap.id: 3b6bd301-f61e-4c00-b5a3-fe49f9e562a1
+type: text/vnd.tiddlywiki
+
+Special [[Mathematical|Mathematics]] [[Functions|Function (Programming)]].
+
+* `special.gamma()`
+* `special.gammaln()`
+* `special.beta()`
+* `special.erf()`
+* `special.erfc()`
+* `special.erfinv()`

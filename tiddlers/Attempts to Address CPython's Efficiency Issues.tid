@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200712160430738
+modified: 20200712160744833
+tags: Python [[Python Data Science Handbook (Jake VanderPlas)]]
+title: Attempts to Address CPython's Efficiency Issues
+tmap.id: 6c9d3d17-5cfd-43d4-b1b2-1c8619b53730
+type: text/vnd.tiddlywiki
+
+* [[PyPy]] - a just-in-time compiled implementation of [[Python]]
+* [[Cython]] - converts [[Python]] code to compilable C code
+* [[Numba]] - converts snippets of [[Python]] to fast LLVM [[Bytecode]]

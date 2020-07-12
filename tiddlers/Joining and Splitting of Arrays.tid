@@ -1,0 +1,16 @@
+created: 20200712154549501
+modified: 20200712154837420
+tags: Numpy [[Python Data Science Handbook (Jake VanderPlas)]]
+title: Joining and Splitting of Arrays
+tmap.id: 6b1a58f5-7dcf-405b-ba78-5defa5f3bd64
+type: text/vnd.tiddlywiki
+
+* ''Concatenation of arrays:''
+** `np.concatenate()`
+** `np.hstack()`
+** `np.vstack()`
+
+* ''Splitting of arrays:''
+** `np.split()`
+** `np.hsplit()`
+** `np.vsplit()`

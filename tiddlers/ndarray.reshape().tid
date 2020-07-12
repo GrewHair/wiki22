@@ -3,8 +3,8 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200322161633216
-modified: 20200508153534336
-tags: Numpy
+modified: 20200712023449281
+tags: Numpy [[Python Data Science Handbook (Jake VanderPlas)]]
 title: ndarray.reshape()
 tmap.id: c7624f68-9945-4b1e-b93e-fc795000e493
 type: text/vnd.tiddlywiki

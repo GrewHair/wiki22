@@ -4,7 +4,7 @@
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 .hsk.transcludes: [[_my/images/png/numpy_broadcasting]][[_my/images/png/numpy/2-dimensional_function_via_broadcasting]][[numpy - functions of 2 variables using broadcasting.html]]
 created: 20200116130503920
-modified: 20200401155205468
+modified: 20200712181622010
 tags: [[Python Data Science Handbook (Jake VanderPlas)]] Stub Numpy Pandas
 title: Broadcasting
 tmap.id: 11430eff-0e31-4e38-bcc5-9b467cd7e8d9
@@ -89,7 +89,7 @@ a.shape -> (3, 3)`
 * By rule 3, the final shapes do not match!
 <br>
 
-[[Broadcasting]] is very useful for i.e. defining and plotting [[functions|Function]] of two or more variables:
+[[Broadcasting]] is very useful for e.g. defining and plotting [[functions|Function]] of two or more variables:
 
 
 

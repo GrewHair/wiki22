@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200709182104888
-modified: 20200709183610468
+modified: 20200711171250576
 tags: [[Data Science from Scratch (Joel Grus)]] Stub
 title: Matrices
 tmap.id: 4cdecfba-de21-402c-a590-50bb856d8688
@@ -39,4 +39,23 @@ def get_row(A, i):
 def get_column(A, j):
     return [A_i[j]        # jth element of row A_i
             for A_i in A] # for each row A_i
+' language="python"/>
+
+* Make a [[Matrix]] based on shape and a function for elements generation:
+*><$codeblock code='
+def make_matrix(num_rows, num_cols, entry_fn):
+    """returns a num_rows x num_cols matrix
+    whose (i,j)th entry is entry_fn(i, j)"""
+    return [[entry_fn(i, j)             # given i, create a list
+            for j in range(num_cols)]   # [entry_fn(i, 0), ... ]
+		    for i in range(num_rows)]   # create one list for each i
+' language="python"/>
+
+* Make a 5x5 [[Identity Matrix]]:
+*><$codeblock code='
+def is_diagonal(i, j):
+    """1s on the diagonal, 0s everywhere else"""
+    return 1 if i == j else 0
+		
+identity_matrix = make_matrix(5, 5, is_diagonal)
 ' language="python"/>

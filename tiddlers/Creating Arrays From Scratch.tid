@@ -1,0 +1,21 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200712015347831
+modified: 20200712015637643
+tags: Numpy [[Python Data Science Handbook (Jake VanderPlas)]]
+title: Creating Arrays From Scratch
+tmap.id: 74a2afbc-f8bb-4134-ab90-00c028414dfd
+type: text/vnd.tiddlywiki
+
+* `np.zeros()`
+* `np.ones()`
+* `np.full()`
+* `np.arange()`
+* `np.linspace()`
+* `np.random.random()`
+* `np.random.normal()`
+* `np.random.randint()`
+* `np.eye()`
+* `np.empty()`

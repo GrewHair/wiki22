@@ -1,0 +1,40 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[_my/images/png/c_vs_python_integer]]
+created: 20200712012055934
+modified: 20200712014655663
+tags: Python [[Python Data Science Handbook (Jake VanderPlas)]]
+title: C vs Python Integer
+tmap.id: 9d0d6750-cb1a-4bb1-b210-c041d9de522f
+type: text/vnd.tiddlywiki
+
+(from the Python 3.4 source code)
+
+```c
+struct _longobject {
+    long ob_refcnt;
+    PyTypeObject *ob_type;
+    size_t ob_size;
+    long ob_digit[1];
+};
+```
+
+So a single [[Integer]] in [[Python]] actually contains four pieces:
+
+* `ob_refcnt`, a reference count that helps [[Python]] silently handle memory allocation and deallocation
+* `ob_type`, which encodes the type of the variable
+* `ob_size`, which specifies the size of the following data members
+* `ob_digit`, which contains the actual integer value of the variable.
+
+This means that there is some overhead in storing an integer in [[Python]] as compared to languages like C:
+
+{{_my/images/png/c_vs_python_integer}}
+
+Here `PyObject_HEAD` is the part of the structure containing the reference count, type code and other pieces mentioned before.
+
+Notice the difference:
+
+* a C integer is just a label for a position in memory
+* a [[Python]] integer is a pointer to a position in memory containing all the [[Python]] object information.

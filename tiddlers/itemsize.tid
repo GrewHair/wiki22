@@ -1,0 +1,8 @@
+created: 20200712023027308
+modified: 20200712023042609
+tags: Numpy [[Python Data Science Handbook (Jake VanderPlas)]]
+title: itemsize
+tmap.id: 54bf6ac9-0413-48f4-8395-696a153a0f65
+type: text/vnd.tiddlywiki
+
+Size (in bytes) of each array element.

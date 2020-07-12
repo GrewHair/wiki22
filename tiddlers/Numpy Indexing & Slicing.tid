@@ -3,8 +3,8 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200120140319732
-modified: 20200326081844006
-tags: Stub Pandas Numpy
+modified: 20200712023351615
+tags: Stub Pandas Numpy [[Python Data Science Handbook (Jake VanderPlas)]]
 title: Numpy Indexing & Slicing
 tmap.id: 7379496a-ca9a-4541-bdfc-293e42260dc5
 type: text/vnd.tiddlywiki

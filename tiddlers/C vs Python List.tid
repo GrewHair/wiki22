@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[_my/images/png/c_vs_python_lists]]
+created: 20200712014704189
+modified: 20200712015108130
+tags: Python [[Python Data Science Handbook (Jake VanderPlas)]]
+title: C vs Python List
+tmap.id: a88cf899-3fed-4863-860a-6b0fe03949c1
+type: text/vnd.tiddlywiki
+
+* A C array essentially contains a single pointer to one continuous block of data.
+* A [[Python]] [[List]] contains a pointer to a block of pointers, each of which in turn points to a full [[Python Object]], e.g. a [[Python Integer|C vs Python Integer]].
+
+{{_my/images/png/c_vs_python_lists}}

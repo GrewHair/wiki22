@@ -1,0 +1,24 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200712163855243
+modified: 20200712164629749
+tags: Numpy [[Python Data Science Handbook (Jake VanderPlas)]]
+title: NumPy Arithmetic Operators
+tmap.id: c942460d-5270-4fb8-b7fb-ec0a3b99d046
+type: text/vnd.tiddlywiki
+
+A number of [[ufuncs]] in [[Numpy]] is implemented using [[Python]]'s native syntax for [[Arithmetic Operators|Python Arithmetic Operators]] for convenience:
+
+|!Operator|!Equivalent [[ufunc|ufuncs]]|!Description|
+|`+`|`np.add`|Addition|
+|`-`|`np.subtract`|Subtraction|
+|`-`|`np.negative`|Unary negation|
+|`*`|`np.multiply`|Mupliplication|
+|`/`|`np.divide`|Division|
+|`//`|`np.floor_divide`|Floor division|
+|`**`|`np.power`|Exponentiation|
+|`%`|`np.mod`|Modulus/remainder|
+
+Note the additional "Unary negation" operation.

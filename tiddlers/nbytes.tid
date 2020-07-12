@@ -1,0 +1,10 @@
+created: 20200712022748223
+modified: 20200712022946552
+tags: Numpy [[Python Data Science Handbook (Jake VanderPlas)]]
+title: nbytes
+tmap.id: 4bf4e89e-f157-496a-ad25-938a8a583cff
+type: text/vnd.tiddlywiki
+
+The total size (in bytes) of the [[array|Numpy Array]].
+
+It should be equal to <$link to="itemsize">`itemsize`</$link> times <$link to="Numpy Array Size">`size`</$link>.

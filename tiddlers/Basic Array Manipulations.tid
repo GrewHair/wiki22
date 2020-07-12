@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200712120035661
+modified: 20200712123642126
+tags: Numpy [[Python Data Science Handbook (Jake VanderPlas)]]
+title: Basic Array Manipulations
+tmap.id: 8fc0566e-ee52-421e-ad0c-d85d3c256a7f
+type: text/vnd.tiddlywiki
+
+* [[Attributes of Arrays|NumPy Array Attributes]]
+* [[Indexing of arrays|Numpy Indexing & Slicing]]
+* [[Slicing of arrays|Numpy Indexing & Slicing]]
+* [[Reshaping of Arrays|ndarray.reshape()]]
+* [[Joining and Splitting of Arrays]]
