@@ -2,19 +2,17 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-created: 20200712182924324
-modified: 20200712231307371
+created: 20200712232403785
+modified: 20200712232958425
 tags: Numpy [[Python Data Science Handbook (Jake VanderPlas)]]
-title: NumPy Comparison Operators
-tmap.id: e4ca3c39-0fd6-4068-94dc-153588749673
+title: Numpy Bitwise Boolean Operators
+tmap.id: f43825e0-086b-4816-99fd-21c6a2ddbd35
 type: text/vnd.tiddlywiki
 
-A number of [[ufuncs]] in [[Numpy]] implements [[Python]]'s native syntax for [[Comparison Operators|Python Comparison Operators]] for convenience:
+[[Numpy]] overloads [[Python]]'s [[Bitwise Logic Operators|Python Bitwise Operators]] as [[ufuncs]] that work element-wise on (usually Boolean) arrays:
 
 |!Operator|!Equivalent ufunc|
-|`==`|`np.equal()`|
-|`!=`|`np.not_equal()`|
-|`<`|`np.less()`|
-|`>`|`np.greater`|
-|`<=`|`np.less_equal()`|
-|`>=`|`np.greater_equal()`|
+|`&`|`np.bitwise_and()`|
+|`|`|`np.bitwise_or()`|
+|`^`|`np.bitwise_xor()`|
+|`~`|`np.bitwise_not()`|

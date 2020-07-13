@@ -1,0 +1,26 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200713020508235
+modified: 20200713020805034
+tags: Numpy [[Python Data Science Handbook (Jake VanderPlas)]]
+title: Bogosort
+tmap.id: da73d6fa-e71c-4916-8967-6fea6363d0de
+type: text/vnd.tiddlywiki
+
+```python
+def bogosort(x):
+    while np.any(x[:-1] > x[1:]):
+        np.random.shuffle(x)
+    return x
+		
+x = np.array([2, 1, 4, 3, 5])
+bogosort(x)
+```
+
+```
+array([1, 2, 3, 4, 5])
+```
+
+!!$$\mathscr O(N \times N!)$$

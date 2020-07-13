@@ -1,0 +1,28 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200712233140321
+modified: 20200712233745023
+tags: Numpy [[Python Data Science Handbook (Jake VanderPlas)]]
+title: Numpy Boolean Arrays
+tmap.id: e423d68b-cbc2-4871-a732-54b42c096e22
+type: text/vnd.tiddlywiki
+
+They are nothing more than [[Numpy Arrays|Numpy Array]] that store boolean values!
+
+What can we do with them?
+
+* ''Counting entries''
+** `np.count_nonzero()`
+** `np.sum(x < 6)`
+
+* Any/All
+** `np.any()`
+** `np.all()`
+
+* [[Boolean Operators|Numpy Bitwise Boolean Operators]]
+
+And most impartantly..
+
+* ''Use them as masks!''

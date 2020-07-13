@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200120140319732
-modified: 20200712023351615
+modified: 20200713005854288
 tags: Stub Pandas Numpy [[Python Data Science Handbook (Jake VanderPlas)]]
 title: Numpy Indexing & Slicing
 tmap.id: 7379496a-ca9a-4541-bdfc-293e42260dc5
@@ -11,9 +11,8 @@ type: text/vnd.tiddlywiki
 
 * Indexing (`var[0, 2]`)
 * Slicing (`var[ lower:upper:step, lower:upper:step ]`, `var[ : , :-3:2 ]`)
-* Fancy indexing
-** By position (`list = [0, 2, -1]; var[list]`)
-** With booleans (`mask = [True, False, True, False, False, True]; var[mask]`)
+* [[Fancy Indexing]] (`list = [0, 2, -1]; var[list]`)
+* Masking with [[Boolean Arrays|Numpy Boolean Arrays]] (`mask = [True, False, True, False, False, True]; var[mask]`)
 
 ''Important note:'' [[Numpy Slicing|Numpy Indexing & Slicing]] works very differently from [[Python Lists|Python List]] slicing under the hood:
 

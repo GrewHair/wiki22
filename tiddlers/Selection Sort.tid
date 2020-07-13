@@ -1,0 +1,33 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200713012813844
+modified: 20200713020359797
+tags: Numpy [[Python Data Science Handbook (Jake VanderPlas)]]
+title: Selection Sort
+tmap.id: 8f031e00-fd95-49d9-8521-4fdcf4aa04d2
+type: text/vnd.tiddlywiki
+
+A simple [[Selection Sort]] repeatedly finds the minimum value from a list and makes swaps until the list is sorted.
+
+```python
+import numpy as np
+
+def selection_sort(x):
+    for i in range(len(x)):
+        swap = i + np.argmin(x[i:])  # the summation of indexes
+				                     # ensures that algorithm
+                                     # only searches to the right
+        (x[i], x[swap]) = (x[swap], x[i])
+    return x
+
+x = np.array([2, 1, 4, 3, 5])
+selection_sort(x)
+```
+
+```
+array([1, 2, 3, 4, 5])
+```
+
+!!$$\mathscr O(n^2)$$

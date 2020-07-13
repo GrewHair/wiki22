@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200321174632468
-modified: 20200423232315446
+modified: 20200713000840426
 tags: $:/tags/Stylesheet
 title: _my/stylesheets/dyslexic_font
 tmap.id: 5f434f53-29b8-44ae-8b28-5117360ab47d
@@ -25,9 +25,9 @@ strong {
     font-family: lexie_readablebold;
 }
 
-em {
-    font-family: new_opendyslexic3italic;
-}
+//em {
+//    font-family: new_opendyslexic3italic;
+//}
 
 em strong {
     font-family: new_opendyslexic3bold-italic;
