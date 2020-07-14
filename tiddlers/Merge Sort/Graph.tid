@@ -1,0 +1,32 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200714200851305
+modified: 20200714211832825
+tags: 
+title: Merge Sort/Graph
+tmap.id: af43aacd-de46-4b9e-8916-f787538e7cc9
+type: text/vnd.tiddlywiki
+
+<$viz text='
+digraph foo {
+node [shape=record];
+
+a_1[label="38|27|43|3|9|82|10"]
+a_7[label="3|9|10|27|38|43|82"]
+
+a_21[label="38|27|43|3"];  a_22[label="9|82|10"]
+a_61[label="3|27|38|43"];  a_62[label="9|10|82"]
+
+a_31[label="38|27"];  a_32[label="43|3"];  a_33[label="9|82"];  a_34[label="10"]
+a_51[label="27|38"];  a_52[label="3|43"];  a_53[label="9|82"];  a_54[label="10"]
+
+a_1 -> a_21, a_22
+a_21 -> a_31, a_32;   a_22 -> a_33, a_34
+a_31 -> 38, 27;   a_32 -> 43, 3;   a_33 -> 9, 82;   a_34 -> 10
+38, 27 -> a_51;  43, 3 -> a_52;  9, 82 -> a_53;  10 -> a_54
+a_51, a_52 -> a_61; a_53, a_54 -> a_62
+a_61, a_62 -> a_7
+}
+' class='dot_1'/>
