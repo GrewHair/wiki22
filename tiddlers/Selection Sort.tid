@@ -2,8 +2,9 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[Selection Sort/Graph]]
 created: 20200713012813844
-modified: 20200713020359797
+modified: 20200714121619330
 tags: Numpy [[Python Data Science Handbook (Jake VanderPlas)]]
 title: Selection Sort
 tmap.id: 8f031e00-fd95-49d9-8521-4fdcf4aa04d2
@@ -29,5 +30,5 @@ selection_sort(x)
 ```
 array([1, 2, 3, 4, 5])
 ```
-
+{{Selection Sort/Graph}}
 !!$$\mathscr O(n^2)$$

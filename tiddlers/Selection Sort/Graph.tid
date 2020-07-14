@@ -1,0 +1,47 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200714102137909
+modified: 20200714150504960
+tags: 
+title: Selection Sort/Graph
+tmap.id: 553a8014-24f8-4ff9-893d-de976577ad9c
+type: text/vnd.tiddlywiki
+
+<$viz text='
+digraph algo {
+//rankdir=TB
+graph [bgcolor="transparent"]
+nodesep=0
+node [shape=rect, fillcolor=dimgray, color="springgreen3", fontcolor="springgreen3"]
+edge [color="springgreen3"]
+
+{rank=same; n_11; n_12; n_13; n_14; n_15}
+{rank=same; n_21; n_22; n_23; n_24; n_25}
+{rank=same; n_31; n_32; n_33; n_34; n_35}
+{rank=same; n_41; n_42; n_43; n_44; n_45}
+{rank=same; n_51; n_52; n_53; n_54; n_55}
+
+edge[style=invis]; n_11 -> n_12 -> n_13 -> n_14 -> n_15;
+edge[style=invis]; n_21 -> n_22 -> n_23 -> n_24 -> n_25;
+edge[style=invis]; n_31 -> n_32 -> n_33 -> n_34 -> n_35;
+edge[style=invis]; n_41 -> n_42 -> n_43 -> n_44 -> n_45;
+edge[style=invis]; n_51 -> n_52 -> n_53 -> n_54 -> n_55;
+
+edge[style=invis]; n_11 -> n_21 -> n_31 -> n_41 -> n_51;
+
+n_11[label=2]; n_12[label=5]; n_13[label=4]; n_14[label=1]; n_15[label=3]
+n_21[label=1]; n_22[label=5]; n_23[label=4]; n_24[label=2]; n_25[label=3]
+n_31[label=1]; n_32[label=2]; n_33[label=4]; n_34[label=5]; n_35[label=3]
+n_41[label=1]; n_42[label=2]; n_43[label=3]; n_44[label=5]; n_45[label=4]
+n_51[label=1]; n_52[label=2]; n_53[label=3]; n_54[label=4]; n_55[label=5]
+
+edge[style=solid]; n_14 -> n_11
+edge[style=solid]; n_24 -> n_22
+edge[style=solid]; n_35 -> n_33
+edge[style=solid]; n_45:n -> n_44:n
+
+n_21, n_31, n_32, n_41, n_42, n_43, n_51, n_52, n_53, n_54, n_55 [style=filled]
+}
+'/>

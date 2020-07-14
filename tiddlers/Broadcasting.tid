@@ -4,7 +4,7 @@
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 .hsk.transcludes: [[_my/images/png/numpy_broadcasting]][[_my/images/png/numpy/2-dimensional_function_via_broadcasting]][[numpy - functions of 2 variables using broadcasting.html]]
 created: 20200116130503920
-modified: 20200712181622010
+modified: 20200713103913422
 tags: [[Python Data Science Handbook (Jake VanderPlas)]] Stub Numpy Pandas
 title: Broadcasting
 tmap.id: 11430eff-0e31-4e38-bcc5-9b467cd7e8d9
@@ -102,3 +102,5 @@ a.shape -> (3, 3)`
 `heights = [ 59.0, 65.2, 62.9, 65.4 ]
 data = {'height': heights, 'sex': 'M'}
 results = pd.DataFrame(data)` - and the `M` is broadcast to the entire column.
+
+In particular, [[Broadcasting]] is useful to calculate [[Outer Products|Outer Product]] and their possible extensions (e.g. `np.outer` flattens input [[arrays|Numpy Array]], while[[Broadcasting]] allows you to take one `(10, 2)` array, make a pair of arrays with shapes `(1, 10, 2)` and `(10, 1, 2)` out of it, and then make an `(10, 10, 2)`  "outer product" [[array|Numpy Array]])

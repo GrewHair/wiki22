@@ -1,0 +1,30 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200714100018164
+modified: 20200714105142871
+tags: 
+title: some dot picture 5
+tmap.id: 538cf770-230d-423c-94e8-fe1a66d8aea9
+type: text/vnd.tiddlywiki
+
+<$viz text='  digraph structs {
+//size = "8"
+ratio = "fill"
+splines=true
+//graph [splines=ortho]
+//nodesep = 1
+struct1 [shape=record, width=4, label="<f2> 2|<f5> 5|<f4> 4|<f1> 1|<f3> 3"];
+struct1:f1:s -> struct1:f2:s
+struct2 [shape=record, width=4, label="<f1> 1|<f5> 5|<f4> 4|<f2> 2|<f3> 3"];
+struct2:f2:s -> struct2:f5:s
+struct3 [shape=record, width=4, label="<f1> 1|<f2> 2|<f4> 4|<f5> 5|<f3> 3"];
+struct3:f3:s -> struct3:f4:s
+struct4 [shape=record, width=4, label="<f1> 1|<f2> 2|<f3> 3|<f5> 5|<f4> 4"];
+struct4:f4:s -> struct4:f5:s
+struct5 [shape=record, width=4, label="<f1> 1|<f2> 2|<f3> 3|<f4> 4|<f5> 5"];
+edge[style=invis];
+node[group=a];
+struct1 -> struct2 -> struct3 -> struct4 -> struct5
+}' class='dot_1'/>
