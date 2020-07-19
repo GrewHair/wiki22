@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200717004619470
+modified: 20200717011333712
+tags: Ubuntu
+title: Bash Shortcuts
+tmap.id: 211b2c0d-71f4-4ad4-b883-a8f763b06860
+type: text/vnd.tiddlywiki
+
+|<kbd>Ctrl</kbd>+<kbd>U</kbd>|clear to beginning of line|vim|
+|<kbd>Ctrl</kbd>+<kbd>Y</kbd>|undo||
+|<kbd>Ctrl</kbd>+<kbd>W</kbd>|clear word|vim|

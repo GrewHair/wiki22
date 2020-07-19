@@ -3,14 +3,14 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200714200851305
-modified: 20200714211832825
+modified: 20200715211733636
 tags: 
 title: Merge Sort/Graph
 tmap.id: af43aacd-de46-4b9e-8916-f787538e7cc9
 type: text/vnd.tiddlywiki
 
 <$viz text='
-digraph foo {
+digraph algo {
 node [shape=record];
 
 a_1[label="38|27|43|3|9|82|10"]

@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200708014324137
-modified: 20200708032215095
+modified: 20200719141405467
 tags: Python
 title: String Methods
 tmap.id: 231396a8-b82d-4a3c-aafb-2c989219c63a

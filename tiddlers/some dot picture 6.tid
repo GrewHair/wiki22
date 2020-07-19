@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200719154224738
+modified: 20200719162853581
+tags: 
+title: some dot picture 6
+tmap.id: a446a6b0-2187-4281-aa6b-198db5c4ae49
+type: text/vnd.tiddlywiki
+
+<$viz text='
+digraph {
+foo [label="&int;dx \n dfs"]
+}
+'class="dot_1"/>

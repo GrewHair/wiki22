@@ -2,47 +2,50 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-created: 20200706094633861
-modified: 20200706113530261
+created: 20200719134131310
+modified: 20200719141846293
 tags: Python
 title: Python Built-in Functions
-tmap.id: 18927868-711d-4075-8866-d7d0b2545de4
+tmap.id: 83ff2136-531f-464c-9786-c9985ba9a106
 type: text/vnd.tiddlywiki
 
+@@text-align:center;
 |!Math||!Iterables Creation/Conversion||![[Iterators]]|
-|<center>`max()`</center>||<center>`dict()`</center>||<center>`iter()`</center>|
-|<center>`min()`</center>||<center>`list()`</center>||<center>`next()`</center>|
-|<center>`abs()`</center>||<center>`tuple()`</center>|||
-|<center>`sum()`</center>||<center>`set()`</center>||!Scope Inspection|
-|<center>`pow()`</center>||<center>`frozenset()`</center>||<center>`dir()`</center>|
-|<center>`round()`</center>||<center>`range()`</center>||<center>`vars()`</center>|
-|<center>`divmod()`</center>||||<center>`globals()`</center>|
-|||!On Iterable||<center>`locals()`</center>|
-|!Binary Data||<center>`all()`</center>|||
-|<center>`bytes()`</center>||<center>`any()`</center>||!Object Inspection|
-|<center>`bytearray()`</center>||<center>`len()`</center>||<center>`id()`</center>|
-|<center>`memoryview()`</center>||<center>`reversed()`</center>||<center>`repr()`</center>|
-|||<center>`sorted()`</center>||<center>`ascii()`</center>|
-|!Unicode Codes||<center>`enumerate()`</center>||<center>`hash()`</center>|
-|<center>`ord()`</center>||<center>`zip()`</center>|||
-|<center>`chr()`</center>||||!Checks|
-|||!Type Conversion||<center>`isinstance()`</center>|
-|!Representations||<center>`float()`</center>||<center>`issubclass()`</center>|
-|<center>`bin()`</center>||<center>`int()`</center>||<center>`callable()`</center>|
-|<center>`hex()`</center>||<center>`complex()`</center>|||
-|<center>`oct()`</center>||<center>`bool()`</center>||!Information|
-|<center>`format()`</center>||<center>`str()`</center>||<center>`object()`</center>|
-|||||<center>`type()`</center>|
-|!I/O||!Decorators||<center>`help()`</center>|
-|<center>`input()`</center>||<center>`staticmethod()`</center>|||
-|<center>`open()`</center>||<center>`classmethod()`</center>||!Metaprogramming|
-|<center>`print()`</center>||<center>`property()`</center>||<center>`compile()`</center>|
-|||||<center>`eval()`</center>|
-|!Slicing||![[Inheritance]]||<center>`exec()`</center>|
-|<center>`slice()`</center>||<center>`super()`</center>|||
-|||||!Functional Programming|
-|!Importing||![[Dynamic Attributes]]||<center>`map()`</center>|
-|<center>`__import__()`</center>||<center>`hasattr()`</center>||<center>`filter()`</center>|
-|||<center>`setattr()`</center>|||
-|!Debugging||<center>`getattr()`</center>|||
-|<center>`breakpoint()`</center>||<center>`delattr()`</center>|||
+|``abs()``||`dict()`||``iter()``|
+|`pow()`||``list()``||`next()`|
+|``round()``||`tuple()`|||
+|``divmod()``||`set()`||!Scope Inspection|
+|||``frozenset()``||`dir()`|
+|!Binary Data||`range()`||`vars()`|
+|`bytes()`||||`globals()`|
+|`bytearray()`||!On Iterable||`locals()`|
+|`memoryview()`||`reversed()`|||
+|||`sorted()`||!Object Inspection|
+|!Unicode Codes||`enumerate()`||`id()`|
+|`ord()`||`zip()`||`repr()`|
+|`chr()`||||`ascii()`|
+|||!Aggregates||`hash()`|
+|!Representations||`max()`|||
+|`bin()`||`min()`||!Checks|
+|`hex()`||`sum()`||`isinstance()`|
+|`oct()`||`all()`||`issubclass()`|
+|`format()`||`any()`||`callable()`|
+|||`len()`|||
+|!I/O||||!Information|
+|`input()`||!Type Conversion||`object()`|
+|`open()`||`float()`||`type()`|
+|`print()`||`int()`||`help()`|
+|||`complex()`|||
+|!Slicing||`bool()`||!Metaprogramming|
+|`slice()`||`str()`||`compile()`|
+|||||`eval()`|
+|!Importing||![[Inheritance]]||`exec()`|
+|`__import__()`||`super()`|||
+|||||!Decorators|
+|!Debugging||![[Dynamic Attributes]]||`staticmethod()`|
+|`breakpoint()`||`hasattr()`||`classmethod()`|
+|||`setattr()`||`property()`|
+|!Functional Programming||`getattr()`|||
+|`map()`||`delattr()`|||
+|`filter()`|||||
+@@
