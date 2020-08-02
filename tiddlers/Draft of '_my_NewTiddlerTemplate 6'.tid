@@ -2,14 +2,13 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-created: 20200717004619470
-modified: 20200728003641603
-tags: Ubuntu
-title: Bash Shortcuts
-tmap.id: 211b2c0d-71f4-4ad4-b883-a8f763b06860
+created: 20200731104319585
+draft.of: _my/NewTiddlerTemplate 6
+draft.title: _my/NewTiddlerTemplate 6
+modified: 20200731104340031
+tags: 
+title: Draft of '_my/NewTiddlerTemplate 6'
+tmap.id: 1dd99462-d764-46e6-aa0b-abe7d8c518d6
 type: text/vnd.tiddlywiki
 
-|<kbd>Ctrl</kbd>+<kbd>U</kbd>|clear to beginning of line|vim|
-|<kbd>Ctrl</kbd>+<kbd>Y</kbd>|undo||
-|<kbd>Ctrl</kbd>+<kbd>W</kbd>|clear word|vim|
-|<kbd>Ctrl</kbd>+<kbd>R</kbd>|reverse-i-search||
+sdf

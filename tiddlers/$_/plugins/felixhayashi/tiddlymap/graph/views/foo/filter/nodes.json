@@ -4,7 +4,7 @@
         "text": "",
         "type": "text/vnd.tiddlywiki",
         "title": "$:/plugins/felixhayashi/tiddlymap/graph/views/foo/filter/nodes",
-        "modified": "20200501185730621",
-        "filter": "[field:tmap.id[09d22b04-516f-4ab2-8ced-3d2e4da7c98c]] [field:tmap.id[a59c4a2e-4b49-4d14-a773-ab765fc75372]] [field:tmap.id[0bbc8a79-d358-4f51-903d-9be8706ed402]]"
+        "modified": "20200723103418993",
+        "filter": " [field:tmap.id[e03d6027-aaea-41ee-ac7d-a2357618dc22]] [field:tmap.id[207202fc-7ad6-4156-9ce9-fd74546237fc]] [field:tmap.id[998443a4-a4db-4cfd-a5b8-ce742c5171c4]] [field:tmap.id[1c1b74b6-4f7a-4bab-a210-bcff9740ea22]] [field:tmap.id[aab25b40-f3e1-406d-8fe2-fa7cf5e5bcfc]] [field:tmap.id[78d7d9f1-fede-449a-905a-e149c9c92232]]"
     }
 ]

@@ -2,10 +2,11 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-created: 20191214152310100
-modified: 20200723125027378
-title: _my/ui/EditorToolbarElements/hsk_fields/state
-tmap.id: 25100a9b-d4df-44d8-a115-204678eedc57
+created: 20200723114513411
+draft.of: Frozen Sets
+draft.title: Frozen Sets
+modified: 20200802093428342
+tags: Python
+title: Draft of 'Frozen Sets'
+tmap.id: c0fc30c8-ebdd-4cad-97b7-2adcae9e3540
 type: text/vnd.tiddlywiki
-
-show

@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200619192041910
-modified: 20200620035542496
+modified: 20200723082405554
 tags: Statistics
 title: Bayesian Probability
 tmap.id: 85a0daaa-e0fa-44bb-a713-eb554a1f0977

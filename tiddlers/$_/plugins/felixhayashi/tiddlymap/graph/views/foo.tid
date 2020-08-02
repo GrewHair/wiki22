@@ -3,6 +3,6 @@ config.show_inter_neighbour_edges: true
 created: 20200427061458776
 id: 7f35bf65-cbed-4da8-8eaa-2b7d4dc50a39
 isview: true
-modified: 20200501185719694
+modified: 20200723102651577
 title: $:/plugins/felixhayashi/tiddlymap/graph/views/foo
 type: text/vnd.tiddlywiki

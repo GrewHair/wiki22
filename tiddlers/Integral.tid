@@ -2,10 +2,10 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-created: 20191214152310100
-modified: 20200723125027378
-title: _my/ui/EditorToolbarElements/hsk_fields/state
-tmap.id: 25100a9b-d4df-44d8-a115-204678eedc57
+created: 20200723102438622
+modified: 20200723114241686
+tags: Python
+title: Integral
+tmap.id: 998443a4-a4db-4cfd-a5b8-ce742c5171c4
+tmap.style: {"shape":"text"}
 type: text/vnd.tiddlywiki
-
-show

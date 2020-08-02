@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200329161731078
-modified: 20200331100540599
+modified: 20200802065724627
 tags: Vim
 title: Vim Ex Commands
 tmap.id: cc4f994e-0bb4-4c1b-bbbd-a05d5dd2311f
@@ -11,9 +11,11 @@ type: text/vnd.tiddlywiki
 
 * `:sort` - sort lines
 * `:sort u` - sort lines, leaving only unique ones
+* `:sort i` - sort lines, case-insensitive
 * `:reg` - show registeres
 * `:marks` - show marks
 * `:s/foo/bar/g` - substitute //foo// for //bar// in a __''g''__reedy manner (i.e. everywhere in the selection)
 * `:noh` - clear search highlighing
+* `:g/foo/d` - delete all lines mathing `foo`
 
 The `%` sign means 'for all' - so if you are using it (e.g., `:%s/foo/bar/g`), you don't need to select anything in advance.

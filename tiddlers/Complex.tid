@@ -2,10 +2,11 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-created: 20191214152310100
-modified: 20200723125027378
-title: _my/ui/EditorToolbarElements/hsk_fields/state
-tmap.id: 25100a9b-d4df-44d8-a115-204678eedc57
+caption: 
+created: 20200723102533486
+modified: 20200723113154471
+tags: Python
+title: Complex
+tmap.id: e03d6027-aaea-41ee-ac7d-a2357618dc22
+tmap.style: {}
 type: text/vnd.tiddlywiki
-
-show
