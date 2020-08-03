@@ -3,13 +3,13 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200319160300102
-modified: 20200325163913733
+modified: 20200802162051413
 tags: Statistics Stub [[MIT 18.650 Statistics for Applications]]
 title: Statistical Model
 tmap.id: ae416da3-afe7-46b0-8463-ee03cb9a806a
 type: text/vnd.tiddlywiki
 
-A [[Statistical Model]] is a [[Pair|Tuple]]:
+A [[Statistical Model]] is a [[Pair|Tuple (Set Theory)]]:
 
 $$
 (E, (\mathbb P_\theta)_{\theta \in \Theta}),

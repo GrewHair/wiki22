@@ -3,9 +3,10 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200723102438622
-modified: 20200723114241686
+modified: 20200802164729532
 tags: Python
 title: Integral
+tmap.edges: {"01eb3506-1b60-4372-ade5-a50b6d110235":{"to":"f0abbc77-6275-4e9a-b1a7-e46168874cd8","type":"tmap:unknown"},"4ffc2b8a-3116-4ebb-b6f7-c16b01905b7c":{"to":"043c8498-977a-4be2-b21a-b9b4b682daf1","type":"tmap:unknown"}}
 tmap.id: 998443a4-a4db-4cfd-a5b8-ce742c5171c4
-tmap.style: {"shape":"text"}
+tmap.style: {}
 type: text/vnd.tiddlywiki

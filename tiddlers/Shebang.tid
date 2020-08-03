@@ -2,13 +2,16 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-created: 20200726182746504
-modified: 20200726225418598
-tags: Pyth
-title: _my/NewTiddlerTemplate 1
-tmap.id: e875c39c-d9ed-4d08-9310-69178fb9a519
+created: 20200803122010184
+modified: 20200803174644523
+tags: Ubuntu
+title: Shebang
+tmap.id: b43aabe9-b2fa-41f9-9280-bb1459c01835
 type: text/vnd.tiddlywiki
 
-foo bar baz
-baz baz bazвввввввввввввввввввввввввввsdfsdfввввввввв
-fooooooosdf																	
+```bash
+#!/bin/bash
+#!/bin/sh
+#!/usr/bin/env python3
+#!/usr/bin/env bash
+```

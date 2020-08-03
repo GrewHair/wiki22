@@ -2,13 +2,11 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-created: 20200731104319585
-draft.of: _my/NewTiddlerTemplate 6
-draft.title: _my/NewTiddlerTemplate 6
-modified: 20200731104340031
-tags: 
-title: Draft of '_my/NewTiddlerTemplate 6'
-tmap.id: 1dd99462-d764-46e6-aa0b-abe7d8c518d6
+created: 20200802154003881
+modified: 20200802154105736
+tags: Python
+title: Integer
+tmap.id: f0abbc77-6275-4e9a-b1a7-e46168874cd8
 type: text/vnd.tiddlywiki
 
-sdf
+(class ``int``)

@@ -3,14 +3,14 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200307224150178
-modified: 20200502174506124
+modified: 20200802155549474
 tags: [[Set Theory]] Binary
 title: Cartesian Product
 tmap.edges: {"39266e7b-cc44-4e46-95d4-b338da909b26":{"to":"0bbc8a79-d358-4f51-903d-9be8706ed402","type":"foo"}}
 tmap.id: a59c4a2e-4b49-4d14-a773-ab765fc75372
 type: text/vnd.tiddlywiki
 
-A [[Cartesian Product]] of two [[sets|Set]] is a [[Set]] of [[Tuples|Tuple]] of all possible combinations of elements of the two sets.
+A [[Cartesian Product]] of two [[sets|Set]] is a [[Set]] of [[Tuples|Tuple (Set Theory)]] of all possible combinations of elements of the two sets.
 
 * Binary Cartesian product
 $$A \times B = \{(a,b)|a \in A \;\ \text{and}\;\ b \in B \}$$

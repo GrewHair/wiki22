@@ -3,13 +3,13 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200318071428648
-modified: 20200325164034446
+modified: 20200802161853445
 tags: [[Measure Theory]]
 title: Measure Space
 tmap.id: 010d2c93-d5c0-4e1b-9314-82c56738cd79
 type: text/vnd.tiddlywiki
 
-A [[Measure Space]] is a [[Triple|Tuple]] $$(X, \mathcal A, \mu)$$, where
+A [[Measure Space]] is a [[Triple|Tuple (Set Theory)]] $$(X, \mathcal A, \mu)$$, where
 
 * $$X$$ is a [[Set]]
 * $$\mathcal A$$ is a [[σ-algebra]] on the [[set|Set]] $$X$$

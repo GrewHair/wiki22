@@ -2,11 +2,12 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-caption: 
 created: 20200723102533486
-modified: 20200723113154471
+modified: 20200802154701732
 tags: Python
 title: Complex
 tmap.id: e03d6027-aaea-41ee-ac7d-a2357618dc22
 tmap.style: {}
 type: text/vnd.tiddlywiki
+
+(class ``complex``)

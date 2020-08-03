@@ -3,10 +3,10 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200309102515446
-modified: 20200325164007568
+modified: 20200802162127682
 tags: [[Linear Algebra]] Topology
 title: Normed Vector Space
 tmap.id: 40de17b8-0d88-4916-9e66-35ccb07c8e7f
 type: text/vnd.tiddlywiki
 
-A [[Normed Vector Space]] is a [[pair|Tuple]] $$(V, \lVert \cdot \rVert)$$, where $$V$$ is a [[Vector Space]] and $$\lVert \cdot \rVert$$ is a [[Norm]] on $$V$$.
+A [[Normed Vector Space]] is a [[pair|Tuple (Set Theory)]] $$(V, \lVert \cdot \rVert)$$, where $$V$$ is a [[Vector Space]] and $$\lVert \cdot \rVert$$ is a [[Norm]] on $$V$$.

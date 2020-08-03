@@ -2,21 +2,11 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-created: 20200724123430685
-modified: 20200724123825287
-tags: 
-title: _my/NewTiddlerTemplate 4
-tmap.id: 96c10e68-6fea-488a-b112-94f882827cd9
+created: 20200802162513121
+modified: 20200802162705118
+tags: Python
+title: Tuples
+tmap.id: 89c8ea3a-6602-4f85-9d70-ec092a81620f
 type: text/vnd.tiddlywiki
 
-foo bar
-foo bar
-foo bar
-foo bar
-foo bar
-foo bar
-foo bar
-foo bar
-foo bar
-foo bar
-foo bar
+(class `tuple`)

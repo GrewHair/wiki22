@@ -3,10 +3,9 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200723114323929
-modified: 20200802084429571
+modified: 20200802164909906
 tags: Python
 title: Immutable
+tmap.edges: {"11e54225-1208-444c-a3d6-1ec029204866":{"to":"24caaaa1-a10a-4e6b-9039-bb830135ecf7","type":"tmap:unknown"},"a020b249-ce8e-4039-82f7-b34dcb88d480":{"to":"89c8ea3a-6602-4f85-9d70-ec092a81620f","type":"tmap:unknown"},"11e12bff-3dce-4de0-aaf2-fd051e6759f4":{"to":"1fbcdd04-4753-43a6-a16a-c0e94fc07698","type":"tmap:unknown"}}
 tmap.id: c8bfe08c-b141-4cd8-943a-8339375747f9
 type: text/vnd.tiddlywiki
-
-sdfsdfsil

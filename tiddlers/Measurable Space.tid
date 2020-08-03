@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200308070230283
-modified: 20200325164034450
+modified: 20200802161420874
 tags: [[Measure Theory]]
 title: Measurable Space
 tmap.id: 3c213171-6086-4b32-b06d-ceaf2b3d8177
@@ -11,4 +11,4 @@ type: text/vnd.tiddlywiki
 
 https://en.wikipedia.org/wiki/Measurable_space
 
-Consider a [[Set]] $$X$$ and a [[σ-algebra]] $$\mathcal A$$ on $$X$$. Then a [[Tuple]] $$(X, \mathcal A)$$ is called a [[Measurable Space]].
+Consider a [[Set]] $$X$$ and a [[σ-algebra]] $$\mathcal A$$ on $$X$$. Then a [[Tuple|Tuple (Set Theory)]] $$(X, \mathcal A)$$ is called a [[Measurable Space]].

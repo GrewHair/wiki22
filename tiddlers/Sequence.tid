@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200311164722129
-modified: 20200325163830934
+modified: 20200802162217032
 tags: [[Set Theory]]
 title: Sequence
 tmap.id: fcb50a27-d3cb-46d6-ab60-0ba6f5206e5e
@@ -21,4 +21,4 @@ given by $$f(i) = x_i$$.
 
 https://math.stackexchange.com/questions/1593384/what-is-the-difference-between-an-indexed-family-and-a-sequence/1593393
 
-If the [[Index Set]] is also [[finite|Finite Set]], such a [[Sequence]] may be referred to as a [[Tuple]].
+If the [[Index Set]] is also [[finite|Finite Set]], such a [[Sequence]] may be referred to as a [[Tuple|Tuple (Set Theory)]].

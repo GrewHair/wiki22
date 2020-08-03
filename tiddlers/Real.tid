@@ -3,9 +3,11 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200723102507500
-modified: 20200726225347982
+modified: 20200802154633213
 tags: Python
 title: Real
 tmap.id: 207202fc-7ad6-4156-9ce9-fd74546237fc
 tmap.style: {}
 type: text/vnd.tiddlywiki
+
+(class ``float``)

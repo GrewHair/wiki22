@@ -3,8 +3,10 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200723114513411
-modified: 20200723114543734
+modified: 20200802160051628
 tags: Python
 title: Frozen Sets
 tmap.id: c0fc30c8-ebdd-4cad-97b7-2adcae9e3540
 type: text/vnd.tiddlywiki
+
+(class `frozenset`)

@@ -3,15 +3,11 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200723102235931
-modified: 20200727012347734
+modified: 20200802164551837
 tags: Python
 title: None
 tmap.id: 78d7d9f1-fede-449a-905a-e149c9c92232
 tmap.style: {}
 type: text/vnd.tiddlywiki
 
-{{fooooo}}
-hello world
-sdfofoofoosdfkfjdfksdffsdfsdflisdf
-sdfijsdi
-sdfkdfk
+(class `NoneType`)

@@ -3,8 +3,9 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200723102334532
-modified: 20200802100110581
+modified: 20200802164644097
 tags: Python
 title: Numbers
+tmap.edges: {"847bad03-9a20-4db9-a706-ca0f6f702984":{"to":"998443a4-a4db-4cfd-a5b8-ce742c5171c4","type":"tmap:unknown"},"b3344619-0704-475e-a297-2f9a71c9e555":{"to":"207202fc-7ad6-4156-9ce9-fd74546237fc","type":"tmap:unknown"},"50b2abf8-32fc-4cfd-a565-ddde0d697ffc":{"to":"e03d6027-aaea-41ee-ac7d-a2357618dc22","type":"tmap:unknown"}}
 tmap.id: aab25b40-f3e1-406d-8fe2-fa7cf5e5bcfc
 type: text/vnd.tiddlywiki

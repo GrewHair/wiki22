@@ -3,8 +3,9 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200723114421547
-modified: 20200723114440664
+modified: 20200802164941182
 tags: Python
 title: Set Types
+tmap.edges: {"6174ded5-671b-4af4-ba28-51e1fa6956b4":{"to":"6590742f-4983-4216-a04f-1e0382b6f0d9","type":"tmap:unknown"},"a863ba7d-a799-47f6-9fc0-f418309417d8":{"to":"c0fc30c8-ebdd-4cad-97b7-2adcae9e3540","type":"tmap:unknown"}}
 tmap.id: 07653a2c-f4c3-4e46-bed6-4b29fa233775
 type: text/vnd.tiddlywiki

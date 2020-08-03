@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200311131256769
-modified: 20200325163826194
+modified: 20200802155408340
 tags: [[Linear Algebra]] Stub
 title: Ordered Basis
 tmap.id: 6eaab6ea-0c33-43c7-a82a-d0dff7c279d2
@@ -11,6 +11,6 @@ type: text/vnd.tiddlywiki
 
 ''AKA Frame''
 
-[[Ordered Basis]] is a result of [[indexing|Index Set]] the [[Basis]] by the first [[Natural Numbers]]. In is therefore not a mere [[Set]], but a [[Sequence]] (or [[Tuple]])
+[[Ordered Basis]] is a result of [[indexing|Index Set]] the [[Basis]] by the first [[Natural Numbers]]. In is therefore not a mere [[Set]], but a [[Sequence]] (or [[Tuple|Tuple (Set Theory)]])
 
 https://en.wikipedia.org/wiki/Basis_(linear_algebra)#Ordered_bases_and_coordinates

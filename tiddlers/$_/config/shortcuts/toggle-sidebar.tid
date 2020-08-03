@@ -1,6 +1,6 @@
 created: 20200423203833199
-modified: 20200423203833229
+modified: 20200802152212335
 title: $:/config/shortcuts/toggle-sidebar
 type: text/vnd.tiddlywiki
 
-alt-shift-S ctrl-O
+ctrl-Closebracket

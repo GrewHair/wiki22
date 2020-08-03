@@ -3,15 +3,10 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200723082436720
-modified: 20200723091124869
+modified: 20200802165406437
 tags: Python
 title: Python 3 Standard Type Hierarchy
 tmap.id: 222ebe01-579f-4c3f-9362-04fccfe3f04b
 type: text/vnd.tiddlywiki
 
-<$viz text=' 
-digraph {
-None [shape=rect, fontname=times]
-}
-'/>
-sdfk sdfi sdfi 
+<$tmap view="Python 3 Standard Type Hierarchy" ></$tmap>

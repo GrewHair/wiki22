@@ -3,13 +3,13 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200308071143460
-modified: 20200325163830906
+modified: 20200802162337106
 tags: [[Set Theory]]
-title: Tuple
+title: Tuple (Set Theory)
 tmap.id: b09e05ee-0f9f-4e8b-b526-1536c2f60baf
 type: text/vnd.tiddlywiki
 
-A [[Tuple]] is a finite ordered list of elements.
+A [[Tuple|Tuple (Set Theory)]] is a finite ordered list of elements.
 
 It is a [[Sequence]] with a [[finite|Finite Set]] [[Index Set]] of non-negative [[Integers]].
 

@@ -3,10 +3,13 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200704201657424
-modified: 20200704212128354
+modified: 20200802165038035
 tags: Python [[Data Science from Scratch (Joel Grus)]]
 title: Python Dictionaries
 tmap.id: e29d01d4-5139-4189-8338-d15187d8cd0c
+tmap.style: {}
 type: text/vnd.tiddlywiki
+
+(class `dict`)
 
 * [[Dictionary|Python Dictionaries]] keys must be immutable - i.e. a [[List]] can not be a key - use [[Tuples]] instead

@@ -1,5 +1,5 @@
 created: 20200427061432502
 filter: [prefix[_]] [[tw-body:link]] [[tw-list:tags]] [[tw-list:list]] [[tw-list:.hsk-macrocall]] [[tw-list:.hsk-transcludes]]
-modified: 20200427061432502
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/foo/filter/edges
+modified: 20200802165338970
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Python 3 Standard Type Hierarchy/filter/edges
 type: text/vnd.tiddlywiki

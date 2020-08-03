@@ -3,13 +3,13 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200315155445067
-modified: 20200325163952475
+modified: 20200802161935602
 tags: [[Set Theory]] [[Group Theory]] Stub [[Abstract Algebra]] [[Abstract Algebra (Socratica)]]
 title: Group
 tmap.id: b1389f0a-e7ae-4cfc-82cf-bec7fb275037
 type: text/vnd.tiddlywiki
 
-Let $$G$$ be a [[Set]] and $$\cdot$$ be a [[Binary Operation]] on $$G$$. Then a [[Group]] is a [[Tuple]] $$(G, \cdot$$), that satisfies four requirements called the //group axioms//:
+Let $$G$$ be a [[Set]] and $$\cdot$$ be a [[Binary Operation]] on $$G$$. Then a [[Group]] is a [[Tuple (Set Theory)]] $$(G, \cdot$$), that satisfies four requirements called the //group axioms//:
 
 * [[Closure]]
 *> $$\forall a, b \in G: a \cdot b \in G$$

@@ -1,6 +1,6 @@
 created: 20200423203848369
-modified: 20200723090751750
+modified: 20200803123543561
 title: $:/config/shortcuts/preview
 type: text/vnd.tiddlywiki
 
-alt-P ctrl-Q
+ctrl-Slash

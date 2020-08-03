@@ -8,7 +8,7 @@ condition: [<targetTiddler>!has[type]] [<targetTiddler>type[text/vnd.tiddlywiki]
 created: 20191212114631312
 dropdown: _my/ui/EditorToolbarElements/transclude/dropdown
 icon: _my/images/icons/transclude
-modified: 20200325141620886
+modified: 20200802155833408
 shortcuts: 
 tags: $:/tags/EditorToolbar
 title: _my/ui/EditorToolbarElements/transclude

@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200229212057768
-modified: 20200325163755322
+modified: 20200802155258573
 tags: Matplotlib
 title: Figure (Matplotlib)
 tmap.id: dd4bb7d1-04fe-4c0d-9a46-44cf039188a0
@@ -16,4 +16,4 @@ the constructor of it is `plt.figure()`
 Constructor arguments:
 
 * `figsize`
-* `facefolor` - takes a 4-[[tuple|Tuple]]: `(R, G, B, transparency)`
+* `facefolor` - takes a 4-[[tuple|Tuple (Set Theory)]]: `(R, G, B, transparency)`

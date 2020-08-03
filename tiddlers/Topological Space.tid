@@ -3,13 +3,13 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200320062152881
-modified: 20200325164007548
+modified: 20200802155636634
 tags: Topology
 title: Topological Space
 tmap.id: cb259a7b-5803-4b29-a455-67fce86b33d1
 type: text/vnd.tiddlywiki
 
-A [[Topological Space]] is a [[Pair|Tuple]] $$(X, \tau)$$, where
+A [[Topological Space]] is a [[Pair|Tuple (Set Theory)]] $$(X, \tau)$$, where
 
 * $$X$$ is a [[Set]]
 * $$\tau$$ is a [[Topology|Topology on a Set]] on $$X$$

@@ -2,9 +2,11 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-created: 20200723114611953
-modified: 20200723114626830
+created: 20200802162806626
+modified: 20200802162847736
 tags: Python
-title: Dictionaries
-tmap.id: 9586142d-85de-4d1c-af72-1f43b169f70a
+title: Bytes
+tmap.id: 1fbcdd04-4753-43a6-a16a-c0e94fc07698
 type: text/vnd.tiddlywiki
+
+(class `bytes`)
