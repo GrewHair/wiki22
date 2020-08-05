@@ -1,0 +1,16 @@
+created: 20200805004529238
+modified: 20200805010227782
+tags: 
+title: Special Comments
+tmap.id: 3c513557-2af1-42b5-bc45-925da517ab1d
+type: text/vnd.tiddlywiki
+
+[[Special Comments]] usually somehow pull some code through, disguising it as a comment. A file with [[Special Comments]] somehow consequtively passes through two or more [[Interpretors|Interpretor]], each doing its own job. The examples that i know are:
+
+* [[Greasemonkey]] metadata blocks
+* [[Hydrogen]]'s cell markers
+* [[Shebang]]
+
+Apparently this technique is used either for specifying the interpretor for the file (the [[Shebang]] case), or some metaparameters like the scope of the file (the [[Greasemonkey]] case), or some attempts to do [[Literate Programming]]/documentation (the [[Hydrogen]] case).
+
+Note that some are inclined to consider this approach flimsy and choose to accomplish similar goals by explicitly enclosing all of the syntaxes being combined into something like [[JSON Blobs]] instead (e.g. [[Jupyter Notebooks]]). This indeed ensures things never get mixed, but this comes at the expence of extremely poor readability.

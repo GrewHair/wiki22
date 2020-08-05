@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200803122010184
-modified: 20200803174644523
+modified: 20200804224848658
 tags: Ubuntu
 title: Shebang
 tmap.id: b43aabe9-b2fa-41f9-9280-bb1459c01835
@@ -12,6 +12,7 @@ type: text/vnd.tiddlywiki
 ```bash
 #!/bin/bash
 #!/bin/sh
+#!/bin/sh -e
 #!/usr/bin/env python3
 #!/usr/bin/env bash
 ```
