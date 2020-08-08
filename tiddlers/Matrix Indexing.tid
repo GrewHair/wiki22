@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200313111956809
-modified: 20200325163826227
+modified: 20200806123431460
 tags: [[Linear Algebra]]
 title: Matrix Indexing
 tmap.id: 5f187353-b21c-4802-a0a2-65df3f9166bb

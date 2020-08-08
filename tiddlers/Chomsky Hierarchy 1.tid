@@ -1,0 +1,23 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200806140218429
+modified: 20200806140353260
+tags: Linguistics Hierarchy
+title: Chomsky Hierarchy 1
+tmap.id: bf73aa91-23b8-4cc4-bc40-fcabdf81384f
+type: text/vnd.tiddlywiki
+
+<svg height="300pt" width="300pt">
+  <circle cx="190" cy="290" r="50" stroke=currentColor stroke-width="3" fill="none" />
+  <circle cx="190" cy="250" r="100" stroke=currentColor stroke-width="3" fill="none" />
+  <circle cx="190" cy="220" r="140" stroke=currentColor stroke-width="3" fill="none" />
+  <circle cx="190" cy="190" r="180" stroke=currentColor stroke-width="3" fill="none" />
+  <foreignObject x="165" y="275" width="70" height="100">[[Regular|Regular Grammar]]</foreignObject>
+  <foreignObject x="145" y="180" width="100" height="100">$$\displaystyle \frac{1}{2} \int xdx$$</foreignObject>
+  <foreignObject x="130" y="100" width="120" height="100">[[Context-sensitive|Context-sensitive Grammar]]</foreignObject>
+  <foreignObject x="115" y="30" width="170" height="100">[[Recursively Enumerable|Recursively Enumerable Language]]</foreignObject>
+</svg>
+
+https://www.youtube.com/watch?v=224plb3bCog

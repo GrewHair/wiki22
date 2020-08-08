@@ -1,0 +1,11 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" height="424pt" width="300pt">
+<title>foo</title>
+  <circle cx="190" cy="290" r="50" stroke=currentColor stroke-width="3" fill="none" />
+  <circle cx="190" cy="250" r="100" stroke=currentColor stroke-width="3" fill="none" />
+  <circle cx="190" cy="220" r="140" stroke=currentColor stroke-width="3" fill="none" />
+  <circle cx="190" cy="190" r="180" stroke=currentColor stroke-width="3" fill="none" />
+  <foreignObject x="165" y="275" width="70" height="100">[[Regular|Regular Grammar]]</foreignObject>
+  <foreignObject x="145" y="177" width="100" height="100">[[Context-free|Context-free Grammar]]</foreignObject>
+  <foreignObject x="130" y="100" width="120" height="100">[[Context-sensitive|Context-sensitive Grammar]]</foreignObject>
+  <foreignObject x="198" y="30" width="170" height="100">[[Recursively Enumerable|Recursively Enumerable Language]]</foreignObject>
+</svg>

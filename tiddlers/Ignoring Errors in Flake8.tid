@@ -1,0 +1,15 @@
+created: 20200808172342651
+modified: 20200808173007189
+tags: Stub Python
+title: Ignoring Errors in Flake8
+tmap.id: 9d6cc586-03ba-45f9-abdf-09658f4234d2
+type: text/vnd.tiddlywiki
+
+* Line-wise:
+*><$codeblock code="
+def a_very_very_loooooong_function_name_that_exceeds_the_suggested_line_width():  # noqa: E501
+" language="python"/>
+* ...
+* ...
+
+https://flake8.pycqa.org/en/3.1.1/user/ignoring-errors.html

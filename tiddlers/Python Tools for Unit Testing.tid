@@ -1,0 +1,19 @@
+created: 20200808150122311
+modified: 20200808151103733
+tags: Python [[Test Driven Development]]
+title: Python Tools for Unit Testing
+tmap.id: 3824095b-6636-4f01-b098-4747c74ccfc3
+type: text/vnd.tiddlywiki
+
+To effeciently write [[Unit Tests In Python]], one should install these tools:
+
+* `pip install nose`
+* `pip install nose-watch` - to run tests continuously
+* `pip install rednose` - to colorize the output
+
+Once these tools are installed, one should start a session by typing this in the terminal:
+
+```bash
+(base) boris@computer:~$ cd path/to/project
+(base) boris@computer:~/path/to/project$ nosetests --with-watch --rednose --nologcapture
+```

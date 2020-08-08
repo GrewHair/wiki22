@@ -1,0 +1,26 @@
+created: 20200805041549049
+modified: 20200805180537372
+tags: [[Atom Flight Manual]]
+title: Atom Shortcuts
+tmap.id: d839161f-abfa-46e3-8c8a-0e2416e92abc
+type: text/vnd.tiddlywiki
+
+|<kbd>Ctrl+Shift+P</kbd>|Call command palette|
+|<kbd>Ctrl+\</kbd>|Toggle tree view|
+|<kbd>Alt+\</kbd>|Focus tree view|
+|<kbd>Ctrl+T</kbd> or <kbd>Ctrl+P</kbd>|Fuzzy Finder|
+|<kbd>Ctrl+B</kbd>|Search in open buffers only?|
+|<kbd>Ctrl+Shift+B</kbd>|Search only in new files or ones with uncommited changes?|
+|<kbd>Ctrl+Shift+F2</kbd>|Bookmark/un-bookmark a line|
+|<kbd>F2</kbd>|Go to next bookmarked line|
+|<kbd>Shift+F2</kbd>|Go to previous bookmarked line|
+|<kbd>Ctrl+F2</kbd>|List bookmarked lines|
+|<kbd>Ctrl+Up/Down</kbd>|Move current line up or down|
+|<kbd>Alt+Ctrl+.</kbd>|Close current XML/HTML tag|
+|<kbd>Ctrl+Shift+F</kbd>|Search in project|
+
+In the tree view:
+
+|<kbd>A</kbd>|Add file|
+|<kbd>M</kbd>|Move file|
+|<kbd>D</kbd>|??|
