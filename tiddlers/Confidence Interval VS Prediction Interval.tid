@@ -1,0 +1,17 @@
+created: 20200810054554948
+modified: 20200810062243221
+tags: [[Машинное обучение и анализ данных (Яndex, МФТИ)]] Statistics
+title: Confidence Interval VS Prediction Interval
+tmap.id: 0ebebae9-bf7d-4ce3-ae33-45d2ea0a170c
+type: text/vnd.tiddlywiki
+
+$$
+\displaystyle
+\text{Prediction Interval:}\quad
+\mathbb P(\underbrace{X_{\frac{\alpha}{2}}}_\text{deterministic} \leq \underbrace{X}_\text{random} \leq \underbrace{X_{1-\frac{\alpha}{2}}}_\text{deterministic}) = 1 - \alpha
+
+\\[20pt]
+
+\text{Confidence Interval:}\quad
+\mathbb P(\underbrace{C_L}_\text{random} \leq \underbrace{\theta}_\text{deterministic} \leq \underbrace{C_U}_\text{random}) \geq 1 - \alpha
+$$

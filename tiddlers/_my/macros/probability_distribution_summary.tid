@@ -2,32 +2,32 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-created: 20200303131116136
-modified: 20200501140339223
+created: 20200815070424297
+modified: 20200815085816123
 tags: $:/tags/Macro
 title: _my/macros/probability_distribution_summary
-tmap.id: 14028036-80e7-49de-9d04-20153fa1b26a
+tmap.id: d74d1f0a-f2d8-4f33-a2b4-1b5d56fad42d
 type: text/vnd.tiddlywiki
 
-\define probability_distribution_summary()
-|Notation                                  |{{!!.att.notation}}     |
-|[[Parameters|Statistical Parameter]]      |{{!!.att.parameters}}   |
-|[[Support]]                               |{{!!.att.support}}      |
-|[[pmf|Probability Mass Function]]         |{{!!.att.pmf}}          |
-|[[PDF|Probability Density Function]]      |{{!!.att.pdf}}          |
-|[[CDF|Cumulative Distribution Function]]  |{{!!.att.cdf}}          |
-|[[Quantile|Quantile Function]]           |{{!!.att.quantile}}      |
-|[[Mean]]                                  |{{!!.att.mean}}         |
-|[[Median]]                                |{{!!.att.median}}       |
-|[[Mode]]                                  |{{!!.att.mode}}         |
-|[[Variance]]                              |{{!!.att.variance}}     |
-|[[MAD|Mean Absolute Deviation]]             |{{!!.att.mad}}         |
-|[[Skewness]]                              |{{!!.att.skewness}}     |
-|[[Ex. kurtosis|Kurtosis]]                 |{{!!.att.kurtosis}}     |
-|[[Entropy]]                               |{{!!.att.entropy}}      |
-|[[MGF|Moment-generating Function]]        |{{!!.att.mgf}}          |
-|[[CF|Characteristic Function]]            |{{!!.att.cf}}           |
-|PGF                                       |{{!!.att.pgf}}          |
-|[[Fisher Information]]                    |{{!!.att.fisher_info}}  |
-|[[Kullback-Leibler Divergence]]            |{{!!.att.kullback-leibler}}|
+\define probability_distribution_summary(distribution)
+|Notation                                  |{{$distribution$!!.att.notation}}     |
+|[[Parameters|Statistical Parameter]]      |{{$distribution$!!.att.parameters}}   |
+|[[Support]]                               |{{$distribution$!!.att.support}}      |
+|[[pmf|Probability Mass Function]]         |{{$distribution$!!.att.pmf}}          |
+|[[PDF|Probability Density Function]]      |{{$distribution$!!.att.pdf}}          |
+|[[CDF|Cumulative Distribution Function]]  |{{$distribution$!!.att.cdf}}          |
+|[[Quantile|Quantile Function]]           |{{$distribution$!!.att.quantile}}      |
+|[[Mean]]                                  |{{$distribution$!!.att.mean}}         |
+|[[Median]]                                |{{$distribution$!!.att.median}}       |
+|[[Mode]]                                  |{{$distribution$!!.att.mode}}         |
+|[[Variance]]                              |{{$distribution$!!.att.variance}}     |
+|[[MAD|Mean Absolute Deviation]]             |{{$distribution$!!.att.mad}}         |
+|[[Skewness]]                              |{{$distribution$!!.att.skewness}}     |
+|[[Ex. kurtosis|Kurtosis]]                 |{{$distribution$!!.att.kurtosis}}     |
+|[[Entropy]]                               |{{$distribution$!!.att.entropy}}      |
+|[[MGF|Moment-generating Function]]        |{{$distribution$!!.att.mgf}}          |
+|[[CF|Characteristic Function]]            |{{$distribution$!!.att.cf}}           |
+|PGF                                       |{{$distribution$!!.att.pgf}}          |
+|[[Fisher Information]]                    |{{$distribution$!!.att.fisher_info}}  |
+|[[Kullback-Leibler Divergence]]            |{{$distribution$!!.att.kullback-leibler}}|
 \end

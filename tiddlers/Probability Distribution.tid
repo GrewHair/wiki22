@@ -1,6 +1,7 @@
 created: 20200303124219061
 icon: _my/images/icons/exemplar
-modified: 20200325171046952
+list: _my/templates/probability_distribution_summary [[Bernoulli Distribution/Summary]] [[Binomial Distribution/Summary]] [[Continuous Uniform Distribution/Summary]] [[Discrete Uniform Distribution/Summary]] [[Exponential Distribution/Summary]] [[Gamma Distribution/Summary]] [[Geometric Distribution/Summary]] [[Normal Distribution/Summary]] [[Point Mass Distribution/Summary]] [[Poisson Distribution/Summary]] [[Standard Normal Distribution]] [[Symmetric Probability Distribution]] [[Chi-square Distribution/Summary]]
+modified: 20200812212955615
 title: Probability Distribution
 tmap.id: 26429b68-e29a-4f20-8de2-338fcc2c2e46
 type: text/vnd.tiddlywiki

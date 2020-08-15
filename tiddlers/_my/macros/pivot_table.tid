@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20191130164043121
-modified: 20200325133349843
+modified: 20200815070541572
 tags: $:/tags/Macro
 title: _my/macros/pivot_table
 tmap.id: 2cfc6b40-a444-433d-9e27-4e15a346072a

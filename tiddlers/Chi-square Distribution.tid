@@ -1,0 +1,32 @@
+.att.cdf: $$\displaystyle \frac 1 {\Gamma(k/2)}x^{k/2-1}e{-x/2}
+.att.cf: $$\displaystyle \left(1 - 2it \right)^{-k/2}$$
+.att.entropy: $$\displaystyle \frac k 2 + \ln \left(2\Gamma \left( \frac k 2 \right)\right) + \left(1 - \frac k 2\right)\psi\left(\frac k 2\right)$$
+.att.fisher_info: 
+.att.kullback-leibler: 
+.att.kurtosis: $$\displaystyle \frac {12} k$$
+.att.mad: 
+.att.mean: $$k$$
+.att.median: $$\displaystyle \approx k \left(1 - \frac 2 {9k} \right)^3$$
+.att.mgf: $$\displaystyle \left(1-2t\right)^{-k/2}$$ for $$\displaystyle t < \frac 1 2$$
+.att.mode: $$\max(k - 2, 0)$$
+.att.notation: $$\chi^2(k)$$ or $$\chi_k^2$$
+.att.parameters: $$k \in \mathbb N^*$$ ("[[degrees of freedom|Degrees of Freedom]]")
+.att.pdf: $$\displaystyle \frac 1 {2^{k/2}\Gamma(k/2)} x^{k/2-1}e^{-x/2}$$
+.att.pgf: $$\displaystyle \left( 1 - 2\ln t \right)^{-k/2}$$ for $$0 < t < \sqrt{e}$$
+.att.pmf: 
+.att.quantile: 
+.att.skewness: $$\displaystyle \sqrt{8/k}$$
+.att.support: $$x \in (0, +\infty)$$ if $$k=1$$, otherwise x \in [0, +\infty)
+.att.variance: $$2k$$
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200815083928265
+modified: 20200815095843260
+tags: [[Probability Distribution]] [[Probability Theory]] [[Машинное обучение и анализ данных (Яndex, МФТИ)]]
+title: Chi-square Distribution
+tmap.id: f6b84efe-608f-407b-a397-2652bd453a11
+type: text/vnd.tiddlywiki
+
+[[Summary|Chi-square Distribution/Summary]]

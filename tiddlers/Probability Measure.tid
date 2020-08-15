@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200424173131886
-modified: 20200620042956757
+modified: 20200809061328247
 tags: [[Probability Theory]] [[All of Statistics (Larry Wasserman)]]
 title: Probability Measure
 tmap.id: 5d29d035-07e6-4fb1-8ebc-dcd5dfc590b4

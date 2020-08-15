@@ -1,0 +1,35 @@
+created: 20200809102059370
+modified: 20200810074256275
+tags: [[Машинное обучение и анализ данных (Яndex, МФТИ)]] Statistics Stub
+title: Prediction Interval
+tmap.id: 5ec1e2d9-ed48-4c63-86ea-e09940c767a5
+type: text/vnd.tiddlywiki
+
+If a [[Random Variable]] $$X$$ has a [[Probability Distribution]] $$F_X(x)$$, then:
+
+$$
+\displaystyle
+\mathbb P(X_{\frac{\alpha}{2}} \leq X \leq X_{1-\frac{\alpha}{2}}) = 1 - \alpha.
+$$
+
+The interval $$[X_{\frac{\alpha}2}, X_{1-\frac{\alpha}2}]$$ is called the [[Prediction Interval]] ~~of order $$1-\alpha$$~~ for the [[Random Variable]] $$X$$.
+
+If the [[Random Variable]] is [[Gaussian|Normal Distribution]], its [[Prediction Interval]] can be expressed through its [[Parameters|Statistical Parameter]] $$\mu$$ and $$\sigma$$ in conjunction with [[Quantiles|Quantile]] of the [[Standard Normal Distribution]] [[(see the second bullet point and substitute Z for the corresponding quantiles)|Standard Normal Distribution]]:
+
+$$
+\displaystyle
+\mathbb P(\mu - z_{1-\frac \alpha 2 } \sigma \leq X \leq \mu + z_{1-\frac \alpha 2} \sigma) = 1 - \alpha.
+$$
+
+>''Note:'' here we just wrote $$z_{1-\frac \alpha 2}$$ on both sides. We're allowed to do that since the [[Normal Distribution]] is [[Symmetric|Symmetric Probability Distribution]], and thus $$z_\frac \alpha 2 = -z_{1-\frac \alpha 2}$$.
+
+For $$\alpha = 0.05$$, the [[Quantile]] $$z_{1-\frac \alpha 2}$$ of the [[Standard Normal|Standard Normal Distribution]] is:
+
+$$
+\displaystyle
+z_{0.975} \approx 1.95996 \approx 2,
+$$
+
+hense the [[Two Sigma Rule]]!
+
+[[Comment|Prediction Interval/Comment]]

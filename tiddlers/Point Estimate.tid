@@ -1,0 +1,13 @@
+created: 20200809123358981
+modified: 20200809131954014
+tags: Statistics [[Машинное обучение и анализ данных (Яndex, МФТИ)]] Stub
+title: Point Estimate
+tmap.id: 51dd6ffc-c5f3-43c9-8806-d5d692fd3596
+type: text/vnd.tiddlywiki
+
+Examples:
+
+* [[Sample Mean]] is a good [[Point Estimate]] of [[Expectation]]
+* ...
+
+Unlike the [[Parameter|Statistical Parameter]] itself, its [[Point Estimate]] is always considered a [[Random Variable]].

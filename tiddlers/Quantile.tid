@@ -1,0 +1,18 @@
+created: 20200809073748197
+modified: 20200809092338292
+tags: Statistics
+title: Quantile
+tmap.id: 57fbb725-85c2-4e45-bab7-dd51593d4375
+type: text/vnd.tiddlywiki
+
+A [[Quantile]] $$X_\alpha$$ is a value of the [[Quantile Function]] at some $$\alpha$$ (or sometimes denoted as $$q$$):
+
+$$X_\alpha = F^{-1}(\alpha) = \inf\{x: F(x) \geq \alpha \}.$$
+
+Equivalently,
+
+$$\mathbb P(X \leq X_\alpha) \geq \alpha, \quad \mathbb P(X \geq X_\alpha) \geq 1 - \alpha.$$
+
+>There's a number of things to say about these two last inequalities:
+>* the second comes from the first plus the [[Complement Rule|Complement Rule (Probability)]]
+>* for [[Symmetric Distributions|Symmetric Probability Distribution]], this allows one to account for [[Two-Tailed]] hypotheses by simply picking two [[Quantiles|Quantile]] - $$X_\alpha$$ and $$X_{1-\alpha}$$.

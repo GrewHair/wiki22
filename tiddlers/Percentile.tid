@@ -1,0 +1,8 @@
+created: 20200809073533989
+modified: 20200809073715801
+tags: Statistics
+title: Percentile
+tmap.id: d44c7502-ca06-4e4c-b4e7-9bf019dc4a35
+type: text/vnd.tiddlywiki
+
+[[Percentile]] is basically the same thing as [[Quantile]], but expressed in percents (i.e., multiplied by 100)

@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200501123205814
-modified: 20200501125221896
+modified: 20200815095248288
 tags: [[Probability Distribution]] [[Probability Theory]] [[All of Statistics (Larry Wasserman)]]
 title: Standard Normal Distribution
 tmap.id: 38c23e84-c8ef-4290-b96d-2dd3103f230d
@@ -26,7 +26,7 @@ The [[CDF|Cumulative Distribution Function]] of a [[Standard Normal|Standard Nor
 $$
 \displaystyle
 \mathbb P(a < X < b) = 
-\mathbb P\left(\frac{a - \mu} \sigma < Z < \frac{b - \sigma} \mu\right) =
+\mathbb P\left(\frac{a - \mu} \sigma < Z < \frac{b - \mu} \sigma\right) =
 \Phi \left( \frac{b - \mu} \sigma \right) -
 \Phi \left( \frac{a - \mu} \sigma \right).
 $$

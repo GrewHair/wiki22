@@ -1,0 +1,71 @@
+.att.cdf: $$I_q(n-k, 1+k)$$
+.att.cf: $$(q+pe^{it})^n
+.att.entropy: $$\cfrac 12\log_2(2\pi enpq)+O\left(\cfrac 1n\right)$$
+.att.fisher_info: $$\displaystyle g_n(p)=\frac n{pq}$$
+.att.kurtosis: $$\displaystyle \frac{1-6pq}{npq}$$
+.att.mean: $$np$$
+.att.median: $$\lceil  np \rceil\ or\ \lfloor np\rfloor$$
+.att.mgf: $$(q+pe^t)^n$$
+.att.mode: $$\lfloor(n+1)p\rfloor \ or\ \lceil(n+1)p-1\rceil$$
+.att.notation: $$B(n,p)$$
+.att.parameters: $$
+\begin{gathered}
+n \in \{0,1,2,...\} - \text{number of trials}          \\
+p \in [0,1] - \text{success probability for one trial} \\
+q = 1-p - \text{failure probability for one trial}
+\end{gathered}
+$$
+.att.pdf: 
+.att.pgf: $$G(z)=[q+pz]^n$$
+.att.pmf: $$\displaystyle{n \choose k}p^kq^{n-k}$$
+.att.skewness: $$\cfrac{q-p}{\sqrt{npg}}$$
+.att.support: $$k\in\{0,1,...,n\}$$ - number of successes
+.att.variance: $$npq$$
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200815075523814
+modified: 20200815095432826
+tags: [[Probability Theory]] [[Probability Distribution]]
+title: Binomial Distribution
+tmap.id: a25c0af3-ca14-41ae-b13e-1dbf1ac36012
+type: text/vnd.tiddlywiki
+
+[[Summary|Binomial Distribution/Summary]]
+
+Probability of exactly $$k$$ successes out of $$n$$ trials.
+
+$$
+\displaystyle
+B(n, p) =
+\underbrace{
+\underbrace{\quad p^k\quad}
+_{\begin{gathered}
+				\text{prob. of}\\
+				k\\
+				\text{successes}
+  \end{gathered}}
+\times
+\underbrace{(1-p)^{n-k}}
+_{\begin{gathered}
+				\text{prob. of}\\
+				n - k\\
+				\text{failures}
+  \end{gathered}}
+}_{\text{all }n\text{ trials covered}}
+\times
+\underbrace{n \choose k}
+_{\begin{gathered}
+				\text{num. of}\\
+				\text{such}\\
+				\text{combi-}\\
+				\text{nations}
+  \end{gathered}}
+$$
+
+It is called [[Binomial|Binomial Distribution]] because the proof that it sums up to $$1$$ involves the [[Binomial Theorem]].
+
+* If $$X_1 \sim B(n,p_1)$$ and $$X_2 \sim B(n,p_2)$$, then $$X_1 + X_2 \sim B(n, p_1 + p_2)$$.
+
+https://en.wikipedia.org/wiki/Binomial_distribution

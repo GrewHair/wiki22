@@ -3,22 +3,24 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200430142158411
-modified: 20200430143232036
+modified: 20200809081914149
 tags: [[Probability Theory]] [[All of Statistics (Larry Wasserman)]]
 title: Quantile Function
 tmap.id: 9cd3cebd-39ad-4e91-9fbe-2895562ee1f0
 type: text/vnd.tiddlywiki
 
-''AKA Inverse CDF''
+''AKA Inverse CDF, Inverse Distribution Function''
 
 Let $$X$$ be a [[Random Variable]] with [[CDF|Cumulative Distribution Function]] $$F$$. The [[Quantile Function]] is defined by:
 
-$$F^{-1}(q) = \inf\left\{x : F(x) \leq q \right\}$$
+$$F^{-1}(q) = \inf\left\{x : F(x) \geq q \right\}$$
 
 for $$q \in [0, 1].$$
 
+>(that is, the least $$x$$, for which $$F(x) \geq q$$)
+
 If $$F$$ is strictly increasing and [[continuous|Continuous Function]], then $$F^{-1}(q)$$ is the unique [[Real Number|Real Numbers]] $$x$$ such that $$F(x) = q$$.
 
-* $$F^{-1}(1/4)$$ is the first quartile
+* $$F^{-1}(1/4)$$ is the first [[Quartile]]
 * $$F^{-1}(1/2)$$ is the [[Median]] (second quartile)
-* $$F^{-1}(3/4)$$ is the third quartile
+* $$F^{-1}(3/4)$$ is the third [[Quartile]]

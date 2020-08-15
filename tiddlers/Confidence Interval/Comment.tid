@@ -1,0 +1,30 @@
+created: 20200810084547643
+modified: 20200810112737264
+tags: Statistics [[Машинное обучение и анализ данных (Яndex, МФТИ)]]
+title: Confidence Interval/Comment
+tmap.id: 9cd1d407-6dac-49ad-9ffb-05b252c6c83b
+type: text/vnd.tiddlywiki
+
+An important special case is when the [[Parameter|Statistical Parameter]] of interest is the [[Mean|Expectation]] $$\mathbb E X$$.
+
+The [[Point Estimate]] for it is the [[Sample Mean]] $$\bar{X}_n$$, and thus, as long as the [[Sample]] $$X^n = (X_1,\ldots, X_n)$$ can be considered an array of  [[i.i.d.|Independent and Identically Distributed]] [[Random Variables|Random Variable]], the [[Central Limit Theorem]] shall require this [[Mean|Sample Mean]] to be nearly-[[Normally Distributed|Normal Distribution]], since it's just a sum of all the [[RV|Random Variable]]s in the [[Sample|Sample (Statistics)]] (divided by their count):
+
+$$
+X_n \approx \sim N
+\left(
+\mathbb E X, \frac{\mathbb D X}n
+\right).
+$$
+
+This gives us the ability to write down [[Confidence Intervals|Confidence Interval]] for [[Means|Expectation]] of [[Samples]] from //any// [[Distribution|Probability Distribution]] $$X \sim F(x)$$ not just using the formal definition, but also in the form similar to one from the [[example|Confidence Interval/Example]], i.e. parametrized with the [[Sample Mean]] and the [[Variance]]:
+
+$$
+\displaystyle
+\mathbb P
+\left(
+\bar{X}_n - z_{1 - \frac \alpha 2}{\sqrt{\frac{\mathbb D X}n}}
+\leq \mathbb E X \leq
+\bar{X}_n + z_{1 - \frac \alpha 2}{\sqrt{\frac{\mathbb D X}n}}
+\right)
+\approx 1 - \alpha.
+$$

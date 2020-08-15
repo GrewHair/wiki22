@@ -1,0 +1,30 @@
+created: 20200810074353631
+modified: 20200810083926252
+tags: 
+title: Prediction Interval/Comment/Comment
+tmap.id: 9670525f-4ca7-4753-a288-fe28a20679bb
+type: text/vnd.tiddlywiki
+
+Note that for the same example, the [[Confidence Interval]] for $$\mu$$ looks like this:
+
+$$
+\displaystyle
+\mathbb P
+\left(
+\bar{X}_n - z_{1-\frac \alpha 2} \frac \sigma {\sqrt{n}}
+\leq \mu \leq
+\bar{X}_n + z_{1-\frac \alpha 2} \frac \sigma {\sqrt{n}}
+\right)
+= 1 - \alpha,
+$$
+
+so it's $$\sqrt{n}$$ times more narrow.
+
+This is to be expected, because there is a sharp distinction:
+
+* the [[Prediction Interval]] for a value of an [[RV|Random Variable]] shows the range within which it may vary (with certain [[Probability|Probability Measure]]);
+* the [[Confidence Interval]] for the [[Mean]] (or other [[Parameter|Statistical Parameter]]) of an [[RV|Random Variable]] shows the range within which this [[Mean]] lies (again, with certain [[Probability|Probability Measure]]),
+
+so it all boils down to which range you would like to estimate.
+
+While they are not as frequently used with simple [[Samples|Sample (Statistics)]]/problems like the one at hand, [[Prediction Intervals|Prediction Interval]] can be particularly useful/are particularly popular in [[Regression|Regression (Statistics)]] problems, where the [[Expectation|Expected Value]] is not constant.

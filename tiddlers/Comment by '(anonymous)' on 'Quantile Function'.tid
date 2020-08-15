@@ -1,0 +1,45 @@
+$$f^{-1}(q): \inf\left\{x="F(x)
+-: 
+\leq: 
+\right\}$$,": 
+actual: 
+an: 
+book,: 
+created: 20200809072710801
+definition: 
+edit-mode: no
+error: 
+formal: 
+goes: 
+in: 
+is: 
+it: 
+like: 
+list: [[Quantile Function]]
+modified: 20200809184621136
+q: 
+role: comment
+saved-text: ''Note:''
+the: 
+there: 
+this: 
+title: /home/boris/tiddlywiki/wiki22/tiddlers/Comment by '(anonymous)' on 'Quantile Function'.tid
+tmap.id: aa47bd4f-3028-4247-9d19-132c58630315
+type: text/vnd.tiddlywiki
+with: 
+
+which, if you think about it, really makes no sense: e.g. for $$X \in \R$$, the infinum will be $$-\infty$$!
+
+Maybe if he used supremum instead, this would work, who knows :)
+title: Comment by '(anonymous)' on 'Quantile Function'
+tmap.id: c6afac93-0b8f-4655-b3e8-2100b5aba76f
+type: text/vnd.tiddlywiki
+
+''Note:''
+In the actual book, there is an error with the formal definition - it goes like this:
+
+$$F^{-1}(q) = \inf\left\{x : F(x) \leq q \right\}$$,
+
+which, if you think about it, really makes no sense: e.g. for $$X \in \R$$, the infinum will be $$-\infty$$!
+
+Maybe if he used supremum instead, this would work, who knows :)

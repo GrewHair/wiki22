@@ -1,0 +1,29 @@
+.hsk.transcludes: [[_my/images/png/two_sigma_rule_revised]]
+created: 20200809063814860
+modified: 20200809103413086
+tags: [[Машинное обучение и анализ данных (Яndex, МФТИ)]] Statistics
+title: Two Sigma Rule, Revised
+tmap.id: b3a83327-b689-42b9-8989-757d0208d01e
+type: text/vnd.tiddlywiki
+
+Let us try to make the [[Two Sigma Rule]] a bit more rigorous.
+
+Rather than talk of a //"given"// interval of $$\mu \plusmn 2\sigma$$, let's instead //seek// for an interval such that the [[Probability|Probability Measure]] that the [[RV|Random Variable]] in question takes on a value within it will be exactly equal to 95%.
+
+For this, we can use [[Quantiles|Quantile]]!
+
+If we assume the [[PDF|Probability Density Function]] of our [[RV|Random Variable]] to be [[Gaussian|Normal Distribution]] (and with the [[Two Sigma Rule]] we did it anyway!), then we can pinpoint [[Two Tails|Two-Tailed]], amongst which lies the interval we are seeking. If we make the [[Integral]] of our [[PDF|Probability Density Function]] over each of these two tails be equal to 0.025, then the area between them will be forced to equal 0.95.
+
+By definition of a [[Quantile]], and also by the [[Symmetricity|Symmetric Probability Distribution]] of the [[Normal Distribution]], the boundries of these tails will be $$X_{0.025}$$ and $$X_{0.975}$$.
+
+So the interval we were seeking for is now defined:
+
+$$
+\mathbb P(X_{0.025} \leq X \leq X_{0.975}) = 0.95
+$$
+
+{{_my/images/png/two_sigma_rule_revised}}
+
+Note that in fact this definition can be easily generalized to //any// [[Distribution|Probability Distribution]].
+
+Such intervals are called [[Prediction Intervals|Prediction Interval]].

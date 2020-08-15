@@ -1,0 +1,12 @@
+.hsk.macrocall: [[_my/macros/probability_distribution_summary]]
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200810113326405
+modified: 20200815090835832
+title: Chi-square Distribution/Summary
+tmap.id: 4f1f5ebb-04c2-4fc4-80ee-b0bcf951d586
+type: text/vnd.tiddlywiki
+
+<<probability_distribution_summary 'Chi-square Distribution'>>

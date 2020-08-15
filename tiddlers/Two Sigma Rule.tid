@@ -1,0 +1,18 @@
+.hsk.transcludes: [[_my/images/png/two_sigma_rule]]
+created: 20200809054956143
+modified: 20200809063809416
+tags: [[Машинное обучение и анализ данных (Яndex, МФТИ)]] [[Probability Theory]]
+title: Two Sigma Rule
+tmap.id: ab15a9eb-20ff-4de9-8186-4cf545fd0989
+type: text/vnd.tiddlywiki
+
+If a [[Random Variable]] has a [[Normal Distribution]] with [[Mean]] $$\mu$$ and [[Variance]] $$\sigma^2$$ $$(X \sim N(\mu, \sigma^2))$$, then the [[Probability|Probability Measure]] that it takes on a value from the interval $$\mu \plusmn 2\sigma$$ is approximately 95%:
+
+{{_my/images/png/two_sigma_rule}}
+
+$$\mathbb P(\mu - 2\sigma \leq X \leq \mu + 2\sigma) \approx 0.95.$$
+
+This rule is insufficient for any serious statistics, because:
+
+* it's imprecise
+* we need to be able to construct such intervals (i.e. like $$\mu \plusmn 2\sigma$$) for //any// [[Probability|Probability Measure]] value, not just 0.95

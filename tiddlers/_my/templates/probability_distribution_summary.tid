@@ -24,9 +24,9 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200430223709184
-modified: 20200501140533460
+modified: 20200812152710984
 tags: [[Probability Distribution]] [[Probability Theory]]
-title: _my/templates/probability_distribution
+title: _my/templates/probability_distribution_summary
 tmap.id: 64ff8cad-01d8-45ec-bfac-4c8b3f2fae52
 type: text/vnd.tiddlywiki
 

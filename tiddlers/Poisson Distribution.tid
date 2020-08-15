@@ -15,19 +15,18 @@
 .att.skewness: $$\lambda^{-1/2}$$
 .att.support: $$k \in \N_0$$ ([[Natural Numbers]] starting from 0)
 .att.variance: $$\lambda$$
-.hsk.macrocall: [[_my/macros/probability_distribution_summary]]
 .hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-created: 20200430210728089
-modified: 20200430213940919
+created: 20200815083424689
+modified: 20200815095740368
 tags: [[Probability Distribution]]
 title: Poisson Distribution
-tmap.id: ac818d7e-50a8-46c1-905d-c598492f7b8a
+tmap.id: ff30d4f6-b9a4-4462-a2ae-676ef91cf4ab
 type: text/vnd.tiddlywiki
 
-<<probability_distribution_summary>>
+[[Summary|Poisson Distribution/Summary]]
 
 It is often used as a model for counts of "rare" events like traffic accidents - so a "rare version" of the [[Binomial|Binomial Distribution]].
 

@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200426101528033
-modified: 20200426103316798
+modified: 20200815095817560
 tags: [[Probability Distribution]]
 title: Symmetric Probability Distribution
 tmap.id: 6f4e3e3c-68f9-4a1e-897b-5eeb122d8877

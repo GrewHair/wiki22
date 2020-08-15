@@ -1,0 +1,12 @@
+.hsk.macrocall: [[_my/macros/probability_distribution_summary]]
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200815084459373
+modified: 20200815090400326
+title: Student's t-distribution/Summary
+tmap.id: f1e1e70c-284d-465d-8a4c-abbc954c3f3c
+type: text/vnd.tiddlywiki
+
+<<probability_distribution_summary "Student's t-distribution">>

@@ -1,0 +1,12 @@
+created: 20200808182338848
+modified: 20200808182713608
+tags: Bash [[Coding Habits for Data Scientists]]
+title: echo $?
+tmap.id: deca016c-4211-4fe7-b7dc-96ea4e46f40a
+type: text/vnd.tiddlywiki
+
+```bash
+echo $?
+```
+
+This is commonly used when one wants to check if a script that he has just run exited normally. In some situations the exit code doesn't get shown automatically. In such cases one can run this command in the terminal to check it. The value should be `0`, if the program exited correctly.

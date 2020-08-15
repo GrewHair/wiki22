@@ -1,0 +1,29 @@
+created: 20200809130359404
+modified: 20200810112843586
+tags: Statistics [[Машинное обучение и анализ данных (Яndex, МФТИ)]]
+title: Confidence Interval
+tmap.id: 0407c9f4-3ac9-4d67-be84-561ef8c224fd
+type: text/vnd.tiddlywiki
+
+A [[Confidence Interval]] for a [[Parameter|Statistical Parameter]] $$\theta$$ is given by a pair of [[Statistics|Statistic]] $$C_L$$, $$C_U$$:
+
+$$\mathbb P(C_L \leq \theta \leq C_U) \geq 1 - \alpha,$$
+
+where:
+
+* $$(1 - \alpha)$$ is the interval's [[Confidence Level]]
+* $$C_L$$ and $$C_U$$ are respectively $$\frac \alpha 2$$'s and $$\left(1 - \frac \alpha 2\right)$$'s [[Quantiles|Quantile]] of the [[Distribution|Probability Distribution]] of the [[Parameter|Statistical Parameter]]'s [[Point Estimate]]:
+
+$$
+\displaystyle
+\mathbb P\left(
+F^{-1}_{\hat{\theta}}\left(\frac \alpha 2\right)
+\leq \theta \leq
+F^{-1}_{\hat{\theta}}\left(1 - \frac \alpha 2\right)
+\right)
+= 1 -\alpha.
+$$
+
+[[Example|Confidence Interval/Example]]
+
+[[Comment|Confidence Interval/Comment]]

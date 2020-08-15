@@ -4,7 +4,7 @@
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 .hsk.transcludes: [[_my/images/png/backprop_example_0]][[_my/images/png/backprop_example_1_0]][[_my/images/png/backprop_example_2_0]][[_my/images/png/backprop_example_1_1]][[_my/images/png/backprop_example_2_1]]
 created: 20200418141005178
-modified: 20200629170006219
+modified: 20200810055432113
 tags: [[Introduction to Deep Learning in Python (Datacamp)]]
 title: Error Backpropagation
 tmap.id: c6958f67-ca3b-4168-b0f7-47298697a812

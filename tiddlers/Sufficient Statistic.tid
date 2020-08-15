@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200228194906703
-modified: 20200325163913724
+modified: 20200809140640159
 tags: Statistics
 title: Sufficient Statistic
 tmap.id: 0e70a219-2fa7-41f2-90b3-c199f72ff17c
@@ -27,76 +27,8 @@ Note that $$c(y)$$ here is considered just some completely irrelevant scaling co
 * It doesn't depend on <<tex \theta "Statistical Parameter">>, and thus you can not solve for $$\theta$$
 * The exact value of likelihood is meaningless anyway (see [[likelihood]]). 
 
-''//Example 1://'' to calculate the [[Mean]] all you need is the sum of all values - thus the sum of all values is a [[Sufficient Statistic]] for the [[Mean]].
+<br>
 
-''//Example 2://'' a sample of 5 pregnant women have their SBP taken, which is considered to be normally distributed with $$\sigma=10.$$ 
+[[Example 1|Sufficient Statistic/Example#1]]
 
-Sample: `{135, 123, 120, 102, 110}`
-
-$$
-\mathcal                  L(\mu) = 
-\prod_{i=1}^5  f_i     (y_i;\mu),
-
-\quad \text{where} \quad
-
-f(y; \mu, \sigma) = \frac 1 {\sqrt             {200 \pi}}
-              e^{ - \frac   {\displaystyle   {(y-\mu)^2}}
-                            {\displaystyle         {200}} }
-$$
-
-
-$$ \displaystyle
-   \mathcal L(\mu) =
-   \left(           \frac 1 {200\pi}            \right)
-                  ^{\frac   {\displaystyle 5} 
-                            {\displaystyle 2}}
-   \text{exp}
-   \left\{
-  -\sum_{i=1}^5     \frac   {(y_i - \mu)^2}
-                            {200}               \right\}
-
-
-
-   \\
-
-
-
-   \mathcal L(\mu) =
-   \left(           \frac 1 {200\pi}            \right)
-                  ^{\frac   {\displaystyle 5}
-                            {\displaystyle 2}}
-   \text{exp}
-   \left\{
-  -\sum_{i=1}^5     \frac   {y_i^2}
-                            {200}               \right\}
-   \text{exp}
-   \left\{          \frac   {\mu T(y)}
-                            {100}                  -
-                    \frac   {n \mu^2}
-                            {200}               \right\},
-
-   \\ \text{where} \quad
-   T(y) = \sum{y_i}.
-$$
-
-In this example,
-$$     c(y) = 
-   \left(           \frac 1 {200\pi}            \right)
-                  ^{\frac   {\displaystyle 5}
-                            {\displaystyle 2}}
-   \text{exp}
-   \left\{
-  -\sum_{i=1}^5     \frac   {y_i^2}
-                            {200}               \right\},
-
-
-\qquad
-
-
-   \mathcal L^*(\theta; T(y)) =
-   \text{exp}
-   \left\{          \frac   {\mu T(y)}
-                            {100}                  -
-                    \frac   {n \mu^2}
-                            {200}               \right\}
-$$
+[[Example 2|Sufficient Statistic/Example#2]]

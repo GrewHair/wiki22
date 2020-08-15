@@ -1,0 +1,8 @@
+created: 20200809135936913
+modified: 20200809140256008
+tags: 
+title: Sufficient Statistic/Example#1
+tmap.id: b12a560d-a3f6-484f-8666-b88049dd95e2
+type: text/vnd.tiddlywiki
+
+To calculate the [[Mean]] all you need is the sum of all values - thus the sum of all values is a [[Sufficient Statistic]] for the [[Mean]].

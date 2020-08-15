@@ -1,0 +1,32 @@
+.att.cdf: $$\displaystyle \frac 1 2 + x\Gamma\left(\frac{\nu+1}2\right) \frac {\,_2F_1\left(\frac 1 2, \frac {\nu+1} 2; \frac 3 2; -\frac {x^2} \nu \right)} {\sqrt{\pi \nu} \Gamma\left(\frac \nu 2 \right)\quad}$$, $$\,_2F_1$$ is the [[hypergeometric function|Hypergeometric Function]]
+.att.cf: $$\displaystyle \frac {K_{\nu/2}(\sqrt\nu |t|)\cdot (\sqrt\nu |t|)^{\nu /2}} {\Gamma(\nu /2)2^{\nu /2-1}}$$ for $$\nu >0$$; $$K_\nu (x):$$ [[modified Bessel function of the second kind|Bessel Functions]]
+.att.entropy: $$\displaystyle \frac {\nu + 1} 2 \left[ \psi\left(\frac{1+\nu}2\right) - \psi\left(\frac \nu 2 \right) \right] + \ln\left[\sqrt\nu B\left(\frac\nu 2, \frac 1 2\right) \right] \; \text{(nats)}$$; $$\psi:$$ [[digamma function|Digamma Function]], $$B:$$ [[beta function|Beta Function]]
+.att.fisher_info: 
+.att.kullback-leibler: 
+.att.kurtosis: $$\displaystyle \frac 6 {\nu-4}$$ for $$\nu > 4$$, $$\infty$$ for $$2 < \nu \leq 4$$, otherwise [[undefined|Indeterminate Form]]
+.att.mad: 
+.att.mean: $$0$$ for $$\nu > 1$$, otherwise [[undefined|Indeterminate Form]]
+.att.median: $$0$$
+.att.mgf: undefined
+.att.mode: $$0$$
+.att.notation: 
+.att.parameters: $$\nu > 0$$ ([[degrees of freedom|Degrees of Freedom]])
+.att.pdf: $$\displaystyle \frac {\Gamma \left( \frac{\nu+1}2\right)}{\sqrt{\nu \pi}\Gamma\left( \frac {\nu} {2} \right)}\left( 1+\frac{x^2}\nu\right)^{-\frac{\nu+1} 2}$$
+.att.pgf: 
+.att.pmf: 
+.att.quantile: 
+.att.skewness: $$0$$ for $$\nu > 3$$, otherwise [[undefined|Indeterminate Form]]
+.att.support: $$x \in (-\infty, +\infty)
+.att.variance: $$\displaystyle \frac \nu {\nu -2}$$ for $$\nu > 2$$; $$\quad\infty$$ for $$1 < \nu \leq 2\quad$$, otherwise [[undefined|Indeterminate Form]]
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200810140843690
+modified: 20200815095925369
+tags: [[Probability Distribution]] [[Probability Theory]] [[Машинное обучение и анализ данных (Яndex, МФТИ)]]
+title: Student's t-distribution
+tmap.id: 6c680384-6bb5-4b58-9d5c-6299d4329fea
+type: text/vnd.tiddlywiki
+
+[[Summary|Student's t-distribution/Summary]]

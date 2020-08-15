@@ -15,19 +15,18 @@
 .att.skewness: $$\displaystyle \frac {2-p}{\sqrt{1-p}}$$
 .att.support: $$k \text{ trials where }\\ k \in \{1, 2, 3, \ldots \}$$
 .att.variance: $$\displaystyle \frac{1-p}{p^2}$$
-.hsk.macrocall: [[_my/macros/probability_distribution_summary]]
 .hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-created: 20200430201735895
-modified: 20200430205426732
+created: 20200815081129218
+modified: 20200815095408521
 tags: [[Probability Distribution]]
 title: Geometric Distribution
-tmap.id: 25988421-a142-4d64-81d9-01967bb2101d
+tmap.id: b3b1b32d-2936-489f-b6d6-c71e7d9ae3fa
 type: text/vnd.tiddlywiki
 
-<<probability_distribution_summary>>
+[[Summary|Geometric Distribution/Summary]]
 
 Probability that the first success comes on $$k$$'s trial.
 

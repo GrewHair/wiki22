@@ -15,16 +15,15 @@
 .att.skewness: $$\displaystyle \frac {q - p}{\sqrt{pq}}$$
 .att.support: $$k \in \{0, 1\}$$
 .att.variance: $$p(1-p) = pq$$
-.hsk.macrocall: [[_my/macros/probability_distribution_summary]]
 .hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-created: 20200430181651995
-modified: 20200430193514577
+created: 20200815073738262
+modified: 20200815095543920
 tags: [[Probability Distribution]]
 title: Bernoulli Distribution
-tmap.id: 667ce7a0-7380-45e8-a4a3-df3a6d6ac928
+tmap.id: 2bf759f3-334a-4100-a5b0-096a7c10f62c
 type: text/vnd.tiddlywiki
 
-<<probability_distribution_summary>>
+[[Summary|Bernoulli Distribution/Summary]]

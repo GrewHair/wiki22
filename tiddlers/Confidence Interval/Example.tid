@@ -1,0 +1,47 @@
+created: 20200809133403319
+modified: 20200809150721161
+tags: Statistics [[Машинное обучение и анализ данных (Яndex, МФТИ)]]
+title: Confidence Interval/Example
+tmap.id: 2901fa16-d38f-42c6-8107-1e442f2453ee
+type: text/vnd.tiddlywiki
+
+Let's take a [[Sample|Sample (Statistics)]] $$X^n = (X_1, \ldots, X_n)$$ out of [[Normal Distribution]] $$X \sim N \left( \mu, \sigma^2 \right)$$. Also let's assume that the [[Variance]] is known.
+
+The task is to calculate the [[Confidence Interval]] for the [[Expectation]].
+
+The [[Point Estimate]] for the [[Expectation]] $$\mathbb EX = \mu$$ is the [[Sample Mean]] $$\bar{X}_n$$.
+
+Since the [[Normal Distribution]] is [[Closed|Closure]] under addition, the [[Sample Mean]] will also be [[Normally Distributed|Normal Distribution]] with [[Parameters|Statistical Parameter]] given by [[Central Limit Theorem]]:
+
+$$
+\displaystyle
+\bar{X}_n \sim N \left( \mu, \frac{\sigma^2} n \right).
+$$
+
+Thus, since we know the [[Distribution|Probability Distribution]] of the [[Point Estimate]], we can construct the [[Prediction Interval]] for this [[Point Estimate]]:
+
+$$
+\displaystyle
+\mathbb P
+\left(
+\mu - z_{1 - \frac \alpha 2} \frac \sigma {\sqrt{n}}
+\leq \bar{X}_n \leq
+\mu + z_{1 - \frac \alpha 2} \frac \sigma {\sqrt{n}}
+\right)
+= 1 - \alpha.
+$$
+
+The final step is to regroup $$\mu$$ and $$\bar{X}_n$$ inside the probability - and we get the [[Confidence Interval]] for $$\mu$$:
+
+$$
+\displaystyle
+\mathbb P
+\left(
+\bar{X}_n - z_{1 - \frac \alpha 2} \frac \sigma {\sqrt{n}}
+\leq \mu \leq
+\bar{X}_n - z_{1 + \frac \alpha 2} \frac \sigma {\sqrt{n}}
+\right)
+= 1 - \alpha.
+$$
+
+''Notice'', that in this case the [[Prediction Interval]] __"depends on the [[Truth|Ground Truth]]"__, i.e. contains in its expressions the (unknown to us) [[Population|Population (Statistics)]] [[Parameters|Statistical Parameter]] $$\mu$$ and $$\sigma$$ - and hense is __not__ a [[Statistic]]; we can't use it to describe the [[Population|Population (Statistics)]], while the [[Confidence Interval]] __does not__ have this disadvantage (remenber we agreed to assume $$\sigma^2$$ known).

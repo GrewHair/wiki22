@@ -15,18 +15,17 @@
 .att.skewness: $$0$$
 .att.support: $$k \in \{a, a+1, ..., b-1, b \}
 .att.variance: $$\displaystyle \frac {(b-a+1)^2 - 1}{12}$$
-.hsk.macrocall: [[_my/macros/probability_distribution_summary]]
 .hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-created: 20200426103948892
-modified: 20200426150336091
+created: 20200815080202990
+modified: 20200815095621391
 tags: [[Probability Distribution]]
 title: Discrete Uniform Distribution
-tmap.id: f6b013d1-cec5-4739-91ce-1aedaf02db9c
+tmap.id: 18ae844f-bfc9-479b-ad30-ed12ee15cdb3
 type: text/vnd.tiddlywiki
 
-<<probability_distribution_summary>>
+[[Summary|Discrete Uniform Distribution/Summary]]
 
 The [[Discrete Uniform Distribution]] is [[Symmetric|Symmetric Probability Distribution]]!

@@ -1,0 +1,15 @@
+created: 20200810074232104
+modified: 20200810074636887
+tags: 
+title: Prediction Interval/Comment
+tmap.id: 6da4d47f-de99-4154-8737-0550597f02a0
+type: text/vnd.tiddlywiki
+
+If you look at the formula, you may notice that it is problematic to estimate the [[Prediction Interval]] from data, because its limits depend on unknown [[Distribution|Probability Distribution]] [[Parameters|Statistical Parameter]] - so if we were to do it for our  [[Normal Distribution]] example, the best (and the only) solution we'd have would be to substitute $$\mu$$ for the [[Sample Mean]]:
+
+$$
+\displaystyle
+\mathbb P(\bar{X}_n - z_{1-\frac \alpha 2 } \sigma \leq X \leq \bar{X}_n + z_{1-\frac \alpha 2} \sigma) \approx 1 - \alpha.
+$$
+
+[[Comment|Prediction Interval/Comment/Comment]]

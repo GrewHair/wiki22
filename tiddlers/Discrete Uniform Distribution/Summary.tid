@@ -1,0 +1,12 @@
+.hsk.macrocall: [[_my/macros/probability_distribution_summary]]
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200426103948892
+modified: 20200815090137966
+title: Discrete Uniform Distribution/Summary
+tmap.id: f6b013d1-cec5-4739-91ce-1aedaf02db9c
+type: text/vnd.tiddlywiki
+
+<<probability_distribution_summary 'Discrete Uniform Distribution'>>

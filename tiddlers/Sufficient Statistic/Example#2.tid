@@ -1,0 +1,78 @@
+created: 20200809140508799
+modified: 20200809140854444
+tags: 
+title: Sufficient Statistic/Example#2
+tmap.id: 0a73b44b-519c-451f-b3e1-383857fc8ca6
+type: text/vnd.tiddlywiki
+
+A sample of 5 pregnant women have their SBP taken, which is considered to be normally distributed with $$\sigma=10.$$ 
+
+Sample: `{135, 123, 120, 102, 110}`
+
+$$
+\mathcal                  L(\mu) = 
+\prod_{i=1}^5  f_i     (y_i;\mu),
+
+\quad \text{where} \quad
+
+f(y; \mu, \sigma) = \frac 1 {\sqrt             {200 \pi}}
+              e^{ - \frac   {\displaystyle   {(y-\mu)^2}}
+                            {\displaystyle         {200}} }
+$$
+
+
+$$ \displaystyle
+   \mathcal L(\mu) =
+   \left(           \frac 1 {200\pi}            \right)
+                  ^{\frac   {\displaystyle 5} 
+                            {\displaystyle 2}}
+   \text{exp}
+   \left\{
+  -\sum_{i=1}^5     \frac   {(y_i - \mu)^2}
+                            {200}               \right\}
+
+
+
+   \\
+
+
+
+   \mathcal L(\mu) =
+   \left(           \frac 1 {200\pi}            \right)
+                  ^{\frac   {\displaystyle 5}
+                            {\displaystyle 2}}
+   \text{exp}
+   \left\{
+  -\sum_{i=1}^5     \frac   {y_i^2}
+                            {200}               \right\}
+   \text{exp}
+   \left\{          \frac   {\mu T(y)}
+                            {100}                  -
+                    \frac   {n \mu^2}
+                            {200}               \right\},
+
+   \\ \text{where} \quad
+   T(y) = \sum{y_i}.
+$$
+
+In this example,
+$$     c(y) = 
+   \left(           \frac 1 {200\pi}            \right)
+                  ^{\frac   {\displaystyle 5}
+                            {\displaystyle 2}}
+   \text{exp}
+   \left\{
+  -\sum_{i=1}^5     \frac   {y_i^2}
+                            {200}               \right\},
+
+
+\qquad
+
+
+   \mathcal L^*(\theta; T(y)) =
+   \text{exp}
+   \left\{          \frac   {\mu T(y)}
+                            {100}                  -
+                    \frac   {n \mu^2}
+                            {200}               \right\}
+$$

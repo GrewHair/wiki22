@@ -17,19 +17,18 @@
 .att.skewness: $$0$$
 .att.support: $$x \in \R$$
 .att.variance: $$ \sigma^2 $$
-.hsk.macrocall: [[_my/macros/probability_distribution_summary]]
 .hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-created: 20200430223934739
-modified: 20200501125551576
+created: 20200813085221007
+modified: 20200815095347032
 tags: [[Probability Distribution]] [[Probability Theory]] [[All of Statistics (Larry Wasserman)]]
 title: Normal Distribution
-tmap.id: ed000480-4875-4542-8a9b-229d48a620aa
+tmap.id: 0f89478b-f40c-4cae-bbb5-cbf4ba69281a
 type: text/vnd.tiddlywiki
 
-<<probability_distribution_summary>>
+[[Summary|Normal Distribution/Summary]]
 
 If $$X_i \sim N(\mu_i, \sigma^2_i), i = 1, \ldots, n$$ are [[independent|Independent Random Variables]] then
 
