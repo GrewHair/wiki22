@@ -22,11 +22,40 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[_my/images/png/chi-square_pdf]][[_my/images/png/chi-square_cdf]]
 created: 20200815083928265
-modified: 20200815095843260
+modified: 20200815130444510
 tags: [[Probability Distribution]] [[Probability Theory]] [[Машинное обучение и анализ данных (Яndex, МФТИ)]]
 title: Chi-square Distribution
 tmap.id: f6b84efe-608f-407b-a397-2652bd453a11
 type: text/vnd.tiddlywiki
 
+''AKA Helmert Distribution''
+
 [[Summary|Chi-square Distribution/Summary]]
+
+Assume there is $$k$$ [[i.i.d.|Independent and Identically Distributed]] [[Standard Normal|Standard Normal Distribution]] [[Random Variables|Random Variable]]:
+
+$$
+X_1, X_2, \ldots, X_k \sim N(0,1).
+$$
+
+Let's define a new [[Random Variable]] $$X$$:
+
+$$
+\displaystyle
+X = \sum_{i=1}^k X_i^2 \;\sim\; \chi_k^2.
+$$
+
+The distribution of such a [[Random Variable]] is [[Chi-square|Chi-square Distribution]] with $$k$$ [[Degrees of Freedom]].
+
+Its [[PDF|Probability Density Function]] and [[CDF|Cumulative Distribution Function]] for different values of $$k$$ look like this:
+
+|{{_my/images/png/chi-square_pdf}}|{{_my/images/png/chi-square_cdf}}|
+
+Just by visual inspection one may notice the following:
+
+* The [[PDF|Probability Density Function]] is nonnegative - because squares are!
+* When there are only one or two [[RV|Random Variable]]s to sum (i.e. the [[Degrees of Freedom]] are 1 or 2), the [[Mode]] of this distribution is equal to $$0$$ - it is intuitive for the case when $$k=1$$, because the [[Mode]] of a [[Standard Normal|Standard Normal Distribution]] [[RV|Random Variable]] is $$0$$
+** From these two bullet points it follows that for $$k=1$$ and $$k=2$$ the [[PDF|Probability Density Function]] is [[Monotonically Decreasing|Monotonic Function]]
+* As $$k$$ grows, the [[Mode]](/maximum) of the [[PDF|Probability Density Function]] increases - this again is intuitive, because as number of [[Standard Normal|Standard Normal Distribution]] [[RV|Random Variable]]s increases, the sum of their squares should tend to get larger and larger

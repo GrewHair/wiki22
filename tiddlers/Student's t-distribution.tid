@@ -9,7 +9,7 @@
 .att.median: $$0$$
 .att.mgf: undefined
 .att.mode: $$0$$
-.att.notation: 
+.att.notation: $$St(\nu)$$
 .att.parameters: $$\nu > 0$$ ([[degrees of freedom|Degrees of Freedom]])
 .att.pdf: $$\displaystyle \frac {\Gamma \left( \frac{\nu+1}2\right)}{\sqrt{\nu \pi}\Gamma\left( \frac {\nu} {2} \right)}\left( 1+\frac{x^2}\nu\right)^{-\frac{\nu+1} 2}$$
 .att.pgf: 
@@ -22,11 +22,28 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[_my/images/student's_t_pdf]][[_my/images/student's_t_cdf]]
 created: 20200810140843690
-modified: 20200815095925369
+modified: 20200815151015555
 tags: [[Probability Distribution]] [[Probability Theory]] [[Машинное обучение и анализ данных (Яndex, МФТИ)]]
 title: Student's t-distribution
 tmap.id: 6c680384-6bb5-4b58-9d5c-6299d4329fea
 type: text/vnd.tiddlywiki
 
 [[Summary|Student's t-distribution/Summary]]
+
+Assume there are two [[Random Variables]]:
+
+$$X_1 \sim$$ <$link to="Standard Normal Distribution">$$N(0,1)$$</$link>, $$\quad$$
+$$X_2 \sim$$ <$link to="Chi-square Distribution">$$\chi_\nu^2$$</$link>.
+
+A [[Random Variable]] defined as:
+
+$$
+\displaystyle
+X = \frac {X_1}{\sqrt{X_2/\nu}} \sim St(\nu),
+$$
+
+will have [[Student's t-distribution]] with $$\nu$$ [[Degrees of Freedom]].
+
+|{{_my/images/student's_t_pdf}}|{{_my/images/student's_t_cdf}}|

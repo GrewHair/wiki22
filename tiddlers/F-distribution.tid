@@ -9,7 +9,7 @@
 .att.median: 
 .att.mgf: does not exist
 .att.mode: $$\displaystyle \frac {d_1 -2}{d_1} \frac {d_2}{d_2 + 2}$$ for $$d_1 > 2$$
-.att.notation: 
+.att.notation: $$F(d_1, d_2)$$
 .att.parameters: $$d_1, d_2 > 0$$, [[degrees of freedom|Degrees of Freedom]]
 .att.pdf: $$\displaystyle \frac {\sqrt{\frac{(d_1x)^{d_1}d_2^{d_2}}{(d_1x+d_2)^{d_1+d_2}}}} {x \operatorname B \left( \frac {d_1} 2, \frac {d_2} 2 \right) }$$
 .att.pgf: 
@@ -22,11 +22,33 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+.hsk.transcludes: [[_my/images/f-distribution_pdf]][[_my/images/f-distribution_cdf]]
 created: 20200815084054693
-modified: 20200815093257356
+modified: 20200815184144939
 tags: [[Probability Distribution]] [[Probability Theory]] [[Машинное обучение и анализ данных (Яndex, МФТИ)]]
 title: F-distribution
 tmap.id: 1074ae6b-7613-4e1d-8a6c-25795605e939
 type: text/vnd.tiddlywiki
 
+''AKA Snedecor's F Distribution, Fisher-Snedecor Distribution, Russian: Fisher Distribution''
+
 [[Summary|F-distribution/Summary]]
+
+Suppose there are two [[Chi-square|Chi-square Distribution]] [[Random Variables|Random Variable]] $$X_1$$ and $$X_2$$:
+
+$$
+X_1 \sim \chi^2_{d_1}, \quad X_2 \sim \chi^2_{d_2}.
+$$
+
+Then the [[Random Variable]]
+
+$$
+\displaystyle
+X = \frac {X_1/d_1}{X_2/d_2} \sim F(d_1, d_2)
+$$
+
+is said to follow [[F-distribution]] with [[Degrees of Freedom]] $$d_1$$ and $$d_2$$.
+
+|{{_my/images/f-distribution_pdf}}|{{_my/images/f-distribution_cdf}}|
+
+> From the [[PDF|Probability Density Function]] on the picture one may notice that [[F-distribution]] behaves much like [[Chi-square Distribution]], but because it has two [[Parameters|Parameter]], the [[spread|Dispersion]] is also "moving".

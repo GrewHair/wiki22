@@ -1,0 +1,11 @@
+created: 20200815210632748
+modified: 20200815211613874
+tags: Statistics
+title: Biased Sample Variance
+tmap.id: a398c9f0-50bd-4b31-8a5d-15edf6249297
+type: text/vnd.tiddlywiki
+
+$$
+\displaystyle
+S^2_n = \frac 1 n \sum^n_{i=1}(x_i - \bar{x})^2
+$$
