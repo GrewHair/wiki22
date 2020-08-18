@@ -1,6 +1,8 @@
+.hsk.transcludes: [[One-sample T-test]]
+.prs.tex_formula: $$\displaystyle t_\beta = \frac {\hat{\beta} - \beta_0}{s.e.(\hat{\beta})}$$
 created: 20200815214036470
-modified: 20200817154512398
-tags: Statistics
+modified: 20200818203426974
+tags: Statistics [[Машинное обучение и анализ данных (Яndex, МФТИ)]]
 title: T-statistic
 tmap.id: cbda9e09-1f35-4952-9301-8597e3e5049d
 type: text/vnd.tiddlywiki
@@ -9,9 +11,17 @@ Let $$\hat{\beta}$$ be an [[Estimator]] of [[Parameter|Statistical Parameter]] $
 
 Then a [[T-statistic]] for this [[Parameter|Statistical Parameter]] is any quantity of the form
 
-$$\displaystyle t_\beta = \frac {\hat{\beta} - \beta_0}{s.e.(\hat{\beta})}$$,
+<center>{{!!.prs.tex_formula}},</center>
 
 where:
 
 * $$\beta_0$$ is a non-random, known constant which may or may not match the actual unknown [[Parameter|Statistical Parameter]] value $$\beta$$
 * $$s.e.(\hat{\beta})$$ is the [[Standard Error]] of $$\hat{\beta}$$.
+
+This formula is pretty general, and, depending on the type of [[Test|Statistical Test]], more specific formulas/[[Statistics|Statistic]] are supposed to be used - but in any case they are considered [[T-statistics|T-statistic]]. For the (perhaps, simplest possible) case of [[One-sample T-test]] it looks like this:
+
+<center>{{One-sample T-test!!.prs.tex_formula}}.</center>
+
+The [[T-statistic]] is [[Student's t|Student's t-distribution]]-distributed.
+
+[[Proof|T-statistic/Proof]]

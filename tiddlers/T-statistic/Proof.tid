@@ -1,0 +1,50 @@
+created: 20200818185135922
+modified: 20200818203503210
+tags: [[Машинное обучение и анализ данных (Яndex, МФТИ)]]
+title: T-statistic/Proof
+tmap.id: 358752e1-b2d9-450b-98b2-a2a57b3f87d6
+type: text/vnd.tiddlywiki
+
+Let's prove that the [[T-statistic]] follows the [[Student's t-distribution]] for the case of [[One-sample T-test]].
+
+The [[T-statistic]] for this case looks like this:
+
+$$
+\displaystyle
+t = \frac {\bar{X}_n - \mu}{S/\sqrt{n}}
+$$
+
+Let's multiply both the denominator and the numerator by $$\sigma$$:
+
+$$
+\displaystyle
+t = \frac {(\bar{X}_n - \mu)\sigma}{\sigma S/\sqrt{n}}
+$$
+
+Now let's regroup the fractions:
+
+$$
+\displaystyle
+t = \frac {\bar{X} - \mu}{\sigma/\sqrt{n}} \frac \sigma S =
+\frac {\bar{X} - \mu}{\sigma/\sqrt{n}} \left( \frac S \sigma \right)^{-1} =
+\frac {\frac {\bar{X} - \mu}{\sigma/\sqrt{n}}} {S/\sigma}
+$$
+
+The numerator of this fraction is [[Standard Normal|Standard Normal Distribution]] by [[CLT|Central Limit Theorem]]: $$\displaystyle \left( \frac {\bar{X} - \mu} {\sigma/\sqrt{n}}\right) \sim \mathcal N(0,1)$$. Now let's look closely at the denominator:
+
+$$
+\displaystyle
+\frac S \sigma =
+\sqrt{\frac {S^2}{\sigma^2}} =
+\sqrt{\frac {(n-1)S^2}{(n-1)\sigma^2}} =
+\sqrt{\left(\frac {(n-1)S^2}{\sigma^2}\right)/(n-1)}
+$$
+
+The term $$\displaystyle \frac {(n-1)S^2}{\sigma^2} \sim \chi^2_{n-1}$$ has distribution [[Chi-square|Chi-square Distribution]] by [[this|Chi-square and Sample Variance]].
+
+Thus, by definition of [[Student's t-distribution]],
+
+$$
+\displaystyle
+t = \frac {\bar{X}_n - \mu}{S/\sqrt{n}} \sim St(n-1). \quad\blacksquare
+$$

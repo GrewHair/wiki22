@@ -1,6 +1,7 @@
 .hsk.transcludes: [[Standard Score]]
+.prs.tex_formula: $$\displaystyle Z = \frac {\bar{X} - \mu} {\sigma/\sqrt{n}}$$
 created: 20200818083315512
-modified: 20200818124032685
+modified: 20200818190230756
 tags: Statistics
 title: Z-statistic
 tmap.id: 10742ba5-c73b-4a9d-ad9c-55b14544bfba
@@ -8,7 +9,7 @@ type: text/vnd.tiddlywiki
 
 [[Z-statistic]] is often regarded simply as a synonym of the [[Z-score|Standard Score]].
 
-However, in teaching the basics of [[Hypothesis Testing|Statistical Hypothesis Testing]] it is sometimes viewed in a different context, which is why this tiddler exists.
+However, in teaching the basics of [[Hypothesis Testing|Statistical Hypothesis Testing]] it is sometimes viewed in a slightly modified context, which is why this tiddler exists.
 
 >note that unfortunately some even call it "Z-score", which only adds to confusion
 
@@ -16,4 +17,24 @@ Recall that the [[Z-score|Standard Score]] looks like this:
 
 <center>{{Standard Score!!.prs.tex_formula}}.</center>
 
-The idea is...
+The idea is to use it to [[Normalize|Normalization]] not the [[Raw Score]], but the [[Sample Mean]]:
+
+<center>{{!!.prs.tex_formula}},</center>
+
+where:
+
+* $$\bar{X}$$ is the [[Sample Mean]]
+* $$\sigma/\sqrt{n}$$ is the [[Standard Error of the Mean]]
+
+Now this expression //can// be used in [[Statistical Tests|Statistical Hypothesis Testing]] if one substitutes $$\mu$$ for some hypothesized constant $$\mu_0$$, but only if two conditions are satisfied:
+
+* $$n$$ should be at least 30 or else the [[CLT|Central Limit Theorem]] won't work
+* The [[Population Variance|Variance]] $$\sigma$$ must be known
+** This is very often __not__ the case. There //are// cases where $$\sigma$$ is known - e.g. when the task is to examine the performance of some instrument for which the measurement error is known from the specification - but in the vast majority of situations $$\sigma$$ is is not determined at all
+** A natural and intuitive way to deal with this is to try and stick [[Sample Variance]] into the formula instead of the true $$\sigma$$, but...
+
+The problem is: the [[Z-statistic]] is supposed to have [[Standard Normal Distribution]], and if any of these two conditions is not met, this will not be the case. Using the [[Sample Variance]] will also lead to this.
+
+To get around these two issues, the [[T-statistic]] was invented. The idea behind it is as follows: if the [[Distribution|Probability Distribution]] of the "modified" [[Z-statistic]] is in fact not [[Standard Normal|Standard Normal Distribution]], then what is it? And the answer turns out to be - [[Student's t|Student's t-distribution]].
+
+[[Here is how to decide which of the two statistics to use|T-statistic VS Z-statistic: when to use which]], but in fact one can just mindlessly always use the [[T-statistic]] and forget about the [[Z-statistic]] altogether, because [[T-statistic]] just takes care of everything :) Which is //the// reason why there is so much terminologic (and notational) confusion around [[Z-statistic]] - it is just not really needed in practise. It is useful only while learning the subject.

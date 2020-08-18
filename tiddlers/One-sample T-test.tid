@@ -1,0 +1,9 @@
+.prs.tex_formula: $$\displaystyle t = \frac {\bar{X} - \mu_0}{S/\sqrt{n}}$$
+created: 20200818174449853
+modified: 20200818191452449
+tags: Statistics Stub
+title: One-sample T-test
+tmap.id: a8871058-899b-4378-975f-fc5df7f254b7
+type: text/vnd.tiddlywiki
+
+{{!!.prs.tex_formula}}

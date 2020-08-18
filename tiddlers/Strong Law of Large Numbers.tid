@@ -1,7 +1,7 @@
 .prs.tex_formula: $$ \displaystyle \bar{X}_n := \frac 1 n \sum_{i=1}^n X_i \xrightarrow[n \rarr \infty]{\text{a.s.}} \mu
 created: 20200818133338474
-modified: 20200818133430048
-tags: [[Probability Theory]] Statistics
+modified: 20200818142055528
+tags: [[Probability Theory]] Statistics [[MIT 18.650 Statistics for Applications]]
 title: Strong Law of Large Numbers
 tmap.id: f47d2409-35d6-49fa-87b0-6836d334d526
 type: text/vnd.tiddlywiki
