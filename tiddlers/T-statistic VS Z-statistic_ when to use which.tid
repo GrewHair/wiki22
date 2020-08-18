@@ -1,0 +1,33 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200818092225188
+modified: 20200818103116590
+tags: Statistics
+title: T-statistic VS Z-statistic: when to use which
+tmap.id: 45d8125f-e972-4d0f-b1d8-5967d4485a4b
+type: text/vnd.tiddlywiki
+
+[[plantuml tooltip="The Real Hunger Games™?" [
+@startuml
+
+skinparam monochrome reverse
+
+start
+
+if (\nDo you know the\npopulation standard\ndeviation, σ?\n) then (  yes  )
+if (\nIs the\nsample size\nabove 30?\n) then (yes )
+  :Use the Z-statistic;
+	stop
+  else ( no)
+  :Use the T-statistic;
+	stop
+endif
+else (  no  )
+  :Use the T-statistic;
+stop
+@enduml
+]]]
+
+https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/t-score-vs-z-score/

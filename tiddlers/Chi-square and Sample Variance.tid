@@ -1,0 +1,42 @@
+.hsk.transcludes: [[Unbiased Sample Variance]]
+.prs.tex_formula: $$\displaystyle \frac {(n-1)S^2}{\sigma^2} \sim \chi^2_{n-1}$$
+created: 20200816181106346
+modified: 20200817043933770
+tags: Statistics [[Машинное обучение и анализ данных (Яndex, МФТИ)]]
+title: Chi-square and Sample Variance
+tmap.id: 146c19c1-ae92-4d65-9942-7bd1d0c05f3e
+type: text/vnd.tiddlywiki
+
+Consider we knew the [[Population Mean|Expectation]] $$\mu$$ and tried to estimate the [[Variance]]. 
+
+* Because by assumption we know the true [[Mean|Expectation]], we will use the [[Biased Sample Variance]] formula:
+*>$$\displaystyle S_0^2 = \frac 1 n \sum_{i=1}^n(X_i - \mu)^2.$$
+
+*Let's divide both sides by $$\sigma^2$$:
+*>$$\displaystyle S_0^2/\sigma^2 = \frac 1 n \sum_{i=1}^n \left( \frac{X_i - \mu} \sigma \right)^2$$
+
+* Notice that what we really have on the right is the sum of squares of [[Standard Normal|Standard Normal Distribution]] [[Random Variables|Random Variable]] (times $$\displaystyle\frac 1 n$$):
+*>$$\displaystyle S_0^2/\sigma^2 = \frac 1 n \sum_{i=1}^n Z_i^2, \quad Z_i = \frac {X_i - \mu} \sigma$$
+
+* Out of this, we get:
+*>$$\displaystyle \frac {nS_0^2} {\sigma^2} = \sum_{i=1}^n Z_i^2 \;\sim\; \chi^2_n$$
+*>{{!!.prs.tex_formula}}
+
+<br>
+
+Now let's repeat these steps for the case when we don't know the true $$\mu$$, i.e. we should estimate it from the [[Sample]]:
+
+* Because of this circumstance, we'll use the [[Unbiased Sample Variance]] instead:
+*>{{Unbiased Sample Variance!!.prs.tex_formula}}
+
+* ...
+*>$$\displaystyle S^2/\sigma^2 = \frac 1 {n-1} \sum_{i=1}^n \left( \frac {X_i - \bar{X}} \sigma\right)^2$$
+
+* Let's substitute the expression under summation for $$Z_i^*$$
+*>$$\displaystyle S^2/\sigma^2 = \frac 1 {n-1} \sum_{i=1}^n (Z_i^*)^2, \quad Z_i^* = \frac {X_i - \bar{X}} \sigma$$
+
+* $$Z_i^*$$ is //not really// [[Standard Normal|Standard Normal Distribution]]: using $$\bar{X}$$ instead of $$\mu$$ makes the sum of squares smaller, __but__ by [[Cochran's Theorem]], it makes it smaller in just such a way that $$\displaystyle \sum_{i=1}^n\left(Z_i^*\right)^2 \sim \chi^2_{n-1}$$. So finally we have:
+*>{{!!.prs.tex_formula}}.
+
+
+https://stats.stackexchange.com/questions/121662/why-is-the-sampling-distribution-of-variance-a-chi-squared-distribution

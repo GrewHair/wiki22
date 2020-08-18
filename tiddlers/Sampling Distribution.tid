@@ -1,0 +1,19 @@
+created: 20200817071210283
+modified: 20200817074849216
+tags: Statistics
+title: Sampling Distribution
+tmap.id: 20400f88-5bf0-40e9-b9ec-0ba11e8164e8
+type: text/vnd.tiddlywiki
+
+The [[Sampling Distribution]] of a [[Statistic]] is the [[Distribution|Probability Distribution]] of that [[Statistic]], considered as a [[Random Variable]], when derived from a random [[Sample|Sample (Statistics)]] of size $$n$$.
+
+It may be considered as the [[Distribution|Probability Distribution]] of the [[Statistic]] for //all possible samples from the same [[Population|Population (Statistics)]]// of a given sample size.
+
+The [[Sampling Distribution]] depends on:
+
+* The underlying [[Distribution|Probability Distribution]] of the [[Population|Population (Statistics)]]
+* The [[Statistic]] being considered
+* The [[Sampling]] procedure employed
+* The sample size used
+
+https://en.wikipedia.org/wiki/Sampling_distribution

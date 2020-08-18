@@ -1,0 +1,17 @@
+created: 20200815214036470
+modified: 20200817154512398
+tags: Statistics
+title: T-statistic
+tmap.id: cbda9e09-1f35-4952-9301-8597e3e5049d
+type: text/vnd.tiddlywiki
+
+Let $$\hat{\beta}$$ be an [[Estimator]] of [[Parameter|Statistical Parameter]] $$\beta$$ in some [[Statistical Model]].
+
+Then a [[T-statistic]] for this [[Parameter|Statistical Parameter]] is any quantity of the form
+
+$$\displaystyle t_\beta = \frac {\hat{\beta} - \beta_0}{s.e.(\hat{\beta})}$$,
+
+where:
+
+* $$\beta_0$$ is a non-random, known constant which may or may not match the actual unknown [[Parameter|Statistical Parameter]] value $$\beta$$
+* $$s.e.(\hat{\beta})$$ is the [[Standard Error]] of $$\hat{\beta}$$.

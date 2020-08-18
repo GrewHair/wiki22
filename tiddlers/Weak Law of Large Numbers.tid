@@ -1,0 +1,13 @@
+.prs.tex_formula: $$ \displaystyle \bar{X}_n := \frac 1 n \sum_{i=1}^n X_i \xrightarrow[n \rarr \infty]{\mathbb P} \mu
+created: 20200818133009940
+modified: 20200818133333258
+tags: [[Probability Theory]] Statistics
+title: Weak Law of Large Numbers
+tmap.id: 2dfe33a7-b209-46ba-9311-73121eea9eb5
+type: text/vnd.tiddlywiki
+
+Let $$X_1, X_2, \ldots, X_n$$ be [[i.i.d.|Independent and Identically Distributed]] [[r.v.|Random Variable]]'s with $$\mu = \mathbb E[X]$$ and $$\sigma^2 = \mathbb V[X]$$.
+
+Then:
+
+<center>{{!!.prs.tex_formula}}.</center>

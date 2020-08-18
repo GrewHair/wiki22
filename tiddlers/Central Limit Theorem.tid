@@ -1,0 +1,22 @@
+.prs.tex_formula: $$ \displaystyle \sqrt{n}(\bar{X}_n - \mu) \xrightarrow[n \rarr \infty]{(d)} \mathcal N(0,\sigma^2)$$
+created: 20200818131926914
+modified: 20200818132923584
+tags: [[Probability Theory]] Statistics
+title: Central Limit Theorem
+tmap.id: 1b5d6ebf-7c2b-480d-b9de-7876a78abcb7
+type: text/vnd.tiddlywiki
+
+Let $$X_1, X_2, \ldots, X_n$$ be [[i.i.d.|Independent and Identically Distributed]] [[r.v.|Random Variable]]'s with $$\mu = \mathbb E[X]$$ and $$\sigma^2 = \mathbb V[X]$$.
+
+Then:
+
+<center>{{!!.prs.tex_formula}},</center>
+
+or equivalently:
+
+$$
+\displaystyle
+\sqrt{n} \frac {\bar{X}_n - \mu} \sigma
+\xrightarrow[n \rarr \infty]{(d)}
+\mathcal N(0,1).
+$$

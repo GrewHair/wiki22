@@ -1,0 +1,19 @@
+.prs.tex_formula: $$\displaystyle Z = \frac {X -\mu} \sigma$$
+created: 20200817123901290
+modified: 20200818102524821
+tags: Statistics
+title: Standard Score
+tmap.id: cc3e684d-20cd-485a-b2d2-7ab3b7b5727d
+type: text/vnd.tiddlywiki
+
+''AKA Z-Score''
+
+The [[Standard Score]] is the number of [[Standard Deviations|Standard Deviation]] by which the value of a [[Raw Score]] is above or below the [[Mean|Expectation]].
+
+The process of converting a [[Raw Score]] into a [[Standard Score]] is called ''Standartizing'' or [[Normalizing|Normalization]], although generally in [[Statistics]] [[Normalization]] is a broader term that may refer to a range of techniques.
+
+The [[Distribution|Probability Distribution]] of [[Standard Score]] is [[Standard Normal|Standard Normal Distribution]].
+
+The [[Standard Score]] is defined as:
+
+<center>{{!!.prs.tex_formula}}.</center>

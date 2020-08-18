@@ -1,0 +1,19 @@
+.hsk.transcludes: [[Standard Score]]
+created: 20200818083315512
+modified: 20200818124032685
+tags: Statistics
+title: Z-statistic
+tmap.id: 10742ba5-c73b-4a9d-ad9c-55b14544bfba
+type: text/vnd.tiddlywiki
+
+[[Z-statistic]] is often regarded simply as a synonym of the [[Z-score|Standard Score]].
+
+However, in teaching the basics of [[Hypothesis Testing|Statistical Hypothesis Testing]] it is sometimes viewed in a different context, which is why this tiddler exists.
+
+>note that unfortunately some even call it "Z-score", which only adds to confusion
+
+Recall that the [[Z-score|Standard Score]] looks like this:
+
+<center>{{Standard Score!!.prs.tex_formula}}.</center>
+
+The idea is...
