@@ -1,0 +1,11 @@
+.prs.tex_formula: $$\displaystyle \bar{X} \plusmn z_{1 - \frac \alpha 2} \frac \sigma {\sqrt{n}}
+created: 20200819060707625
+modified: 20200819061640711
+tags: Statistics [[Машинное обучение и анализ данных (Яndex, МФТИ)]]
+title: Z-interval
+tmap.id: d94b84ba-1811-418d-8476-67b525c2ca06
+type: text/vnd.tiddlywiki
+
+The [[Z-interval]] for the [[Mean|Expectation]] employs [[Quantiles|Quantile]] of the [[Standard Normal Distribution]] and the true [[Variance]] $$\sigma$$, and thus it basically suffers from the same problems the [[Z-statistic]] suffers from, so in most cases it should be abandoned in favour of the [[T-interval]].
+
+<center>{{!!.prs.tex_formula}}.</center>

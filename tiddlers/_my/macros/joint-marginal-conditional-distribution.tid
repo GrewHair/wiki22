@@ -1,0 +1,80 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200819150216796
+modified: 20200820064830602
+tags: $:/tags/Macro
+title: _my/macros/joint-marginal-conditional-distribution
+tmap.id: 9fb22c7e-f47a-4261-b966-aaec35c692b8
+type: text/vnd.tiddlywiki
+
+\define joint-marginal-conditional-distribution(marginal-time marginal-perc conditional-time conditional-perc)
+<style>
+.marginal-time, .marginal-perc, .conditional-time, .conditional-perc {background:green;}
+</style>
+<table>
+<tr>
+<th colspan="2" rowspan="2"></th>
+<th colspan="5">Time Studied (minutes)</th>
+</tr>
+<tr>
+<th>0-20</th>
+<th>21-40</th>
+<th>41-60</th>
+<th>>60</th>
+<th>Total</th>
+</tr>
+<tr>
+<th rowspan="6" width=3><div style="transform:rotate(-90deg)">% Correct</div></th>
+<th>80-100</th>
+<td>0</td>
+<td>4</td>
+<td class="$conditional-perc$">16</td>
+<td>20</td>
+<td class="$marginal-perc$"><b>40</b></td>
+</tr>
+<tr>
+<th>60-79</th>
+<td>0</td> <td>20</td> <td class="$conditional-perc$">30</td> <td>10</td>
+<td class="$marginal-perc$"><b>60</b></td>
+</tr>
+<tr>
+<th>40-59</th>
+<td class="$conditional-time$">2</td>
+<td class="$conditional-time$">4</td>
+<td class="$conditional-perc$ $conditional-time$">32</td>
+<td class="$conditional-time$">32</td>
+<td class="$marginal-perc$"><b>70</b></td>
+</tr>
+<tr>
+<th>20-39</th>
+<td>10</td>
+<td>2</td>
+<td class="$conditional-perc$">8</td>
+<td>0</td>
+<td class="$marginal-perc$"><b>20</b></td>
+</tr>
+<tr>
+<th>0-19</th>
+<td>2</td>
+<td>0</td>
+<td class="$conditional-perc$">0</td>
+<td>8</td>
+<td class="$marginal-perc$"><b>10</b></td>
+</tr>
+<tr>
+<th>Total</th>
+<td class="$marginal-time$"><b>14</b></td>
+<td class="$marginal-time$"><b>30</b></td>
+<td class="$marginal-time$"><b>86</b></td>
+<td class="$marginal-time$"><b>70</b></td>
+<td><b>200</b></td>
+</tr>
+</table>
+\end
+
+<<joint-marginal-conditional-distribution 'marginal-time' '' '' ''>>
+<<joint-marginal-conditional-distribution '' 'marginal-perc' '' ''>>
+<<joint-marginal-conditional-distribution '' '' 'conditional-time' ''>>
+<<joint-marginal-conditional-distribution '' '' '' conditional-perc'>>

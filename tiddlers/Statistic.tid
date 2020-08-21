@@ -3,10 +3,12 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200228193924256
-modified: 20200325163913737
+modified: 20200821133622847
 tags: Statistics
 title: Statistic
 tmap.id: e4ba09f9-9540-4f55-be9e-505fe9dfdcce
 type: text/vnd.tiddlywiki
 
 A [[Statistic]] $$\operatorname{T(y)}$$ is any quantity that can be can be calculated purely from a sample (independent of <<tex \theta "Statistical Parameter">>). It is sometimes said of as //"a function of the data"// and //"doesn't depend on the [[truth|Ground Truth]]//.
+
+Note that because [[Statistics|Statistic]] are [[Functions|Function]] of [[Random Variables|Random Variable]], they are necessarily [[Random Variables|Random Variable]] themselves!

@@ -1,0 +1,18 @@
+created: 20200820085755312
+modified: 20200820105322273
+tags: Statistics [[Khan Academy AP/College Statistics]] Stub
+title: Stem-and-leaf Display
+tmap.id: 0ee7a7dc-af13-4da7-90ab-301735ec8c67
+type: text/vnd.tiddlywiki
+
+''Example:''
+
+$${\displaystyle {\begin{array}{r|l}{\text{Stem}}&{\text{Leaf}}\\\hline 4&4~6~7~9\\5&\\6&3~4~6~8~8\\7&2~2~5~6\\8&1~4~8\\9&\\10&6\end{array}}}$$
+
+represents the dataset:
+
+```json
+[44, 46, 47, 49, 63, 64, 66, 68, 68, 72, 72, 75, 76, 81, 84, 88, 106]
+```
+
+https://en.wikipedia.org/wiki/Stem-and-leaf_display

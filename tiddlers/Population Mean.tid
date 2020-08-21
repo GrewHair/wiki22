@@ -1,0 +1,17 @@
+.prs.tex_formula: $$\displaystyle \frac 1 N \sum_{i=1}^N X_i$$
+created: 20200821063605585
+modified: 20200821101431840
+tags: Statistics
+title: Population Mean
+tmap.id: 1476538f-8ff0-47cb-a89c-aeb4a71c40a6
+type: text/vnd.tiddlywiki
+
+The [[Population Mean]] is simply an [[Arithmetic Mean]] of the whole [[Population|Population (Statistics)]]:
+
+<center>{{!!.prs.tex_formula}}.</center>
+
+It is often denoted by $$\mu$$ and equated to the notion of [[Expectation]], although technically the two are not the same, as the [[Expectation]] is a property of a [[Distribution|Probability Distribution]] - and any [[Distribution|Probability Distribution]] merely [[models|Statistical Model]] the [[Population|Population (Statistics)]].
+
+More concretely, if one [[samples with replacement|Sampling With Replacement]] from the [[Population|Population (Statistics)]], infinitely many times, the [[Mean|Arithmetic Mean]] of these infinitely many draws is defined as their [[Expected Value|Expectation]]. It can be shown though that this [[Expected Value|Expectation]] is in fact exactly //numerically// equal to the [[Population Mean]].
+
+https://math.stackexchange.com/questions/1082691/population-mean-and-expected-value-%C2%B5

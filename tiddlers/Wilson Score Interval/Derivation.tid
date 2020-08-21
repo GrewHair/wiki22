@@ -1,0 +1,45 @@
+.hsk.transcludes: [[Wilson Score Interval]]
+created: 20200819083820688
+modified: 20200819091055379
+tags: Statistics [[I Don't Quite Understand This]]
+title: Wilson Score Interval/Derivation
+tmap.id: 8ee02340-5f39-43ba-a318-410cb9c09b2b
+type: text/vnd.tiddlywiki
+
+Start with the normal approximation to the [[binomial|Binomial Distribution]]:
+
+$$
+\displaystyle
+z \approx \frac {(p - \hat{p})}{\sigma_n},
+$$
+
+where:
+
+$$
+\displaystyle
+\sigma_n = \sqrt{\frac{p(1-p)}n}.
+$$
+
+Combining the two and squaring out the radical gives a quadratic equation in $$p$$:
+
+$$
+\displaystyle
+(\hat{p}-p)^2 = z^2 \cdot \frac{p(1-p)}n.
+$$
+
+Transforming the relation into a standard-form quadratic equation for $$p$$, treating $$\bar{p}$$ and $$n$$ as known values from the [[Sample]], and using the value of $$z$$ that corresponds to the desired [[Confidence|Confidence Level]] for the estimate of $$p$$ gives this:
+
+$$
+\displaystyle
+\left(1+\frac{z^2}n\right)p^2 +
+\left(-2\hat{p}-\frac{z^2}n\right)p +
+\left( \hat{p}^2 \right) = 0,
+$$
+
+where all of the values in parentheses are known quantities.
+
+The solution for $$p$$ estimates the upper and lower limits of the [[Confidence Interval|Binomial Proportion Confidence Interval]] for $$p$$. Hense the probability of success is estimated by
+
+<center>{{Wilson Score Interval!!.prs.tex_formula}},</center>
+
+where $$z \equiv z_{1-\frac \alpha 2}.

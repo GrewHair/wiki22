@@ -1,0 +1,13 @@
+created: 20200820141957757
+modified: 20200820142648874
+tags: Mathematics Calculus Stub
+title: Indeterminate Form
+tmap.id: 3dcd5964-b3a4-44b2-bc73-0f7b9856cfb4
+type: text/vnd.tiddlywiki
+
+$$
+\displaystyle
+\frac00, \;\frac\infty\infty, \;0\times\infty, \;\infty-\infty, \;0^0, \;1^\infty, \;\infty^0
+$$
+
+Not every [[Undefined]] algebraic expression corresponds to an [[Indeterminate Form]]. E.g. the expression $$1/0$$ is [[Undefined]] as a [[Real Number|Real Numbers]] but does not correspond to an [[Indeterminate Form]], because any [[Limit]] that gives rise to this form will [[Diverge to Infinity|Divergent Series]].

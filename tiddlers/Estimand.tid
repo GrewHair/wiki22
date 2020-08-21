@@ -1,0 +1,10 @@
+created: 20200821133837076
+modified: 20200821134208689
+tags: Statistics
+title: Estimand
+tmap.id: 8039bf37-334b-4d55-b916-4b53936e8f48
+type: text/vnd.tiddlywiki
+
+In [[Statistics]], an [[Estimand]] is a [[Parameter|Statistical Parameter]] which is to be estimated.
+
+This term is used mostly to distinguish the target of [[Inference|Statistical Inference]] from the [[Function]] that obtains this [[Parameter|Statistical Parameter]] - i.e. the [[Estimator]].

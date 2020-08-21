@@ -1,0 +1,16 @@
+.prs.tex_formula: $$ \displaystyle \mathbb E[X] = \sum_{i=1}^k x_i p_i$$
+created: 20200820113039865
+modified: 20200820115723542
+tags: [[Probability Theory]]
+title: Expectation (Finite Case)
+tmap.id: 3e9bf940-e7ee-4e10-bd9e-23363e296dee
+type: text/vnd.tiddlywiki
+
+Let $$X$$ be a [[Random Variable]] with a [[Finite|Finite Set]] number of finite outcomes $$x_1, x_2, \ldots, x_k$$ occuring with [[Probabilities|Probability Measure]] $$p_1, p_2, \ldots, p_k$$ respectively. The [[Expectation]] of $$X$$ is defined as
+
+<center>{{!!.prs.tex_formula}}.</center>
+
+Note that:
+
+* Since $$\displaystyle \sum_{i=1}^k p_i = 1$$, the [[Expectation|Expectation (Finite Case)]] is the [[Weighted Sum]] of the $$x_i$$ values with the $$p_i$$ values being the weights.
+* If <$link to="Discrete Uniform Distribution">$$p_1 = p_2 = \ldots = p_k$$</$link>, then the [[Weighted Average]] turns into the simple [[Average]].

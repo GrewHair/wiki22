@@ -1,0 +1,31 @@
+created: 20200821073648055
+modified: 20200821141328994
+tags: Statistics [[Khan Academy AP/College Statistics]]
+title: Central Tendency
+tmap.id: 93175bab-ae04-4f5f-bcf6-7b654f59eacd
+type: text/vnd.tiddlywiki
+
+''AKA Center, Location, Average''
+
+In [[Statistics]], a [[Central Tendency]] is a central or typical value for a [[Probability Distribution]].
+
+For one-dimensional data, there these are the common [[Measures of Central Tendency|Central Tendency]]:
+
+* [[Arithmetic Mean]] - sometimes (when appropriate) also equated in meaning to [[Sample Mean]], [[Population Mean]], and/or [[Expected Value|Expectation]]
+* [[Median]]
+* [[Mode]]
+* [[Geometric Mean]]
+* [[Harmonic Mean]]
+* [[Weighted Mean]]
+* [[Truncated Mean]]
+* [[Interquartile Mean]]
+* [[Midrange]]
+* [[Midhinge]]
+* [[Trimean]]
+* [[Winsorized Mean]]
+* [[Geometric Median]]
+* [[Quadratic Mean]]
+* [[Simplicial Depth]]
+* [[Tukey Median]]
+
+Many criticize the notion of [[Central Tendency]] for being vague, lacking rigor and confusing (unlike e.g. a pretty rigorous notion of the [[Expected Value|Expectation]], yet it is quite ubiquitous.

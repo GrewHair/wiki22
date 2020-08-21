@@ -3,15 +3,15 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20191227012110547
-modified: 20200325163851147
+modified: 20200821073637280
 tags: [[How to Win a Data Science Competition]] [[Machine Learning]]
 title: Missing Value Imputation
 tmap.id: 849c41bf-bbb5-464a-bd0a-93e00644f338
 type: text/vnd.tiddlywiki
 
 * Replace with a value which is obviously outside of the range (pro: it gives [[Trees|Tree-based Models]] possibility to place the missing value into a separate category; con: [[other models'|Non-tree-based Models]] performance can suffer)
-* Replace with some [[Central Tendency Statistic]] (like [[Mean]], [[Median]], etc.) (pros and cons: reverse)
+* Replace with some [[Measure of Central Tendency|Central Tendency]] (like [[Mean]], [[Median]], etc.) (pros and cons: reverse)
 * Try to [[reconstruct|Missing Value Reconstruction]]
 
 
-The conflict of the first and second options can be resolved by doing __both__: replacing [[Missing Values]] with a [[Central Tendency Statistic]] __and__ generating a new 'isnull' feature for [[trees|Tree-based Models]]! ''__But__'' this will __double__ the number of columns in the dataset.
+The conflict of the first and second options can be resolved by doing __both__: replacing [[Missing Values]] with a [[Measure of Central Tendency|Central Tendency]] __and__ generating a new 'isnull' feature for [[trees|Tree-based Models]]! ''__But__'' this will __double__ the number of columns in the dataset.

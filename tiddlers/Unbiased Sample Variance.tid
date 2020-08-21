@@ -1,6 +1,6 @@
-.prs.tex_formula: $$ \displaystyle S^2 = \frac 1 {n-1} \sum^n_{i=1}(X_i - \bar{X})^2. $$
+.prs.tex_formula: $$ \displaystyle S^2_{n-1} = \frac 1 {n-1} \sum^n_{i=1}(X_i - \bar{X})^2. $$
 created: 20200815204118569
-modified: 20200816205137446
+modified: 20200821154317641
 tags: Statistics
 title: Unbiased Sample Variance
 tmap.id: 291f82d7-6421-4d6d-b128-095155987e06
@@ -12,5 +12,5 @@ It differs from [[Biased Sample Variance]] in that it incorporates the [[Bessel'
 
 $$
 \displaystyle
-S^2 = \left( \frac n {n-1} \right) S_n^2.
+S^2_{n-1} = \left( \frac n {n-1} \right) S_n^2.
 $$

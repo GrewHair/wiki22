@@ -1,0 +1,25 @@
+.prs.tex_formula: $$\displaystyle \mathbb E[X] = \sum_{i=1}^\infty x_i p_i$$
+created: 20200820115433728
+modified: 20200820145835796
+tags: [[Probability Theory]]
+title: Expectation (Countably Infinite Case)
+tmap.id: 2d7406c4-417a-4865-8f59-a5eed801f978
+type: text/vnd.tiddlywiki
+
+Let $$X$$ be a non-negative [[Random Variable]] with a [[Countable Set]] of values $$x_1, x_2, \ldots$$, occurring with [[Probabilities|Probability Measure]] $$p_1, p_2, \ldots$$ respectively. The [[Expectation]] of $$X$$ is defined as the [[Series]]:
+
+
+<center>{{!!.prs.tex_formula}}.</center>
+
+Note that:
+
+* Because $$x_ip_i \geq 0$$, the infinite sum is [[Well-defined]] and does not depend on the [[order|Absolute Convergence]] in which it is computed.
+* Unlike the [[Finite Case|Expectation (Finite Case)]], the [[Expectation]] here can be equal to infinity.
+
+There is a workaround to define the [[Expectation]] for a general (not necessarily non-negative) $$X$$:
+
+* set $$X^+(\omega) = \max(X(\omega), 0)$$
+* set $$X^-(\omega) = -\min(X(\omega), 0)$$
+* define $$\mathbb E[X] = \mathbb E[X^+] - \mathbb E[X^-]$$.
+
+However, in this case $$\mathbb E[X]$$ may turn out to be [[Ill-defined]], whenever $$\mathbb E[X^+] = \mathbb E[X^-] = \infty$$.

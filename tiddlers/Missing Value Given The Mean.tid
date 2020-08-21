@@ -1,0 +1,26 @@
+created: 20200821142416621
+modified: 20200821143230225
+tags: Statistics [[Khan Academy AP/College Statistics]]
+title: Missing Value Given The Mean
+tmap.id: ae928654-0c47-4080-beb1-0cddf7c29a99
+type: text/vnd.tiddlywiki
+
+Suppose you have a dataset with a missing value (maybe e.g. you had written it down on paper and suddenly spilt some ink on it). You don't remember what it was, but you also have the [[Mean|Arithmetic Mean]] of the dataset:
+
+```python
+[5, 2, None, 2, 4, 8]
+```
+
+mean: 4.
+
+The question is can you reconstruct the missing value?
+
+''Solution:''
+
+$$
+\displaystyle
+\begin{aligned}
+4 &= \frac {5+2+x+2+4+8}6 \\
+x &= 4\times6 - (5+2+2+4+8) = 3
+\end{aligned}
+$$

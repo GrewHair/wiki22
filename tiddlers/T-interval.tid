@@ -1,0 +1,11 @@
+.prs.tex_formula: $$\displaystyle \bar{X} \plusmn t_{1 - \frac \alpha 2} \frac S {\sqrt{n}}
+created: 20200819060755576
+modified: 20200819061628954
+tags: Statistics [[Машинное обучение и анализ данных (Яndex, МФТИ)]]
+title: T-interval
+tmap.id: 76977f30-6b15-4084-bc07-ba527fb1408c
+type: text/vnd.tiddlywiki
+
+The [[T-interval]] for the [[Mean|Expectation]] employs [[Quantiles|Quantile]] of the [[Student's t-distribution]] and the [[Sample Variance]], which can always be calculated from data, so it generally is the preferred [[Interval for the Mean|Confidence Intervals for the Mean]].
+
+<center>{{!!.prs.tex_formula}}.</center>

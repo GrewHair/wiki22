@@ -1,0 +1,28 @@
+created: 20200821134222391
+modified: 20200821135141254
+tags: Statistics
+title: Estimate
+tmap.id: ad66539f-7dfa-4f6f-ab61-2bf25078e008
+type: text/vnd.tiddlywiki
+
+In [[Statistics]], an [[Estimate]] of a [[Parameter|Statistical Parameter]] is a value for this [[Parameter|Statistical Parameter]], calculated from the [[Sample|Sample (Statistics)]] - i.e. an [[Estimate]] is the result of applying the [[Estimator]] to the observed [[Sample|Sample (Statistics)]].
+
+''Example:''
+
+$$
+\displaystyle
+\bar{X} = \frac 1 n \sum_{n=1}^n X_i
+$$
+
+is an [[Estimator]], while
+
+$$
+\displaystyle
+\bar{x} = \frac 1 n \sum_{n=1}^n x_i
+$$
+
+is an [[Estimate]].
+
+The uppercase here denotes [[Random Variables|Random Variable]], while the lowercase denotes their realizations in a concrete observed [[Sample]].
+
+https://stats.stackexchange.com/questions/7581/what-is-the-relation-between-estimator-and-estimate

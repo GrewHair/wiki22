@@ -1,0 +1,11 @@
+created: 20200819061823641
+modified: 20200819064431341
+tags: [[Машинное обучение и анализ данных (Яndex, МФТИ)]] Statistics
+title: Binomial Proportion Confidence Interval
+tmap.id: d3ca5cb5-3217-4657-9489-0738f31da8c1
+type: text/vnd.tiddlywiki
+
+* [[Normal Approximation Interval]]
+* [[Wilson Score Interval]]
+
+https://en.wikipedia.org/wiki/Binomial_proportion_confidence_interval

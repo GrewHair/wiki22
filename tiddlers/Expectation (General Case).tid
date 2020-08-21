@@ -1,0 +1,10 @@
+.prs.tex_formula: $$ \displaystyle \mathbb E[X] = \int_\Omega X(\omega)d\mathbb P(\omega)$$
+created: 20200820152808236
+modified: 20200820164506645
+title: Expectation (General Case)
+tmap.id: 0212ca44-493a-4217-a4f3-16eb3db8440b
+type: text/vnd.tiddlywiki
+
+If $$X$$ is a [[Random Variable]] defined on a [[Probability Space]] $$(\Omega, \Sigma, \operatorname P)$$, then the expected value of $$X$$, denoted by $$\mathbb E[X]$$, is defined as the [[Lebesgue Integral]]:
+
+<center>{{!!.prs.tex_formula}}.</center>

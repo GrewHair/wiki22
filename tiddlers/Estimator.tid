@@ -1,0 +1,10 @@
+created: 20200821104402911
+modified: 20200821135039609
+tags: Statistics
+title: Estimator
+tmap.id: f9a1764c-c538-4a1b-9aca-e83b961d4abe
+type: text/vnd.tiddlywiki
+
+An [[Estimator]] is a [[Statistic]] that is used to infer the value of an unknown [[Parameter|Statistical Parameter]] in a [[Statistical Model]].
+
+Not to be confused with the [[Estimate]] (although unfortunately in a lot of situations people use these terms interchangeably).

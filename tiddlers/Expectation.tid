@@ -1,0 +1,19 @@
+created: 20200820111904772
+modified: 20200820164515068
+tags: [[Probability Theory]]
+title: Expectation
+tmap.id: 2d89a8ac-b095-4ef2-83da-31ef0663ab53
+type: text/vnd.tiddlywiki
+
+''AKA Mathematical Expectation, Expected Value, Mean, Average, First Moment''
+
+[[Expectation]] is a generalization of the [[Weighted Average]].
+
+!!''Definition''
+
+* [[Finite Case|Expectation (Finite Case)]]
+* [[Countably Infinite Case|Expectation (Countably Infinite Case)]]
+* [[Absolutely Continuous Case|Expectation (Absolutely Continuous Case)]]
+* [[General Case|Expectation (General Case)]]
+
+https://en.wikipedia.org/wiki/Expected_value

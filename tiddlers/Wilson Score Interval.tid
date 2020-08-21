@@ -1,0 +1,13 @@
+.prs.tex_formula: $$\displaystyle \frac 1 {1+\frac{z^2}n} \left(\hat{p}+\frac{z^2}{2n}\right) \plusmn \frac z {1+\frac{z^2}n}\sqrt{\frac{\hat{p}(1-\hat{p})}n+\frac{z^2}{4n^2}}
+created: 20200819082841113
+modified: 20200819085310672
+tags: [[Машинное обучение и анализ данных (Яndex, МФТИ)]] Statistics
+title: Wilson Score Interval
+tmap.id: 93a7d4c1-0273-4575-bf79-bdc870844ad0
+type: text/vnd.tiddlywiki
+
+This method is widely used as it yeilds better [[Coverage Probability]] particularly in cases when $$p$$ is close to 0 or 1:
+
+<center>{{!!.prs.tex_formula}}</center>
+
+[[Derivation|Wilson Score Interval/Derivation]]

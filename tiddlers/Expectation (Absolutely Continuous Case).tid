@@ -1,0 +1,12 @@
+.prs.tex_formula: $$\displaystyle\mathbb E[X] = \int_{\R} x f(x)dx$$
+created: 20200820145929036
+modified: 20200820151625601
+title: Expectation (Absolutely Continuous Case)
+tmap.id: b4017377-faf0-4355-87c7-2ac1ae4418ff
+type: text/vnd.tiddlywiki
+
+If $$X$$ is a [[Random Variable]] with a [[PDF|Probability Density Function]] of $$f(x)$$, then the [[Expectation]] is defined as the [[Lebesgue Integral]]:
+
+<center>{{!!.prs.tex_formula}},</center>
+
+where the values on both sides are [[Well-defined]] or [[Not Well-defined|Ill-defined]] simultaneously (e.g. while [[Cauchy Distribution]] //has// a [[PDF|Probability Density Function]], its [[Expectation]] is [[Not Defined|Undefined]], because it is [[Heavy-tailed|Heavy-tailed Distribution]]).

@@ -1,0 +1,24 @@
+created: 20200820131538935
+modified: 20200820140746032
+tags: Mathematics
+title: Well-defined
+tmap.id: e48f6538-a500-41cc-8414-290e4cd22bc3
+type: text/vnd.tiddlywiki
+
+''AKA Unambiguous''
+
+In [[Mathematics]], an expression is called [[Well-defined]] if its definition assigns it a unique interpretation or value. Otherwise the expression is said to be [[Ill-defined]].
+
+''Example:''
+
+Let $$A_0$$, $$A_1$$ be [[Sets|Set]], let $$A = A_0 \cup A_1$$ and "define" a [[Function]] $$f: A \to \{0,1\}$$ as follows:
+
+$$
+f(a) =
+\begin{cases}
+0 &\text{if } a \in A_0 \\
+1 &\text{if } a \in A_1 \\
+\end{cases}.
+$$
+
+Then $$f$$ is [[Well-defined]] only if $$A_0 \cap A_1 = \empty.$$

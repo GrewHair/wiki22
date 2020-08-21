@@ -1,0 +1,17 @@
+.hsk.macrocall: [[_my/macros/appear/res]]
+.res.youtube: <iframe width="560" height="315" src="https://www.youtube.com/embed/rb-T5ppxJk0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+created: 20200821150230802
+modified: 20200821151324925
+tags: [[Khan Academy AP/College Statistics]] Statistics
+title: Estimating Mean and Median in Data Displays
+tmap.id: f86fc767-a9b8-4a8d-86de-0c11c73005f9
+type: text/vnd.tiddlywiki
+
+''In a nutshell:''
+
+* In a [[Left-Skewed Distribution]] the [[Mean|Arithmetic Mean]]/[[Expectation]] is to the left of the [[Median]]
+* In a [[Right-Skewed Distribution]] the [[Mean|Arithmetic Mean]]/[[Expectation]] is to the right of the [[Median]]
+* In a [[Symmetric Distribution]] the [[Mean|Arithmetic Mean]]/[[Expectation]] and the [[Median]] coincide
+* One can think of the [[Mean]] as a "center of mass" of a [[Distribution|Probability Distribution]], which sometimes can help to roughly pinpoint it just by visual inspection
+
+<<res youtube>>

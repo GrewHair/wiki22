@@ -1,0 +1,19 @@
+.prs.tex_formula: $$\displaystyle \hat{p} \plusmn z_{1-\frac \alpha 2}\sqrt{\frac{\hat{p}(1-\hat{p})} n}
+created: 20200819065218071
+modified: 20200819084819354
+tags: [[Машинное обучение и анализ данных (Яndex, МФТИ)]] Statistics
+title: Normal Approximation Interval
+tmap.id: e6fde647-a575-4c31-84f7-90915f05d95a
+type: text/vnd.tiddlywiki
+
+This [[interval|Binomial Proportion Confidence Interval]] is constructed simply by using the [[CLT|Central Limit Theorem]] [[(recall this)|Confidence Interval/Comment]]: 
+
+<center>{{!!.prs.tex_formula}},</center>
+
+where:
+
+* $$\hat{p}$$ is the [[Mean|Expectation]] of the [[Binomial Distribution]]
+* $$z_{1-\frac \alpha 2}$$ is the $$\displaystyle \left( 1 - \frac \alpha 2 \right)$$'s [[Quantile]] of the [[Standard Normal Distribution]]
+* $$\displaystyle \sqrt{\frac{\bar{p}(1-\bar{p})} n}$$ is an estimate of the [[Standard Error of the Mean]]
+
+Because this method is based on [[CLT|Central Limit Theorem]], it is unreliable when the [[Sample]] size is small or the success probability $$p$$ is close to 0 or 1.

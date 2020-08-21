@@ -1,0 +1,10 @@
+.hsk.macrocall: [[_my/macros/joint-marginal-conditional-distribution]]
+created: 20200820055832073
+modified: 20200820072548523
+tags: [[Probability Theory]] Statistics [[Khan Academy AP/College Statistics]] Stub
+title: Marginal Distribution
+tmap.id: 4fd4e16c-38a5-4b10-937b-3eb85897ae2b
+type: text/vnd.tiddlywiki
+
+<<joint-marginal-conditional-distribution marginal-time '' '' ''>>
+<<joint-marginal-conditional-distribution '' marginal-perc '' ''>>

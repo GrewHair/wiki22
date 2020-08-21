@@ -1,0 +1,12 @@
+created: 20200820131753820
+modified: 20200820132642493
+tags: Mathematics
+title: Ill-defined
+tmap.id: 1b74b744-6e49-4f4c-a0d9-dd065b017f6d
+type: text/vnd.tiddlywiki
+
+''AKA Not Well-defined, Ambiguous''
+
+If an expression is not [[Well-defined]], it is called [[Ill-defined]].
+
+An [[Ill-defined]] [[Function]] should not be confused with a function that is [[Undefined]]. For example, $$\displaystyle f(x) = \frac 1 x$$ is [[Well-defined]], but it is also [[Undefined]] at $$x=0$$ - this simply means that $$0$$ is not in its [[Domain|Domain of a Function]].

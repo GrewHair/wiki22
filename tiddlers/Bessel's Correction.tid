@@ -1,0 +1,17 @@
+.hsk.macrocall: [[_my/macros/appear/res]]
+.res.youtube: <iframe width="560" height="315" src="https://www.youtube.com/embed/KkaU2ur3Ymw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+created: 20200821181022873
+modified: 20200821182914661
+tags: Statistics Stub
+title: Bessel's Correction
+tmap.id: 2562cfbc-9305-4751-8989-3112d9591d54
+type: text/vnd.tiddlywiki
+
+''In a nutshell:''
+
+* Because the [[Sample|Sample (Statistics)]] has less observations then the [[Population|Population (Statistics)]], chances are the [[Range]] of the [[Sample]] will also be smaller
+* The [[Sample Mean]] will necessarily recide inside this [[Range]]
+* So the [[Unbiased Sample Variance]] will also be less then the [[Population Variance]]
+* That's why the [[Unbiased Sample Variance]] underestimates the [[Population Variance]]
+
+<<res youtube>>

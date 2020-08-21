@@ -1,0 +1,36 @@
+created: 20200821093314123
+modified: 20200821103454697
+tags: Statistics
+title: Dispersion
+tmap.id: d2c0b6a6-18ba-4c95-b794-8598b4e043b3
+type: text/vnd.tiddlywiki
+
+''AKA Variability, Scatter, Spread''
+
+In [[Statistics]], [[Dispersion]] is the extent to which a [[Distribution|Probability Distribution]] is stretched or squeezed.
+
+* [[Measures of Dispersion|Dispersion]] having the same units as the quantity being measured:
+*>These measures are frequently used as [[Estimators|Estimator]] of [[Scale Parameters|Scale Parameter]], in which capacity they are called ''estimates of scale''. From them, [[Robust Measures of Scale]] are those unaffected by a small number of [[Outliers|Outlier]].
+** [[Standard Deviation]]
+** [[Interquartile Range]]
+** [[Range]]
+** [[Gini Mean Absolute Difference]]
+** [[Median Absolute Deviation]]
+** [[Average Absolute Deviation]]
+** [[Distance Standard Deviation]]
+** [[Entropy]]
+
+
+* Dimensionless [[Measures of Dispersion|Dispersion]]:
+
+** [[Coefficient of Variation]]
+** [[Quartile Coefficient of Dispersion]]
+** [[Relative Mean Difference]]
+** [[Entropy]]
+
+* Other [[Measures of Dispersion|Dispersion]]:
+
+** [[Variance]]
+** [[Variance-to-mean Ratio]]
+
+https://en.wikipedia.org/wiki/Statistical_dispersion

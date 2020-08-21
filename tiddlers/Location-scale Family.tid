@@ -1,0 +1,20 @@
+created: 20200821101905393
+modified: 20200821102404439
+tags: Statistics [[Probability Theory]]
+title: Location-scale Family
+tmap.id: 44989b3d-8587-480a-bc66-3f08f95fd39f
+type: text/vnd.tiddlywiki
+
+A [[Location-scale Family]] is a family of [[Probability Distributions|Probability Distribution]] parametrized by a [[Location Parameter]] and a non-negative [[Scale Parameter]].
+
+''Examples:''
+
+* [[Normal Distribution]]
+* [[Elliptical Distribution]]
+* [[Cauchy distribution]]
+* [[Discrete Uniform Distribution]]
+* [[Continuous Uniform Distribution]]
+* [[Logistic Distribution]]
+* [[Laplace Distribution]]
+* [[Student's t-distribution]]
+* [[Generalized Extreme Value Distribution]]

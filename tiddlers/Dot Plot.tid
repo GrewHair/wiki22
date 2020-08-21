@@ -1,0 +1,11 @@
+.hsk.transcludes: [[_my/images/png/dot_plot]]
+created: 20200820081450938
+modified: 20200820081522944
+tags: Statistics [[Khan Academy AP/College Statistics]] Stub
+title: Dot Plot
+tmap.id: 45b4214d-1ed9-407f-ab08-1a074b911143
+type: text/vnd.tiddlywiki
+
+''Example:''
+
+{{_my/images/png/dot_plot}}

@@ -1,0 +1,40 @@
+created: 20200819112931898
+modified: 20200819163204949
+tags: 
+title: New Tiddler
+tmap.id: f2ca5e4d-e054-4724-a7b6-d10da401a8e3
+type: text/vnd.tiddlywiki
+
+<table style="text-align:center; vertical-align:middle">
+<thead>
+  <th class="my_background">
+    <div><span class="my_bottom">$$X_1$$</span>
+      <span class="my_top">$$X_2$$</span>
+      <div class="my_line"></div>
+    </div>
+  </th>
+	<th>$$1$$</th>
+	<th>$$0$$</th>
+	<th>$$\sum$$</th>
+</thead>
+<tbody>
+<tr>
+<th>$$1$$</th>
+<td>$$e$$</td>
+<td>$$f$$</td>
+<td>$$e+f$$</td>
+</tr>
+<tr>
+<th>$$0$$</th>
+<td>$$g$$</td>
+<td>$$h$$</td>
+<td>$$g+h$$</td>
+</tr>
+<tr>
+<th>$$\sum$$</th>
+<td>$$e+g$$</td>
+<td>$$f+h$$</td>
+<td>$$n$$</td>
+</tr>
+</tbody>
+</table>
