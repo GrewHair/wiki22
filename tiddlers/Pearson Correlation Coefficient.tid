@@ -1,0 +1,16 @@
+.prs.tex_formula: $$\displaystyle \rho_{X,Y} = \frac {\operatorname{Cov}(X,Y)}{\sigma_X\sigma_Y}$$
+created: 20200822124218442
+modified: 20200822161522152
+tags: Statistics
+title: Pearson Correlation Coefficient
+tmap.id: ae37c80d-d206-4ee5-b0f0-2c70fc275224
+type: text/vnd.tiddlywiki
+
+''AKA Pearson's r, Bivariate Correlation''
+
+<center>{{!!.prs.tex_formula}},</center>
+
+where:
+
+* $$\operatorname{Cov}$$ is the [[Covariance]]
+* $$\sigma_X, \sigma_Y$$ are the [[Standard Deviations|Standard Deviation]] of $$X$$ and $$Y$$

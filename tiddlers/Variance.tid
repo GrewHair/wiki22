@@ -1,0 +1,18 @@
+created: 20200822133245784
+modified: 20200822141601110
+tags: [[Probability Theory]] Statistics Stub
+title: Variance
+tmap.id: c28c49ac-7db1-492e-b378-2af118c9c411
+type: text/vnd.tiddlywiki
+
+The [[Variance]] of a [[Random Variable]] $$X$$ is the [[Expected Value|Expectation]] of the squared deviation from the [[Mean|Expectation]] of $$X$$, $$\mu=\mathbb E[X]$$:
+
+$$
+\operatorname{Var}(X) = \mathbb E[(X-\mu)^2].
+$$
+
+The [[Variance]] can also be thought of as the [[Covariance]] of a [[Random Variable]] with itself:
+
+$$
+\operatorname{Var}(X) = \operatorname{Cov}(X, X).
+$$

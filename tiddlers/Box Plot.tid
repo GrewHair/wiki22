@@ -1,0 +1,29 @@
+created: 20200821183519900
+modified: 20200822091042839
+tags: Statistics [[Khan Academy AP/College Statistics]]
+title: Box Plot
+tmap.id: 3d0881e6-f56a-4e72-90f8-41b03c129478
+type: text/vnd.tiddlywiki
+
+```
+                    
+                             +−−−−−+−+     
+               * |−−−−−−−−−−−|     | |−−−−−−−−−−−|
+                             +−−−−−+−+    
+                    
+ +−−−+−−−+−−−+−−−+−−−+−−−+−−−+−−−+−−−+−−−+−−−+−−−+   number line
+ 0   1   2   3   4   5   6   7   8   9   10  11  12
+```
+
+* Lower (first) [[Quartile]]: $$\quad Q_1 = 7$$
+* [[Median]] (second [[Quartile]]): $$\quad Q_2 = 8.5$$
+* Upper (third) [[Quartile]]: $$\quad Q_3 = 9$$
+* [[Interquartile Range]]: $$\quad \operatorname{IQR} = Q_3 - Q_1 = 2$$
+* Lower whisker: $$\quad Q_1 - 1.5\times\operatorname{IQR} = 7 - 3 = 4$$ (if there is no data point at 4, them the lowest point greater than 4.)
+* Upper whisker: $$\quad Q_3 + 1.5\times\operatorname{IQR} = 9 + 3 = 12$$ (if there is no data point at 12, them the highest point less than 12.)
+
+Anything beyound the whiskers is usually considered an [[Outlier]].Thus, the point at 3.5 is an [[Outlier]].
+
+https://en.wikipedia.org/wiki/Box_plot
+
+https://en.wikipedia.org/wiki/Interquartile_range

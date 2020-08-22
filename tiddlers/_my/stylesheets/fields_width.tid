@@ -3,10 +3,10 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20191122143549578
-modified: 20200821182150991
+modified: 20200822102721720
 tags: $:/tags/Stylesheet
 title: _my/stylesheets/fields_width
 tmap.id: 692715ad-71fd-4d13-bf6d-6df00f9f67f9
 type: text/css
 
-.tc-edit-field-value {width: auto}
+.tc-edit-field-value {width: 10000px}

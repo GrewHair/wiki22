@@ -1,0 +1,14 @@
+created: 20200822095720964
+modified: 20200822100347875
+tags: Statistics [[Khan Academy AP/College Statistics]] Questionable
+title: Density Curve
+tmap.id: 7ce43ee6-0317-4436-92e8-19f43b2af217
+type: text/vnd.tiddlywiki
+
+[[Density Curve]] is a term sometimes used in [[Statistics]] to describe the graph obtained from data (???) that "shows probability".
+
+It is a "limiting" case of a [[Histogram|Histograms]] as its bin size gets infinitesimally small (or at least as small as the data allows). On the other hand, it's a counterpart of the notion of [[PDF|Probability Density Function]] from [[Probability Theory]].
+
+Unlike [[Histograms]], [[Density Curves|Density Curve]] are smooth.
+
+https://www.statisticshowto.com/density-curve-examples/

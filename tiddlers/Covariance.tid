@@ -1,0 +1,22 @@
+.prs.tex_formula: $$\operatorname{Cov}(X,Y) = \mathbb E\big[(X - \mathbb E[X])(Y - \mathbb E[Y])\big]$$
+created: 20200822143038056
+modified: 20200822151632145
+tags: Statistics [[Probability Theory]] Stub
+title: Covariance
+tmap.id: 44662d24-e0af-4559-8460-bc6c78de0e27
+type: text/vnd.tiddlywiki
+
+For two [[Jointly Distributed|Joint Probability Distribution]] [[Real|Real Numbers]]-valued [[Random Variables|Random Variable]] $$X$$ and $$Y$$ with finite [[Second Moments|Moment]], the [[Covariance]] is defined as:
+
+<center>{{!!.prs.tex_formula}}.</center>
+
+It can be simplified using the [[Linearity Property os Expectations]]:
+
+$$
+\begin{aligned}
+\operatorname{Cov}(X, Y)
+&= \mathbb E\big[(X - \mathbb E[X])(Y - \mathbb E[Y])\big] \\
+&= \mathbb E\big[XY - X\mathbb E[Y] - \mathbb E[X]Y + \mathbb E[X]\mathbb E[Y]\big] \\
+&= \mathbb E[XY] - \mathbb E[X]\mathbb E[Y] - \mathbb E[X] \mathbb E[Y] + \mathbb E[X] \mathbb E[Y] \\
+&= \mathbb E[XY] - \mathbb E[X] \mathbb E[Y]
+\end{aligned}

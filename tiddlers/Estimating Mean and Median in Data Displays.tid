@@ -1,7 +1,7 @@
 .hsk.macrocall: [[_my/macros/appear/res]]
-.res.youtube: <iframe width="560" height="315" src="https://www.youtube.com/embed/rb-T5ppxJk0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+.res.youtube: <iframe width="560" height="315" src="https://www.youtube.com/embed/rb-T5ppxJk0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <iframe width="560" height="315" src="https://www.youtube.com/embed/JFesFhraX2M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 created: 20200821150230802
-modified: 20200821151324925
+modified: 20200822102736277
 tags: [[Khan Academy AP/College Statistics]] Statistics
 title: Estimating Mean and Median in Data Displays
 tmap.id: f86fc767-a9b8-4a8d-86de-0c11c73005f9
