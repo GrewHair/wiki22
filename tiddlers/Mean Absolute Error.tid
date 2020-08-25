@@ -4,7 +4,7 @@
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 .hsk.transcludes: [[_my/images/png/mae_behaviour_and_optimal_baseline]][[_my/images/png/mae_derivatives]]
 created: 20200221114311132
-modified: 20200325163851173
+modified: 20200824062236256
 tags: Stub [[Machine Learning]] [[How to Win a Data Science Competition]] Metrics Regression
 title: Mean Absolute Error
 tmap.id: 489229ef-cd0c-4213-bd40-73db953d7e58
@@ -16,7 +16,7 @@ Let's study it's behavior in the same way we did with MSE (see [[MSE|Mean Square
 
 {{_my/images/png/mae_behaviour_and_optimal_baseline}}
 
-Notice that the minimum of the lower plot (the optimal [[Constant Predictor]]'s value) this time turns out to be the [[Median]] of the target value (again, because the [[Median]] is the [[MLE|Maximum Likelihood Estimate]] of $$\mathbb E(Y)$$, if the [[Likelihood Function]] is of the form of  [[MAE|Mean Absolute Error]]).
+Notice that the minimum of the lower plot (the optimal [[Constant Predictor]]'s value) this time turns out to be the [[Median]] of the target value (again, because the [[Median]] is the [[MLE|Maximum Likelihood Estimation]] of $$\mathbb E(Y)$$, if the [[Likelihood Function]] is of the form of  [[MAE|Mean Absolute Error]]).
 
 [[MAE|Mean Absolute Error]] has the following important differences with [[MSE|Mean Squared Error]]:
 

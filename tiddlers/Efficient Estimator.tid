@@ -1,0 +1,12 @@
+created: 20200824144822795
+modified: 20200824145545537
+tags: Statistics
+title: Efficient Estimator
+tmap.id: ceec1172-60ab-49fd-87ca-4bd82c5cfdb6
+type: text/vnd.tiddlywiki
+
+An [[Unbiased Estimator]] is ''Finite-Sample [[Efficient|Efficient Estimator]]'' if it reaches the lower bound in the [[Cramér–Rao inequality|Cramér–Rao Bound]] for all $$\theta \in \Theta$$.
+
+[[Efficient Estimators|Efficient Estimator]] are always [[Minimum-variance Unbiased Estimators|Minimum-variance Unbiased Estimator]], however the converse it not true.
+
+https://en.wikipedia.org/wiki/Efficient_estimator

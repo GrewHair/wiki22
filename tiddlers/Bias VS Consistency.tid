@@ -1,0 +1,14 @@
+created: 20200824115704589
+modified: 20200824120606761
+tags: Statistics
+title: Bias VS Consistency
+tmap.id: 8c376287-d85c-4e90-8ddb-edc5e98a1d91
+type: text/vnd.tiddlywiki
+
+[[Unbiasedness|Unbiased Estimator]] of an [[Estimator]] does __not__ imply its [[Consistency|Consistent Estimator]] (and vice versa):
+
+* [[Unbiased|Unbiased Estimator]] but not [[Consistent|Consistent Estimator]]:
+*> $$T_n(X) = X_3$$
+
+* [[Biased|Bias of an Estimator]] but [[Consistent|Consistent Estimator]]:
+*> $$\displaystyle T_n(X) = \frac 1 n \sum X_i + \frac 1 n$$

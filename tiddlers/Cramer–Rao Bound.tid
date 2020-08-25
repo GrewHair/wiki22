@@ -1,0 +1,28 @@
+created: 20200824122538423
+modified: 20200824132113623
+tags: Statistics Stub
+title: Cramér–Rao Bound
+tmap.id: 6bf651cb-b048-4bbf-beeb-68fbf7d6ac75
+type: text/vnd.tiddlywiki
+
+The [[Cramér–Rao Bound]] ''(CRB)'' sets the lower bound on the [[Variance]] of [[Unbiased Estimators|Unbiased Estimator]] of a [[Statistical Parameter]], stating that the [[Variance]] of any such [[Estimator|Unbiased Estimator]] $$T(X)$$ is at least as high as the inverse of the [[Fisher Information]].
+
+* [[Scalar Unbiased Case|Cramér–Rao Bound (Scalar Unbiased Case)]]
+* [[General Scalar Case|Cramér–Rao Bound (General Scalar Case)]]
+* [[Bound on the Variance of Biased Estimators|Cramér–Rao Bound (Bound on the Variance of Biased Estimators)]]
+* [[Multivariate Case|Cramér–Rao Bound (Multivariate Case)]]
+
+[[Cramér–Rao Bound]] relies on two weak [[Regularity Conditions]] on the [[PDF|Probability Density Function]] $$f(x;\theta)$$ and the [[Estimator]] $$T(X)$$:
+
+* The [[Fisher Information]] is always defined, or equivalently:
+*>for all $$x$$ such that $$f(x;\theta) > 0, \\ \displaystyle \frac \partial {\partial\theta} \log f(x;\theta)$$ exists and is finite;
+* Integration w.r.t. $$x$$ and differentiation w.r.t. $$\theta$$ can be interchanged in the [[Expectation]] of $$T$$:
+*>$$
+\displaystyle
+\frac \partial {\partial \theta}
+\left[ \int T(x)f(x;\theta)dx\right] =
+\int T(x) \left[ \frac \partial {\partial \theta} f(x;\theta) \right] dx
+$$ whenever the right-hand side is finite.
+
+
+https://en.wikipedia.org/wiki/Cram%C3%A9r%E2%80%93Rao_bound

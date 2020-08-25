@@ -1,6 +1,6 @@
 .prs.tex_formula: $$\displaystyle Z = \frac {X -\mu} \sigma$$
 created: 20200817123901290
-modified: 20200818102524821
+modified: 20200823054021652
 tags: Statistics
 title: Standard Score
 tmap.id: cc3e684d-20cd-485a-b2d2-7ab3b7b5727d
@@ -17,3 +17,12 @@ The [[Distribution|Probability Distribution]] of [[Standard Score]] is [[Standar
 The [[Standard Score]] is defined as:
 
 <center>{{!!.prs.tex_formula}}.</center>
+
+When the [[Population Mean]] and the [[Population Standard Deviation]] are unknown, the [[Standard Score]] may be calculated using the [[Sample Mean]] and [[Sample Standard Deviation]] as estimates of the [[Population|Population (Statistics)]] values (although in this case its [[Distribution|Probability Distribution]] is no longer [[Standard Normal|Standard Normal Distribution]] - but still in some contexts the term sticks):
+
+$$
+\displaystyle
+Z = \frac {X - \bar{X}}S
+$$
+
+>This last part deserves some clarification. Technically, there's such a thing as the [[T-statistic]], the [[Distribution|Probability Distribution]] of which is the same as the one of this "compromised" [[Standard Score]] - but the purposes of these two concepts are completely different: [[T-statistic]] is used in [[Hypothesis Testing|Statistical Hypothesis Testing]], while the [[Standard Score]] is simply used to scale the data. And so, regardless of the distribution, anything used to scale the data is just called [[Standard Score]]. Also see [[Z-statistic]].

@@ -3,20 +3,20 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200229001913621
-modified: 20200325163913754
+modified: 20200824062856467
 tags: Statistics
-title: Maximum Likelihood Estimate
+title: Maximum Likelihood Estimation
 tmap.id: 9ef823e1-0ca9-4bcd-874c-41fb80ebbbc8
 type: text/vnd.tiddlywiki
 
 MLE provides the parameter value(s) that makes the observed sample the most likely sample among all possible samples.
 
-$$\hat\theta$$ is  the [[Maximum Likelihood Estimate]] if
+$$\hat\theta$$ is  the [[Maximum Likelihood Estimate|Maximum Likelihood Estimation]] if
 $$\mathcal L(\hat\theta) > \mathcal L(\theta_0)$$
 for all values of $$\theta_0$$ in the [[parameter|Statistical Parameter]] space.
 
-[[MLE|Maximum Likelihood Estimate]] can refer to:
+[[MLE|Maximum Likelihood Estimation]] can refer to:
 
-* Maximum likelihood estimation (the method)
-* Maximum likelihood estimator (the formula)
-* Maximum likelihood estimate (the value)
+* [[Maximum Likelihood Estimation]] (the method)
+* [[Maximum Likelihood|Maximum Likelihood Estimation]] [[Estimator]] (the formula)
+* [[Maximum Likelihood|Maximum Likelihood Estimation]] [[Estimate]] (the value)

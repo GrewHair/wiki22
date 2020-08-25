@@ -1,0 +1,12 @@
+created: 20200825082524368
+modified: 20200825083053444
+tags: Statistics Stub
+title: Goodness of Fit
+tmap.id: 2f985970-cfa3-451b-9a35-3cccc30b1749
+type: text/vnd.tiddlywiki
+
+The [[Goodness of Fit]] of a [[Statistical Model]] describes how well it fits a set of [[Observations|Observation]]. Measures of [[Goodness of Fit]] typically summarize the discrepancy between [[Observed Values|Observation]] and the values expected under the [[Model|Statistical Model]] in question.
+
+Such measures can be used in [[Statistical Hypothesis Testing]] to e.g. [[Test for Normality]], test whether two [[Samples|Sample (Statistics)]] are drawn from identical [[Distributions|Probability Distribution]].
+
+https://en.wikipedia.org/wiki/Goodness_of_fit

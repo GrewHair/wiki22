@@ -1,0 +1,12 @@
+.prs.tex_formula: $$\displaystyle \ell (\theta) = \log \mathcal L(\theta)$$
+.prs.tex_formula-2: $$\displaystyle \ell (\theta) = \sum_{i=1}^n \log f_i(y_i; \theta) $$
+created: 20200825085512225
+modified: 20200825092148721
+tags: Statistics Stub
+title: Log-Likelihood Function
+tmap.id: 9cb69bbb-abc7-4eef-8443-5e829e6150d6
+type: text/vnd.tiddlywiki
+
+<center>{{!!.prs.tex_formula}}</center>
+
+<center>{{!!.prs.tex_formula-2}}</center>

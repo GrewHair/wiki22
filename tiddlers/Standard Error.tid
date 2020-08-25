@@ -1,8 +1,10 @@
 created: 20200817074858843
-modified: 20200817075154183
-tags: Statistics
+modified: 20200824082024836
+tags: Statistics Questionable
 title: Standard Error
 tmap.id: a3504c78-0041-425d-9268-ee0f92172c84
 type: text/vnd.tiddlywiki
 
 The [[Standard Error]] (SE) of a [[Statistic]] is the [[Standard Deviation]] of its [[Sampling Distribution]] or an estimate thereof.
+
+?It seems to be equal to  the square root of the [[Sampling Variance]].

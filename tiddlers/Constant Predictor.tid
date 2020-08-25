@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200224112209691
-modified: 20200325163850903
+modified: 20200824062155442
 tags: [[Machine Learning]] [[How to Win a Data Science Competition]]
 title: Constant Predictor
 tmap.id: 7f9de1cc-6c20-457f-a5db-ae8a30bd46c5
@@ -13,6 +13,6 @@ type: text/vnd.tiddlywiki
 
 It basically doesn't care at all for [[Independent Variables]], assigning the same value of label/target to //all// of the observations. Thus, it utilizes //only// the information about the [[Dependent Variable]].
 
-In [[statistical|Statistics]] terms, one could say that the [[Constant Predictor]] basically strips the [[Regression]] problem (i.e. finding the $$\mathbb E(Y|X)$$) down to the simple estimation of the target's [[Probability Distribution]]'s parameters (i.e. finding the $$\mathbb E(Y)$$) - and thus the optimal [[Constant Predictor]] (that is, the one that has the best score) should be the [[MLE|Maximum Likelihood Estimate]] of the target (of course, for it to work, the evaluation [[Metric|Metrics]] should be nothing but the [[Likelihood Function]]).
+In [[statistical|Statistics]] terms, one could say that the [[Constant Predictor]] basically strips the [[Regression]] problem (i.e. finding the $$\mathbb E(Y|X)$$) down to the simple estimation of the target's [[Probability Distribution]]'s parameters (i.e. finding the $$\mathbb E(Y)$$) - and thus the optimal [[Constant Predictor]] (that is, the one that has the best score) should be the [[MLE|Maximum Likelihood Estimation]] of the target (of course, for it to work, the evaluation [[Metric|Metrics]] should be nothing but the [[Likelihood Function]]).
 
 Also [[Constant Predictor]] can be thought of as a [[Polynomial Model]] of order zero. 

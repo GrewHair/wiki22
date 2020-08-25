@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200316090707458
-modified: 20200325163905059
+modified: 20200824094334331
 tags: [[Affine Geometry]] [[Linear Algebra]]
 title: Affine Combination
 tmap.id: aecf3d71-80d8-4cc2-a7a5-8ea705ec3ca2
@@ -27,7 +27,7 @@ Here $$x_1, x_2, ..., x_i$$ can be [[vectors|Vector]] of a [[Vector Space]] over
 
 The elements $$x_1, x_2, ..., x_i$$ can also be points of a [[Euclidian Space]], and, more generally, of an [[Affine Space]] over a [[Field]] $$K$$ - in such a case, the combination is also a point (the so-called [[Barycenter]]).
 
-The [[Set]] of all [[Affine Combinations|Affine Combination]] of a [[Set]] of points form the smallest subspace containing the points, just like the [[Set]] of all [[Linear Combinations]] of a [[Set]] of [[Vectors|Vector]] form their [[Linear Span]].
+The [[Set]] of all [[Affine Combinations|Affine Combination]] of a [[Set]] of points form the smallest subspace containing the points, just like the [[Set]] of all [[Linear Combinations|Linear Combination]] of a [[Set]] of [[Vectors|Vector]] form their [[Linear Span]].
 
 [[Affine Combinations|Affine Combination]] [[commute|Commutativity]] with any [[Affine Transformation]] $$T$$:
 

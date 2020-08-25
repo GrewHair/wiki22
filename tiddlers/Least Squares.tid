@@ -1,0 +1,14 @@
+created: 20200824061310174
+modified: 20200824081241501
+tags: Statistics [[Regression Analysis]]
+title: Least Squares
+tmap.id: 054d4e44-1cd5-4cec-a6df-3e7ce2a357bd
+type: text/vnd.tiddlywiki
+
+The method of [[Least Squares]] is a standard approach in [[Regression Analysis]] to approximate the solution of [[Overdetermined Systems|Overdetermined System]] by minimizing the sum of the squares of the [[Residuals|Residual]] made in the results of every equation.
+
+When the observations come from an [[Exponential Family]] and mild conditions are satisfied, [[Least Squares]] [[Estimates|Estimate]] are also [[Maximum Likelihood|Maximum Likelihood Estimation]].
+
+[[Least Squares]] can also be derived using the [[Method of Moments]].
+
+https://en.wikipedia.org/wiki/Least_squares

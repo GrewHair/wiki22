@@ -1,0 +1,16 @@
+created: 20200824162726730
+modified: 20200824163500865
+tags: [[Analysis of Variance]] Statistics Stub
+title: Design Matrix
+tmap.id: a2b53025-f7fc-40af-8bdf-f2a551abaff0
+type: text/vnd.tiddlywiki
+
+It is a statistical term for something like a [[DataFrame]] - i.e. a table (or rather a [[Matrix]]), the columns of which are [[Features|Feature]] and the rows of which are [[Observations|Observation]].
+
+It has the word "Design" in its name because it reflects a [[Design of Experiment|Experimental Design]].
+
+https://www.statlect.com/glossary/design-matrix
+
+https://stats.stackexchange.com/questions/66516/meaning-of-design-in-design-matrix
+
+https://en.wikipedia.org/wiki/Design_matrix

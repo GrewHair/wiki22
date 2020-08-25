@@ -1,0 +1,55 @@
+created: 20200824081245857
+modified: 20200824163848537
+tags: Statistics [[Regression Analysis]] [[Dead End]]
+title: Gauss-Markov Theorem
+tmap.id: aa528f99-c1a6-498f-bd5c-acdb66eec7a4
+type: text/vnd.tiddlywiki
+
+The [[Ordinary Least Squares]] [[Estimator]] has the lowest [[Sampling Variance]] within the [[Class]] of [[Linear|Linear Estimator]] [[Unbiased Estimators|Unbiased Estimator]], if the [[Errors|Statistical Error]] in the [[Linear Regression]] [[Model|Statistical Model]] are [[Uncorrelated|Uncorrelatedness]], [[Homoscedastic|Homoscedasticity]] and have zero [[Mean|Expectation]].
+
+
+Suppose we have in [[Matrix]] notation:
+
+$$
+\displaystyle
+\underline y = X \underline \beta + \underline \varepsilon, \quad
+\big( \underline y, \underline \varepsilon \in \R^n, \beta \in \R^K
+\;\text{and}\;
+X \in \R^{n\times K}\big),
+$$
+
+expanding to:
+
+$$
+\displaystyle
+y_i = \sum_{j=1}^K \beta_j X_{ij} + \varepsilon_i  \quad \forall i = 1, 2, \ldots, n,
+$$
+
+where:
+
+* $$\beta_j$$ are non-[[random|Random Variable]] but unobservable [[Parameters|Statistical Parameter]];
+* $$X_{ij}$$ are non-[[random|Random Variable]] and observable (called the "explanatory variables");
+* $$\varepsilon_i$$ are [[random|Random Variable]] (called "disturbance", "noise", or [["error"|Statistical Error]]);
+* $$y_i$$ are [[random|Random Variable]];
+
+and the following assumptions about $$\varepsilon_i$$ hold:
+
+* They have zero [[Mean|Expectation]]: $$\mathbb E[\varepsilon_i] = 0$$,
+* They are [[Homoscedastic|Homoscedasticity]]: $$\operatorname{Var}(\varepsilon_i) = \sigma^2 < \infty \quad \forall i$$,
+* Distinct error terms are uncorrelated: $$\operatorname{Cov}(\varepsilon_i, \varepsilon_j) = 0 \quad \forall i \neq j$$.
+
+A [[Linear Estimator]] of $$\beta_j$$ is a [[Linear Combination]]:
+
+$$
+\hat \beta_j = c_{1j}y_1 + \ldots + c_{nj}y_n,
+$$
+
+in which $$c_{ij}$$ don't depend on $$\beta_i$$, but are allowed to depend on $$X_{ij}$$. (because $$X_{ij}$$ is observable).
+
+The [[Estimator]] is said to be...
+
+https://www.statlect.com/fundamentals-of-statistics/Gauss-Markov-theorem
+
+https://www.statisticshowto.com/gauss-markov-theorem-assumptions/
+
+https://en.wikipedia.org/wiki/Gauss%E2%80%93Markov_theorem

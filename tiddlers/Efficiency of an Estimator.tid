@@ -1,0 +1,15 @@
+.prs.tex_formula: $$\displaystyle e(T) = \frac {1/\mathcal I(\theta)}{\operatorname{Var}(T)}
+created: 20200824143640497
+modified: 20200824144622412
+tags: Statistics
+title: Efficiency of an Estimator
+tmap.id: 433db239-fa25-4252-acb5-cc38730799dc
+type: text/vnd.tiddlywiki
+
+The [[Efficiency|Efficiency of an Estimator]] of an [[Unbiased Estimator]], $$T$$, of a [[Parameter|Statistical Parameter]] $$\theta$$ is defined as:
+
+<center>{{!!.prs.tex_formula}},</center>
+
+where $$\mathcal I(\theta)$$ is the [[Fisher Information]] of the [[Sample|Sample (Statistics)]].
+
+https://en.wikipedia.org/wiki/Efficiency_(statistics)

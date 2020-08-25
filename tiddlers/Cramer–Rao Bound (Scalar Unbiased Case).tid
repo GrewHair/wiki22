@@ -1,0 +1,11 @@
+.prs.tex_formula: $$\displaystyle \operatorname{Var}(\hat{\theta}) \geq \frac 1 {I(\theta)}$$
+created: 20200824132244470
+modified: 20200824133029473
+tags: Statistics
+title: Cramér–Rao Bound (Scalar Unbiased Case)
+tmap.id: e4bd70b9-b70d-4fb9-9bfc-e573747297f8
+type: text/vnd.tiddlywiki
+
+Suppose $$\theta$$ is an unknown deterministic [[Parameter|Statistical Parameter]] which is to to be estimated from $$n$$ independent [[Observations|Observation]] of $$x$$, each distributed according to some [[PDF|Probability Density Function]] $$f(x;\theta)$$. The [[Variance]] of any [[Unbiased Estimator]] $$\hat\theta$$ of $$\theta$$ is then bounded by the reciprocal of the [[Fisher Information]] $$I(\theta)$$:
+
+<center>{{!!.prs.tex_formula}}</center>

@@ -1,0 +1,24 @@
+.hsk.macrocall: [[_my/macros/appear/res]]
+.prs.tex_formula: $$\displaystyle r_{xy} = \frac {\sum_{i=1}^n (x_i-\bar{x})(y_i-\bar{y})}{\sqrt{\sum_{i=1}^n(x_i-\bar{x})^2}\sqrt{\sum_{i=1}^n(y_i-\bar{y})^2}}$$
+.prs.tex_formula-2: $$\displaystyle r_{xy} = \frac 1 {n-1} \sum_{i=1}^n\left(\frac{x_i-\bar{x}}{S_x}\right)\left(\frac{y_i-\bar{y}}{S_y}\right)$$
+.res.youtube: <iframe width="560" height="315" src="https://www.youtube.com/embed/u4ugaNo6v1Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+created: 20200823054500516
+modified: 20200823062742669
+tags: Statistics [[Khan Academy AP/College Statistics]]
+title: Sample Pearson Correlation Coefficient
+tmap.id: 0ec8c5f1-5c99-41c1-b0c1-cb9ec084a0e8
+type: text/vnd.tiddlywiki
+
+''AKA Sample Correlation Coefficient''
+
+[[Sample Correlation Coefficient|Sample Pearson Correlation Coefficient]] is an application of [[Pearson Correlation Coefficient]] to a real [[Statistial Sample|Sample (Statistics)]]. Its formula is obtained by substituting [[Estimates|Estimate]] of the [[Covariances|Covariance]] and [[Variances|Variance]] into the formula.
+
+Given paired data $$\big\{(x_1, y_1), \ldots, (x_n, y_n)\big\}$$, it is defined as:
+
+<center>{{!!.prs.tex_formula}}.</center>
+
+Alternatively, the [[Sample Correlation Coefficient|Sample Pearson Correlation Coefficient]] can be expressed as the [[Mean|Arithmetic Mean]] of the products of the [[Standard Scores|Standard Score]] of $$x_i$$ and $$y_i$$:
+
+<center>{{!!.prs.tex_formula-2}}.</center>
+
+<<res youtube>>

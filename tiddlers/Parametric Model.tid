@@ -1,0 +1,10 @@
+created: 20200824121359242
+modified: 20200825074920410
+tags: Statistics
+title: Parametric Model
+tmap.id: 405e6c5c-026f-4d62-ba89-b3abbf466657
+type: text/vnd.tiddlywiki
+
+''AKA Parametric Family, Finite-dimensional Model''
+
+In [[Statistics]], a [[Parametric Model]] is a [[Model|Statistical Model]] comprized of a family of [[Probability Distributions|Probability Distribution]] that has a [[Finite|Finite Set]] (usually small) number of [[Parameters|Statistical Parameter]].

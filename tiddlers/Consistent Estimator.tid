@@ -1,0 +1,20 @@
+created: 20200824104359522
+modified: 20200824105419004
+tags: Statistics
+title: Consistent Estimator
+tmap.id: e7605ec0-1bca-4bfc-b18b-36c8e71a7ba3
+type: text/vnd.tiddlywiki
+
+An [[Estimator]] $$T_n$$ of a [[Parameter|Statistical Parameter]] $$\theta$$ is said to be [[Consistent]], if it [[converges in probability|Convergence in Probability]] to the true value of the [[Parameter|Statistical Parameter]]:
+
+$$
+\displaystyle
+\operatorname p\!\!\lim_{n \to \infty} T_n = \theta,
+$$
+
+i.e. for all $$\varepsilon > 0$$:
+
+$$
+\displaystyle
+\lim_{n \to \infty} \mathbb P(|T_n - \theta| > \varepsilon) = 0.
+$$

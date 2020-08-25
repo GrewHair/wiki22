@@ -1,0 +1,10 @@
+created: 20200825071307842
+modified: 20200825072726996
+tags: [[Machine Learning]] Stub
+title: Supervised Learning
+tmap.id: 54dea4d3-b1dd-4b88-823f-a7404b3ce622
+type: text/vnd.tiddlywiki
+
+[[Supervised Learning]] can be framed as a conditional probability problem - and thus e.g. [[Maximum Likelihood Estimation]] can be used to fit a [[Model|Model (Machine Learning)]] that best summarizes the [[Conditional Probability Distribution]] (of $$y$$ given $$X$$) - the so-called [[Conditional Maximum Likelihood Estimation]].
+
+https://machinelearningmastery.com/linear-regression-with-maximum-likelihood-estimation/

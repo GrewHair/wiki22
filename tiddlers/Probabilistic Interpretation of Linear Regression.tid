@@ -1,0 +1,40 @@
+created: 20200825122245044
+modified: 20200825153358415
+tags: [[Probability Theory]] Statistics [[Linear Regression]]
+title: Probabilistic Interpretation of Linear Regression
+tmap.id: 8bac87dc-5d9e-4941-9104-edbbdd08a1f3
+type: text/vnd.tiddlywiki
+
+Let's try to solve the [[Linear Regression]] problem purely [[probabilistically|Probability Theory]], i.e. using only theoretic [[Expectations|Expectation]], etc., without constructing any [[Statistics|Statistic]] from the data.
+
+Of course the results will be unusable in practice, as they depend on unobservable [[Population|Population (Statistics)]] [[Parameters|Statistical Parameter]], but this is going to be useful from the interpretation perspective.
+
+We'll do this for the [[univariate case|Univariate Linear Regression]].
+
+* First we describe our [[Model|Statistical Model]] in terms of [[Random Variables]] (those will be denoted by capital letters):
+*>$$Y = b_0 + b_1 X + \mathcal E$$
+* Our assumptions will be:
+** $$\mathcal E \sim \mathcal N(0, \sigma^2)$$
+** $$\mathcal E \perp \!\!\! \perp X$$ (i.e., $$\operatorname{Cov}(\mathcal E, X) = 0)$$
+** For simplicity's sake, we'll also assume all the [[r.v.|Random Variable]]'s have zero [[Mean|Expectation]]
+* Now we go for $$b_1$$. To do this, multiply both sides by $$X$$:
+*>$$YX = b_0 X + b_1 X^2 + X \mathcal E$$
+* Then take the [[Expectations|Expectation]] of both sides:
+*>$$\operatorname{Cov}(X, Y) = b_0\mathbb E[X] + b_1\operatorname{Var}(X) + \operatorname{Cov}(X, \mathcal E)$$
+*>$$\operatorname{Cov}(X, Y) = b_1\operatorname{Var}(X)$$
+* From this we get:
+*>$$\displaystyle b_1 = \frac {\operatorname{Cov}(X,Y)}{\operatorname{Var}(X)}$$
+* Now let's find $$b_0$$. For this, just take [[Expectations|Expectation]] from both sides of the initial equation:
+*>$$\mathbb E[Y] = b_0 + b_1 \mathbb E[X] + \mathbb E [\mathcal E] = b_0 + b_1 \mathbb E[X]$$
+* And thus we have:
+*>$$b_0 = \mathbb E[Y] - b_1 \mathbb E[X]$$
+
+<br/>
+
+So summing up:
+
+$$
+\displaystyle
+b_0 = \mathbb E[Y] - b_1 \mathbb E[X] \\[10pt]
+b_1 = \frac {\operatorname{Cov}(X,Y)}{\operatorname{Var}(X)}
+$$

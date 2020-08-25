@@ -1,0 +1,16 @@
+created: 20200825072845847
+modified: 20200825074036150
+tags: Statistics [[Machine Learning]] Stub
+title: Linear Regression
+tmap.id: 386a613e-2b7a-4f29-a21c-d801178b475c
+type: text/vnd.tiddlywiki
+
+The [[Parameters|Statistical Parameter]] of a [[Linear Regression]] model can be estimated using various methods:
+
+* [[Maximum Likelihood Estimation]] - this requires assumptions about the [[Distribution|Probability Distribution]] of the [[Error Terms|Statistical Error]]
+* [[Least Squares]] - this needs weaker assumptions (i.e. one doesn't need to pick a particular [[Distribution Family|Parametric Model]])
+* ...
+
+Under certain conditions, they overlap.
+
+https://machinelearningmastery.com/linear-regression-with-maximum-likelihood-estimation/

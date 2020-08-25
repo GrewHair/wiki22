@@ -4,7 +4,7 @@
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 .hsk.transcludes: [[_my/images/png/mse_behaviour_and_optimal_baseline]]
 created: 20200221102613177
-modified: 20200325163851165
+modified: 20200824061932181
 tags: Stub [[Machine Learning]] [[How to Win a Data Science Competition]] Metrics Regression
 title: Mean Squared Error
 tmap.id: f94dec8a-b1a2-4197-a777-2baddea6c2da
@@ -17,6 +17,6 @@ $$\displaystyle \operatorname {MSE} =\frac {1}{N} \sum _{i=1}^N (y_i-\hat y_i)^{
 Let's study it's behaviour. We'll use a toy dataset of five observations with labels. Suppose the $$\hat y_i$$ produced by some model is equal to $$y_i$$ for all //i// except for one. The upper plot shows how the [[MSE|Mean Squared Error]] changes with variation of the one wrong prediction, for five different cases (each assuming that different prediction is wrong).
 
 {{_my/images/png/mse_behaviour_and_optimal_baseline}}
-The lower plot shows how the [[MSE|Mean Squared Error]] changes with variation of the [[Constant Predictor]]'s value. The minimum of the lower curve corresponds to the [[Arithmetic Mean]] of the target vector (apparently because it turns out to be the [[MLE|Maximum Likelihood Estimate]] of $$\mathbb E(Y)$$, given that the [[Likelihood Function]] has the form of [[MSE|Mean Squared Error]]).
+The lower plot shows how the [[MSE|Mean Squared Error]] changes with variation of the [[Constant Predictor]]'s value. The minimum of the lower curve corresponds to the [[Arithmetic Mean]] of the target vector (apparently because it turns out to be the [[MLE|Maximum Likelihood Estimation]] of $$\mathbb E(Y)$$, given that the [[Likelihood Function]] has the form of [[MSE|Mean Squared Error]]).
 
 Also note that the lower curve is actually an average of the upper curves.

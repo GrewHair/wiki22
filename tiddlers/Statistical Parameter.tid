@@ -1,6 +1,6 @@
 created: 20200821100959759
-modified: 20200821101903460
-tags: Statistics
+modified: 20200824100449836
+tags: Statistics Stub
 title: Statistical Parameter
 tmap.id: 57a4320b-c38a-40fb-9433-3f77437c5163
 type: text/vnd.tiddlywiki
@@ -12,3 +12,4 @@ A [[Statistical Parameter]] is a quantity entering into the [[Probability Distri
 * [[Location Parameter]]
 * [[Scale Parameter]]
 * [[Shape Parameter]]
+* ...

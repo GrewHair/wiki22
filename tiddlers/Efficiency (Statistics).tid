@@ -1,0 +1,16 @@
+created: 20200824141844139
+modified: 20200824143825914
+tags: Statistics
+title: Efficiency (Statistics)
+tmap.id: 27812b7f-3a79-4486-a09a-12e2cb6111ec
+type: text/vnd.tiddlywiki
+
+[[Efficiency|Efficiency (Statistics)]] is a measure of quality of an [[Estimator]], of an [[Experimental Design]], or of a [[Hypothesis Testing|Statistical Hypothesis Testing]] procedure.
+
+A more [[efficient|Efficiency (Statistics)]] [[Estimator]], [[Experiment]], or [[Test|Statistical Hypothesis Testing]] needs fewer [[Observations|Observation]] than a less [[efficient|Efficiency (Statistics)]] one to achieve a given performance.
+
+* [[For Estimators|Efficiency of an Estimator]]
+* [[For Experimental Designs|Efficiency of an Experimental Design]]
+* [[For Hypothesis Tests|Efficiency of a Statistical Test]]
+
+https://en.wikipedia.org/wiki/Efficiency_(statistics)

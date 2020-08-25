@@ -1,0 +1,13 @@
+created: 20200823093759127
+modified: 20200825075933012
+tags: Statistics [[MIT 18.650 Statistics for Applications]] Stub
+title: Univariate Linear Regression
+tmap.id: fc606c79-2024-4510-be87-e2b25cecb136
+type: text/vnd.tiddlywiki
+
+[[Univariate Regression|Univariate Linear Regression]] is a special case of [[Linear Regression]], when $$X$$ is [[Scalar]].
+
+This special case is important because:
+
+* It is pretty much the only case that can be conveniently visualised
+* The derivations do not involve complex [[Linear Algebra]]

@@ -4,11 +4,13 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200228191436009
-modified: 20200325163913757
+modified: 20200825100704733
 tags: Statistics
 title: Likelihood Function
 tmap.id: b77f4593-c2d8-4bb5-9d9b-0650f95454a3
 type: text/vnd.tiddlywiki
+
+The [[Likelihood Function]] measures the [[Goodness of Fit]] of a [[Statistical Model]] to a [[Sample|Sample (Statistics)]] of data //for given values of the unknown [[Parameters|Statistical Parameter]]//.
 
 [[likelihood]] is just a number for a particular $$\theta_0$$, while [[Likelihood Function]] gives values to all existing $$\theta$$.
 
@@ -25,9 +27,4 @@ $$\displaystyle
   \prod_{i=1}^n      f_i (y_i; \theta)
 $$
 
-<center>''Log Likelihood Function''</center>
-
-$$\displaystyle
-  \ell                        (\theta)    = 
-  \sum_{i=1}^n   \log f_i(y_i; \theta)
-$$
+For computational convenience it is a usual practice to deal with the [[Log-Likelihood Function]] instead of the [[Likelihood Function]] itself, which is obtained by taking the [[Natural Logarithm]] of the [[Likelihood|Likelihood Function]].

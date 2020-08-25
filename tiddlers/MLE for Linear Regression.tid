@@ -1,0 +1,77 @@
+created: 20200825064053810
+modified: 20200825142305594
+tags: Statistics [[I Don't Quite Understand This]] [[MIT 6.041/6.431 Probabilistic Systems Analysis and Applied Probability]] [[Linear Regression]] [[Maximum Likelihood Estimation]]
+title: MLE for Linear Regression
+tmap.id: 02c3fa5f-8623-4094-92c0-5e48d727970a
+type: text/vnd.tiddlywiki
+
+[[MLE|Maximum Likelihood Estimation]] can be utilized to obtain a [[statistical|Statistics]] interpretation of the [[optimality|Gauss-Markov Theorem]] of the [[Least Squares]] method for solving a [[Regression Problem|Linear Regression]], //if// one is willing to make an additional assumption that the [[Errors|Statistical Error]] are [[Normally Distributed|Normal Distribution]] (i.e. when this assumption holds, the [[OLS|Ordinary Least Squares]] and the [[MLE|Maximum Likelihood Estimation]] [[Estimators|Estimator]] are the same).
+
+This tiddler attemps to demonstrate this for a simple [[univariate case|Univariate Linear Regression]].
+
+Let's write down the [[Model|Statistical Model]]:
+
+$$y_i = b_0 + b_1x_i + \varepsilon_i, \quad \varepsilon_i \sim \mathcal N(0, \sigma^2), \text{i.i.d.}$$
+
+The [[Parameter|Statistical Parameter]] $$\theta$$ of our [[Model|Statistical Model]] is a [[Vector]]:
+
+$$\theta = [b_0, b_1, \sigma^2]$$
+
+The [[Likelihood|Likelihood Function]] of a particular $$\varepsilon_i$$ is of the form:
+
+$$\displaystyle c \cdot e^{-w^2/2\sigma^2}$$.
+
+The [[Likelihood|Likelihood Function]] of observing a particular $$y_i$$ is the same as the [[Likelihood|Likelihood Function]] that $$\varepsilon_i$$ takes on a value:
+
+$$\varepsilon_i = y_i - b_0 - b_1x_i$$
+
+(??? I don't really understand this claim, but I suspect this expresses the "hope" that [[Residuals|Residual]] are equal to [[Errors|Statistical Error]])
+
+So the [[Likelihood|Likelihood Function]] of the $$y$$'s is of the form:
+
+$$
+\displaystyle
+\mathcal L(\theta) = f_{X,Y}(x,y;\theta) =
+c \cdot \exp 
+\left\{ 
+-\frac 1 {2\sigma^2}
+\sum_{i=1}^n (y_i - b_0 - b_1x_i)^2
+\right\},
+$$
+
+where $$c$$ is some constant irrelevant to the optimization process.
+
+[[MLE|Maximum Likelihood Estimation]] involves maximizing this [[Likelihood|Likelihood Function]] with respect to (in this case) $$b_0$$ and $$b_1$$ (because $$\sigma^2$$ of $$\varepsilon_i$$ is assumed to be given).
+
+In order to maximize this, let's first get the [[Log-Likelihood|Log-Likelihood Function]]:
+
+$$
+\displaystyle
+\ell(\theta) = - c \cdot \sum_{i=1}^n(y_i - b_0 - b_1x_i)^2
+$$
+
+''NOTICE'', that maximizing this expression is the same as [[minimizing the sum of squared errors|Least Squares]]! This is the place where the two methods kiss!
+
+Now we just need to take some [[Derivatives|Derivative]], set them to zero and solve for $$b_0$$ and $$b_1$$.
+
+Doing so yields:
+
+$$
+\displaystyle
+\hat b_1 = \frac
+{\sum_{i=1}^n(x_i-\bar x)(y_i-\bar y)}
+{\sum_{i=1}^n(x_i - \bar x)^2};
+$$
+
+$$
+\hat b_0 = \bar y - \hat b_1 \bar x,
+$$
+
+where $$\bar x$$ and $$\bar y$$ are the [[Means|Sample Mean]]:
+
+$$
+\displaystyle
+\bar x = \sum_{i=1}^n x_i,
+\quad
+\bar y = \sum_{i=1}^n y_i.
+$$

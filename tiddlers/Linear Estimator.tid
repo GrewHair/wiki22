@@ -1,0 +1,12 @@
+created: 20200824104037519
+modified: 20200824121242552
+tags: Statistics
+title: Linear Estimator
+tmap.id: 659e216e-901d-410f-9cc7-368de9479b6b
+type: text/vnd.tiddlywiki
+
+If an [[Estimator]] is a linear [[Function]] of observable [[Random Variables|Random Variable]], it is referred to as a [[Linear Estimator]].
+
+[[Linear Estimators|Linear Estimator]] are often "nice" for statistical analysis, i.e. it is often easy to investigate their [[Consistency|Consistent Estimator]], [[Unbiasedness|Unbiased Estimator]], [[Efficiency|Efficient Estimator]], construct [[Confidence Intervals|Confidence Interval]], etc.
+
+On the other hand, they often also happen to be "optimal" (in some well-defined sense) - [[see this for an example|Gauss-Markov Theorem]].

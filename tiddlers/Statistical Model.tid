@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200319160300102
-modified: 20200802162051413
+modified: 20200824122306944
 tags: Statistics Stub [[MIT 18.650 Statistics for Applications]]
 title: Statistical Model
 tmap.id: ae416da3-afe7-46b0-8463-ee03cb9a806a
@@ -44,6 +44,11 @@ $$
 \Big(\R, (\mathcal N(\mu, \sigma^2))_{(\mu, \sigma^2) \in \R \times \R_+^*}\Big).
 $$
 
+* For $$Y$$ in a standard [[Linear Regression]]:
+$$
+\displaystyle
+\Big(\R^n, (\mathcal N(X\beta, \sigma^2I_n))_{(\beta, \sigma^2) \in \R^p \times \R_+^*}\Big).
+$$
 <br>
 
 The parameter $$\theta$$ is called //identified// [[iff|If and Only If]] the [[map|Function]] $$\theta \in \Theta \mapsto \mathbb P_\theta$$ is [[Injective]], i.e.,
@@ -51,3 +56,5 @@ The parameter $$\theta$$ is called //identified// [[iff|If and Only If]] the [[m
 $$
 \theta = \theta' \implies \mathbb{P_\theta = P_{\theta'}}.
 $$
+
+https://en.wikipedia.org/wiki/Statistical_model

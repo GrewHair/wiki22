@@ -3,9 +3,9 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200314171857367
-modified: 20200325163826319
+modified: 20200824133229196
 tags: [[Linear Algebra]] Stub
-title: Consistency vs Determination
+title: Consistency VS Determination
 tmap.id: cb532dba-d36d-417c-98f0-0ca8c7d363ca
 type: text/vnd.tiddlywiki
 
