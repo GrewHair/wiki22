@@ -1,9 +1,14 @@
+.hsk.macrocall: [[_my/macros/appear/res]]
+.hsk.transcludes: [[MLE for Linear Regression]][[Probabilistic Interpretation of Linear Regression]]
+.res.youtube: <iframe width="560" height="315" src="https://www.youtube.com/embed/FGesqq22TCM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 created: 20200823093759127
-modified: 20200825075933012
-tags: Statistics [[MIT 18.650 Statistics for Applications]] Stub
+modified: 20200826194258348
+tags: Statistics [[MIT 18.650 Statistics for Applications]] Stub [[Linear Regression]] [[Khan Academy AP/College Statistics]]
 title: Univariate Linear Regression
 tmap.id: fc606c79-2024-4510-be87-e2b25cecb136
 type: text/vnd.tiddlywiki
+
+''AKA Simple Linear Regression''
 
 [[Univariate Regression|Univariate Linear Regression]] is a special case of [[Linear Regression]], when $$X$$ is [[Scalar]].
 
@@ -11,3 +16,34 @@ This special case is important because:
 
 * It is pretty much the only case that can be conveniently visualised
 * The derivations do not involve complex [[Linear Algebra]]
+
+<br/>
+
+|[[Estimated|MLE for Linear Regression]]|[[Theoretic|Probabilistic Interpretation of Linear Regression]]|
+|<center>{{MLE for Linear Regression!!.prs.tex_formula}}</center>|<center>{{Probabilistic Interpretation of Linear Regression!!.prs.tex_formula}}</center>|
+
+<br/>
+
+There is another useful formula for $$\hat b_1$$:
+
+$$
+\displaystyle
+\hat b_1 = r_{xy} \frac {S_y}{S_x},
+$$
+
+where:
+
+* $$r_{xy}$$ is the [[Sample Correlation Coefficient|Sample Pearson Correlation Coefficient]] of $$x$$ and $$y$$;
+* $$S_y$$ and $$S_x$$ are [[Sample Variances|Sample Variance]] of $$x$$ and $$y$$.
+
+<br/>
+
+This formula for the [[Slope]] of the [[Regression|Linear Regression]] line is particularly insightful for:
+
+* $$S_y/S_x$$ is much like $$\Delta y/\Delta x$$ in the equations of "normal lines" - but unlike the latter, it does not control the "direction" (i.e. up or down)
+* $$r_{xy}$$ controls the "direction"
+* As $$x$$ and $$y$$ get less and less [[correlated|Pearson Correlation Coefficient]], the $$r_{xy}$$ term makes the resulting slope closer and closer to a horisontal line, which would correspond to the [[Constant Predictor]], indicating that $$x$$ does not affect $$y$$ at all
+
+<<res youtube>>
+
+https://en.wikipedia.org/wiki/Simple_linear_regression

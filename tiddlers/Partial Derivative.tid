@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200226112601585
-modified: 20200325163947173
+modified: 20200826180514318
 tags: Questionable Stub [[Multivariable Calculus]] [[Jan Bronnikau]]
 title: Partial Derivative
 tmap.id: 77f1c7f7-20ed-403c-9c88-d0356fa11f60
@@ -29,7 +29,7 @@ Also note that in this formula, //p// may or may ''not'' belong to //[1; M]// - 
 
 Another context in which [[Partial Derivatives|Partial Derivative]] often occur is [[Vector Calculus]]. Because of how widely they are used in that field (for reasons not //yet// very apparent to me) and the very way they are used there, it's tempting to just begin to think of them as "spacial derivatives" while the derivative with respect to time is associated with [[total differentiation|Total Derivative]]. While this semi-apparent, semi-obscure distinction is interesting and worth attention, it is basically ''false''.
 
-Sometimes in [[Statistical|Statistics]] and [[Data Science]] papers one can come across some equations with partial derivatives in unusual places (where one would normally see the [[Total Derivative]]) (examples: <span style="color:red">PLACE GRADIENT BOOSTING EXAMPLE HERE!!</span>, [[example 2|Root Mean Squared Error]]). I'm really not sure why - it may be because as stated above it is a weaker, safer statement, or maybe it has something to do with the notion and the possibility of statistical dependence, or some other reasons.
+Sometimes in [[Statistical|Statistics]] and [[Data Science]] papers one can come across some equations with partial derivatives in unusual places (where one would normally see the [[Total Derivative]]) (examples: <span style="color:red">PLACE GRADIENT BOOSTING EXAMPLE HERE!!</span>, [[example 2|Root Mean Squared Error (Machine Learning Metric)]]). I'm really not sure why - it may be because as stated above it is a weaker, safer statement, or maybe it has something to do with the notion and the possibility of statistical dependence, or some other reasons.
 
 In general, $$\frac {\partial f}{\partial x} \neq \frac {d f}{d x}$$, but from a purely formal perspective, a lot of times they are equivalent. These cases are:
 

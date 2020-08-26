@@ -1,5 +1,5 @@
 created: 20200823070029690
-modified: 20200823072620810
+modified: 20200826121818574
 tags: Statistics Stub [[Regression Analysis]]
 title: Statistical Error
 tmap.id: c70a621f-0a31-42c3-af9f-449d8116eb4b
@@ -10,5 +10,7 @@ type: text/vnd.tiddlywiki
 A [[Statistical Error]] is the amount by which an [[Observation]] differs from its //true// [[Expected Value|Expectation]]/[[Population Mean]].
 
 Since the [[Expected Value|Expectation]]/[[Population Mean]] is usually an unobservable [[Parameter|Statistical Parameter]], the [[Statistical Error]] is also an unobservable quantity.
+
+A [[Deviation|Deviation (Statistics)]] is called an [[Error|Statistical Error]] when it has been calculated outside of the [[Sample|Sample (Statistics)]] that was used for estimation.
 
 https://en.wikipedia.org/wiki/Errors_and_residuals

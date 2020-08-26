@@ -1,0 +1,20 @@
+.hsk.macrocall: [[_my/macros/tex]]
+.prs.tex_formula: $$\displaystyle \text{Total variation} = \sum_{i=1}^n(y_i - \bar y)^2$$
+created: 20200825215206481
+modified: 20200826082615994
+tags: Statistics Regression [[Khan Academy AP/College Statistics]] Stub [[I Don't Quite Understand This]]
+title: Total Variation (Regression)
+tmap.id: e65aba05-09d3-433b-8084-390122302ed2
+type: text/vnd.tiddlywiki
+
+The [[Total Variation|Total Variation (Regression)]] about a [[regression|Linear Regression]] line is the sum of the squares of the differences between each [[Target|Target Variable]] value $$y_i$$ and the [[Mean|Arithmetic Mean]] of $$y$$:
+
+<center>{{!!.prs.tex_formula}}</center>
+
+One may argue that it's just [[Sample Variance]] of $$y$$ without the denominator, though its purpose is quite different.
+
+<<tex "\text{Total variation}" "Total Variation (Regression)">> $$=$$
+<<tex "\text{Explained variation}" "Explained Variation (Regression)">> $$+$$
+<<tex "\text{Unexplained variation}" "Unexplained Variation (Regression)">>
+
+WHY????

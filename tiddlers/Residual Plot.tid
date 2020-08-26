@@ -1,0 +1,16 @@
+.hsk.macrocall: [[_my/macros/appear/res]]
+.res.youtube: <iframe width="560" height="315" src="https://www.youtube.com/embed/VamMrPZ-8fc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+created: 20200825205321630
+modified: 20200825205829935
+tags: Statistics [[Regression Analysis]] [[Linear Regression]] Stub
+title: Residual Plot
+tmap.id: 51a11335-a976-4c57-a04b-c6e437180b90
+type: text/vnd.tiddlywiki
+
+It's basically a plot of the [[Residuals|Residual]] of a [[Linear Regression]].
+
+If it has patterns - your [[Model|Statistical Model]] is bad.
+
+If it looks like noise - your [[Model|Statistical Model]] is probably not so bad.
+
+<<res youtube>>

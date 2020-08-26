@@ -1,0 +1,11 @@
+.prs.tex_formula: $$\displaystyle \text{Explained variation} = \sum_{i=1}^n(\hat y_i - \bar y)^2$$
+created: 20200826075703907
+modified: 20200826081554833
+tags: Statistics Regression [[Khan Academy AP/College Statistics]] Stub
+title: Explained Variation (Regression)
+tmap.id: 6c5e97f2-a3dd-49a2-af33-0b944af861a2
+type: text/vnd.tiddlywiki
+
+The [[Explained Variation|Explained Variation (Regression)]] about a [[regression|Linear Regression]] line is the sum of the squares of the differences between each predicted [[Target|Target Variable]] value $$\hat y_i$$ and the [[Mean|Arithmetic Mean]] of $$y$$:
+
+<center>{{!!.prs.tex_formula}}</center>

@@ -1,0 +1,39 @@
+created: 20200826203250322
+modified: 20200826214834578
+tags: Statistics [[Khan Academy AP/College Statistics]]
+title: Residual Standard Deviation
+tmap.id: ff16873b-6bf6-40ac-8a85-0dd1b6034c5d
+type: text/vnd.tiddlywiki
+
+''AKA Residual Standard Error, Standard Deviation of Residuals, Root Mean Square Deviation (RMSD), Root Mean Square Error (RMSE)''
+
+[[Residual Standard Deviation]] is a measure of [[Goodness of Fit]]. As the name suggests, it is the [[Standard Deviation]] of the [[Residuals|Residual]] of a [[Model|Statistical Model]] or an [[Estimator]]. It aggregates the differences of the [[Observed Values|Observation]] and their [[Estimates|Estimate]] produced by the [[Model|Statistical Model]]/[[Estimator]]:
+
+$$
+\displaystyle
+\operatorname{RMSD} = \sqrt{\frac {\sum_{i=1}^n(\hat y_i - y_i)^2} n}
+$$
+
+To make this [[Statistic]] [[Unbiased|Unbiased Estimator]], instead of dividing by $$n$$ one should divide by the [[Degrees of Freedom]] $$\operatorname{df}$$:
+
+$$
+\displaystyle
+\operatorname{RMSD} = \sqrt{\frac {\sum_{i=1}^n(\hat y_i - y_i)^2} {\operatorname{df}}},
+$$
+
+where:
+
+* $$\operatorname{df} = n - p$$;
+* $$p$$ is the number of estimated parameters.
+
+It is often used to measure performance of [[Regression Models|Linear Regression]], and e.g. for [[Simple Regression|Univariate Linear Regression]] $$p = 2$$ (because the estimated parameters are two: $$b_0$$ and $$b_1$$).
+
+For an [[Unbiased Estimator]], the [[RMSD|Residual Standard Deviation]] is the square root of [[Variance]], known as the [[Standard Deviation]].
+
+[[RMSD|Residual Standard Deviation]] is also used in [[Machine Learning]] [[as a metric|Root Mean Squared Error (Machine Learning Metric)]].
+
+https://en.wikipedia.org/wiki/Root-mean-square_deviation
+
+https://www.graphpad.com/support/faq/standard-deviation-of-the-residuals-syx-rmse-rsdr/
+
+https://quantifyinghealth.com/residual-standard-deviation-error/

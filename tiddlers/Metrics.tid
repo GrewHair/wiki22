@@ -1,7 +1,7 @@
 .hsk.transcludes: 
 created: 20200221103306765
 icon: _my/images/icons/section
-modified: 20200325171428277
+modified: 20200826180700495
 tags: [[Machine Learning]] [[How to Win a Data Science Competition]]
 title: Metrics
 tmap.id: dac5b6fe-b130-4742-a4d9-f2c3544e0a9e
@@ -9,7 +9,7 @@ type: text/vnd.tiddlywiki
 
 ''[[Regression]] metrics:''
 
-* [[MSE|Mean Squared Error]], [[RMSE|Root Mean Squared Error]], [[R-squared|Coefficient of Determination]]
+* [[MSE|Mean Squared Error]], [[RMSE|Root Mean Squared Error (Machine Learning Metric)]], [[R-squared|Coefficient of Determination (Machine Learning Metric)]]
 * [[MAE|Mean Absolute Error]]
 * (R)[[MSPE|Mean Squared Percentage Error]], [[MAPE|Mean Absolute Percentage Error]]
 * [[MSLE|Mean Squared Logarithmic Error]], [[RMSLE|Root Mean Squared Logarithmic Error]]

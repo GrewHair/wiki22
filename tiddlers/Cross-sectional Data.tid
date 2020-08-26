@@ -3,10 +3,14 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200201102449358
-modified: 20200325163729577
+modified: 20200826105601874
 tags: Stub Data
 title: Cross-sectional Data
 tmap.id: 3d4ddfe7-e9ed-4d7a-96d7-f1d2dc0ef57a
 type: text/vnd.tiddlywiki
+
+''AKA Cross Section''
+
+[[Cross-sectional Data]] is a type of [[Data]] collected by observing many subjects at one point in time.
 
 https://en.wikipedia.org/wiki/Cross-sectional_data

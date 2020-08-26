@@ -1,6 +1,8 @@
+.hsk.transcludes: [[MLE for Linear Regression]]
+.prs.tex_formula: $$ \displaystyle b_0 = \mathbb E[Y] - b_1 \mathbb E[X] \\[10pt] b_1 = \frac {\operatorname{Cov}(X,Y)}{\operatorname{Var}(X)} $$
 created: 20200825122245044
-modified: 20200825153358415
-tags: [[Probability Theory]] Statistics [[Linear Regression]]
+modified: 20200825215533130
+tags: [[Probability Theory]] Statistics [[Linear Regression]] [[MIT 6.041/6.431 Probabilistic Systems Analysis and Applied Probability]]
 title: Probabilistic Interpretation of Linear Regression
 tmap.id: 8bac87dc-5d9e-4941-9104-edbbdd08a1f3
 type: text/vnd.tiddlywiki
@@ -33,8 +35,13 @@ We'll do this for the [[univariate case|Univariate Linear Regression]].
 
 So summing up:
 
-$$
-\displaystyle
-b_0 = \mathbb E[Y] - b_1 \mathbb E[X] \\[10pt]
-b_1 = \frac {\operatorname{Cov}(X,Y)}{\operatorname{Var}(X)}
-$$
+<center>{{!!.prs.tex_formula}}.</center>
+
+Compare this to the [[estimated results|MLE for Linear Regression]]:
+
+<center>{{MLE for Linear Regression!!.prs.tex_formula}}.</center>
+
+One may notice two things:
+
+* Everything matches :)
+* This is a somewhat rare case where one could get away with deriving everything using just the [[Probability|Probability Theory]] machinery, and then simply mindlessly substituting [[Expectations|Expectation]], [[Covariances|Covariance]], etc. for their [[Estimators]] at the very end of the procedure (typically, this is wrong and could mislead one very easily in other cases).

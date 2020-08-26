@@ -1,5 +1,6 @@
+.prs.tex_formula: $$\hat b_0 = \bar y - \hat b_1 \bar x, \\[10pt] \displaystyle \hat b_1 = \frac {\sum_{i=1}^n(x_i-\bar x)(y_i-\bar y)} {\sum_{i=1}^n(x_i - \bar x)^2}$$
 created: 20200825064053810
-modified: 20200825142305594
+modified: 20200825183724634
 tags: Statistics [[I Don't Quite Understand This]] [[MIT 6.041/6.431 Probabilistic Systems Analysis and Applied Probability]] [[Linear Regression]] [[Maximum Likelihood Estimation]]
 title: MLE for Linear Regression
 tmap.id: 02c3fa5f-8623-4094-92c0-5e48d727970a
@@ -56,16 +57,7 @@ Now we just need to take some [[Derivatives|Derivative]], set them to zero and s
 
 Doing so yields:
 
-$$
-\displaystyle
-\hat b_1 = \frac
-{\sum_{i=1}^n(x_i-\bar x)(y_i-\bar y)}
-{\sum_{i=1}^n(x_i - \bar x)^2};
-$$
-
-$$
-\hat b_0 = \bar y - \hat b_1 \bar x,
-$$
+<center>{{!!.prs.tex_formula}};</center>
 
 where $$\bar x$$ and $$\bar y$$ are the [[Means|Sample Mean]]:
 

@@ -1,5 +1,5 @@
 created: 20200823070243882
-modified: 20200823072613745
+modified: 20200826121705615
 tags: Statistics Stub [[Regression Analysis]]
 title: Residual
 tmap.id: c4038a5b-72e9-4f5e-aec3-ac01c4642229
@@ -7,6 +7,8 @@ type: text/vnd.tiddlywiki
 
 ''AKA Fitting Deviation''
 
-A [[Residual]] is an observable [[Estimate]] of the unobservable [[Statistical Error]] - i.e. it is the difference between the observed value and the [[Estimated Value|Estimate]] of the [[quantity of interest|Statistical Parameter]].
+A [[Residual]] is an observable [[Estimate]] of the unobservable [[Statistical Error]] - i.e. it is the difference between the observed value and the [[Estimated Value|Estimate]] of the quantity of interest.
+
+A [[Deviation|Deviation (Statistics)]] is called a [[Residual]] when it has been calculated from the [[Sample|Sample (Statistics)]] that was used for estimation.
 
 https://en.wikipedia.org/wiki/Errors_and_residuals

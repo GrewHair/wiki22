@@ -1,0 +1,15 @@
+created: 20200826115116893
+modified: 20200826121104687
+tags: Statistics
+title: Deviation (Statistics)
+tmap.id: 64ed91c8-3dc8-4d88-b474-28720c698955
+type: text/vnd.tiddlywiki
+
+In [[Statistics]], [[Deviation|Deviation (Statistics)]] is a measure of difference between the [[Observed Value|Observation]] of a [[Variable|Random Variable]] and //some other value//. This //other value// is often the [[variable|Random Variable]]'s [[Mean|Expectation]], but not exclusively.
+
+''Types:''
+
+* [[Error|Statistical Error]]
+* [[Residual]]
+
+https://en.wikipedia.org/wiki/Deviation_(statistics)

@@ -4,7 +4,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200228191436009
-modified: 20200825100704733
+modified: 20200826081623320
 tags: Statistics
 title: Likelihood Function
 tmap.id: b77f4593-c2d8-4bb5-9d9b-0650f95454a3

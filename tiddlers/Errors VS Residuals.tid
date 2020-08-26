@@ -1,0 +1,10 @@
+created: 20200826121837805
+modified: 20200826122736984
+tags: Statistics Stub
+title: Errors VS Residuals
+tmap.id: fa07f5ba-bcbc-4581-9cc9-ce5e98f0eafd
+type: text/vnd.tiddlywiki
+
+In [[Statistics]] one should distinguish [[Errors|Statistical Error]] from [[Residuals|Residual]]!
+
+However, in other related frameworks like [[Machine Learning]] this distinction is often of no practical importance, and so you may come across these notions being used interchangeably (although it is rare that anyone uses the term "residuals" outside of the [[Statistical|Statistics]] context - they just call everything "errors").
