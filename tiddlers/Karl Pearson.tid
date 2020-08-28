@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200620025023708
-modified: 20200815125650605
+modified: 20200828080451756
 tags: Statistics Person
 title: Karl Pearson
 tmap.id: c72528a1-e39d-4034-b966-cfe2add68c5f
@@ -13,3 +13,5 @@ type: text/vnd.tiddlywiki
 * [[Pearson's Chi-squared Test]]
 * [[Pearson Correlation Coefficient]]
 * [[Chi-square Distribution]]
+* [[Method of Moments]]
+* [[Pearson Distribution]]

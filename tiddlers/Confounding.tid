@@ -1,0 +1,20 @@
+created: 20200827165741067
+modified: 20200827171520612
+tags: Statistics [[Khan Academy AP/College Statistics]] Stub
+title: Confounding
+tmap.id: bfce6aa5-d7e6-4b0d-92ea-5f23ad7c2450
+type: text/vnd.tiddlywiki
+
+''AKA Confounder, Confounding Variable, Confounding Factor, Lurking Variable''
+
+In [[Statistics]], a [[Confounder|Confounding]] is a [[Variable|Random Variable]] that influences both the [[Dependent|Dependent Variable]] and the [[Independent|Independent]] variables, causing a [[Spurious Association]].
+
+''Example:''
+
+* Assume there is a [[Correlation|Pearson Correlation Coefficient]] between computer hours per day and blood pressure
+* It's tempting to say that computers raise the blood pressure
+* But correlation does not imply causation
+* Turns out, there was a third variable we didn't consider - daily activity amount - which really affected both our variables - and it is the true cause of the phenomena
+* this daily activity amount is called a [[Confounding Variable|Confounding]]
+
+https://en.wikipedia.org/wiki/Confounding

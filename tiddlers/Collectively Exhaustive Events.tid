@@ -1,0 +1,25 @@
+created: 20200827110359889
+modified: 20200827112112412
+tags: [[Probability Theory]] Logic
+title: Collectively Exhaustive Events
+tmap.id: d85412e6-3919-4e9e-aaa1-8b788b54e60c
+type: text/vnd.tiddlywiki
+
+''AKA Jointly Exhaustive Events''
+
+In [[Logic]] and [[Probability Theory]], a [[Set]] of [[Events|Event (Probability Theory)]] is [[Collectively Exhaustive|Collectively Exhaustive Events]] if at least one of the [[Events|Event (Probability Theory)]] must occur.
+
+''Examples:''
+
+* When rolling a six-sided die, the [[Events|Event (Probability Theory)]] $$1$$, $$2$$, $$3$$, $$4$$, $$5$$ and $$6$$ are [[Collectively Exhaustive|Collectively Exhaustive Events]]
+* When rolling a six-sided die, the [[Events|Event (Probability Theory)]] $$\text{even}$$ and $$\text{odd}$$ are [[Collectively Exhaustive|Collectively Exhaustive Events]]
+
+The [[Union|Set Union]] of [[Collectively Exhaustive|Collectively Exhaustive Events]] [[Events|Event (Probability Theory)]] must [[Equal|Set Equality]] to the [[Sample Space]]. E.g. [[Events|Event (Probability Theory)]] $$A$$ and $$B$$ are said to be [[Collectively Exhaustive|Collectively Exhaustive Events]] if:
+
+$$
+A \cup B = S,
+$$
+
+where $$S$$ is the [[Sample Space]].
+
+https://en.wikipedia.org/wiki/Collectively_exhaustive_events

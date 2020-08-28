@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200620024732276
-modified: 20200815153506102
+modified: 20200828095911039
 tags: Statistics Person
 title: Ronald Fisher
 tmap.id: 41a488c7-8842-4765-955c-17a01fa871b5
@@ -13,3 +13,6 @@ type: text/vnd.tiddlywiki
 * [[Analysis of Variance]]
 * [[Significance Test]]
 * [[F-distribution]]
+* [[Fisher Information]]
+* [[Sufficient Statistic]]
+* [[Ancillary Statistic]]

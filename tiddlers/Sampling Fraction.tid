@@ -1,0 +1,20 @@
+created: 20200827120524703
+modified: 20200827125128235
+tags: Statistics
+title: Sampling Fraction
+tmap.id: bf3430cf-ab2d-420a-b124-225462637e79
+type: text/vnd.tiddlywiki
+
+The [[Sampling Fraction]] is the ratio of [[Sample|Sample (Statistics)]] size to [[Population|Population (Statistics)]] size, or, with [[Stratified Sampling]], the ratio of the [[Sample|Sample (Statistics)]] size to the size of the [[Stratum|Subpopulation (Statistics)]]:
+
+$$
+\displaystyle
+f = \frac n N,
+$$
+
+where:
+
+* $$n$$ is [[Sample|Sample (Statistics)]] size;
+* $$N$$ is [[Population|Population (Statistics)]] (or [[Stratum|Subpopulation (Statistics)]]) size.
+
+https://en.wikipedia.org/wiki/Sampling_fraction

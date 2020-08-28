@@ -1,0 +1,21 @@
+created: 20200827130330512
+modified: 20200827162421532
+tags: Statistics [[Khan Academy AP/College Statistics]]
+title: Stratified Sampling
+tmap.id: 9a4b6e02-6ca8-48c5-837e-37368ef86674
+type: text/vnd.tiddlywiki
+
+[img width=300 [_my/images/png/stratified_sampling]]
+
+In [[Statistics]], [[Stratified Sampling]] is a method of [[Sampling]] from a [[Population|Population (Statistics)]] which can be [[Partitioned|Partition of a Set]] into [[Subpopulations|Subpopulation (Statistics)]].
+
+Performing [[Stratified Sampling]] involves two steps: first [[Stratify|Stratification]] the [[Population|Population (Statistics)]], then [[Sample|Sampling]] from each of the resulting [[Strata|Subpopulation (Statistics)]].
+
+The question is what [[Sample|Sample (Statistics)]] size $$n$$ to choose for each of the [[Strata|Subpopulation (Statistics)]], which leads us to..
+
+''Stratified Sampling Strategies:''
+
+* [[Proportionate Allocation]]
+* [[Optimum Allocation]]
+
+https://en.wikipedia.org/wiki/Stratified_sampling

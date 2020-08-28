@@ -2,16 +2,13 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-created: 20200426123744546
-modified: 20200828120832877
-tags: Combinatorics Stub
-title: Combination
-tmap.id: c31e5396-9550-4670-be41-376bd300d21f
+created: 20200828075323686
+modified: 20200828075440973
+tags: Statistics Person
+title: Francis Galton
+tmap.id: 2c5c0281-4cdf-42e1-8e76-029b72d3a7a9
 type: text/vnd.tiddlywiki
 
-$$
-\displaystyle
-{n \choose k} =
-\frac {n(n-1)\cdots(n - k +1)} {k(k-1)\cdots1} =
-\frac {n!}{k!(n-k)!}
-$$
+* [[Standard Deviation]]
+* [[Correlation]]
+* [[Regression Analysis]]

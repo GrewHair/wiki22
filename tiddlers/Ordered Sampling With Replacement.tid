@@ -3,8 +3,8 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200427132622352
-modified: 20200427132654632
-tags: Combinatorics
+modified: 20200828120750072
+tags: Combinatorics Stub
 title: Ordered Sampling With Replacement
 tmap.id: 113713ff-3722-4296-997c-2ad9704a2636
 type: text/vnd.tiddlywiki

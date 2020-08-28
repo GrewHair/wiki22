@@ -1,0 +1,14 @@
+created: 20200827143154987
+modified: 20200827154354983
+tags: Statistics
+title: Optimum Allocation
+tmap.id: e9bcf293-2b47-4912-9a7a-a6f4f12a9a83
+type: text/vnd.tiddlywiki
+
+''AKA Disproportionate allocation''
+
+[[Optimum Allocation]] is a type of [[Stratified Sampling]] with which the sampling fraction of each [[Stratum|Subpopulation (Statistics)]] is proportionate to both the proportion (as in [[Proportionate Allocation]]) //and// the [[Standard Deviation]] of the [[Distribution|Probability Distribution]] of the [[Variable|Random Variable]].
+
+Larger samples are taken in the [[Strata|Subpopulation (Statistics)]] with the greatest variability to generate the least possible overall [[Sampling Variance]].
+
+https://stattrek.com/statistics/dictionary.aspx?definition=optimum_allocation

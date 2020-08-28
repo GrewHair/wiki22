@@ -3,13 +3,15 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200228194906703
-modified: 20200809140640159
+modified: 20200828094007829
 tags: Statistics
 title: Sufficient Statistic
 tmap.id: 0e70a219-2fa7-41f2-90b3-c199f72ff17c
 type: text/vnd.tiddlywiki
 
 A [[Statistic]] is [[Sufficient|Sufficient Statistic]] if it conveys all the available information about the [[parameter|Statistical Parameter]].
+
+More formally (from Wikipedia), a [[Statistic]] $$T(X)$$ is [[Sufficient|Sufficient Statistic]] //for underlying [[parameter|Statistical Parameter]]// $$\theta$$ precisely if the [[Conditional Probability Distribution]] of the data $$X$$, given $$T(X)$$, does not depend on the [[Parameter|Statistical Parameter]] $$\theta$$.
 
 Simply speaking, suppose you have a [[Sample|Statistical Sample]] and you are interested in some <<tex \theta "Statistical Parameter">>. If then you come up with a [[Sufficient Statistic]], you can then throw all the data away, because all the information you need sits in that statistic. 
 

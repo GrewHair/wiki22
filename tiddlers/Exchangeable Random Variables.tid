@@ -1,0 +1,24 @@
+created: 20200828121216031
+modified: 20200828153713065
+tags: Statistics Stub
+title: Exchangeable Random Variables
+tmap.id: 3392102f-c172-4624-b8ed-d84368514ddc
+type: text/vnd.tiddlywiki
+
+An [[Exchangeable Sequence of Random Variables|Exchangeable Random Variables]] is a [[Finite|Finite Set]] or [[Infinite|Infinite Set]] sequence of [[Random Variables|Random Variable]] 
+
+$$
+X_1, X_2, X_3, \ldots,
+$$
+
+such that for any finite (sic!) [[Permutation]] $$\sigma$$ of the indices $$1, 2, 3, \ldots$$, the [[Joint Probability Distribution]] of the permuted sequence
+
+$$
+X_{\sigma(1)}, X_{\sigma(2)}, X_{\sigma(3)}, \ldots
+$$
+
+is the same as the [[Joint Probability Distribution]] of the original sequence.
+
+The [[Distribution Function|Cumulative Distribution Function]] $$F_{X_1,\ldots,X_n}(x_1, \ldots, x_n)$$ of a [[Finite|Finite Set]] sequence of [[Exchangeable Random Variables]] is [[Symmetric|Symmetric Function]] in its arguments $$x_1, \ldots, x_n$$.
+
+https://en.wikipedia.org/wiki/Exchangeable_random_variables

@@ -1,0 +1,18 @@
+created: 20200827135830087
+modified: 20200827143103528
+tags: Statistics
+title: Proportionate Allocation
+tmap.id: b5ab7b0e-c7c0-495c-86ac-6bc0a6d6ebf2
+type: text/vnd.tiddlywiki
+
+''AKA Proportionate Stratification''
+
+[[Proportionate Allocation]] is a type of [[Stratified Sampling]], with which the [[Sample|Sample (Statistics)]] size of each [[Stratum|Subpopulation (Statistics)]] is proportionate to the size of the [[Stratum|Subpopulation (Statistics)]] itself. This means that each [[Stratum|Subpopulation (Statistics)]] has the same [[Sampling Fraction]].
+
+//Example://
+
+* assume the [[Population|Population (Statistics)]] size is $$N$$, $$m$$ of which are male and $$f$$ female, so that $$m+f=N$$;
+* the proportions of [[Strata|Subpopulation (Statistics)]] then are $$\displaystyle n_m = \frac m N$$ and $$\displaystyle n_f = \frac f N$$, $$n_m + n_f = 1$$;
+* then the [[Sample|Sample (Statistics)]] sizes of the [[Strata|Subpopulation (Statistics)]] must follow the same proportion.
+
+https://stattrek.com/statistics/dictionary.aspx?definition=optimum_allocation

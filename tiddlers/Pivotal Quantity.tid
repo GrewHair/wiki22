@@ -1,0 +1,20 @@
+created: 20200828090946711
+modified: 20200828092247865
+tags: Statistics
+title: Pivotal Quantity
+tmap.id: 0ce65d76-dc5e-4259-851e-2195c8db23e4
+type: text/vnd.tiddlywiki
+
+''AKA Pivot''
+
+In [[Statistics]], a [[Pivotal Quantity]] is a [[Function]] of [[Observations|Observation]] and unobservable [[Parameters|Statistical Parameter]] who's [[Probability Distribution]] does not depend on the unknown [[Parameters|Statistical Parameter]] (including [[Nuisance Parameters|Nuisance Parameter]]).
+
+It need not be a [[Statistic]] in that its //value// is allowed to depend on the unknown true [[Parameters|Statistical Parameter]] of the [[Model|Statistical Model]], the point is that its //[[Distribution|Probability Distribution]]// must __not__.
+
+If it also happens to be a [[Statistic]], then it is known as an [[Ancillary Statistic]].
+
+''Examples:''
+
+* [[Z-Score|Standard Score]]
+* [[T-statistic]], modified to be of the form $$\displaystyle \frac {\mu - \bar{X}}{S/\sqrt{n}}$$ (i.e. with the true $$\mu$$ in the numerator)
+* ...

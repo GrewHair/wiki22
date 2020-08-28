@@ -1,0 +1,16 @@
+created: 20200827102329470
+modified: 20200827113704404
+tags: Logic [[Probability Theory]]
+title: Mutually Exclusive Events
+tmap.id: 88a266bb-2918-411b-b44b-08af711e6abd
+type: text/vnd.tiddlywiki
+
+''AKA Disjoint Events''
+
+In [[Logic]] and [[Probability Theory]], two [[Events|Event (Probability Theory)]] or [[Propositions]] are [[Mutually Exclusive|Mutual Exclusivity]] if they cannot both occur at the same time.
+
+* The [[Events|Event (Probability Theory)]] that are [[Mutually Exclusive|Mutually Exclusive Events]] are [[Disjoint Sets]].
+
+* The [[Propositions]] that are [[Mutually Exclusive|Mutually Exclusive Events]] are also called [[Contradictory|Contradictory Propositions]].
+
+https://en.wikipedia.org/wiki/Mutual_exclusivity

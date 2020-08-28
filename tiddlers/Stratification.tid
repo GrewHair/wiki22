@@ -1,30 +1,14 @@
-.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
-.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
-.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
-.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-.hsk.transcludes: [[_my/images/png/stratification_unsplit]][[_my/images/png/stratification_split_unstratified]][[_my/images/png/stratification_split_unstratified_freqs]][[_my/images/png/stratification_split_stratified_freqs]]
-created: 20200131114858770
-modified: 20200325163851014
-tags: [[How to Win a Data Science Competition]] [[Machine Learning]]
+created: 20200827131235513
+modified: 20200827135651624
+tags: Statistics
 title: Stratification
-tmap.id: 23c7e55e-9778-4137-a91e-b023d942f008
+tmap.id: 3caade3e-2df1-4c88-9ae2-49210e6091a6
 type: text/vnd.tiddlywiki
 
-[[Stratification]] ensures similar target distribution over different folds.
+[[Stratification]] is the process of dividing members of the [[Population|Population (Statistics)]] into homogeneous groups (referred to as [[Strata|Subpopulation (Statistics)]]) based on some (more or less "tangible") criteria.
 
-!! //Example://
+E.g. we can group US population by nationality.
 
-* We have a small train dataset  with targets [0, 1]:
-*>{{_my/images/png/stratification_unsplit}}
-* We split it into four folds:
-*>{{_my/images/png/stratification_split_unstratified}}
-* We notice that some folds have substantially different class frequencies then others:
-*>{{_my/images/png/stratification_split_unstratified_freqs}}
-* To fix this problem, we [[Stratify|Stratification]] out split:
-*>{{_my/images/png/stratification_split_stratified_freqs}}
+The [[Strata|Subpopulation (Statistics)]] should define a [[Partition|Partition of a Set]] of the [[Population|Population (Statistics)]] - i.e. they should be [[Collectively Exhaustive|Collectively Exhaustive Events]] and [[Mutually Exclusive|Mutually Exclusive Events]].
 
-Stratification is especially useful for:
-
-* Small datasets
-* Unbalanced datasets
-* Multiclass classification tasks with large amounts of classes
+https://www.statisticshowto.com/stratification-definition/

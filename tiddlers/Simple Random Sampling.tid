@@ -1,0 +1,15 @@
+created: 20200828155051603
+modified: 20200828163038105
+tags: 
+title: Simple Random Sampling
+tmap.id: c2b9e6bd-cc37-4a11-a8c5-4594f17cb5fb
+type: text/vnd.tiddlywiki
+
+A [[Simple Random Sample|Simple Random Sampling]] is a [[Subset]] of a [[Population|Population (Statistics)]], such that:
+
+* Each individual from the [[Population|Population (Statistics)]] has the same [[Probability|Probability Measure]] of being chosen at any stage during the sampling process;
+* Each [[Subset]] of $$k$$ individuals has the same [[Probability|Probability Measure]] of being chosen for the [[Sample|Sample (Statistics)]] as any other [[Subset]] of $$k$$ individuals.
+
+[[Simple Random Sampling]] is often used as a component of other more complex [[Sapling Methods]].
+
+In practise, this type of sampling is often done [["without replacement"|Unordered Sampling Without Replacement]]. Sampling done in this manner is no longer [[independent|Independent and Identically Distributed]], but still satisfies [[Exchangeability|Exchangeable Random Variables]], hence many results still hold. Further for a small [[Sample|Sample (Statistics)]] from a large [[Population|Population (Statistics)]], [[Sampling Without Replacement|Unordered Sampling Without Replacement]] is approximately the same as [[Sampling With Replacement|Unordered Sampling With Replacement]], because the [[Probability|Probability Measure]] of choosing the same individual twice is low.

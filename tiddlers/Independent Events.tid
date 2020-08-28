@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200429180537167
-modified: 20200429192810156
+modified: 20200828133944271
 tags: [[Probability Theory]] [[All of Statistics (Larry Wasserman)]]
 title: Independent Events
 tmap.id: 7f772e6d-bd1d-4ad9-b96a-8c11e6f2a8d8
@@ -26,7 +26,7 @@ $$
 
 for every finite subset $$J$$ of $$I$$.
 
-Note that this means that not only pairwise [[Independence]] is required, but __''all''__ possible combinations of [[Events|Event (Probability Theory)]] have to be independent (which is a hell of a lot of work)!!
+Note that this means that not only pairwise [[Independence|Independent Events]] is required, but __''all''__ possible combinations of [[Events|Event (Probability Theory)]] have to be independent (which is a hell of a lot of work)!!
 
 Another interpretation of [[Independence|Independent Events]] is that knowing $$B$$ doesn't change the probability of $$A$$ (see [[Conditional Probability]]):
 
