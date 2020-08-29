@@ -3,11 +3,17 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200424174338634
-modified: 20200425165227362
-tags: [[Probability Theory]] [[All of Statistics (Larry Wasserman)]]
+modified: 20200829113617742
+tags: [[Probability Theory]] [[All of Statistics (Larry Wasserman)]] Stub
 title: Interpretations of Probability
 tmap.id: 94adcce7-ff0d-466a-ae14-9b94f48db4c2
 type: text/vnd.tiddlywiki
 
 * ''Frequencies'' (gives rise to the [[Frequentist|Frequentist Statistics]] school)
 * ''Degrees of belief'' (gives rise to the [[Bayesian|Bayesian Statistics]] school)
+
+!!!''Definitions of Probability:''
+
+* [[Classical|Naive Definition of Probability]] (Laplace)
+* [[Axiomatic|Probability Axioms]] (Kolmogorov)
+* ...

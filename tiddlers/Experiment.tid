@@ -1,0 +1,23 @@
+created: 20200829093606544
+modified: 20200829103147704
+tags: [[Khan Academy AP/College Statistics]] Statistics Stub
+title: Experiment
+tmap.id: c50f7847-48a7-4b0b-b68b-41ac33556d3c
+type: text/vnd.tiddlywiki
+
+Components:
+
+* [[Explanatory Variable]](s)
+* [[Response Variable]]
+* [[Control Group]]
+* [[Treatment Group]] (aka experimental group)
+* [[Blocking]] (similar to [[Stratified Sampling]])
+
+
+Types:
+
+* [[Blind]]
+* [[Double Blind]]
+* [[Triple Blind]]
+
+https://en.wikipedia.org/wiki/Experiment

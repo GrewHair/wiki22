@@ -1,5 +1,5 @@
 created: 20200827162241684
-modified: 20200827163200461
+modified: 20200829090650218
 tags: Statistics Stub [[Khan Academy AP/College Statistics]]
 title: Cluster Sampling
 tmap.id: e94c84b1-ef2c-4c07-ae66-089ebb039e4a
@@ -7,4 +7,4 @@ type: text/vnd.tiddlywiki
 
 [img width=300 [_my/images/png/cluster_sampling]]
 
-[[Cluster Sampling]] is a method of [[Sampling]] used when mutually homogeneous yet internally heterogeneous groupings are evident in a [[Statistical Population|Population (Statistics)]] (e.g. city blocks, school classes, etc).
+[[Cluster Sampling]] is a [[Method of Sampling|Sampling Techniques]] used when mutually homogeneous yet internally heterogeneous groupings are evident in a [[Statistical Population|Population (Statistics)]] (e.g. city blocks, school classes, etc).

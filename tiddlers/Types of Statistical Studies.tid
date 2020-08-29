@@ -1,0 +1,10 @@
+created: 20200829091755001
+modified: 20200829094929296
+tags: [[Khan Academy AP/College Statistics]] Statistics
+title: Types of Statistical Studies
+tmap.id: a71dbdc7-c360-47c0-892b-3a670c5c19cc
+type: text/vnd.tiddlywiki
+
+* [[Sample Study]] - trying to estimate a (single) [[Population|Population (Statistics)]] [[Parameter|Statistical Parameter]]
+* [[Observational Study]] - trying to find [[Correlations|Correlation]] between (multiple) variables
+* [[Experiment]] - trying to establish causality
