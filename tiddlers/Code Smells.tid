@@ -1,6 +1,6 @@
 created: 20200808173829898
-modified: 20200808180327717
-tags: Python [[Coding Habits for Data Scientists]]
+modified: 20200908081610570
+tags: Python [[Coding Habits for Data Scientists]] [[The Rolling Scopes School | JavaScript/Front-end]] Stub
 title: Code Smells
 tmap.id: a5045a3d-a621-4434-8a92-5450ab53b57e
 type: text/vnd.tiddlywiki
@@ -8,4 +8,5 @@ type: text/vnd.tiddlywiki
 * [[Dead Code]]
 * [[Exposed Internals]]
 * [[Duplication]]
+* [[Magic Numbers]]
 * ...

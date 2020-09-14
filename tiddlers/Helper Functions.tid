@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200701142642468
-modified: 20200701142800726
+modified: 20200912092711555
 tags: Python
 title: Helper Functions
 tmap.id: f7f425bc-cf6b-48e5-b3cb-1803c7d635d0
@@ -14,3 +14,5 @@ https://stackoverflow.com/questions/42837402/role-of-helper-functions
 https://www.devsup.io/python-best-practices-helper-functions/
 
 https://docs.masoniteproject.com/the-basics/helper-functions
+
+One popular type of [[Helper Functions]] is the so called [[Predicate|Predicate Function (Programming)]].

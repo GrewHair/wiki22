@@ -1,0 +1,13 @@
+created: 20200912101532514
+modified: 20200912101745907
+tags: Javascript [[The Rolling Scopes School | JavaScript/Front-end]]
+title: Double Negation (Javascript)
+tmap.id: f1fb4244-95e8-48cb-a526-87a00712c8ea
+type: text/vnd.tiddlywiki
+
+[[Double Negation|Double Negation (Javascript)]] always returns `bool`!
+
+```js
+> !!10
+true
+```

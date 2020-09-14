@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200127081801358
-modified: 20200819135638706
+modified: 20200908100145097
 tags: English
 title: Dictionary
 tmap.id: 7172dc91-dffa-4b19-8ff2-b250677e4524
@@ -27,3 +27,8 @@ type: text/vnd.tiddlywiki
 * p-value - достигаемый уровень значимости
 * tenure - пребывание в должности
 * contingency table - таблица сопряженности
+* padding - внутренний отступ
+* margin - внешний отступ
+* escape sequence - экранирующая последовательность
+* string - a data type in programming
+* line - a part of a text file delimited with `\n`

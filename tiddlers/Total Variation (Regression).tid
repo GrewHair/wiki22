@@ -1,7 +1,7 @@
 .hsk.macrocall: [[_my/macros/tex]]
 .prs.tex_formula: $$\displaystyle \text{Total variation} = \sum_{i=1}^n(y_i - \bar y)^2$$
 created: 20200825215206481
-modified: 20200826082615994
+modified: 20200829135953944
 tags: Statistics Regression [[Khan Academy AP/College Statistics]] Stub [[I Don't Quite Understand This]]
 title: Total Variation (Regression)
 tmap.id: e65aba05-09d3-433b-8084-390122302ed2
@@ -18,3 +18,7 @@ One may argue that it's just [[Sample Variance]] of $$y$$ without the denominato
 <<tex "\text{Unexplained variation}" "Unexplained Variation (Regression)">>
 
 WHY????
+
+https://people.richland.edu/james/lecture/m170/ch11-rsq.html
+
+https://rstudio-pubs-static.s3.amazonaws.com/200255_ad666952d1344fd1868679a32d3e9c19.html

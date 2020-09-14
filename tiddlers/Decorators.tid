@@ -1,0 +1,13 @@
+created: 20200831201832179
+modified: 20200901104858641
+tags: Python Stub
+title: Decorators
+tmap.id: 3ef1eefa-5f17-4ba5-bf3a-1f604f8b0339
+type: text/vnd.tiddlywiki
+
+```python
+def outer_function():
+	def inner_function():
+		print(message)
+	return inner_function
+```

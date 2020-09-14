@@ -1,0 +1,630 @@
+created: 20200901104229089
+modified: 20200901201509245
+tags: Python Javascript
+title: Equivalents in Python and Javascript
+tmap.id: 32ae9e8e-97d0-4f42-b294-1a08b63b98ae
+type: text/vnd.tiddlywiki
+
+<$scrollable class="tc-scrollable-plantuml-1">
+<table style="zoom:60%">
+<thead>
+<tr>
+<th>Python</th>
+<th>Javascript</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="2"><b>Parsing integers</b></td>
+</tr>
+<tr>
+<td><$codeblock language="python" code="
+number = int(text)
+"/></td>
+<td><$codeblock language="js" code="
+number = parseInt(text, 10); //decimal
+
+number = parseInt(text, 8); //octal
+
+number = parseInt(text, 16); //hex
+"/></td>
+</tr>
+<tr>
+<td colspan="2"><b>Conditional assignment</b></td>
+</tr>
+<tr>
+<td><$codeblock language="python" code="
+value = 'ADULT' if age >= 18 else 'CHILD'
+"/></td>
+<td><$codeblock language="javascript" code="
+value = age >= 18 ? 'ADULT' : 'CHILD';
+"/></td>
+</tr>
+<tr>
+<td colspan="2"><b>Object attribute value by attribute name</b></td>
+</tr>
+<tr>
+<td colspan="2"><$codeblock language="python" code="obj.color = 'YELLOW'"/></td>
+</tr>
+<tr>
+<td><$codeblock language="python" code="
+attribute = 'color'
+value = getattr(obj, attribute, 'GREEN')
+setattr(obj, attribute, value)
+"/></td>
+<td><$codeblock language="js" code="
+attribute = 'color';
+value = obj[attribute] || 'GREEN';
+obj[attribute] = value;
+"/></td>
+</tr>
+<tr>
+<td colspan="2"><b>Slicing lists and strings</b></td>
+</tr>
+<tr>
+<td><$codeblock language="python" code="
+items = [1, 2, 3, 4, 5]
+first_two = items[:2]  # [1, 2]
+last_two = items[-2:]  # [4, 5]
+middle_three = items[1:4]  # [2, 3, 4]
+"/></td>
+<td><$codeblock language="js" code="
+items = [1, 2, 3, 4, 5];
+first_two = items.slice(0, 2);  // [1, 2]
+last_two = items.slice(-2);  // [4, 5]
+middle_three = items.slice(1, 4);  // [2, 3, 4]
+"/></td>
+</tr>
+<tr>
+<td colspan="2"><b>Operations with list items</b></td>
+</tr>
+<tr>
+<td><$codeblock language="python" code="
+items1 = ['A']
+items2 = ['B']
+items = items1 + items2  # items == ['A', 'B']
+items.append('C')  # ['A', 'B', 'C']
+items.insert(0, 'D')  # ['D', 'A', 'B', 'C']
+first = items.pop(0)  # ['A', 'B', 'C']
+last = items.pop()  # ['A', 'B']
+items.delete(0)  # ['B']
+"/></td>
+<td><$codeblock language="js" code="
+items1 = ['A'];
+items2 = ['B'];
+items = items.concat(items2);  // items === ['A', 'B']
+items.push('C');  // ['A', 'B', 'C']
+items.unshift('D');  // ['D', 'A', 'B', 'C']
+first = items.shift();  // ['A', 'B', 'C']
+last = items.pop();  // ['A', 'B']
+items.splice(0, 1);  // ['B']
+"/></td>
+</tr>
+<tr>
+<td colspan="2"><b>Joining lists of strings</b></td>
+</tr>
+<tr>
+<td><$codeblock language="python" code="
+items = ['A', 'B', 'C']
+test = ', '.join(items)  # 'A, B, C'
+"/></td>
+<td><$codeblock language="js" code="
+items = ['A', 'B', 'C'];
+text = items.join(', ');  // 'A, B, C'
+"/></td>
+</tr>
+<tr>
+<td colspan="2"><b>JSON</b></td>
+</tr>
+<tr>
+<td><$codeblock language="python" code="
+import json
+json_data = json.dumps(dictionary, indent=4)
+dictionary = json.loads(json_data)
+"/></td>
+<td><$codeblock language="js" code="
+json_data = JSON.stringify(dictionary, null, 4);
+dictionary = JSON.parse(json_data);
+"/></td>
+</tr>
+<tr>
+<td colspan="2"><b>Splitting strings by regular expressions</b></td>
+</tr>
+<tr>
+<td><$codeblock language="python" code="
+import re
+
+# One or more characters of '!?.' followed by whitespace
+delimiter = re.compile(r'[!?\.]+\s*')
+
+text = 'Hello!!! What\'s new? Follow me.'
+sentences = delimiter.split(text)
+#sentences == ['Hello', 'What\'s new', 'Follow me', '']
+"/></td>
+<td><$codeblock language="js" code="
+// One or more characters of '!?.' followed by whitespace
+delimiter = /[!?\.]+\s*/;
+
+text = 'Hello!!! What\'s new? Follow me.';
+sentences = text.split(delimiter)
+// sentences === ['Hello', 'What\'s new', 'Follow me', '']
+"/></td>
+</tr>
+<tr>
+<td colspan="2"><b>Matching regular expression patterns in strings</b></td>
+</tr>
+<tr>
+<td><$codeblock language="python" code="
+import re
+
+# name, '@', and domain
+pattern = re.compile(r'([\w.+\-]+)@([\w\-]+\.[\w\-.]+)')
+
+match = pattern.match('hi@example.com')
+# match.group(0) == 'hi@example.com'
+# match.group(1) == 'hi'
+# match.group(2) == 'example.com'
+"/></td>
+<td><$codeblock language="js" code="
+// name, '@', and domain
+pattern = /([\w.+\-]+)@([\w\-]+\.[\w\-.]+)/;
+
+match = 'hi@example.com'.match(pattern);
+// match[0] === 'hi@example.com'
+// match[1] === 'hi'
+// match[2] === 'example.com'
+"/></td>
+</tr>
+<tr>
+<td><$codeblock language="python" code="
+text = 'Say hi at hi@example.com'
+first_match = pattern.search(text)
+if first_match:
+	start = first_match.start()  # start == 10
+"/></td>
+<td><$codeblock language="js" code="
+text = 'Say hi at hi@example.com';
+first_match = text.search(pattern);
+if (first_match > -1) {
+	start = first_match;  // start === 10
+}
+"/></td>
+</tr>
+<tr>
+<td colspan="2"><b>Replacing patterns in strings using regular expressions</b></td>
+</tr>
+<tr>
+<td><$codeblock language="python" code="
+html = pattern.sub(
+	r'<a href=\'mailto:\g<0>\'>\g<0></a>',
+	'Say hi at hi@example.com',
+)
+# html == 'Say hi at <a href=\'mailto:hi@example.com\'>hi@example.com</a>'
+"/></td>
+<td><$codeblock language="js" code="
+html = 'Say hi at hi@example.com'.replace(
+	pattern,
+	'<a href=\'mailto:$&\'>$&</a>'.
+);
+// html === 'Say hi at <a href=\'mailto:hi@example.com\'>hi@example.com</a>'
+"/></td>
+</tr>
+<tr>
+<td><$codeblock language="python" code="
+text = pattern.sub(
+	lambda match: match.group(0).upper(),
+	'Say hi at hi@example.com',
+)
+# text == 'Say hi at HI@EXAMPLE.COM'
+"/></td>
+<td><$codeblock language="js" code="
+text = 'Say hi at hi@example.com'.replace(
+	pattern,
+	function(match, p1, p2) {
+		return match.toUpperCase();
+	}
+);
+// text === 'Say hi at HI@EXAMPLE.COM'
+"/></td>
+</tr>
+<tr>
+<td colspan="2"><b>Error handling</b></td>
+</tr>
+<tr>
+<td><$codeblock language="python" code="
+class MyException(Exception):
+	def __init__(self, message):
+		self.message = message
+	
+	def __str__(self):
+		return self.message
+
+def proceed():
+	raise MyException('Error happened!')
+
+try:
+	proceed()
+except MyException as err:
+	print('Sorry! {}'.format(err))
+finally:
+	print('Finishing')
+"/></td>
+<td><$codeblock language="js" code="
+function MyException(message) {
+	this.message = message;
+	this.toString = function() {
+		return this.message;
+	}
+}
+
+function proceed() {
+	throw new MyException('Error happened!');
+}
+
+try {
+	proceed();
+} catch(err) {
+	if (err instanceof MyException) {
+		console.log('Sorry! ' + err);
+	}
+} finally {
+	console.log('Finishing');
+}
+"/></td>
+</tr>
+<tr>
+<td><b>Variables is strings</b></td>
+</tr>
+<tr>
+<td><$codeblock language="python" code='
+name = "World"
+value = f"""Hello, {name}!
+Welcome!"""
+
+price = 14.9
+value = f"Price: {price:.2f} $"  # "Price: 14.90 $"
+'/></td>
+<td><$codeblock language="js" code="
+name = 'World';
+value = `Hello, ${name}!
+Welcome!`;
+
+price = 14.9;
+value = `Price ${price.toFixed(2)} $`;  // 'Price: 14.90 $'
+"/></td>
+</tr>
+<tr>
+<td colspan="2"><b>Unpacking lists</b></td>
+</tr>
+<tr>
+<td><$codeblock language="python" code="
+a = 1
+b = 2
+a, b = b, a  # swap values
+"/></td>
+<td><$codeblock language="js" code="
+a = 1;
+b = 2;
+[a, b] = [b, a];  // swap values
+"/></td>
+</tr>
+<tr>
+<td><$codeblock language="python" code="
+first, second, *the_rest = [1, 2, 3, 4]
+# first == 1
+# second == 2
+# the_rest == [3, 4]
+"/></td>
+<td><$codeblock language="js" code="
+[first, second, ...the_rest] = [1, 2, 3, 4];
+// first === 1
+// last === 2
+// the_rest === [3, 4]
+"/></td>
+</tr>
+<tr>
+<td colspan="2"><b>Lambda functions</b></td>
+</tr>
+<tr>
+<td><$codeblock language="python" code="
+sum = lambda x, y: x + y
+square = lambda x: x ** 2
+"/></td>
+<td><$codeblock language="js" code="
+sum = (x, y) => x + y;
+square = x => Math.pow(x, 2);
+"/></td>
+</tr>
+<tr>
+<td colspan="2"><b>Iteration without indexes</b></td>
+</tr>
+<tr>
+<td><$codeblock language="python" code="
+for item in ['A', 'B', 'C']:
+	print(item)
+"/></td>
+<td><$codeblock language="js" code="
+for (let item of ['A', 'B', 'C']) {
+	console.log(item);
+}
+"/></td>
+</tr>
+<tr>
+<td><$codeblock language="python" code="
+for character in 'ABC':
+	print(character)
+"/></td>
+<td><$codeblock language="js" code="
+for (let character of 'ABC') {
+	console.log(character);
+}
+"/></td>
+</tr>
+<tr>
+<td colspan="2"><b>Generators</b></td>
+</tr>
+<tr>
+<td><$codeblock language="python" code="
+def countdown(counter):
+	while counter > 0:
+		yield counter
+		counter -= 1
+
+for counter in countdown(10):
+	print(counter)
+"/></td>
+<td><$codeblock language="js" code="
+function* countdown(counter) {
+	while (counter > 0) {
+		yield counter;
+		counter--;
+	}
+}
+
+for (let counter of countdown(10)) {
+	console.log(counter);
+}
+"/></td>
+</tr>
+<tr>
+<td colspan="2"><b>Sets</b></td>
+</tr>
+<tr>
+<td><$codeblock language="python" code="
+s = set(['A'])
+s.add('B'); s.add('C')
+'A' in s
+len(s) == 3
+for elem in s:
+	print(elem)
+s.remove('C')
+"/></td>
+<td><$codeblock language="js" code="
+s = new Set(['A']);
+s.add('B').add('C');
+s.has('A') === True;
+s.size === 3;
+for (let elem of s.values()) {
+	console.log(elem);
+}
+s.delete('C')
+"/></td>
+</tr>
+<tr>
+<td colspan="2"><b>Function arguments</b></td>
+</tr>
+<tr>
+<td><$codeblock language="python" code="
+from pprint import pprint
+
+def report(post_id, reason='not-relevant'):
+	pprint({'post_id': post_id, 'reason': reason})
+
+report(42)
+report(post_id=24, reason='spam')
+"/></td>
+<td><$codeblock language="js" code="
+function report(post_id, reason='not-relevant') {
+	console.log({post_id: post_id, reason: reason});
+}
+
+report(42);
+report(post_id=24, reason='spam');
+"/></td>
+</tr>
+<tr>
+<td><$codeblock language="python" code="
+from pprint import pprint
+
+def add_tags(post_id, *tags):
+	pprint({'post_id': post_id, 'tags': tags})
+
+add_tags(42, 'python', 'javascript', 'django')
+"/></td>
+<td><$codeblock language="js" code="
+function add_tags(post_id, ...tags) {
+	console.log({post_id: post_id, tags: tags});
+}
+
+add_tags(42, 'python', 'javascript', 'django');
+"/></td>
+</tr>
+<tr>
+<td><$codeblock language="python" code="
+from pprint import pprint
+
+def create_post(**options):
+	pprint(options)
+
+create_post(
+	title='Hello, World!',
+	content='This is our first post.',
+	is_published=True,
+)
+
+create_post(
+	title='Hello again!',
+	content='This is our second post.',
+)
+ "/></td>
+<td><$codeblock language="js" code="
+function create_post(options) {
+	console.log(options);
+}
+
+create_post({
+	'title': 'Hello, World!',
+	'content': 'This is our first post.',
+	'is_pudlished': true
+});
+
+create_post({
+	'title': 'Hello again!',
+	'content': 'This is our second post.'
+});
+ "/></td>
+</tr>
+<tr>
+<td colspan="2"><b>Classes and inheritance</b></td>
+</tr>
+<tr>
+<td><$codeblock language="python" code="
+class Post(object):
+	def __init__(self, id, title):
+		self.id = id
+		self.title = title
+	
+	def __str__(self):
+		return self.title
+
+post = Post(42, 'Hello, World!')
+isinstance(post, Post) == True
+print(post)
+"/></td>
+<td><$codeblock language="js" code="
+class Post {
+	constructor (id, title) {
+		this.id = id;
+		this.title = title;
+	}
+	
+	toString() {
+		return this.title;
+	}
+}
+
+post = new Post(42, 'Hello, World!');
+post instanceof Post === true;
+console.log(post.toString()); // Hello, World!
+"/></td>
+</tr>
+<tr>
+<td><$codeblock language="python" code="
+class Article(Post):
+	def __init__(self, id, title, content):
+		super(Article, self).__init__(id, title)
+		self.content = content
+
+class Link(Post):
+	def __init__(self, id, title, url):
+		super(Link, self).__init__(id, title)
+		self.url = url
+
+def __str__(self):
+	return '{} ({})'.format(
+		super(Link, self).__str__(),
+		self.url,
+	)
+
+article = Article(1, 'Hello, World!', 'This is my first article.')
+link = Link(2, 'DjangoTricks', 'https://djangotricks.blogspot.com')
+isinstance(article, Post) == True
+isinstance(link, Post) == True
+print(link)
+# DjangoTricks (https://djangotricks.blogspot.com)
+"/></td>
+<td><$codeblock language="js" code="
+class Article extends Post {
+	constructor (id, title, content) {
+		super(id, title);
+		this.content = content;
+	}
+}
+
+class Link extends Post {
+	constructor (id, title, url) {
+		super(id, title);
+		this.url = url;
+	}
+	
+	toString() {
+		return super.toString() + ' (' + this.url + ')';
+	}
+}
+
+article = new Article(1, 'Hello, World!', 'This is my first article.');
+link = new Link(2, 'DjangoTricks', 'https://djangotricks.blogspot.com');
+article instanceof Post === true;
+link instanceof POst === true;
+console.log(link.toString());
+// DjangoTricks (https://djangotricks.blogspot.com)
+"/></td>
+</tr>
+<tr>
+<td colspan="2"><b>Class properties: getters and setters</b></td>
+</tr>
+<tr>
+<td><$codeblock language="python" code="
+class Post(object):
+	def __init__(self, id, title):
+		self.id = id
+		self.title = title
+		self._slug = ''
+	
+	@property
+	def slug(self):
+		return self._slug
+	
+	@slug.setter
+	def slug(self, value):
+		self._slug = value
+
+post = new Post(1, 'Hello, World!')
+post.slug = 'hello-world'
+print(post.slug)
+"/></td>
+<td><$codeblock language="js" code="
+class Post {
+	constructor (id, title) {
+		this.id = id;
+		this.title = title;
+		this._slug = '';
+	}
+	
+	set slug(value) {
+		this._slug = value;
+	}
+	
+	get slug() {
+		return this._slug;
+	}
+}
+
+post = new Post(1, 'Hello, World!');
+post.slug = 'hello-world';
+console.log(post.slug);
+"/></td>
+</tr>
+</tbody>
+</table>
+</$scrollable>
+
+https://djangotricks.blogspot.com/2018/06/equivalents-in-python-and-javascript-part-1.html
+
+https://djangotricks.blogspot.com/2018/07/equivalents-in-python-and-javascript-part-2.html
+
+https://djangotricks.blogspot.com/2018/07/equivalents-in-python-and-javascript-part-3.html
+
+https://djangotricks.blogspot.com/2018/07/equivalents-in-python-and-javascript-part-4.html
+
+https://www.djangotricks.com/goodies/YbnpiLKBmAZi/

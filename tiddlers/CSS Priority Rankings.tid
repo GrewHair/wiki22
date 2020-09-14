@@ -1,0 +1,67 @@
+created: 20200907162805021
+modified: 20200907183619103
+tags: [[The Rolling Scopes School | JavaScript/Front-end]] Stub
+title: CSS Priority Rankings
+tmap.id: 58505ec6-1836-40a5-ae3e-70c8cfb48180
+type: text/vnd.tiddlywiki
+
+<table>
+<tr>
+<td>1. Importance</td>
+<td><$codeblock language="html" code='<span style="color:blue!important; color:red">This is going to be BLUE</span>'/></td>
+</tr>
+<tr>
+<td>2. Inline style</td>
+<td><$codeblock language="html" code='<style>
+	h1 {
+		color:red;
+	}
+</style>
+
+<h1 style="color:blue;">This is going to be BLUE</h1>'/></td>
+</tr>
+<tr>
+<td>3. Media Type</td>
+<td>???</td>
+</tr>
+<tr>
+<td>4. User defined</td>
+<td>(browser accessibility feature)</td>
+</tr>
+<tr>
+<td>5. Selector specificity</td>
+<td><$codeblock language="html" code='<style>
+	p {color:red;}
+	.blue {color:blue;}
+	#green {color:green;}
+</style>
+
+<p class="blue" id="green">This is going to be GREEN</p>
+'/></td>
+</tr>
+<tr>
+<td>6. Rule order</td>
+<td><$codeblock language="html" code='<p style="color:red; color:blue">This is going to be BLUE</p>'/></td>
+</tr>
+<tr>
+<td>7. Parent inheritance</td>
+<td><$codeblock language="html" code='<body style="color:red">
+	<p>This is going to be RED</p>
+</body>'/></td>
+</tr>
+<tr>
+<td>8. CSS property definition in HTML document</td>
+<td><$codeblock language="html" code='<style>
+	p {color:red;}
+</style>
+
+<p>This is going to be RED</p>
+'/></td>
+</tr>
+<tr>
+<td>9. Browser default</td>
+<td>The lowest priority; it is determined by [[W3C]] initial value specifications</td>
+</tr>
+</table>
+
+https://www.thebookdesigner.com/2017/02/styling-priorities-css-for-ebooks-3/

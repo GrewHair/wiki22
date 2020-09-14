@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200424174338634
-modified: 20200829113617742
+modified: 20200829135843206
 tags: [[Probability Theory]] [[All of Statistics (Larry Wasserman)]] Stub
 title: Interpretations of Probability
 tmap.id: 94adcce7-ff0d-466a-ae14-9b94f48db4c2
@@ -17,3 +17,5 @@ type: text/vnd.tiddlywiki
 * [[Classical|Naive Definition of Probability]] (Laplace)
 * [[Axiomatic|Probability Axioms]] (Kolmogorov)
 * ...
+
+https://en.wikipedia.org/wiki/Probability_interpretations#Classical_definition

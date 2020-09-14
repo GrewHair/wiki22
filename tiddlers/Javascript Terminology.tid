@@ -1,0 +1,17 @@
+created: 20200907212959055
+modified: 20200907213336827
+tags: [[The Rolling Scopes School | JavaScript/Front-end]] Javascript Stub
+title: Javascript Terminology
+tmap.id: 0975a51a-f443-45ee-8202-56d5c246f2bb
+type: text/vnd.tiddlywiki
+
+* Operator (+, *, ...)
+** Unary (delete, typeof, ...)
+** Binary (+, *, =, ...)
+** Ternary (?)
+* Operand (3, -7, x)
+* Expression (evaluates to value)
+* Statement
+* ...
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators

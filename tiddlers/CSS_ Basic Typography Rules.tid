@@ -1,0 +1,15 @@
+created: 20200907144333368
+modified: 20200907145045756
+tags: [[The Rolling Scopes School | JavaScript/Front-end]]
+title: CSS: Basic Typography Rules
+tmap.id: f714fe75-91bb-4ec1-a74d-62a0943df4bd
+type: text/vnd.tiddlywiki
+
+* Use standard fonts
+* Use no more than two fonts per page
+* Use a sufficiently large main font (no less than `14px`) - otherwise it's bad for mobile browsing
+* Use a sufficiently large `line-height` (usually 150% of the `font-size`) - so if `font-size` is `14px`, use `line-height: 21px`
+* Text should usually be left-aligned (otherwise the eyes get tired rather quickly as they lose the pivoting point)
+
+
+https://ru.code-basics.com/languages/css/modules/text/lessons/conclusion

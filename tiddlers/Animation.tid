@@ -1,0 +1,44 @@
+created: 20200907192353651
+modified: 20200907192635399
+tags: Stub [[The Rolling Scopes School | JavaScript/Front-end]]
+title: Animation
+tmap.id: e16b667e-38fd-4f84-bd4b-6927115c6f5b
+type: text/vnd.tiddlywiki
+
+<$codeblock language="html" code='<style>
+    @keyframes blink {
+        0% {
+            color: black;
+        }
+
+        100% {
+            color: white;
+        }
+    }
+
+    .black-white {
+        animation: blink 3s infinite;
+    }
+</style>
+
+<p class="black-white">foo bar</p>
+'/>
+
+
+<style>
+    @keyframes blink {
+        0% {
+            color: black;
+        }
+
+        100% {
+            color: white;
+        }
+    }
+
+    .black-white {
+        animation: blink 3s infinite;
+    }
+</style>
+
+<p class="black-white">foo bar</p>

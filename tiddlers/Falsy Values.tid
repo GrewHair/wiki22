@@ -1,0 +1,13 @@
+created: 20200912101149499
+modified: 20200912101315431
+tags: Javascript [[The Rolling Scopes School | JavaScript/Front-end]]
+title: Falsy Values
+tmap.id: eaaa1b90-6f98-4731-b04d-98e7c0b4ea67
+type: text/vnd.tiddlywiki
+
+* `0`
+* `''`
+* `undefined`
+* `NaN`
+* `null`
+* `false`

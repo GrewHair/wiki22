@@ -6,7 +6,7 @@
 .prs.truth_table: <<trth_binary &rarr; T F T T>>
 .res.youtube: <iframe width="560" height="315" src="https://www.youtube.com/embed/do5vRAnntKI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 created: 20191016113624543
-modified: 20200527163152871
+modified: 20200907125118680
 tags: Logic Conditional Binary Secondary [[100 Days of Logic (carneades.org)]] [[MIT 6.042 Mathematics for Computer Science]]
 title: Material Implication
 tmap.id: 1eec2295-efe8-4c92-a3b8-0c024d0aef7b
@@ -20,3 +20,5 @@ An [[Implication|Material Implication]] $$p \implies q$$ is said to be [[True|Tr
 
 * $$p$$ is [[False|Truth Value]], [[or|Conjunction]]
 * $$q$$ is [[True|Truth Value]].
+
+Another way to memorize/understand this [[Truth Table]] is: "the //condition// does not follow from the consequence", meaning that the [[Implication|Material Implication]] can be valid even if $$p$$ is [[False|Truth Value]].

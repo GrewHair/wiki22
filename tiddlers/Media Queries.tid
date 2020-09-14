@@ -1,0 +1,19 @@
+created: 20200907191335651
+modified: 20200907191822265
+tags: Stub [[The Rolling Scopes School | JavaScript/Front-end]]
+title: Media Queries
+tmap.id: 21aecb18-db40-4e35-82cd-c5bec7245231
+type: text/vnd.tiddlywiki
+
+```css
+@media (max-width: 750px) {
+
+		.white-text-mobile {
+				color: white;
+		}
+}
+```
+
+https://www.w3.org/TR/css3-mediaqueries/
+
+https://ru.code-basics.com/languages/css/modules/other/lessons/media

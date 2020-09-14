@@ -1,0 +1,14 @@
+created: 20200907125751263
+modified: 20200907131143892
+tags: Stub Logic
+title: Disjunctive Normal Form
+tmap.id: ef836227-fae1-4d36-972d-b48e28798371
+type: text/vnd.tiddlywiki
+
+A [[Disjunctive Normal Form]] is in a way a [[Boolean|Boolean Function]] analog of [[Fourier Series]].
+
+Another [[Normal Form]] serving the similar purpose is the [[Conjunctive Normal Form]].
+
+Generally, if a [[Function|Boolean Function]] in question has more [[Falses|Truth Value]] than [[Truths|Truth Vatue]] in its [[Truth Table|Truth Tables]] ([[Range]]), the [[Disjunctive Normal Form]] is a better choice.
+
+https://en.wikipedia.org/wiki/Disjunctive_normal_form
