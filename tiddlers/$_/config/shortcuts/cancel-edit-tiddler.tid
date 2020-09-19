@@ -1,6 +1,6 @@
 created: 20200421233414516
-modified: 20200421233417130
+modified: 20200914161602457
 title: $:/config/shortcuts/cancel-edit-tiddler
 type: text/vnd.tiddlywiki
 
-ctrl-Escape
+ctrl-Escape shift-Escape

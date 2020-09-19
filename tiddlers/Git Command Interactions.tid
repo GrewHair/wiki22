@@ -1,0 +1,10 @@
+created: 20200919213827542
+modified: 20200919215924881
+tags: Github Stub [[Badly Named]]
+title: Git Command Interactions
+tmap.id: 23cfcd2b-d45f-4362-83ae-8a5044eafd97
+type: text/vnd.tiddlywiki
+
+* $$\text{CLONE} = \text{INIT} + \text{REMOTE ADD} + \text{PULL}$$
+
+* $$\text{PULL} = \text{FETCH} + \text{MERGE}$$
