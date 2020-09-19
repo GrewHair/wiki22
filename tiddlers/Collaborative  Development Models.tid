@@ -1,0 +1,11 @@
+created: 20200915122053508
+modified: 20200915122448514
+tags: Github Stub
+title: Collaborative  Development Models
+tmap.id: 80ee1ab1-8a50-4aa5-bb43-60cddfee5c27
+type: text/vnd.tiddlywiki
+
+* ''Fork and Pull Model'' - used in open source projects
+* ''Shared Repository Model'' - used in private projects
+
+https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-collaborative-development-models
