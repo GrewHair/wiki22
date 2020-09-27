@@ -1,0 +1,10 @@
+created: 20200927125715542
+modified: 20200927130557168
+tags: 
+title: Bash Scripting
+tmap.id: ad3b6045-dadf-42af-bba5-73ed2055477a
+type: text/vnd.tiddlywiki
+
+* `$1`, `$2`, ... - positional arguments
+* `$?` - exit status of the last program
+* `$#` - number of positional arguments

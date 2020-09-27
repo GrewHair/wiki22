@@ -1,0 +1,10 @@
+created: 20200922072346894
+modified: 20200923215342373
+tags: [[The Rolling Scopes School | JavaScript/Front-end]]
+title: HTML Gotchas
+tmap.id: ecde029f-1ee6-491f-9197-1581c8831c72
+type: text/vnd.tiddlywiki
+
+* `ul` has default [[margin and padding|CSS Box Model]]!
+* so do `html` and `body`:
+** https://stackoverflow.com/questions/34550467/why-is-there-a-default-margin-on-the-body-element/34550634

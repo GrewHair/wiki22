@@ -1,0 +1,9 @@
+created: 20200925183532051
+modified: 20200925184116451
+tags: 
+title: Uncle Bob's wisdom
+tmap.id: 28a604be-59ee-4a87-b291-0630c1b63795
+type: text/vnd.tiddlywiki
+
+* A variable name should be proportional to the size of the scope that contains it
+* A [[function|Function (Programming)]] name should be __inversely__ proportional to the size of the scope that contains it

@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200628224602510
-modified: 20200815222533677
+modified: 20200926105559039
 tags: Ubuntu
 title: Bash Commands
 tmap.id: b73e9a56-df89-4833-8f6c-b8c1fadbd299
@@ -34,3 +34,4 @@ type: text/vnd.tiddlywiki
 * `sed`
 * `awk`
 * <$link to="echo $?">`echo $?`</$link> - print the exit value of the previous command
+* `sudo updatedb` - update the database used for `locate` (normally it gets updated once per day, so fi you want to search for a file in a newly installed thing, you should first run this)
