@@ -1,0 +1,10 @@
+created: 20201004162613646
+modified: 20201004163801317
+tags: Lisp
+title: Ways to Define a List
+tmap.id: 089a9fc0-aef2-42a5-a65a-7cf661584c81
+type: text/vnd.tiddlywiki
+
+* <$codeblock code="(cons 1 (cons 2 (cons 3 nil)))" language="lisp"/>
+* <$codeblock code="'(1 2 3)" language="lisp"/>
+* <$codeblock code="(list 1 2 3)" language="lisp"/>

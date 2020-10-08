@@ -1,0 +1,11 @@
+created: 20201007231613649
+modified: 20201007231809003
+tags: [[Computer Science]]
+title: Functional Models
+tmap.id: f07d239b-00ea-41cf-9c0e-a4befd936b03
+type: text/vnd.tiddlywiki
+
+* [[Lambda Calculus]]
+* [[General Recursive Functions]]
+* [[Combinatory Logic]]
+* [[Abstract Rewriting Systems]]

@@ -1,0 +1,20 @@
+created: 20201008000251709
+modified: 20201008051038523
+title: Finite State Machine
+tmap.id: 5edfd287-9794-4019-83c1-5bea98b93671
+type: text/vnd.tiddlywiki
+
+$$
+\displaystyle
+\lang
+Q, \Sigma, \delta, q_0, F
+\rang
+$$
+
+* $$Q$$ is a [[Finite Set]] of states
+* $$\Sigma$$ is a [[Finite Set]] of symbols called the [[Alphabet|Alhabet (Formal Languages)]] of the [[Automaton|Finite State Machine]]
+* $$\delta$$ is the [[Transition Function]], i.e. $$\delta: Q \times \Sigma \to Q$$
+* $$q_0 \in Q$$ is the start state, i.e. the state of the automaton before any input has been processed
+* $$F \subseteq Q$$ is a set of states of $$Q$$ called //accept states//
+
+An [[Automaton|Finite State Machine]] reads of [[String of Symbols|Word (Group Theory)]] $$a_1, a_2, \ldots, a_n, a_i \in \Sigma$$, which is called an //input word//. The [[Set]] of all words is denoted by $$\Sigma^*$$.

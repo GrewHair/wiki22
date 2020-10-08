@@ -1,6 +1,6 @@
 created: 20200423203848369
-modified: 20200803123543561
+modified: 20201002030706454
 title: $:/config/shortcuts/preview
 type: text/vnd.tiddlywiki
 
-ctrl-Slash
+ctrl-Slash ctrl-Semicolon

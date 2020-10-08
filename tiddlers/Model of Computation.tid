@@ -1,0 +1,16 @@
+created: 20201007230305737
+modified: 20201007231154110
+tags: [[Computer Science]]
+title: Model of Computation
+tmap.id: 0b55bd0f-1254-400a-ba8f-fdc4e51fb779
+type: text/vnd.tiddlywiki
+
+In [[Computer Science]], a [[Model of Computation]] is a model which describes how an output of a [[Mathematical Function|Function]] is computed given an input.
+
+[[Models of Computation|Model of Computation]] can be classified in three categories:
+
+* [[Sequential Models]]
+* [[Functional Models]]
+* [[Concurrent Models]]
+
+https://en.wikipedia.org/wiki/Model_of_computation

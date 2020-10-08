@@ -1,0 +1,12 @@
+created: 20201002005538767
+modified: 20201002134752861
+tags: 
+title: Test for Purity
+tmap.id: 5b0a72f6-d6b7-4835-9e00-62b49a1cda31
+type: text/vnd.tiddlywiki
+
+```java
+AssertEquals(f(x), f(x));
+```
+
+If it fails, it means that `f` has changed its state upon a call!

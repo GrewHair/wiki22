@@ -1,0 +1,13 @@
+created: 20201007231246221
+modified: 20201007231425835
+tags: [[Computer Science]] ≥0
+title: Sequential Models
+tmap.id: a2db9aa0-28bd-4ecf-a81b-90db24a5fd7b
+type: text/vnd.tiddlywiki
+
+* [[Finite State Machine]]
+* [[Pushdown Automata]]
+* [[Random Access Machine]]
+* [[Turing Machine]]
+
+https://en.wikipedia.org/wiki/Model_of_computation

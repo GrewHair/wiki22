@@ -1,0 +1,12 @@
+created: 20201005163445086
+modified: 20201005163950508
+tags: [[Object Oriented Analysis and Design with Applications (Grady Booch)]]
+title: The Five Attributes of a Complex System
+tmap.id: 9b2b9260-d44c-4ecf-b42c-379bb3c38b6b
+type: text/vnd.tiddlywiki
+
+* Hierarchy
+* Relative Primitives
+* Separation of Concerns
+* Patterns (Economy of expression)
+* Stable Intermediate Forms

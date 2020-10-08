@@ -1,0 +1,11 @@
+created: 20201005164102644
+modified: 20201005164947923
+tags: [[Object Oriented Analysis and Design with Applications (Grady Booch)]]
+title: The Key Hierarchies of Complex Systems
+tmap.id: 814319da-3bc2-461b-8ab0-8a45a5df1c80
+type: text/vnd.tiddlywiki
+
+* [[Class Structure]] ('is a' hierarchy)
+* [[Object Structure]] ('has a' hierarchy)
+
+They are collectively referred to as a system's [[Architecture]]
