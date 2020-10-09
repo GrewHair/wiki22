@@ -1,0 +1,14 @@
+created: 20201009111623844
+modified: 20201009112625784
+tags: Python Ubuntu
+title: Ways to Run Python Scripts from Shell
+tmap.id: f63ba3ac-0592-4c57-bbf8-033da9c3776a
+type: text/vnd.tiddlywiki
+
+* Either feed it to the python interpreter
+*><$codeblock language="bash" code="boris@computer:~$ python3 ./script.py"/>
+* Or:
+** Add a [[Shebang]] line at the beginning of the script file
+**><$codeblock language='python' code="#!usr/bin/env python3"/>
+** And then just run the script directly
+**><$codeblock language="bash" code="boris@computer:~$ ./script.py"/>
