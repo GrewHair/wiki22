@@ -6,10 +6,11 @@ button-classes: tc-text-editor-toolbar-item-start-group
 caption: Transclude
 condition: [<targetTiddler>!has[type]] [<targetTiddler>type[text/vnd.tiddlywiki]]
 created: 20191212114631312
+description: Transclude a tiddler
 dropdown: _my/ui/EditorToolbarElements/transclude/dropdown
 icon: _my/images/icons/transclude
-modified: 20200802155833408
-shortcuts: 
+modified: 20201029182354431
+shortcuts: ((transclude))
 tags: $:/tags/EditorToolbar
 title: _my/ui/EditorToolbarElements/transclude
 tmap.id: 3af6aea3-6489-4a40-8074-f8c7f1572118

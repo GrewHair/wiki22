@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200712174957950
-modified: 20200712175248519
+modified: 20201106042841297
 tags: Numpy [[Python Data Science Handbook (Jake VanderPlas)]]
 title: Advanced Ufunc Features
 tmap.id: 56f139aa-a74b-462a-bc0e-8e93c26f0b82

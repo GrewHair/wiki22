@@ -1,0 +1,20 @@
+created: 20201113204610332
+modified: 20201113205932597
+tags: Javascript [[The Modern Javascript Tutorial]]
+title: Automatic Semicolon Insertion
+tmap.id: 1c76f511-3bf5-4d51-8bf0-b40bc61f776a
+type: text/vnd.tiddlywiki
+
+Unlike other [[C-like Languages|C-family Programming Languages]], [[Javascript]] does not enforce the use of a semicolon at the end of a [[Statement]]. The [[Interpreter]] will intelligently add them when running the code.
+
+For this to work, the statements should have a [[Line Break]] between them (i.e. "[[Python]]-style") - and so semicolons are still mandatory with [[minified|Minification]] code.
+
+Some consider using this feature evil, because sometimes it doesnt work correctly:
+
+```javascript
+alert("There will be an error")
+
+[1, 2].forEach(alert)
+```
+
+Here, after the first alert [[Javascript]] tries to treat the value returned by the `alert` function as an [[Array]] and get its elements (when in reality it's `undefined`), fooled by the square brackets.

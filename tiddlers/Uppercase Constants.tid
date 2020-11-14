@@ -1,0 +1,20 @@
+created: 20201113214552734
+modified: 20201113215532153
+tags: [[The Modern Javascript Tutorial]] Javascript
+title: Uppercase Constants
+tmap.id: d4d6fa38-2b28-48f4-ac3b-6d820d4c5b83
+type: text/vnd.tiddlywiki
+
+If some [[Constant|Constant (Javascript)]] is known prior to a script's execution, the convention is that it should be capitalized:
+
+```javascript
+const COLOR_RED = "#F00"
+```
+
+In such a scenario, [[Constants|Constant (Javascript)]] are used simply as more readable aliases for "hard-coded" values (and thus help avoid [[Magic Numbers]]).
+
+This should be differentated from the normal use of [[Constants|Constant (Javascript)]] (which are by convention __not__ capitalized), since their values in general are not necessarily known before the execution - i.e. a value may be calculated at [[Runtime]], and then [[assigned|Assignment]] to a [[Constant|Constant (Javascript)]]:
+
+```javascript
+const pageLoadTime = calculatePgLoadTime()
+```

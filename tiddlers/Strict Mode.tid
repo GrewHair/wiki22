@@ -1,0 +1,21 @@
+created: 20201113210434617
+modified: 20201113211839983
+tags: Javascript Stub [[The Modern Javascript Tutorial]]
+title: Strict Mode
+tmap.id: 4d0cbbf7-f00a-4ed2-bd54-1f38989343da
+type: text/vnd.tiddlywiki
+
+In 2009 when [[ECMAScript 5]] appeared, it added new features to the language and modified some of the existing ones.
+
+However, in order to keep the existing old code working  as intended (in the web we can't afford to break [[Backward Compatibility]]), all these modifications are off by default. To turn them on, the [[Strict Mode]] should be entered.
+
+It is entered with the following directive:
+
+```javascript
+"use strict"
+```
+Once it's used, there's no way to undo it!
+
+However, __modern__ (i.e. __more__ modern than [[ECMAScript 5]]) [[Javascript]] supports advanced language structures like [[Classes|Class]] and [[Modules|Module]], that enable `use strict` automatically/implicitly, so one usually does not have to add this directive in his source code.
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode

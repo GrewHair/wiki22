@@ -1,5 +1,5 @@
 created: 20200325183343610
-modified: 20200802165338894
+modified: 20201023181502525
 title: $:/plugins/felixhayashi/tiddlymap/graph/views/Machine Learning/map
 type: text/vnd.tiddlywiki
 
@@ -371,5 +371,21 @@ type: text/vnd.tiddlywiki
  "d9369dbd-ec8a-49a2-8a79-d743015aa9dd": {
   "x": 33,
   "y": 264
+ },
+ "54dea4d3-b1dd-4b88-823f-a7404b3ce622": {
+  "x": 337,
+  "y": -80
+ },
+ "e362dd6e-bf21-403b-931f-c3225a879763": {
+  "x": -216,
+  "y": 55
+ },
+ "386a613e-2b7a-4f29-a21c-d801178b475c": {
+  "x": 57,
+  "y": -201
+ },
+ "c29eab9d-aef4-4ace-a2cf-387d2d9c4311": {
+  "x": -346.94207680046196,
+  "y": -248.22420896679358
  }
 }

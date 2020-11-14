@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20201019142342565
+modified: 20201019142550409
+tags: Philosophy
+title: Learning Experience
+tmap.id: 161c069f-d1bc-42e8-8f43-314ad1b2f6b1
+type: text/vnd.tiddlywiki
+
+<<<.tc-big-quote
+A learning experience is what you get when you don't get what you want.
+<<<

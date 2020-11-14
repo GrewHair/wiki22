@@ -1,10 +1,32 @@
 created: 20200927125715542
-modified: 20200927130557168
+modified: 20201102075602519
 tags: 
 title: Bash Scripting
 tmap.id: ad3b6045-dadf-42af-bba5-73ed2055477a
 type: text/vnd.tiddlywiki
 
-* `$1`, `$2`, ... - positional arguments
+''Special parameters:''
+
+* `$0` - name of the shell script
+* `$1`, `$2`, ... - positional parameters
+* `${10}`, `${11}`, ... - positional parameters beyond 9 (simply typing `$10`, `$11`, ... will __not__ work!)
+* `$@` - all positional parameters starting from one (i.e. excluding `$0`). If not within double quotes, these words are subject to word splitting
+* `$*` - all positional parameters starting from one (i.e. excluding `$0`). If not within double quotes, each positional parameter expands to a separate word
 * `$?` - exit status of the last program
+* `$!` - [[PID]] of the job most recently placed into the background
 * `$#` - number of positional arguments
+
+''Bash arrays:''
+
+* `arr=()` - create an empty array
+* `arr=(1 2 3)` - initialize array
+* `arr=($str)` - convert the `str` variable to an array
+* `${arr[2]}` - retrieve third element
+* `${arr[@]}` - retrieve all elements
+* `${!arr[@]}` - retrieve array indices
+* `${#arr[@]}` - calculate array size
+* `arr[0]=3` - overwrite 1st element
+* `arr+=(4)` - append value(s)
+* `str=$(ls)` - save `ls` output as a string
+* `arr=( $(ls) )` - save `ls` output as an array of files
+* `${arr[@]:s:n}` - retrieve `n` elements starting at index `s`

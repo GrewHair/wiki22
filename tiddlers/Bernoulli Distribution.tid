@@ -20,7 +20,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200815073738262
-modified: 20200815095543920
+modified: 20201029043104877
 tags: [[Probability Distribution]]
 title: Bernoulli Distribution
 tmap.id: 2bf759f3-334a-4100-a5b0-096a7c10f62c

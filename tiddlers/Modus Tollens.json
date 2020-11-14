@@ -2,10 +2,10 @@
     {
         "created": "20191023154906782",
         "text": "!!''//MT//''\n\n|<<prs columnar>>|\n|<<res youtube>>|",
+        "type": "text/vnd.tiddlywiki",
         "title": "Modus Tollens",
         "tags": "Logic",
-        "modified": "20200325163932095",
-        "type": "text/vnd.tiddlywiki",
+        "modified": "20201030015428495",
         "tmap.id": "15bf7994-ebf6-455f-b22a-24f5227cc128",
         ".res.youtube": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/UOW-U5u8Vv8\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
         ".prs.columnar": "<<columnar p&rarr;q ~q ~p>>",
@@ -13,6 +13,7 @@
         ".hsk.tagged_feature": "[<currentTiddler>tags[]field:icon[_my/images/icons/feature]]",
         ".hsk.tagged_exemplar": "[<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]",
         ".hsk.tagged_diagram": "[<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]",
-        ".hsk.macrocall": " [[_my/macros/columnar]] [[_my/macros/appear/prs]] [[_my/macros/appear/res]]"
+        ".hsk.macrocall": " [[_my/macros/columnar]] [[_my/macros/appear/prs]] [[_my/macros/appear/res]]",
+        "tmap.edges": "{\"aa304bc8-3954-47e7-9e1c-010e8c8d730e\":{\"to\":\"15bf7994-ebf6-455f-b22a-24f5227cc128\",\"type\":\"test\"}}"
     }
 ]

@@ -6,10 +6,11 @@ button-classes: tc-text-editor-toolbar-item-start-group
 caption: Macro
 condition: [<targetTiddler>!has[type]] [<targetTiddler>type[text/vnd.tiddlywiki]]
 created: 20191213083637145
+description: Insert a macro
 dropdown: _my/ui/EditorToolbarElements/macro/dropdown
 icon: _my/images/icons/macro
-modified: 20200325141146884
-shortcuts: 
+modified: 20201029193604089
+shortcuts: ((macro))
 tags: $:/tags/EditorToolbar
 title: _my/ui/EditorToolbarElements/macro
 tmap.id: b8b871c5-0a5d-471b-ba70-7d261c7e8e25

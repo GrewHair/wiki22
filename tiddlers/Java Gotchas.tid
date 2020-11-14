@@ -1,0 +1,8 @@
+created: 20201015232340077
+modified: 20201022050437543
+tags: Java
+title: Java Gotchas
+tmap.id: 3ab63350-4b6e-4f16-a3e9-3bdda0a96a74
+type: text/vnd.tiddlywiki
+
+* In order for a [[Java]] source file to be correctly compiled, the file name should be the same as the `public class` one defines in the file

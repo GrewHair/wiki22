@@ -1,0 +1,10 @@
+created: 20201113193725952
+modified: 20201113200635035
+tags: HTTP [[The Modern Javascript Tutorial]]
+title: Same-origin Policy
+tmap.id: c1a2e4e4-9173-475c-8698-000f8375b7d3
+type: text/vnd.tiddlywiki
+
+The [[Same-origin Policy]] is a concept in the web application [[Security Model]], under which a web browser permits scripts contained in a first web page to access data in a second web page __only if__ both web pages have the same [[Origin|Origin (HTTP)]].
+
+Note that the [[Same-origin Policy]] applies only to scripts - so attackers can still exploit [[HTML Tags]].

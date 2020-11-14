@@ -1,0 +1,27 @@
+created: 20201113200728163
+modified: 20201113201703293
+tags: [[The Modern Javascript Tutorial]]
+title: JavaScript Engine
+tmap.id: c67e4cf0-84aa-4d72-a5c1-78cfd7c60d96
+type: text/vnd.tiddlywiki
+
+''AKA JavaScript virtual machine''
+
+[[Javascript Engines|JavaScript Engine]] are usually engines embedded in web browsers whos job is to interpret [[Javascript]].
+
+The simplified steps of their operation are as follows:
+
+* The [[engine|JavaScript Engine]] [[parses|Parsing]] the script
+* Then it [[compiles|Compiler]] the script to the [[Machine Language]]
+* Then the machine runs the code.
+
+There are a multitude of them:
+
+* V8 in Chrome and Opera
+* SpiderMonkey in Firefox
+* Chakra in IE
+* ChakraCore in MS Edge
+* Nitro and SquirrelFish in Safari
+* ...
+
+Note that nowadays they don't only live in browsers, but also can be found on the server, e.g. V8 is a part of [[Node.js]].

@@ -1,0 +1,20 @@
+created: 20201102073011587
+modified: 20201102074527209
+tags: Bash Ubuntu
+title: Curly Braces in Bash
+tmap.id: ca7621f0-59f3-445a-af56-fc7c408b7818
+type: text/vnd.tiddlywiki
+
+```bash
+foo=123
+bar=456
+foobar=999
+```
+
+|''Expression''|''Equivalent expression''|''Result''|''Comment''|
+|`echo $foo`|`echo ${foo}`|`123`||
+|`echo $bar`|`echo ${bar}`|`456`||
+|`echo $foobar`|`echo ${foobar}`|`999`||
+|`echo $baz`|`echo ${baz}`|` `|if a variable does not exist, it expands to nothing|
+|`echo ${foo}bar`||`123bar`|`foo` is expanded, the string `bar` is appended literally|
+|`echo ${foo}{bar}`|`echo $foo{bar}`|`123{bar}`|`foo` is expanded, the string `{bar}` is appended literally|

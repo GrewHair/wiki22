@@ -1,0 +1,16 @@
+created: 20201104124101120
+modified: 20201104125004574
+tags: Javascript Mithril React
+title: Lifecycle Methods
+tmap.id: 9a7b9bf9-03a8-4284-aa6f-0a4c4beeb39a
+type: text/vnd.tiddlywiki
+
+''AKA Hooks''
+
+[[Components|Mithril Components]] and [[Vnodes|Vnode]] can have [[Lifecycle Methods]], which are called at various points during the lifetime of a [[DOM|Document Object Model]] element.
+
+All [[Lifecycle Methods]] receive the [[Vnode]] as their first arguments and have their `this` keyword bound to `vnode.state`.
+
+[[Lifecycle Methods]] are only called as a [[Side Effect]] of a `m.render()` call. They are not called if the [[DOM|Document Object Model]] is modified from the outside of [[Mithril]].
+
+https://mithril.js.org/lifecycle-methods.html

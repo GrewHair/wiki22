@@ -1,0 +1,29 @@
+created: 20201104081422734
+modified: 20201104114458467
+tags: Javascript
+title: Callback Function
+tmap.id: ec036d5a-6188-47c1-a886-b69f5ca3bda8
+type: text/vnd.tiddlywiki
+
+A [[Callback Function]] is a [[Function|Function (Programming)]] passed into another [[Function|Function (Programming)]] as an argument for the purpose of being invoked inside this outer [[Function|Function (Programming)]] to complete some routine.
+
+''Example:''
+
+```javascript
+function greeting(name) {
+  alert('Hello ' + name);
+}
+
+function processUserInput(callback) {
+  var name = prompt('Please enter your name.');
+  callback(name);
+}
+
+processUserInput(greeting);
+```
+
+This will first prompt the user for his name, and then give him a greeting alert based on the input. Here, the `greeting` [[Function|Function (Programming)]] is used as a [[Callback Function]].
+
+It really is as simple as a 'function usage'.
+
+https://developer.mozilla.org/en-US/docs/Glossary/Callback_function

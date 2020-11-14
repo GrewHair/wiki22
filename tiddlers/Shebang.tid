@@ -3,16 +3,21 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200803122010184
-modified: 20200804224848658
-tags: Ubuntu
+modified: 20201104140110630
+tags: Ubuntu Javascript
 title: Shebang
 tmap.id: b43aabe9-b2fa-41f9-9280-bb1459c01835
 type: text/vnd.tiddlywiki
 
-```bash
+''AKA Hashbang''
+
+* In unix-like operating systems it is used as the first line in scripts, which specifies the interpreter:
+*><$codeblock language="bash" code="bash
 #!/bin/bash
 #!/bin/sh
 #!/bin/sh -e
 #!/usr/bin/env python3
 #!/usr/bin/env bash
-```
+"/>
+* In frontend development it is used [[Single-page Applications|Single-page Application]] for implementing [[Client-Side Routing]]. It is appended to the [[URL|Uniform Resourse Locator]]:
+*><$codeblock code="#!/list"/>

@@ -1,5 +1,5 @@
 created: 20191217083600617
-modified: 20200802165338879
+modified: 20201029224525381
 title: $:/plugins/felixhayashi/tiddlymap/graph/views/Logic/map
 type: text/vnd.tiddlywiki
 
@@ -133,8 +133,8 @@ type: text/vnd.tiddlywiki
   "y": -809
  },
  "d0ef5abb-339d-4535-90da-fb836afff5cc": {
-  "x": 1309,
-  "y": -692
+  "x": 1348,
+  "y": -669
  },
  "8a1a3731-3fce-447e-95ae-4d3d017d636f": {
   "x": 1291,
@@ -197,8 +197,8 @@ type: text/vnd.tiddlywiki
   "y": 121
  },
  "e9fc4802-a92a-4640-824b-88ab6a668d56": {
-  "x": 2464,
-  "y": 68
+  "x": 2478,
+  "y": 42
  },
  "de8367be-2d16-473e-81df-544c77ab7570": {
   "x": 1896,

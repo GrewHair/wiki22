@@ -1,0 +1,12 @@
+created: 20201113212639270
+modified: 20201113212858501
+tags: Javascript [[The Modern Javascript Tutorial]]
+title: Comma-first Coding Style
+tmap.id: 8f8e8d3f-47a5-482c-ba9c-04e3d292f65d
+type: text/vnd.tiddlywiki
+
+```javascript
+let user 'John'
+  , age = 25
+  , message = 'Hello';
+```

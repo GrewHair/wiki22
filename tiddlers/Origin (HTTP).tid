@@ -1,0 +1,19 @@
+created: 20201113192011545
+modified: 20201113193513141
+tags: Stub
+title: Origin (HTTP)
+tmap.id: d02d74eb-696f-498c-8b30-adb2865941d7
+type: text/vnd.tiddlywiki
+
+The [[Origin|Origin (HTTP)]] is an [[HTTP|Hypertext Transfer Protocol]] [[Request|HTTP Request]] [[Header|HTTP Header]] which indicates where a fetch originates from.
+
+It consists of a [[URI Scheme]], a [[Hostname]], and optionally a [[Port Number|Port (Computer Networking)]].
+
+''Syntax''
+
+```
+Origin: null
+Origin: <scheme> "://" <hostname> [ ":" <port> 
+```
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Origin

@@ -3,8 +3,8 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200204131007323
-modified: 20200325163850927
-tags: Stub [[How to Win a Data Science Competition]] [[Machine Learning]]
+modified: 20201023234845664
+tags: Stub [[How to Win a Data Science Competition]] [[Machine Learning]] [[Abstract Algebra (Socratica)]]
 title: Cloud Resources
 tmap.id: 2a8731ab-d9ad-4e7f-a6da-0576067cfaf0
 type: text/vnd.tiddlywiki
