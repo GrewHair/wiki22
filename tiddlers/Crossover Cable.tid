@@ -1,0 +1,10 @@
+created: 20201202152014244
+modified: 20201202152316605
+tags: Networking Stub
+title: Crossover Cable
+tmap.id: 8e8e42a8-a3ee-4197-a42b-f13026908772
+type: text/vnd.tiddlywiki
+
+[[Crossover Cables|Crossover Cable]] are used to connect a [[Host|Host (Networking)]] to a [[Host|Host (Networking)]] //or// a [[Switch]] to a [[Switch]].
+
+In such cables, the pins are swapped at one of the ends so that Tx pins are lined up with Rx ones.

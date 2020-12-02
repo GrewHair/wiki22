@@ -1,0 +1,15 @@
+created: 20201115235932682
+modified: 20201116000816485
+tags: Javascript [[The Modern Javascript Tutorial]]
+title: Avoiding Problems with Comparisons
+tmap.id: a142d5c7-e9c4-4322-b0ce-be0dc5d57fcb
+type: text/vnd.tiddlywiki
+
+[[Javascript]]'s [[Comparison Operators|Comparison Operator]] have lots of peculiarities to their usage, because of various implicit type convertions and handling of different special types like `undefined`, `null`, `NaN`, etc.
+
+To avoid problems with it all, one should better stick to the following simple rules:
+
+* Treat any comparison with `undefined`/`null` except the strict equality `===` with exceptional care (and/or avoid them as much as possible)
+* Don't use comparisons `>=`, `>`, `<`, `<=` with a variable which may be `null`/`undefined`, unless you're really sure of what you're doing. If a variable can have these values, check for them separately.
+
+https://javascript.info/comparison

@@ -1,0 +1,11 @@
+created: 20201202200938034
+modified: 20201202203050867
+title: Multicast
+tmap.id: 0392cb9e-5447-448c-81ae-7810ba00a132
+type: text/vnd.tiddlywiki
+
+[img[_my/images/multicast]]
+
+[[Multicast]] is a way for several devices to opt in to receiving certain traffic. It is useful when e.g. someone wants to send a video stream to a number of [[Hosts|Host]], since doing it using the normal [[Unicast]] scheme would be very wasteful (the traffic would have to be replicated many times).
+
+It uses [[Multicast Addresses|Multicast Address]].

@@ -1,0 +1,8 @@
+created: 20201115214609373
+modified: 20201115215245839
+tags: [[The Modern Javascript Tutorial]] Javascript
+title: NaN is Sticky
+tmap.id: 56d1f27e-5ab1-4177-8cf3-7229686ff9df
+type: text/vnd.tiddlywiki
+
+In [[Javascript]], if there is a `NaN` somewhere in a mathematical expression, it propagates to the whole result - thus it's 'sticky'.

@@ -1,0 +1,24 @@
+created: 20201115232902321
+modified: 20201115233530895
+tags: Javascript [[The Modern Javascript Tutorial]]
+title: Unary +
+tmap.id: 09c786ce-4849-4a36-ac84-cab6763bbbd3
+type: text/vnd.tiddlywiki
+
+The [[Unary +]] applied to a single value doesn't do anything to [[Numbers|Number (Javascript)]], but when the [[Operand]] is not a number, it converts it into a [[Number|Number (Javascript)]].
+
+```javascript
+alert( +true );  // 1
+alert( +"" );    // 0
+```
+
+So it is the same as `Number(x)`, but shorter.
+
+```javascript
+let apples = "2";
+let oranges = "3";
+
+alert( apples + oranges );  // "23", concatenates strings
+
+alert( +apples + +oranges);  // 5
+```

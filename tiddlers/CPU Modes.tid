@@ -1,0 +1,26 @@
+created: 20201117104618610
+modified: 20201118111123039
+tags: 
+title: CPU Modes
+tmap.id: ba0a506a-fa31-47bc-baf4-05c0c7fda8ba
+type: text/vnd.tiddlywiki
+
+''AKA CPU States, CPU Privelege Levels''
+
+[[CPU Modes]] are operating modes for the [[CPU|Central Processing Unit]] that place restrictions on the type and scope of operations that can be performed by certain [[Processes|Process (Computing)]] being run by the [[CPU|Central Processing Unit]].
+
+Normally, there are two main [[modes|CPU Modes]]:
+
+* [[Kernel Mode]]
+* [[User Mode]]
+
+Various (if not majority of) [[CPU|Central Processing Unit]] architectures implement more than just two rings of protection (<a target="_blank" href="https://en.wikipedia.org/wiki/Protection_ring">see this article</a>), but it seems they were never really utilized, because efficient utilization of such things requires very tight integration of [[OS|Operating System]] and hardware, which is not very practical if an [[OS|Operating System]] wants to be cross-platform/portable - so in practice we only have two!
+
+[[Linux]], [[Windows]] and [[macOS]] are three [[Operating Systems|Operating System]] that use [[Kernel|Kernel Mode]]/[[User|User Mode]] modes. [[DOS]] and other simple [[Operating Systems|Operating System]] and many embedded devices run in [[Kernel Mode]] all the time.
+
+Recently (2005-2006) [[CPU|Central Processing Unit]] vendors started supporting [[Hardware-assisted Virtualization]] in their products ([[x86 virtualization]]), leading to the emergence of the third [[mode|CPU Modes]] on some servers:
+
+* [[Hypervisor Mode]]
+
+<br>
+https://en.wikipedia.org/wiki/CPU_modes

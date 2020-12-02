@@ -1,0 +1,19 @@
+created: 20201202192058770
+modified: 20201202202821351
+tags: Networking Stub
+title: Reserved IP Addresses
+tmap.id: 238a807a-2dff-4f8c-b419-42ab3c045232
+type: text/vnd.tiddlywiki
+
+The [[Reserved IP Addresses]] may not be assigned to devices in a network.
+
+* [[Network Addresses|Network Address]] 
+* [[Loopback Addresses|Loopback Address]]
+* [[Broadcast Addresses|Broadcast Address]]
+* [[Private Addresses|Private Address]]
+* [[Multicast Addresses|Multicast Address]]
+* ...
+
+https://en.wikipedia.org/wiki/Reserved_IP_addresses
+
+https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xhtml

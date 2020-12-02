@@ -1,0 +1,19 @@
+.hsk.transcludes: [[_my/images/png/hypervisor_type-1_vs_type-2]]
+created: 20201118103329863
+modified: 20201118103640580
+tags: Stub
+title: Type-2 Hypervisor
+tmap.id: 2569a28a-ae0f-4f45-9b3f-ac9b10cc9769
+type: text/vnd.tiddlywiki
+
+''AKA Hosted Hypervisor''
+
+Examples:
+
+* Parallels Desktop for Mac
+* QEMU
+* VirtualBox
+* VMware Player
+* VMware Workstation
+
+{{_my/images/png/hypervisor_type-1_vs_type-2}}

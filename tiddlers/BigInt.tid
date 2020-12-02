@@ -1,0 +1,21 @@
+created: 20201115215814852
+modified: 20201115220743186
+tags: Javascript [[The Modern Javascript Tutorial]]
+title: BigInt
+tmap.id: 4a5b70fa-131d-4a5c-b2c9-727fc495a85b
+type: text/vnd.tiddlywiki
+
+Historically, numbers in [[Javascript]] can not represent integer values larger than $$(2^{53} - 1)$$ or less than $$- (2^{53} - 1)$$.
+
+It's a technical limitation of their internal representation (there sort of are no "real" integers in [[Javascript]]).
+
+Normally this is good enough, but can be limiting for things like cryptography or microsecond-presicion timestamps.
+
+So the [[BigInt]] type was recently added to the language to represent integers of arbitrary length.
+
+A [[BigInt]] value is created by appending `n` to the end of an [[Integer]]:
+
+```javascript
+// the "n" at the end means it's a BigInt
+const myBigInt = 12345678910123456789012345678901234567890n;
+```

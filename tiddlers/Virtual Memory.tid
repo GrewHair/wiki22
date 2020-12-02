@@ -1,0 +1,12 @@
+created: 20201117093513191
+modified: 20201117093909343
+tags: Stub
+title: Virtual Memory
+tmap.id: b0c9556a-23d2-4658-8d71-dd7defff7608
+type: text/vnd.tiddlywiki
+
+[[Virtual Memory]] is an [[Abstraction]] of storage resources that are available on a given machine.
+
+{{_my/images/png/virtual_memory}}
+
+https://en.wikipedia.org/wiki/Virtual_memory

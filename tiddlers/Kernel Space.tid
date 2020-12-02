@@ -1,0 +1,10 @@
+created: 20201117140108316
+modified: 20201117140437801
+tags: 
+title: Kernel Space
+tmap.id: 4c7f5c63-edfc-4802-8c12-0d4f850ff475
+type: text/vnd.tiddlywiki
+
+A modern computer [[Operating System]] segregates [[Virtual Memory]] into [[Kernel Space]] and [[User Space]].
+
+[[Kernel Space]] is strictly reserved for running a privileged [[Operating System]] [[Kernel]], its extensions, and most device drivers.

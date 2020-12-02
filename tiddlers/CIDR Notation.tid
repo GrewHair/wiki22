@@ -1,0 +1,12 @@
+created: 20201202184325194
+modified: 20201202184849524
+tags: Networking Stub
+title: CIDR Notation
+tmap.id: fa7c8c6d-4932-452a-bb63-4678a830a443
+type: text/vnd.tiddlywiki
+
+```
+172.16.1.0 /24 -> 255.255.255.0
+```
+
+Here, `/24` means that 24 bits in the [[IP Address]] (starting from the leftmost one) are used for the subnet.

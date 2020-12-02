@@ -1,0 +1,10 @@
+created: 20201202204627306
+modified: 20201202204744513
+tags: Networking Stub
+title: Private Network
+tmap.id: 70104fed-da5b-42a5-ba19-364d400d3e6e
+type: text/vnd.tiddlywiki
+
+* `10.0.0.0 /8`
+* `172.16.0.0 /12`
+* `192.168.0.0 /16`

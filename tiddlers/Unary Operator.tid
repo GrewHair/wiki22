@@ -1,0 +1,10 @@
+created: 20201115225944456
+modified: 20201115230153381
+tags: Javascript [[The Modern Javascript Tutorial]]
+title: Unary Operator
+tmap.id: e89a0b1a-07ab-4103-9de7-66ddde97c661
+type: text/vnd.tiddlywiki
+
+A [[Unary Operator]] is an [[Operator]] that has a single [[Operand]].
+
+An example is the unary negation `-`, as in `-x`.

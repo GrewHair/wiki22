@@ -1,0 +1,25 @@
+created: 20201115223107116
+modified: 20201115223958203
+tags: Javascript [[The Modern Javascript Tutorial]]
+title: Numeric Conversion Rules
+tmap.id: b257f23c-2c17-4293-a755-92b8811c6669
+type: text/vnd.tiddlywiki
+
+[[Javascript]] can convert various primitive types to numbers either implicitly or explicitly, using `Number(value)`.
+
+The rules are:
+
+|!Value|!Becomes...|
+|`undefined`|`NaN`|
+|`null`|`0`|
+|`true`|`1`|
+|`false`|`0`|
+|`string`|Whitespaces from the start and end will be removed. If the remaining string is empty, the result is `0`. Non-numeric characters will yield `NaN`.|
+
+''Examples:''
+
+```javascript
+alert(Number("   123   "));  // 123
+alert(Number("123z"));       // NaN
+alert(Number(true));         // 1
+```

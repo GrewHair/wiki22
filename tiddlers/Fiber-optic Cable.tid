@@ -1,0 +1,26 @@
+created: 20201202154326763
+modified: 20201202160249694
+tags: Networking Stub
+title: Fiber-optic Cable
+tmap.id: 9ee50e6d-cccf-4ea0-9b10-b9a1bdf35f71
+type: text/vnd.tiddlywiki
+
+''AKA Optical Fiber Cable''
+
+There exist several classifications of [[Fiber-optic Cables|Fiber-optic Cable]]:
+
+* By number of cores
+
+|!# of cores|!Used in|!Mode|
+|Single core|enterprise networks|[[Half Duplex]]|
+|Dual core|service provider networks|[[Full Duplex]]|
+
+<br>
+
+* By optical modes involved
+
+|!Type of fiber|!Type of light used|!Appropriate distance|!Price|
+|Single Mode Fibre (SMF)|Laser Light|>2km|Expensive|
+|Multi Mode Fibre (MMF)|LED|500m|Cheaper|
+
+A [[Fiber-optic Cable]] has a maximum bend radius. If it is bent more severely than this bend radius, attenuation occurs.

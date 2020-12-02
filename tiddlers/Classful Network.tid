@@ -1,0 +1,14 @@
+created: 20201202175648255
+modified: 20201202185629765
+tags: Networking Stub
+title: Classful Network
+tmap.id: e6c436f4-c418-42d2-a4fe-aa3431f0ca33
+type: text/vnd.tiddlywiki
+
+The addresses of the different [[Network Classes|Classful Network]] use different portions of an [[IPv4]] address:
+
+* Class A: One [[Octet]] minus 1 bit (minus some reserved [[IPs|IPv4]]: `0.0.0.0` and `127.x.x.x`)
+* Class B: Two [[Octets|Octet]] minus 2 bits
+* Class C: Three [[Octets|Octet]] minus 3 bits
+
+These bits that we subtract here are used to distinguish these [[Network Classes|Classful Network]].

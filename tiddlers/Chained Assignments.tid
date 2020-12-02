@@ -1,0 +1,17 @@
+created: 20201115234129442
+modified: 20201115234409824
+tags: Javascript [[The Modern Javascript Tutorial]]
+title: Chained Assignments
+tmap.id: 6ab889a1-091a-4286-953c-8547a544c31f
+type: text/vnd.tiddlywiki
+
+[[Chained Assignments]] evaluate from right to left.
+
+```javascript
+let a, b, c;
+
+a = b = c = 2 + 2;
+
+alert( a ); // 4
+alert( b ); // 4
+alert( c ); // 4

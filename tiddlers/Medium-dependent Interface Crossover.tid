@@ -1,0 +1,14 @@
+created: 20201202152501623
+modified: 20201202205457768
+tags: Stub Networking
+title: Medium-dependent Interface Crossover
+tmap.id: dffecd5d-f233-4a24-bfdc-9cc1b0ce8709
+type: text/vnd.tiddlywiki
+
+''AKA Auto MDI-X''
+
+A device (typically, a [[Host|Host (Networking)]], a [[Switch]], or a [[Router]]) that supports [[Auto MDI-X|Medium-dependent Interface Crossover]] can detect which type of cable (i.e. [[Crossover|Crossover Cable]] or [[Straight Through|Straight Through Cable]] is used and change the logical functions of its pins accordingly, effectively eliminating the need to distinguish/acquire a proper cable type.
+
+This technology is supported by the [[100BASE|Fast Ethernet]] standard and newer.
+
+https://en.wikipedia.org/wiki/Medium-dependent_interface

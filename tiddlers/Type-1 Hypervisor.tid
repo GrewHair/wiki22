@@ -1,0 +1,27 @@
+.hsk.transcludes: [[_my/images/png/hypervisor_type-1_vs_type-2]]
+created: 20201118103017576
+modified: 20201118105028088
+tags: Stub
+title: Type-1 Hypervisor
+tmap.id: 8c8aaa96-3959-4d77-86e6-953618897ada
+type: text/vnd.tiddlywiki
+
+''AKA Native Hypervisor, Bare-metal Hypervisor''
+
+Often times this type is associated with [[Hardware-assisted Virtualization]] (particularly in case of [[x86 Virtualization]]).
+
+Examples:
+
+* AntsleOS
+* Microsoft Hyper-V and Xbox One system software
+* Nutanix AHV
+* XCP-ng
+* Oracle VM Server for SPARC
+* Oracle VM Server for x86
+* POWER Hypervisor
+* VMware ESXi
+* Xen
+
+{{_my/images/png/hypervisor_type-1_vs_type-2}}
+
+''Note:'' sometimes the distinction between [[Type-1|Type-1 Hypervisor]] and [[Type-2|Type-2 Hyperisor]] [[Hypervisors|Hypervisor]] is not clear. E.g., [[Linux]]'s Kernel-based Virtual Machine (KVM) and FreeBSD's bhyve are [[Kernel Modules|Loadable Kernel Module]] that effectively convert the [[host|Host Machine]] [[OS|Operating System]] into a [[Type-1 Hypervisor]], while at the same time  [[Linux]] distributions and FreeBSD are still general-purpose [[Operating Systems|Operating System]] with applications competing with each other for resources, so KVM and bhyve can be categorized as [[Type-2 Hypervisors|Type-2 Hypervisor]].

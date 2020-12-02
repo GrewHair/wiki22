@@ -1,0 +1,14 @@
+created: 20201202150431908
+modified: 20201202151149537
+tags: Networking
+title: Media Access Control
+tmap.id: dbdb1b5f-ad65-4af2-96c9-c608624e7592
+type: text/vnd.tiddlywiki
+
+''AKA MAC, Medium Access Control''
+
+In [[IEEE 802 standards|IEEE 802]], the [[Media Access Control]] sublayer is the layer that controls the hardware that is responsible for interaction with the wired, optical or wireless [[Transmission Medium]].
+
+The [[MAC|Media Access Control]] and the [[Logical Link Control]] sublayers together make up the [[Data Link Layer]].
+
+https://en.wikipedia.org/wiki/Medium_access_control

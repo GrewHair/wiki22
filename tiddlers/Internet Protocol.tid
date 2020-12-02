@@ -1,0 +1,46 @@
+created: 20201202125000845
+modified: 20201202135715960
+tags: Networking
+title: Internet Protocol
+tmap.id: 1ff91a1c-b728-4c5a-be11-57711fe0e596
+type: text/vnd.tiddlywiki
+
+''AKA IP, Inter-network Protocol''
+
+```
+ T ~ ~ ~ T
+[A]     [B]_____[C]
+
+Legend:
+T - antenna
+~ - radiowave
+_ - wire
+[A]-[C] - computers
+```
+
+Imagine tree computers: `A`, `B` and `C`.
+
+* `A` and `B` communicate via a suitable wireless [[Network Protocol]] like [[IEEE 802.11]]
+* `B` and `C` communicate via a wired [[Protocol|Network Protocol]] like [[PPP|Point-to-Point Protocol]]
+* `A` and `C` can't communitace directly, because they are conceptually on different networks.
+
+One could theoretically combine the two [[Protocols|Network Protocol]] into some 'super-protocol', but this would mean that a different 'super-protocol' would be needed to unify each combination of different base [[Protocols|Network Protocol]].
+
+Instead, it is easier to design a protocol that would work on top of the existing ones (or //any// of all the various base [[Protocols|Network Protocol]] for that matter), who's job would be to arrange the for communication between the two (or any number in general case) different existing networks.
+
+The most popular of such protocols that exist is the [[Internet Protocol]], whos name tells just that - 'between networks'.
+
+The fact that we're 'layering' the different protocols to achieve the final end gives rise to the notion of a [[Protocol Suite]].
+
+Let's look at the interactions within our suite:
+
+* A request on computer `A` to send data to `C` is taken by the upper protocol, which knows that `C` is reachable through `B`
+* The upper protocol instructs the wireless protocol to transmit the data packet to `B`
+* On computer `B`, the lower layer handlers will pass the packet to the upper protocol
+* The upper protocol will realize that `B` is not the final destination and thus will invoke lower level protocol (this time, the wired one) to send the packet to `C`
+* On computer `C` the packet is again passed to the upper protocol
+* The upper protocol will realize that `C` is the final destination and thus will pass the data to a higher protocol or an application on `C`
+
+https://en.wikipedia.org/wiki/Protocol_stack
+
+https://en.wikipedia.org/wiki/Internet_Protocol#:~:text=The%20Internet%20Protocol%20(IP)%20is,and%20essentially%20establishes%20the%20Internet.

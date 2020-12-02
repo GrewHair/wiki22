@@ -1,0 +1,54 @@
+created: 20201202203519656
+modified: 20201202205232051
+tags: Networking Stub
+title: Private Address
+tmap.id: 0b8b0a3e-1fc1-4eea-b8b4-f3ba90e58849
+type: text/vnd.tiddlywiki
+
+The [[IETF|Internet Engineering Task Force]] has directed the [[IANA|Internet Assigned Numbers Authority]] to reserve the following [[IPv4]] address ranges for [[Private Networks|Private Network]]:
+
+<table>
+<tbody><tr>
+<th>RFC1918 name</th>
+<th>IP address range</th>
+<th>Number of addresses
+</th>
+<th>Largest [[CIDR|Classless Inter-Domain Routing]] block ([[subnet mask|Subnet Mask]])</th>
+<th>Host ID size</th>
+<th>Mask bits
+</th>
+<th>[[Classful|Classful Network]] description</th>
+</tr>
+<tr>
+<td>24-bit block</td>
+<td>10.0.0.0 – 10.255.255.255</td>
+<td><span style="white-space:nowrap">16<span style="margin-left:0.25em">777</span><span style="margin-left:0.25em">216</span></span></td>
+<td>10.0.0.0/8 (255.0.0.0)</td>
+<td>24 bits</td>
+<td>8 bits</td>
+<td>single class A network
+</td></tr>
+<tr>
+<td>20-bit block</td>
+<td>172.16.0.0 – 172.31.255.255</td>
+<td><span style="white-space:nowrap">1<span style="margin-left:0.25em">048</span><span style="margin-left:0.25em">576</span></span></td>
+<td>172.16.0.0/12 (255.240.0.0)</td>
+<td>20 bits</td>
+<td>12 bits</td>
+<td>16 contiguous class B networks
+</td></tr>
+<tr>
+<td>16-bit block</td>
+<td>192.168.0.0 – 192.168.255.255</td>
+<td><span style="white-space:nowrap">65<span style="margin-left:0.25em">536</span></span></td>
+<td>192.168.0.0/16 (255.255.0.0)</td>
+<td>16 bits</td>
+<td>16 bits</td>
+<td>256 contiguous class C networks
+</td></tr></tbody></table>
+
+These addresses are not allowed on the [[Internet]]!
+
+All the other addresses are public!
+
+https://en.wikipedia.org/wiki/Private_network

@@ -1,0 +1,8 @@
+created: 20201118070940182
+modified: 20201118071653929
+tags: Stub
+title: Host Machine
+tmap.id: 86ac1ec6-9509-45e7-b491-0c6ab54d48dc
+type: text/vnd.tiddlywiki
+
+A computer on which a [[Hypervisor]] runs one or more [[Virtual Machines|Virtual Machine]] is called a [[Host Machine]].

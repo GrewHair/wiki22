@@ -1,0 +1,12 @@
+created: 20201115214045439
+modified: 20201115214449587
+tags: [[The Modern Javascript Tutorial]] Javascript Stub [[Abstract Algebra]]
+title: Dynamically Typed Programming Language
+tmap.id: 31e64ffe-ff33-47a8-b538-f92c7ef0ec01
+type: text/vnd.tiddlywiki
+
+In a [[Dynamically Typed Programming Language]], there exist [[Data Types|Data Type]], but [[Variables|Variable (Programming)]] are not bound to any of them.
+
+An interesting article:
+
+https://en.wikipedia.org/wiki/Type_system#DYNAMIC

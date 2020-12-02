@@ -1,0 +1,8 @@
+created: 20201202202308140
+modified: 20201202203255696
+tags: Networking Stub
+title: Router
+tmap.id: 5cfb27e3-1bb5-4087-a821-2c67aa64a7b0
+type: text/vnd.tiddlywiki
+
+[[Routers|Router]] never forward [[Broadcast]] messages! (Otherwise the [[Broadcast]] messages would just cycle in loops forever).

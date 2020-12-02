@@ -1,0 +1,10 @@
+created: 20201115225608629
+modified: 20201115225907876
+tags: Javascript [[The Modern Javascript Tutorial]]
+title: Operator
+tmap.id: fbd40d96-167f-4c28-bc1e-5adcfbcdde2c
+type: text/vnd.tiddlywiki
+
+An [[Operator]] is what is applied to [[Operands|Operand]].
+
+in `5 * 2`, `*` is an [[Operator]].

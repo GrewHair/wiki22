@@ -1,0 +1,18 @@
+created: 20201115230751513
+modified: 20201115232842751
+tags: Javascript [[The Modern Javascript Tutorial]] Stub
+title: String Concatenation with Binary +
+tmap.id: aa4e6dc1-5911-4c33-b282-f2bd91ee47e3
+type: text/vnd.tiddlywiki
+
+If any of the [[Operands|Operand]] is a [[String]], the other one is converted to a [[String]] too.
+
+''Example:''
+
+```javascript
+alert( '1' + 2 );  // "12"
+alert( 2 + '1' );  // "21"
+alert( 2 + 2 + '1' ); // "41" and not "221"
+```
+
+The [[binary|Binary Operator]] `+` is the only [[Operator]] that supports [[Strings]] is such a way. All the other arithmetic [[Operators|Operator]] work only with [[Numbers|Number (Javascript)]] and always convert their [[Operands|Operand]] to [[Numbers|Number (Javascript)]].

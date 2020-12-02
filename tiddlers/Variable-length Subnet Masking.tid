@@ -1,0 +1,14 @@
+created: 20201202190549018
+modified: 20201202191319248
+tags: Networking Stub ≥0
+title: Variable-length Subnet Masking
+tmap.id: b0c0daf7-e762-49a9-b560-df540c71c165
+type: text/vnd.tiddlywiki
+
+''AKA VLSM''
+
+[[VLSM|Variable-length Subnet Masking]] is simply creating [[subnets|Subnetting]] of different sizes.
+
+E.g. you have a head office and two branch offices. Each of the branch offices has only one [[Host]], a [[Router]], and a printer, while the head office has a lot of hosts. Thus, it is reasonable to apply different [[Subnet Masks|Subnet Mask]] in order to not waste the available address space.
+
+[img[_my/images/png/vlsm_example]]

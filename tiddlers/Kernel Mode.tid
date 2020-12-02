@@ -1,0 +1,10 @@
+created: 20201117135055863
+modified: 20201117135258151
+tags: Stub
+title: Kernel Mode
+tmap.id: d33922c0-d937-4d08-b592-d0f7f4ed8c49
+type: text/vnd.tiddlywiki
+
+''AKA Master Mode, Supervisor Mode, Privileged Mode''
+
+In [[Kernel Mode]], the [[CPU|Central Processing Unit]] may perform any operation allowed by its architecture

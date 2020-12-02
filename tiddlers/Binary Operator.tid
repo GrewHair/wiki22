@@ -1,0 +1,10 @@
+created: 20201115230155378
+modified: 20201115230316982
+tags: Javascript [[The Modern Javascript Tutorial]]
+title: Binary Operator
+tmap.id: b58c4df9-d751-4188-b53d-4305aad55215
+type: text/vnd.tiddlywiki
+
+A [[Binary Operator]] is an [[Operator]] that has two [[Operands|Operand]].
+
+An example is addition `+`, as in `x + y`.

@@ -1,0 +1,10 @@
+created: 20201117135338785
+modified: 20201117135926315
+tags: Stub
+title: User Mode
+tmap.id: 6c36d0e8-d4f4-429c-b938-053073cbb187
+type: text/vnd.tiddlywiki
+
+''AKA Restricted mode, Slave mode, Problem state''
+
+In [[User Mode]], the [[CPU|Central Processing Unit]] will __not__ execute a large portion of its instruction set, responsible for things like direct memory access and other critical actions that are only supposed to be performed by the [[OS|Operating System]] and not any application software.

@@ -1,0 +1,17 @@
+created: 20201118072245815
+modified: 20201118103011333
+tags: 
+title: Hypervisor
+tmap.id: 0dc250d4-8bed-46eb-a2dc-f6484835f0bb
+type: text/vnd.tiddlywiki
+
+''AKA Virtual Machine Monitor, VMM, Virtualizer''
+
+A [[Hypervisor]] is computer software, firmware or [[hardware|Hardware-assisted Virtualization]] that creates and runs [[Virtual Machines|Virtual Machine]].
+
+The term [[Hypervisor]] is a derivative of a somewhat related concept of a [[Supervisor|Kernel]], meaning that a [[Hypervisor]] is the supervisor of the [[Supervisors|Kernel]] (so a "higher-order" [[Supervisor|Kernel]]).
+
+In their 1974 article, //Formal Requirements for Virtualizable Third Generation Architectures//, Gerald J. Popek and Robert P. Goldberg distinguish two types of hypervisor:
+
+* [[Type-1|Type-1 Hypervisor]]
+* [[Type-2|Type-2 Hypervisor]]

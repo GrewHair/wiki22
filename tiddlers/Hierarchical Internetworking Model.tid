@@ -1,0 +1,12 @@
+created: 20201120092126982
+modified: 20201120092306429
+tags: Stub
+title: Hierarchical Internetworking Model
+tmap.id: f20e52bd-41c3-4b43-87f5-c83247c3f41e
+type: text/vnd.tiddlywiki
+
+* [[Access Layer]]
+* [[Distribution Layer]]
+* [[Core Layer]]
+
+https://en.wikipedia.org/wiki/Hierarchical_internetworking_model#:~:text=The%20Hierarchical%20internetworking%20model%20is,%2C%20distribution%2C%20and%20access%20layer.

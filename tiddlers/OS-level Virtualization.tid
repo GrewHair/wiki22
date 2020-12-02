@@ -1,0 +1,10 @@
+created: 20201118105128638
+modified: 20201118113237601
+tags: Stub
+title: OS-level Virtualization
+tmap.id: 6de46d2a-c037-4dee-8371-efc5a5931339
+type: text/vnd.tiddlywiki
+
+[[OS-level Virtualization]] is an [[Operating System]] paradigm in which the [[Kernel]] allows the existence of multiple isolated [[User Space]] instances, usually called [[Containers|Container]].
+
+Thus, with [[OS-level Virtualization]], all the instances/[[Containers|Container]] must share a single [[Kernel]], but may differ in [[User Space]] (e.g. different [[Linux]] distributions with the same [[Kernel]]).

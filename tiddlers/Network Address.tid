@@ -1,0 +1,10 @@
+created: 20201202193301939
+modified: 20201202193502110
+tags: Networking Stub
+title: Network Address
+tmap.id: b7b31ccc-4509-4a02-8c3e-1a8fd6c10fd6
+type: text/vnd.tiddlywiki
+
+In a [[Network Address]], all the [[Host]] bits are set to zero.
+
+''Example:'' `172.16.2.0 /24`

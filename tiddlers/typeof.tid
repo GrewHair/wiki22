@@ -1,0 +1,22 @@
+created: 20201115221501750
+modified: 20201115221715316
+tags: Javascript [[The Modern Javascript Tutorial]]
+title: typeof
+tmap.id: 8040a1e6-cce4-4cce-850c-549a40b3473d
+type: text/vnd.tiddlywiki
+
+[[Python]]:
+
+```python
+type(x)
+```
+
+[[Javascript]]:
+
+```javascript
+// as an operator:
+typeof x
+
+// as a function:
+typeof(x)
+```

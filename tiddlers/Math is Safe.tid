@@ -1,0 +1,14 @@
+created: 20201115215324968
+modified: 20201115215701789
+tags: Javascript [[The Modern Javascript Tutorial]]
+title: Math is Safe
+tmap.id: e438599f-bb95-4b90-a70e-96ed06583960
+type: text/vnd.tiddlywiki
+
+Doing maths is 'safe' in [[Javascript]]. One can divide by zero, treat strings as numbers, etc.
+
+The script will never throw a fatal error - at worst you will just get `NaN` as a result.
+
+This is where it contrasts with e.g. [[Python]], which __will__ thow errors at you.
+
+This feature is considered by some as a bad thing since it can conceal bugs.

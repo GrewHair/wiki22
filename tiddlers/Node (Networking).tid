@@ -1,0 +1,19 @@
+created: 20201124054905148
+modified: 20201202144044248
+tags: Stub Networking
+title: Node (Networking)
+tmap.id: 1860b14d-4506-4ecd-8b05-b0eeb7bc6406
+type: text/vnd.tiddlywiki
+
+A [[Node|Node (Networking]] is either [[Redistribution Point]] or a [[Communication Endpoint]].
+
+The definition of a [[Node|Node (Networking)]] depends on the network and [[Protocol Layer|Protocol Stack]] referred to <span style="color:orange"> (note: it would be nice to find definitions of a [[Node|Node (Networking)]] for each layer of the [[OSI Model]], analogous to how [[PDUs|Protocol Data Unit]] are presented - but it unfortunately appears to not be so common)</span>.
+
+A physical [[Network Node|Node (Networking)]] is an electronic device that is attached to the network, capable of creating, receiving, or transmitting information over a [[Communication Channel]].
+
+Thus, a [[Passive|Passivity (Engineering)]] distribution point is not considered a [[Node|Node (Networking)]].
+
+Usually the term [[Node|Node (Networking)]] implies the context of [[LANs|Local Area Network]] or [[WANs|Wide Area Network]], in which case each [[Node|Node (Networking)]] has to have an [[IP Address]]. Therefore, in this context, all the [[Level 1 Devices]] are not considered [[Nodes|Node (Networking)]].
+
+(It is somewhat related to the datalink layer of the OSI)
+https://en.wikipedia.org/wiki/Node_(networking)
