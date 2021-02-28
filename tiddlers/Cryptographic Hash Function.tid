@@ -1,0 +1,14 @@
+created: 20210211074222715
+modified: 20210211074954978
+tags: Networking Security Privacy [[Understanding the Digital World (Brian Kernighan)]] Stub
+title: Cryptographic Hash Function
+tmap.id: 73933286-fa1b-41ef-a55f-1a99741f435a
+type: text/vnd.tiddlywiki
+
+''AKA CHF, Message Digest''
+
+Because [[public-key algorithms|Public-key Cryptography]] are slow, documents are often [[signed|Digital Signature]] indirectly, using [[Cryptographic Hash Functions|Cryptographic Hash Function]].
+
+A [[Cryptographic Hash Function]] is an algorithm that scrambles the bits of any input into a fixed-length sequence of bits - the digest ar hash - with the property that it's computationally infeasible to find another input with the same digest.
+
+More, the slightest change to the input changes approximately half the bits in the digest.

@@ -1,0 +1,64 @@
+created: 20210227182817047
+modified: 20210227200751838
+tags: Networking Stub
+title: DNS Zones vs Domains
+tmap.id: 3dcc3bbb-f2ec-46c6-957b-846d314cdf96
+type: text/vnd.tiddlywiki
+
+For [[Domains|Domain]] to share a [[Zone|DNS Zone]] (and hence a [[Zone File]]) the [[Domains|Domain]] ''must be contiguous''!
+
+<$viz text="""
+digraph {
+splines=ortho
+nodesep=0.88
+ranksep=0.3
+subgraph cluster0 {
+label="Zone 1"
+style=rounded
+e1 [label="Dot(.)", shape=rect]
+e2 [label="com", shape=rect]
+dummy1 [shape="point", width=0]
+e31 [label="Domain1", shape=rect]
+e32 [label="Domain2", shape=rect]
+e33 [label="Domain3", shape=rect]
+{rank=same; e1}
+{rank=same; e2}
+{rank=same; dummy1}
+{rank=same; e31; e32; e33}
+e1 -> e2 [arrowhead=none]
+e2 -> dummy1 [arrowhead=none]
+dummy1 -> e31 [arrowhead=none]
+dummy1 -> e32 [arrowhead=none]
+dummy1 -> e33 [arrowhead=none]
+}
+dummy2 [shape=point, width=0]
+e31 -> dummy2 [arrowhead=none]
+subgraph cluster1 {
+label="Zone 2"
+e41 [label="Sub\ndomain\n1", shape=rect]
+e42 [label="Sub\ndomain\n2", shape=rect]
+{rank=same; e41; e42}
+dummy2 -> e41 [arrowhead=none]
+dummy2 -> e42 [arrowhead=none]
+}
+dummy3 [shape=point, width=0]
+e33 -> dummy3 [arrowhead=none]
+subgraph cluster2 {
+label="Zone 3"
+e43 [label="Sub\ndomain\n1", shape=rect]
+dummy3 -> e43 [arrowhead=none]
+}
+e44 [label="Sub\ndomain\n2", shape=rect]
+dummy3 -> e44 [arrowhead=none]
+}
+""" class='dot_1'/>
+
+In this example:
+
+* Each [[Zone|DNS Zone]] has its own [[Zone File]]
+* [[Zone 2|DNS Zone]] includes [[Subdomains|Subdomain]] 1 and 2 of [[Domain 1|Domain]]
+* [[Zone 3|DNS Zone]] only includes [[Subdomain 1|Subdomain]] of [[Domain 3|Domain]]
+
+http://www.steves-internet-guide.com/dns-zones-explained/
+
+https://stackoverflow.com/questions/22440582/difference-between-a-dns-zone-and-dns-domain

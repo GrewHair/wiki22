@@ -1,0 +1,18 @@
+created: 20210203171643432
+modified: 20210204091039444
+tags: Security Cryptography Privacy [[Understanding the Digital World (Brian Kernighan)]] Stub
+title: Public-key Cryptography
+tmap.id: 1c0ce065-73ae-44ae-85fe-567323b5b471
+type: text/vnd.tiddlywiki
+
+[[Public-key Cryptography]] was invented in 1976 (edit: [[Vint Cerf]] sadly admits that it had appeared and become widespread just 1~2 years after the [[TCP/IP]] was designed - so it did not make there) by Whitfield Diffie and Martin Hellman at Stanford.
+
+In a [[Public-key Cryptosystem|Public-key Cryptography]], each person has a [[Key Pair]] consisting of a [[Public Key]] and a [[Private Key]].
+
+The keys of the [[pair|Key Pair]] are [[integers|Integers]] that are mathematically related and have the property that a message encrypted with one key of [[the pair|Key Pair]] can only be decrypted with the other key, and vice versa.
+
+If the keys are sufficiently long, it is infeasible for an attacker to decrypt the secret message or deduce the [[Private Key]] from the [[Public Key]].
+
+The best known algorithm that an attacker can use require run time that grows exponentially with the key length.
+
+[[Example|Public-key Cryptography/Example]]

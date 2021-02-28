@@ -1,0 +1,21 @@
+.hsk.transcludes: [[_my/images/graph_components]]
+created: 20210105181818322
+modified: 20210105222604240
+tags: [[Graph Theory]] Stub
+title: Component (Graph Theory)
+tmap.id: f02c6438-5b32-4982-8f9e-ec49fd9311eb
+type: text/vnd.tiddlywiki
+
+''AKA Connected Component''
+
+A [[Component|Component (Graph Theory)]] of an [[Undirected Graph]] is an [[Induced Subgraph]] in which any two [[Vertices|Vertex (Graph Theory)]] are //connected// to each other by [[Paths|Path (Graph Theory)]], and which is connected to no additional [[Vertices|Vertex (Graph Theory)]] in the rest of the [[Graph]].
+
+<br>
+
+<span style="zoom:40%">
+{{_my/images/graph_components}}
+</span>
+
+<br>
+
+https://en.wikipedia.org/wiki/Component_(graph_theory)

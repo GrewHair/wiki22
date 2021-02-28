@@ -1,0 +1,13 @@
+created: 20210202071347166
+modified: 20210202072305479
+tags: Networking [[Understanding the Digital World (Brian Kernighan)]] Stub
+title: Routing
+tmap.id: a40e7871-94e9-49d0-bfdc-789d5c0288d4
+type: text/vnd.tiddlywiki
+
+* [[Routing]] in a broad sense is the process of selecting a path for traffic in a network or between or across multiple networks. In this broad sense, [[Routing]] is performed in many different types of networks, including [[Circuit-switched Networks|Circuit Switching]], such as the [[PSTN|Public Switched Telephone Network]], and [[Computer Networks|Computer Network]], such as the Internet.
+* [[Routing]] in a narrow sense refers to [[IP Routing]], and is contrasted with [[Bridging|Network Bridging]].
+
+Quite notably, [[Vint Cerf]] proudly admits that the whole [[TCP/IP]] specification doesn't once mention or specify anything about [[Routing]] at all - although it definitely relies on it.
+
+https://en.wikipedia.org/wiki/Routing

@@ -1,0 +1,12 @@
+created: 20210201113314399
+modified: 20210201113608937
+tags: Networking [[Understanding the Digital World (Brian Kernighan)]] Stub
+title: Secure Shell
+tmap.id: 5139f148-d3be-483c-9cf9-5670b82cff18
+type: text/vnd.tiddlywiki
+
+''AKA SSH''
+
+[[SSH|Secure Shell]] is a descendant of [[Telnet]]. Unlike [[Telnet]], it provides the security features by encrypting all traffic in both directions.
+
+[[SSH|Secure Shell]] uses [[Port|Port (Networking)]] 22.

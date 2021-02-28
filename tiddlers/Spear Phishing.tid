@@ -1,0 +1,10 @@
+created: 20210202175428441
+modified: 20210202175849566
+tags: Security Web [[Understanding the Digital World (Brian Kernighan)]]
+title: Spear Phishing
+tmap.id: 13ca2c9f-fe92-4d9a-ba7e-73562c1bd805
+type: text/vnd.tiddlywiki
+
+[[Spear Phishing]] is a kind of [[Phishing|Phishing Attack]], widespread in the social networks.
+
+It tries to induce the victim to do something stupid (like give away the money or the number of the credit card) by pretending to have a personal relationship like a mutual friend, or claiming to work for the same company.

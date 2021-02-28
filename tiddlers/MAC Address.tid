@@ -1,0 +1,15 @@
+created: 20201206132825084
+modified: 20210215114205305
+tags: Stub Networking [[Network Fundamentals (Network Direction)]]
+title: MAC Address
+tmap.id: eece559c-74d0-40a6-b231-0d5cde349ce8
+type: text/vnd.tiddlywiki
+
+''AKA Ethernet Address''
+
+$$\displaystyle
+\underbrace{AA:BB:CC}_{\text{OUI}}
+:\overbrace{00:11:22}^{\text{Vendor Assigned}},
+$$
+
+where: [[OUI|Organizaationally Unique Indentifier]] is [[Organisationally Unique Indentifier]], and the remaining bits are vendor assigned.

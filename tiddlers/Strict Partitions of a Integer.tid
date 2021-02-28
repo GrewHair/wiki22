@@ -1,0 +1,9 @@
+created: 20210201092901438
+modified: 20210201093232026
+tags: 
+title: Strict Partitions of a Integer
+tmap.id: 2111408e-da1d-495e-8705-61ba115c25d9
+type: text/vnd.tiddlywiki
+
+* <a href="https://stackoverflow.com/questions/61944559/efficient-algorithm-for-getting-number-of-partitions-of-integer-with-distinct-pa">Fast solution using generating function</a>
+* <a href="https://codegolf.stackexchange.com/questions/71941/strict-partitions-of-a-positive-integer">Slow solution using recurrent function with memoization</a>

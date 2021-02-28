@@ -1,0 +1,37 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200630161301596
+modified: 20210203180406714
+tags: Web [[Understanding the Digital World (Brian Kernighan)]]
+title: Organization of a Search Engine
+tmap.id: 7821b537-c6ff-4b52-9077-7ce172684759
+type: text/vnd.tiddlywiki
+
+<$viz text='
+digraph G {
+//rankdir=LR
+{rank=same; n11; n12; n13; n14}
+{rank=same; n21; n22}
+{rank=same; n31; n32}
+n11 [label="query"; shape=none]
+n12 [label="lookup"; shape=rect]
+n13 [label="advertisement\nselection"; shape=rect]
+n14 [label="response"; shape=none]
+
+n21 [label="page\ndatabase"]
+n22 [label="advertising\ndatabase"]
+
+n31 [label="web\ncrawl"; shape=none]
+n32 [label="index\nbuilder"; shape=rect]
+n31 -> n32
+
+n11 -> n12
+n12 -> n13 [label="page\nsnippets"]
+n13 -> n14
+
+n32 -> n21 -> n12
+n22 -> n13
+}
+' class="dot_1"/>

@@ -1,5 +1,5 @@
 created: 20200810084547643
-modified: 20200819081241711
+modified: 20210205110940209
 tags: Statistics [[Машинное обучение и анализ данных (Яndex, МФТИ)]]
 title: Confidence Interval/Comment
 tmap.id: 9cd1d407-6dac-49ad-9ffb-05b252c6c83b
@@ -16,7 +16,7 @@ X_n \approx \sim N
 \right).
 $$
 
-This gives us the ability to write down [[Confidence Intervals|Confidence Interval]] for [[Means|Expectation]] of [[Samples]] from //any// [[Distribution|Probability Distribution]] $$X \sim F(x)$$ not just using the formal definition, but also in the form similar to one from the [[example|Confidence Interval/Example]], i.e. parametrized with the [[Sample Mean]] and the [[Variance]]:
+This gives us the ability to write down [[Confidence Intervals|Confidence Interval]] for [[Means|Expectation]] of [[Samples|Sample]] from //any// [[Distribution|Probability Distribution]] $$X \sim F(x)$$ not just using the formal definition, but also in the form similar to one from the [[example|Confidence Interval/Example]], i.e. parametrized with the [[Sample Mean]] and the [[Variance]]:
 
 $$
 \displaystyle

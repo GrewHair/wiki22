@@ -1,0 +1,25 @@
+created: 20210216174516174
+modified: 20210216175404416
+tags: Networking Stub
+title: Cumulative ACK
+tmap.id: dad7efeb-1b93-473e-9335-0cb19f0b8a7b
+type: text/vnd.tiddlywiki
+
+[[plantuml [
+@startuml
+skinparam monochrome reverse
+
+Client -> Server : Data, 0
+Client -> Server : Data, 1460
+Client -> Server : Data, 2920
+Client <- Server : \n\nACK, wait 4380
+Client -> Server : \n\nData, 4380
+Client -[#darkgrey]>x Server : Data, 5840
+Client -> Server : Data, 7300
+Client <- Server : \n\nACK, wait 5840
+Client -> Server : \n\nData, 5840
+Client -> Server : Data, 7300
+
+
+@enduml
+]]]

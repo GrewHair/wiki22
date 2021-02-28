@@ -1,0 +1,30 @@
+created: 20210202101158526
+modified: 20210202105135855
+tags: Networking [[Understanding the Digital World (Brian Kernighan)]] Stub
+title: Uniform Resource Locator
+tmap.id: 84eac500-b937-4c9a-8100-cc687f775cc4
+type: text/vnd.tiddlywiki
+
+''AKA URL''
+
+''Example:''
+
+```url
+http://www.bing.com/search?q=funny+cat+pictures
+```
+
+Here:
+
+* `http` is a scheme, i.e. one of several possibilities that tell which specific [[protocol|Communication Protocol]] to use
+* `://` is just a separator
+* `www.bing.com` is a [[Domain Name]]
+* `/` is a separator
+** the substring after this `/` is passed verbatim to the [[Server]]
+* `search` may be a name of some file (`index.html` by default) to be returned
+* `?` after the initial part of the file name usually means that the [[Server]] is supposed to run a program whose name is the part before the question mark
+* `q=funny+cat+pictures`, or whatever is after the question mark, are arguments passed to that program.
+
+[[URLs|Uniform Resource Locator]] are written in a restricted character set that excludes spaces and most non-alphanumeric characters, so these must be encoded:
+
+* A plus sign "`+`" encodes a space
+* Other chcaracters are encoded with [[Percent Encoding]]

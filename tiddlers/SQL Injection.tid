@@ -1,0 +1,10 @@
+created: 20210202181828247
+modified: 20210202182201367
+tags: Security Web [[Understanding the Digital World (Brian Kernighan)]]
+title: SQL Injection
+tmap.id: 044c4ec4-146a-4c6c-a10f-5de72a536929
+type: text/vnd.tiddlywiki
+
+[[Servers|Server]] are usually supported by [[Databases|Database]] that are accessed through a standard interface called [[SQL|SQL]].
+
+One frequent attack is called [[SQL Injection]]. If access is not carefully circumscribed, a clever attacker can submit queries to obtain information about the [[Database]] structure, extract unauthorized information, and even run the attacker's code on the [[Server]].

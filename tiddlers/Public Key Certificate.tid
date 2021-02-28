@@ -1,0 +1,17 @@
+created: 20210211082430953
+modified: 20210211083546790
+tags: Networking Security Privacy Stub [[Understanding the Digital World (Brian Kernighan)]]
+title: Public Key Certificate
+tmap.id: 936ecc72-9e51-4320-973e-c7a4631595a7
+type: text/vnd.tiddlywiki
+
+''AKA Digital Certificate, Identity Certificate''
+
+In [[Cryptography]], a [[Public Key Certificate]] is an [[Electronic Document]] used to prove the ownership of a [[Public Key]].
+
+The [[certificate|Public Key Certificate]] includes:
+
+* information about the [[key|Public Key]] 
+* information about the identity of its owner (called the subject)
+* [[Digital Signature]] of an entity that has verified the [[certificate|Public Key Certificate]]'s contents (called the issuer)
+https://en.wikipedia.org/wiki/Public_key_certificate

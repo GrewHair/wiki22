@@ -1,0 +1,15 @@
+created: 20201228143108059
+modified: 20201228143446754
+tags: Python
+title: Python Testing Frameworks
+tmap.id: 1d43db13-9cab-443a-8027-5d52500f7631
+type: text/vnd.tiddlywiki
+
+* `pytest`
+* `unittest`
+* `doctest`
+* `nose`
+
+`pytest` is the most [[Pythonic]] of them and is recommended by [[The-Compiler]].
+
+`unittest` is a wrapper for [[Java]]'s testing framework.

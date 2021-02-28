@@ -1,0 +1,8 @@
+created: 20210204081228038
+modified: 20210204081403622
+tags: [[Understanding the Digital World (Brian Kernighan)]] Privacy Security Cryptography Stub
+title: Private Key
+tmap.id: 0fc41e19-b788-42ed-9d7e-0c25e30cb20d
+type: text/vnd.tiddlywiki
+
+The [[Private Key]] must be kept strictly private, a secret known only to the owner of this [[pair of keys|Key Pair]].

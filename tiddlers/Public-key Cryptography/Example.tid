@@ -1,0 +1,38 @@
+created: 20210204081521176
+modified: 20210227195134030
+tags: Privacy Security Cryptography [[Understanding the Digital World (Brian Kernighan)]]
+title: Public-key Cryptography/Example
+tmap.id: de10efd0-8c34-425f-a8b5-37b03142b011
+type: text/vnd.tiddlywiki
+
+Suppose Alice Wants to send a message to Bob, encrypted so that only Bob can read it.
+
+* Alice goes to Bob's web page and gets his [[Public Key]]
+* She uses it to encrypt her message to him and sends the message
+* An eavesdropper Eve sees that Alice is sending a message
+* But Eve doesn't know Bob's [[Private Key]] (nobody does - except Bob), so she can't crack the message!
+
+<$viz text="""
+digraph {
+    //rankdir=LR
+		dummy [shape=point; width=0]
+		alice [label=Alice; shape=plaintext]
+		bob [label=Bob; shape=plaintext]
+		{rank=same; alice; bob}
+		orig_msg [label="original\nmessage"; shape=plaintext]
+		enc_algo [label="encryption\nalgorithm"; shape=rect]
+		same_enc_algo [label="same\nencryption\nalgorithm"; shape=rect]
+		decr_msg [label="decrypted\nmessage"; shape=plaintext]
+		{rank=same; orig_msg; enc_algo; dummy; same_enc_algo; decr_msg}
+		alice -> enc_algo [label="Bob's public key"]
+		bob -> same_enc_algo [label="Bob's private key"]
+		orig_msg -> enc_algo
+		enc_algo -> dummy [arrowhead = none]
+		dummy -> same_enc_algo [label="encrypted\nmessage"]
+		same_enc_algo -> decr_msg
+		Eve [shape=plaintext]
+		dummy -> Eve [style=dashed]
+}
+""" class="dot_1"/>
+
+This scheme solves the [[Key Distribution Problem]], since there are no shared secrets to distribute.

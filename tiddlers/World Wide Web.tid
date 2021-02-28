@@ -1,0 +1,19 @@
+created: 20210202083852482
+modified: 20210202101145476
+tags: Networking Computing [[Understanding the Digital World (Brian Kernighan)]]
+title: World Wide Web
+tmap.id: d2721830-91ef-4ef7-b82e-f03695103769
+type: text/vnd.tiddlywiki
+
+<<<.tc-big-quote
+The WorldWideWeb (W3) is a wide-area hypermedia information retrieval initiative aiming to give universal access to a large universe of documents.
+<<<
+
+From the first web page, at <a target="_blank" href="http://info.cern.ch/hypertext/WWW/TheProject.html">info.cern.ch/hypertext/WWW/TheProject.html</a>
+
+Given the existence of a pervasive, efficient, open and free [[underlying network|Internet]], only four components, essential to the existance of the [[World Wide Web]], were additionally required:
+
+* [[URL|Uniform Resource Locator]]
+* [[HTTP|HyperText Transfer Protocol]]
+* [[HTML|HyperText Markup Language]]
+* [[Web Browser]]

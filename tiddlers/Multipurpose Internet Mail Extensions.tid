@@ -1,0 +1,22 @@
+created: 20210201125540369
+modified: 20210201130518109
+tags: Networking [[Understanding the Digital World (Brian Kernighan)]] Stub
+title: Multipurpose Internet Mail Extensions
+tmap.id: e2c323dd-1875-41a8-84b9-66a10f35a147
+type: text/vnd.tiddlywiki
+
+''AKA MIME''
+
+[[MIME|Multipurpose Internet Mail Extensions]] is an [[Internet Standard]] that describes how to convert types of data beyound plain [[ASCII]] into text and how to combine multiple pieces into a single mail message.
+
+This is the mechanism used to include mail attachments like pictures and video.
+
+It is used by:
+
+* [[SMTP|Simple Mail Transfer Protocol]]
+* [[HTTP|Hypertext Transfer Protocol]]
+* ...
+
+https://en.wikipedia.org/wiki/MIME
+
+https://www.networkworld.com/article/2199390/the-mime-guys--how-two-internet-gurus-changed-e-mail-forever.html

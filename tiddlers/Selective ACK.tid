@@ -1,0 +1,25 @@
+created: 20210216175504787
+modified: 20210216182019452
+tags: Networking Stub
+title: Selective ACK
+tmap.id: 6a3587aa-a024-4333-8697-a89c0a4e3add
+type: text/vnd.tiddlywiki
+
+[[plantuml [
+@startuml
+skinparam monochrome reverse
+
+Client -> Server : Data, 0
+Client -> Server : Data, 1460
+Client -[#darkgrey]>x Server : Data, 2920
+Client -> Server : Data, 4380
+Client -[#darkgrey]>x Server : Data, 5840
+Client -> Server : Data, 7300
+
+Client <- Server : \n\nACK, wait 2920
+Client <- Server : ACK, wait 5840
+Client <- Server : ACK, wait 8760
+
+
+@enduml
+]]]

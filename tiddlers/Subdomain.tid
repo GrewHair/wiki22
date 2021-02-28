@@ -1,0 +1,10 @@
+created: 20210125105523843
+modified: 20210131114328415
+tags: Networking [[Understanding the Digital World (Brian Kernighan)]] Stub
+title: Subdomain
+tmap.id: 0c200a48-f8a3-4d4d-b312-f7736cbc231b
+type: text/vnd.tiddlywiki
+
+In the [[Domain Name System]] hierarchy, a [[Subdomain]] is a [[Domain]] that is a part of another (main) [[Domain]].
+
+E.g., Princeton University is given the [[Domain Name]] `princeton.edu`, and thus it responsible for administering it and can define [[sub-domain names|Subdomain]] within that range, like `classics.princeton.edu` or `cs.princeton.edu`.

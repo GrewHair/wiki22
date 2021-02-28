@@ -1,0 +1,13 @@
+created: 20201210170835255
+modified: 20201210172930293
+tags: Ubuntu
+title: Keyboard Automation Software
+tmap.id: 7f8c0907-e3c9-4334-8cc6-e30633203815
+type: text/vnd.tiddlywiki
+
+|!Software|!Modes|!Keychains|!WM_CLASS|!Daemon|!Modifiers beyond <br> <kbd>Shift</kbd>, <kbd>Ctrl</kbd>, <kbd>Win</kbd> and <kbd>Alt</kbd>|!Known Issues|
+|!i3|yes|||yes|yes||
+|!xdotool||N/A|N/A||yes|can't be used to send <kbd>hjkl</kbd> - it skips|
+|!xkeysnail||yes|yes|yes||<kbd>Ctrl</kbd> modifier seems to be fucked up (doesn't stick after single press)|
+|!xmodmap + xcape||||yes|yes||
+|!AutoKey|||yes|yes|yes||

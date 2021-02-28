@@ -1,0 +1,10 @@
+created: 20201207103509746
+modified: 20201207121704274
+tags: Networking Stub [[Network Fundamentals (Network Direction)]]
+title: One Subnet Per VLAN
+tmap.id: 17d13c58-7fb6-46fe-80b8-2abff3b5bfe4
+type: text/vnd.tiddlywiki
+
+A [[Subnet|Subnetwork]] is a [[Layer 3|Network Layer]] concept, while [[VLANs|VLAN]] are [[Layer 2|Datalink Layer]] - so they are handled separately.
+
+It is standard good practice to not try to put devices from different [[Subnets|Subnetwork]] into the same [[VLAN]] - although technically it is possible

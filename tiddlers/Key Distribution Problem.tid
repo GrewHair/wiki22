@@ -1,0 +1,10 @@
+created: 20210205060236831
+modified: 20210205060758364
+tags: Cryptography Privacy Security [[Understanding the Digital World (Brian Kernighan)]] Stub
+title: Key Distribution Problem
+tmap.id: df5610b7-c408-45d9-8d07-b92f1b880f90
+type: text/vnd.tiddlywiki
+
+Each party should know the key, so there must be a secure way to get the key to each of them, plus if someone is spied for or commits treason - we have a problem!
+
+https://en.wikipedia.org/wiki/Key_distribution

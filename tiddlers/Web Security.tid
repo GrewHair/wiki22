@@ -1,0 +1,12 @@
+created: 20210202172533305
+modified: 20210202172833594
+tags: [[Understanding the Digital World (Brian Kernighan)]] Security Web
+title: Web Security
+tmap.id: 3380e908-e541-4c72-84c2-4710fab9e15f
+type: text/vnd.tiddlywiki
+
+The [[Web Security]] threats might be roughly divided into three categories:
+
+* Attacks on clients
+* Attacks on servers
+* Attacks on information in transit (snooping on the wireless packets or  fiber optic)

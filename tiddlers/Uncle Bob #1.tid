@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200629191617508
-modified: 20200629193924148
+modified: 20210202084009813
 tags: Philosophy [[Uncle Bob]]
 title: Uncle Bob #1
 tmap.id: 73e2ac51-ae2e-415b-9298-00d0606567bc

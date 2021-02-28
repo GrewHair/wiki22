@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200316104401302
-modified: 20200325164007560
+modified: 20210205111126791
 tags: Topology
 title: Simplex
 tmap.id: 414eaefa-11dd-4ec5-b3a0-0c9cbccfff24
@@ -19,7 +19,7 @@ E.g.:
 * a 3-[[simplex|Simplex]] is a [[Tetrahedron]]
 * a 4-[[simplex|Simplex]] is a [[5-cell]]
 
-A k-[[simplex|Simplex]] is a k-[[dimensional|Dimension]] [[Polytope]] which is a [[Convex Hull]] of k+1 [[vertices|Vertex]].
+A k-[[simplex|Simplex]] is a k-[[dimensional|Dimension]] [[Polytope]] which is a [[Convex Hull]] of k+1 [[vertices|Vertex (Graph Theory)]].
 
 For $$k$$ [[Affinely Independent Points]]:
 

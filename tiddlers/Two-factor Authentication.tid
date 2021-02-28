@@ -1,0 +1,13 @@
+created: 20210202184142006
+modified: 20210202185226421
+tags: Security Web [[Understanding the Digital World (Brian Kernighan)]]
+title: Two-factor Authentication
+tmap.id: 0d1470c8-36c7-4e4c-8638-20123b4231e7
+type: text/vnd.tiddlywiki
+
+[[Two-factor Authentication]] requires both a password and a physical device in the possession of the user. It is safer than a password alone since it requires the user to both:
+
+* know something (a password)
+* have something (a device)
+
+The device can be a cell phone app that generates a number which has to match a number generated at the [[Server]] end by the same algorithm. It could be a message to your phone.

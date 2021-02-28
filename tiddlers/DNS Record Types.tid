@@ -1,0 +1,20 @@
+created: 20210224180646480
+modified: 20210224184239817
+tags: Networking [[DevOps Fundamentals (EPAM)]] Stub
+title: DNS Record Types
+tmap.id: 7620f29b-b572-4162-94c0-00bc93084a9f
+type: text/vnd.tiddlywiki
+
+|!Type|!Description|!Function|
+|!A|Address Record|Returns a 32-bit [[IPv4]] [[address|IP Address]], most commonly used to map hostnames to an [[IP Address]] of the [[Host]]|
+|!CNAME|Canonical Name Record|Alias of one name to another: the [[DNS Lookup]] will continue by retrying the lookup with the new name|
+|!MX|Mail Exchange Record| Maps a [[Domain Name]] to a list of [[message transfer agents|Mail Transfer Agent]] for that domain|
+|!AAAA|IPv6 Address Record|Returns a 128-bit [[IPv6]] [[address|IP Address]]|
+|!TXT|Text Record|[[Sender Policy Framework]], [[DKIM|DomainKeys Identified Mail]], [[DMARC]], [[DNS-SD|DNS Service Discovery]], etc.|
+|!PTR|Pointer Record|Pointer to a canonical name. Unlike a CNAME, DNS processing stops and just the name is returned. The most common use is for implementing [[Reverse DNS Lookups|Reverse DNS Lookup]]|
+|!SRV|Service locator|Generalized service location record, usedfor newer protocols instead of creating protocol-specific records such as MS|
+|!SPF|Sender Policy Framework|SPF was specified as part of the Sender Policy Framework protocol as an alternative to storing SPF data in TXT records, using the same format. It was later found that the majority of SPF deployments lack proper support for this record type, and support for it was discontinued in RFC 7208|
+|!NS|Name Server record|Delegates a [[DNS Zone]] to use the given [[Authoritative Name Servers|Authoritative Name Server]]|
+|!SOA|Start of (a zone of) Authority Record|Specifies authoritative information about a [[DNS Zone]], including the primary name server, the [[email|Email]] of the domain administrator, the domain serial number, and several timers relating to refreshing the zone|
+
+https://en.wikipedia.org/wiki/List_of_DNS_record_types

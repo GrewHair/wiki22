@@ -1,0 +1,12 @@
+created: 20210127115601891
+modified: 20210127131212457
+tags: [[Queueing Theory]]
+title: Server (Queueing Theory)
+tmap.id: e6f88a1a-422a-45ce-bffa-f4aa0799bd39
+type: text/vnd.tiddlywiki
+
+The term [[Server|Server (Queueing Theory)]], popular in [[Computer Science]] and [[general computing|Computing]], likely originates from the [[mathematical|Mathematics]] [[Queueing Theory]], which was extensively used back in the day for network analysis and played an important rock in the emergence of [[ARPANET]] (most notably, through the work of [[Leonard Kleinrock]]).
+
+Interestingly, it thus seemingly predates the compliment term [[Client|Client (Networking)]] by a decade!
+
+https://en.wikipedia.org/wiki/Queueing_theory#:~:text=A%20queueing%20model%20is%20constructed,needed%20to%20provide%20a%20service.

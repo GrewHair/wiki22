@@ -1,0 +1,9 @@
+created: 20210225125034000
+modified: 20210225125648766
+tags: 
+title: _my/housekeeping_notes/javascript_links
+tmap.id: adf3a93b-0d86-4a9a-b6ed-355c13acf32d
+type: text/vnd.tiddlywiki
+
+foo bar
+<a href="javascript:alert('smth')">hey</a>

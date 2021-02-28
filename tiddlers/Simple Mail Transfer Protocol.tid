@@ -1,0 +1,67 @@
+created: 20210201122618576
+modified: 20210201134409182
+tags: [[Understanding the Digital World (Brian Kernighan)]] Networking Stub
+title: Simple Mail Transfer Protocol
+tmap.id: dcc85425-f299-429c-8584-6e8b560cdee2
+type: text/vnd.tiddlywiki
+
+''AKA SMTP''
+
+[[SMTP|Simple Mail Transfer Protocol]] uses [[Port|Port (Networking)]] 25.
+
+[[SMTP|Simple Mail Transfer Protocol]] does fairly little on its own - a lot of other [[Standards|Internet Standard]] are in fact used in order for modern [[Email]] to work:
+
+* [[SMTP|Simple Mail Transfer Protocol]] requires the messages to be [[ASCII]] text - and thus a standard called [[MIME|Multipurpose Internet Mail Extensions]] is required for attachment of other kinds of data, like files, pictures, video, etc..
+* Although [[SMTP|Simple Mail Transfer Protocol]] is an [[End-to-end|End-to-end Principle]] [[Protocol|Communication Protocol]], the [[TCP/IP]] [[Packets|Packet]] typically pass through 15 to 20 [[Gateways|Gateway]] on their way from source to destination. It is entirely possible for any [[Gateway]] to examine the [[Packets|Packet]] and make copies for inspection. If the contents are to be kept private, they must be encrypted at the source. And yet, encrypting the contents does not conceal the identities of sender and receiver.
+* [[SMTP|Simple Mail Transfer Protocol]] transfers [[mail|Email]] from source to destination, but it has nothing to do with access to the mail thereafter. Once the [[mail|Email]] arrives at the target computer, it waits there until the recipient retrieves it, usually with another protocol called [[IMAP|Internet Message Access Protocol]].
+
+
+
+<br>
+
+''Example''
+
+We will run it with [[Telnet]] on [[Port|Port (Networking)]] 25:
+
+```bash
+$ telnet localhost 25
+```
+```
+Connected to localhost (127.0.0.1).
+220 localhost ESMTP Sendmail 8.13.8/8.13.1
+```
+```bash
+HELO localhost
+```
+```
+250 localhost Hello localhost [127.0.0.1], pleased to meet you
+```
+```bash
+mail from:liz@royal.gov.uk
+```
+```
+250 2.1.0 liz@royal.gov.uk... Sender ok
+```
+```bash
+rcpt to:bwk@princeton.edu
+```
+```
+250 2.1.5 bwk@princeton.edu... Recipient ok
+```
+```bash
+data
+```
+```
+354 Enter mail, end with "." on a line by itself
+```
+```bash
+Subject: recognition
+
+Dear Brian --
+Would you like to be knighted? Please let me know soon.
+ER
+.
+```
+```
+250 2.0.0 p4PCJfD4030324 Message accepted for delivery
+```

@@ -1,0 +1,16 @@
+created: 20210201102911943
+modified: 20210201103546810
+tags: Networking Stub [[Understanding the Digital World (Brian Kernighan)]]
+title: Gateway
+tmap.id: a1f7ee2a-077a-4cb8-966f-f7eb79ac03c9
+type: text/vnd.tiddlywiki
+
+''AKA Stopping Point''
+
+It seems to simply be a synonim of [[Redistribution Point]].
+
+The distinction between a [[Gateway]] and a [[Router]] is that a [[Router]] is a physical device, while a [[Gateway]] only makes sense in the context of a [[Network]], and, generally, can be //any// type of device other than a [[Host|Network Host]].
+
+https://whatismyipaddress.com/gateway#:~:text=A%20gateway%20is%20a%20node,to%20or%20from%20other%20networks.&text=On%20the%20Internet%2C%20the%20node,ISP)%20receives%20is%20a%20node.
+
+https://en.wikipedia.org/wiki/Gateway_(telecommunications)

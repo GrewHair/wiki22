@@ -1,0 +1,13 @@
+created: 20210224173715346
+modified: 20210227133158419
+tags: Networking [[DevOps Fundamentals (EPAM)]] Stub
+title: DNS Resolving Steps
+tmap.id: dfab5134-74bb-483f-b383-210786edf712
+type: text/vnd.tiddlywiki
+
+* Website request
+* Ask resolver
+* Ask [[Root Name Server]]
+* Ask [[TLD Server]]
+* Ask [[Authoritative Name Servers|Authoritative Name Server]]
+* Cache the [[IP|IP Address]] and return it to the browser

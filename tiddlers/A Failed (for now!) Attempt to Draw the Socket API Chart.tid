@@ -1,0 +1,44 @@
+created: 20210203174903866
+modified: 20210227195128451
+tags: 
+title: A Failed (for now!) Attempt to Draw the Socket API Chart
+tmap.id: 51e691c0-16ce-48a8-92f0-5c843e2e7cda
+type: text/vnd.tiddlywiki
+
+<$viz text='
+digraph G {
+subgraph cluster0 {
+style=rounded
+s_1 [label="socket"]
+s_2 [label="bind"]
+s_3 [label="listen"]
+s_4 [label="accept"]
+s_5 [label=" "]
+s_6 [label="recv"]
+s_7 [label="send"]
+s_8 [label="recv"]
+s_9 [label="close"]
+s_1 -> s_2 -> s_3 -> s_4 -> s_5 -> s_6 -> s_7 -> s_8 -> s_9
+label="Server"
+}
+
+subgraph cluster1 {
+style=rounded
+c_1 [label="socket"]
+c_2 [label="connect"]
+c_3 [label="send"]
+c_4 [label="recv"]
+c_5 [label="close"]
+c_1 -> c_2 -> c_3 -> c_4 -> c_5
+label="Client"
+}
+{rank=same; s_5; c_2}
+s_5 -> c_2 [dir="both"]
+{rank=same; s_6; c_3}
+//c_3 -> s_6
+s_6 -> c_3 [dir="right"]
+{rank=same; s_7; c_4}
+{rank=same; s_8; c_5}
+//{rank="min"; s_9}
+}
+' class="dot_1"/>

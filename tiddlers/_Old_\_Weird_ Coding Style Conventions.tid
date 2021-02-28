@@ -1,0 +1,10 @@
+created: 20200809075251214
+modified: 20210130144306974
+tags: 
+title: "Old"\"Weird" Coding Style Conventions
+tmap.id: 037adef9-8c25-472c-b6f0-25465ed57be1
+type: text/vnd.tiddlywiki
+
+|Uppersace for keywords|[[SQL]], [[Fortran]]?|
+|Dashes in names (instead of [[camelCase]] or underscores)|[[Bash]], [[CSS]]|
+|Periods in names (instead of [[camelCase]] or underscores)|[[R]]|

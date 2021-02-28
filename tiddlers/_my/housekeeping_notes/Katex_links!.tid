@@ -1,0 +1,13 @@
+created: 20210205211741966
+modified: 20210225125610261
+tags: 
+title: _my/housekeeping_notes/Katex_links!
+tmap.id: 9f2a0fb5-07c4-4c43-82a0-7597b2f40052
+type: text/vnd.tiddlywiki
+
+$$
+\href{#SSID}\text{ssid} \\
+\href{#Internet Standard}\text{internet standard} \\
+\href{#}{\int_x f(x)} \\
+\int_y f(y)
+$$

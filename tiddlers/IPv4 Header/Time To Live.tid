@@ -1,0 +1,16 @@
+created: 20210201104930273
+modified: 20210201105456236
+tags: Networking [[Understanding the Digital World (Brian Kernighan)]] Stub
+title: IPv4 Header/Time To Live
+tmap.id: 121c0399-9cda-401e-85b9-5b4fe417994d
+type: text/vnd.tiddlywiki
+
+''AKA TTL''
+
+[[TTL|IPv4 Header/Time To Live]] is a onebyte field that is set to an initial value by the source of the [[Packet]] and is decreased by one by each [[Gateway]] that handles the [[Packet]].
+
+If the count goes to zero, the [[Packet]] is discarded and an error [[Packet]] is sent back to the originator.
+
+A typical trip through the Internet might involve 15 to 20 [[Gateways|Gateway]], so a [[Packet]] that takes 255 hops is clearly in trouble, probably in a loop.
+
+[[TTL|IPv4 Header/Time To Live]] prevents "bad" [[Packets|Packet]] from living forever.

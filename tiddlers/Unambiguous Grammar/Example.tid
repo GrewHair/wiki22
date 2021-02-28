@@ -1,0 +1,38 @@
+created: 20210204122731050
+modified: 20210204132917802
+tags: [[Formal Languages]]
+title: Unambiguous Grammar/Example
+tmap.id: 5cfdf6b7-b1ec-4f1b-b03c-6a38965e2ad2
+type: text/vnd.tiddlywiki
+
+Consider the classic unambiguous expression grammar <span style="color:orange">(edit: what's that?)</span>:
+
+$$
+\begin{aligned}
+expr &\to term + expr \\
+expr &\to term \\
+term &\to term * factor \\
+term &\to factor \\
+factor &\to ( expr ) \\
+factor &\to const \\
+const &\to integer
+\end{aligned}
+$$
+
+So, how do we know that $$3 * 7$$ is a valid $$expression$$ ?
+
+Because:
+
+$$
+\begin{aligned}
+expr &\to term \\
+term &\to term * factor \\
+term * factor &\to factor * factor \\
+factor * factor &\to const * factor \\
+const * factor &\to const * const
+const * const &\to 3 * const \\
+3 * const &\to 3 * 7.
+\end{aligned}
+$$
+
+http://matt.might.net/articles/grammars-bnf-ebnf/

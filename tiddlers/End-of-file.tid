@@ -1,0 +1,14 @@
+created: 20210126155715206
+modified: 20210126160552061
+tags: Computing
+title: End-of-file
+tmap.id: a37ecf83-3356-40d8-b8f1-c83528d66681
+type: text/vnd.tiddlywiki
+
+In [[Computing]], [[End-of-file]] is a condition in a computer [[Operating System]] where no more data can be read from a data source.
+
+The data source is usually called a [[File]] or a [[stream]].
+
+https://en.wikipedia.org/wiki/End-of-file
+
+`^D` in the terminal.

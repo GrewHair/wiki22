@@ -1,0 +1,16 @@
+created: 20210126152335596
+modified: 20210126153235287
+tags: Computing
+title: Opaque Data Type
+tmap.id: bd2097a3-5dde-4793-a720-1ea1c3817301
+type: text/vnd.tiddlywiki
+
+In [[Computer Science]], an [[Opaque Data Type]] is a [[Data Type]] whose concrete [[Data Structure]] is not defined in an [[Interface|Interface (Computing)]]. Thus, an [[Opaque Value|Opaque Data Type]] is a value which reveals no details other then the [[type|Type (Programming)]] of the value itself (because of the hidden details).
+
+A [[data type|Data Type]] whos representation is visible is usually called ''Transparent''.
+
+[[Opaque Data Types|Opaque Data Type]] are frequently used to implement [[Abstract Data Types|Abstract Data Type]].
+
+https://en.wikipedia.org/wiki/Opaque_data_type
+
+https://stackoverflow.com/questions/3854113/what-is-an-opaque-value-in-c

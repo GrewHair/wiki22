@@ -1,0 +1,14 @@
+created: 20210125133317727
+modified: 20210125140800173
+tags: Networking [[Understanding the Digital World (Brian Kernighan)]] Stub
+title: Caching Name Server
+tmap.id: 585635cd-deaf-4979-b200-a230efe89a37
+type: text/vnd.tiddlywiki
+
+''AKA DNS Cache, Local Name Server, Forwarding Server''
+
+[[Caching Name Servers|Caching Name Server]] store [[DNS Query]] results for a period of time determined in the configuration (time-to-live) of each [[Domain Name]] record.
+
+[[DNS Caches|Caching Name Server]] improve the efficiency of the [[DNS|Domain Name System]] by reducing [[DNS|Domain Name System]] traffic across the Internet, and by reducing load on [[Authoritative Name Servers|Authoritative Name Server]]. They also increase the performance of [[end-user|End-user]] applications that use the [[DNS|Domain Name System]].
+
+https://en.wikipedia.org/wiki/Name_server#Caching_name_server

@@ -1,0 +1,12 @@
+created: 20201203140726984
+modified: 20201207115331928
+tags: Networking Stub [[Network Fundamentals (Network Direction)]]
+title: Flow Control
+tmap.id: b6ae54b5-8434-44ba-a91f-489cd561ab4b
+type: text/vnd.tiddlywiki
+
+[[Flow Control]] is the process of managing the rate of data transmission between two [[Nodes|Node (Networking)]] to prevent a fast sender from overwhelming a slow receiver.
+
+It provides a mechanism for the receiver to control the transmission speed, so that the receiving [[Node|Node (Networking)]] is not overwhelmed with data from the transmitting [[Node|Node (Networking)]].
+
+https://en.wikipedia.org/wiki/Flow_control_(data)

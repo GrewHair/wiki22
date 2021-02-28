@@ -1,0 +1,12 @@
+created: 20210204075158807
+modified: 20210204080623158
+tags: Cryptography Security [[Understanding the Digital World (Brian Kernighan)]] Stub
+title: Key Pair
+tmap.id: 95fdd209-bb0e-4a03-8df3-15aef2cd6357
+type: text/vnd.tiddlywiki
+
+It consists of:
+
+* [[Public Key]]
+* [[Private Key]]
+https://www.ssh.com/ssh/public-key-authentication#key-pair---public-and-private

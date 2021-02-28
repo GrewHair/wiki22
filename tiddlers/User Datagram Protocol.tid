@@ -1,0 +1,18 @@
+created: 20210216114114177
+modified: 20210216120439363
+tags: Networking Stub
+title: User Datagram Protocol
+tmap.id: 713b6386-8fd1-47a7-a589-3b7526021ec0
+type: text/vnd.tiddlywiki
+
+''AKA UDP''
+
+Main practical uses:
+
+* [[DNS|DNS Query]]
+* [[DHCP|Dynamic Host Configuration Protocol]]
+* [[VoIP|Voice over IP]]
+* streaming services like Netflix, Youtube, etc
+* online gaming
+
+While [[TCP|Transmission Control Protocol]] is, due to its [[connection-oriented|Connection-oriented Communication]] nature, mainly used in [[end-to-end|End-to-end Principle]]/[[Unicast]] [[routing schemes|Routing Schemes]], [[UDP|User Datagram Protocol]] is very suitable for [[Broadcast]] and [[Multicast]].

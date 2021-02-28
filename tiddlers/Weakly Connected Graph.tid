@@ -1,0 +1,10 @@
+created: 20210106013314904
+modified: 20210106013724550
+tags: [[Graph Theory]] Stub
+title: Weakly Connected Graph
+tmap.id: 0d1dd58d-52f9-4c1e-92a4-f2e66b089a64
+type: text/vnd.tiddlywiki
+
+A [[Directed Graph]] is said to be [[Weakly Connected]] if replacing all of its directed [[Edges|Edge (Graph Theory)]] with undirected ones procuces a [[Connected Undirectional Graph|Component (Graph Theory)]].
+
+https://en.wikipedia.org/wiki/Connectivity_(graph_theory)

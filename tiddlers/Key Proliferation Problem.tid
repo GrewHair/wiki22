@@ -1,0 +1,8 @@
+created: 20210205060326870
+modified: 20210205060607183
+tags: Cryptography Privacy Security [[Understanding the Digital World (Brian Kernighan)]] Stub
+title: Key Proliferation Problem
+tmap.id: 0fcbf646-04d9-41ad-8c76-e5faa072aa8e
+type: text/vnd.tiddlywiki
+
+To have independent secret conversations with unrelated parties, you need a separate key for each group, which makes [[Key Distribution Problem]] even harder.

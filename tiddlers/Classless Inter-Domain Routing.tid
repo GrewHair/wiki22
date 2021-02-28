@@ -1,6 +1,6 @@
 created: 20201202180803123
-modified: 20201202190122059
-tags: Networking Stub
+modified: 20210217135311770
+tags: Networking Stub [[Network Fundamentals (Network Direction)]] [[Illustrated TCP/IP (Matthew Naugle)]]
 title: Classless Inter-Domain Routing
 tmap.id: 0fbc3a1c-dad8-4db5-bca4-e9242874cdda
 type: text/vnd.tiddlywiki
@@ -11,5 +11,7 @@ In 1993, [[IETF|Internet Engineering Task Force]] introduced [[CIDR|Classless In
 
 * To slow the growth of [[Routing Tables|Routing Table]] on [[Routers|Router]] across the [[Internet]]
 * To slow the rapid exhaustion of [[IPv4]] addresses
+
+[[CIDR|Classless Inter-Domain Routing]] is an [[advertisement mechanism|Advertising (Networking)]] that allows for [[advertising|Advertising (Networking)]] routes without regards to [[class assignment|Classful Network]]. The route could be identified by a [[supernet|Supernetting]] or by an extended [[Subnet Mask]].
 
 [[CIDR|Classless Inter-Domain Routing]] is based on [[Variable-length Subnet Masking]] (VLSM), which allows the specification of arbitrary-length prefixes.

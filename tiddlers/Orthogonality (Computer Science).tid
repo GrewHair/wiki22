@@ -1,0 +1,16 @@
+created: 20210126155228003
+modified: 20210126161048917
+tags: Computing [[Computer Science]]
+title: Orthogonality (Computer Science)
+tmap.id: 116f0db2-7e95-405a-b0cf-15e201b7fa55
+type: text/vnd.tiddlywiki
+
+[[Orthogonality|Orthogonality (Computer Science)]] in a [[Programming Language]] design is the ability to use various language features in arbitrary combinations with consistent results.
+
+This usage was introduced by Van Wijngaarden in the design of Algol 68.
+
+https://en.wikipedia.org/wiki/Orthogonality#Computer_science
+
+''Examples:''
+
+* Command - movement orthogonality in [[Vim]]

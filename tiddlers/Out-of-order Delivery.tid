@@ -1,0 +1,14 @@
+created: 20201204143346154
+modified: 20201207115536825
+tags: Networking Stub [[Network Fundamentals (Network Direction)]]
+title: Out-of-order Delivery
+tmap.id: b1ef1f17-a2e9-4a34-ae52-1481e1193517
+type: text/vnd.tiddlywiki
+
+[[Out-of-order Delivery]] is the delivery of [[Data Packets|Packet (Networking)]] in a different order from which they were seent.
+
+[[Out-of-order Delivery]] can be caused by [[Packets|Packet (Networking)]] following multiple paths through a network, by lower-layer [[Retransmission|Retransmission (Networking)]] procedures, or via parallel paths within network.
+
+One of the functions of [[TCP|Transmission Control Protocol]] is to prevent the [[Out-of-order Delivery]] of data, either by reassembling packets in order or requesting retransmission of [[out-of-order|Out-of-ordre Delivery]] [[packets|Packet (Networking)]].
+
+https://en.wikipedia.org/wiki/Out-of-order_delivery

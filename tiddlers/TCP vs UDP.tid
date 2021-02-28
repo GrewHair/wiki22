@@ -1,0 +1,16 @@
+created: 20201203135909161
+modified: 20210216135621809
+tags: Networking Stub [[Network Fundamentals (Network Direction)]]
+title: TCP vs UDP
+tmap.id: 48a8388c-9f41-49f3-8d14-55bb5481dc77
+type: text/vnd.tiddlywiki
+
+|[[TCP|Transmission Control Protocol]]|[[UDP|User Datagram Protocol]]|
+|Reliable|Unreliable|
+|Heavyweight|Lightweight|
+|Ordered Data Delivery|Not ordered|
+|[[Connection Oriented|Connection-oriented Communication]]|[[Connectionless|Connectionless Communication]]|
+|Error Recovery|Doesn't care about errors|
+|[[Windowing|TCP Windowing]] for [[Flow|Flow Control]] and [[Congestion Control]]|No [[Congestion Control]]|
+|Streaming|Datagrams|
+|end to end|[[Broadcast]]/[[Multicast]]|

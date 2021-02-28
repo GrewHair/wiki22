@@ -1,6 +1,6 @@
 created: 20201202125000845
-modified: 20201202135715960
-tags: Networking
+modified: 20210201104827751
+tags: Networking [[Network Fundamentals (Network Direction)]]
 title: Internet Protocol
 tmap.id: 1ff91a1c-b728-4c5a-be11-57711fe0e596
 type: text/vnd.tiddlywiki
@@ -40,6 +40,8 @@ Let's look at the interactions within our suite:
 * The upper protocol will realize that `B` is not the final destination and thus will invoke lower level protocol (this time, the wired one) to send the packet to `C`
 * On computer `C` the packet is again passed to the upper protocol
 * The upper protocol will realize that `C` is the final destination and thus will pass the data to a higher protocol or an application on `C`
+
+[[IP|Internet Protocol]] provides an unreliable ("best effort"), [[Connectionless]] [[Packet]] delivery service.
 
 https://en.wikipedia.org/wiki/Protocol_stack
 

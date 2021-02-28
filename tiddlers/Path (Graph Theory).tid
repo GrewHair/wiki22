@@ -1,0 +1,10 @@
+created: 20210105180956383
+modified: 20210105181649200
+tags: [[Graph Theory]] Stub
+title: Path (Graph Theory)
+tmap.id: ac3d2418-e781-41a1-becf-c15242de588d
+type: text/vnd.tiddlywiki
+
+A [[Path]] is a [[finite|Finite Set]] or [[infinite|Infinite Set]] [[Sequence]] of [[Edges|Edge (Graph Theory)]] which joins a [[Sequence]] of [[Vertices|Vertex (Graph Theory)]].
+
+By most definitions, all the [[Vertices|Vertex (Graph Theory)]] in the [[Sequence]] are distinct (and thus, so are the [[Edges|Edge (Graph Theory)]]).

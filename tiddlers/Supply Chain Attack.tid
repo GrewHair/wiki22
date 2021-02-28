@@ -1,0 +1,12 @@
+created: 20210202171557613
+modified: 20210202172135280
+tags: Computing Security [[Understanding the Digital World (Brian Kernighan)]]
+title: Supply Chain Attack
+tmap.id: cf670563-bc3c-4521-8351-91c003845ed8
+type: text/vnd.tiddlywiki
+
+A [[Supply Chain Attack]] is a [[Cyberattack]] that seeks to damage an organization by targeting less-secure elements in the supply chain.
+
+Once that is accomplished, the [[virus|Computer Virus]] may propagate through the chain itself - i.e. it eventually turns out that brand new drives (floppy, hard, etc.) have been shipped with viruses already on them, for example.
+
+https://en.wikipedia.org/wiki/Supply_chain_attack#:~:text=A%20supply%20chain%20attack%20is,oil%20industry%20or%20government%20sector.

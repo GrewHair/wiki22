@@ -1,0 +1,10 @@
+created: 20210106010759311
+modified: 20210106011907922
+tags: [[Graph Theory]] Stub
+title: Strongly Connected Component
+tmap.id: 6b850202-47fd-44e0-bf84-87531728280f
+type: text/vnd.tiddlywiki
+
+An [[Induced Subgraph]] of a [[Directed Graph]] is called a [[Strongly Connected Component]] if it constitutes a [[Strongly Connected Graph]].
+
+https://en.wikipedia.org/wiki/Strongly_connected_component

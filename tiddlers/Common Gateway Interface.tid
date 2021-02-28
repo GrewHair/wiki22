@@ -1,0 +1,18 @@
+created: 20210202110323525
+modified: 20210216183138688
+tags: Networking [[Understanding the Digital World (Brian Kernighan)]] Stub
+title: Common Gateway Interface
+tmap.id: 8a82c213-19b5-4304-accf-b3164e8af6df
+type: text/vnd.tiddlywiki
+
+''AKA CGI''
+
+A [[CGI|Common Gateway Interface]] is an interface specification for [[Web Servers|Web Server]] to execute programs like [[Console Applicaitions]] running on a [[Server]] that [[generates web pages dynamically|Dynamic Web Page]] ([[CGI Scripts|CGI Script]])
+
+The specifics of how the script is executed by the [[Server]] are determined by the [[Server]]. In the common common case, a [[CGI Script]] executes at the time a [[request|HTTP Request]] is made and generates [[HTML|HyperText Markup Language]].
+
+In brief, an [[HTTP|HyperText Transfer Protocol]] [[GET|GET Request]] or [[POST|POST Request]] [[request|HTTP Request]] from the [[Client]] may send [[HTML|HyperText Markup Language]] [[form|HTML Form]] data to the [[CGI program|CGI Script]] via [[Standard Input]].
+
+Other data, such as [[URL|Uniform Resource Locator]] paths, and [[HTTP Header]] data, are presented as [[process|Process (Computing)]] [[Environment Variables|Environment Variable]].
+
+https://en.wikipedia.org/wiki/Common_Gateway_Interface

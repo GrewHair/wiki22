@@ -1,0 +1,21 @@
+created: 20201211090633623
+modified: 20201211111439727
+tags: Ubuntu Bash Stub
+title: Input Field Separator
+tmap.id: 4715ef5f-9b2e-4f48-bb83-4c329a8c660d
+type: text/vnd.tiddlywiki
+
+''AKA Internal Field Separator, IFS''
+
+Its default value is `<space><tab><newline>`.
+
+It can be checked like this:
+
+```bash
+boris@computer:~$ echo "$IFS" | cat -ETv
+```
+
+```
+ ^I$
+$
+```

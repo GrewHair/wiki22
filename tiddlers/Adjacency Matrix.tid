@@ -1,0 +1,16 @@
+created: 20210105234337945
+modified: 20210105235958014
+tags: [[Graph Theory]] Stub
+title: Adjacency Matrix
+tmap.id: ce521917-93c4-44ae-accd-be7e729e4af7
+type: text/vnd.tiddlywiki
+
+[[Adjacency Matrix]] is a [[Square Matrix]] used to represent a [[Finite Graph]]. The elements of the [[Matrix|Adjacency Matrix]] indicate whether pairs of [[Vertices|Vertex (Graph Theory)]] are //adjacent// or not.
+
+''Problems with [[Adjacency Matrices|Adjacency Matrix]]:''
+
+* Storage requirements $$O(n^2)$$ ([[Space complexity]])
+* [[BFS|Breadth-first Search]] and [[DFS|Depth-first Search]] traversal is of $$O(n^2)$$ too, which is too slow ([[Time complexity]])
+* Adding a new [[Node|Vertex (Graph Theory)]] is not easy is not easy
+
+https://en.wikipedia.org/wiki/Adjacency_matrix#:~:text=In%20graph%20theory%20and%20computer,with%20zeros%20on%20its%20diagonal.

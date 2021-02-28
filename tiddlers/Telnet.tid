@@ -1,0 +1,22 @@
+created: 20210201112426040
+modified: 20210201113307388
+tags: Networking [[Understanding the Digital World (Brian Kernighan)]] Stub
+title: Telnet
+tmap.id: 4eb1277b-ef2b-4173-b927-598e66c0a449
+type: text/vnd.tiddlywiki
+
+* Get the default file at the server
+*><$codeblock language="bash" code="telnet www.amazon.com 80
+GET / HTTP/1.0
+<C-m>"/>
+* Do a web search
+*><$codeblock language="bash" code="telnet www.google.com 80
+GET /search?q=foo
+<C-m>"/>
+
+[[Telnet]] offers __no__ security.
+
+* If the remote system accepts logins without a password, none is requested.
+* If the remote system asks for a password, [[Telnet]] sends the [[Client]]'s password in the clear, so anyone watching could see it.
+
+Thus, it is rarely used, and everyone uses [[SSH|Secure Shell]].

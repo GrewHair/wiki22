@@ -1,0 +1,10 @@
+created: 20210202172209084
+modified: 20210202172446932
+tags: Computing Security [[Understanding the Digital World (Brian Kernighan)]]
+title: Dictionary Attack
+tmap.id: c71b3677-5344-45ae-9ddb-72f7741d20fa
+type: text/vnd.tiddlywiki
+
+A [[Dictionary Attack]] is a form of [[Brute Force Attack]] technique for defeating a cipher or authentication mechanism by trying to determine its decryption key or passphrase by trying thousends or millions of likely possibilities, such as words in a dictionary or previously used passwords, often from lists obtained from past security breaches.
+
+https://en.wikipedia.org/wiki/Dictionary_attack

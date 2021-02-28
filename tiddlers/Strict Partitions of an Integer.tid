@@ -1,0 +1,9 @@
+created: 20210201093349140
+modified: 20210201095738070
+tags: [[Google Foobar]] [[Number Theory]]
+title: Strict Partitions of an Integer
+tmap.id: 2a8b2840-a358-429a-8913-0b5075b2a5e0
+type: text/vnd.tiddlywiki
+
+* <a href="https://stackoverflow.com/questions/61944559/efficient-algorithm-for-getting-number-of-partitions-of-integer-with-distinct-pa" target="_blank">Fast solution</a> using [[Generating Function]]
+* <a href="https://codegolf.stackexchange.com/questions/71941/strict-partitions-of-a-positive-integer" target="_blank">Slow solution</a> using [[Recurrent Function]] with [[Memoization]]

@@ -1,0 +1,33 @@
+.hsk.transcludes: [[_my/images/png/cut_vertices]]
+created: 20210105232301143
+modified: 20210106004145251
+tags: [[Graph Theory]] Stub
+title: Cut Edge
+tmap.id: 2d58f5aa-9c53-4b96-9aa2-d58f814ec4f6
+type: text/vnd.tiddlywiki
+
+''AKA Bridge''
+
+A [[Cut Edge]] is a [[Graph]]'s [[Edge|Edge (Graph Theory)]], the removal of which increases the number of the [[Graph]]'s [[Connected Components|Component (Graph Theory)]].
+
+<div style="zoom:30%">
+<$viz text='
+graph {
+	node [fillcolor="orange"]
+	
+  node1[label="", color="green"]
+  node2[label="", color="green"]
+  node3[label="", color="green"]
+  node4[label="", color="green"]
+  node5[label="", color="green"]
+  node6[label="", color="green"]
+  node1 -- node2 [color="orange", penwidth=5]
+	node2 -- node3 [color="green"]
+	node2 -- node4 [color="green"]
+	node3 -- node5 [color="green"]
+	node4 -- node5 [color="green"]
+	node4 -- node6 [color="orange", penwidth=5]
+	
+}
+' class="dot_1"/>
+</div>

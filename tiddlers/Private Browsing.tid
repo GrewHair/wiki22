@@ -1,0 +1,12 @@
+created: 20210202203830419
+modified: 20210202204226294
+tags: [[Understanding the Digital World (Brian Kernighan)]] Web
+title: Private Browsing
+tmap.id: 677c437e-093c-4b67-b85d-5f3261beeeac
+type: text/vnd.tiddlywiki
+
+''AKA Incognito Mode, Porn Mode''
+
+[[Private Browsing]] is a [[Client]]-side mechanism that tells the [[browser|Web Browser]] to clear [[history|Browsing History]], [[Cookies]], and other browsing data when the [[Browser Session]] terminates.
+
+That prevents other users of your computer from knowing what you have been doing - but it has no effect on what is remembered at the sites you have visited, which with high probability can recognize you anyway.

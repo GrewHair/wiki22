@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200127081801358
-modified: 20201124072508524
+modified: 20210217114910620
 tags: English
 title: Dictionary
 tmap.id: 7172dc91-dffa-4b19-8ff2-b250677e4524
@@ -13,7 +13,8 @@ type: text/vnd.tiddlywiki
 * hp - horsepower
 * tips - чаевые
 * customer churn - отток клиентов
-* impressions - ?????
+* impressions - (in [[search engines|Search Engine]]) page views
+* conversions - (in [[search engines|Search Engine]]) where the viewer actually bought something
 * ctr - click through rate
 * line segment - отрезок
 * consistent/inconsistent - совместный/семовместный (о системе уравнений)
@@ -35,3 +36,10 @@ type: text/vnd.tiddlywiki
 * per capita - "by head"/per person
 * wager - ставка (в азартных играх)
 * default gateway - шлюз
+* breadth - широта
+* contention - конфликт
+* domain name registrar - регистратор доменных имен
+* best-effort delivery - негарантированная доставка
+* public domain - общественное достояние
+* congestion control (TCP) - управление перегрузками
+* contiguous - смежный

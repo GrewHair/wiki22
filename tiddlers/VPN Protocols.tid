@@ -1,0 +1,14 @@
+created: 20210224192221021
+modified: 20210224195315305
+tags: Networking Stub [[DevOps Fundamentals (EPAM)]]
+title: VPN Protocols
+tmap.id: b57557b9-0be0-4255-876d-1c3ca7bc6c0a
+type: text/vnd.tiddlywiki
+
+* [[PPTP|Point-to-Point Tunneling Protocol]]
+* [[L2TP|Layer 2 Tunneling Protocol]]/[[IPSec|Internet Protocol Security]]
+* [[SSL|Secure Sockets Layer]] and [[TLS|Transport Layer Security]]
+* [[IKEv2|Internet Key Exchange, version 2]]
+* [[OpenVPN]]
+* [[SSH|Secure Shell]]
+* [[PPPoE|Point-to-Point Protocol over Ethernet]]

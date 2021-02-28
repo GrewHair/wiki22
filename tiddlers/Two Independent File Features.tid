@@ -1,0 +1,10 @@
+created: 20201210155813553
+modified: 20201210160305936
+tags: Ubuntu [[Filesystem Hierarchy Standard]]
+title: Two Independent File Features
+tmap.id: decfafa4-a9d2-40b1-aff9-4fcc2b8e285b
+type: text/vnd.tiddlywiki
+
+||!shareable|!unshareable|
+|!static|`/usr` <br> `/opt`|`/etc` <br> `/boot`|
+|!variable|`/var/mail` <br> `/var/spool/news`|`/var/run` <br> `/var/lock`|

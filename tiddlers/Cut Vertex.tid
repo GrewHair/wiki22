@@ -1,0 +1,33 @@
+.hsk.transcludes: [[_my/images/png/cut_vertices]]
+created: 20210105184203619
+modified: 20210105221736273
+tags: [[Graph Theory]] Stub
+title: Cut Vertex
+tmap.id: bfe582c1-94fb-4db2-b07c-b1e8cf3c2979
+type: text/vnd.tiddlywiki
+
+''AKA Articulation Point''
+
+A [[Cut Vertex]] is a [[Graph]]'s [[Vertex|Vertex (Graph Theory)]], the removal of which (and their [[Edges|Edge (Graph Theory)]]) increases the number of the [[Graph]]'s [[Connected Components|Component (Graph Theory)]].
+
+<div style="zoom:30%">
+<$viz text='
+graph {
+	node [fillcolor="orange"]
+	
+  node1[label="", color="green"]
+  node2[label="", color="orange"]
+  node3[label="", color="green"]
+  node4[label="", color="orange"]
+  node5[label="", color="green"]
+  node6[label="", color="green"]
+  node1 -- node2 [color="green"]
+	node2 -- node3 [color="green"]
+	node2 -- node4 [color="green"]
+	node4 -- node5 [color="green"]
+	node4 -- node6 [color="green"]
+	
+	node2, node4 [style="filled"]
+}
+' class="dot_1"/>
+</div>

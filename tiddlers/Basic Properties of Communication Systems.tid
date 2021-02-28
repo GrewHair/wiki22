@@ -1,0 +1,11 @@
+created: 20210118135226705
+modified: 20210118135751492
+tags: Networking [[Understanding the Digital World (Brian Kernighan)]]
+title: Basic Properties of Communication Systems
+tmap.id: d6cbb0de-4a00-41b6-89e9-0e705f713c75
+type: text/vnd.tiddlywiki
+
+* ''Bandwidth:'' how fast the network can transmit data
+* ''Latency:'' how long it takes for a piece of information to go through the system
+* ''Jitter (delay):'' variability of delay
+* ''Range:'' how geographically big a system can be

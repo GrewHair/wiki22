@@ -1,0 +1,12 @@
+created: 20201207122559265
+modified: 20210215114118898
+tags: Networking [[Network Fundamentals (Network Direction)]] Stub
+title: Address Resolution Protocol
+tmap.id: f947e286-8b25-4db9-809c-1a27f2410e5c
+type: text/vnd.tiddlywiki
+
+''AKA ARP''
+
+[[Address Resolution Protocol]] is a protocol used for discovering the [[Link Layer|Datalink Layer]] address, such as a [[MAC Address]], associated with a given [[Internet Layer]] address, such as an [[IPv4]] address.
+
+https://en.wikipedia.org/wiki/Address_Resolution_Protocol

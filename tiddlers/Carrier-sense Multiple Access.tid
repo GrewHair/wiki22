@@ -1,0 +1,18 @@
+created: 20201206140427395
+modified: 20201207115837927
+tags: Networking Stub [[Network Fundamentals (Network Direction)]]
+title: Carrier-sense Multiple Access
+tmap.id: 32b08369-4456-4974-a998-81d7d0b12d17
+type: text/vnd.tiddlywiki
+
+''AKA CSMA''
+
+[[Carrier-sense Multipe Access]] is a [[MAC|Media Access Control]] protocol in which a [[Node|Node (Networking)]] verifies the absence of other traffic before transmitting on a shared [[Transmission Medium]].
+
+Variations on basic [[CSMA|Carrier-sense Multiple Access]] include addition of:
+
+* [[Collision Avoidance (CSMA/CA)|Collision Avoidance]]
+* [[Collilsion Detection (CSMA/CD)|Collision Detection]]
+* [[Collision Resolution (CSMA/CR)|Collision Resolution]]
+
+techniques

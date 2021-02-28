@@ -1,0 +1,18 @@
+created: 20210201132401329
+modified: 20210202074100248
+tags: Networking Stub [[Understanding the Digital World (Brian Kernighan)]]
+title: End-to-end Principle
+tmap.id: 7335b4a3-b7ef-47e9-937f-6f5c2f96fdb8
+type: text/vnd.tiddlywiki
+
+The intelligence lies at the [[End Points|Endpoint]], i.e., with the programs that send and receive the data.
+
+This contrasts with traditional telephone networks, where all the intelligence has been in the network, and the [[End Points|Endpoint]], like old-fashioned telephones, were truly dumb, providing little more than a way to connect to the network and relay voice.
+
+(//Note to self//: [[AT&T]] had a large [[Time-sharing]] system back in the day, the architecture of which was (quite ironically) really pretty much in line with this "dumb endpoint" idea - i.e. the terminals were even explicitly called "dumb").
+
+This also leads to the concept of [["The Dumb Network"|The Dumb Network]] (instead of the [[endpoints|Endpoint]] being dumb).
+
+[[Vint Cerf]] adds, that this ultimately made possible the large spectrum of web applications we have today, from videogame streaming to imageboards, to [[VoIP|Voice Over IP]].
+
+https://en.wikipedia.org/wiki/End-to-end_principle

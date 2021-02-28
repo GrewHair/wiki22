@@ -1,0 +1,10 @@
+created: 20210106003629265
+modified: 20210205111033288
+tags: [[Graph Theory]] Stub
+title: Level Structure (Graph Theory)
+tmap.id: 99b85653-344f-4654-90c2-5e912effa8e0
+type: text/vnd.tiddlywiki
+
+A [[Level Structure]] of an [[Undirected Graph]] is a [[Partition|Partition of a Set]] of the [[Set]] of [[Vertices|Vertex (Graph Theory)]] into [[Subsets|Subset]] that have the same [[Distance|Distance (Graph Theory)]] from a given [[Root Vertex]].
+
+https://en.wikipedia.org/wiki/Level_structure#:~:text=In%20the%20mathematical%20subfield%20of,from%20a%20given%20root%20vertex.

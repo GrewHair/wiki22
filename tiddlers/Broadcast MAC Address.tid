@@ -1,0 +1,16 @@
+created: 20201206133531894
+modified: 20201207115630260
+tags: Networking Stub [[Network Fundamentals (Network Direction)]]
+title: Broadcast MAC Address
+tmap.id: 4a692f00-9d4c-4ffd-8dc1-8b0cc7d779d9
+type: text/vnd.tiddlywiki
+
+```
+ffff.ffff.ffff
+```
+
+or
+
+```
+FF:FF:FF:FF:FF:FF
+```

@@ -1,0 +1,16 @@
+created: 20210203122202642
+modified: 20210203122645825
+tags: Security Privacy Cryptography [[Understanding the Digital World (Brian Kernighan)]]
+title: Security Through Obscurity
+tmap.id: 99d3b057-1f6c-4d6d-9b71-c84b53f933fb
+type: text/vnd.tiddlywiki
+
+''AKA Security By Obscurity''
+
+[[Security Through Obscurity]] is the reliance on design or implementation secrecy as the main method of providing security to a system or component.
+
+Generally, it must be assumed that the [[Cryptographic|Cryptography]] system is known and perfectly understood by adversaries, so that all of the security resides in the key.
+
+The alternative, assuming that adversaries don't know what scheme is being used or how it works, is called [[Security Through Obscurity]], and it never works for long, if at all.
+
+https://en.wikipedia.org/wiki/Security_through_obscurity

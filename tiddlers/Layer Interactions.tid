@@ -1,0 +1,9 @@
+created: 20201222234414469
+modified: 20201222235217540
+tags: 
+title: Layer Interactions
+tmap.id: eb67f7d6-1218-4fb9-942f-e1cb16c6be04
+type: text/vnd.tiddlywiki
+
+|[[Same-layer Interaction]]|On different computers|The two computers use a protocol to communicate with the same layer on another computer. The protocol defines a header thatcommunicates what each computer wants to do.|
+|[[Adjacent-layer Interaction]]|On the same computer|On a single computer, one lower layer provides a service to the layer just above. The software or hardware that implements the higher layer requests that the next lower layer perform the needed function.|

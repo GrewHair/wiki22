@@ -1,0 +1,14 @@
+created: 20210118145158415
+modified: 20210118145643087
+tags: Networking
+title: Wireless Ad Hoc Network
+tmap.id: 20d83255-abeb-4821-a4e8-3acd66578ee0
+type: text/vnd.tiddlywiki
+
+''AKA WANET, Ad Hoc Network''
+
+A [[Wireless Ad Hoc Network]] is a decentralized kind of [[Wireless Network]], i.e. the devices connect directly and don't rely on [[Access Points|Access Point]].
+
+The network is [[Ad Hoc]], because it doesn't rely on a preexisting infrastructure.
+
+https://en.wikipedia.org/wiki/Wireless_ad_hoc_network

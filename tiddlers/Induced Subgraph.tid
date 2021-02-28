@@ -1,0 +1,10 @@
+created: 20210105180337142
+modified: 20210105180715979
+tags: [[Graph Theory]] Stub
+title: Induced Subgraph
+tmap.id: a917aa7e-b564-44c2-a8a6-ce03cf25da87
+type: text/vnd.tiddlywiki
+
+An [[Induced Subgraph]] of a [[Graph]] is another [[Graph]], formed from a [[Subset]] of the [[Vertices|Vertex (Graph Theory)]] of the [[Graph]] and all of the [[Edges|Edge (Graph Theory)]] connecting pairs of [[Vertices|Vertex (Graph Theory)]] in that [[Subset]]
+
+https://en.wikipedia.org/wiki/Induced_subgraph

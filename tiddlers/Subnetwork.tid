@@ -1,0 +1,42 @@
+created: 20210217075620304
+modified: 20210217114749572
+tags: Networking Stub
+title: Subnetwork
+tmap.id: 14ffd792-0b55-4f2d-a68f-bc081cf6688c
+type: text/vnd.tiddlywiki
+
+$$
+\newcommand\seventeen{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\newcommand\thirteen{\ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+
+\begin{aligned}
+\begin{matrix}
+\text{Before}
+\\
+\text{subnetting}
+\end{matrix}
+\ \ 
+\overbrace{
+\colorbox{#81C784}{\thirteen Network identifier\thirteen }
+\colorbox{#FFF59D}{\seventeen Host identifier \seventeen }
+}^\text{IP Address}
+
+\\[10pt]
+
+{\huge \swarrow \searrow \ \ \ \ \ \ \ \ \ \ }
+
+\\[10pt]
+
+\begin{matrix}
+\text{After}
+\\
+\text{subnetting}
+\end{matrix}
+\ \ 
+\colorbox{#81C784}{\thirteen Network identifier \thirteen}
+\colorbox{#8BC34A}{Subnet identifier}
+\colorbox{#FFF59D}{\ Host identifier\ }
+\end{aligned}
+$$
+
+https://en.wikipedia.org/wiki/Subnetwork

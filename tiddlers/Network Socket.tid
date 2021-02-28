@@ -1,0 +1,12 @@
+created: 20201203131251906
+modified: 20210126145435496
+tags: Networking [[Network Fundamentals (Network Direction)]]
+title: Network Socket
+tmap.id: 041913f9-3efd-4e39-b6dc-dda54ba2db4d
+type: text/vnd.tiddlywiki
+
+A [[Network Socket]] is a software structure within a [[Network Node|Node (Networking)]] of a [[Computer Network]] that serves as an [[endpoint|Endpoint]] for sending and receiving data across the [[network|Computer Network]].
+
+[[Sockets|Network Socket]] are created only during the lifetime of a [[Process|Process (Computing)]] of an [[Application|Application Software]] running in the [[Node|Node (Networking)]].
+
+The term //Socket// is also used for the software endpoint of node-internal [[IPC|Inter-process Communication]], which often uses the same [[API|Application Programming Interface]] as a [[Network Socket]].

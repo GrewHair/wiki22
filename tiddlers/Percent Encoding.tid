@@ -3,14 +3,32 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200725222818803
-modified: 20200726222746228
-tags: [[Affine Geometry]]
+modified: 20210202102835422
+tags: [[Understanding the Digital World (Brian Kernighan)]]
 title: Percent Encoding
 tmap.id: eb450567-6305-4d65-b0dc-188b9e25e731
 type: text/vnd.tiddlywiki
 
 ''AKA URL Encoding''
 
-It uses [[ASCII]] codes in hex.
+It consists of a `%` sign plus two [[Hexadecimal]] digits which are the [[ASCII]] hex code of the intended (encoded) symbol.
+
+''Example:''
+
+```
+5%2710%22%2D6%273%22
+```
+
+means
+
+```
+5`10"-6`3"
+```
+
+where:
+
+* `0x27` is a single quote character
+* `0x22` is a double quote character
+* `0x2D` is a minus sign
 
 https://en.wikipedia.org/wiki/Percent-encoding

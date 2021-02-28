@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200227083309616
-modified: 20200325163913742
+modified: 20210205110815392
 tags: Stub Statistics
 title: Semicolon (Statistical Notation)
 tmap.id: 5483c58f-31d4-407e-a532-22e233904695
@@ -22,6 +22,6 @@ There should normally be only one [[Semicolon|Semicolon (Statistical Notation)]]
 
 [[Semicolon|Semicolon (Statistical Notation)]] is used for this special separation purpose primarily in [[Frequentist Statistics]], where [[distribution|Probability Distribution]]'s [[parameters|Statistical Parameter]] are considered to be deterministic in nature, but unknown (as opposed to [[Bayesian Statistics]], where distribution parameters are just another kind of [[Random Variables|Random Variable]], and should be treated as such).
 
-In [[Bayesian Statistics]], the [[Vertical Bar|Vertical Bar (Statistical Notation]] is used instead, re-interpreting the whole expression in terms of simple [[Conditional Probabilities|Conditional Probability]].
+In [[Bayesian Statistics]], the [[Vertical Bar|Vertical Bar (Statistical Notation)]] is used instead, re-interpreting the whole expression in terms of simple [[Conditional Probabilities|Conditional Probability]].
 
 It is quite hard to pronounce the expressions resulting from this heavy notation. For instance, [[Andrew Ng]] proposes to pronounce this expression: $$\displaystyle f(x; \theta)$$, as //"distribution of x ''parametrized by theta''"//.

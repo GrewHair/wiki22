@@ -1,0 +1,28 @@
+created: 20210203133102361
+modified: 20210203141955351
+tags: Cryptography Privacy Security [[Understanding the Digital World (Brian Kernighan)]]
+title: Advanced Encryption Standard
+tmap.id: 64e44497-833b-4228-9987-f8739ffd00d2
+type: text/vnd.tiddlywiki
+
+''AKA AES''
+
+Today, the most widely used [[Secret-key|Secret-key Cryptography]] [[cryptographic|Cryptography]] algorithm is the [[Advanced Encryption Standard]], which was developed as part of a worldwide open competition sponsored by the US National Institute of Standards and Technology (NIST).
+
+Rijndael, created by the Belgian cryptographers Joan Daemen and Vincent Rijmen, was the winner, and became an official US government standard in 2002.
+
+The algorithm is in the public domain.
+
+It supports three key lengths - 128, 192, and 256 bits - so there are a lot of potential keys and a [[Brute Force Attack]] is unlikely to be feasible for many years unless some weakness is discovered.
+
+''Example:''
+
+* A [[GPU]] can perform $$\sim 10^{13}$$ operations per second
+* A million [[GPUs|GPU]] can do $$\sim 10^{19}$$ operations per second
+* which is $$\sim 3 \times 10^{26} \approx 2^{90}$$ per year
+* [[AES|Advanced Encryption Standard]]-128 requires $$2^{128}$$ !
+* ...you do the math for [[AES|Advanced Encryption Standard]]-192 and [[AES|Advanced Encryption Standard]]-256 :D
+
+Brilliant as it is, [[AES|Advanced Encryption Standard]] still suffers from the same problems any [[Secret-key algorithm|Secret-key Cryptography]] has...
+
+https://en.wikipedia.org/wiki/Advanced_Encryption_Standard

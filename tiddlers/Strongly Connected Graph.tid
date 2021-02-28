@@ -1,0 +1,10 @@
+created: 20210106011913560
+modified: 20210205111200639
+tags: [[Graph Theory]] Stub
+title: Strongly Connected Graph
+tmap.id: 1b85b4b7-5df3-4baa-9ad5-1dd00063a4f2
+type: text/vnd.tiddlywiki
+
+A [[Directed Graph]] is said to be [[Strongly Connected|Strongly Connected Graph]] if its every [[Vertex|Vertex (Graph Theory)]] is [[Reachable|Reachability (Graph Theory)]] from every other [[Vertex|Vertex (Graph Theory)]].
+
+https://en.wikipedia.org/wiki/Strongly_connected_component

@@ -1,0 +1,16 @@
+created: 20210203125006718
+modified: 20210203133056064
+tags: Cryptography Security Privacy [[Understanding the Digital World (Brian Kernighan)]]
+title: Data Encryption Standard
+tmap.id: 316068df-2f80-4b7a-b370-dfd30ec35136
+type: text/vnd.tiddlywiki
+
+''AKA DES''
+
+From about 1976 to the early 2000s, the most widely used [[Secret-key|Secret-key Cryptography]] [[cryptographic|Cryptography]] algorithm was the [[Data Encryption Standard]], developed by IBM and the NSA.
+
+There were rumours that the NSA had arranged a secret [[Backdoor]] mechanism.
+
+[[DES|Data Encryption Standard]] has a 56-bit key, and as computers became faster, this proved to be too short: by 1999, a [[DES|Data Encryption Standard]] key could be cracked by [[brute force|Brute Force Attack]] in a day of computing by a fairly inexpensive special purpose computer. This lead to the creation of new algorithms with loger keys.
+
+https://en.wikipedia.org/wiki/Data_Encryption_Standard

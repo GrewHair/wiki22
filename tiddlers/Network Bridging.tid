@@ -1,0 +1,18 @@
+created: 20210202065231839
+modified: 20210202071325591
+tags: Networking Stub
+title: Network Bridging
+tmap.id: 8c9142d7-f289-4523-8d18-ca6ccd0d4e22
+type: text/vnd.tiddlywiki
+
+''AKA Bridging''
+
+[[Bridging|Network Bridging]] is creating a single, aggregate [[Network|Computer Network]] from multiple [[Networks|Computer Network]] of network segments.
+
+The device performing this function is called a [[Network Bridge]].
+
+[[Bridging|Network Bridging]] is distinct from [[Routing]]: [[Routing]] allows multiple [[Networks|Computer Network]] to communicate independently, while staying separate, while [[Bridging|Network Bridging]] connects two separate [[Networks|Computer Network]] as if they were a single [[Network|Computer Network]].
+
+In the [[OSI Model]], bridging is performed in the [[Data Link Layer]]. 
+
+https://en.wikipedia.org/wiki/Bridging_(networking)

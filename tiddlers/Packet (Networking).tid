@@ -1,0 +1,12 @@
+created: 20201204143609132
+modified: 20201207115518668
+tags: Networking Stub [[Network Fundamentals (Network Direction)]]
+title: Packet (Networking)
+tmap.id: 433044ae-dea1-4442-9f4e-cd7f370802a0
+type: text/vnd.tiddlywiki
+
+''AKA Network Packet''
+
+A [[Network Packet|Packet (Networking)]] is a formatted unit of data carried by a [[Packet-switched Network]].
+
+https://en.wikipedia.org/wiki/Network_packet#:~:text=In%20telecommunications%20and%20computer%20networking,also%20known%20as%20the%20payload.

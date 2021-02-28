@@ -1,0 +1,10 @@
+created: 20210202173235456
+modified: 20210202173837854
+tags: [[Understanding the Digital World (Brian Kernighan)]] Security Web Stub
+title: Third-party Cookies
+tmap.id: 5eca7c09-fb08-4749-bdf0-837e74300d80
+type: text/vnd.tiddlywiki
+
+[[Third-party Cookies]] are [[Cookies]] that come from a different web site than the one you went to.
+
+This type of [[cookie|Cookies]] typically appear when web pages feature content from external websites, such as banner advertisements.

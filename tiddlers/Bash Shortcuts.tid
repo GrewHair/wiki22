@@ -3,8 +3,8 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200717004619470
-modified: 20200927130406792
-tags: Ubuntu
+modified: 20201211090525511
+tags: Ubuntu Bash
 title: Bash Shortcuts
 tmap.id: 211b2c0d-71f4-4ad4-b883-a8f763b06860
 type: text/vnd.tiddlywiki

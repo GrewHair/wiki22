@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200417123721461
-modified: 20200417124436962
+modified: 20210118152740561
 tags: [[Quick Notes]]
 title: Note #1 on Neural Nets
 tmap.id: 706a3b8f-3154-4916-ac43-1319ce58f594

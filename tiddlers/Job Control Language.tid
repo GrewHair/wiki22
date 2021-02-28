@@ -1,0 +1,14 @@
+created: 20210126162640090
+modified: 20210127131152216
+tags: Computing
+title: Job Control Language
+tmap.id: 749c21d4-f64f-4de8-ba4f-19851e77f157
+type: text/vnd.tiddlywiki
+
+[[Job Control languages|Job Control Language]] are used for [[Job Control|Job Control (Unix)]] =D.
+
+https://en.wikipedia.org/wiki/Job_Control_Language
+
+[[Guido Van Rossum]] says that [[Bash]] (or other [[Unix]] [[shells|Shell (Operating Systems)]]) is a kind of f [[Job Control Language]] - however wikipedia disagrees.
+
+It probably is somewhat reminiscent of them syntactically merely because they historically coexisted in the same era. But real [[Job Control Languages|Job Control Language]] are much more rigid.

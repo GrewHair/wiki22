@@ -1,0 +1,14 @@
+created: 20201203124532241
+modified: 20201207115220891
+tags: Stub Networking [[Network Fundamentals (Network Direction)]]
+title: Socket Address
+tmap.id: 6d873548-e7df-4747-9519-40210e497e5a
+type: text/vnd.tiddlywiki
+
+[[Socket Address]] is the way to identify a [[Network Socket]] to other [[Hosts|Host]].
+
+It consists of:
+
+* The [[Transport Protocol|Transport Layer]] used ([[TCP|Transmission Control Protocol]] or [[UDP|User Datagram Protocol]])
+* [[IP Address]]
+* [[Port Number|Port (Networking)]]

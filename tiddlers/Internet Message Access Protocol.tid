@@ -1,0 +1,18 @@
+created: 20210201131407995
+modified: 20210216191006556
+tags: [[Understanding the Digital World (Brian Kernighan)]] Networking Stub
+title: Internet Message Access Protocol
+tmap.id: 8014ec34-2a59-4a83-bb1e-add2fd16e53a
+type: text/vnd.tiddlywiki
+
+''AKA IMAP''
+
+[[IMAP|Internet Message Access Protocol]] is a "mailbox access protocol".
+
+It is a successor to the older [[POP3|Post Office Protocol]] protocol.
+
+[[IMAP|Internet Message Access Protocol]] is an [[Internet Standard]] [[Protocol|Communication Protocol]] used by [[Email Clients|Email Client]] to retrieve [[Email]] messages from a [[Mail Server]] over a [[TCP/IP]] connection.
+
+With [[IMAP|Internet Message Access Protocol]] your [[mail|Email]] remains on a server and you can access it from multiple places. [[IMAP|Internet Message Access Protocol]] ensures that your mailbox is always in a consistent state even if there are multiple simultaneous seaders and updaters, e.g. if you simultaneously access your [[mail|Email]] from your computer and phone.
+
+[[IMAP|Internet Message Access Protocol]] is defined by [[RFC|Request for Comments]] 3501.

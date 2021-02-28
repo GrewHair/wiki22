@@ -1,0 +1,32 @@
+created: 20210111120444624
+modified: 20210125141441901
+tags: Networking Stub [[Understanding the Digital World (Brian Kernighan)]]
+title: Root Name Server
+tmap.id: ad83fdc1-c017-4071-b4c6-4ff0ed95b7ff
+type: text/vnd.tiddlywiki
+
+A [[Root Name Server]] is a [[Name Server]] for the [[Root Zone|Root Domain Zone]] of the [[DNS|Domain Name System]] of the Internet.
+
+It directly answers requests for records in the [[Root Zone|Root Domain Zone]] and answers other requests by returning a list of [[Authoritative Name Servers|Authoritative Name Server]] for the appropriate [[Top-level Domain]].
+
+[[Root Name Servers|Root Name Server]] are the first step in [[resolving|DNS Resolver]] human readable [[host|Host]] names into [[IP Addresses|IP Address]].
+
+A combination of limits in the [[DNS|Domain Name System]] and certain [[protocols|Protocol]], namely the practical size of unfragmented [[UDP|User Datagram Protocol]] [[packets|Packet]], resulted in a decision to limit the number foo [[Root Servers|Root Name Server]] to //thirteen// server addresses. The use of [[Anycast]] addressing permits the actual number of [[Root Server]] instances to be much larger, and is 1,086 as of 2 July 2020.
+
+https://en.wikipedia.org/wiki/Root_name_server
+
+''Example:''
+
+Steps to determine the [[IP Address]] for `www.cs.mit.edu`:
+
+* ask a [[Root Server|Root Name Server]] for `mit.edu`'s [[IP Address]]
+* ask MIT [[Name Server]] for `cs.mit.edu`'s [[IP Address]]
+* ask `cs.mit.edu`'s [[Name Server]] for `www.cs.mit.edu`
+
+In practice, however, the [[query|DNS Query]] often does not have to go all the way to the [[Root Server|Root Name Server]], as [[local name servers usually maintain caches|Caching Name Server]].
+
+Try this:
+
+```bash
+nslookup a.root-servers.net
+```

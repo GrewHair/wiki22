@@ -1,0 +1,20 @@
+created: 20210224133528682
+modified: 20210224134051062
+tags: Networking Stub [[DevOps Fundamentals (EPAM)]]
+title: Dynamic Host Configuration Protocol
+tmap.id: 6ad0780b-65c5-428b-87c5-e109674b8b6a
+type: text/vnd.tiddlywiki
+
+''AKA DHCP''
+
+* ''DHCP Discover'' - looks for a [[DHCP Server]]
+* ''DHCP Offer'' - [[DHCP Server]] offers an [[address|IP Address]]
+* ''DHCP Request'' - The [[host|Host]] requests to [[lease|Lease]] the [[address|IP Address]]
+* ''DHCPACK'' - [[DHCP Server]] sends the [[IP Address]] to the [[Host]]
+
+[[UDP|User Datagram Protocol]] [[port|Port (Networking)]]:
+
+* [[Client]]: 68
+* [[Server]]: 67
+
+https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol

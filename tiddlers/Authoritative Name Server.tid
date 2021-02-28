@@ -1,0 +1,16 @@
+created: 20210125131511007
+modified: 20210224173657015
+tags: Networking [[Understanding the Digital World (Brian Kernighan)]] Stub
+title: Authoritative Name Server
+tmap.id: 3d3ccb5e-6c9d-43eb-9b90-db8e19f8e171
+type: text/vnd.tiddlywiki
+
+''Russian: Авторитативный сервер''
+
+An [[Authoritative Name Server]] is a [[Name Server]] that gives [[Authoritative Answers|Authoritative Answer]] in response to questions asked about names in a [[Zone|DNS Zone]].
+
+An authoritative-only [[Name Server]] returns [[answers|Authoritative Answer]] only to [[queries|DNS Query]] about [[Domain Names|Domain Name]] that have been specifically configured by the administrator.
+
+[[Name Servers|Name Server]] can also be configured to give [[Authoritative Answers|Authoritative Answer]] to [[queries|DNS Query]] in some [[Zones|DNS Zone]], while acting as a [[Caching Name Server]] for all other [[zones|DNS Zone]].
+
+https://en.wikipedia.org/wiki/Name_server#Authoritative_name_server

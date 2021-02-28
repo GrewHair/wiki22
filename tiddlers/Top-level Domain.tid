@@ -1,0 +1,19 @@
+created: 20210111111512214
+modified: 20210125121455059
+tags: Networking Stub
+title: Top-level Domain
+tmap.id: 92873dc3-208f-44f4-a410-81a5ebd43663
+type: text/vnd.tiddlywiki
+
+''AKA TLD''
+
+''Examples:''
+
+* `com`
+* `org`
+* `eu`
+* `in`
+
+Responsibility for managing most of the [[Top-level Domains|Top-level Domain]] is delegated to specific organizations (usually [[Domain Name Registrars|Domain Name Registrar]]) by [[ICANN|Internet Corporation for Assigned Names and Numbers]], which operates [[IANA|Internet Assigned Numbers Authority]].
+
+https://en.wikipedia.org/wiki/Top-level_domain#:~:text=A%20top-level%20domain%20(TLD,zone%20of%20the%20name%20space.

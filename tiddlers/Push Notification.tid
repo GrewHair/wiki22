@@ -1,0 +1,11 @@
+created: 20210127105134666
+modified: 20210127105428727
+tags: Computing
+title: Push Notification
+tmap.id: 935a51f3-613a-4ec3-81b3-c1e3f4431139
+type: text/vnd.tiddlywiki
+
+* On desktop, the [[OS|Operating System]] normally doesn't allow the browser to send notifications when it is closed. However in mobile, a web app can wake up a browser. Thus it's less ubiquitous on the desktop;
+* It is usually the job of [[Service Worker]] to manage these notifications.
+
+https://www.airship.com/resources/explainer/push-notifications-explained/

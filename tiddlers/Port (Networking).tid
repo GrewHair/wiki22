@@ -1,0 +1,18 @@
+created: 20210216182333555
+modified: 20210216184115101
+tags: Networking Stub
+title: Port (Networking)
+tmap.id: 3b49e52b-f0f2-4e7b-b42c-37872745f091
+type: text/vnd.tiddlywiki
+
+A [[Port]] is a communication [[Endpoint]]...
+
+Within an [[Operating System]], a [[Port|Port (Networking)]] is a logical construct that identifies a specific [[Process|Process (Computing)]], or a type of a [[Network Service]].
+
+All [[Ports|Port (Networking)]] can be divided into three categories:
+
+* [[Well-known Ports]] (0 - 1023)
+* [[Registered Ports]] (1024 - 49151)
+* [[Ephemeral Ports]] (49152 - 65535)
+
+https://en.wikipedia.org/wiki/Port_(computer_networking)

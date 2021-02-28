@@ -1,0 +1,28 @@
+created: 20210202200316100
+modified: 20210202201803315
+tags: Web [[Understanding the Digital World (Brian Kernighan)]]
+title: Some of the Information Sent by a Browser
+tmap.id: 80f19d5f-45c0-4c44-adf8-5774a7920a89
+type: text/vnd.tiddlywiki
+
+Some information is sent automatically with every request from your [[browser|Web Browser]], including:
+
+* your [[IP Address]]
+* the page that you were viewing ([[the "referer"|Referer]])
+* the type and version of your browser ([[the "user agent"|User Agent]])
+* the operating system
+* your language preference
+
+```
+HTTP_ACCEPT text/html,application/xhtml+xmll;q=0.9,*/*;q=0.8
+HTTP_ACCEPT_ENCODING gzip, deflate
+HTTP_ACCEPT_LANGUAGE en-US,en;q=0.5
+HTTP_DNT 1
+HTTP_HOST [...]mycpanel.princeton.edu
+HTTP_REFERER http://[...]mycpanel.princeton.edu/env.html
+HTTP_USER_AGENT Mozilla/5.0 (Macintosh; Inter Max OS X 10.7; rv:45.0) Gecko/20100101 Firefox/45.0
+QUERY_STRING [...]
+REMOTE_ADDR 128.112.139.195
+```
+
+In addition, if there are [[Cookies]] from the [[Server]]'s [[Domain]], those are sent as well.

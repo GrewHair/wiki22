@@ -1,0 +1,13 @@
+created: 20210204133145364
+modified: 20210204133646995
+tags: [[Formal Languages]] Stub
+title: Terminal Symbol
+tmap.id: 0ebd0b0f-dde8-400e-957d-436317977e85
+type: text/vnd.tiddlywiki
+
+A [[Terminal Symbol]] is:
+
+* a [[Literal]] like `"+"` or `"function"`
+* or a class of [[Literals|Literal]], like `"1"`, `"2"`, `"3"`, ... .
+
+http://matt.might.net/articles/grammars-bnf-ebnf/

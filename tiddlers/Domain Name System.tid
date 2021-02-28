@@ -1,0 +1,12 @@
+created: 20210202053841733
+modified: 20210228115127210
+tags: Networking [[Understanding the Digital World (Brian Kernighan)]] Stub
+title: Domain Name System
+tmap.id: 4fce4971-1c8d-4662-b17c-8d22dd81384d
+type: text/vnd.tiddlywiki
+
+''AKA DNS''
+
+The [[Domain Name System]] is a large [[Distributed Database]] that converts [[Domain Names|Domain Name]] to [[IP Addresses|IP Address]] and vice versa.
+
+[[DNS|Domain Name System]] provides a worldwide [[Distributed|Distributed Computing]] [[Directory Service]].

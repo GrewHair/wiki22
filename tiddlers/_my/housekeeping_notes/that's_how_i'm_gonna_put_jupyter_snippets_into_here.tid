@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200424002246553
-modified: 20200628150343723
+modified: 20210116063742746
 tags: 
 title: _my/housekeeping_notes/that's_how_i'm_gonna_put_jupyter_snippets_into_here
 tmap.id: 78d62fb6-05a2-4481-b6dc-0eca85c39cc8

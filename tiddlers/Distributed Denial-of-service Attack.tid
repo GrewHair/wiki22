@@ -1,0 +1,12 @@
+created: 20210202182725797
+modified: 20210202183140857
+tags: Security Web [[Understanding the Digital World (Brian Kernighan)]]
+title: Distributed Denial-of-service Attack
+tmap.id: e9ed75e5-4926-4429-8b00-56d76d6a0ad5
+type: text/vnd.tiddlywiki
+
+''AKA DDoS Attack''
+
+A [[DDoS Attack|Distributed Denial-of-service Attack]] is a [[DoS Attack|Denial-of-service Attack]] that comes from many sources simultaneously.
+
+They are often [[orchestrated|Orchestration (Computing)]] with [[Botnets|Botnet]].

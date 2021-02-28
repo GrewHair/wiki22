@@ -1,0 +1,29 @@
+created: 20201214132951954
+modified: 20201214134634932
+tags: Python
+title: subprocess (Python Library)
+tmap.id: a08ee0a2-e4c2-496e-a5a1-cf1b7a859ad6
+type: text/vnd.tiddlywiki
+
+If you want to store [[stdout|Standard Output]] from [[Bash]] into a [[Python]] [[Variable|Variable (Programming)]], using <$link to="os (Python Library)">`os.system()`</$link> will not cut it.
+
+You have to use <$link to="subprocess (Python Library)">`subprocess`</$link>:
+
+```python
+import subprocess as sp
+```
+
+''Useful functions:''
+
+* `sp.Popen()`
+* `sp.run()` !!!
+* `sp.check_output()`
+
+''Important caveats:''
+
+* By default, <$link to="subprocess (Python Library)">`subprocess`</$link> only spawns a //single// process - which means no fancy [[pipes|Pipeline (Unix)]]. To enable [[piping|Pipeline (Unix)]], use the [[kwarg]]:
+*><$codeblock language="python" code="shell=True"/>
+* To [[return|Return Statement]] [[stdout|Standard Output]], use the [[kwarg]]:
+*><$codeblock language="python" code="stdout=sp.PIPE"/>
+* To return a [[String|Strings]] instead of [[Bytes]], use the [[kwarg]]:
+*><$codeblock language="python" code="text=True"/>

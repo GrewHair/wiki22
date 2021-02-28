@@ -1,0 +1,14 @@
+created: 20210125125055211
+modified: 20210125130716690
+tags: Networking [[Understanding the Digital World (Brian Kernighan)]] Stub
+title: Root Domain Zone
+tmap.id: af4e7b0c-d0fd-4f3e-aac1-d434d1c7c7cb
+type: text/vnd.tiddlywiki
+
+''AKA DNS Root Zone, Root Domain, Root Zone''
+
+''Russian: Корневоой Домен''
+
+The [[Root Domain Zone]] is the (most) top-level [[DNS Zone]] in the hierarchical [[namespace|Namespace]] of the [[Domain Name System]] of the Internet.
+
+https://en.wikipedia.org/wiki/DNS_root_zone

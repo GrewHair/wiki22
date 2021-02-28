@@ -1,0 +1,32 @@
+created: 20210204123042587
+modified: 20210204131243235
+tags: [[Formal Languages]]
+title: Context-free Grammar
+tmap.id: 5cf8babd-7d7a-4613-9a5f-8e0a01c4efab
+type: text/vnd.tiddlywiki
+
+''AKA CFG''
+
+In [[Formal Language Theory|Formal Languages]], a [[Context-free Grammar]] is a [[Formal Grammar]] in which every [[Production Rule]] is of the form:
+
+$$
+A \to \alpha
+$$
+
+where:
+
+* $$A$$ is a //single// [[Nonterminal Symbol]];
+* $$\alpha$$ is a [[String|String (Computer Science)]] of [[Terminals|Terminal Symbol]] and/or [[Nonterminals|Nonterminal Symbol]], or it can be empty.
+
+A [[Context-free Grammar]] $$G$$ is defined by the 4-[[tuple|Tuple (Set Theory)]] $$G = (V, \Sigma, R, S),$$ where
+
+* $$V$$ is a [[Finite Set]]; each [[element|Element of a Set]] $$v \in V$$ is called a [[Nonterminal Character]] or a [[Variable]]. Each [[Variable]] represents a different type of phrase or clause in the sentence. [[Variables|Variable]] are also sometimes called syntactic categories. Each variable defines a sub-language of the language defined by $$G$$.
+* $$\Sigma$$ is a [[Finite Set]] of [[Terminals|Terminal Symbol]], [[disjoint|Disjoint Sets]]from $$V$$, which make up the actual content of the sentence. The [[Set]] of [[Terminals|Terminal Symbol]] is the alphabet of the language defined by the grammar $$G$$.
+* $$R$$ is a finite [[Relation|Binary Relation]] in $$V \times ( V \cup \Sigma )^*$$, where the asterisk represents the [[Kleene Star]] operation. The members of $$R$$ are called the [[Production Rules|Production Rule]] of the grammar.
+* $$S$$ is the [[Start Variable]] (or start symbol), used to represent the whole sentence (or program). It must be an [[element|Element of a Set]] of $$V$$.
+
+A [[Formal Grammar]] is considered [["context free"|Context-free Grammar]] when its production rules can be applied regardless of the context of a [[Nonterminal|Nonterminal Symbol]]. No matter which symbols surround it, __the single [[nonterminal|Nonterminal Symbol]] on the left hand side can always be replaced by the right hand side.__
+
+This is what distinguishes it from a [[Context-sensitive Grammar]].
+
+https://en.wikipedia.org/wiki/Context-free_grammar#Derivations_and_syntax_trees

@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200628235923129
-modified: 20200718221416281
+modified: 20210211073445589
 tags: 
 title: some dot picture 2
 tmap.id: b01c3a9a-2920-442f-b399-d3d02b31f121

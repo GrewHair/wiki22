@@ -1,14 +1,15 @@
 created: 20201202192058770
-modified: 20201202202821351
-tags: Networking Stub
+modified: 20210216191713280
+tags: Networking Stub [[Network Fundamentals (Network Direction)]]
 title: Reserved IP Addresses
 tmap.id: 238a807a-2dff-4f8c-b419-42ab3c045232
 type: text/vnd.tiddlywiki
 
 The [[Reserved IP Addresses]] may not be assigned to devices in a network.
 
-* [[Network Addresses|Network Address]] 
 * [[Loopback Addresses|Loopback Address]]
+* [[Link-local Addresses|Link-local Address]]
+* [[Network Addresses|Network Address]] 
 * [[Broadcast Addresses|Broadcast Address]]
 * [[Private Addresses|Private Address]]
 * [[Multicast Addresses|Multicast Address]]

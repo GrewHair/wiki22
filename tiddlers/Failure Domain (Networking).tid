@@ -1,0 +1,14 @@
+created: 20201207090639971
+modified: 20201207120017496
+tags: Networking [[Network Fundamentals (Network Direction)]]
+title: Failure Domain (Networking)
+tmap.id: ab7aaf19-2235-41f0-bd7a-dc0b1699d121
+type: text/vnd.tiddlywiki
+
+In [[Networking]], a [[Failure Domain|Failure Domain (Networking)]] is a division of a [[Computer Network]] that is negatively affected when a critical device or service experiences problems.
+
+Put it another way: a [[Failure Domain|Failure Domain (Networking)]] is any group of devices that will share state when the [[Network Topology]] changes.
+
+https://en.wikipedia.org/wiki/Failure_domain#:~:text=In%20computing%2C%20a%20failure%20domain,of%20infrastructure%20that%20could%20fail.
+
+https://rule11.tech/what-is-a-failure-domain/

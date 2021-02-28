@@ -1,0 +1,30 @@
+created: 20210125122251090
+modified: 20210126090244480
+tags: Networking Stub
+title: DNS Zone
+tmap.id: a0ceaf2a-0f3f-417d-bd95-e607dd6a54fe
+type: text/vnd.tiddlywiki
+
+<$viz text='
+graph {
+n_1[label="Root\nDomain\nZone"]
+n_11[label=".com\n(TLD)\nZone"]
+n_12[label=".net\n(TLD)\nZone"]
+n_13[label=".org\n(TLD)\nZone"]
+n_111[label="cloudflare.com\nZone"]
+n_1111[label="blog.cloudflare.com\nZone"]
+n_1 -- n_11
+n_1 -- n_12
+n_1 -- n_13
+n_11 -- n_111
+n_111 -- n_1111
+}
+' class="dot_1"/>
+
+* [[Root Domain Zone]] is the root of the [[DNS|Domain Name System]] hierarchy
+* [[TLD|Top-level Domain]] stands for [[Top-level Domains|Top-level Domain]]
+* `blog` in `blog.cloudflare.com` is an example of a [[Subdomain]]
+
+https://www.cloudflare.com/learning/dns/glossary/dns-zone/
+
+https://en.wikipedia.org/wiki/DNS_zone

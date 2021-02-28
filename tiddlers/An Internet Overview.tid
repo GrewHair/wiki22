@@ -1,0 +1,19 @@
+created: 20210124105258616
+modified: 20210124110221784
+tags: [[Understanding the Digital World (Brian Kernighan)]] Stub Networking
+title: An Internet Overview
+tmap.id: 8766abf7-706a-43eb-b896-fcb73e220783
+type: text/vnd.tiddlywiki
+
+To make the internet work, we need several mechanisms:
+
+* ''Addresses'' (to identify [[hosts|Host]])
+** [[IPv4]]
+** [[IPv6]]
+* ''Names'' (for human readamility)
+** [[Domain Name System]]
+* ''Routing'' (a mechanism for finding a path from source to destination for each packet)
+** [[Gateways|Gateway]]
+* ''Protocols'' (to define how all these components interoperate)
+
+(p.188 in zathura)

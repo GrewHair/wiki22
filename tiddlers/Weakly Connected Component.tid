@@ -1,0 +1,10 @@
+created: 20210106013736462
+modified: 20210118112750427
+tags: [[Graph Theory]] Stub
+title: Weakly Connected Component
+tmap.id: 2569d476-63fb-4a42-b0fd-7426d003b608
+type: text/vnd.tiddlywiki
+
+An [[Induced Subgraph]] of a [[Directed Graph]] is called a [[Weakly Connected Component]] if it constitutes a [[Weakly Connected Graph]].
+
+https://en.wikipedia.org/wiki/Connectivity_(graph_theory)

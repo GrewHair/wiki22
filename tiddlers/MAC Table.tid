@@ -1,0 +1,16 @@
+created: 20201206143133841
+modified: 20201207115852031
+tags: Networking Stub [[Network Fundamentals (Network Direction)]]
+title: MAC Table
+tmap.id: dcdebbad-7c9b-48c9-bd74-81b0844db7ad
+type: text/vnd.tiddlywiki
+
+''AKA MAC Address Table''
+
+The [[MAC Table]] is used by the [[Switch]] or [[Bridge]] to map [[MAC Addresses|MAC Address]] to a specific interface on the [[Switch]]/[[Bridge]].
+
+These usually expire every 5 minutes or so, and are updated by reading the source address of a frame entering the interface
+
+https://serverfault.com/questions/503121/arp-mac-address-table#:~:text=The%20MAC%20table%20is%20used,as%20a%20layer%202%20device.
+
+https://www.netbraintech.com/ftp/EE62/OnlineHelp/mac-table-toolkit.htm

@@ -1,0 +1,10 @@
+created: 20210202072405631
+modified: 20210202072705944
+tags: Networking [[Understanding the Digital World (Brian Kernighan)]]
+title: Routing Protocol
+tmap.id: 82d9c22d-1bbb-4031-afb1-eae3eb188095
+type: text/vnd.tiddlywiki
+
+[[Routing Protocols|Routing Protocol]] specify how [[Routers|Router]] communicate with each other to distribute information that enables them to select routes betwee any two [[Nodes|Node (Networking)]] on a [[Computer Network]].
+
+https://en.wikipedia.org/wiki/Routing_protocol

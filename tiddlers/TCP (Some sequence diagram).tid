@@ -1,0 +1,21 @@
+created: 20210216171403982
+modified: 20210216175447966
+tags: Networking Stub [[Badly Named]]
+title: TCP (Some sequence diagram)
+tmap.id: 63d1b3b6-c8f3-4580-9786-4094c79a3a93
+type: text/vnd.tiddlywiki
+
+[[plantuml [
+@startuml
+skinparam monochrome reverse
+
+Client -> Server : Data, 0
+Client <- Server : ACK, wait 1460
+Client -> Server : Data, 1460
+Client x<[#darkgrey]- Server : ACK, wait 2920
+Client -> Server : Data, 1460
+Client <- Server : ACK, wait 2920
+
+
+@enduml
+]]]

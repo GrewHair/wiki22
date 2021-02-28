@@ -1,0 +1,10 @@
+created: 20210127125102707
+modified: 20210127130210373
+tags: Ubuntu Unix Stub Computing
+title: File Descriptor
+tmap.id: 9753474d-62be-48d0-bdf3-caa5b96ed98c
+type: text/vnd.tiddlywiki
+
+a [[File Descriptor]] is a [[Handle|Resource Handle]]!
+
+https://en.wikipedia.org/wiki/File_descriptor

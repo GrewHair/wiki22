@@ -1,0 +1,12 @@
+created: 20210204121745281
+modified: 20210204122719631
+tags: Stub [[Formal Languages]]
+title: Unambiguous Grammar
+tmap.id: de22f760-51ae-4424-8b89-45a9d96289db
+type: text/vnd.tiddlywiki
+
+An [[Unambiguous Grammar]] is a [[Context-free Grammar]] for which every valid [[String|String (Computer Science)]] has a unique [[Leftmost Derivation]] or [[Parse Tree]].
+
+[[Example|Unambiguous Grammar/Example]]
+
+https://en.wikipedia.org/wiki/Ambiguous_grammar#An_unambiguous_grammar_with_multiple_derivations

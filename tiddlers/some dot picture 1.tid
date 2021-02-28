@@ -3,18 +3,19 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200628222607149
-modified: 20200714085231240
+modified: 20210202190932228
 tags: 
 title: some dot picture 1
 tmap.id: 04dd347f-82e5-4311-b2be-09edc5ce66ef
 type: text/vnd.tiddlywiki
 
 <$viz text="
-graph {
-a [fontcolor=green]
-b [color=green, fontcolor=green]
-a -- b [style=dotted]
-c -- d
-b -- d
+digraph {
+socket -> bind
+bind -> listen
+listen -> accept
+accept -> recv
+recv -> send
+send -> recv
 }
 " class="dot_1"/>

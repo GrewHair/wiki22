@@ -1,0 +1,10 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20200321150158324
+modified: 20210118102547234
+tags: $:/tags/Stylesheet
+title: _my/stylesheets/fonts/lexie_readable
+tmap.id: b488c231-fea4-43ca-b417-ee3ed3bbe1aa
+type: text/css

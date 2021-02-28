@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200713000221679
-modified: 20200713005558786
+modified: 20210218071621188
 tags: Numpy [[Python Data Science Handbook (Jake VanderPlas)]]
 title: Fancy Indexing
 tmap.id: 2a232410-65b1-4b21-b6ab-3a3c25532474
@@ -78,7 +78,7 @@ X[row, col]
 array([2, 5, 11])
 "/>
 
-* In the above case, the pairing of indices in [[Fancy Indexing]] actually follows all the [[Broadcasting]] rules:
+* In the above case, the pairing of indices in [[Fancy Indexing]] actually follows all the [[Broadcasting|Numpy Broadcasting]] rules:
 *><$codeblock code="
 X[row[:, np.newaxis], col]
 " language="python"/>

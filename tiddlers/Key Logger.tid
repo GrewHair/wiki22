@@ -1,0 +1,12 @@
+created: 20210202180950238
+modified: 20210202181345622
+tags: Security Web Computing [[Understanding the Digital World (Brian Kernighan)]]
+title: Key Logger
+tmap.id: 7ac47cff-215a-4e2b-b005-902a7fd666a3
+type: text/vnd.tiddlywiki
+
+A [[Key Logger]] is a program that monitors all keystrokes on the [[Client]] and thus can capture passwords, credit card numbers, etc. as they are typed.
+
+In this case, encryption does not help :)
+
+Windows has this feature XD

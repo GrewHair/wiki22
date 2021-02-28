@@ -1,0 +1,37 @@
+created: 20210211071147259
+modified: 20210211073834843
+tags: Networking Security Privacy [[Understanding the Digital World (Brian Kernighan)]] Stub
+title: Digital Signature
+tmap.id: 3412561e-955a-4204-bccd-21b4e2e1694e
+type: text/vnd.tiddlywiki
+
+<$viz text="""
+digraph {
+label=Alice
+labeljust=l
+subgraph cluster0 {
+al_1 [label="Hello\nBob!"; shape="rect"]
+al_2 [label="Sign"; shape="rect"]
+al_3 [label="Alice's\nprivate key"; shape=plaintext]
+{rank=same; al_1; al_2; al_3}
+al_1 -> al_2
+al_2 -> al_3 [dir=back]
+}
+al_4 [shape=record; label="Hello\nBob! | BE459576\n785039E8"]
+{rank=same; al_4}
+al_2 -> al_4
+subgraph cluster1 {
+label=Bob
+labeljust=l
+bo_1 [label="Hello\nBob!"; shape=rect]
+bo_2 [label=Verify; shape=rect]
+bo_3 [label="Alice's\npublic key"; shape=plaintext]
+{rank=same; bo_1; bo_2; bo_3}
+bo_1 -> bo_2 [dir=back]
+bo_2 -> bo_3 [dir=back]
+al_4 -> bo_2
+}
+}
+"""/>
+
+https://en.wikipedia.org/wiki/Digital_signature

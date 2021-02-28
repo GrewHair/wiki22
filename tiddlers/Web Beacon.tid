@@ -1,0 +1,14 @@
+created: 20210202134520906
+modified: 20210202135041314
+tags: Computing Web [[Understanding the Digital World (Brian Kernighan)]] Stub
+title: Web Beacon
+tmap.id: dae0f254-f13c-45c1-b652-c760f5c9fd7b
+type: text/vnd.tiddlywiki
+
+''AKA Web bug, Tracking Bug, Tag, Web Tag, Page Tag, Tracking Pixel, Pixel Tag, 1x1 GIF, Clear GIF, Javascript Tag''
+
+A [[Web Beacon]] is a technique used on web pages and [[Email]] to unobtrusively (and usually invisibly) check that a user has accessed some content.
+
+[[Web Beacons|Web Beacon]] are typically used by third parties to monitor the activity of users at a website for the purpose of [[Web Analytics]] or [[Page Tagging]]. They can also be used for [[Email Tracking]].
+
+https://en.wikipedia.org/wiki/Web_beacon

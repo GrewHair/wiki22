@@ -1,0 +1,13 @@
+created: 20210111114851896
+modified: 20210111115528935
+tags: Networking Stub
+title: IP Address
+tmap.id: 90cb0e96-df92-4519-9e04-f78f10c4fb0b
+type: text/vnd.tiddlywiki
+
+[[IP Addresses|IP Address]] are assigned in blocks by [[ICANN|Internet Corporation for Assigned Names and Numbers]], and then the blocks are sub-allocated by the institutions that receive them.
+
+For example, the Princeton Univercity has two blocks:
+
+* `128.112.ddd.ddd`
+* `140.180.ddd.ddd`

@@ -1,0 +1,10 @@
+created: 20201207103228922
+modified: 20201207122400615
+tags: Networking Stub [[Network Fundamentals (Network Direction)]]
+title: VLAN
+tmap.id: a5a77e33-0d3a-4595-88df-49fadce8952f
+type: text/vnd.tiddlywiki
+
+[[VLANs|VLAN]] are a [[Switching]] technology that operates at [[Layer 2|Datalink Layer]].
+
+[[VLANs|VLAN]] provide a [[Layer 2|Datalink Layer]] boundry - so in order for two devices on different [[VLANs|VLAN]] to communicate, they need a [[Layer 3|Network Layer]] protocol. Typically they do so through the [[Default Gateway]].

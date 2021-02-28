@@ -1,0 +1,14 @@
+created: 20201207090112902
+modified: 20201207120042450
+tags: Networking [[Network Fundamentals (Network Direction)]]
+title: Reasons to use VLANs
+tmap.id: 17dd009a-90da-4f99-926c-3ef89c2a9ac0
+type: text/vnd.tiddlywiki
+
+* Add //security// to the larger network
+* Less hardware needed
+* Management/Guest Network
+* Different //traffic types// (e.g. voice and data)
+* Apply //different settings// to different [[VLANs|VLAN]]
+* Limit [[Broadcasts|Broadcast]] and [[Flooding]]
+* Smaller [[Failure Domains|Failure Domain (Networking)]]

@@ -1,0 +1,24 @@
+created: 20210127125206210
+modified: 20210127131314108
+tags: Programming Computing Unix Stub
+title: Resource Handle
+tmap.id: 789edb02-7896-4e46-9fc8-74eeb3bfe596
+type: text/vnd.tiddlywiki
+
+''AKA Handle''
+
+In [[Computer Programming]], a [[Handle|Resource Handle]] is an abstract [[Reference|Reference (Computer Science)]] to a [[Resource|System Resource]] that is used when [[Application Software]] references blocks of [[Memory|Computer Memory]] or objects that are managed by another system like a [[Database]] or an [[Operating System]].
+
+A [[Resource Handle]] can be an [[opaque|Opaque Data Type]] identifier, in which case it is often an [[Integer]] number, or it can be a [[Pointer]], that allows access to further information.
+
+Common [[Resource Handles|Resource Handle]] include:
+
+* [[File Descriptors|File Descriptor]]
+* [[Network Sockets|Network Socket]]
+* [[Database Connections|Database Connection]]
+* [[PIDs|Process Identifier]]
+* [[Job IDs|Job Control (Unix)]]
+
+https://en.wikipedia.org/wiki/Handle_(computing)
+
+https://www.quora.com/In-programming-what-is-the-difference-between-a-handle-and-a-handler

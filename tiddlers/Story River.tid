@@ -1,0 +1,10 @@
+created: 20210116153335254
+modified: 20210116171607411
+tags: 
+title: Story River
+tmap.id: 4b5459f6-c8d3-477d-9a6c-f9cf0e415209
+type: text/vnd.tiddlywiki
+
+{{{[list[$:/StoryList]]}}}
+
+<ol style="list-style-type:decimal; width: 100%; font-size: 9px"><$list filter="[list[$:/StoryList]]"><li style="float:left; width: 50px; padding: 2px 0px;"><<currentTiddler>></li></$list></ol>

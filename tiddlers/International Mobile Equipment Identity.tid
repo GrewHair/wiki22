@@ -1,0 +1,12 @@
+created: 20210111093156724
+modified: 20210111093616764
+tags: Networking Stub
+title: International Mobile Equipment Identity
+tmap.id: a88d02f8-8e73-488f-8141-fc0284a846b9
+type: text/vnd.tiddlywiki
+
+''AKA IMEI''
+
+[[IMEI|International Mobile Equipment Identity]] is like an [[Ethernet Address]], but for mobile!
+
+When a phone is turned on, it [[broadcasts|Broadcasting]] its [[IMEI|International Mobile Equipment Identity]].

@@ -1,0 +1,16 @@
+created: 20201229130755361
+modified: 20201229131342172
+tags: 
+title: Python Virtual Environments
+tmap.id: 6645448e-e869-4b38-b83c-1b4580d7a3de
+type: text/vnd.tiddlywiki
+
+* `virtualenv`
+* `pipenv`
+* `pyenv`
+* `venv`
+* `pyvenv`
+
+```
+(py)?(v|virtual|pip)?env
+```

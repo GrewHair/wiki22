@@ -1,0 +1,12 @@
+created: 20210224182050218
+modified: 20210224182556357
+tags: Networking Stub
+title: Mail Transfer Agent
+tmap.id: 0328bb07-8601-44e8-bfe2-0361f8b01a38
+type: text/vnd.tiddlywiki
+
+''AKA Message Transfer Agent, MTA, Mail Relay, Mail Server, Mail Exchanger, MX Host''
+
+Within the [[Internet]]'s [[Email]] system, a [[Mail Transfer Agent]] is software that transfers [[electronic mail|Email]] messages from one computer to another using [[SMTP|Simple Mail Transfer Protocol]].
+
+https://en.wikipedia.org/wiki/Message_transfer_agent

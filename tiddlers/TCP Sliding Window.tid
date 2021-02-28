@@ -1,0 +1,43 @@
+created: 20210216163630910
+modified: 20210216182139061
+tags: Networking Stub
+title: TCP Sliding Window
+tmap.id: d749c99c-dbc7-474d-a514-ecdf7f2370b6
+type: text/vnd.tiddlywiki
+
+$$
+\newcommand\bs\blacksquare
+\newcommand\s\square
+
+\overbrace{
+
+\underbrace{
+\textcolor{blue}{
+\bs\bs\bs\bs\bs
+}}_\text{ACKed data}
+
+\underbrace{
+\textcolor{green}{
+\bs\bs\bs\bs\bs\bs\bs\bs
+}}_\text{sliding window}
+}^\text{sent data}
+
+\s\s\s\s\s\s\s\s\s
+
+\\[20pt]
+
+\overbrace{
+
+\underbrace{
+\textcolor{blue}{
+\bs\bs\bs\bs\bs\bs\bs\bs
+}}_\text{ACKed data}
+
+\underbrace{
+\textcolor{green}{
+\bs\bs\bs\bs\bs\bs\bs\bs
+}}_\text{sliding window}
+}^\text{sent data}
+
+\s\s\s\s\s\s
+$$

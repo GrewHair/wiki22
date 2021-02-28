@@ -1,0 +1,20 @@
+created: 20210124111327600
+modified: 20210125104940341
+tags: Networking [[Understanding the Digital World (Brian Kernighan)]] Stub
+title: Internet Corporation for Assigned Names and Numbers
+tmap.id: 734e731c-e71c-413f-b116-b9f988ee4695
+type: text/vnd.tiddlywiki
+
+''AKA ICANN''
+
+[[ICANN|Internet Corporation for Assigned Names and Numbers]] provides technical coordination of the Internet, which includes assignment of unique names and numbers, like:
+
+* [[Domain Names|Domain Name]]
+* [[IP Addresses|IP Address]]
+* ...and some protocol information.
+
+It also accredits [[Domain Name Registrars|Domain Name Registrar]].
+
+[[ICANN|Internet Corporation for Assigned Names and Numbers]] began as an agency of the US Department of Commerce, but is now an independent [[Non-profit Organization]] and is financed largely by fees from [[registrars|Domain Name Registrar]] and [[domain name|Domain Name]] registrations.
+
+Some countries are unhappy with its origin and location in the US, calling it a tool of the US government.

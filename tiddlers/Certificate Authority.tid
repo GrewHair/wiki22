@@ -1,0 +1,10 @@
+created: 20210211081118225
+modified: 20210211082415251
+tags: Networking Security Privacy [[Understanding the Digital World (Brian Kernighan)]]
+title: Certificate Authority
+tmap.id: 0ee73c82-b475-40af-a1e8-6562ae1be431
+type: text/vnd.tiddlywiki
+
+''AKA Certification Authority, CA''
+
+In [[Cryptography]], a [[Certificate Authority]] is an entity that issues [[digital cerificates|Public Key Certificate]]

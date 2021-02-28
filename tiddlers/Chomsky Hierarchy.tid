@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200309111538848
-modified: 20200427155520909
+modified: 20210204123014436
 tags: Linguistics Hierarchy
 title: Chomsky Hierarchy
 tmap.id: f7f4624a-36fa-468a-8aba-245c4fe77859
@@ -14,6 +14,7 @@ type: text/vnd.tiddlywiki
   <circle cx="190" cy="250" r="100" stroke=currentColor stroke-width="3" fill="none" />
   <circle cx="190" cy="220" r="140" stroke=currentColor stroke-width="3" fill="none" />
   <circle cx="190" cy="190" r="180" stroke=currentColor stroke-width="3" fill="none" />
+  <text x="165" y="275" width="70" height="100"><$link to="Regular Grammar">foo</$link></text>
   <foreignObject x="165" y="275" width="70" height="100">[[Regular|Regular Grammar]]</foreignObject>
   <foreignObject x="145" y="180" width="100" height="100">[[Context-free|Context-free Grammar]]</foreignObject>
   <foreignObject x="130" y="100" width="120" height="100">[[Context-sensitive|Context-sensitive Grammar]]</foreignObject>

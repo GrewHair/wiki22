@@ -1,0 +1,14 @@
+created: 20210125134433057
+modified: 20210125135134489
+tags: Networking [[Understanding the Digital World (Brian Kernighan)]] Stub
+title: Authoritative Answer
+tmap.id: 8722c42a-d190-4408-ab6d-855bb11bab57
+type: text/vnd.tiddlywiki
+
+A [[Name Server]] indicates that its response is authoritative by setting the //Authoritative Answer (AA)// bit in the respons to a [[query|DNS Query]] on a [[name|Domain Name]] for which it is authoritative.
+
+[[Name Servers|Name Server]] providing answers for which they are not [[Authoritative Name Server]] (e.g., [[Name Servers|Name Server]] for [[parent zones|DNS Parent Zone]]) do not set the //AA// bit.
+
+https://superuser.com/questions/1199915/dns-and-authoritative-answer-bit#:~:text=The%20Authoritative%20Answer%20bit%20is,the%20DNS%20server%20being%20used.
+
+https://www.ietf.org/rfc/rfc1035.txt

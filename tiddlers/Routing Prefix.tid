@@ -1,0 +1,27 @@
+created: 20210128161909037
+modified: 20210202053535522
+tags: Networking [[Understanding the Digital World (Brian Kernighan)]] Stub
+title: Routing Prefix
+tmap.id: 5c68825b-752a-4a2f-a9ca-515729926f4e
+type: text/vnd.tiddlywiki
+
+''AKA Network Prefix, IP Prefix''
+
+The [[Routing Prefix]] of an [[IP Address]] is identified by the [[Subnet Mask]], written in the same form used for [[IP Addresses|IP Address]].
+
+That is, for a [[Routing Prefix]] that is composed of the [[most-significant|Most-significant Bit]] 24 bits of an [[address|IP Address]]:
+
+<$link to="CIDR Notation"><$codeblock code="193.160.190.0/24"/>
+</$link>
+
+the [[Subnet Mask]] is written as:
+
+```
+255.255.255.0
+```
+
+<br>
+
+https://en.wikipedia.org/wiki/Subnetwork#:~:text=The%20routing%20prefix%20of%20an,is%20written%20as%20255.255.255.0.
+
+https://www.wikidata.org/wiki/Property:P3761

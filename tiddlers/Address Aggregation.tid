@@ -1,0 +1,8 @@
+created: 20210217115245861
+modified: 20210217130836054
+tags: Networking Stub [[Illustrated TCP/IP (Matthew Naugle)]]
+title: Address Aggregation
+tmap.id: 260a51c9-6139-4057-a3f9-b565a7133094
+type: text/vnd.tiddlywiki
+
+[[Address Aggregation]] is the ability to summarize contiguous blocks of [[IP Addresses|IP Address]] as one [[advertisement|Advertising (Networking)]].
