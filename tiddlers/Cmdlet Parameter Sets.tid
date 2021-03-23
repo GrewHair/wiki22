@@ -1,0 +1,32 @@
+created: 20210306124522890
+modified: 20210306133526851
+tags: PowerShell [[DevOps Fundamentals (EPAM)]] Stub
+title: Cmdlet Parameter Sets
+tmap.id: 04c18bc5-438b-4c14-ba7d-2cb62282493d
+type: text/vnd.tiddlywiki
+
+
+''Example:''
+
+```powershell
+PS C:\> Get-Help Get-Process
+
+NAME
+    Get-Process
+
+SYNTAX
+    Get-Process [[-Name] <string[]>] [-Module] [-FileVersionInfo] [<CommonParameters>]
+    Get-Process [[-Name] <string[]>] -IncludeUserName [<CommonParameters>]
+    Get-Process -Id <int[]> [-Module] [-FileVersionInfo] [<CommonParameters>]
+    Get-Process -Id <int[]> -IncludeUserName [<CommonParameters>]
+    Get-Process -InputObject <Process[]> -IncludeUserName [<CommonParameters>]
+    Get-Process -InputObject <Process[]> [-Module] [-FileVersionInfo] [<CommonParameters>]
+```
+
+The `Get-Process` [[Cmdlet]] has six [[parameter sets|Cmdlet Parameter Sets]]:
+
+* the first two use [[Process]] name
+* next two use [[PID|Process Identifier]]
+* last two use the [[Process]] [[object|.NET Object]]
+
+https://docs.microsoft.com/en-us/powershell/scripting/developer/cmdlet/cmdlet-parameter-sets?view=powershell-7.1

@@ -1,0 +1,16 @@
+created: 20210228123156727
+modified: 20210228123726121
+tags: Networking Stub
+title: Fully Qualified Domain Name
+tmap.id: 64b74529-2297-42ba-936f-471c956cd24c
+type: text/vnd.tiddlywiki
+
+''AKA FQDN, Absolute Domain Name''
+
+A [[Fully Qualified Domain Name]] is a [[Domain Name]] that specifies its exact location in the tree hierarchy of the [[Domain Name System]].
+
+It specifies all [[Domain]] levels, including the [[Top-level Domain]] and the [[Root Zone|Root Domain Zone]].
+
+It can be interpreted only in one way.
+
+https://en.wikipedia.org/wiki/Fully_qualified_domain_name

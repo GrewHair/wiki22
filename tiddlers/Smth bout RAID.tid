@@ -1,0 +1,12 @@
+created: 20210303110237877
+modified: 20210303110427853
+tags: 
+title: Smth bout RAID
+tmap.id: 0b455851-618f-4b71-a5eb-54d7ca5af177
+type: text/vnd.tiddlywiki
+
+|Mirroring|Reliability|
+|Striping|Performance|
+|Parity|...|
+|...|Capacity|
+|...|Availability|

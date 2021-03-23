@@ -1,0 +1,10 @@
+created: 20210304145917172
+modified: 20210305230527250
+tags: Stub [[DevOps Fundamentals (EPAM)]]
+title: Event Viewer
+tmap.id: ff6b1fb3-c376-45fe-8234-90df0374dfba
+type: text/vnd.tiddlywiki
+
+[[Event Viewer]] is a Windows thingie to which applications are supposed to write their logs to.. In [[Linux]] logs are simply written to files.
+
+https://serverfault.com/questions/143642/is-there-something-like-windows-event-viewer-in-linux-platform

@@ -1,0 +1,20 @@
+created: 20210228134348819
+modified: 20210228140239724
+tags: Networking Stub
+title: Secondary DNS Server
+tmap.id: 68210840-c5bb-4c4e-b168-2135a47e24cd
+type: text/vnd.tiddlywiki
+
+''AKA Slave DNS Server''
+
+A [[Secondary DNS Server]] holds a [[Secondary DNS Zone]].
+
+It receives an updated version of the copy through an operation known as [[Zone Transfer]].
+
+[[Secondary Servers|Secondary DNS Server]] can pass a ''change request'' <span style="color:orange">(wtf is that???)</span> if they wish to update their copy.
+
+[[Secondary DNS Servers|Secondary DNS Server]] are not mandatory - [[primary ones|Primary DNS Server]] would in theory be enough - but it is standard, and often required by [[Domain Registrars|Domain Name Registrar]], to have at least one [[Secondary Server|Secondary DNS Server]].
+
+[[DNS Servers|DNS Server]] can be [[Primary|Primary DNS Server]] for one [[DNS Zone]] and [[Secondary|Secondary DNS Server]] for another [[DNS Zone]].
+
+https://ns1.com/resources/primary-dns-vs-secondary-dns-and-advanced-use-cases

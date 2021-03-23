@@ -1,0 +1,11 @@
+created: 20210306134113773
+modified: 20210306231043859
+tags: [[Badly Named]] Stub [[DevOps Fundamentals (EPAM)]]
+title: Kinds of PowerShell Parameters
+tmap.id: ec565390-dd69-45aa-9110-b3b3a24f3388
+type: text/vnd.tiddlywiki
+
+* [[Named Parameters|Named Parameters (PowerShell)]]
+* [[Positional Parameters|Positional Parameters (PowerShell)]]
+* [[Switch Parameters|Switch Parameters (PowerShell)]]
+* [[Dynamic Parameters|Dynamic Parameters (PowerShell)]]

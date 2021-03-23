@@ -1,0 +1,8 @@
+created: 20210306221208293
+modified: 20210306221827355
+tags: PowerShell
+title: PowerShell Gochas
+tmap.id: f4b30d01-6f63-4cbc-84e7-91e32625c3e9
+type: text/vnd.tiddlywiki
+
+* The executable file name used to be `powershell.exe` until `v6`... But then [[PowerShell]] went open source cross-platform, and the executable was renamed to `pwsh.exe`. However, the default [[PowerShell]] that ships with [[Windows Server 2019]] is still the legacy one - so you can have errors saying `The term 'pwsh.exe' is not recognized...` bla-bla. <a target="_blank" href="https://stackoverflow.com/questions/60124810/what-is-the-difference-between-pwsh-and-powershell-integrated-console-on-vs#:~:text=1%20Answer&text=pwsh%5B.exe%5D%20is%20the,built%20on%20the%20Windows-only%20.">(source)</a>

@@ -1,0 +1,15 @@
+created: 20210309141611518
+modified: 20210309143945712
+tags: [[Windows Server]]
+title: Roles (Windows Server)
+tmap.id: 18c9bac9-146e-4ea3-8a6e-90c5fbd22f14
+type: text/vnd.tiddlywiki
+
+A [[Server Role|Roles (Windows Server)]] is a set of software programs that, when they are installed and properly configured, lets a computer perform a specific function for multiple users or other computers within a network. Generally, roles share the following characteristics.
+
+* They describe the primary function, purpose, or use of a computer. A specific computer can be dedicated to perform a single role that is heavily used in the enterprise, or may perform multiple roles if each role is only lightly used in the enterprise.
+* They provide users throughout an organization access to resources managed by other computers, such as Web sites, printers, or files that are stored on different computers.
+* They typically include their own databases that can queue user or computer requests, or record information about network users and computers that relates to the role. For example, Active Directory Domain Services includes a database for storing the names and hierarchical relationships of all computers in a network.
+* As soon as they are properly installed and configured, roles function automatically. This allows the computers on which they are installed to perform prescribed tasks with limited user commands or supervision.
+
+https://winintro.ru/rmt.en/html/e2bc02c5-e7cc-42ad-98f9-0c38ebd53892.htm

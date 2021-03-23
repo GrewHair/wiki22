@@ -1,0 +1,23 @@
+created: 20210323121118506
+modified: 20210323130038519
+tags: Networking Stub
+title: Work Group (Networking)
+tmap.id: 1d9c431b-aac9-4919-8f3f-2f5f0fb72dbd
+type: text/vnd.tiddlywiki
+
+[[Work Group|Work Group (Networking)]] is [[Microsoft's|Microsoft]] term for a [[Peer to Peer]] [[LAN|Local Area Network]].
+
+The main purposes of them is resource sharing. Computers running [[Windows|Microsoft Windows]] in the same [[Work Group|Work Group (Networking)]] may share:
+
+* [[Files|File]]
+* Printers
+* Internet connection
+
+[[Work Groups|Work Group (Networking)]] are advertised by [[Microsoft]] as an ideal solution for small networks. The [[Microsoft's|Microsoft]] alternative for larger networks would be [[Windows Domains|Windows Domain]].
+
+So to summarize:
+
+* [[Work Groups|Work Group (Networking)]] are [[Peer to Peer]] networks
+* [[Work Groups|Work Group (Networking)]] only feature local authentification!
+
+https://en.wikipedia.org/wiki/Workgroup_(computer_networking)

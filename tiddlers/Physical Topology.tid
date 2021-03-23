@@ -1,0 +1,10 @@
+created: 20210310131311948
+modified: 20210310131613502
+tags: Networking Stub
+title: Physical Topology
+tmap.id: 9cb71b91-67c4-43b0-b427-414b84f42295
+type: text/vnd.tiddlywiki
+
+A [[Physical Topology]] defines how [[Nodes|Node (Networking)]] on the network are physically linked - i.e., where wires go.
+
+https://en.wikipedia.org/wiki/Logical_topology

@@ -1,0 +1,23 @@
+created: 20210310141037705
+modified: 20210312174113492
+tags: Networking Stub
+title: Bridge
+tmap.id: 563271c8-07bd-4ac8-a5ce-66be5cc22281
+type: text/vnd.tiddlywiki
+
+<div style="width:20%">[img[_my/images/cisco_network_topology_icons/bridge]]</div>
+
+''AKA Network Bridge''
+
+A [[Bridge]] operates at [[Datalink Layer]].
+
+A [[Bridge]] is a [[Repeater|Repeater (Networking)]], with add on the functionality of filtering content by reading the [[MAC Addresses|MAC Address]] of source and destination.
+
+It is also used for interconnecting two [[LANs|Local Area Network]] working on the same protocol.
+
+It is a two-port device.
+
+''Types of [[Bridges|Bridge]]:''
+
+* [[Transparent Bridge]]
+* [[Source Routing Bridge]]

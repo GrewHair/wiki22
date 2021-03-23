@@ -1,0 +1,18 @@
+created: 20210304104324393
+modified: 20210304111708025
+tags: Networking [[DevOps Fundamentals (EPAM)]]
+title: Network Troubleshooting CLI Tools
+tmap.id: ce23777b-2a1a-439e-832f-6805136fefa2
+type: text/vnd.tiddlywiki
+
+|!Windows|!Linux|
+|`netsh`|?|
+|`arp`|<|
+|`netstat`|<|
+|`ipconfig`|`ifconfig`|
+|`route`|<|
+|`nslookup`|<|
+|`ping`|<|
+|`pathping`|?|
+|`tracert`|`traceroute`|
+|`WinMTR`|`mtr`?|

@@ -1,0 +1,21 @@
+created: 20210303122941058
+modified: 20210303124557116
+tags: Networking
+title: One-to-many NAT
+tmap.id: d98cdfb8-d734-4a1d-bbf2-809282e22165
+type: text/vnd.tiddlywiki
+
+In contrast with [[One-to-one NAT]], [[One-to-many NAT]] maps multiple private [[hosts|Host]] to one publicly exposed [[IP Address]].
+
+This makes the most sense, because it essentially solves/helps two problems simultaneously:
+
+* it slows down [[IPv4 Address Exhaustion]]
+* it achieves [[IP Masquerading]]
+
+For this reason, this is the main type of [[NAT|Network Address Translation]] used today.
+
+However, there's ambiguity there, because of the [[One-to-many]] mapping, i.e. the [[Router]] must //somehow// decide which internal [[Host]] a given response from the public network is for, despite of it being simply addressed to the [[Router]]'s [[IP|IP Address]].
+
+The most common way to solve this ambiguity is what is usually called [[PAT|Port Address Translation]]. However, it relies on either [[TCP|Transmission Control Protocol]] or [[UDP|User Datagram Protocol]]. Protocol stacks that are not based on either of these two, require other translation techniques in order to achieve [[One-to-many NAT]].
+
+https://en.wikipedia.org/wiki/Network_address_translation#One-to-many_NAT

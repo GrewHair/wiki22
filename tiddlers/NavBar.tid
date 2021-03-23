@@ -1,0 +1,14 @@
+created: 20210303221620534
+modified: 20210305230009981
+tags: $:/tags/TopLeftBar
+title: NavBar
+tmap.id: 1bb4b212-a784-4fa5-9de1-fd2125f6ab3c
+type: text/vnd.tiddlywiki
+
+<ol style="list-style-image:none; list-style:decimal; list-style-type:decimal; width: 100%; font-size: 9px">
+<$list filter="[list[$:/StoryList]]">
+<li style="font-family: monospace; font-weight: bolder background:yellow;">
+<<currentTiddler>>
+</li>
+</$list>
+</ol>

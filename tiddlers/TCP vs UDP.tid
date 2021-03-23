@@ -1,5 +1,5 @@
 created: 20201203135909161
-modified: 20210216135621809
+modified: 20210310122728505
 tags: Networking Stub [[Network Fundamentals (Network Direction)]]
 title: TCP vs UDP
 tmap.id: 48a8388c-9f41-49f3-8d14-55bb5481dc77
@@ -13,4 +13,4 @@ type: text/vnd.tiddlywiki
 |Error Recovery|Doesn't care about errors|
 |[[Windowing|TCP Windowing]] for [[Flow|Flow Control]] and [[Congestion Control]]|No [[Congestion Control]]|
 |Streaming|Datagrams|
-|end to end|[[Broadcast]]/[[Multicast]]|
+|end to end|[[Broadcast|Broadcast (Routing Scheme)]]/[[Multicast]]|

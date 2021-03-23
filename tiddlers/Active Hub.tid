@@ -1,0 +1,10 @@
+created: 20210310133825408
+modified: 20210310220622178
+tags: Networking Stub
+title: Active Hub
+tmap.id: 3f9780bd-6dab-4179-b114-1736f6c46ab6
+type: text/vnd.tiddlywiki
+
+These are [[Hubs|Hub]] which have their own power supply and can clean, boost, and relay the signal along with the network.
+
+They are used to extend the maximum distance between nodes.

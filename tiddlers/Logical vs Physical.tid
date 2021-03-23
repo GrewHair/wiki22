@@ -1,0 +1,14 @@
+created: 20210310131730622
+modified: 20210310215649450
+tags: Networking Stub
+title: Logical vs Physical
+tmap.id: 2d466215-e383-4422-875a-9a7657896dc5
+type: text/vnd.tiddlywiki
+
+[[Logical|Logical Topology]] and [[Physical|Physical Topology]] [[Network Topologies|Network Topology]] should be distinguished from one another.
+
+They coexist side by side, yet they are often very different.
+
+In a nutshell, the difference is: if any connection a human would want required a real physical wire, it would be a huge mess, and yet there wouldn't possibly be enough wire/ports/etc to arrange for this.
+
+https://blogs.arubanetworks.com/solutions/network-topologies-logical-vs-physical/

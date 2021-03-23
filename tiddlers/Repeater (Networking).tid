@@ -1,0 +1,21 @@
+created: 20210310124221699
+modified: 20210310152859399
+tags: Networking Stub
+title: Repeater (Networking)
+tmap.id: f002ee99-0ce0-45d5-a50e-ed74514bc6a3
+type: text/vnd.tiddlywiki
+
+''AKA Ethernet Repeater''
+
+A [[Repeater|Repeater (Networking)]] operates at the [[Physical Layer]].
+
+Its job is to regenerate the signal over the same network before it becomes too weak or corrupted.
+
+In doing so, [[Repeaters|Repeater (Netwokring)]] extend the length to which the signal can be transmitted over the same network.
+
+What distinguishes this [[Network Repeater|Repeater (Networking)]] from a more broad class of telecommunication repeaters and generally repeater amplifiers (which may well be analog) is that it, being a digital device, doesn't simply amplify the signal. It copies the signal bit by bit and regenerates it at the original strength.
+
+Otherwise, it is pretty similar to other repeaters, e.g. in that:
+
+* it is a two-port device (i.e. it adds no connectivity whatsoever - it simply extends the cable length)
+* it does not analyze the signal in any way.

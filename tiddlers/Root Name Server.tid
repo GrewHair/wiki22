@@ -1,11 +1,11 @@
 created: 20210111120444624
-modified: 20210125141441901
+modified: 20210322183313504
 tags: Networking Stub [[Understanding the Digital World (Brian Kernighan)]]
 title: Root Name Server
 tmap.id: ad83fdc1-c017-4071-b4c6-4ff0ed95b7ff
 type: text/vnd.tiddlywiki
 
-A [[Root Name Server]] is a [[Name Server]] for the [[Root Zone|Root Domain Zone]] of the [[DNS|Domain Name System]] of the Internet.
+A [[Root Name Server]] is a [[Name Server|DNS Server]] for the [[Root Zone|Root Domain Zone]] of the [[DNS|Domain Name System]] of the Internet.
 
 It directly answers requests for records in the [[Root Zone|Root Domain Zone]] and answers other requests by returning a list of [[Authoritative Name Servers|Authoritative Name Server]] for the appropriate [[Top-level Domain]].
 
@@ -20,8 +20,8 @@ https://en.wikipedia.org/wiki/Root_name_server
 Steps to determine the [[IP Address]] for `www.cs.mit.edu`:
 
 * ask a [[Root Server|Root Name Server]] for `mit.edu`'s [[IP Address]]
-* ask MIT [[Name Server]] for `cs.mit.edu`'s [[IP Address]]
-* ask `cs.mit.edu`'s [[Name Server]] for `www.cs.mit.edu`
+* ask MIT [[Name Server|DNS Server]] for `cs.mit.edu`'s [[IP Address]]
+* ask `cs.mit.edu`'s [[Name Server|DNS Server]] for `www.cs.mit.edu`
 
 In practice, however, the [[query|DNS Query]] often does not have to go all the way to the [[Root Server|Root Name Server]], as [[local name servers usually maintain caches|Caching Name Server]].
 
@@ -30,3 +30,5 @@ Try this:
 ```bash
 nslookup a.root-servers.net
 ```
+
+[[Root Name Servers|Root Name Server]] are always [[Iterative Servers|Iterative Name Server]]!

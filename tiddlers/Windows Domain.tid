@@ -1,0 +1,12 @@
+created: 20210323120824068
+modified: 20210323122012342
+tags: Networking Stub
+title: Windows Domain
+tmap.id: 07d521e2-49e0-479a-b6e6-50fdfb9268b2
+type: text/vnd.tiddlywiki
+
+In contrast with [[Work Groups|Work Group (Networking)]], [[Windows Domains|Windows Domain]] rely on centralized authentication.
+
+This centralization allows for remote configuration of user records on [[Hosts|Host (Networking)]] - an option not available with [[Work Groups|Work Group (Networking)]]
+
+https://en.wikipedia.org/wiki/Workgroup_(computer_networking)

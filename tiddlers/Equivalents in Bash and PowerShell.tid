@@ -1,0 +1,33 @@
+created: 20210306225351765
+modified: 20210307154728512
+tags: Bash PowerShell Stub [[DevOps Fundamentals (EPAM)]]
+title: Equivalents in Bash and PowerShell
+tmap.id: d0ef4287-5d96-4724-bdd4-d384acfeae35
+type: text/vnd.tiddlywiki
+
+Well, [[Bash]] and [[PowerShell]] are really __hugely__ different, so one can't //really// talk about any equivalents. However, it is pretty useful to list [[Bash]] and [[PowerShell]] ways of achieving similar things side by side as you go. Helps memorize.
+
+|!Task|![[Bash]]|![[PowerShell]]|
+|Just print something|`echo hello`|`Write-Host hello`|
+|Grep for a [[process|Process]]|`ps -aux | grep <some-process>`|`Get-Process *<some-process>*`|
+|Add a directory to `PATH`|`PATH=</some/directory>:$PATH`|`$env:Path += ";<C:\some\directory>"`|
+|`cd` into somewhere|`cd </some/directory>`|`Set-Location -Path "<C:\some\directory>"`|
+|Spawn another shell and execute a command|`bash -c "<some-command>"`|`pwsh.exe -Command { <some-command> }`|
+|Spawn another shell and execute a script|`bash </path/to/script>`|`pwsh.exe -File "<C:\path\to\script>"`|
+|Create empty file|`touch </some/file>`|`New-Item -Name "<some-file.txt>" -ItemType "file"`|
+|Create empty file even if such file already exists (i.e. erase everything in the file)|`cat /dev/null > </some/file>`|`New-Item -Name "some-file.txt" -ItemType "file" -Force`|
+|Remove file|`rm <file>`|`Remove-Item <file>`|
+|View directory content|`ls -l`|`Get-ChildItem`|
+|Get help for a command|`man <command>`|`Get-Help <command>`|
+|Search for commands|`man -k <text>` or `apropos <text>`|`Get-Command <text>`|
+|Count lines in output|`ls -l | wc`|`$(Get-ChildItem).Length`|
+|Sort output lines|`ls -l | sort`|`Get-Command -Name "*-Item"`???|
+|See command attached to an alias|`type <alias>`|`Get-Alias -Name <alias>`|
+|Define a function|`function <function-name> { commands; }`|`function <function-name> { commands; }`|
+|Remove a function|`unset -f <function-name>`|`Remove-Item -Path "Function:\<function-name>"`|
+|Define an alias|`alias <alias-name>="<clmmand-to-run>"`|`New-Alias -Name <alias-name> -Value <command-to-run>`|
+|Remove an alias|`unalias <alias-name>`|`Remove-Alias -Name <alias-name>`|
+
+There's also this:
+
+https://mathieubuisson.github.io/powershell-linux-bash/

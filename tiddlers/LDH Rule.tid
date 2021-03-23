@@ -1,0 +1,25 @@
+created: 20210322201320664
+modified: 20210322203017145
+tags: Networking Stub
+title: LDH Rule
+tmap.id: 0aef867d-ef82-499e-a0a9-79132aa1f4bd
+type: text/vnd.tiddlywiki
+
+Although no technical limitation exists to use any character in [[Domain Name Labels|Label (DNS)]] which are representable by an [[Octet]], [[Hostnames|Host Name]] ue a preferred format and character set.
+
+The characters allowed in [[Labels|Label (DNS)]] are a [[Subset]] of the [[ASCII]] character set, consisting of characters:
+
+* $$a$$ through $$z$$,
+* $$A$$ througs $$Z$$, 
+* digits $$0$$ through $$9$$
+* hyphen $$-$$
+
+This rule is known as the [[LDH Rule]] (//letters, digits, hyphen//).
+
+[[Labels|Label (DNS)]] also should not start or end with a hyphen.
+
+An additional rule requires that top-level domain names should not be all-numeric.
+
+https://en.wikipedia.org/wiki/Domain_Name_System
+
+https://www.icann.org/en/icann-acronyms-and-terms/ldh-label-en

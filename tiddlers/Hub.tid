@@ -1,0 +1,32 @@
+created: 20210310125646706
+modified: 20210312175216124
+tags: Networking Stub
+title: Hub
+tmap.id: a1ddd8b1-7734-4961-9618-85f83d82bcc6
+type: text/vnd.tiddlywiki
+
+<div style="width:20%">[img[_my/images/cisco_network_topology_icons/hub]]</div>
+
+''AKA Ethernet Hub, Network Hub, Repeater Hub, Multiport Repeater''
+
+A [[Hub]] is basically a multiport [[Repeater|Repeater (Networking)]] (although technically a [[Passive Hub]] doesn't work as a [[Repeater|Repeater (Networking)]] - but those are quite rare these days and the saying kind of stuck).
+
+Therefore it operates at the [[Physical Layer]].
+
+A [[Hub]] connects multiple wires coming from different branches.
+
+''Note <a target="_blank" href="https://en.wikipedia.org/wiki/Network_topology#Topologies">(source)</a>:''
+this is a good example of [[Logical vs Physical]]:
+
+* The [[Physical Topology]] of the network of devices connected to a [[Hub]] would be [[Star|Star Topology]].
+* However, because [[Hubs|Hub]] just connect the wires, the [[Logical Topology]] is in fact [[Bus|Bus Topology]].
+
+[[Hubs|Hub]] cannot filter data, so data packets are sent to all connected devices. In other words, [[Collision Domain]] of all [[Hosts|Host]] connected through [[Hub]] remains one.
+
+Also they do not have the intelligence to find out best path for data packets.
+
+''Types of [[Hub]]:''
+
+* [[Active Hub]]
+* [[Passive Hub]]
+* [[Intelligent Hub]]

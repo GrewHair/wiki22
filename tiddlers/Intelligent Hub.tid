@@ -1,0 +1,12 @@
+created: 20210310134610304
+modified: 20210310135302830
+tags: Networking Stub
+title: Intelligent Hub
+tmap.id: 85653108-f860-4c21-864f-a90199f3a614
+type: text/vnd.tiddlywiki
+
+[[Intelligent Hub]] works like [[Active Hub]] and includes remote management capabilities.
+
+https://networkencyclopedia.com/intelligent-hub/
+
+The definition in this article mentions that this remote monitoring and management happens through [[SNMP|Simple Network Management Protocol]].

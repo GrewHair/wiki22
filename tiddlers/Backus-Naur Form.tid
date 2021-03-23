@@ -1,0 +1,15 @@
+created: 20210306131924677
+modified: 20210306133002912
+tags: [[Computer Science]] [[Formal Languages]] Stub
+title: Backus-Naur Form
+tmap.id: 0b01bcd5-7794-4196-ba0b-9c72b87bcbe1
+type: text/vnd.tiddlywiki
+
+[[Backus-Naur Form]] is commonly used for describing syntax!
+
+* square brackets `[]` denote optional arguments
+* angle brackets `<>` mean that a word withing them isn't supposed to be taken literally (like `<my-awesome-arg>`, `<string[]>`, etc.)
+* pipes `|` denote choise
+* ...
+
+https://docs.oracle.com/cd/E57185_01/ESBTR/mdx_bnf.html

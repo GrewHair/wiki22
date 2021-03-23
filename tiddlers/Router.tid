@@ -1,8 +1,21 @@
 created: 20201202202308140
-modified: 20201207113834246
+modified: 20210312173558307
 tags: Networking Stub [[Network Fundamentals (Network Direction)]]
 title: Router
 tmap.id: 5cfb27e3-1bb5-4087-a821-2c67aa64a7b0
 type: text/vnd.tiddlywiki
 
+<div style="width: 20%">[img[_my/images/cisco_network_topology_icons/router]]</div>
+
+A [[Router]] is a device like a [[Switch]] that routes data [[packets|Packet]] based on their [[IP Addresses|IP Address]].
+
+[[Router]] is mainly a [[Network Layer]] device.
+
+[[Routers|Router]] normally connect [[LANs|Local Area Network]] and [[WANs|Wide Area Network]] together and have a dynamically updated [[Routing Table]], based on which they make decisions on routing the data [[packets|Packet]].
+
+[[Router]] divides [[Broadcast Domains|Broadcast Domain]] of [[Hosts|Host]] connected through it.
+
+''An older record:''
 [[Routers|Router]] never forward [[Broadcast]] messages! (Otherwise the [[Broadcast]] messages would just cycle in loops forever).
+
+''Note:'' as I understand it now, this concerns __both__ [[Level 2|Level 2 Broadcast]] and [[Level 3 Broadcast]], though I'm not completely sure... But if I'm right, then it means that there is no difference between layer 2  and layer 3 [[Broadcast Domains|Broadcast Domain]], which likely makes sense, since it seems that nobody differenciates the two but me...

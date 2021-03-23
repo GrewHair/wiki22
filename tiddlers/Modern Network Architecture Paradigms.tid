@@ -1,0 +1,11 @@
+created: 20210323180035822
+modified: 20210323180525158
+tags: Networking Stub [[A Bit History of Internet]]
+title: Modern Network Architecture Paradigms
+tmap.id: 8366959a-0891-4d1d-99cf-b74f7e077bfe
+type: text/vnd.tiddlywiki
+
+* [[Client-Server|Client-Server Model]]
+* [[Peer to Peer]]
+
+https://en.wikibooks.org/wiki/A_Bit_History_of_Internet/Chapter_5_:_Client-Server

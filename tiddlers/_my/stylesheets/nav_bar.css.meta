@@ -1,0 +1,10 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20210303220447319
+modified: 20210305214732003
+tags: $:/tags/Stylesheet
+title: _my/stylesheets/nav_bar
+tmap.id: d51dc24c-0323-4530-a2b6-176ba8b0ed36
+type: text/css

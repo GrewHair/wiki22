@@ -1,0 +1,12 @@
+created: 20210310160446267
+modified: 20210310161451340
+tags: Networking Stub
+title: Layer 3 Switch vs Brouter
+tmap.id: d5474e61-4e3c-4a8b-9e4a-332b96cdeb94
+type: text/vnd.tiddlywiki
+
+https://de.zxc.wiki/wiki/Layer-3-Switch
+
+<<<
+Devices that combine the function of [[Bridges|Bridge]] and [[Routers|Router]] are also called [[BRouters|BRouter]]. However, a [[Layer 3 Switch]] is not the same as it usually does not implement the multi-protocol functionality of a bridge, for example.
+<<<

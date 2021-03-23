@@ -1,0 +1,21 @@
+created: 20210306152449208
+modified: 20210306223009114
+tags: [[Badly Named]] Stub [[DevOps Fundamentals (EPAM)]]
+title: Some Powershell Commands
+tmap.id: 1eed2d3a-531f-494b-a7b3-f7bceb2d81b9
+type: text/vnd.tiddlywiki
+
+|!Item|!Alias|
+|Clear-Item ||
+|Copy-Item  ||
+|Get-Item   |Get-Alias|
+|Invoke-Item||
+|Move-Item  ||
+|New-Item   |New-Alias|
+|Remove-Item|Remove-Alias|
+|Rename-Item||
+|Set-Item   |Set-Alias|
+||Import-Alias|
+||Export-Alias|
+
+For whatever reason, there are __no__ such [[Cmdlets|Cmdlet]] for [[Functions|PowerShell Function]]!

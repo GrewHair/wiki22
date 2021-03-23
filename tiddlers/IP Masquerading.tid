@@ -1,0 +1,14 @@
+created: 20210303114953119
+modified: 20210303124722749
+tags: Networking Stub
+title: IP Masquerading
+tmap.id: d3044dd0-46a9-4d1e-bbec-2ebd0578916d
+type: text/vnd.tiddlywiki
+
+[[IP Masquerading]] is a technique that hides an entire [[IP Address]] [[space|Address Space]], usually consisting of [[private IP addresses|Private Address]], behind a single [[IP Address]] in another, usually public [[Address Space]].
+
+The main (and initial) purpose of this technique is ensuring network [[Security]].
+
+Because of the popularity of this technique to conserve [[IPv4]] [[address space|Address Space]], the term [[IP Masquerading]] has become virtually synonymous with the term [[NAT|Network Address Translation]].
+
+https://en.wikipedia.org/wiki/Network_address_translation

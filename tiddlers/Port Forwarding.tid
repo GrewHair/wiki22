@@ -1,0 +1,12 @@
+created: 20210303132942296
+modified: 20210305211215961
+tags: Networking Stub
+title: Port Forwarding
+tmap.id: b344259c-15db-466b-aff2-42f60628a88c
+type: text/vnd.tiddlywiki
+
+''AKA Port Mapping''
+
+[[Port Forwarding]] is an application of [[NAT|Network Address Translation]] that redirects a communication request from ane [[Address|IP Address]] and [[Port]] Number combination to another while the [[packets|Packet]] are traversing a network [[Gateway]], such as a [[Router]] or [[Firewall]].
+
+https://en.wikipedia.org/wiki/Port_forwarding

@@ -1,0 +1,13 @@
+created: 20210310142743007
+modified: 20210310143211950
+tags: Networking Stub
+title: Transparent Bridge
+tmap.id: 4eef73ba-c95d-4412-9eb5-039db32b86b2
+type: text/vnd.tiddlywiki
+
+These are the [[Bridge]] in which the stations are completely unaware of the [[Bridge's|Bridge]] existence, i.e. whether or not a bridge is added or deleted from the network, reconfiguration of the stations is unnecessary.
+
+[[These bridges|Transparent Bridge]] make use of two processes:
+
+* [[Bridge Forwarding]]
+* [[Bridge Learning]]

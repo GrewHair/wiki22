@@ -1,0 +1,12 @@
+created: 20210322203116876
+modified: 20210322203634597
+tags: Computing Stub
+title: Punycode
+tmap.id: f2e1f62a-5b00-44cb-b10e-9ab0551eba86
+type: text/vnd.tiddlywiki
+
+[[ICANN|Internet Corporation for Assigned Names and Numbers]] used it in its [[IDNA|Internationalizing Domain Names in Applications]] system to allow non-[[ASCII]] characters in [[DNS Labels|Label (DNS)]].
+
+https://en.wikipedia.org/wiki/Domain_Name_System
+
+https://en.wikipedia.org/wiki/Punycode

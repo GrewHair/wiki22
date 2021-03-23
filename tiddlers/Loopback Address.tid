@@ -1,9 +1,11 @@
 created: 20210216191335780
-modified: 20210216191506392
+modified: 20210312121453688
 tags: Networking Stub
 title: Loopback Address
 tmap.id: e011a9b7-f074-4146-886d-8a4196e29298
 type: text/vnd.tiddlywiki
+
+`127.0.0.0/8`
 
 In [[classful|Classful Network]] terms, the [[Loopback Address]] is [[Class A|Class A Network]].
 

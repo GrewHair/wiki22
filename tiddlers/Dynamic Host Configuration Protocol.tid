@@ -1,5 +1,5 @@
 created: 20210224133528682
-modified: 20210224134051062
+modified: 20210323113247657
 tags: Networking Stub [[DevOps Fundamentals (EPAM)]]
 title: Dynamic Host Configuration Protocol
 tmap.id: 6ad0780b-65c5-428b-87c5-e109674b8b6a
@@ -7,14 +7,20 @@ type: text/vnd.tiddlywiki
 
 ''AKA DHCP''
 
-* ''DHCP Discover'' - looks for a [[DHCP Server]]
-* ''DHCP Offer'' - [[DHCP Server]] offers an [[address|IP Address]]
-* ''DHCP Request'' - The [[host|Host]] requests to [[lease|Lease]] the [[address|IP Address]]
-* ''DHCPACK'' - [[DHCP Server]] sends the [[IP Address]] to the [[Host]]
+* ''DHCP __D__iscover'' - looks for a [[DHCP Server]]
+* ''DHCP __O__ffer'' - [[DHCP Server]] offers an [[address|IP Address]]
+* ''DHCP __R__equest'' - The [[host|Host]] requests to [[lease|Lease]] the [[address|IP Address]]
+* ''DHCP__A__CK'' - [[DHCP Server]] sends the [[IP Address]] to the [[Host]]
+
+So the mnemonic is ''__DORA__''!
 
 [[UDP|User Datagram Protocol]] [[port|Port (Networking)]]:
 
 * [[Client]]: 68
 * [[Server]]: 67
 
+<a target="_blank" href="https://tools.ietf.org/html/rfc2132">RFC 2132</a>
+
 https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol
+
+You can only have one [[DHCP|Dynamic Host Configuration Protocol]] server on a network!

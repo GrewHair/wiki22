@@ -1,0 +1,14 @@
+created: 20210322184742284
+modified: 20210322185412144
+tags: Networking Stub
+title: RTT Metric
+tmap.id: 1508ee4d-22e5-483f-b5bd-4c0971edc549
+type: text/vnd.tiddlywiki
+
+''AKA Round Trip Time''
+
+[[RTT Metric]] is a metric used by [[BIND|BIND (DNS)]] to select which [[Root Name Server]] to choose from the [[Root Hints]] file to make a [[DNS Query]].
+
+Using this technique, the server tracks the [[RTT|RTT Metric]] of each [[Root Server|Root Name Server]], and selects one with lower [[RTT|RTT Metric]].
+
+https://www.imperva.com/learn/performance/round-trip-time-rtt/

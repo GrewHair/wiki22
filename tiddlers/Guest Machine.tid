@@ -1,8 +1,10 @@
 created: 20201118071342679
-modified: 20201118071604416
+modified: 20210303140717665
 tags: Stub
 title: Guest Machine
 tmap.id: 044c28c6-ba0a-4fab-b5a5-3cd6858eade9
 type: text/vnd.tiddlywiki
+
+''AKA Guest Computer''
 
 Each of the [[Virtual Machines|Virtual Machine]] run by a [[Hypervisor]] on a real physical [[Host Machine]] is called a [[Guest Machine]]

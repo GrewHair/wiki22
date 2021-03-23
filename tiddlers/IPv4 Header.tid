@@ -1,5 +1,5 @@
 created: 20201124080016878
-modified: 20201207104604579
+modified: 20210313113620236
 tags: Networking [[Network Fundamentals (Network Direction)]]
 title: IPv4 Header
 tmap.id: f4508d52-4642-4ec9-a3dd-509d1419e79c
@@ -57,7 +57,7 @@ type: text/vnd.tiddlywiki
 <th>0</th>
 <th>0</th>
 <td colspan="4">[[Version|IP Versions]]</td>
-<td colspan="4">[[IHL|Internet Deader Length]]</td>
+<td colspan="4">[[IHL|Internet Header Length]]</td>
 <td colspan="6">[[DSCP|Differentiated Services Code Point]]</td>
 <td colspan="2">[[ECN|Explicit Conjestion Notification]]</td>
 <td colspan="16">[[Total Length|IPv4 Header/Total Length]]</td>

@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200628224602510
-modified: 20210201102536783
+modified: 20210320204025099
 tags: Ubuntu Bash
 title: Bash Commands
 tmap.id: b73e9a56-df89-4833-8f6c-b8c1fadbd299
@@ -36,9 +36,18 @@ type: text/vnd.tiddlywiki
 * <$link to="echo $?">`echo $?`</$link> - print the exit value of the previous command
 * `sudo updatedb` - update the database used for `locate` (normally it gets updated once per day, so fi you want to search for a file in a newly installed thing, you should first run this)
 * `netstat -ano -p` - show [[Internet]] connections and [[UNIX Domain Sockets]]
+* `netstat -tulpn` - show [[Ports|Port]] that we're listening on
 ** you may need to use `sudo apt install net-tools` to have it!
 * `ldconfig -p` - list installed libraries
 * `whois google` - a [[cli|Command Line Interface]] for the [[ICANN's|Internet Corporation for Assigned Names and Numbers]] service which shows information about [[Domain Names|Domain Name]], [[IP Addresses|IP Address]] and such
 ** you may need to `sudo apt install whois`
 * `traceroute google.com` - trace the route (count the gateways) on the way of an internet request
 ** ..but first, `sudo apt install traceroute`
+* [[SSH:|Secure Shell]]
+** `ssh-keygen` - generate a [[Key Pair]] for [[SSH|Secure Shell Protocol]]
+** `ssh-add` - add the generated [[Key Pair]] to the system
+** `cat ~/.id_rsa.pub` - check the [[Public Key]]
+** `vim ~/.ssh/authorised_keys` - edit authorized keys on a remote server
+* `free -g` - see available [[RAM]] in gigabytes
+* `nproc` - print the number of processing units available
+* `lscpu` - display information about the [[CPU]] architecture

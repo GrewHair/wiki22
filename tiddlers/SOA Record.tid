@@ -1,0 +1,34 @@
+created: 20210322111754810
+modified: 20210322120325716
+tags: Stub Networking
+title: SOA Record
+tmap.id: 16cbc03e-d281-4cf2-b865-a1e89aa4bec5
+type: text/vnd.tiddlywiki
+
+''AKA Start of Authority Record''
+
+```
+$TTL 86400
+@   IN  SOA     ns.icann.org. noc.dns.icann.org. (
+        2020080302  ;Serial
+        7200        ;Refresh
+        3600        ;Retry
+        1209600     ;Expire
+        3600        ;Negative response caching TTL
+)
+```
+
+''Structure:''
+
+* ''name'' - name of the [[zone|DNS Zone]]
+* ''IN'' - [[zone|DNS Zone]] class (nowadays it's usually IN for [[Internet]])
+* ''SOA'' - abbreviation for //Start of Authority//
+* ''MNAME'' - Primary [[Master Name Server]] for this [[zone|DNS Zone]]
+* ''RNAME'' - [[Email]] address of the administrator responsible for this [[zone|DNS Zone]]
+* ''SERIAL'' - serial number for this zone. If a [[Secondary Name Server]] slaved to this one observes an increase in this number, it will assume that the [[zone|DNS Zone]] has been updated and initiate a [[Zone Transfer]]
+* ''REFRESH'' - number of seconds after which [[Secondary Servers|Secondary Name Server]] should query the [[master|Master Name Server]] for the [[SOA Record]]
+* ''RETRY'' - number of seconds after which [[Secondary Servers|Secondary Name Server]] should retry to request the serial number from the [[master|Master Name Server]] if the [[master|Master Name Server]] does not respond. Must be less than ''REFRESH''
+* ''EXPIRE'' - number of seconds after which [[Secondary Servers|Secondary Name Server]] should stop answering [[request|DNS Request]] for this [[zone|DNS Zone]] if the [[master|Master Name Server]] doesn't respond. Must be bigger than the sum of ''REFRESH'' and ''RETRY''
+* ''TTL, a.k.a. MINIMUM'' - Time to live for purposes of negative caching
+
+https://en.wikipedia.org/wiki/SOA_record

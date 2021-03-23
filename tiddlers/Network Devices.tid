@@ -1,0 +1,17 @@
+created: 20210310123909417
+modified: 20210310154232453
+tags: Networking Stub
+title: Network Devices
+tmap.id: 5979e81a-05df-402b-bd48-19b1b5923139
+type: text/vnd.tiddlywiki
+
+|!Layer|!Device|!Two-port|
+|[[1|Physical Layer]]|[[Repeater|Repeater (Networking)]]|✓|
+|~|[[Hub]]||
+|[[2|Datalink Layer]]|[[Bridge]]|✓|
+|~|[[Switch]]||
+|[[3|Network Layer]], [[4|Transport Layer]]|[[Router]]||
+|Up to 5|[[Gateway]]||
+||[[Brouter]]||
+
+https://www.geeksforgeeks.org/network-devices-hub-repeater-bridge-switch-router-gateways/

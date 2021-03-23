@@ -1,0 +1,12 @@
+created: 20210310134023904
+modified: 20210310220538518
+tags: Networking Stub
+title: Passive Hub
+tmap.id: d92791af-97b7-42a8-b655-4cb28fbdaa5f
+type: text/vnd.tiddlywiki
+
+These are [[Hubs|Hub]] which collect wiring from [[Nodes|Node (Networking)]] and power supply from [[Active Hub]].
+
+They relay signals onto the network without cleaning and boosting them and can't be used to extend the distance between nodes.
+
+That's why, technically speaking, this type of [[Hub]] doesn't act as [[Repeater|Repeater (Networking)]].

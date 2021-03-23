@@ -1,0 +1,12 @@
+created: 20210228140549757
+modified: 20210228145949665
+tags: Networking Stub
+title: Start of Authority Record
+tmap.id: 8669c218-c172-4f7f-bea5-8bbb4b53062a
+type: text/vnd.tiddlywiki
+
+''AKA SOA Record''
+
+The [[SOA Record|Start of Authority Record]] is the first record in a [[Zone File]]. It specifies the [[Authoritative Server|Authoritative Name Server]].
+
+https://en.wikipedia.org/wiki/SOA_record

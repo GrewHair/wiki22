@@ -1,0 +1,14 @@
+created: 20210228125217675
+modified: 20210322175038299
+tags: Networking Stub
+title: Root Hints
+tmap.id: a26d4ab1-402c-487e-972e-410588339cdd
+type: text/vnd.tiddlywiki
+
+''Russian: Корневые Ссылки''
+
+[[Root Hints]] is a built-in preconfigured list of [[Root Name Server]] [[IP Addresses|IP Address]], stored on a [[Local DNS Server]].
+
+[[Root Hints]] help the [[Local DNS Server]] to begin an [[Iterative Query|Iterative DNS Query]] in case it can not resolve a [[DNS Query]] on its own.
+
+https://www.iana.org/domains/root/files

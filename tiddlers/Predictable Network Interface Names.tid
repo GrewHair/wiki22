@@ -1,0 +1,18 @@
+created: 20210312154951012
+modified: 20210312160908604
+tags: Linux Ubuntu Networking
+title: Predictable Network Interface Names
+tmap.id: 00d7cf64-51c3-4f5e-9452-0f1e07bca9c8
+type: text/vnd.tiddlywiki
+
+''Examples:''
+
+$$\underbrace\texttt{en}_\text{ethernet}\!\!\!\!\!\overbrace\texttt{p8}^\text{bus \#}\!\!\!\underbrace\texttt{s0}_\text{slot \#}$$
+<br><br>
+$$\underbrace\texttt{wl}_\text{wlan}\!\!\!\overbrace\texttt{p7}^\text{bus \#}\!\!\!\underbrace\texttt{s0}_\text{slot \#}$$
+
+https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/networking_guide/sec-understanding_the_predictable_network_interface_device_names
+
+https://www.freedesktop.org/wiki/Software/systemd/PredictableNetworkInterfaceNames/
+
+https://unix.stackexchange.com/questions/134483/why-is-my-ethernet-interface-called-enp0s10-instead-of-eth0

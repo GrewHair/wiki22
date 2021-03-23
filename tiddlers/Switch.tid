@@ -1,0 +1,18 @@
+created: 20210310143649685
+modified: 20210312174607716
+tags: Networking
+title: Switch
+tmap.id: 27f4977d-bf6e-40df-83ce-8476371bb164
+type: text/vnd.tiddlywiki
+
+<div style="width:20%">[img[_my/images/cisco_network_topology_icons/switch]]</div>
+
+''AKA Network Switch, Switching Hub, Bridging Hub, MAC Bridge''
+
+A [[Switch]] is a multiport [[Bridge]] with a buffer and a design that can boost its efficiency (a large number of ports imply less traffic) and performance.
+
+A [[Switch]] is [[Datalink Layer]] device.
+
+It can perform error checking before forwarding data, that makes it very efficient as it doesn't forward packets that have errors and forwards good packets selectively to correct port only (here, port means not [[TCP Port]], but simply a hardware port on the [[Switch]]).
+
+In other words, [[Switch]] divides [[Collision Domain]] of hosts, but the [[Broadcast Domain]] remains the same.

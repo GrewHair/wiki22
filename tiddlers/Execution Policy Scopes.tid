@@ -1,0 +1,20 @@
+created: 20210306235405070
+modified: 20210307000648429
+tags: PowerShell [[DevOps Fundamentals (EPAM)]] Stub
+title: Execution Policy Scopes
+tmap.id: 5b267486-90e2-47bb-9798-642bd5cd52e9
+type: text/vnd.tiddlywiki
+
+You can set an [[Execution Policy|PowerShell Execution Policies]] to be active only in a particular [[Scope|Execution Policy Scopes]].
+
+The valid values for [[Scope|Execution Policy Scopes]] are:
+
+* [[MachinePolicy]]
+* [[UserPolicy]]
+* [[Process|Process (Execution Policy Scope)]]
+* [[CurrentUser|CurrentUser (Execution Policy Scope)]]
+* [[LocalMachine|LocalMachine (Execution Policy Scope)]]
+
+The first two are //group policies//, and the last two are //local policies// (//group policies// take precedence).
+
+https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.1

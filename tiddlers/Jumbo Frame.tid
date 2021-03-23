@@ -1,0 +1,10 @@
+created: 20210301094233885
+modified: 20210301094506844
+tags: Networking Stub
+title: Jumbo Frame
+tmap.id: 6ea131ea-2193-48c9-a479-bb1ad24bd4f8
+type: text/vnd.tiddlywiki
+
+[[Jumbo Frames|Jumbo Frame]] are [[Ethernet Frames|Ethernet Frame]] with more than 1500 bytes of payload, the limit set by the [[IEEE 802.3]] standard.
+
+https://en.wikipedia.org/wiki/Jumbo_frame

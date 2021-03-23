@@ -1,0 +1,11 @@
+created: 20210309143555091
+modified: 20210309144704315
+tags: [[Windows Server]]
+title: Role Services (Windows Server)
+tmap.id: 08ffaaf5-30b8-4700-aff0-c99419944025
+type: text/vnd.tiddlywiki
+
+[[Role Services|Role Services (Windows Server)]] are software programs that provide the functionality of a [[role|Roles (Windows Server)]]. When you install a [[role|Roles (Windows Server)]], you can choose which [[Role Services|Role Services (Windows Server)]] the [[Role|Roles (Windows Server)]] provides for other users and computers in your enterprise. Some [[Roles|Roles (Windows Server)]], such as [[DNS Server]], have only a single function, and therefore do not have available [[Role Services|Role Services (Windows Server)]]. Other [[Roles|Roles (Windows Server)]], such as [[Remote Desktop Services]], have several [[Role Services|Role Services (Windows Server)]] that can be installed, depending on the remote computing needs of your enterprise.
+
+You can consider a [[Role|Roles (Windows Server)]] as a grouping of closely related, complementary [[Role Services|Role Services (Windows Server)]], for which, most of the time, installing the [[Role|Roles (Windows Server)]] means installing one or more of its [[Role Services|Role Services (Windows Server)]].
+

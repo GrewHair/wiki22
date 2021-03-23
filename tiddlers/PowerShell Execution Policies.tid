@@ -1,0 +1,26 @@
+created: 20210306130445504
+modified: 20210307001402951
+tags: PowerShell Stub [[DevOps Fundamentals (EPAM)]]
+title: PowerShell Execution Policies
+tmap.id: 3d2d8492-5162-4e21-8a0b-957ea2080094
+type: text/vnd.tiddlywiki
+
+They don't work on [[Linux]]!
+
+```powershell
+Get-ExecutionPolicy
+Get-ExecutionPolicy -List
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
+```
+
+* [[AllSigned|AllSigned (Execution Policy)]]
+* [[Bypass|Bypass (Execution Policy)]]
+* [[Default|Default (Execution Policy)]]
+* [[RemoteSigned|RemoteSigned (Execution Policy)]]
+* [[Restricted|Restricted (Execution Policy)]]
+* [[Undefined|Undefined (Execution Policy)]]
+* [[Unrestricted|Unrestricted (Execution Policy)]]
+
+[[Execution Policies|PowerShell Execution Policies]] have [[Scopes|Execution Policy Scopes]]!
+
+https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.1

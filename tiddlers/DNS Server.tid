@@ -1,9 +1,13 @@
 created: 20210125140939235
-modified: 20210125141040220
+modified: 20210322191253464
 tags: Networking Stub [[Understanding the Digital World (Brian Kernighan)]]
-title: Name Server
+title: DNS Server
 tmap.id: 806c362a-a807-43a3-a695-16711a4c96fc
 type: text/vnd.tiddlywiki
+
+''AKA Name Server''
+
+All [[DNS Servers|DNS Server]] must support [[Iterative (Non-Recursive) Query|Iterative DNS Query]].
 
 https://serverfault.com/questions/126777/root-local-and-authoritative-name-server
 

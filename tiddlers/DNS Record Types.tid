@@ -1,5 +1,5 @@
 created: 20210224180646480
-modified: 20210224184239817
+modified: 20210322111730976
 tags: Networking [[DevOps Fundamentals (EPAM)]] Stub
 title: DNS Record Types
 tmap.id: 7620f29b-b572-4162-94c0-00bc93084a9f
@@ -15,6 +15,6 @@ type: text/vnd.tiddlywiki
 |!SRV|Service locator|Generalized service location record, usedfor newer protocols instead of creating protocol-specific records such as MS|
 |!SPF|Sender Policy Framework|SPF was specified as part of the Sender Policy Framework protocol as an alternative to storing SPF data in TXT records, using the same format. It was later found that the majority of SPF deployments lack proper support for this record type, and support for it was discontinued in RFC 7208|
 |!NS|Name Server record|Delegates a [[DNS Zone]] to use the given [[Authoritative Name Servers|Authoritative Name Server]]|
-|!SOA|Start of (a zone of) Authority Record|Specifies authoritative information about a [[DNS Zone]], including the primary name server, the [[email|Email]] of the domain administrator, the domain serial number, and several timers relating to refreshing the zone|
+|![[SOA|SOA Record]]|Start of (a zone of) Authority Record|Specifies authoritative information about a [[DNS Zone]], including the primary name server, the [[email|Email]] of the domain administrator, the domain serial number, and several timers relating to refreshing the zone|
 
 https://en.wikipedia.org/wiki/List_of_DNS_record_types

@@ -1,0 +1,14 @@
+created: 20210322204211597
+modified: 20210323120820610
+tags: Networking Stub
+title: Dynamic DNS
+tmap.id: 6100c17c-5180-4979-a781-f8e73ae074b3
+type: text/vnd.tiddlywiki
+
+''AKA DDNS'' 
+
+[[Dynamic DNS]] is a method of automatically updating a [[Name Server|DNS Server]] in the [[Domain Name System]], often in real time.
+
+In [[Microsoft Windows]] networks, [[Dynamic DNS]] is an integral part of [[Active Directory]], because [[Domain Controllers|Domain Controller]] register their [[Network Service Types|SRV Record]] in [[DNS|Domain Name System]] so that other computers in the [[Domain|Windows Domain]] (or [[Forest]]) can access them.
+
+https://en.wikipedia.org/wiki/Dynamic_DNS

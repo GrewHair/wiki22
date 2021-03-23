@@ -1,0 +1,13 @@
+created: 20210306133803988
+modified: 20210306134932821
+tags: [[Badly Named]] [[DevOps Fundamentals (EPAM)]] PowerShell Stub
+title: Cmdlet, Function, Alias, Module
+tmap.id: 170f9ff3-28b8-484b-b633-6da134bf5004
+type: text/vnd.tiddlywiki
+
+* [[Cmdlet]]
+* [[Function|PowerShell Function]]
+* [[Alias|PowerShell Alias]]
+* [[Module|PowerShell Module]]
+
+https://www.softpost.org/windows-powershell-commands/cmdlet-alias-function-and-modules-in-windows-powershell/

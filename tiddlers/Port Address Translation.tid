@@ -1,0 +1,20 @@
+created: 20210303122321366
+modified: 20210303131039423
+tags: Networking Stub
+title: Port Address Translation
+tmap.id: 4adc5652-c210-4f4e-aae2-9dcd94afce65
+type: text/vnd.tiddlywiki
+
+''AKA Network Address and Port Translation (NAPT), NAT Overload, Many-to-one NAT, sometimes [[IP Masquerading]]''
+
+This is the most most common type of [[NAT|Network Address Translation]] today, and has become synonymous with the term [["NAT"|Network Address Translation]] in common usage.
+
+The vast majority of [[Internet]] traffic uses [[TCP|Transmission Control Protocol]] or [[UDP|User Datagram Protocol]]. These two [[Layer 4]] protocols use [[Ports|Port (Networking)]], a lot of which is "free", i.e. it is extremely unlikely nowadays that any [[Host]] would use up all of them for specific purposes.
+
+This fact is exploited to resolve the inherent ambiguity of [[One-to-many NAT]]: the [[Port|Port (Networking)]] numbers are changed together with [[IP Addresses|IP Address]] (+ of cource all the required [[checksums|Checksum]], etc) in such a way that the combination of [[IP Address]] (within the [[IP Header|IPv4 Header]]) and [[Port|Port (Networking)]] number (within the [[Transport Layer]] header) on the returned [[packet|Packet]] can be unambiguously mapped to the corresponding [[Private Network]] destination.
+
+This techique is ubiquitous today, but it is essentially quite a hack that breaks the integrity of the [[TCP/IP Model]].
+
+[[IPv6]] is expected to fix it once it is universally adopted (simply by eliminating the need to touch [[Transport Layer]] headers through greatly expanding the [[IP|Internet Protocol]] [[Address Space]]).
+
+https://en.wikipedia.org/wiki/Network_address_translation#One-to-many_NAT

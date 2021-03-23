@@ -1,0 +1,15 @@
+created: 20210309144955524
+modified: 20210309145553533
+tags: [[Windows Server]]
+title: Features (Windows Server)
+tmap.id: e690dd59-b1da-4dc8-8efc-e5461e4e708f
+type: text/vnd.tiddlywiki
+
+[[Features|Features (Windows Server)]] are software programs that, although they are not directly parts of [[Roles|Roles (Windows Server)]], can support or augment the functionality of one or more [[Roles|Roles (Windows Server)]], or improve the functionality of the server, regardless of which [[Roles|Roles (Windows Server)]] are installed.
+
+''Examples:''
+
+* The [[Failover Clustering]] [[Feature|Features (Windows Server)]] augments the functionality of other [[Roles|Roles (Windows Server)]], such as [[File Services]] and [[DHCP Server]], by allowing them to join server [[Clusters|Cluster (Computing)]] for increased redundancy and improved performance
+* The [[Telnet Client]] [[Feature|Features (Windows Server)]] lets you communicate remotely with a [[Telnet]] [[Server]] over a network connection, a functionality that enhances the communication options of the server.
+
+https://winintro.ru/rmt.en/html/e2bc02c5-e7cc-42ad-98f9-0c38ebd53892.htm

@@ -1,0 +1,26 @@
+created: 20210312122903672
+modified: 20210312124653897
+tags: Networking Stub
+title: Link-local Address
+tmap.id: 1d37bdc8-da68-4c1f-b052-30f1a82368e7
+type: text/vnd.tiddlywiki
+
+`169.254.0.0/16`
+
+[[Link-local Addresses|Link-local Address]] today are normally only used as a last resort, when no static [[IP Address]] is configured and the [[DHCP|Dynamic Host Configuration Protocol]] [[server|Server]] is down.
+
+It is a static, [[Peer to Peer]] (as contrasted with the [[Client-Server|Client-Server Model]] approach of [[DHCP|Dynamic Host Configuration Protocol]]) method which presumably will work in all cases because it has no single point of failure like a [[DHCP|Dynamic Host Configuration Protocol]] [[server|Server]].
+
+Like [[Private Addresses|Private Address]], these are not [[routed|Routing]] in the [[Internet]]. However, they are held distinct from the [[Private Address]] [[space|Address Space]] in order to never conflict with it (e.g. if a [[DHCP|Dynamic Host Configuration Protocol]] [[server|Server]] goes down, and then recovers after some time).
+
+Usually when one notices that a device's [[IP Address]] is a [[Link-local Address]], it is an indicator that something is wrong: either a static [[IP|IP Address]] is not configured, or a [[DHCP|Dynamic Host Configuration Protocol]] [[server|Server]] is down.
+
+Windows calls this crap APIPA...
+
+Also, all of this applies mainly only to [[IPv4]]. In [[IPv6]] all of this works really differently, and a lot of protocols actually __rely__ on [[Link-local Addresses|Link-local Address]] there, instead of ignoring them like [[IPv4]] effectively does.
+
+https://en.wikipedia.org/wiki/Zero-configuration_networking
+
+https://en.wikipedia.org/wiki/Link-local_address
+
+https://superuser.com/questions/342149/what-is-the-difference-between-a-link-local-address-and-an-ip-address-in-the-pri

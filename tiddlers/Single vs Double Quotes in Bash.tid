@@ -1,0 +1,23 @@
+created: 20210321123233430
+modified: 20210321123638990
+tags: Bash Linux
+title: Single vs Double Quotes in Bash
+tmap.id: 5c08e772-495c-4b02-bd11-9af841b3e7b8
+type: text/vnd.tiddlywiki
+
+```bash
+$ echo "$(echo "upg")"
+upg
+$ echo '$(echo "upg")'
+$(echo "upg")
+```
+
+```bash
+$ var=foo
+$ echo "$var"
+foo
+$ echo '$var'
+$var
+```
+
+https://stackoverflow.com/questions/6697753/difference-between-single-and-double-quotes-in-bash

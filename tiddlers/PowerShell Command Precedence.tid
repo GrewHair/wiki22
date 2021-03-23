@@ -1,0 +1,15 @@
+created: 20210306134549074
+modified: 20210306135840710
+tags: PowerShell [[DevOps Fundamentals (EPAM)]] Stub
+title: PowerShell Command Precedence
+tmap.id: cb5d2c26-2bee-40fa-9a18-37c0a2a0edf5
+type: text/vnd.tiddlywiki
+
+If you do not specify a path, PowerShell uses the following precedence order when it runs commands for all items loaded in the current session:
+
+* [[Alias|PowerShell Alias]]
+* [[Function|PowerShell Function]]
+* [[Cmdlet]]
+* External executable files (programs and non-[[PowerShell]] scripts)
+
+https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_command_precedence?view=powershell-7.1

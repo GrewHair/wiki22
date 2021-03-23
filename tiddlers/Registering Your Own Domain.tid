@@ -1,5 +1,5 @@
 created: 20210128155136932
-modified: 20210128155547120
+modified: 20210228132604661
 tags: [[Understanding the Digital World (Brian Kernighan)]] Stub Networking
 title: Registering Your Own Domain
 tmap.id: ac1a3621-0922-44d5-957c-4f2c19dcc2b2
@@ -7,4 +7,4 @@ type: text/vnd.tiddlywiki
 
 * Pick a [[Domain Name Registrar]], choose your [[Domain Name]], pay for it, and it's yours
 * You need a [[Host]] for your site
-* You also need a [[Name Server]]
+* You also need a [[Name Server|DNS Server]]

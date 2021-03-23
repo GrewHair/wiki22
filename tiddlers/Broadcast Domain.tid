@@ -1,8 +1,12 @@
 created: 20201207084620711
-modified: 20201207115949163
+modified: 20210323082309308
 tags: Networking [[Network Fundamentals (Network Direction)]]
 title: Broadcast Domain
 tmap.id: db09edb9-c6f4-421e-b1ec-600beb2270e2
 type: text/vnd.tiddlywiki
 
-A [[Broadcast Domain]] is a [[logical|"Logical" in Networking]] division of a [[Computer Network]], in which all [[Nodes|Node (Networking)]] can reach each other by [[Broadcast]] messages.
+A [[Broadcast Domain]] is a [[logical|Logical Topology]] division of a [[Computer Network]], in which all [[Nodes|Node (Networking)]] can reach each other by [[Broadcast]] messages.
+
+In at least the overwhelming majority of cases, people mean [[Datalink Layer]] when they mention the [[Broadcast Domain]].
+
+I.e., usuall a [[Broadcast Domain]] means a part of a [[Network|Computer Network]], in which all [[Nodes|Node (Networking)]] can reach each other by __[[Layer 2 Broadcast]]__ messages.

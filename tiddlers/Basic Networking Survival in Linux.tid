@@ -1,0 +1,15 @@
+created: 20210312145837722
+modified: 20210312150537175
+tags: Networking
+title: Basic Networking Survival in Linux
+tmap.id: c3d4a8a7-b213-4409-9089-7ea80938be53
+type: text/vnd.tiddlywiki
+
+* List [[NICs|Network Interface Controller]]:
+*> `ifconfig -a`
+* Check the [[DNS Server]] [[IP|IP Address]]:
+*> `cat /run/systemd/resolve/resolv.conf`
+* Check the [[DHCP|Dynamic Host Configuration Protocol]] [[Server]] [[IP|IP Address]]:
+*> `sudo dhclient -d -nw -4 enp8s0`
+* Check the [[Default Gateway]]'s [[IP|IP Address]]:
+*> `netstat -r -n`

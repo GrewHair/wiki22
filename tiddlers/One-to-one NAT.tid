@@ -1,0 +1,20 @@
+created: 20210303121206696
+modified: 20210303123359738
+tags: Networking Stub
+title: One-to-one NAT
+tmap.id: da66604b-13aa-4d16-8e3c-8202baac3482
+type: text/vnd.tiddlywiki
+
+''AKA Basic NAT''
+
+[[Basic NAT|One-to-one NAT]] is the simplest type of [[NAT|Network Address Translation]].
+
+It provides a one-to-one translation of [[IP Addresses|IP Address]].
+
+In this type of [[NAT|Network Address Translation]], only the [[IP Addresses|IP Address]], [[IP Header|IPv4 Header]] [[Checksum]], and any higher-level [[checksums|Checksum]] that include the [[IP Address]] are changed.
+
+[[Basic NAT|One-to-one NAT]] can be used to interconnect two [[IP|Internet Protocol]] networks that have incompatible addressing.
+
+Today, it is not what people usually mean when they mention [[NAT|Network Address Translation]] :)
+
+https://en.wikipedia.org/wiki/Network_address_translation#Basic_NAT

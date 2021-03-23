@@ -1,16 +1,31 @@
 created: 20210125131511007
-modified: 20210224173657015
+modified: 20210322215141215
 tags: Networking [[Understanding the Digital World (Brian Kernighan)]] Stub
 title: Authoritative Name Server
 tmap.id: 3d3ccb5e-6c9d-43eb-9b90-db8e19f8e171
 type: text/vnd.tiddlywiki
 
-''Russian: Авторитативный сервер''
+''Russian: Авторитативный сервер, Заслуживающий доверия сервер''
 
-An [[Authoritative Name Server]] is a [[Name Server]] that gives [[Authoritative Answers|Authoritative Answer]] in response to questions asked about names in a [[Zone|DNS Zone]].
+An [[Authoritative Name Server]] is a [[Name Server]] that only gives answers to [[DNS Queries|DNS Query]] from data that has been configured by an original source, e.g., the [[Domain]] Administrator, or by [[Dynamic DNS]] methods, (in other words, the data from its own [[Zone File]]) - in contrast to answers obtained via a [[query|DNS Query]] to another [[Name Server]] that only maintains a cache of data (i.e., a [[Caching Server|Caching Name Server]]).
 
-An authoritative-only [[Name Server]] returns [[answers|Authoritative Answer]] only to [[queries|DNS Query]] about [[Domain Names|Domain Name]] that have been specifically configured by the administrator.
+An [[Authoritative Name Server]] can be either of the two:
 
-[[Name Servers|Name Server]] can also be configured to give [[Authoritative Answers|Authoritative Answer]] to [[queries|DNS Query]] in some [[Zones|DNS Zone]], while acting as a [[Caching Name Server]] for all other [[zones|DNS Zone]].
+* [[Primary DNS Server]]
+* [[Secondary DNS Server]]
+
+Basically, they just operate in hot backup if you wish, with a caveat that in order for the two to stay in sync, the [[Zone Files|Zone File]] can only be directly edited on the [[Primary|Primary DNS Server]] one, while the [[Secondary|Secondary DNS Server]] one must update periodically.
+
+Every [[DNS Zone]] must be assigned a set of [[Authoritative Name Servers|Authoritative Name Server]].
+
+''From [[Understanding the Digital World (Brian Kernighan)]]:''
+
+<<<
+An [[Authoritative Name Server]] is a [[Name Server|DNS Server]] that gives [[Authoritative Answers|Authoritative Answer]] in response to questions asked about names in a [[Zone|DNS Zone]].
+
+An authoritative-only [[Name Server|DNS Server]] returns [[answers|Authoritative Answer]] only to [[queries|DNS Query]] about [[Domain Names|Domain Name]] that have been specifically configured by the administrator.
+
+[[Name Servers|DNS Server]] can also be configured to give [[Authoritative Answers|Authoritative Answer]] to [[queries|DNS Query]] in some [[Zones|DNS Zone]], while acting as a [[Caching Name Server]] for all other [[zones|DNS Zone]].
+<<<
 
 https://en.wikipedia.org/wiki/Name_server#Authoritative_name_server

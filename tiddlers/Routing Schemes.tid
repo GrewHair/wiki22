@@ -1,12 +1,12 @@
 created: 20201202193855756
-modified: 20201207111650224
+modified: 20210310122753765
 tags: Networking Stub [[Network Fundamentals (Network Direction)]]
 title: Routing Schemes
 tmap.id: 35beedcc-043e-4d65-8096-0be0385346bf
 type: text/vnd.tiddlywiki
 
 |[[Unicast]]|[img width=200 [_my/images/unicast]]|
-|[[Broadcast]]|[img width=200 [_my/images/broadcast]]|
+|[[Broadcast|Broadcast (Routing Scheme)]]|[img width=200 [_my/images/broadcast]]|
 |[[Multicast]]|[img width=200 [_my/images/multicast]]|
 |[[Anycast]]|[img width=200 [_my/images/anycast]]|
 |[[Geocast]]|[img width=200 [_my/images/geocast]]|

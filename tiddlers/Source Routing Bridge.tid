@@ -1,0 +1,8 @@
+created: 20210310143226133
+modified: 20210310143629669
+tags: Networking Stub [[I Don't Quite Understand This]]
+title: Source Routing Bridge
+tmap.id: 0bd3dad2-b540-4a17-8bb4-86c1a0ea9679
+type: text/vnd.tiddlywiki
+
+In [[these bridges|Source Routing Bridge]], routing operation is performed by source station and the frame specifies which route to follow. The [[Host]] can discover frame by sending a special frame called discovery frame, which spreads through the entire network using all possible paths to destination.

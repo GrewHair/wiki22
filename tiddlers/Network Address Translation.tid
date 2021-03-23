@@ -1,0 +1,18 @@
+created: 20210303120157644
+modified: 20210303121134952
+tags: Networking Stub
+title: Network Address Translation
+tmap.id: 8557380c-25e7-4612-94b4-e8b29684c65e
+type: text/vnd.tiddlywiki
+
+''AKA NAT''
+
+[[NAT|Network Address Translation]] is a method of remapping one [[IP|Internet Protocol]] [[address space|Address Space]] into another by modifying [[Network Address]] information in the [[IP Header]] of [[packets|Packet]] while they are in transit across a traffic [[Routing Device|Router]].
+
+This technique was originally used to avoid the need to assign a new [[address|IP Address]] to every [[Host]] when a network was moved or when the upstream [[ISP|Internet Service Provider]] was replaced, but could not route the network's [[Address Space]].
+
+Later this technique became a popular and essential tool for conserving global [[address space|Address Space]] in the face of [[IPv4 Address Exhaustion]].
+
+Because of this, a lot of terms got mixed up in day-to-day speech, and a lot of very different things are now referred to simply as [[NAT|Network Address Translation]].
+
+https://en.wikipedia.org/wiki/Network_address_translation

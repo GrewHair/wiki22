@@ -1,0 +1,16 @@
+created: 20210303134952794
+modified: 20210303135242341
+tags: Stub
+title: RAID 0
+tmap.id: f6095f62-a6d9-4b8d-a3d4-2bd91f071f39
+type: text/vnd.tiddlywiki
+
+[[RAID 1]] and [[RAID 0]] were the first introduced [[RAID Levels]].
+
+[[RAID 1]] is called "1" because it's redundant, i.e. `redundancy=1`
+
+[[RAID 0]] is called "0" because there's //no// redundancy, i.e. `redundancy=0`
+
+All the other [[RAID Levels]] have somewhat different logic (or sometimes no logic at all for that matter) to their naming.
+
+https://www.reddit.com/r/buildapc/comments/fcblri/whoever_named_the_raid_levels_should_take_a_long/

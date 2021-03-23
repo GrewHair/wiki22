@@ -1,0 +1,24 @@
+created: 20210228131559135
+modified: 20210322214329711
+tags: Networking Stub
+title: Primary DNS Server
+tmap.id: e8742175-63c1-4954-a18f-d36148e04aef
+type: text/vnd.tiddlywiki
+
+''AKA Master DNS Server''
+
+A [[Primary DNS Server]] is the first point of contact for a browser, application or device when it performs a [[DNS Query]].
+
+Changes to [[DNS Records|DNS Record]] - e.g. changing the [[IP|IP Address]] for a [[Domain Name]] - can only be done on a [[Primary Server|Primary DNS Server]], which can then update [[Secondary DNS Servers|Secondary DNS Server]].
+
+[[DNS Servers|DNS Server]] can be [[Primary|Primary DNS Server]] for one [[DNS Zone]] and [[Secondary|Secondary DNS Server]] for another [[DNS Zone]].
+
+https://ns1.com/resources/primary-dns-vs-secondary-dns-and-advanced-use-cases
+
+
+<span style="color:orange">''Importannt note:'' It seems to me that this is just another name for [[Authoritative Name Server]], although it's tough to find the truth.
+</span>
+
+<span style="color:orange">
+''Update:'' now it turns out they're not the same: it is not an authoritative server per se, but just a kind of it. Although still I have to learn more to know for sure...
+</span>
