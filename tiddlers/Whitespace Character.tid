@@ -1,0 +1,25 @@
+created: 20210326122002714
+modified: 20210326124554988
+tags: Computing Stub
+title: Whitespace Character
+tmap.id: c8835d43-59de-4ffa-9e92-02b15302772c
+type: text/vnd.tiddlywiki
+
+''AKA Whitespace''
+
+A [[Whitespace Character]] is any [[Character|Character (Computing)]] or series of [[Characters|Character (Computing)]] that represent horizontal or vertical [[Space|Space (Punctuation)]] in typography.
+
+It can be:
+
+* space
+* tab
+* [[Newline]]
+* [[Line Tabulation]]
+* form feed
+* [[Carriage Return]]
+
+https://en.wikipedia.org/wiki/Whitespace_character
+
+https://stackoverflow.com/questions/18169006/all-the-whitespace-characters-is-it-language-independent
+
+https://stackoverflow.com/questions/50962840/what-is-the-difference-between-space-and-whitespace-in-php/50962973

@@ -1,0 +1,31 @@
+created: 20210328135545263
+modified: 20210328140949951
+tags: Bash
+title: Parameter Expansion
+tmap.id: c1537a98-9af1-4a97-adab-051167ea9d78
+type: text/vnd.tiddlywiki
+
+[[Parameter Expansion]] substitutes the parameter's name for its value.
+
+There are two possibilities:
+
+* `$parameter`
+* `${parameter}`
+
+The second one is safer. The braces protect the variable to be expanded from characters immediately following it which otherwise could be interpreted as part of the name:
+
+```bash
+$ # there's no HOMEfoo
+$ echo $HOMEfoo
+ 
+$ # ...but there's HOME!
+$ echo ${HOME}foo
+/home/borisfoo
+```
+
+The braces are required when:
+
+* The parameter is a [[Positional Parameter|Positional Parameter (Bash)]] with more than one digit
+* When parameter is followed by a character that is not to be interpreted as part of its name
+
+https://www.gnu.org/software/bash/manual/html_node/Shell-Parameter-Expansion.html

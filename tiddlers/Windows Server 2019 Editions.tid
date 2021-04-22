@@ -1,0 +1,14 @@
+created: 20210326175244918
+modified: 20210326181037109
+tags: [[Windows Server]]
+title: Windows Server 2019 Editions
+tmap.id: 3df77013-70e8-4400-9def-f1d999391999
+type: text/vnd.tiddlywiki
+
+[[Windows Server 2019]] has three editions:
+
+* Essentials
+* Standard
+* Datacenter
+
+https://www.nakivo.com/blog/windows-server-2019-essentials-standard-datacenter-full-comparison/#:~:text=Windows%20Server%202019%20has%20three,different%20virtualization%20and%20datacenter%20requirements.

@@ -1,0 +1,12 @@
+created: 20210324130525565
+modified: 20210324130718218
+tags: SQL Stub
+title: USE
+tmap.id: e9c2be50-c703-44d9-889c-5c63a7f2feea
+type: text/vnd.tiddlywiki
+
+```sql
+USE my_database;
+```
+
+''Note:'' at the moment I don't have a clue which [[Statement Class|SQL Statements]] it belongs to... so once I figure that out, I'll update this tiddler.

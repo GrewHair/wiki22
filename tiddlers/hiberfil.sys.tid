@@ -1,0 +1,10 @@
+created: 20210326182207574
+modified: 20210326182528339
+tags: [[Windows Server]]
+title: hiberfil.sys
+tmap.id: 482ce15b-1de2-4207-8625-6328bd63cd67
+type: text/vnd.tiddlywiki
+
+[[hiberfil.sys]] is a file the [[Windows|Microsoft Windows]] uses to store a copy of [[RAM]] when the machine goes to hibernation.
+
+If you're short on [[Hard Disk|Hard Disk Drive]] space, it's important to remember that you better keep at least as much free space as you have [[RAM]], because otherwise this goddamn file will make you cry!

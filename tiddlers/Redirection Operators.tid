@@ -1,0 +1,27 @@
+created: 20210328173321787
+modified: 20210328185211733
+tags: Bash
+title: Redirection Operators
+tmap.id: c409710a-afeb-48c5-b3d3-e9f7b23c3858
+type: text/vnd.tiddlywiki
+
+* Redirecting output
+*> `[<n>]>[|]`
+*> `[<n>]>[!]`
+* Appending redirected output
+*> `[<n>]>>`
+* Redirecting both [[Stdout|Standard Output]] and [[Stderr|Standard Error (Computing)]]
+*> `&>` (preferred)
+*> `>&`
+* Appending both [[Stdout|Standard Output]] and [[Stderr|Standard Error (Computing)]]
+*> `&>>`
+*> `>>file 2>&1`
+* Redirecting input
+*> `[<n>]<`
+* [[Here Documents]]
+*> `[<n>]<<[-]`
+* [[Here Strings]]
+*> `[<n>]<<<`
+* ...
+
+https://www.gnu.org/software/bash/manual/html_node/Redirections.html

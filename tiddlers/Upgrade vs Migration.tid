@@ -1,0 +1,10 @@
+created: 20210326180624011
+modified: 20210326180947796
+tags: Networking [[System Administration]]
+title: Upgrade vs Migration
+tmap.id: 052644bc-7f4d-4e9c-9dc2-a0e050bd49a0
+type: text/vnd.tiddlywiki
+
+* Upgrade means you upgrade e.g. an [[Operating System]]
+* Migration means you reinstall the thing and then migrate :)
+

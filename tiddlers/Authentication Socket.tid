@@ -1,0 +1,14 @@
+created: 20210324110245474
+modified: 20210324111410691
+tags: [[WTF is This?]] [[Couldn't Google It]]
+title: Authentication Socket
+tmap.id: 59dcd1dd-cf1f-4443-a0d6-9ec13da66c5e
+type: text/vnd.tiddlywiki
+
+<a target="_blank" href="https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04">Here</a> they say that in [[Ubuntu]] systems running [[MySQL]] v5.7 and later, [[Root]] [[MySQL]] user is set to authenticate something called the `auth_socket` plugin, rather than with a password.
+
+I've //no idea// what this is, but it seems quite common in the [[Database]] world.
+
+It says that this plugin requires that the name of the [[Operating System]] user that invokes the [[MySQL]] [[Client]] matches the name of the [[MySQL]] user specified in the command - which sheds some light on what happens.
+
+For example, this is presumably the reason why you have to use [[sudo]] to invoke `mysql` when you've first installed [[MySQL]] and ran the `mysql_secure_installation` script (after that is done, the only user that's left in [[MySQL]] server is the [[Root]]).

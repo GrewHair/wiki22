@@ -1,0 +1,16 @@
+created: 20210326173905588
+modified: 20210326174702110
+tags: Linux Unix [[Computer Hardware]] Networking Stub
+title: Commodity Hardware
+tmap.id: a1569a7a-e2bb-4294-8806-b6bdcc206397
+type: text/vnd.tiddlywiki
+
+''AKA Off-the-shelf Hardware''
+
+[[Commodity Hardware]] is a computer device or [[IT|Information Technology]] component that is relatively inexpensive, widely available and basically interchangeable with other [[Hardware|Computer Hardware]] of its type.
+
+''Examples''
+
+[[Commodity|Commodity Hardware]] [[Hard Disks|Hard Disk Drive]] can be configured as a [[RAID]] for fault tolerance and failover.
+
+https://susedefines.suse.com/definition/commodity-hardware/#:~:text=Commodity%20hardware%2C%20sometimes%20known%20as,other%20hardware%20of%20its%20type.

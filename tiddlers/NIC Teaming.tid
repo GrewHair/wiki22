@@ -1,0 +1,10 @@
+created: 20210326202119722
+modified: 20210326202357941
+tags: [[Windows Server]] Stub
+title: NIC Teaming
+tmap.id: 619d9870-c86f-4b34-9892-f36a27530330
+type: text/vnd.tiddlywiki
+
+[[NIC Teaming]] allows you to group 1~32 pysical [[Ethernet]] [[NICs|Network Interface Adaptor]] into one or more software-based virtual network adapters.
+
+https://docs.microsoft.com/en-us/windows-server/networking/technologies/nic-teaming/nic-teaming

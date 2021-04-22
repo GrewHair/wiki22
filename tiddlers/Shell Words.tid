@@ -1,0 +1,10 @@
+created: 20210328190327422
+modified: 20210328192425714
+tags: Bash
+title: Shell Words
+tmap.id: 6aa53894-b655-41cc-a63c-2a3d670caaf6
+type: text/vnd.tiddlywiki
+
+A [[Word|Shell Words]] is a sequence of characters treated as a unit by the [[Shell]].
+
+[[Words|Shell Words]] may not contain [[Metacharacters|Shell Metacharacters]].

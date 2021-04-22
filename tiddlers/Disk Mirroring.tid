@@ -1,0 +1,12 @@
+created: 20210326192954860
+modified: 20210326193520609
+tags: [[System Administration]] Networking
+title: Disk Mirroring
+tmap.id: c0fb2ddb-5ebf-4d27-9ea2-6a8b5304cc17
+type: text/vnd.tiddlywiki
+
+''Russian: Зеркалирование дисков''
+
+[[Disk Mirrornig]] is the [[Replication]] of [[Locical Disk]] volumes onto separate physical [[Hard Disks|Hard Disk Drive]] in [[real time|Real-time computing]] to ensure [[Continuous Availability]].
+
+It is most commonly used in [[RAID 1]].

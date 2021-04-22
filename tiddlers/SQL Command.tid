@@ -1,0 +1,19 @@
+created: 20210326121252583
+modified: 20210326125022040
+tags: SQL [[Postgre SQL]]
+title: SQL Command
+tmap.id: 32d333ba-da62-42f9-990c-9c4608effa59
+type: text/vnd.tiddlywiki
+
+[[SQL]] input consists of a sequence of [[Commands|SQL Command]].
+
+A [[Command|SQL Command]] is terminated by: 
+
+* a semicolon `;`.
+* the end of the input stream
+
+[[Commands|SQL Command]] consist of sequences of [[Tokens|SQL Token]].
+
+[[Tokens|SQL Token]] are usually separated by [[Whitespace|Whitespace Character]].
+
+https://www.postgresql.org/docs/9.2/sql-syntax-lexical.html

@@ -1,12 +1,23 @@
 created: 20201212195525396
-modified: 20201213012422298
+modified: 20210328130243618
 tags: Bash Ubuntu Stub
 title: Command Substitution
 tmap.id: 88072504-6c01-492c-84d5-ea1007391e21
 type: text/vnd.tiddlywiki
 
-https://bash.cyberciti.biz/guide/Command_substitution
+It lets you run some commands, and then store their output in a [[Variable|Bash Variables]]:
 
 ```bash
 foo=$(ls | grep bar)
 ```
+
+There are two syntaxes for it:
+
+* <$codeblock language="bash" code=
+"ls -l `which less`
+"/>
+* <$codeblock language="bash" code=
+"ls -l $(which less)
+"/>
+
+http://faculty.salina.k-state.edu/tim/unix_sg/shell/command_sub.html

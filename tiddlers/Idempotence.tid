@@ -1,0 +1,28 @@
+created: 20210325091916183
+modified: 20210325121758777
+tags: [[Abstract Algebra]] Mathematics [[Computer Science]]
+title: Idempotence
+tmap.id: dcf09999-ea02-4640-a1bb-66ba7bbfdf08
+type: text/vnd.tiddlywiki
+
+[[Idempotence]] is the property of certain operations in [[Mathematics]] and [[Computer Science]] whereby they can be applied multiple times without changing the result beyond the initial application
+
+''Examples:''
+
+* [[Set Union]]
+*> $$A \cup A = A$$
+*> $$A \cup B \cup B = A \cup B$$
+* [[Set Intersection]]
+*> $$A \cap A = A$$
+*> $$A \cap B \cap B = A \cap B$$
+* [[Disjunction]]
+*> $$x \vee x = x$$
+*> $$x \vee y \vee y = x \vee y$$
+* [[Conjunction]]
+*> $$x \wedge y \wedge y= x \wedge y$$
+
+In [[REST|Representational State Transfer]], the `GET`
+
+https://en.wikipedia.org/wiki/Idempotence
+
+https://www.restapitutorial.com/lessons/idempotency.html#:~:text=From%20a%20RESTful%20service%20standpoint,as%20making%20a%20single%20request.&text=The%20PUT%20and%20DELETE%20methods%20are%20defined%20to%20be%20idempotent.

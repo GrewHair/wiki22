@@ -1,0 +1,10 @@
+created: 20210324111955383
+modified: 20210324112142907
+tags: SQL
+title: MySQL Pluggable Authentication
+tmap.id: 1bbf0f67-5f88-4b77-80ba-3fba20ed4a97
+type: text/vnd.tiddlywiki
+
+https://dev.mysql.com/doc/refman/8.0/en/pluggable-authentication.html#:~:text=MySQL%208.0%20provides%20these%20authentication,of%20pluggable%20authentication%20in%20MySQL.&text=Plugins%20that%20perform%20authentication%20using%20SHA-256%20password%20hashing.
+
+https://dev.mysql.com/doc/refman/8.0/en/authentication-plugins.html

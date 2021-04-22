@@ -1,0 +1,12 @@
+created: 20210326194035516
+modified: 20210326194413481
+tags: [[Windows Server]] Stub
+title: Sysprep
+tmap.id: ab237bf8-c6fd-4e60-8a77-99137a4eac70
+type: text/vnd.tiddlywiki
+
+''System Preparation Tool''
+
+[[Sysprep]] is [[Microsoft]]'s System Preparation Tool for [[Windows|Microsoft Windows]] deployment.
+
+https://en.wikipedia.org/wiki/Sysprep

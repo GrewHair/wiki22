@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200614015432248
-modified: 20200614020442562
+modified: 20210325133045532
 tags: [[Learning SQL by Alan Beaulieu]]
 title: NATURAL JOIN
 tmap.id: 4ae36760-3864-4998-bdba-0f2b860e7a24
@@ -19,3 +19,5 @@ FROM account a NATURAL JOIN customer c;
 ```
 
 If this mechanism fails to infer the [[Join Conditions]], the server does the [[CROSS JOIN]] as a [[Fallback]].
+
+$$R \bowtie S = \{ r \cup s | r \in R \wedge s \in S \wedge Fun(r \cup s)\}$$

@@ -1,0 +1,12 @@
+created: 20210405111239346
+modified: 20210405111940716
+tags: Security Networking Stub
+title: Zero Trust Security Model
+tmap.id: 243101d2-0b21-4a2e-8e2b-f3a9c662c99f
+type: text/vnd.tiddlywiki
+
+''AKA Zero Trust Architecture, Zero Trust Network Architecture, ZTA, ZTNA, Perimeterlass security''
+
+Devices should __not__ be trusted by default, even if they are connected to a managed corporate network and even if they were previously verified.
+
+https://en.wikipedia.org/wiki/Zero_trust_security_model

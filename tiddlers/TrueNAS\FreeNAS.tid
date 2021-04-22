@@ -1,0 +1,14 @@
+created: 20210326171526059
+modified: 20210326174800847
+tags: Networking Unix
+title: TrueNAS\FreeNAS
+tmap.id: 08f211eb-c64a-499d-be08-0f55a69d2e82
+type: text/vnd.tiddlywiki
+
+[[TrueNAS|TrueNAS\FreeNAS]] is the branding for a range of free and open-source [[Network-attached Storage]] [[Operating Systems|Operating System]] produced by ixSystems and based on [[FreeBSD]] and [[Linux]], using the [[OpenZFS]] [[File System]].
+
+It is licensed under the terms of the [[BSD License]] and runs on [[commodity|Commodity Hardware]] [[x86-64]] hardware.
+
+https://en.wikipedia.org/wiki/TrueNAS
+
+https://ru.wikipedia.org/wiki/FreeNAS

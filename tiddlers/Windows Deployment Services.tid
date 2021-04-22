@@ -1,0 +1,12 @@
+created: 20210326163637129
+modified: 20210326174933025
+tags: [[Windows Server]] Stub
+title: Windows Deployment Services
+tmap.id: 92c49c6e-1494-4643-978e-a5f9ca814c69
+type: text/vnd.tiddlywiki
+
+[[Windows Deployment Services]] is a [[Server]] technology from [[Microsoft]] for network-based installation [[Windows|Microsoft Windows]] [[Operating Systems|Operating System]].
+
+It's good for batch deployment!
+
+https://en.wikipedia.org/wiki/Windows_Deployment_Services

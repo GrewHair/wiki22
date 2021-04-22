@@ -1,0 +1,18 @@
+created: 20210405095837160
+modified: 20210406074231051
+tags: Cloud
+title: AWS vs Google Cloud Terminology
+tmap.id: cb5041c8-78b3-4467-a623-2e88c5d5f25f
+type: text/vnd.tiddlywiki
+
+|!Feature|!Amazon EC2|!Google Compute Engine|
+|Virtual machines|Instances|Instances|
+|Machine images|Amazon Machine Image (AMI)|Image|
+|Temporary virtual machines|Spot Instances|Preemptible VMs|
+|Firewall|Security groups|Compute Engine firewall rules|
+|Automatic instance scaling|Auto Scaling|Compute Engine autoscaler|
+|Local attached disk|Ephemeral disk|Local SSD|
+|VM import|Supported formats: RAW, OVA VMDK, and VHD|Supported formats: RAW, OVA, VMDK, and VHD|
+|Deployment locality|Zonal|Zonal|
+
+https://kinsta.com/blog/google-cloud-vs-aws/

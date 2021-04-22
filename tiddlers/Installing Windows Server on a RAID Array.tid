@@ -1,0 +1,11 @@
+created: 20210326192141099
+modified: 20210326192820117
+tags: [[Windows Server]]
+title: Installing Windows Server on a RAID Array
+tmap.id: b5fe3155-ecf0-45ed-89c4-ede0c2ff1a76
+type: text/vnd.tiddlywiki
+
+For [[Windows|Microsoft Windows]] to recognize your [[RAID]] array, you may need to load the driver first:
+
+
+@@zoom:50%;[img[_my/images/png/ws_raid_driver]]@@

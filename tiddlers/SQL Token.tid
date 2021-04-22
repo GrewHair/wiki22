@@ -1,0 +1,18 @@
+created: 20210326125038598
+modified: 20210326130652251
+tags: [[Postgre SQL]] SQL
+title: SQL Token
+tmap.id: 26a97054-4abb-45ac-8619-ca4c17dffc99
+type: text/vnd.tiddlywiki
+
+A [[SQL Token]] can be:
+
+* A [[Key Word|Keyword (SQL)]]
+* An [[Identifier|Identifier (SQL)]]
+* A [[Quoted Identifier|Quted Identifier (SQL)]]
+* A [[Literal|SQL Literal]]
+* A [[Special Character Symbol|SQL Special Characters]]
+
+[[Tokens|SQL Token]] are normally separated by [[Whitespace|Whitespace Character]], but need not be when a [[Special Character|SQL Special Characters]] is adjacent to some other [[Token|SQL Token]] type.
+
+https://www.postgresql.org/docs/9.2/sql-syntax-lexical.html

@@ -1,0 +1,24 @@
+created: 20210328144821311
+modified: 20210328191658895
+tags: Bash
+title: Shell Reserved Words
+tmap.id: 0764c803-293a-41c9-91f2-a92065a98920
+type: text/vnd.tiddlywiki
+
+A [[Reserved Word|Shell Reserved Words]] is a [[Word|Shell Words]] that has a special meaning to the [[Shell]]. They are mainly used for flow control.
+
+''Note:'' since they are [[Words|Shell Words]], they require to be delimited from other [[Tokens|Shell Tokens]] with [[Blanks|Blank (Shell)]] or [[Metacharacters|Shell Metacharacters]] to be interpreted as such. 
+
+|!Conditional Constructs|<||!Looping Constructs|<|<|
+|`if`|`elif`||`for`|`until`|`while`|
+|`[[`|`]]`||`do`||`done`|
+|`then`|<||<br>|<|<|
+|`else`|<||!Command Grouping|<|<|
+|`fi`|<||`{`||`}`|
+|`case`|`esac`||<br>|<|<|
+|`select`|`in`||<br>|<|<|
+|<br>|<||!Shell Functions|<|<|
+|![[Pipelines|Anonymous Pipe]]|<||`function`|<|<|
+|`time`|`!`|||<|<|
+
+https://www.gnu.org/software/bash/manual/html_node/Reserved-Word-Index.html#Reserved-Word-Index_rw_letter-D

@@ -1,0 +1,10 @@
+created: 20210326212400127
+modified: 20210326212735099
+tags: [[Windows Server]] Stub [[I Don't Quite Understand This]] [[It's a Lead!]]
+title: How Active Directory Fits Into External World
+tmap.id: a0f07394-2608-408b-b9bc-577a6e078993
+type: text/vnd.tiddlywiki
+
+[[AD|Active Directory]] seems to rely on [[DNS|Domain Name System]]... It seems to cause some conflicts sometimes. Hmmm...
+
+https://serverfault.com/questions/31686/active-directory-is-it-required-that-the-a-record-for-a-domain-point-to-a-dom

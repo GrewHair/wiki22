@@ -1,0 +1,22 @@
+created: 20210329083356057
+modified: 20210329083808824
+tags: Networking Stub
+title: IMAP Commands
+tmap.id: 3fc3f6f0-047f-4217-b9ee-791c56fcb4e5
+type: text/vnd.tiddlywiki
+
+* LOGIN
+* LIST
+* SELECT
+* FETCH
+* STORE
+* EXPUNGE
+* LOGOUT
+
+Other
+
+* CREATE/DELETE/RENAME/STATUS
+* COPY
+* MOVE
+* SEARCH
+* CLOSE

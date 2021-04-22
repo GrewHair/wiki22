@@ -1,0 +1,17 @@
+created: 20210328151934060
+modified: 20210328191102473
+tags: Bash
+title: Shell Operators
+tmap.id: d594f804-ed7c-4eae-8634-b3aba2f270aa
+type: text/vnd.tiddlywiki
+
+Syntactically, [[Operators|Shell Operators]] are [[Tokens|Shell Tokens]] that contain [[Metacharacters|Shell Metacharacters]].
+
+To put it another way, [[Operators|Shell Operators]] are [[Tokens|Shell Tokens]] that are not [[Words|Shell Words]].
+
+They are used for special purposes. There are two kinds of them:
+
+* [[Control Operators]]
+* [[Redirection Operators]]
+
+https://www.gnu.org/software/bash/manual/html_node/Definitions.html

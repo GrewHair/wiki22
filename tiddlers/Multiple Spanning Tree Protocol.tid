@@ -1,0 +1,10 @@
+created: 20210328220517310
+modified: 20210328220728134
+tags: Networking Stub
+title: Multiple Spanning Tree Protocol
+tmap.id: 78ebb05d-338d-4444-bdc1-802ec5a57cf5
+type: text/vnd.tiddlywiki
+
+[[STP|Spanning Tree Protocol]] and [[RSTP|Rapid Spanning Tree Protocol]] were poorly compatible with [[VLANs|VLAN]].
+
+[[MSTP|Multiple Spanning Tree Protocol]] solved this issue.

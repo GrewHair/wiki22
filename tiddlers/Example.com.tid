@@ -1,0 +1,20 @@
+created: 20210326210555032
+modified: 20210326212243052
+tags: Networking Web
+title: Example.com
+tmap.id: ae94127a-a01d-4464-b0f1-8cddd6e31d65
+type: text/vnd.tiddlywiki
+
+[[Example.com]] is intended for general use in any kind of documentation and sample software configurations.
+
+Thus, documentation writers can be sure to select a [[Domain Name]] without creating naming conflicts if end-users try to use the sample configurations or examples verbatim.
+
+It can be used for locally testing any [[DNS|Domain Name System]]-related code or [[Server]] configuration without causing any conflicts.
+
+If one desires to do so, but doesn't have a [[DNS Server]], one can simply edit his [[Hosts File]].
+
+https://en.wikipedia.org/wiki/Example.com
+
+https://pureform.wordpress.com/2008/06/14/setting-up-your-localhost-as-examplecom/
+
+https://tools.ietf.org/html/rfc2606

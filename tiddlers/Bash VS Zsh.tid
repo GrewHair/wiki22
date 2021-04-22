@@ -1,11 +1,16 @@
 created: 20210104151223753
-modified: 20210104151858762
+modified: 20210328114817971
 tags: Ubuntu Bash
 title: Bash VS Zsh
 tmap.id: 51b2266b-14a0-424e-ad71-2ce7b015b8c2
 type: text/vnd.tiddlywiki
 
 * [[Bash]] arrays are indexed from `0` to `length-1`; [[Zsh]] arrays are indexed from `1` to `length`
+* History is shared in all instances in [[Zsh]], which is untrue of [[Bash]]
+* The right-hand side of a [[Pipeline]] is run as a parent [[Shell]] in [[Zsh]], while in [[Bash]] it is run as a subshell
+* The output is stored in a temporary [[File]] in [[Zsh]], while in [[Bash]] it is not
 * ...
 
 https://apple.stackexchange.com/questions/361870/what-are-the-practical-differences-between-bash-and-zsh#:~:text=Bash%20arrays%20are%20indexed%20from,%5D%20is%20one%5B1%5D%20.
+
+https://www.educba.com/zsh-vs-bash/

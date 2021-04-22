@@ -1,0 +1,12 @@
+created: 20210326194636598
+modified: 20210326195007405
+tags: [[Windows Server]] Stub
+title: Windows Server Migration Tools
+tmap.id: ff729a62-b24c-4c7c-9061-5530737349f8
+type: text/vnd.tiddlywiki
+
+The name kinda speaks for itself :)
+
+It's a set of [[Powershell]] [[Cmdlets|Cmdlet]] to help the [[Migration|Upgrade vs Migration]] process.
+
+https://www.ubackup.com/windows-server/how-to-use-windows-server-migration-tools-6988.html

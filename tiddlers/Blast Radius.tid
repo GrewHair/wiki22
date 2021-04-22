@@ -1,0 +1,14 @@
+created: 20210405114721146
+modified: 20210405115115813
+tags: Networking
+title: Blast Radius
+tmap.id: ec7a5ee4-9ce7-4447-888c-7f0895aa5ae2
+type: text/vnd.tiddlywiki
+
+[[Blast Radius]] is the size of the [[Failure Domain|Failure Domain (Networking)]].
+
+One can think of [[Blast Radius]] as the maxumum impact that might be sustained in the event of a system failure.
+
+To build reliable systems, you want to minimize the [[Blast Radius]] of any individual component.
+
+https://etherealmind.com/network-dictionary-blast-radius/?doing_wp_cron=1617623159.5604679584503173828125

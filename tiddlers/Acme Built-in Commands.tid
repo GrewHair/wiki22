@@ -1,0 +1,13 @@
+created: 20210415195243861
+modified: 20210415201133302
+tags: 
+title: Acme Built-in Commands
+tmap.id: f6a75cb9-6f2b-4a9e-b27b-890328eacf41
+type: text/vnd.tiddlywiki
+
+* `Cut` - Delete most recently selected text and place in snarf buffer
+* `Del` - Delete window. If window is dirty, instead print a warning; a second `Del` will succeed
+* `Delcol` - Delete column and all its windows, after checking that windows are not dirty
+* `Delete` - Delete window without checking for dirtyness
+* `Dump` - Write the state of [[Acme]] to the file name. Defaults to `$HOME/acme.dump`
+* `Edit` - Treat the argument as a text editing command in the [[Sam]] language. Usually operates on the current window

@@ -1,0 +1,23 @@
+created: 20210326203729623
+modified: 20210326205030398
+tags: Networking Stub Linux
+title: Samba
+tmap.id: 16c40e76-ce43-4618-b7c2-2d18e6c878c9
+type: text/vnd.tiddlywiki
+
+[[Samba]] is a [[Free Software]] reimplementation of the [[SMB|Server Message Block]] protocol.
+
+[[Samba]] allows [[File]] and printer sharing between computers running [[Windows|Microsoft Windows]] and computers running [[Unix]]
+
+It is an implementation of dozens of [[Services|Service (Systems Architecture)]] and a dozen protocols, including:
+
+* [[NBT|NetBIOS over TCP/IP]]
+* [[SMB|Server Message Block]]
+* [[DCE/RPC|Distributed Computing Environment \ Remote Procedure Calls]]
+* [[WINS|Windows Internet Name Service]]
+* ...
+* [[Active Directory]] Logon using modified versions of [[Kerberos]] and [[LDAP|Lightweight Directory Access Protocol]]
+* [[DFS|Distributed File System (Microsoft)]] [[Server]]
+(see wikipedia article for full list)
+
+https://en.wikipedia.org/wiki/Samba_(software)#Features

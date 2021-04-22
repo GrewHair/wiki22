@@ -1,0 +1,17 @@
+created: 20210326200418199
+modified: 20210326201519489
+tags: Networking
+title: Teredo Tunneling
+tmap.id: 815a36b0-8f17-4389-84de-fa58e845a130
+type: text/vnd.tiddlywiki
+
+[[Teredo|Teredo Tunneling]] is a [[transition technology|IPv6 Transition Mechanism]] that gives full [[IPv6]] connectivity for [[IPv6]]-capable [[Hosts|Host]] that are on the [[IPv4]] [[Internet]] but have no native connection to an [[IPv6]] network.
+
+It can perform its function even from behind [[NAT|Network Address Translation]] devices such as home routers.
+
+Interestingly, this protocol can actually make your [[Server]] vulnerable if you don't pay enough attention. It is enabled in [[Windows Server]] by default, so in order to stay secure you have to do one of two things:
+
+* Configure [[Firewalls|Firewall]], [[Masquerading|IP Masquerading]], etc. __for [[IPv6]]__!
+* __Disable__ [[IPv6]] on the machine
+
+If you do neither - you've left a vulnerbility, and your [[NAT|Network Address Translation]] and whatnot is not going to help you!

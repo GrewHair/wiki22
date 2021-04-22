@@ -1,5 +1,5 @@
 created: 20210303131518025
-modified: 20210303133858598
+modified: 20210326220425172
 tags: Networking
 title: Destination Network Address Translation
 tmap.id: 5440cbd4-58c5-4b91-995c-f0e72dc28fbf
@@ -12,7 +12,8 @@ type: text/vnd.tiddlywiki
 [[Destination NAT|Destination Network Address Translation]] is commonly used to publish a service located in a [[Private Network]] on a publicly accessible [[IP Address]]. This can be useful for (at least) two things:
 
 * [[IP Masquerading]]
-* Consider you have a [[Private Network]] with several server [[Hosts|Host]] (e.g., a [[Web Server]], a [[Mail Server]] and an [[FTP Server]]) that you would like to make publically available. in such a case you would just give your [[Web Server]] [[Port]] 80 of your [[Router]]'s public [[IP Address]], give your [[FTP Server]] [[Port]] 21 and give your [[Mail Server]] [[Port]] 25!
+* Consider you have a [[Private Network]] with several server [[Hosts|Host]] (e.g., a [[Web Server]], a [[Mail Server|Mail Transfer Agent]] and an [[FTP Server]]) that you would like to make publically available. in such a case you would just give your [[Web Server]] [[Port]] 80 of your [[Router]]'s public [[IP Address]], give your [[FTP Server]] [[Port]] 21 and give your [[Mail Server|Mail Transfer Agent]] [[Port]] 25!
+
 
 [[Destination NAT|Destination Address Translation]] is commonly used for [[Port Forwarding]].
 

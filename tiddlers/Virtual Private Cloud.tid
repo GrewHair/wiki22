@@ -1,0 +1,19 @@
+created: 20210326212937717
+modified: 20210326214230953
+tags: Networking Cloud
+title: Virtual Private Cloud
+tmap.id: 2536fa8f-627c-4700-ab8b-20e5885ca923
+type: text/vnd.tiddlywiki
+
+A [[VPC|Virtual Private Cloud]] is an on-demand configurable pool of shared resources allocated within a __public__ [[Cloud|Cloud Computing]] environment, providing (some) isolation between the different organizations (users) using the resource.
+
+[[VPC|Virtual Private Cloud]] is most commonly used in the context of [[Cloud|Cloud Computing]] [[Infrastructure as a Service]]. In this context, the infrastructure provider, providing the underlying public cloud infrastructure, and the provider realizing the [[VPC|Virtual Private Cloud]] service over this infrastructure, may be different vendors!
+
+''Examples:''
+
+* [[Amazon Virtual Private Cloud]] by [[Amazon Web Services]]
+* [[IBM Cloud VPC]]
+* [[Google Cloud Platform]]
+* [[Microsoft Azure]] offers the possibility of setting up a [[VPC|Virtual Private Cloud]] using [[Virtual Networks|Azure Virtual Network]]
+
+https://en.wikipedia.org/wiki/Virtual_private_cloud

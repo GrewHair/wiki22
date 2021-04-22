@@ -1,0 +1,21 @@
+created: 20210328192041448
+modified: 20210328192400172
+tags: Bash
+title: Shell Names
+tmap.id: 2deb858c-c129-4194-841e-08268fcde761
+type: text/vnd.tiddlywiki
+
+''AKA Shell Identifiers''
+
+A [[Name|Shell Name]] is a [[Word|Shell Words]] consisting only of:
+
+* letters
+* numbers
+* underscores
+
+and beginning with a letter or an underscore.
+
+[[Names|Shell Names]] are used for identifying:
+
+* [[Shell Variables]]
+* [[Shell Functions]]

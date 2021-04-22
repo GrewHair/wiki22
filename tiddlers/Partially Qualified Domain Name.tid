@@ -1,5 +1,5 @@
 created: 20210228123727737
-modified: 20210228124525037
+modified: 20210326202944228
 tags: Networking Stub
 title: Partially Qualified Domain Name
 tmap.id: 04f6803d-3dd2-432b-9dc3-a872474f0f53
@@ -7,8 +7,8 @@ type: text/vnd.tiddlywiki
 
 ''AKA Relative Domain Name''
 
-In contrast with [[FQDN|Fully Qualified Domain Name]], a [[Partially Qualified Domain Name]] does not include all labels to the [[DNS Root|Root Domain Zone]].
+In contrast with [[FQDN|Fully Qualified Domain Name]], a [[Partially Qualified Domain Name]] does not include all [[Labels|Label (DNS)]] to the [[DNS Root|Root Domain Zone]].
 
-These are often simply [[Hostnames|Hostname]], i.e. the left-most label in an [[FQDN|Fully Qualified Domain Name]]. 
+These are often simply [[Hostnames|Hostname]], i.e. the left-most [[Label|Label (DNS)]] in an [[FQDN|Fully Qualified Domain Name]]. 
 
 https://en.wikipedia.org/wiki/Fully_qualified_domain_name#Partially_qualified_domain_name

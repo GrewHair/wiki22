@@ -1,0 +1,14 @@
+created: 20210326164031251
+modified: 20210326220141171
+tags: [[Windows Server]] Stub
+title: Microsoft Exchange Server
+tmap.id: f123cd10-8526-4ed9-85d4-1d9cfe91f45e
+type: text/vnd.tiddlywiki
+
+[[Microsoft Exchange Server]] is a [[Mail Server|Mail Transfer Agent]] and calendaring [[Server]] developed by [[Microsoft]]. It runs exclusively on [[Windows Server]] [[Operating Systems|Operating System]].
+
+[[Exchange Server]] uses a proprietary protocol called [[MAPI|Messaging Application Programming Interface]] to talk to [[Email Clients|Email Client]], but subsequently added support for [[POP3|Post Office Protocol]], [[IMAP|Internet Message Access Protocol]], and [[EAS|Exchange ActiveSync]].
+
+The standard [[SMTP|Simple Mail Transfer Protocol]] protocol is used to communicate to other [[Internet]] [[Mail Servers|Mail Transfer Agent]].
+
+https://en.wikipedia.org/wiki/Microsoft_Exchange_Server

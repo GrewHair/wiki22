@@ -1,0 +1,12 @@
+created: 20210326195438011
+modified: 20210326195924302
+tags: [[Windows Server]] Networking
+title: Remote Desktop Protocol
+tmap.id: 242ba7b6-b0a4-4f06-b7a7-b13e561f7e9e
+type: text/vnd.tiddlywiki
+
+''AKA RDP''
+
+[[RDP|Remote Desktop Protocol]] is a [[Proprietary Protocol]] developed by [[Microsoft]] which provides a user with a [[GUI|Graphical User Interface]] to connect to another computer over a network.
+
+[[TCP|Transmission Control Protocol]]/[[UDP|User Datagram Protocol]][[Port]]: 3389

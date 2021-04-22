@@ -1,0 +1,10 @@
+created: 20210328193813345
+modified: 20210328194014783
+tags: Bash
+title: Bash Command Grouping
+tmap.id: f0b2bc88-8f49-4262-a124-620f85377b73
+type: text/vnd.tiddlywiki
+
+* `( list )` - in a subshell
+* `{ list; }` -in the parent shell
+https://www.gnu.org/software/bash/manual/html_node/Command-Grouping.html

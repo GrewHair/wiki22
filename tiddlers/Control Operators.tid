@@ -1,0 +1,20 @@
+created: 20210328185601575
+modified: 20210328190153519
+tags: Bash
+title: Control Operators
+tmap.id: 38a4c53e-bdc6-499b-ae8e-aed8cd00acde
+type: text/vnd.tiddlywiki
+
+* `||` - execute right-hand side if left-hand side failed
+* `&&` - execute right-hand side if left-hand side succeeded
+* `;` - execute right-hand side after left-hand side, regardless of whether it succeeded or not
+* `&` - execute in background mode
+* `;;` - used to delimit cases in the switch statement
+* `;&` - ???
+* `;;&` - ??? ???
+* `|` - [[Pipe|Anonymous Pipe]]
+* `|&` - ...
+* `(` 
+* `)`
+
+https://www.gnu.org/software/bash/manual/html_node/Definitions.html

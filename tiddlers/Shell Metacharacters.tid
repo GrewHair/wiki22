@@ -1,0 +1,20 @@
+created: 20210328152430772
+modified: 20210328192036039
+tags: Bash
+title: Shell Metacharacters
+tmap.id: 32b3b5a4-55a6-4315-91e4-1388996716ba
+type: text/vnd.tiddlywiki
+
+In the [[Shell]], a [[Metacharacter|Shell Metacharacters]] is just any character that, when unquoted, separates words (i.e., you don't need to put spaces between them and other words).
+Here's the list of them:
+
+* space
+* tab
+* [[Newline]]
+* `;`
+* `|`, `<`, `>`
+* `(`, `)`
+* `&`
+
+
+''Note:'' the term [[Metacharacter|Shell Metacharacters]] refers to //literal characters//, i.e. //single// [[ASCII]] characters. Some erroneously describe things like `>>` or `>!` as [[Metacharacters|Shell Metacharacters]] - this is not correct! They usually confuse the notion with that of [[Operators|Shell Operators]].

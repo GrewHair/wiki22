@@ -1,0 +1,56 @@
+created: 20210328121836267
+modified: 20210328125826734
+tags: Bash
+title: Here Strings
+tmap.id: db0139e0-ce99-49f3-a1c1-4d05c5e3838a
+type: text/vnd.tiddlywiki
+
+How would you send a string/a variable to the [[Stdin|Standard Input]] of some command?
+
+Usually a lot of people would do this:
+
+```bash
+echo "${my_var}" | grep 'foo'
+```
+
+This has various issues to it:
+
+* ''Performance:'' you spawn separate [[processes|Process (Computing)]] for both `echo` and `grep`, which is somewhat costly (at least it probably mattered in the 70s :D)
+* ''Style:'' why would you create a [[Pipe|Anonymous Pipe]] for such a simple thing? And why would you use `echo` if you don't want your stuff to be printed out?
+* ''Variable Scopes:'' ''__in [[Bash]]__'', the right-hand side of the [[Pipeline|Anonymous Pipe]] is ran as a subshell, and so any variables it would define will be gone once it's done. Look at the example:
+*><$codeblock language="bash" code=
+'echo "hello world" | read first second
+echo $first $second'/>
+*>This will yield ` ` as output instead of the expected `hello world` (note that [[this is not the case with Zsh|Bash VS Zsh]], but since we do our scripting in [[Bash]] - it effing matters!)
+
+Really, only the last issue is somewhat relevant and not subjective today.
+
+The [[Here String syntax|Here Strings]] solve this edge case for us. Using [[Here Strings]] you would just write
+
+```bash
+grep 'foo' <<<"${my_var}"
+```
+for our first example, and
+
+```bash
+read first second <<< "hello world"
+echo $first $second
+```
+for the second one!
+
+It also works with [[Command Substitution]]:
+
+```bash
+grep 'hello' <<< "$(cat my_file)"
+```
+
+So for example, you could write some [[Python]]/[[Perl]]/[[Awk]]/whatnot code into a variable, and then just do
+
+```bash
+python3 <<< "${my_python_code}"
+```
+directly from a [[Bash]] script!
+
+https://www.youtube.com/watch?v=zYfT-QG--NE
+
+https://unix.stackexchange.com/questions/80362/what-does-mean

@@ -1,0 +1,13 @@
+created: 20210328161243073
+modified: 20210328161504876
+tags: Bash
+title: Shell Tokens
+tmap.id: 5c0474d6-f138-4204-b7a0-1a5666fa8ff6
+type: text/vnd.tiddlywiki
+
+A [[Token|Shell Tokens]] is a sequence of characters considered a single unit by the [[Shell]]. It can be either of the two:
+
+* [[a Word|Shell Words]]
+* [[an Operator|Shell Operators]]
+
+https://www.gnu.org/software/bash/manual/html_node/Definitions.html

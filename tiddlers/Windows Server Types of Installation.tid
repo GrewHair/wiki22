@@ -1,0 +1,14 @@
+created: 20210326175443406
+modified: 20210326180623274
+tags: [[Windows Server]]
+title: Windows Server Types of Installation
+tmap.id: cc68c7df-53e1-4ddf-bee8-a9d08824b06b
+type: text/vnd.tiddlywiki
+
+* Upgrade: Install Windows and keep files, settings, and applications
+** This is __not__ recommended for new product deployments - your system better be virgin!
+** Also the upgrade (at least for version 2012) is only possible if the following properties are compatible between your old and new systems:
+*** language
+*** [[edition|Windows Server 2019 Editions]]
+*** licensing (канал лицензирования)
+* Custom: Install Windows only (advanced)

@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200628224602510
-modified: 20210320204025099
+modified: 20210415185855632
 tags: Ubuntu Bash
 title: Bash Commands
 tmap.id: b73e9a56-df89-4833-8f6c-b8c1fadbd299
@@ -51,3 +51,10 @@ type: text/vnd.tiddlywiki
 * `free -g` - see available [[RAM]] in gigabytes
 * `nproc` - print the number of processing units available
 * `lscpu` - display information about the [[CPU]] architecture
+* `ls -a [2>&1] | tee [-a] output.file` - redirect [[Stdout|Standard Output]] to a [[file|File]] while still having it in the terminal (`2>&1` redirects the [[Stderr|Standard Error (Computing)]] too, `-a` appends instead of overwriting)
+* `lslocks` - list processes locking a file
+* Input remapping
+** `xev` - print [[X|X11]] events
+** `evtest` - the same, but low level
+* `dpkg -L <package-name>` - list files installed with a package
+* `readlink <file>` - print the destination of a symlink

@@ -1,0 +1,16 @@
+created: 20210328140956271
+modified: 20210328201347420
+tags: Bash
+title: $ in Bash
+tmap.id: 4385a7a8-28b3-4a33-902d-14cff03171f8
+type: text/vnd.tiddlywiki
+
+The '`$`' character in [[Bash]] introduces:
+
+* [[Parameter Expansion]]
+* [[Command Substitution]]
+* [[Arithmetic Expansion]]
+
+* [[Special Parameters|Bash Scripting]]
+
+https://www.gnu.org/software/bash/manual/html_node/Shell-Parameter-Expansion.html

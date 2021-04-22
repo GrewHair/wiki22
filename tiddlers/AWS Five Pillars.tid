@@ -1,0 +1,14 @@
+created: 20210405120607823
+modified: 20210405120925604
+tags: Cloud
+title: AWS Five Pillars
+tmap.id: 74807719-c42f-4716-be3d-f6c401d592f3
+type: text/vnd.tiddlywiki
+
+* [[Operational Excellence|Operational Excellence (AWS)]]
+* [[Security|Security (AWS)]]
+* [[Reliability|Reliability (AWS)]]
+* [[Performance Efficiency|Performance Efficiency (AWS)]]
+* [[Cost Optimization|Cost Optimization (AWS)]]
+
+https://aws.amazon.com/getting-started/fundamentals-core-concepts/?e=gs2020&p=fundoverview&p=gsrc&c=fo

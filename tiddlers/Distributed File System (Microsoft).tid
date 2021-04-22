@@ -1,0 +1,10 @@
+created: 20210326204951908
+modified: 20210326205830562
+tags: [[Windows Server]]
+title: Distributed File System (Microsoft)
+tmap.id: 0533a279-3077-45c9-a2cf-7ef644036292
+type: text/vnd.tiddlywiki
+
+''AKA DFS, MS-DFS, MSDFS''
+
+[[DFS|Distributed File System (Microsoft)]] is a set of [[Client]] and [[Server]] services that allow an organization using [[Windows|Microsoft Windows]] [[Servers]] to organize many [[distributed|Distributed Computing]] [[SMB|Server Message Block]] file shares into a [[Distributed File System]].

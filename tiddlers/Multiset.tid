@@ -1,0 +1,12 @@
+created: 20210325133628934
+modified: 20210325134330125
+tags: [[Set Theory]] [[Computer Science]] SQL
+title: Multiset
+tmap.id: 4e14e1f4-ab66-42c8-9e28-44d9170c55ac
+type: text/vnd.tiddlywiki
+
+''AKA Bag, Mset''
+
+[[Multiset]] is a modification of the concept of a [[Set]] that allows for multiple instances for each of its elements.
+
+The [[SQL]] [[Table]] model is a [[Multiset]], more commonly referred to as a [[Bag|Multiset]].

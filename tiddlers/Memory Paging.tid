@@ -1,0 +1,16 @@
+created: 20210326182735149
+modified: 20210326183628755
+tags: Linux [[Windows Server]] Computing
+title: Memory Paging
+tmap.id: b0082dce-cf28-4cf9-9b6e-25e2a7a91d18
+type: text/vnd.tiddlywiki
+
+''Russian: Подкачка Страниц''
+
+[[Memory Paging]] is a [[Memory Management]] scheme by which a computer stores and retrieves data from secondary storage for use in main memory.
+
+In this scheme, the [[Operating System]] retrieves data from secondary storage it same-size [[Blocks|Block (Data Storage)]] called [[Pages|Page (Computer Memory)]].
+
+Paging is an important part of [[Virtual Memory]] implementations in modern [[Operating Systems|Operating System]], using secondary storage to let programs exceed the size of available physical memory.
+
+https://en.wikipedia.org/wiki/Memory_paging
