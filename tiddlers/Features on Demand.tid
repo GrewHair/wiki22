@@ -1,0 +1,14 @@
+created: 20210423061236510
+modified: 20210423065522448
+tags: [[Windows Server]]
+title: Features on Demand
+tmap.id: 749bd3e5-a52f-425c-ba90-367b6c66a8a3
+type: text/vnd.tiddlywiki
+
+''AKA FOD''
+
+[[Features on Demand]] is a feature introduced in [[Windows 8]] and [[Windows Server 2012]] that allows you to remove [[Role|Roles (Windows Server)]] and [[Feature|Features (Windows Server)]] files (sometimes called [[Feature Payload]]) from the [[Operating System]] to conserve disk space, and install [[Roles|Roles (Windows Server)]] and [[Features|Features (Windows Server)]] from remote locations or installation media instead of from local computers.
+
+https://docs.microsoft.com/en-us/windows-server/administration/server-manager/configure-features-on-demand-in-windows-server
+
+https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/features-on-demand-v2--capabilities

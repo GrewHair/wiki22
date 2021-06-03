@@ -1,0 +1,11 @@
+created: 20210527114901109
+modified: 20210527115709629
+tags: Github [[Software Development]] [[Git Branching Strategies]] [[Version Control]] [[Continuous Integration]]
+title: Common Branching Pitfalls
+tmap.id: a74340a3-7ddb-4cf5-85c6-788a3afc3daf
+type: text/vnd.tiddlywiki
+
+* [[Branch-o-holic]]
+* [[The Never-Ending Branch]]
+* [[The Unknown Branch]]
+* [[Development Freeze]]

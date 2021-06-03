@@ -1,0 +1,10 @@
+created: 20210526124842475
+modified: 20210527110544675
+tags: Github [[Git Branching Strategies]] [[Software Industry]] [[Software Development]] [[Version Control]]
+title: Trunk-based Development
+tmap.id: d6761e2b-a2e8-4173-90e1-7151b9d959d4
+type: text/vnd.tiddlywiki
+
+''AKA TBD, Trunk-based branching strategy, Mainline-based branching strategy''
+
+[[Trunk-based Development]] is a branching model for [[Software Development]] where developers merge every new feature, bug fix, or other code change to one central branch in the [[Version Control System]]. This branch is called “trunk”, “mainline”, or in [[Git]], the “master branch”.

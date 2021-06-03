@@ -1,0 +1,14 @@
+created: 20210528113643839
+modified: 20210528113955903
+tags: SonarQube [[Code Analysis]]
+title: SonarQube Issue Types
+tmap.id: b6602af4-7e30-4f75-b70c-2c680234fa60
+type: text/vnd.tiddlywiki
+
+* [[Code Smells]]
+* [[Bugs|Bug]]
+* [[Vulnerabilities|Security Vulnerability]]
+
+These are three types of issues recognized by [[SonarQube]] that contribute to [[Technical Debt]].
+
+https://docs.sonarqube.org/latest/user-guide/issues/

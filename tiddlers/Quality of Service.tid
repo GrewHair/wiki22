@@ -1,0 +1,22 @@
+created: 20210603120213947
+modified: 20210603120955048
+tags: [[Network Performance]] Stub
+title: Quality of Service
+tmap.id: 678904bd-b71b-4381-982f-6abb639e3df9
+type: text/vnd.tiddlywiki
+
+''AKA QoS''
+
+[[Quality of Service]] is the description or measurement of the overall performance of a service, such as telephony or [[Computer Network]] or a [[Cloud Computing]] service, particularly the performance seen by the users of the network.
+
+To quantitatively measure [[Quality of Service]], several aspects of the network service can be considered:
+
+* [[Packet Loss]]
+* [[Bit Rate]]
+* [[Throughput]]
+* [[Transmission Delay]]
+* [[Availability]]
+* [[Jitter]]
+* etc
+
+https://en.wikipedia.org/wiki/Quality_of_service

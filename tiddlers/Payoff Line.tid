@@ -1,0 +1,12 @@
+created: 20210601165823284
+modified: 20210601170656405
+tags: [[Software Development]]
+title: Payoff Line
+tmap.id: ff48310a-bf7b-4bd4-8964-f684a8cdb8d7
+type: text/vnd.tiddlywiki
+
+''AKA Design Payoff Line''
+
+The [[Payoff Line]] is the amount of implemented functionality of an application under development, below which it is possible to trade off design quality for [[Time to Market]].
+
+https://martinfowler.com/bliki/DesignPayoffLine.html

@@ -1,0 +1,17 @@
+created: 20210603121007616
+modified: 20210603122303526
+tags: [[Quality Assurance]] [[Software Testing]] Stub
+title: Load Testing
+tmap.id: 4b5a7f0e-feec-4ebc-af24-2511e7ff7470
+type: text/vnd.tiddlywiki
+
+[[Load Testing]] is the process of putting demand on a software system and measuring its response.
+
+[[Load Testing]] lets you measure your website's [[Quality of Service]] based on actual customer behavior. Nearly all the [[Load Testing Tools]] follow the classical paradigm:
+
+* When customers visit your [[Web Site]], a [[Script Recorder|Script Recorder (Load Testing)]] records the communication and creates related [[Interaction Scripts|Interaction Script]]
+* A [[Load Generator]] tries to replay the recorded [[Scripts|Interaction Script]] (which could possibly be modified with different test parameters before replay)
+* In the replay procedure, the hardware and software statistics (like CPU, memory, disk IO, [[Response Time]], [[Throughput]], etc) will be monitored and collected by the conductor
+* At last, all these statistics will be analyzed and a [[Load Testing]] report will be generated
+
+https://en.wikipedia.org/wiki/Load_testing

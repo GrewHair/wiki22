@@ -1,0 +1,14 @@
+created: 20210527123321407
+modified: 20210527124232683
+tags: [[Git Branching Strategies]] [[Software Development]] [[Version Control]]
+title: Development Freeze
+tmap.id: 59a4d22a-0880-42a3-864b-a628f1b6e852
+type: text/vnd.tiddlywiki
+
+[[Development Freeze]] happens when the development is persistently forced to shift focus nearly exclusively to shipping the releases, and thus doesn't really do much development anymore, which makes the product substantially less future-proof.
+
+What happens is that the subsequent releases are blocked from making progress until the current release is dealt with.
+
+Such problems may arise in cases when the infrastructure doesn't provide sufficient means to branch the development process (so [[Branching|Branching (Version Control)]] would be actually //useful// here)
+
+[[Development Freeze]] is an [[Antipattern]].

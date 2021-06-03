@@ -1,0 +1,34 @@
+created: 20210523221748815
+modified: 20210523230704750
+tags: Linux Ansible [[Configuration Management]]
+title: Ansible Babysteps
+tmap.id: 5dfbc3af-dc19-41a4-ac2b-44607a6cbf61
+type: text/vnd.tiddlywiki
+
+* This 'pings' all the [[Hosts|Host]] found in the [[Inventory File|Ansible Inventory File]] (i.e. it tests their availability - it doesn't really use [[ICMP]], the name is somewhat symbolic)
+*><$codeblock language="bash" code="
+ansible all --key-file ~/.ssh/ansible -i inventory -m ping
+"/>
+* This just lists all the [[Hosts|Host]] (implying you have all the relevant paths, etc, in your [[ansible.cfg]] file):
+*><$codeblock language="bash" code="
+ansible all --list-hosts
+"/>
+* List various information about the [[Hosts|Host]]:
+*><$codeblock language="bash" code="
+# for all hosts
+ansible all -m gather_facts
+# for one host
+ansible all -m gather_facts --limit 172.16.250.132
+"/>
+* Update apt's cache (equivalent to `sudo apt update`), prompting for sudo password:
+*><$codeblock language="bash" code="
+ansible all -m apt -a update_cache=true --become --ake-become-pass
+"/>
+* Install [[tmux]] on all the [[Hosts|Host]]:
+*><$codeblock language="bash" code="
+ansible all -m apt -a name=tmux --become --ask-become-pass
+"/>
+* `sudo apt dist-upgrade`
+*><$codeblock language="bash" code='
+ansible all -m apt -a "upgrade=dist" --become --ask-become-pass
+'/>

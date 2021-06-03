@@ -1,0 +1,16 @@
+created: 20210423071320196
+modified: 20210423072049393
+tags: Computing
+title: Firmware
+tmap.id: f193469b-d81d-4f7f-b812-7514b00bf39f
+type: text/vnd.tiddlywiki
+
+''Russian: Прошивка, Встроенное ПО''
+
+[[Firmware]] is a specific class of [[Software]] that provides low-level control for a device's specific [[Hardware]].
+
+Any device, computer peripheral, etc (like mice, keyboards, webcams, [[Hard Disk Drives|Hard Disk Drive]], ... ) with at least some level of intelligence runs some sort of [[Firmware]].
+
+https://en.wikipedia.org/wiki/Firmware
+
+https://superuser.com/questions/299442/difference-and-relation-between-firmware-and-device-driver#:~:text=Firmware%20is%20the%20software%20that,to%20communicate%20with%20the%20device.

@@ -1,0 +1,21 @@
+created: 20210601164140027
+modified: 20210601165652013
+tags: [[Test Driven Development]]
+title: F.I.R.S.T.
+tmap.id: fd9decea-ae86-4606-afdc-45a4c4d6910e
+type: text/vnd.tiddlywiki
+
+[[F.I.R.S.T.]] are a [[Set]] of [[Unit Testing]] principles:
+
+[[Unit Tests|Unit Testing]] should be:
+
+* ''__F__''ast
+*>[[Unit Tests|Unit Testing]] are meant to be run frequently in order to allow the developer frequent and easy refactoring. In order to achieve this, [[Unit Tests|Unit Testing]] have to be fast, because nobody wants to run slow things frequently.
+* ''__I__''ndependent
+*>[[Unit Tests|Unit Testing]] should be independent from each other. You should be able to run them in any order you like.
+* ''__R__''epeatable
+*>[[Tests|Unit Testing]] should be repeatable in any environment - be it production, [[QA|Quality Assurance]], staging environment, or even a simple laptop. Test result must be the same at every time at every location.
+* ''__S__''elf-validating
+*>[[Tests|Unit Testing]] should have [[Boolean]] output - either pass or fail. You shouldn't have to read through logs to figure that out.
+* ''__T__''imely
+*>[[Tests|Unit Testing]] should be developed in time - right after (or even before) the production code itself - otherwise you're likely to have to return to editing the code later.

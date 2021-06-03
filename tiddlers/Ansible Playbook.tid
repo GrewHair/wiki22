@@ -1,0 +1,42 @@
+created: 20210523230715691
+modified: 20210524003706819
+tags: Linux Ansible [[Configuration Management]]
+title: Ansible Playbook
+tmap.id: 458a714a-84a1-4efb-8a4b-c5c1d76f025f
+type: text/vnd.tiddlywiki
+
+''Example:''
+
+```yaml
+---
+
+- hosts: all
+  become: true
+  tasks:
+	
+  - name: install apache2 and php packages for Ubuntu
+    apt:
+      name:
+        - apache2
+        - libapache2-mod-php
+      state: latest
+      update_cache: yes
+    when: ansible_distribution == "Ubuntu"
+
+  - name: install apache2 and php packages for CentOS
+    dnf:
+      name:
+        - httpd
+        - php
+      state: latest
+      update_cache: yes
+    when: ansible_distribution == "CentOS"
+```
+
+''Note:'' to do `apt remove`, put `state: absent` inside the [[Playbook|Ansible Playbook]].
+
+Now, to run it:
+
+```bash
+ansible-playbook --ask-become-pass install_apache.yml
+```

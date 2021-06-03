@@ -1,0 +1,10 @@
+created: 20210525140918481
+modified: 20210525141019172
+tags: [[Test Driven Development]] Stub
+title: Mocks VS Stubs
+tmap.id: 5828887f-d0b8-4df2-94ab-0b22ac18895e
+type: text/vnd.tiddlywiki
+
+https://martinfowler.com/articles/mocksArentStubs.html
+
+https://stackoverflow.com/questions/3459287/whats-the-difference-between-a-mock-stub

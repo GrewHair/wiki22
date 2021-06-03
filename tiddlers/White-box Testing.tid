@@ -1,0 +1,10 @@
+created: 20210603124235173
+modified: 20210603124537881
+tags: [[Software Testing]] Stub
+title: White-box Testing
+tmap.id: 120bd1cc-be39-4448-adbd-9b429ba95fdb
+type: text/vnd.tiddlywiki
+
+''AKA Clear Box Testing, Glass Box Testing, Transparent Box Testing, Structural Testing''
+
+[[White-box Testing]] is a method of [[Software Testing]] that tests internal structures or workings of an application, as opposed to its functionality (i.e. [[Black-box Testing]]).

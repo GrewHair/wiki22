@@ -1,0 +1,31 @@
+created: 20210524025340018
+modified: 20210524030443582
+tags: Ansible Linux [[Configuration Management]]
+title: Managing Services
+tmap.id: 8041de12-e9b0-4493-adbf-03ba2d99d311
+type: text/vnd.tiddlywiki
+
+```yaml
+---
+
+- hosts: web_servers
+  become: true
+  tasks:
+
+  - name: install apache and php for CentOS servers
+    tags: apache,centos,httpd
+    dnf:
+      name:
+        - httpd
+        - php
+      state: latest
+    when: ansible_distribution == "CentOS"
+		
+  - name: start httpd (CentOS)
+    tags: apache,centos,httpd
+    service:
+      name: httpd
+      state: started
+      enabled: yes
+    when: ansible_distribution == "CentOS"
+```

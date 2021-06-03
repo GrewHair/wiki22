@@ -1,0 +1,47 @@
+created: 20210527075210012
+modified: 20210527110353898
+tags: [[Git Branching Strategies]] Github [[Software Development]] [[Software Industry]] [[Version Control]]
+title: Merge Conflict
+tmap.id: 6fb6f1e8-552c-450e-9b66-73f9cc04cbe1
+type: text/vnd.tiddlywiki
+
+$$
+\boxed{
+\begin{aligned}
+&\xcancel\texttt{int {\color{white}add(}int {\color{blue}a}{\color{white},} int {\color{blue}b}\color{white}) \{} \\
+&\texttt{int {\color{white}add(}int {\color{blue}a}{\color{white},} int {\color{blue}b}{\color{white},} int {\color{blue}c}\color{white}) \{} \\
+&\xcancel\texttt{\ \ \ \ return {\color{blue}a} {\color{white}+} {\color{blue}b}\color{white};} \\
+&\texttt{\ \ \ \ return {\color{blue}a} {\color{white}+} {\color{blue}b} {\color{white}+} {\color{blue}c}\color{white};} \\
+&\texttt{\color{white}\}}
+\end{aligned}
+}
+\ \ \ \ \ \ 
+\boxed{
+\begin{aligned}
+&\xcancel\texttt{int {\color{white}add(}int {\color{blue}a}{\color{white},} int {\color{blue}b}\color{white}) \{} \\
+&\texttt{int {\color{white}sum(}int {\color{blue}a}{\color{white},} int {\color{blue}b}\color{white}) \{} \\
+&\texttt{\ \ \ \ return {\color{blue}a} {\color{white}+} {\color{blue}b}} \\
+&\texttt{\color{white}\}}
+\end{aligned}
+}
+\\
+\ \ \ \ \ \ \ \ \ 
+{\Huge\searrow}
+\begin{matrix}
+\text{\color{orange}Conflicting} \\
+\text{\color{orange}changes}
+\end{matrix}
+{\Huge\swarrow}
+\\
+\\
+\begin{aligned}
+\boxed{
+\begin{aligned}
+&\texttt{int {\color{white}sum(}int {\color{blue}a}{\color{white},} int {\color{blue}b}{\color{white},} int {\color{blue}c}\color{white}) \{} \\
+&\texttt{\ \ \ \ return {\color{blue}a} {\color{white}
++} {\color{blue}b} {\color{white}+} {\color{blue}c}\color{white};} \\
+&\texttt{\color{white}\}}
+\end{aligned}
+}
+\end{aligned}
+$$

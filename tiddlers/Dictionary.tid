@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200127081801358
-modified: 20210326205908598
+modified: 20210525120948862
 tags: English
 title: Dictionary
 tmap.id: 7172dc91-dffa-4b19-8ff2-b250677e4524
@@ -49,3 +49,7 @@ type: text/vnd.tiddlywiki
 * peer to peer network - одноранговая сеть
 * swap file - файл подкачки
 * file share - файлопомойка :)
+* pipe - конвейер (in e.g. [[Bash]] and [[Powershell]])
+* front desk - стойка регистрации (в гостинице итд)
+* attourney - адвокат
+* payment in kind - бартер

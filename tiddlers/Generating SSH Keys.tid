@@ -1,0 +1,43 @@
+created: 20210523203903900
+modified: 20210523221741367
+tags: Linux
+title: Generating SSH Keys
+tmap.id: 5c620ff9-f7c5-4e52-b6e4-887db17d9b90
+type: text/vnd.tiddlywiki
+
+```bash
+ssh-keygen -t ed 25519 -C "some comment"
+ssh-copy-id -i ~/.ssh/id_ed25519.pub 172.16.250.133
+```
+
+Note that `ssh-keygen` prompts you for a file into which to save the [[key|Key Pair]], and if you are not careful there, you may lose your previous [[keys|Key Pair]] because it will just overwrite them.
+
+Generally you are free to name that file what you wish, so it's sensible to just call them based on their purpose. So, for example, to generate the [[keys|Key Pair]] for [[Ansible]], just do:
+
+```bash
+boris@computer:~$ ssh-keygen -t ed25519 -C "ansible"
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/home/boris/.ssh/id_ed25519): /home/boris/.ssh/ansible
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification nas been saved in /home/boris/.ssh/ansible
+Your public key has been saved in /home/boris/.ssh/ansible.pub
+The key fingerprint is:
+...
+```
+
+(Note that we also skipped the passphrase in this example, because with [[Ansible]] specifically you want it to do things automatically for you and not prompt you with anything).
+
+To then use a specific [[key|Key Pair]] to connect to a remote [[Server]] (let's assume we have created and added a bunch of them), just feed it to the `ssh` command like so:
+
+```bash
+ssh -i  ~/.ssh/ansible 172.16.250.133
+```
+
+There's a hack that lets you to not have to enter the passphrase all the time in case you have it. It goes like this:
+
+```bash
+alias ssha='eval $(ssh-agent) && ssh-add'
+```
+
+This could be put into something like a bashrc. The agent dies tho, once you close the terminal.

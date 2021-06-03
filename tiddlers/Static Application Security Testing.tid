@@ -1,0 +1,18 @@
+created: 20210603123922265
+modified: 20210603125352904
+tags: [[ Agile]] Security [[Static Program Analysis]] [[Software Development]] [[Software Testing]] Stub
+title: Static Application Security Testing
+tmap.id: 4ce31bb7-b889-43e7-8fdb-66d8ee987c42
+type: text/vnd.tiddlywiki
+
+''AKA SAST''
+
+[[Static Application Security Testing]] is reviewing the [[Source Code]] of the software to identify sources of vulnerabilities.
+
+The process of statically analyzing the source code has been around as long as computers have existed, but it spread to the [[Security]] realm in the late 90s, when issues like [[SQL Injection]] first came into being and technologies like [[JavaScript]] and [[Flash]] emerged.
+
+Unlike [[DAST|Dynamic Application Security Testing]] tools, which mainly focus on [[Black-box Testing]], [[SAST|Static Application Security Testing]] tools focus on the code content of the application (i.e. [[White-box Testing]]).
+
+A [[SAST|Static Application Security Testing]] tool scans the [[Source Code]] of applications and its components to identify potential security vulnerabilities in their architecture. It can detect an estimated 50% of existing security vulnerabilities.
+
+https://en.wikipedia.org/wiki/Static_application_security_testing

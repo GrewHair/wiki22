@@ -1,0 +1,16 @@
+created: 20210523222546205
+modified: 20210523230648210
+tags: Ansible Linux [[Configuration Management]]
+title: ansible.cfg
+tmap.id: 68c6cf21-07a7-4ae2-8691-0c1f4347044c
+type: text/vnd.tiddlywiki
+
+The system-wide one is located at `/etc/ansible/ansible.cfg`
+
+''Example:''
+
+```
+[defaults]
+inventory = inventory
+private_key_file = ~/.ssh/ansible
+```

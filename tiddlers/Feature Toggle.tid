@@ -1,0 +1,14 @@
+created: 20210527105953981
+modified: 20210527111151113
+tags: [[Git Branching Strategies]] Github [[Software Development]] [[Software Industry]] [[Continuous Integration]] [[Version Control]] Stub
+title: Feature Toggle
+tmap.id: 9876bc57-6e18-4350-bcae-a1636397e63a
+type: text/vnd.tiddlywiki
+
+Basically, [[Branching|Branching (Version Control)]] doesn't play well with [[Continuous Integration]], and thus we need another way to be able to segregate our work on different [[Features|Feature (Software)]] (particurarly, the unfinished ones, or the ones that generally take a long time to mature), while keeping them "close" to the active [[Branch|Branching (Version Control)]].
+
+[[Feature Toggles|Feature Toggle]] are one of such approach.
+
+The idea is, you implement in your source code the ability to turn certain features on and off at runtime.
+
+https://en.wikipedia.org/wiki/Feature_toggle

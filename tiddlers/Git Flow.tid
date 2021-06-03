@@ -1,0 +1,12 @@
+created: 20210526130011229
+modified: 20210527110525799
+tags: Github [[Git Branching Strategies]] [[Software Development]] [[Software Industry]] Stub [[Version Control]]
+title: Git Flow
+tmap.id: 02816829-05a9-4b6c-9ae4-703e3b513358
+type: text/vnd.tiddlywiki
+
+''AKA Gitflow, Git-flow, Git Flow Model''
+
+https://www.toptal.com/software/trunk-based-development-git-flow
+
+https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow

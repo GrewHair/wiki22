@@ -1,0 +1,8 @@
+created: 20210505125743759
+modified: 20210505130116132
+tags: C Stub [[The C Programming Language (Brian Kernighan, Dennis Ritchie)]]
+title: Stack Discipline
+tmap.id: 33e6c24e-a3f6-4865-9b6c-dd224bcd17cb
+type: text/vnd.tiddlywiki
+
+It requires sticking to using [[Local Variables|Local Variable]] within [[Functions|Function (Programming)]].

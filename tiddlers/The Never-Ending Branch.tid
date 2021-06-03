@@ -1,0 +1,12 @@
+created: 20210527115831054
+modified: 20210527123309810
+tags: [[Git Branching Strategies]] [[Version Control]] [[Software Development]]
+title: The Never-Ending Branch
+tmap.id: f2d2f485-8800-4dd2-93a7-0aaa7ad06dc1
+type: text/vnd.tiddlywiki
+
+[["The Never-Ending Branch"|The Never-Ending Branch]] is a [[Branch|Branching (Version Control)]] that was once created to address some specific issue, and yet somehow has in effect become an independent workspace, perhaps for a particular developer, unrelated to any specific [[Features|Feature (Software)]] or issues. 
+
+It becomes difficult to know what state was the [[Branch|Branching (Version Control)]] in at the time of each submit and whether or not the state was consistent.
+
+[[The Never-Ending Branch]] is an [[Antipattern]].

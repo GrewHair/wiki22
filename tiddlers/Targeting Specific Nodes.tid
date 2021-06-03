@@ -1,0 +1,93 @@
+created: 20210524003759754
+modified: 20210524042443371
+tags: Ansible Linux [[Configuration Management]]
+title: Targeting Specific Nodes
+tmap.id: 9ad2dfb8-4c8b-4b12-bcfe-829c432ec539
+type: text/vnd.tiddlywiki
+
+[[Inventory File|Ansible Inventory File]]:
+
+```ini
+[web_servers]
+172.16.250.132
+172.16.250.248
+
+[db_servers]
+172.16.250.133
+
+[file_servers]
+172.16.250.134
+```
+
+[[Playbook|Ansible Playbook]] (let's call it `site.yml` this time):
+
+```yaml
+---
+
+- hosts: all
+  become: true
+  pre_tasks:
+
+  - name: install updates (CentOS)
+    dnf:
+      update_only: yes
+      update_cache: yes
+    when: ansible_distribution == "CentOS"
+
+  - name: install updates (Ubuntu)
+    apt:
+      upgrade: dist
+      update_cache: yes
+    when: ansible_distribution == "Ubuntu"
+
+- hosts: web_servers
+  become: true
+  tasks:
+
+  - name: install apache and php for Ubuntu servers
+    apt:
+      name:
+        - apache2
+        - libapache2-mod-php
+      state: latest
+    when: ansible_distribution == "Ubuntu"
+
+  - name: install apache and php for CentOS servers
+    dnf:
+      name:
+        - httpd
+        - php
+      state: latest
+    when: ansible_distribution == "CentOS"
+
+- hosts: db_servers
+  become: true
+  tasks:
+
+  - name: install mariadb package (CentOS)
+    dnf:
+      name: mariadb
+      state: latest
+    when: ansible_distribution == "CentOS"
+
+  - name: install mariadb package (Ubuntu)
+    apt:
+      name: mariadb-server
+      state: latest
+    when: ansible_distribution == "Ubuntu"
+
+- hosts: file_servers
+  become: true
+  tasks:
+
+  - name: install samba package
+    package:
+      name: samba
+      state: latest
+```
+
+Run the [[Playbook|Ansible Playbook]]:
+
+```bash
+ansible-playbook --ask-become-pass site.yml
+```
