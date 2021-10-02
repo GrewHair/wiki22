@@ -1,0 +1,15 @@
+created: 20210603215016484
+modified: 20210603215555548
+tags: Go Docker Stub
+title: Go Templates
+tmap.id: 3f4af2b5-0d75-43fb-b2de-014b8697e521
+type: text/vnd.tiddlywiki
+
+These are used e.g. in the `docker inspect --format...` command to filter the output.
+
+```bash
+boris@computer:~/$ sudo docker inspect --format '{{ .NetworkSettings.IPAddress }}' 84844365db8f
+172.17.0.2
+```
+
+https://golang.org/pkg/text/template/

@@ -1,0 +1,24 @@
+created: 20210603221855409
+modified: 20210603222609153
+tags: Docker
+title: Docker Volumes
+tmap.id: 2498d10c-f9b5-4b26-b598-f4f3b5711fd7
+type: text/vnd.tiddlywiki
+
+You can mount a [[Docker Container]]'s directory to somewhere in your [[File System]] to make it persistently store the files that are to be added/modified while the [[Container|Docker Container]] is running.
+
+You can do that via the `-v` flag:
+
+```bash
+docker run -i -t -v ~/docker_ubuntu:/host_directory ubuntu 16.04 /bin/bash
+```
+
+Or in the [[Dockerfile]]:
+
+```dockerfile
+VOLUME /host_directory
+```
+
+In this case, if we run the [[Container|Docker Container]] without the `-v` flag, then its `/host_directory` will be mapped into the host's default directory for volumes, `/var/lib/docker/vfs/`.
+
+Flag takes precedence!
