@@ -1,0 +1,27 @@
+created: 20211002223040567
+modified: 20211002223935082
+tags: Git Stub [[Version Control with Git (EPAM Learn)]]
+title: Git Extras
+tmap.id: 72c82d77-e6bc-4540-94f8-e7be5e5414ff
+type: text/vnd.tiddlywiki
+
+```bash
+git config -- global user.name "Barys Dzemidziuk"
+git config -- global user.email "Barys_Dzemidziuk@epam.com"
+git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.exe'"
+git blame
+git bisect
+git log --pretty=oneline
+git log --pretty=format:"%h %s" -graph
+git config --global alias.last 'log -1 HEAD'
+git last
+git log master..experiment
+git filter-branch --tree-filter 'rm -f passwords.txt' HEAD
+git rerere
+git submodule
+```
+
+''Literature:''
+
+* Pro Git by Scott Chacon and Ben Straub
+* Version Control with Git by Jon Loeliger, Matthew McCullough

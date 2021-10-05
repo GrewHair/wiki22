@@ -1,0 +1,28 @@
+created: 20211005120459906
+modified: 20211005145929093
+tags: Linux
+title: Sudoers File
+tmap.id: 87817b77-5794-43d7-ac39-5e0bc942ab57
+type: text/vnd.tiddlywiki
+
+''Location:''
+`/etc/sudoers`
+
+The [[Sudoers File]] specifies which [[Users|User (Unix)]] can run which [[Commands|Command (Unix)]] on which [[Hosts|Host]] using [[sudo]].
+
+One [[Sudoers File]] may be shared across multiple machines (this feature is rarely used though).
+
+It is meant to be edited with the special `visudo` [[command|Command (Unix)]].
+
+''TLDR:''
+
+```
+%sudo   ALL=(ALL:ALL)       ALL  # debian
+
+%wheel  ALL=(ALL) NOPASSWD: ALL  # redhat
+```
+
+''Resources:''
+
+* `man sudoers`
+* https://toroid.org/sudoers-syntax

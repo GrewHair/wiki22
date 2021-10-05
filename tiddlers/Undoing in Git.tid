@@ -1,0 +1,53 @@
+created: 20211002224040966
+modified: 20211002224608148
+tags: Git Stub [[Version Control with Git (EPAM Learn)]]
+title: Undoing in Git
+tmap.id: d4f7a6e3-0233-4cf0-b259-cc4ccb666969
+type: text/vnd.tiddlywiki
+
+```
++----------------------+
+|  FILE SYSTEM         |
++----------------------+
+   |               ^
+   v               |
++----------------------+
+| INDEX (STAGING AREA) |
++----------------------+
+   |               ^
+   v               |
++----------------------+
+|  COMMIT              |
++----------------------+
+
++----------------------+
+|  REMOTE REPOSITORY   |
++----------------------+
+```
+
+* ''Working directory (file system)''
+
+```bash
+    git checkout -- file.txt
+    git checkout .
+    git clean -xdf  # -x to discard .gitignore, -d for directories, -f to force (required)
+```
+
+* ''Staging area (Index)''
+
+```bash
+    git reset -- file.txt
+```
+
+* ''Local branch''
+
+```bash
+    git reset HEAD^^ (HEAD~2)    # the quantity of carets (or alternatively the number after the tilde) determines how many commits we want to remove
+    git commit --amend -m "<commit message>"    # this just amends the existing latest commit (instead of creating a completely new one)
+```
+
+* ''Remote repository''
+
+```bash
+    git revert <sha1>
+```

@@ -1,0 +1,14 @@
+created: 20211004115537057
+modified: 20211004120534133
+tags: Computing [[Concurrency Control]] Stub
+title: Busy-waiting
+tmap.id: d8d7e323-37e0-4a72-8547-cf60ecee97e8
+type: text/vnd.tiddlywiki
+
+''AKA Busy-waiting, Busy Wait,Busy-looping, Spinning''
+
+[[Busy-waiting]] is a technique in which a [[Process|Process (Computing)]] repeatedly checks to see if a [[Condition]] is true, such as whether keyboard input or a [[Lock|Lock (Computer Science)]] is available.
+
+More often than not, [[Busy-waiting]] is an [[Antipattern]] (exceptions may include implementations of timers, deliberate blocking, etc).
+
+https://en.wikipedia.org/wiki/Busy_waiting

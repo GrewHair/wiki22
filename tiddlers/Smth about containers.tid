@@ -1,0 +1,38 @@
+created: 20211003173934554
+modified: 20211003175146868
+tags: 
+title: Smth about containers
+tmap.id: 343c194c-ed34-469f-bee5-96971bf9e267
+type: text/vnd.tiddlywiki
+
+```
+cpu
+├── batch
+│   ├── bitcoins
+│   │   └── 52
+│   └── hadoop
+│       ├── 109
+│       └── 88
+└── realtime
+    ├── nginx
+    │   ├── 25
+    │   ├── 26
+    │   └── 27
+    ├── postgres
+    │   └── 524
+    └── redis
+        └── 1008
+```
+
+```
+memory/
+├── 109
+├── 25
+├── 26
+├── 27
+├── 52
+├── 88
+└── databases
+    ├── 1008
+    └── 524
+```

@@ -1,12 +1,12 @@
 created: 20201103162952266
-modified: 20210126145354892
+modified: 20211003161535066
 tags: REST
 title: Endpoint
 tmap.id: 8c1dca07-ecf9-4e6f-9346-157d90401db9
 type: text/vnd.tiddlywiki
 
-An [[API]] [[Endpoint]] is a URL of a server or service.
+An [[API|REST API]] [[Endpoint]] is a URL of a server or service.
 
-It enables the [[API]] to to gain access to resources of a server.
+It enables the [[API|REST API]] to to gain access to resources of a server.
 
 ''IMPORTANT NOTE:'' the term [[Endpoint]] seems to have several slightly different meanings, at least in [[Networking]] and [[Web Development]], although I'm not sure quite yet if there really is any difference or what it is...

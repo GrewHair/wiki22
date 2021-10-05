@@ -1,0 +1,8 @@
+created: 20211005113024302
+modified: 20211005120456632
+tags: Linux
+title: Notes on sudo su
+tmap.id: c09a5a65-1f19-47d2-afb6-92993c4f719d
+type: text/vnd.tiddlywiki
+
+* `sudo su - <targetuser>`, though still popular, is deprecated now, in favour of `sudo -iu <targetuser>` - <a target="_blank" href="https://unix.stackexchange.com/questions/416633/sudo-access-vs-wheel-group">see this</a>.

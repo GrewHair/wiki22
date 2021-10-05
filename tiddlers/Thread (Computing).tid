@@ -1,0 +1,10 @@
+created: 20211004130739872
+modified: 20211004131055019
+tags: Computing
+title: Thread (Computing)
+tmap.id: 445654d4-11c0-4940-b9e9-049f11d7c851
+type: text/vnd.tiddlywiki
+
+a [[Thread|Thread (Computing)]] is a [[Scheduling|Scheduling (Computing)]] concept, it's what a [[CPU|Central Processing Unit]] actually runs.
+
+https://stackoverflow.com/questions/3042717/what-is-the-difference-between-a-thread-process-task

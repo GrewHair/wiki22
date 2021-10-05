@@ -1,0 +1,29 @@
+created: 20211002224739094
+modified: 20211002224935159
+tags: Ansible Stub
+title: Variable Precedence in Ansible
+tmap.id: 5be3f90f-30ae-4906-91a8-4d3c4cfd1fcf
+type: text/vnd.tiddlywiki
+
+# Extra vars
+# Include params
+# Role (and include_role) params
+# Set_facts / registered vars
+# Include_vars
+# Task vars (only for the task)
+# Block vars (only for tasks in the block)
+# Role vars
+# Play vars_files
+# Play vars_prompt
+# Play vars
+# Host facts / Cached set_facts
+# Playbook host_vars
+# Inventory host_vars
+# Inventory file/script host vars
+# Playbook group_vars
+# Inventory group_vars
+# Playbook group_vars/all
+# Inventory group_vars/all
+# Inventory file or script group vars
+# Role defaults
+# Command line values (e.g., -u user)

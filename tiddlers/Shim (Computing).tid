@@ -1,0 +1,15 @@
+created: 20211003154001190
+modified: 20211003165802753
+tags: Computing
+title: Shim (Computing)
+tmap.id: 28764eba-9d97-44ea-92dd-5d4f3c71fdc2
+type: text/vnd.tiddlywiki
+
+A [[Shim|Shim (Computing)]] is a [[Library|Library (Computing)]] that [[transparently]] intercepts [[API|Application Programming Interface]] [[calls|Function Call]] and changes the arguments passed, handles the operation itself, or redirects the operation elsewhere.
+
+They are sometimes used to support an old [[API|Application Programming Interface]] in a new environment.
+
+An example would be [[Dockershim]]. (???)
+
+https://en.wikipedia.org/wiki/Shim_(computing)
+https://stackoverflow.com/questions/2116142/what-is-a-shim

@@ -1,0 +1,9 @@
+created: 20211004152452206
+modified: 20211004152550567
+tags: Linux Monitoring
+title: Some Linux Metrics
+tmap.id: e9c3a5ce-23d1-4fa8-afd6-233edb2154a9
+type: text/vnd.tiddlywiki
+
+* [[Load Average]]
+* [[CPU Utilization]]

@@ -1,0 +1,27 @@
+created: 20211004100402631
+modified: 20211004120906521
+tags: Computing Linux Unix
+title: Context Switch
+tmap.id: e5a4969b-ae73-448a-b475-f713dccd3edd
+type: text/vnd.tiddlywiki
+
+A [[Context Switch]] is a process of storing the [[state|State (Computer Science)]] of a [[process|Process (Computing)]] or a [[thread|Thread (Computing)]], so that it can be restored and resume [[execution|Execution (Computing)]] at a later point.
+
+There are three potential triggers for a [[Context Switch]]:
+
+* [[Multitasking|Computer Multitasking]]
+* [[Interrupt Handling|Interrupt Handler]]
+* [[User|User Mode]] and [[Kernel Mode]] switching
+
+<br>
+
+Based on whether [[processes|Process (Computing)]] or [[threads|Thread (Computing)]] are switched, there may be two kinds of [[Context Switching|Context Switch]]:
+
+* [[Process Switch]]
+* [[Thread Switch]]
+
+The main difference is the cost.
+
+https://en.wikipedia.org/wiki/Context_switch
+
+https://www.javatpoint.com/what-is-the-context-switching-in-the-operating-system

@@ -1,0 +1,17 @@
+created: 20211005122451519
+modified: 20211005123535749
+tags: Linux
+title: sudo
+tmap.id: c5a8f48e-adf3-41c0-a9f7-9bbb48b835e6
+type: text/vnd.tiddlywiki
+
+[[sudo]] actually does two things:
+
+* Allows you to substitute [[User|User (Unix)]] using __your own__ password, instead of having to know the [[Root's|Root User (Unix)]] password
+*> //This way you prevent frequent leakages of passwords that [[su]] suffered from//
+* Makes this substitution necessarily one-time - i.e., once the [[Command|Command (Unix)]] prefixed with [[sudo]] [[returns|Return]], you are yourself again
+*> //This prevents needing to be logged in as [[Root|Root User (Unix)]] all the time - a [[Security Vulnerability]] that [[su]] imposed//
+
+<br>
+
+Who can do what using [[sudo]] can be controlled via the [[Sudoers File]].

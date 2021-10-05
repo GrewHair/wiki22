@@ -1,0 +1,13 @@
+created: 20211004104339989
+modified: 20211004104623772
+tags: Computing Linux Unix Windows
+title: Computer Multitasking
+tmap.id: 65840bf0-5eb3-4747-be67-7e6ceada12c1
+type: text/vnd.tiddlywiki
+
+There are basically two kinds:
+
+* [[Cooperative Multitasking]]
+* [[Preemptive Multitasking]]
+
+https://en.wikipedia.org/wiki/Computer_multitasking

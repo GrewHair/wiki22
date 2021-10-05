@@ -1,0 +1,16 @@
+created: 20211005150709859
+modified: 20211005152202004
+tags: Linux Unix
+title: disown VS & VS nohup VS Terminal Multiplexers
+tmap.id: dab75dd5-f212-40ab-8af2-8d31f45a5d5c
+type: text/vnd.tiddlywiki
+
+* `disown` removes [[Jobs|Job (Unix)]] from the [[Job Table|Job Table (Unix)]] so that the [[Shell|Shell (Unix)]] [[Process|Process (Computing)]] doesn't send [[SIGHUP]] to them when the [[Session|Session (Unix)]] ends.
+** They thus become [[Orphan Processes|Orphan Process (Unix)]] and may either:
+*** be terminated by the [[Operating System]]
+*** more likely, be adopted by [[init|Init (Unix)]] and continue executing as [[Daemons|Daemon (Computing)]]
+* `&` just sends a [[Job|Job (Unix)]] to background, meaning that once the [[Session|Session (Unix)]] ends, they will be sent [[SIGHUP]] and likely terminate
+* `nohup` intercepts [[SIGHUP]], so that when the [[Session|Session (Unix)]] ends, a [[Job|Job (Unix)]] prefixed by it continues running
+* [[Terminal Multiplexers|Terminal Multiplexer]] are more complex, they don't come preinstalled and offer options to resume an interactive session on demand.
+
+https://stackoverflow.com/questions/15595374/whats-the-difference-between-nohup-and-ampersand

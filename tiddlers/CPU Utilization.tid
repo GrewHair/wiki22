@@ -1,0 +1,8 @@
+created: 20211004152558608
+modified: 20211004152825314
+title: CPU Utilization
+tmap.id: da1f0da7-6e57-4c60-91dd-d4d358638d4b
+type: text/vnd.tiddlywiki
+
+* open `top`
+* $$100 - \text{id} - \text{st}$$

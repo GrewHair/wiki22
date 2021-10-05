@@ -1,0 +1,16 @@
+created: 20211004155955324
+modified: 20211004162400204
+tags: Linux Monitoring Stub
+title: Pressure Stall Information
+tmap.id: 5e9017ad-dcbf-4164-8d6a-79e3e07b5fb3
+type: text/vnd.tiddlywiki
+
+''AKA PSI''
+
+It provides some more comprehensive performance metrics.
+
+https://www.kernel.org/doc/html/latest/accounting/psi.html
+
+https://lwn.net/Articles/759658/
+
+https://serverfault.com/questions/437138/which-metric-should-i-use-to-determine-when-a-server-is-low-on-memory

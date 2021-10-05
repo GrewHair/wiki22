@@ -1,0 +1,13 @@
+created: 20211002225046713
+modified: 20211002225335805
+tags: Git [[Version Control with Git (EPAM Learn)]] Stub
+title: Branching Strategies
+tmap.id: b714c2d1-0055-41d5-bf82-ee1fa1afa2f2
+type: text/vnd.tiddlywiki
+
+* Centralized strategy
+* Feature branch workflow
+* Gitflow
+* Integration manager workflow
+* Dictator and Lieutenants workflow
+* Forking workflow

@@ -1,0 +1,20 @@
+created: 20211002225410202
+modified: 20211002225525634
+tags: Git [[Version Control with Git (EPAM Learn)]] Stub
+title: Resolving Conflicts in Git
+tmap.id: 3f810315-8d2b-4b05-a27a-db1dfba8346c
+type: text/vnd.tiddlywiki
+
+```bash
+# abort merge
+git merge --abort
+
+# resolve by selecting version
+git checkout --Xours --Xtheirs
+
+# resolve manually
+git diff
+
+# undo merge
+git revert 09fe472
+```

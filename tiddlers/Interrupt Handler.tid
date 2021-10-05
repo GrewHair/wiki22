@@ -1,0 +1,20 @@
+created: 20211004120703448
+modified: 20211004122301673
+tags: Computing Linux Unix Stub [[Systems Programming]]
+title: Interrupt Handler
+tmap.id: dee0a6b2-b48e-42aa-aca9-a57890726e79
+type: text/vnd.tiddlywiki
+
+''AKA Interrupt Service Routine, ISR''
+
+[[Interrupt Handler]] is a special block of code associated with a specific [[Interrupt|Interrupt (Systems Programming)]] condition.
+
+[[Interrupt Handlers|Interrupt Handler]] are triggered by:
+
+* [[Hardware Interrupts|Hardware Interrupt]]
+* [[Software Interrupt|Software Interrupt]] instructions
+* [[Software Exceptions|Software Exception]]
+
+They are used to implement [[Device Drivers|Device Driver]] or transitions between protected modes, such as [[System Calls|System Call]].
+
+https://en.wikipedia.org/wiki/Interrupt_handler

@@ -1,0 +1,16 @@
+created: 20211005142549991
+modified: 20211005144340841
+tags: Linux Unix Stub
+title: Process Group (Unix)
+tmap.id: f3f413fa-3348-43b8-a269-e7357586d7c6
+type: text/vnd.tiddlywiki
+
+[[Process Groups|Process Group (Unix)]] are used to send [[Signals|Unix Signals]] to [[Processes|Process (Computing)]] in batches.
+
+''Use cases:''
+
+* Used in [[Job Control|Job Control (Unix)]], together with [[Sessions|Session (Unix)]]
+* Used in [[Pipes|Unix Pipes]]
+* ...
+
+https://en.wikipedia.org/wiki/Process_group

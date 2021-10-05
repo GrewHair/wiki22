@@ -1,0 +1,14 @@
+[
+    {
+        "created": "20211004113048557",
+        "text": "the second (last) link contains some interesting info:\n\n* PCB (process control block), which is a datastructure in the OS (not specifically Linux) that contains the process's context\n* an interesting chart explaining the cost of context switching, which I should probably draw later with plantuml or dot.\n\nSo please revisit it later. \n\n(Once you get to do it, this might be helpful/insightful: https://unix.stackexchange.com/questions/150734/where-is-pcb-on-linux\n)",
+        "modified": "20211004121956574",
+        "title": "Comment by '(anonymous)' on 'Context Switch'",
+        "type": "text/vnd.tiddlywiki",
+        "role": "comment",
+        "list": "[[Context Switch]]",
+        "edit-mode": "no",
+        "tmap.id": "75c00b9c-7b19-4c5f-8022-9e57d6246ab3",
+        "saved-text": "the second (last) link contains some interesting info:\n\n* PCB (process control block), which is a datastructure in the OS (not specifically Linux) that contains the process's context\n* an interesting chart explaining the cost of context switching, which I should probably draw later with plantuml or dot.\n\nSo please revisit it later. "
+    }
+]

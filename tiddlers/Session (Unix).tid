@@ -1,0 +1,20 @@
+created: 20211005140850016
+modified: 20211005144142282
+tags: Unix Linux
+title: Session (Unix)
+tmap.id: 90c99673-673a-487e-b4ae-1dc42e50b185
+type: text/vnd.tiddlywiki
+
+A [[Session|Session (Unix)]] is a collection of [[Process Groups|Process Group (Unix)]] that may or may not be attached to a terminal.
+
+''Use cases:''
+
+* [[Sessions|Session (Unix)]] are used in [[Job Control|Job Control (Unix)]]: one //(and only one?)// of the [[Process Groups|Process Group (Unix)]] in a [[Session|Session (Unix)]] is the foreground [[Process Group]], and is given the ability to e.g. receive [[Keyboard Interrupts|Keyboard Interrupt (Unix)]].
+* When a [[User|User (Unix)]] logs out, they help the [[Kernel|Kernel (Operating Systems)]] figure out which [[Processes|Process (Computing)]] to terminate.
+* ...
+
+The [[Session's|Session (Unix)]] ID is the same as the [[PID|Process Identifier]] of the [[Process|Process (Computing)]] that created the [[Session|Session (Unix)]] via the [[setsid() System Call]].
+
+https://stackoverflow.com/questions/6548823/use-and-meaning-of-session-and-process-group-in-unix
+
+https://www.informit.com/articles/article.aspx?p=397655&seqNum=6
