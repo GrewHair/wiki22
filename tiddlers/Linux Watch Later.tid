@@ -1,0 +1,11 @@
+created: 20211008131531966
+modified: 20211008131957731
+tags: Linux
+title: Linux Watch Later
+tmap.id: 469c2d42-66ef-430e-aec7-3a25ef5d93a4
+type: text/vnd.tiddlywiki
+
+* search "linux wheel group"
+* https://www.youtube.com/watch?v=tBqNWznAuD0
+* https://www.youtube.com/watch?v=WYoKD3gszqo - an [[Arch|Arch Linux]] with [[i3|i3wm]] review that touches on interesting stuff like system snapshots and [[Firejail]]
+* https://www.youtube.com/watch?v=sK5i-N34im8 - a dude from [[Docker]] talking about [[Cgroups]] and [[Namespaces|Linux Kernel Namespaces]]

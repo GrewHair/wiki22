@@ -1,0 +1,22 @@
+created: 20211007065327269
+modified: 20211007070130890
+tags: Artifactory Storage
+title: Checksum-based Storage
+tmap.id: 004b8944-f871-4ba1-9416-c03869aa21d9
+type: text/vnd.tiddlywiki
+
+[[Jfrog's|Jfrog]] [[Checksum-based Storage]] uses two fundamental components to manage binaries:
+
+* a ''Filestore''
+* a [[Database]]
+
+The [[Database]] maps a file's [[SHA1]] [[Checksum]] to its physical storage, and many operations on files are implemented as [[Transactions|Database Transaction]] in the [[Database]].
+
+It optimizes many aspects of repository management:
+
+* [[Deduplication]]
+* ...
+* Effecient search
+* ...
+
+https://jfrog.com/article/checksum-based-storage/
