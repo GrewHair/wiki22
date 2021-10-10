@@ -1,0 +1,10 @@
+created: 20211010140121470
+modified: 20211010140335491
+tags: Linux Stub
+title: O(1) Scheduler
+tmap.id: ce88b72b-b885-4d18-a5c5-9d596b127076
+type: text/vnd.tiddlywiki
+
+''AKA Constant Time Scheduler''
+
+https://en.wikipedia.org/wiki/O(1)_scheduler
