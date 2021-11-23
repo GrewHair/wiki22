@@ -1,0 +1,8 @@
+created: 20211102151432599
+modified: 20211102151515230
+tags: OpenSSL [[Transport Layer Security]] Security Stub Web
+title: SSL Session Ticket
+tmap.id: c7f1ff73-2bea-473b-a9dc-da1806e54f84
+type: text/vnd.tiddlywiki
+
+https://stackoverflow.com/questions/19939247/ssl-session-tickets-vs-session-ids

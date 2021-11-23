@@ -1,0 +1,12 @@
+created: 20211117120133083
+modified: 20211117122359152
+tags: Zabbix
+title: Zabbix Frontend Sections
+tmap.id: 4a1fae5e-3690-4308-8e0e-2e931191f0fb
+type: text/vnd.tiddlywiki
+
+* [[Monitoring|Zabbix Frontend Sections/Monitoring]]
+* [[Inventory|Zabbix Frontend Sections/Inventory]]
+* [[Reports|Zabbix Frontend Sections/Reports]]
+* [[Configuration|Zabbix Frontend Sections/Configuration]]
+* [[Administration|Zabbix Frontend Sections/Administration]]

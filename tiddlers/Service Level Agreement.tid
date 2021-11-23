@@ -1,0 +1,18 @@
+created: 20211011183059944
+modified: 20211011184253691
+tags: [[Customer Service]] ITIL Stub
+title: Service Level Agreement
+tmap.id: aacf8a95-de29-47aa-978f-7c4cffb3f5e8
+type: text/vnd.tiddlywiki
+
+''AKA SLA''
+
+A [[Service Level Agreement]] is a commitment between a [[Service Provider]] and a customer.
+
+It usually consists of a [[Service Level Objective]] plus a set of rewards/penalties applied to the [[Service Provider]], should he surpass/underperform the [[SLO|Service Level Objective]].
+
+''Simple example in plain english:''
+
+>//If availability of the application is 99% to 99.95% in a given month, the customer gets 10% off their monthly bill.//
+
+https://en.wikipedia.org/wiki/Service-level_agreement

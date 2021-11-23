@@ -1,0 +1,12 @@
+created: 20211028214635134
+modified: 20211028215301163
+tags: [[Hashicorp Vault]] [[Vault: Getting Started (Hashicorp Learn)]] Security Stub
+title: Problem Two: Applications Are Not To Be Trusted
+tmap.id: 873374f0-c2db-4938-b275-8b59a8e7ac9d
+type: text/vnd.tiddlywiki
+
+Even though [[Vault|Hashicorp Vault]] gives [[all these niceties|Problem One: What Vault Offers]], still, applications that get [[Secrets|Secret]] from [[Vault|Hashicorp Vault]] will inevitably leak them somehow:
+
+* through [[logs|Logging]] (write them to [[stdout|Standard Output]])
+* through diagnostic output (tracebacks, error reports, etc)
+* ship it out to external monitoring systems

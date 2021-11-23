@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200219125757576
-modified: 20200325163850953
+modified: 20211022160327933
 tags: Stub [[Machine Learning]] [[Designing Machine Learning Systems (David Julian)]]
 title: Association
 tmap.id: 4af77d83-34bb-4e29-991d-458308addf4f
@@ -11,4 +11,4 @@ type: text/vnd.tiddlywiki
 
 [[Association]] is an [[unsupervised|Unsupervised Learning]] [[task|Task]] to find a certain type of pattern of data.
 
-This task is behind product recommender systems such as those provided by Amazon.
+This [[task|Task]] is behind product [[recommender systems|Recommender System]] such as those provided by Amazon.

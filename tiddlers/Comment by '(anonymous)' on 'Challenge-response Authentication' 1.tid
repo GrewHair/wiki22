@@ -1,0 +1,10 @@
+created: 20211026142237880
+edit-mode: no
+list: [[Challenge-response Authentication]]
+modified: 20211026142359266
+role: comment
+title: Comment by '(anonymous)' on 'Challenge-response Authentication' 1
+tmap.id: b17ced32-0fed-465e-b777-7792068daf47
+type: text/vnd.tiddlywiki
+
+why then in the /etc/ssh/sshd_config is it so normal to see the ChallengeResponseAuthentication set to 'no'???

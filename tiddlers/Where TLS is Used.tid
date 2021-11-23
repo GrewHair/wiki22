@@ -1,0 +1,14 @@
+created: 20211101084337192
+modified: 20211101090748367
+tags: Security Stub Web [[Transport Layer Security]]
+title: Where TLS is Used
+tmap.id: b8ed1d58-814e-4a50-9352-6a33f7940b46
+type: text/vnd.tiddlywiki
+
+* [[HTTPS]] = [[HTTP|Hypertext Transfer Protocol]] + [[TLS|Transport Layer Security]]
+
+* [[SMTPS]] = [[SMTP|Simple Mail Transfer Protocol]] + [[TLS|Transport Layer Security]]
+
+* [[FTPS]] = [[FTP|File Transfer Protocol]] + [[TLS|Transport Layer Security]]
+
+* ...

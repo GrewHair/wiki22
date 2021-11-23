@@ -1,0 +1,11 @@
+created: 20211020190111576
+edit-mode: no
+list: [[List of Files (OpenSSH)]]
+modified: 20211020190733571
+role: comment
+saved-text: for some fucking reason, the arrows are off when the tiddler is not open for editing... I've increased the 'top' parameter of the spans to adjust for this.
+title: Comment by '(anonymous)' on 'New Tiddler 2'
+tmap.id: 45489d62-6391-4a06-b0e9-23e23a7117d3
+type: text/vnd.tiddlywiki
+
+for some fucking reason, the arrows are off when the tiddler is not open for editing... I've increased the 'top' parameter of the all 'arrow' spans by 10px to adjust for this.

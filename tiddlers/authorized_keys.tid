@@ -1,0 +1,14 @@
+created: 20211020142747504
+modified: 20211021122523505
+tags: Linux Security OpenSSH SSH
+title: authorized_keys
+tmap.id: de7bc85d-0917-4320-8431-59b8c7ef386e
+type: text/vnd.tiddlywiki
+
+The [[authorized_keys]] [[file|File]] can be found at `~/.ssh/authorized_keys` of an [[SSH Server]].
+
+[[authorized_keys]] lets the [[server|SSH Server]] to [[authenticate|Authentication]] the [[user|User (Unix)]].
+
+Its purpose is to allow other [[users|User (Unix)]] to connect to a given [[home directory|Home Directory (Unix)]] (i.e. [[users|User (Unix)]] other than the one who owns the [[home directory|Home Directory (Unix)]]) on an [[SSH Server]].
+
+The [[Unix Permissions]] for `~/.ssh/` are `drwx------`, and thus only the owner of the [[home directory|Home Directory (Unix)]] on the [[server|SSH Server]] (or else the [[Superuser|Root User (Unix)]], of course) is in control of who is allowed to connect.

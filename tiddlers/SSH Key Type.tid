@@ -1,0 +1,10 @@
+created: 20211021120325307
+modified: 20211021120806825
+tags: SSH OpenSSH Linux Stub
+title: SSH Key Type
+tmap.id: 1eea6fdd-1272-429f-abbb-e4f736613b8a
+type: text/vnd.tiddlywiki
+
+[[OpenSSH]] refers to various [[Public-key Algorithms|Public-key Encryption Scheme]] as so-called [[Key Types|SSH Key Type]] - hence the `-t` flag in the <$link to="ssh-keygen">`ssh-keygen`</$link> utility.
+
+https://chealion.ca/blog/ssh-key-types-and-cryptography-the-short-notes/

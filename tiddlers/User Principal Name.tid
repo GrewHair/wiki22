@@ -1,0 +1,26 @@
+created: 20211019141508196
+modified: 20211019142654427
+tags: [[Active Directory]] Windows
+title: User Principal Name
+tmap.id: e4ce058d-b523-4786-ba9c-ccf5f62fee57
+type: text/vnd.tiddlywiki
+
+''AKA UPN''
+
+[[UPN|User Principal Name]] is used to specify an internet-style name, the format is:
+
+```
+UserName@Example.Microsoft.com
+```
+
+where:
+
+* `UserName` is a [[User Account Name]]
+* `@` is a separator
+* `Example.Microsoft.com` is a [[UPN|User Principal Name]] suffix also known as the domain name
+
+[[UPN|User Principal Name]] is a new and preferred [[username format|Microsoft Username Formats]], intended to replace the older [[Down-Level Logon Name]].
+
+Because of its format, [[UPN|User Principal Name]] can be easily confused with an [[Email Address]], which is by design: the idea is if a company manages to keep the [[UPNs|User Principal Name]] and [[Email Addresses|Email Address]] of its employees one and the same, there will be only one thing for the employees to memorize - however not being aware of this distinction may potentially lead to confusion, because a [[UPN|User Principal Name]] and an [[Email Address]] //can easily// be different.
+
+https://docs.microsoft.com/en-us/windows/win32/secauthn/user-name-formats#user-principal-name

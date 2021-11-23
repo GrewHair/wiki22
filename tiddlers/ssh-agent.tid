@@ -1,0 +1,18 @@
+created: 20211025111918373
+modified: 20211027120052386
+tags: SSH OpenSSH Stub
+title: ssh-agent
+tmap.id: 1bb1ce9d-a8e6-4d06-992b-dcca8c1c41cd
+type: text/vnd.tiddlywiki
+
+https://unix.stackexchange.com/questions/72552/whats-the-purpose-of-ssh-agent
+
+To start it, run:
+
+```bash
+eval $(ssh-agent)
+```
+
+Why `eval`? Because this:
+
+https://unix.stackexchange.com/questions/351725/why-eval-the-output-of-ssh-agent

@@ -1,0 +1,12 @@
+created: 20211028220016141
+modified: 20211028221158408
+tags: [[Hashicorp Vault]] [[Vault: Getting Started (Hashicorp Learn)]] Security Stub
+title: Problem Three: Poor Cryptography
+tmap.id: 93ad2e9f-e169-4032-b827-07192715d58c
+type: text/vnd.tiddlywiki
+
+[[Vault|Hashicorp Vault]] is designed to only keep [[Secrets|Secret]] and __not__ all of the [[Sensitive Data]] (like phone numbers, medical information, etc) - and thus the duty of keeping this [[data|Sensitive Data]] safe is still on applications, and they often fulill it poorly.
+
+So even if [[Vault|Hashicorp Vault]] stores the encryption keys safely - bugs and stuff in the implementation of cryptography itself by the applications can still literally fuck everything up.
+
+https://learn.hashicorp.com/tutorials/vault/getting-started-intro?in=vault/getting-started

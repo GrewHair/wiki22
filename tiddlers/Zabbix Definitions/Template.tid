@@ -1,0 +1,12 @@
+created: 20211117153340579
+modified: 20211117154623171
+tags: Zabbix Stub
+title: Zabbix Definitions/Template
+tmap.id: 4de10788-e68a-4368-8b65-a18e20236272
+type: text/vnd.tiddlywiki
+
+A set of entities ([[items|Zabbix Definitions/Item]], [[triggers|Zabbix Definitions/Trigger]], graphs, [[low-level discovery rules|Zabbix Definitions/Low-level Discovery Rule]], [[web scenarios|Zabbix Definitions/Web Scenario]]) ready to be applied to one or several [[hosts|Zabbix Definitions/Host]].
+
+The job of [[templates|Zabbix Definitions/Template]] is to speed up the deployment of monitoring tasks on a [[host|Zabbix Definitions/Host]]; also to make it easier to apply mass changes to monitoring tasks.
+
+[[Templates|Zabbix Definitions/Template]] are linked directly to individual [[hosts|Zabbix Definitions/Host]].

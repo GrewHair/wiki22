@@ -1,0 +1,18 @@
+created: 20211011181528480
+modified: 20211011184322052
+tags: [[Customer Service]] ITIL Stub
+title: Service Level Indicator
+tmap.id: deda01ec-28f9-47a5-8e45-20e275d03b83
+type: text/vnd.tiddlywiki
+
+''AKA SLI, SLA Metric''
+
+A [[Service Level Indicator]] is a measure of the [[Service Level]] provided by a [[Service Provider]] to a customer.
+
+''Simple example in plain english:''
+
+> //Over the previous years, the application has been available 99.95% of the time.//
+
+[[SLIs|Service Level Indicator]] form the basis of [[Service Level Objectives|Service Level Objective]].
+
+https://en.wikipedia.org/wiki/Service_level_indicator

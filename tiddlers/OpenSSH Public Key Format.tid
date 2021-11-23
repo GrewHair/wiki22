@@ -1,0 +1,16 @@
+created: 20211028103320398
+modified: 20211028104343389
+tags: SSH OpenSSH Stub
+title: OpenSSH Public Key Format
+tmap.id: 977bc9e0-2f20-4a87-b19a-42c6b783b9e4
+type: text/vnd.tiddlywiki
+
+[[OpenSSH]] doesn't use [[PEM|PEM Format]] for [[Public Keys|Public Key]] at all. Instead it uses its own format, which is nevertheless documented in <a target="_blank" href="https://datatracker.ietf.org/doc/html/rfc4253#section-6.6">RFC 4253</a>.
+
+Briefly speaking, it consists of three parts:
+
+* The [[Key Type|SSH Key Type]]
+* A chunk of [[PEM|PEM Format]]-encoded data
+* A comment
+
+http://blog.oddbit.com/post/2011-05-08-converting-openssh-public-keys/

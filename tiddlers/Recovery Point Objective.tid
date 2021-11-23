@@ -1,0 +1,12 @@
+created: 20211011184827305
+modified: 20211011185236136
+tags: [[Disaster Recovery]] [[IT Risk Management]] ITIL
+title: Recovery Point Objective
+tmap.id: 3455d254-82e8-42f8-8cb0-a33864c80ea0
+type: text/vnd.tiddlywiki
+
+''AKA RPO''
+
+A [[Recovery Point Objective]] is the maximum targeted period in which data (transactions) might be lost from an IT service due to a major [[Incident|Incident (ITIL)]].
+
+https://en.wikipedia.org/wiki/Disaster_recovery#Recovery_Point_Objective

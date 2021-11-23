@@ -1,0 +1,13 @@
+created: 20211028215302520
+modified: 20211028221050958
+tags: [[Hashicorp Vault]] [[Vault: Getting Started (Hashicorp Learn)]] Security Stub
+title: Problem Two: What Vault Offers
+tmap.id: 492357c0-c5cc-4cd2-bde1-5f2ae74cf787
+type: text/vnd.tiddlywiki
+
+* Dynamic Secrets
+** ephemeral
+** unique (easy to find the point of compromise)
+** easy to granularly revoke (the blast radius of a revocation is small)
+
+https://learn.hashicorp.com/tutorials/vault/getting-started-intro?in=vault/getting-started

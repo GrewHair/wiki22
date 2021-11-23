@@ -1,0 +1,13 @@
+created: 20211117150639171
+modified: 20211117151015388
+tags: Zabbix Stub
+title: Zabbix Definitions/Problem Update
+tmap.id: b868faef-7fcb-4a3a-a32e-d8ef9361dc7c
+type: text/vnd.tiddlywiki
+
+[[Problem|Zabbix Definitions/Problem]] management options provided by [[Zabbix]], such as:
+
+* adding comment
+* acknowledging
+* changing severity, or
+* closing manually.

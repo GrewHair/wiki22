@@ -1,0 +1,8 @@
+created: 20211117154840311
+modified: 20211117154923824
+tags: Zabbix Stub
+title: Zabbix Definitions/Web Scenario
+tmap.id: bfbfa9ee-439e-402e-a85a-1761c50c017e
+type: text/vnd.tiddlywiki
+
+One or several [[HTTP requests|HTTP Request]] to check the availability of a [[Website]].

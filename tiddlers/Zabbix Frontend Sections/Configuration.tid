@@ -1,0 +1,10 @@
+created: 20211117122715434
+modified: 20211117125108005
+tags: Zabbix Stub
+title: Zabbix Frontend Sections/Configuration
+tmap.id: d57b419f-17cf-439c-8c71-f7ee50f86f70
+type: text/vnd.tiddlywiki
+
+It's only available for [[Admins|Administrator (Zabbix)]].
+
+https://www.zabbix.com/documentation/current/manual/web_interface/frontend_sections/configuration

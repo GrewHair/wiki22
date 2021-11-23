@@ -1,0 +1,8 @@
+created: 20211117160400452
+modified: 20211117160447400
+tags: Zabbix Stub
+title: Zabbix Definitions/Widget
+tmap.id: 99d16a26-053a-442d-8a15-c5091dbe89ab
+type: text/vnd.tiddlywiki
+
+Visual unit displaying information of a certain kind and source (a summary, a map, a graph, the clock, etc), used in the [[dashboard|Zabbix Definitions/Dashboard]].

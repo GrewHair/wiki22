@@ -1,0 +1,8 @@
+created: 20211117155958543
+modified: 20211117160322676
+tags: Zabbix Stub
+title: Zabbix Definitions/Dashboard
+tmap.id: 37ff3d65-de10-4a88-bbac-84def251dc11
+type: text/vnd.tiddlywiki
+
+The customizable [[section|Zabbix Frontend Sections]] of the [[web interface|Zabbix Definitions/Frontend]] displaying summaries and vizualizations of important information in visual units called [[widgets|Zabbix Definitions/Widget]].

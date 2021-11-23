@@ -1,0 +1,8 @@
+created: 20211117152914473
+modified: 20211117153320939
+tags: Zabbix Stub
+title: Zabbix Definitions/Remote Command
+tmap.id: 61f12a02-464d-44bd-915c-307cf2a8e88b
+type: text/vnd.tiddlywiki
+
+A pre-defined command that is automatically executed on a [[monitored|Monitoring]] [[host|Zabbix Definitions/Host]] upon some condition.

@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200309111538848
-modified: 20210204123014436
+modified: 20211014115635974
 tags: Linguistics Hierarchy
 title: Chomsky Hierarchy
 tmap.id: f7f4624a-36fa-468a-8aba-245c4fe77859

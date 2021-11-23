@@ -1,0 +1,25 @@
+created: 20211105112932495
+modified: 20211105134458091
+tags: 
+title: smth jenkins
+tmap.id: 78027c5d-44e6-44fc-aafb-82691a569083
+type: text/vnd.tiddlywiki
+
+```zsh
+JENKINS_HOME
+├─ config.xml          # jenkins root configuration
+├─ *.xml               # jenkins root configuration
+├─ userContent         # files from here are saved under http://server/userContent
+├─ fingerprints        # stores fingerprint records
+├─ plugins             # stores plugins
+├─ workspace           # working directory for the version control system
+│    └─ [JOBNAME]      # sub directory for each job
+└─ jobs
+     └─ [JOBNAME]        # sub directory for each job
+          ├─ config.xml  # job configuration file
+          ├─ latest    # symbolic link to the last successful build
+          └─ builds
+               └─ [BUILD_ID]  # for each build
+                    ├─ build.xml  # build result symmary
+                    ├─ log  # log file
+                    └─ changelog.xml    # change log

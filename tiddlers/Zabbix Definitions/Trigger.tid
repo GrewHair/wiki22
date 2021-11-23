@@ -1,0 +1,10 @@
+created: 20211117144439260
+modified: 20211117144753671
+tags: Zabbix Stub
+title: Zabbix Definitions/Trigger
+tmap.id: 3c1e2761-acbb-4688-b0e6-cf2669e9f134
+type: text/vnd.tiddlywiki
+
+A logical expression that defines a problem threshold and is used to “evaluate” data received in [[items|Zabbix Definitions/Item]].
+
+When received data are above the threshold, [[triggers|Zabbix Definitions/Trigger]] go from `Ok` into a `Problem` state. When received data are below the threshold, [[triggers|Zabbix Definitions/Trigger]] stay in/return to an `Ok` state.

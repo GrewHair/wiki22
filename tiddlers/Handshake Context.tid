@@ -1,0 +1,15 @@
+created: 20211102144945782
+modified: 20211102145158792
+tags: [[Transport Layer Security]] Security Stub OpenSSL Web
+title: Handshake Context
+tmap.id: c8e59958-ddad-4923-a3bc-044c7fcecb76
+type: text/vnd.tiddlywiki
+
+It is mentioned here (Ctrl-F):
+https://datatracker.ietf.org/doc/html/rfc8446
+
+And also here:
+https://www.youtube.com/watch?v=-f4Gbk-U758
+at about 30:00
+
+It seems to be pretty important!

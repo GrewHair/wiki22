@@ -1,0 +1,13 @@
+created: 20211014103902176
+modified: 20211014115343009
+tags: Jenkins Stub
+title: Matrix-based Security (Jenkins)
+tmap.id: 81f5a4cd-84a8-4e11-87a9-f45ade2ae307
+type: text/vnd.tiddlywiki
+
+''Important notes:''
+
+* There are no //"deny"// checkboxes - only //"allow"//!
+* At the same time, some permissions (like e.g. //"Administer"//) imply other permissions
+* As the result of this, if you grant a user e.g. an //"Administer"// permission, you __can't__ then granularly disable some permissions
+* In situations where you inherit permissions or pull groups from e.g. [[LDAP|Lightweight Directory Access Protocol]], this means that some users may automatically gain more permissions than necessary - at times even without you noticing!

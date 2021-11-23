@@ -1,0 +1,8 @@
+created: 20211117151157381
+modified: 20211117152308197
+tags: Zabbix Stub
+title: Zabbix Definitions/Escalation
+tmap.id: eb9c1d89-c79a-4163-89bd-47a8c6535910
+type: text/vnd.tiddlywiki
+
+A custom scenario for executing operations within an [[action|Zabbix Definitions/Action]]; a sequence of sending [[notifications|Zabbix Definitions/Notification]]/executing [[remote commands|Zabbix Definitions/Remote Command]].

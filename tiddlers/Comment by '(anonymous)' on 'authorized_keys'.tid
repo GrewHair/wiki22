@@ -1,0 +1,11 @@
+created: 20211021103718393
+edit-mode: no
+list: authorized_keys
+modified: 20211021103945017
+role: comment
+title: Comment by '(anonymous)' on 'authorized_keys'
+tmap.id: d07e8816-f6e2-44a2-afac-bfeada7d8968
+type: text/vnd.tiddlywiki
+
+not too sure about permissions yet..
+e.g. this article http://www.fredshack.com/docs/openssh.html states that you should give ~/.ssh 555 permissions for it to be usable at all.. return to this when you're sure.

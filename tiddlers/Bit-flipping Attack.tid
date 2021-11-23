@@ -1,0 +1,12 @@
+created: 20211102125219683
+modified: 20211102125636856
+tags: Security Stub
+title: Bit-flipping Attack
+tmap.id: c56071c3-43f8-475d-a71f-d2151610d02b
+type: text/vnd.tiddlywiki
+
+In this type of attack, an attacker, though not being able to decrypt the message, can still alter it in transit.
+
+This is the reason why we should take some measures to make sure that the message hasn't been altered in transit - one example is [[Authenticated Encription]].
+
+https://en.wikipedia.org/wiki/Bit-flipping_attack

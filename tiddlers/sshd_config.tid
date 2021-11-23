@@ -1,0 +1,21 @@
+created: 20211026143002105
+modified: 20211026184020604
+tags: OpenSSH SSH Security
+title: sshd_config
+tmap.id: 89b2cafe-318f-4b25-abcf-e68cb910e3d2
+type: text/vnd.tiddlywiki
+
+[[sshd_config]] is the [[Configuration File]] of the [[SSH Server]] in [[OpenSSH]].
+
+The location is `/etc/ssh/sshd_config`
+
+''The usual stuff to set up there:''
+
+* `Include /etc/ssh/sshd_config.d/*.conf` - include any [[files|File]] found in the `sshd_config.d` [[directory|Directory (File Systems)]]
+* `Port 2222` - change the default [[port|Port (Networking)]] 22 to some other [[port|Port (Networking)]] - especially if you're setting up a [[Jump Host|SSH Bastion Host]] - for better secrecy
+* `PermitRootLogin no` - hackers love to try to log in with [[Root|Root User (Unix)]] - so don't give them that chance! //(Only do this if you already have another [[user|User (Unix)]] set up)//
+* `PasswordAuthentication no` - only do this once you have all of your [[SSH Keys|Public Key]] already in place
+
+''Important:''
+
+Once you're done editing your [[sshd_config]], you'll likely want to `systemctl restart sshd`, and then make a new [[SSH|Secure Shell]] connection to test your settings. It's all good - but __plese do not close your existing connection__ (i.e., the one you've used to actually configure the [[server|SSH Server]]) just yet! If you screwed up and now you can't log in - you'll at least have this connection to fix things - otherwise it's all sour...

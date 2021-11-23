@@ -1,0 +1,14 @@
+created: 20211028130522250
+modified: 20211028204252455
+tags: K8s Rancher [[Kubernetes Documentation]] [[Rancher Documentation]] Stub
+title: Workloads (K8s) - rename me!
+tmap.id: a4801250-0c82-44d0-a934-281a2fb8fe82
+type: text/vnd.tiddlywiki
+
+https://kubernetes.io/docs/concepts/workloads/
+
+https://rancher.com/docs/rancher/v2.5/en/k8s-in-rancher/workloads/
+
+Also look here (on resources):
+
+https://rancher.com/docs/rancher/v2.5/en/k8s-in-rancher/

@@ -1,0 +1,14 @@
+created: 20211026124404192
+modified: 20211028094246589
+tags: Security OpenSSH SSH Stub
+title: ssh_host_key
+tmap.id: 875f9189-19f0-4518-8dc7-a0c62a0849d2
+type: text/vnd.tiddlywiki
+
+The [[ssh_host_key]] [[file|File]] stores the [[Private Host Key|SSH Private Host Key]] (i.e. the [[Private Key]] of the [[SSH Server]]).
+
+A couple of notes:
+
+* Do __not__ delete this [[file|File]], or else next time you won't be able to connect to the [[server|SSH Server]], because it will fail the [[authentication|Server Authentication Stage (SSH)]];
+* If you have an [[image|Virtual Machine Image]] of your [[Server]] that you want to [[deploy|Deploying a Virtual Machine]] or [[clone|Cloning a Virtual Machine]], the [[ssh_host_key]] is going to get [[cloned|Cloning a Virtual Machine]] together with the rest of the [[File System]], which is a problem, because [[SSH Client]] uses [[fingerprints|Public Key Fingerprint]] of the [[keys|Public Key]] associated with [[these files|ssh_host_key]] to [[authenticate|Authentication]] the [[servers|SSH Server]], so they should be unique. Hense you should re-generate them when you're [[cloning|Cloning a Virtual Machine]].
+*> In fact, the [[SSH Client]] will think that there's a [[Man-in-the-middle Attack]] going on, when it sees different [[servers|SSH Server]] use the same [[host key|ssh_host_key]] (???)

@@ -1,0 +1,14 @@
+created: 20211116142555782
+modified: 20211116143153452
+tags: Jenkins
+title: Remote Root Directory (Jenkins)
+tmap.id: 7ace3399-d8e2-4b9d-929e-0c0796163813
+type: text/vnd.tiddlywiki
+
+[[Remote Root Directory]] in [[Jenkins]] is an [[agent|Jenkins Agent]] parameter that specifies the [[path|Path (Filesystems)]] to the [[directory]] dedicated to [[Jenkins]] on the [[agent|Jenkins Agent]] node's [[File System]].
+
+It then serves as a [[Root Directory]] for everything the [[Jenkins Agent]] stores on this machine.
+
+https://stackoverflow.com/questions/23780554/how-to-set-the-workspace-root-directory-on-jenkins-nodes
+
+https://scmquest.com/jenkins-master-slave-setup-and-configuration-with-screenshots/

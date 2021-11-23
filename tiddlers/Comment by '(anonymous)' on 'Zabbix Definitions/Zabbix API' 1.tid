@@ -1,0 +1,10 @@
+created: 20211117161108712
+edit-mode: no
+list: [[Zabbix Definitions/Zabbix API]]
+modified: 20211117161225550
+role: comment
+title: Comment by '(anonymous)' on 'Zabbix Definitions/Zabbix API' 1
+tmap.id: 23ac10b0-ae9f-466c-aba8-2d027adddba8
+type: text/vnd.tiddlywiki
+
+'create, update and fetch' - isn't it just CRUD? I probably should make a wikilink leading to CRUD here, although I better check why there's no 'delete' in this definition.

@@ -1,0 +1,14 @@
+created: 20211101083135116
+modified: 20211101090801385
+tags: Security Web Stub [[Transport Layer Security]]
+title: SSL\TLS Protocol Versions
+tmap.id: 2ff4048a-76ce-4d07-8433-a602477d2388
+type: text/vnd.tiddlywiki
+
+|!Protocol/Version|!Publisher|!Published|!Deprecated|
+|SSL 2.0|[[Netscape]]|1995|2011|
+|SSL 3.0|[[Netscape]]|1996|2015|
+|TLS 1.0|[[IETF|Internet Engineering Task Force]] <a target="_blank" href="">RFC 2246</a>|1999|2020|
+|TLS 1.1|[[IETF|Internet Engineering Task Force]] <a target="_blank" href="">RFC 4346</a>|2006|2020|
+|TLS 1.2|[[IETF|Internet Engineering Task Force]] <a target="_blank" href="">RFC 5246</a>|2008||
+|TLS 1.3|[[IETF|Internet Engineering Task Force]] <a target="_blank" href="">RFC 8446</a>|2018||

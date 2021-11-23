@@ -1,0 +1,9 @@
+created: 20211101090111895
+modified: 20211101105653015
+tags: Security Web Stub [[Transport Layer Security]]
+title: How TLS Works
+tmap.id: ac86e8ca-f484-4866-b1cc-bb84e4aed40e
+type: text/vnd.tiddlywiki
+
+* [[TLS Handshake Protocol]]
+* [[TLS Record Protocol]]

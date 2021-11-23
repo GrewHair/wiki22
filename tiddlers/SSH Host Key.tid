@@ -1,0 +1,19 @@
+created: 20211028091427226
+modified: 20211028095630883
+tags: Stub SSH OpenSSH Security [[SSH Academy]] ssh-keygen(1)
+title: SSH Host Key
+tmap.id: da98034a-5f4c-4fc3-9508-80f2f80e48a0
+type: text/vnd.tiddlywiki
+
+A [[Host Key|SSH Host Key]] is a [[Cryptographic Key]] used for [[authenticating|Authentication]] computers in the [[SSH Protocol|Secure Shell]].
+
+[[Host Keys|SSH Host Key]] are [[Key Pairs|Key Pair]], typically using the [[RSA|Rivest-Shamir-Adleman]], [[DSA|Digital Signature Algorithm]] or [[ECDSA|Elliptic Curve Digital Signature Algorithm]] [[algorithms|Public-key Encryption Scheme]].
+
+* [[Public Host Keys|SSH Public Host Key]] are stored on and/or distributed to [[SSH Clients|SSH Client]]
+** on a [[server|SSH Server]] they can be found at <$link to="ssh_host_key.pub">`/etc/ssh/ssh_host_key.pub`</$link> or similar
+** on a [[client|SSH Client]] their [[fingerprints|Public Key Fingerprint]] are kept at <$link to="known_hosts">`~/.ssh/known_hosts`</$link>
+* [[Private Host Keys|SSH Private Host Key]] are stored on [[SSH Servers|SSH Server]] (usually at <$link to="ssh_host_key">`/etc/ssh/ssh_host_key`</$link>)
+
+[[Host Keys|SSH Host Key]] __must__ have an empty [[Passphrase|SSH Passphrase]] (because there's noone to to prompt).
+
+https://www.ssh.com/academy/ssh/host-key

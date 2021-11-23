@@ -1,0 +1,10 @@
+created: 20211117151556673
+modified: 20211117152555344
+tags: Zabbix Stub
+title: Zabbix Definitions/Media
+tmap.id: d706c2c3-848c-45ed-8533-b25c7ab6751d
+type: text/vnd.tiddlywiki
+
+''AKA Media Channel''
+
+A means of delivering [[notifications|Zabbix Definitions/Notification]]; delivery channel.

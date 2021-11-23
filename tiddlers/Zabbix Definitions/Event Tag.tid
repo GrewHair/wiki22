@@ -1,0 +1,8 @@
+created: 20211117145323587
+modified: 20211117145657453
+tags: Zabbix Stub
+title: Zabbix Definitions/Event Tag
+tmap.id: c8527897-0897-4419-bd97-e4ef789752f4
+type: text/vnd.tiddlywiki
+
+A pre-defined marker for the [[Event|Zabbix Definitions/Event]]. It may be used in [[event correlation|Zabbix Definitions/Event Correlation]], permission granulation, etc.

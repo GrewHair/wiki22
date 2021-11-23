@@ -1,0 +1,8 @@
+created: 20211117160505230
+modified: 20211117161026947
+tags: Zabbix Stub
+title: Zabbix Definitions/Zabbix API
+tmap.id: 5dacf1e4-6836-4e6e-b478-d838116ce9dd
+type: text/vnd.tiddlywiki
+
+[[Zabbix API|Zabbix Definitions/Zabbix API]] allows you to use the [[JSON RPC protocol|JSON-RPC]] to create, update and fetch [[Zabbix]] objects (like [[hosts|Zabbix Definitions/Host]], [[items|Zabbix Definitions/Item]], graphs and others) or perform any other custom tasks.

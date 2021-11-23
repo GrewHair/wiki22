@@ -1,0 +1,15 @@
+created: 20211020125143472
+modified: 20211020125519082
+tags: Unix Linux
+title: Unix Manual Sections
+tmap.id: eb127b17-ddb6-4693-8883-c26415aa885e
+type: text/vnd.tiddlywiki
+
+# General commands
+# [[System Calls]]
+# Library functions, covering in particular the [[C standard library]]
+# Special files (usually devices, those found in /dev) and drivers
+# File formats and conventions
+# Games and screensavers
+# Misc.
+# System administration commands and [[daemons|Daemon (Unix)]]

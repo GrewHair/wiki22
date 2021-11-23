@@ -1,0 +1,10 @@
+created: 20211117122534149
+modified: 20211117125141497
+tags: Zabbix Stub
+title: Zabbix Frontend Sections/Administration
+tmap.id: 498d98f9-b445-4109-913d-532df6686fda
+type: text/vnd.tiddlywiki
+
+It's only available for [[Super Admins|Super Administrator (Zabbix)]].
+
+https://www.zabbix.com/documentation/current/manual/web_interface/frontend_sections/administration

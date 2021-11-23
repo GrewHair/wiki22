@@ -1,0 +1,20 @@
+created: 20211011182340166
+modified: 20211011184335433
+tags: [[Customer Service]] ITIL Stub
+title: Service Level Objective
+tmap.id: 0e583ec8-e329-4a5b-a906-4683ad66715c
+type: text/vnd.tiddlywiki
+
+''AKA SLO''
+
+A [[Service Level Objective]] is a key element of a [[Service Level Agreement]] between a [[Service Provider]] and a customer.
+
+[[SLOs|Service Level Objective]] are based on [[Service Level Indicators|Service Level Indicator]].
+
+[[SLOs|Service Level Objective]] are agreed upon as a means of measuring the performance of the [[Service Provider]] and are outlined as a way of avoiding disputes between two parties based on misunderstanding.
+
+''Simple example in plain english:''
+
+>//The application will be available 99.95% of the time.//
+
+https://en.wikipedia.org/wiki/Service-level_objective

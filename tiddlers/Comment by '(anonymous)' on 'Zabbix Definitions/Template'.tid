@@ -1,0 +1,10 @@
+created: 20211117154631865
+edit-mode: no
+list: [[Zabbix Definitions/Template]]
+modified: 20211117154757008
+role: comment
+title: Comment by '(anonymous)' on 'Zabbix Definitions/Template'
+tmap.id: a1ccf578-06ef-40de-92e6-9f9211bdef7e
+type: text/vnd.tiddlywiki
+
+there's this term 'monitoring task', that is referred to multiple times in the documentation, but is not in the definitions. It might potentially be a good candidate for a tiddler. 

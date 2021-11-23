@@ -1,0 +1,14 @@
+created: 20211021092647034
+modified: 20211021122456818
+tags: OpenSSH SSH Linux
+title: known_hosts
+tmap.id: 0abaf81a-00e4-4c98-8bdd-6fe8496f6e76
+type: text/vnd.tiddlywiki
+
+The [[known_hosts]] [[file|File]] can be found at `~/.ssh/known_hosts` of an [[SSH Client]].
+
+[[known_hosts]] lets the [[client|SSH Client]] [[authenticate|Authentication]] the [[server|SSH Server]].
+
+It stores the [[fingerprints|Public Key Fingerprint]] of various [[SSH Servers|SSH Server]] that the [[user|User (Unix)]] has previously connected to.
+
+The purpose is to help prevent [[Man-in-the-middle Attacks|Man-in-the-middle Attack]]: if an attacker tries to get his faux [[SSH Server]] in your way and pretend it's your [[server|SSH Server]], your [[SSH Client]] will notice that the [[fingerprint|Public Key Fingerprint]] it has in the [[known_hosts]] [[file|File]] no longer works (assuming the attacker doesn't have your [[server's|SSH Server]] [[Private Key]]), and will inform you!

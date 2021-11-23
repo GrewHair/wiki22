@@ -1,0 +1,42 @@
+created: 20211117135201261
+modified: 20211117143518766
+tags: Zabbix
+title: Zabbix Definitions
+tmap.id: d3fe304a-089b-4274-a7fb-e42493a67cdc
+type: text/vnd.tiddlywiki
+
+* [[Host|Zabbix Definitions/Host]]
+* [[Host Group|Zabbix Definitions/Host Group]]
+* [[Item|Zabbix Definitions/Item]]
+* [[Value Preprocessing|Zabbix Definitions/Value Preprocessing]]
+* [[Trigger|Zabbix Definitions/Trigger]]
+* [[Event|Zabbix Definitions/Event]]
+* [[Event Tag|Zabbix Definitions/Event Tag]]
+* [[Event Correlation|Zabbix Definitions/Event Correlation]]
+* [[Problem|Zabbix Definitions/Problem]]
+* [[Problem Update|Zabbix Definitions/Problem Update]]
+* [[Action|Zabbix Definitions/Action]]
+* [[Escalation|Zabbix Definitions/Escalation]]
+* [[Media|Zabbix Definitions/Media]]
+* [[Notification|Zabbix Definitions/Notification]]
+* [[Remote Command|Zabbix Definitions/Remote Command]]
+* [[Template|Zabbix Definitions/Template]]
+* [[Web Scenario|Zabbix Definitions/Web Scenario]]
+* [[Frontend|Zabbix Definitions/Frontend]]
+* [[Dashboard|Zabbix Definitions/Dashboard]]
+* [[Widget|Zabbix Definitions/Widget]]
+* [[Zabbix API|Zabbix Definitions/Zabbix API]]
+* [[Zabbix Server|Zabbix Definitions/Zabbix Server]]
+* [[Zabbix Proxy|Zabbix Definitions/Zabbix Proxy]]
+* [[Zabbix Agent|Zabbix Definitions/Zabbix Agent]]
+* [[Zabbix Agent 2|Zabbix Definitions/Zabbix Agent 2]]
+* [[Encryption|Zabbix Definitions/Encryption]]
+* [[Network Discovery|Zabbix Definitions/Network Discovery]]
+* [[Low-level Discovery|Zabbix Definitions/Low-level Discovery]]
+* [[Low-level Discovery Rule|Zabbix Definitions/Low-level Discovery Rule]]
+* [[Item Prototype|Zabbix Definitions/Item Prototype]]
+* [[Trigger Prototype|Zabbix Definitions/Trigger Prototype]]
+* [[Agent Autoregistration|Zabbix Definitions/Agent Autoregistration]]
+
+
+https://www.zabbix.com/documentation/current/manual/definitions

@@ -1,0 +1,17 @@
+created: 20211028213034359
+modified: 20211028214409877
+tags: [[Hashicorp Vault]] [[Vault: Getting Started (Hashicorp Learn)]] Security Stub
+title: Problem One: What Vault Offers
+tmap.id: f1974903-97bc-4c42-a76a-da468d254b5b
+type: text/vnd.tiddlywiki
+
+* Store all [[Secrets|Secret]] in one central location
+*>//now it's not hard anymore to find them!//
+* Encrypt all [[Secrets|Secret]] at rest
+*>//now if somebody hacks his way into the storage, he still can't use what he finds there//
+* Access Control (ACL)
+*>//now noone has more access than he needs to have//
+* Audit
+*>//now we can monitor who's used what//
+
+https://learn.hashicorp.com/tutorials/vault/getting-started-intro?in=vault/getting-started

@@ -1,0 +1,18 @@
+created: 20211011180936475
+modified: 20211011184404412
+tags: [[Customer Service]] ITIL Stub
+title: Service Level
+tmap.id: 797a4bae-aaa7-4cf0-bf9d-fc732fb71f6b
+type: text/vnd.tiddlywiki
+
+''AKA (Sometimes) SLA''
+
+[[Service Level]] measures the performance of a system.
+
+Although [[Service Level]] is often used interchangeably with the term //"Service-level Agreement"//, in more precise use one may distinguish three different aspects of it:
+
+* [[Service Level Indicator]]
+* [[Service Level Objective]]
+* [[Service Level Agreement]]
+
+https://en.wikipedia.org/wiki/Service_level

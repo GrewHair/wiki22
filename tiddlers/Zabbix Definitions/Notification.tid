@@ -1,0 +1,8 @@
+created: 20211117152335361
+modified: 20211117152513157
+tags: Zabbix Stub
+title: Zabbix Definitions/Notification
+tmap.id: 4e56ae65-6311-4f7b-844f-b4e1d4eb0b80
+type: text/vnd.tiddlywiki
+
+A message about some [[event|Zabbix Definitions/Event]] sent to a user via the chosen [[media channel|Zabbix Definitions/Media]].

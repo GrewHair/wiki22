@@ -1,0 +1,13 @@
+created: 20211102135437420
+modified: 20211102150144581
+tags: OpenSSL [[Transport Layer Security]] Security Web
+title: TLS Handshake
+tmap.id: d4c68326-fcb1-4051-ac17-4e71e079f1e5
+type: text/vnd.tiddlywiki
+
+* [[Client Hello]]
+* [[Server Hello]]
+* server finish???
+* client finish???
+
+https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/

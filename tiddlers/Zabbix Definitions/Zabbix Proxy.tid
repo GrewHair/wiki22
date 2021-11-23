@@ -1,0 +1,8 @@
+created: 20211117161837935
+modified: 20211117162059888
+tags: Zabbix Stub
+title: Zabbix Definitions/Zabbix Proxy
+tmap.id: 20c8b48f-99eb-433b-8758-06b6f018aedc
+type: text/vnd.tiddlywiki
+
+A [[process|Process (Computing)]] that may collect data on behalf of [[Zabbix server|Zabbix Definitions/Zabbix Server]], taking some processing load off of the [[server|Zabbix Definitions/Zabbix Server]].

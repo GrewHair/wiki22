@@ -1,0 +1,12 @@
+created: 20211116080124182
+modified: 20211116080505267
+tags: Zabbix Monitoring
+title: Choose Your Platform (Zabbix)
+tmap.id: 3e760542-6a4c-4a50-a8b7-499db525fc93
+type: text/vnd.tiddlywiki
+
+* [[Zabbix]] version
+* [[OS Distribution|Linux Distribution]]
+* [[OS|Operating System]] version
+* [[Database]]
+* [[Web Server]]

@@ -1,0 +1,12 @@
+created: 20211102152316623
+modified: 20211102152441694
+tags: Security Stub Web
+title: Replay Attack
+tmap.id: 1e5ed542-828b-4053-b7f8-109c71dadc1e
+type: text/vnd.tiddlywiki
+
+E.g. exploiting [[0-RTT|Zero Round Trip Time]] (???)
+
+https://en.wikipedia.org/wiki/Replay_attack
+
+https://www.kaspersky.com/resource-center/definitions/replay-attack

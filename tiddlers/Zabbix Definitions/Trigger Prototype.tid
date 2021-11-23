@@ -1,0 +1,10 @@
+created: 20211117165340115
+modified: 20211117165845123
+tags: Zabbix Stub
+title: Zabbix Definitions/Trigger Prototype
+tmap.id: a52198d5-cfd9-486e-a300-54288999e352
+type: text/vnd.tiddlywiki
+
+A [[trigger|Zabbix Definitions/Trigger]] with certain parameters as variables, ready for [[low-level discovery|Zabbix Definitions/Low-level Discovery]]. After [[low-level discovery|Zabbix Definitions/Low-level Discovery]] the variables are automatically substituted with the real discovered parameters and the trigger automatically starts evaluating data.
+
+Prototypes of some other Zabbix entities are also in use in [[low-level discovery|Zabbix Definitions/Low-level Discovery]] - graph prototypes, host prototypes, host group prototypes.

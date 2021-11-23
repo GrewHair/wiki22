@@ -1,0 +1,10 @@
+created: 20211117150246486
+modified: 20211117150622187
+tags: Zabbix Stub
+title: Zabbix Definitions/Problem
+tmap.id: 839adb68-8d30-44c2-a09f-20a42b2dd056
+type: text/vnd.tiddlywiki
+
+A [[trigger|Zabbix Definitions/Trigger]] that is in `Problem` state.
+
+''IMO:'' a [[Problem|Zabbix Definitions/Problem]] is a state of a [[Trigger|Zabbix Definitions/Trigger]].

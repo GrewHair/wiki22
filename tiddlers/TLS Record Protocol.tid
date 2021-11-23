@@ -1,0 +1,22 @@
+created: 20211102104417861
+modified: 20211102110107119
+tags: Security [[Transport Layer Security]] Web Stub
+title: TLS Record Protocol
+tmap.id: 6315607d-4aaa-417b-a752-5dbed20e808b
+type: text/vnd.tiddlywiki
+
+<table>
+<tr>
+<td>
+
+* Encrypt outgoing messages with the [[Secret Key]]
+* Transmit the encrypted messages
+* Decrypt incoming messages with the [[Secret Key]]
+* Verify that the messages are not modified
+</td>
+<td>
+$$\Huge \}$$
+[[Symmetric|Secret-key Cryptography]] [[Bulk Encryption]]
+</td>
+</tr>
+</table>

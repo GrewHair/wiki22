@@ -1,0 +1,10 @@
+created: 20211115153246615
+modified: 20211115154455631
+tags: Unix [[Software Testing]] [[Test Driven Development]] Stub C
+title: Lcov
+tmap.id: 18719f53-6196-4358-9a77-d741b81bf28e
+type: text/vnd.tiddlywiki
+
+[[Lcov]] is a graphical [[Front End]] for [[Gcov]].
+
+https://github.com/pcolby/lcoveralls

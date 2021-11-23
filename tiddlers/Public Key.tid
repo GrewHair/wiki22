@@ -1,8 +1,12 @@
 created: 20210204081015441
-modified: 20210204081204060
+modified: 20211022160052583
 tags: [[Understanding the Digital World (Brian Kernighan)]] Security Privacy Cryptography Stub
 title: Public Key
 tmap.id: 546ec828-d209-4729-a8a3-e891ee464630
 type: text/vnd.tiddlywiki
 
 Inuse, the [[Public Key]] is truly pulbic: it is available to everyone, often posted on a web page.
+
+In most cases, deriving a [[Public Key]] from a known [[Private Key]] is trivial.
+
+https://stackoverflow.com/questions/696472/given-a-private-key-is-it-possible-to-derive-its-public-key

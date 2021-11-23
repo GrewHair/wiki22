@@ -1,0 +1,12 @@
+created: 20211011173316619
+modified: 20211011180806438
+tags: [[IT Risk Management]] ITIL [[Disaster Recovery]]
+title: Recovery Time Objective
+tmap.id: aecc1cc8-1189-4713-8efa-cc0250fc35c2
+type: text/vnd.tiddlywiki
+
+''AKA RTO''
+
+The [[Recovery Time Objective]] is the targeted duration of time (and a [[Service Level]]) within which (and //at// which) a [[Business Process]] must be [[restored after a disaster|Disaster Recovery]] (or disruption) in order to avoid unacceptible consequences associated with a break in [[Business Continuity]].
+
+https://en.wikipedia.org/wiki/Disaster_recovery#Recovery_Time_Objective

@@ -1,0 +1,10 @@
+created: 20211102151753473
+modified: 20211102151923818
+tags: OpenSSL Security [[Transport Layer Security]] Stub Web LDAP
+title: Zero Round Trip Time
+tmap.id: 7e188c23-e9e1-4547-b747-8e22e78c4c3a
+type: text/vnd.tiddlywiki
+
+''AKA 0-RTT''
+
+https://ldapwiki.com/wiki/0-RTT%20Handshakes

@@ -1,0 +1,8 @@
+created: 20211117144838155
+modified: 20211117145059864
+tags: Zabbix Stub
+title: Zabbix Definitions/Event
+tmap.id: 6eda8390-6a07-44b0-890f-86d1cd9ab33b
+type: text/vnd.tiddlywiki
+
+A single occurrence of something that deserves attention such as a [[trigger|Zabbix Definitions/Trigger]] changing state or a [[discovery|Zabbix Definitions/Network Discovery]]/[[agent autoregistration|Zabbix Defintions/Agent Autoregistration]] taking place.

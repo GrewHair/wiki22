@@ -1,0 +1,12 @@
+created: 20211117143534808
+modified: 20211117144108062
+tags: Zabbix Stub
+title: Zabbix Definitions/Host Group
+tmap.id: d530a2e3-9dda-4e83-a5d5-568f9bec78e4
+type: text/vnd.tiddlywiki
+
+A logical grouping of [[hosts|Zabbix Definitions/Host]]. It may contain [[hosts|Zabbix Definitions/Host]] and [[templates|Zabbix Definitions/Template]].
+
+[[Hosts|Zabbix Definitions/Host]] and [[templates|Zabbix Definitions/Template]] within a [[Host Group|Zabbix Definitions/Host Group]] are not in any way linked to each other.
+
+[[Host Groups|Zabbix Definitions/Host Group]] are used when assigning access rights to [[hosts|Zabbix Definitions/Host]] for different user groups.

@@ -1,0 +1,14 @@
+created: 20211011141117151
+modified: 20211011141615114
+tags: [[IT Risk Management]] Stub
+title: Business Continuity
+tmap.id: b576a620-c091-455f-bda0-6bdc971749de
+type: text/vnd.tiddlywiki
+
+A [[Business Continuity]] plan dictates how a business can continue to operate throughout a disaster.
+
+The goal is to enable ongoing operations before and during execution of [[Disaster Recovery]], as well as to prevent disasters ahead of time if possible.
+
+https://en.wikipedia.org/wiki/Business_continuity_planning
+
+https://www.n-able.com/blog/disaster-recovery-plan-vs-business-continuity-plan

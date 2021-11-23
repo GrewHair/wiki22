@@ -1,0 +1,19 @@
+created: 20211014102347678
+modified: 20211014103103951
+tags: Stub Jenkins
+title: Jenkins Authorization Strategies
+tmap.id: 42b294cf-a7e1-4511-9fea-ef77e799b195
+type: text/vnd.tiddlywiki
+
+This is the [[Authorization]] part of [[Jenkins]] global security settings.
+
+''How to get there:''
+
+<kbd>Manage Jenkins</kbd> &rarr; <kbd>Configure Global Security</kbd> &rarr; <span style="font-size:13px">//Authorization//</span>
+
+* Anyone can do anything
+* Legacy mode (admins can do anything, authenticated users have read-only permissions ?)
+* [[Matrix-based Security|Matrix-based Security (Jenkins)]]
+* (depends on plugins)
+* ...
+* [[Role-based Strategy|Role-based Authorization Strategy (Jenkins Plugin)]]

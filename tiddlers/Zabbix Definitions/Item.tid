@@ -1,0 +1,8 @@
+created: 20211117144140328
+modified: 20211117144243087
+tags: Zabbix Stub
+title: Zabbix Definitions/Item
+tmap.id: 88fe8fa5-486a-4f6d-a6c2-a4a73989f964
+type: text/vnd.tiddlywiki
+
+A particular piece of data that you want to receive off of a [[Host|Zabbix Definitions/Host]], a metric of data.

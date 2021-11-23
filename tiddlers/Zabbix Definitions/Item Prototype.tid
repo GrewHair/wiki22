@@ -1,0 +1,10 @@
+created: 20211117165022947
+modified: 20211117165317880
+tags: Zabbix Stub
+title: Zabbix Definitions/Item Prototype
+tmap.id: 77db14e9-3aea-4be6-af44-9991cd6e0f72
+type: text/vnd.tiddlywiki
+
+A metric with certain parameters as variables, ready for [[low-level discovery|Zabbix Definitions/Low-level Discovery]].
+
+After [[low-level discovery|Zabbix Definitions/Low-level Discovery]] the variables are automatically substituted with the real discovered parameters and the metric automatically starts gathering data.

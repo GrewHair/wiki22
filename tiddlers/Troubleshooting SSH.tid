@@ -1,0 +1,16 @@
+created: 20211027082659770
+modified: 20211117135759654
+tags: Troubleshooting SSH OpenSSH Security
+title: Troubleshooting SSH
+tmap.id: e110e01e-ee88-4f1d-9d02-4557a220f29a
+type: text/vnd.tiddlywiki
+
+* Check the [[network|Computer Network]]:
+** the [[server|SSH Server]] should [[ping|Ping]]
+** the 22 [[port|Port (Networkins)]] (or whatever you've set it to) should be permitted straight through (check [[Firewalls|Firewall]]), etc
+* Check the [[permissions|SSH and Linux Permissions]]
+* Check the [[logs|Log]] on the [[server|SSH Server]] using something like `tail -f`:
+** on [[Ubuntu]] [[Servers]], it should normally be the [[auth.log]] [[file|File]] located at `/var/log/auth.log`
+** if your [[server|SSH Server]] has [[systemd]], you can use [[journalctl]]:
+*** `journalctl -u ssh` or `journalctl -u sshd` - the name of the [[daemon|Daemon]] may vary from [[distro|Linux Distribution]] to [[distro|Linux Distribution]]
+*** `journalctl -fu ssh` or `journalctl -fu sshd` for the functionality similar to `tail -f`

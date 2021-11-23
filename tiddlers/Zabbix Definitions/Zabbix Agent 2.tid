@@ -1,0 +1,8 @@
+created: 20211117162550910
+modified: 20211117162738755
+tags: Zabbix Stub
+title: Zabbix Definitions/Zabbix Agent 2
+tmap.id: 6b5a22c6-09c5-4e53-b519-ce98ea9b2a88
+type: text/vnd.tiddlywiki
+
+A new generation of [[Zabbix Agent]] to actively monitor local [[resources|System Resource]] and applications, allowing to use custom plugins for [[Monitoring]].

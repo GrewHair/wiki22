@@ -1,0 +1,32 @@
+created: 20211027075754748
+modified: 20211027082529049
+tags: OpenSSH SSH Security
+title: SSH and Linux Permissions
+tmap.id: eb5124a3-6ffe-4a06-89ba-5876338b7a22
+type: text/vnd.tiddlywiki
+
+In order to protect [[Sensitive Data]], [[OpenSSH]] expects certain [[Permissions|Unix Permissions]] to be in place:
+
+* The `.ssh` [[directory|Directory (File Systems)]] should only be readable by you and noone else:
+** `.ssh`: `700 (drwx------)`
+* [[Public Keys|Public Key]] should not be writable by anybody but the [[user|User (Unix)]], but can be readable by everyone (since they are not [[sensitive|Sensitive Data]]):
+** `*.pub`: `644 (-rw-r--r--)`
+* [[Private Keys|Private Key]] should not be seen by anybody but the [[user|User (Unix)]]:
+** `id_rsa`: `600 (-rw-------)`
+** `id_rsa`: `400 (-r--------)` - ideally
+* your [[Home Directory|Home Directory (Unix)]] should not be writable by the group or others:
+** at most `755 (drwxr-xr-x)`.
+
+In case these conditions are violated, [[OpenSSH]] will refuse to use your [[keys|SSH Key]], maybe reporting something along these lines (but not necessarily):
+
+```
+Permissions 0777 for '/Users/username/.ssh/id_rsa' are too open.
+It is recommended that your private key files are NOT accessible by others.
+This private key will be ignored.
+```
+
+https://community.perforce.com/s/article/6210
+
+https://superuser.com/questions/215504/permissions-on-private-key-in-ssh-folder
+
+https://coderoad.ru/9270734/ssh-permissions-are-too-open-%D0%BE%D1%88%D0%B8%D0%B1%D0%BA%D0%B0

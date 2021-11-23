@@ -1,11 +1,13 @@
 created: 20210203171643432
-modified: 20210204091039444
+modified: 20211102110459069
 tags: Security Cryptography Privacy [[Understanding the Digital World (Brian Kernighan)]] Stub
 title: Public-key Cryptography
 tmap.id: 1c0ce065-73ae-44ae-85fe-567323b5b471
 type: text/vnd.tiddlywiki
 
-[[Public-key Cryptography]] was invented in 1976 (edit: [[Vint Cerf]] sadly admits that it had appeared and become widespread just 1~2 years after the [[TCP/IP]] was designed - so it did not make there) by Whitfield Diffie and Martin Hellman at Stanford.
+''AKA Asymmetric Cryptography''
+
+[[Public-key Cryptography]] was invented in 1976 (edit: [[Vint Cerf]] sadly admits that it had appeared and become widespread just 1~2 years after the [[TCP/IP]] was designed - so it did not make its way there at the time) by Whitfield Diffie and Martin Hellman at Stanford.
 
 In a [[Public-key Cryptosystem|Public-key Cryptography]], each person has a [[Key Pair]] consisting of a [[Public Key]] and a [[Private Key]].
 
@@ -16,3 +18,5 @@ If the keys are sufficiently long, it is infeasible for an attacker to decrypt t
 The best known algorithm that an attacker can use require run time that grows exponentially with the key length.
 
 [[Example|Public-key Cryptography/Example]]
+
+Unfortunately, [[Asymmetric Cryptography]] is a lot slower than [[symmetric|Secret-key Cryptography]] (~100-10,000 times), so it's not suitable for [[Bulk Encryption]].

@@ -1,0 +1,25 @@
+created: 20211021114804185
+modified: 20211021121439383
+tags: SSH OpenSSH Linux Stub
+title: One SSH Key Per Host
+tmap.id: d02c72e4-3f98-4097-b0c8-814c1b73cb7e
+type: text/vnd.tiddlywiki
+
+The <$link to="ssh-keygen">`ssh-keygen`</$link> utility defaults the [[key name|SSH Keys Naming]] to the [[Key Type|SSH Key Type]], which may lead to some confusion - e.g. one may doubt whether he is supposed to use one [[Public Key]] for all of the [[Hosts|Host]] he works with or not.
+
+The fact of the matter is <$link to="ssh-keygen">`ssh-keygen`</$link> just doesn't know any better than that - it can only offer you the [[type|SSH Key Type]], it has 0 clues as to where you are planning to use the [[key|SSH Key]].
+
+So the [[naming aspect|SSH Keys Naming]] is completely on you and up to you. With that said...
+
+<br>
+
+Generally, it is preferrable to [[use a separate SSH Key per Host|One SSH Key Per Host]], because it limits the [[Attack Vector]] should an attacker get to steal one of your [[Private Keys|Private Key]] (he then will be able to break into only the one [[Host]] the [[key|Private Key]] is intended for - as opposed to the entirety of your [[Hosts|Host]]).
+
+However, this has disadvantages to be dealt with:
+
+* a lot of [[keys|SSH Key]] is a mess
+* the [[SSH Client]] will have to try all your [[Private Keys|Private Key]] on the remote [[server|SSH Server]] in order to find the right one (i.e., if you don't explicitly specify the correct one), which may result in the [[server|SSH Server]] locking you out because it thinks that you're picking locks. 
+
+https://security.stackexchange.com/questions/40050/best-practice-separate-ssh-key-per-host-and-user-vs-one-ssh-key-for-all-hos
+
+https://ricostacruz.com/til/using-separate-ssh-keys-per-host

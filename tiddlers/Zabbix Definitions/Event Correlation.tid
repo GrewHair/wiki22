@@ -1,0 +1,10 @@
+created: 20211117145724042
+modified: 20211117150227867
+tags: Zabbix Stub
+title: Zabbix Definitions/Event Correlation
+tmap.id: 6ae4f7cf-2a09-459c-820f-2c82422a1a27
+type: text/vnd.tiddlywiki
+
+A method of correlating [[problems|Zabbix Definitions/Problem]] to their resolution flexibly and precisely.
+
+For example, you may define that a [[problem|Zabbix Definitions/Problem]] reported by one [[trigger|Zabbix Definitions/Trigger]] may be resolved by another [[trigger|Zabbix Definitions/Trigger]], which may even use a different data collection method.

@@ -1,0 +1,8 @@
+created: 20211117162136392
+modified: 20211117162412745
+tags: Zabbix Stub
+title: Zabbix Definitions/Zabbix Agent
+tmap.id: a16aa889-8228-4047-a750-bb51b0f0b2a1
+type: text/vnd.tiddlywiki
+
+A [[process|Process (Computing)]] deployed on monitoring targets to actively [[monitor|Monitoring]] local [[resources|System Resource]] and applications.

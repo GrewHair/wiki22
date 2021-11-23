@@ -1,0 +1,83 @@
+created: 20211020145649580
+modified: 20211028100218548
+tags: 
+title: List of Files (OpenSSH)
+tmap.id: ef8a0e57-0999-49f3-a082-d05b7c7e77a7
+type: text/vnd.tiddlywiki
+
+<span style="position: absolute; margin:0; padding:0">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 100">
+	<defs>
+    <marker id="startarrow" markerWidth="10" markerHeight="7" 
+    refX="0" refY="3.5" orient="auto" markerUnits="strokeWidth">
+      <polygon points="10 0, 10 7, 0 3.5"/>
+    </marker>
+    <marker id="endarrow" markerWidth="10" markerHeight="7" 
+    refX="0" refY="3.5" orient="auto" markerUnits="strokeWidth">
+        <polygon points="0 0, 10 3.5, 0 7"/>
+    </marker>
+  </defs>
+</svg>
+</span>
+<div style="position:relative; margin:0; padding:0">
+
+<span style="position: absolute; top:123px; left:167px; margin:0; padding:0">
+<svg><line x2="191" y2="63" style="stroke:currentColor" marker-end="url(#endarrow)" marker-start="url(#startarrow)"/></svg></span>
+
+<span style="position: absolute; top:103px; left:167px; margin:0; padding:0">
+<svg><line y1="20" x2="187" y2="3" style="stroke:currentColor" marker-end="url(#endarrow)" marker-start="url(#startarrow)"/></svg></span>
+
+<span style="position: absolute; top:163px; left:197px; margin:0; padding:0">
+<svg><line x2="161" y2="41" style="stroke:currentColor" marker-end="url(#endarrow)" marker-start="url(#startarrow)"/></svg></span>
+
+<span style="position: absolute; top:123px; left:197px; margin:0; padding:0">
+<svg><line y1="40" x2="158" y2="4" style="stroke:currentColor" marker-end="url(#endarrow)" marker-start="url(#startarrow)"/></svg></span>
+
+<span style="position: absolute; top:255px; left:161px; margin:0; padding:0">
+<svg><line y1="3" x2="197" y2="3" style="stroke:currentColor" marker-end="url(#endarrow)" marker-start="url(#startarrow)"/></svg></span>
+
+<span style="position: absolute; top:278px; left:167px; margin:0; padding:0">
+<svg><line y1="3" x2="191" y2="20" style="stroke:currentColor" marker-end="url(#endarrow)" marker-start="url(#startarrow)"/></svg></span>
+
+<table border=0 style="width: 680px; margin:0; padding:0">
+<td style="margin:0; padding:0">
+<div style="margin:0; padding:0">
+[[SERVER|SSH Server]]
+<br><br>
+<b>`/etc/ssh/`</b><br>
+<$link to="ssh_config">`├─ ssh_config`</$link><br>
+<$link to="ssh_host_key">`├─ ssh_host_key`</$link><br>
+<$link to="ssh_host_key.pub">`├─ ssh_host_key.pub`</$link><br>
+<$link to="ssh_host_dsa_key">`├─ ssh_host_dsa_key`</$link><br>
+<$link to="ssh_host_dsa_key.pub">`├─ ssh_host_dsa_key.pub`</$link><br>
+<$link to="sshd_config">`└─ sshd_config`</$link><br>
+<br>
+<b>`~/.ssh/`</b><br>
+<$link to="authorized_keys">`├─ authorized_keys`</$link><br>
+<$link to="authorized_keys2">`└─ authorized_keys2`</$link><br>
+</div>
+</td>
+<td style="margin:0; padding:0">
+<div style="margin:0; padding:0">
+[[CLIENT|SSH Client]]
+<br><br>
+<b>`/etc/ssh/`</b><br>
+<$link to="ssh_config">`├─ ssh_config`</$link><br>
+<$link to="ssh_known_hosts">`├─ ssh_known_hosts`</$link><br>
+<$link to="ssh_known_hosts2">`└─ ssh_known_hosts2`</$link><br>
+<br>
+<b>`~/.ssh/`</b><br>
+<$link to="known_hosts">`├─ known_hosts`</$link><br>
+<$link to="known_hosts2">`├─ known_hosts2`</$link><br>
+<$link to="identity">`├─ identity`</$link><br>
+<$link to="identity.pub">`├─ identity.pub`</$link><br>
+<$link to="id_dsa">`├─ id_dsa`</$link><br>
+<$link to="id_dsa.pub">`├─ id_dsa.pub`</$link><br>
+<$link to="SSH Local Config">`└─ config`</$link><br>
+</div>
+</td>
+</table>
+</div>
+
+Source:
+http://www.fredshack.com/docs/openssh.html

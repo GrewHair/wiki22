@@ -1,0 +1,8 @@
+created: 20211117161301027
+modified: 20211117162022257
+tags: Zabbix Stub
+title: Zabbix Definitions/Zabbix Server
+tmap.id: 78036fb7-440e-425e-a92e-f639cd81db5d
+type: text/vnd.tiddlywiki
+
+A central [[process|Process (Computing)]] of [[Zabbix software]] that performs [[Monitoring]], interacts with [[Zabbix proxies|Zabbix Definitions/Zabbix Proxy]] and [[agents|Zabbix Definitions/Zabbix Agent]], calculates [[triggers|Zabbix Definitions/Trigger]], sends [[notifications|Zabbix Definitions/Notification]]; a central repository of data.

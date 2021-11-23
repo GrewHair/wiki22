@@ -1,0 +1,8 @@
+created: 20211117162858826
+modified: 20211117163344885
+tags: Zabbix Stub
+title: Zabbix Definitions/Encryption
+tmap.id: e0810d3b-926e-4f59-bd8d-095ca65a3f7f
+type: text/vnd.tiddlywiki
+
+Support of encrypted communications between [[Zabbix]] components ([[server|Zabbix Definitions/Zabbix Server]], [[proxy|Zabbix Definitions/Zabbix Proxy]], [[agent|Zabbix Definitions/Zabbix Agent]], zabbix_sender and zabbix_get utilities) using [[TLS protocol|Transport Layer Security]].

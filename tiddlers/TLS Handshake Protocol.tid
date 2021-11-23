@@ -1,0 +1,11 @@
+created: 20211101090359112
+modified: 20211101110033604
+tags: Security Web Stub [[Transport Layer Security]]
+title: TLS Handshake Protocol
+tmap.id: 4029dcc5-62b0-4db1-845c-10e368d73801
+type: text/vnd.tiddlywiki
+
+* Negotiate [[TLS Protocol Version|SSL\TLS Protocol Versions]]
+* Select [[Cryptographic Algorithms|Cryptographic Algorithm]]: cipher suites
+* [[Authenticate|Authentication]] by [[asymmetric cryptography|Public-key Cryptography]]
+* Establish a [[secret key|Secret Key]] for [[symmetric encryption|Secret-key Cryptography]]

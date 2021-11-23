@@ -1,0 +1,8 @@
+created: 20211117165859668
+modified: 20211117170052313
+tags: Zabbix Stub
+title: Zabbix Definitions/Agent Autoregistration
+tmap.id: a3230f6f-9c63-41cf-b21b-1528cfd01422
+type: text/vnd.tiddlywiki
+
+An automated process whereby a [[Zabbix Agent]] itself is registered as a [[host|Zabbix Definitions/Host]] and started to [[monitor|Monitoring]].

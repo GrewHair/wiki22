@@ -1,0 +1,16 @@
+created: 20211115152425718
+modified: 20211115154644309
+tags: Unix C [[Test Driven Development]] [[Software Testing]] Stub
+title: Gcov
+tmap.id: eb1edcd8-6352-4b8a-8a62-40cd625a3d4e
+type: text/vnd.tiddlywiki
+
+[[Gcov]] is a [[Source Code Coverage]] [[analysis|Program Analysis]] and [[statement|Statement (Computer Programming)]]-by-[[statement|Statement (Computer Programming)]] [[profiling|Profiling (Computer Programming)]] tool.
+
+It is a part of [[GCC|GNU Compiler Collection]].
+
+https://en.wikipedia.org/wiki/Gcov
+
+https://dzone.com/articles/code-coverage-embedded-target
+
+https://www.researchgate.net/figure/The-steps-involved-in-measuring-the-code-coverage-with-gcov-keystone-is-compiled-by-gcc_fig1_228610137

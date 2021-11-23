@@ -1,0 +1,17 @@
+created: 20211102143349784
+modified: 20211102150832383
+tags: Stub Security [[Transport Layer Security]] Web OpenSSL
+title: Server Hello
+tmap.id: 5d658036-e0b6-41b1-b0ec-84f6d82d5078
+type: text/vnd.tiddlywiki
+
+''Example:''
+
+|[[Selected TLS Version|SSL\TLS Protocol Versions]]|!TLS 1.3|
+|Selected Cipher Suites|!TLS_AES_256_GCM_SHA384|
+|Selected Key Exchange Groups|!Finite Field Groups (DHE)|
+|Key Share|!Server's DHE [[Public Key]]|
+|Certificate Request *|!Request for client's certificate|
+|Server Certificate|!Server's certificate|
+|Certificate Verify|!Signature of entire [[handshake|TLS Handshake]]|
+|Server Finish|!MAC of entire [[handshake|TLS Handshake]]|

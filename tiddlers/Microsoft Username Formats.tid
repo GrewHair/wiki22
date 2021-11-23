@@ -1,0 +1,11 @@
+created: 20211019142714049
+modified: 20211019142835074
+tags: Windows [[Active Directory]] Stub
+title: Microsoft Username Formats
+tmap.id: 3337eedf-db83-40fc-96e6-b7638a024779
+type: text/vnd.tiddlywiki
+
+* [[Down-Level Logon Name]]
+* [[User Principal Name]]
+
+https://docs.microsoft.com/en-us/windows/win32/secauthn/user-name-formats

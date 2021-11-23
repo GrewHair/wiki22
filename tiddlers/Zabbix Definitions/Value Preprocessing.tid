@@ -1,0 +1,8 @@
+created: 20211117144307796
+modified: 20211117144423389
+tags: Zabbix Stub
+title: Zabbix Definitions/Value Preprocessing
+tmap.id: 36463efc-3de6-43e6-892f-e0fca9669610
+type: text/vnd.tiddlywiki
+
+A transformation of received metric value before saving it to the [[Database]].

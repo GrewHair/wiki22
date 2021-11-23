@@ -1,0 +1,27 @@
+created: 20211014093533777
+modified: 20211014102524002
+tags: Jenkins Stub
+title: Security Realms (Jenkins)
+tmap.id: 59ac2bd7-7b14-41bd-b705-8369a58d6f6f
+type: text/vnd.tiddlywiki
+
+A [[Security Realm|Security Realms (Jenkins)]] inform the [[Jenkins]] environment how and where to pull user (or identity) information from.
+
+They (together with the //"Disable remember me"// checkbox) comprize the [[Authentication]] part of [[Jenkins]] global security settings.
+
+<br>
+''How to get there:''
+
+<kbd>Manage Jenkins</kbd> &rarr; <kbd>Configure Global Security</kbd> &rarr; <span style="font-size:12px">//Security Realm//</span>
+<br> 
+
+Usually, the options are:
+
+* [[LDAP|Lightweight Directory Access Protocol]]/[[AD|Active Directory]]
+* [[Jenkins]]'s own user [[database|Database]]
+* Underlying [[OS|Operating System]] ([[master|Jenkins Master]])
+* Delegate to underlying [[Servlet Container|Java Servlet Container]]
+
+The last two options you don't really want to use!
+
+Also, depending on [[plugins|Jenkins Plugin]] installed, other options may become available (like e.g. [[SAML 2.0|Security Assertion Markup Language]]).

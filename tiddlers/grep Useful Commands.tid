@@ -1,0 +1,10 @@
+created: 20211021171557458
+modified: 20211022155817949
+tags: Unix Linux
+title: grep Useful Commands
+tmap.id: 392d2adb-100c-4451-9352-f2dd900b8ac8
+type: text/vnd.tiddlywiki
+
+* `grep --color=always -e "^" -e "hello" testfile` - only highlight and not don't filter`*`
+
+`*` - https://superuser.com/questions/914856/display-all-output-but-highlight-search-matches/914862

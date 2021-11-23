@@ -1,0 +1,8 @@
+created: 20211117163600491
+modified: 20211117164104844
+tags: Zabbix Stub
+title: Zabbix Definitions/Low-level Discovery
+tmap.id: b157e76c-2811-484d-855d-6b7fdd722478
+type: text/vnd.tiddlywiki
+
+Automated discovery of low-level entities on a particular device (e.g. [[file systems|File System]], [[network interfaces|Network Interface]], etc).

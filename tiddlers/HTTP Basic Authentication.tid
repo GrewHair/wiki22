@@ -1,0 +1,31 @@
+created: 20211019133549903
+modified: 20211019154604195
+tags: Security Stub
+title: HTTP Basic Authentication
+tmap.id: b0c05318-0eef-4fe4-955a-b5d3a15efc73
+type: text/vnd.tiddlywiki
+
+[[Basic Authentication]] is a method for an [[HTTP User Agent]] to provide a [[Username|User Account Name]] and [[Password]] when making a [[Request|HTTP Request]].
+
+```
+Authorization: Basic <Credentials>
+```
+
+where `<Credentials>` is [[Base64]] encoding of [[ID|User Account Name]] and [[Password]] joined by a `:` (colon):
+
+```python
+# if it was python, it would be something like this:
+credentials = base64(f"{username}:{password}")
+```
+
+[[Base64]] isn't really an [[encryption]] mechanism - it's just an [[Encoding]], and it's only there to overcome some weird encoding issues of [[HTTP|HyperText Transfer Protocol]] - and thus it is __important to ensure__ that [[Basic Auth|HTTP Basic Authentication]] happens over at [[TLS|Transport Layer Security]]-encrypted connection, otherwise it's effectively plain text (i.e. vulnerable to eavesdropping).
+
+Another bad thing about [[basic auth|HTTP Basic Authentication]] is that it requires transmission of credentials with each [[request|HTTP Request]].
+
+Once a [[browser|Web Browser]] receives a [[401|401 Error]] from a [[server|Server]], with a [[WWW-Authenticate]] [[Response Header|HTTP Response Header]] with the word "`Basic`" in its value - that's how a [[browser|Web Browser]] knows to pop up a window prompting a user for a [[username|User Account Name]] and [[password|Password]].
+
+```
+WWW-Authenticate: Basic realm="Example Application"
+```
+
+https://en.wikipedia.org/wiki/Basic_access_authentication

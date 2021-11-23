@@ -1,0 +1,16 @@
+created: 20211028112853291
+modified: 20211028113243433
+tags: Security Stub Cloud
+title: Attribute-based Access Control
+tmap.id: 5d9241be-874d-454f-8633-8d9275ab34c4
+type: text/vnd.tiddlywiki
+
+''AKA ABAC''
+
+https://en.wikipedia.org/wiki/Attribute-based_access_control
+
+Check out the 'see also' section!!!
+
+https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction_attribute-based-access-control.html
+
+Here [[AWS|Amazon Web Services]] claims that [[ABAC]] is new and shiny compared the the old-assed [[RBAC|Role-based Access Control]], yo.

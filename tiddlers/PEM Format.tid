@@ -1,0 +1,34 @@
+created: 20211020105350389
+modified: 20211028103225297
+tags: Cryptography Security Stub
+title: PEM Format
+tmap.id: 628b8543-ffdd-4775-ad78-836988b7b6fe
+type: text/vnd.tiddlywiki
+
+''AKA PEM, Privacy-Enhanced Mail, Privacy-enhanced Electronic Mail''
+
+It was initially created for [[E-mail]] encryption, but later became a general format to store cryptographic data like [[keys|Cryptographic Key]] and [[certificates|Public Key Certificate]].
+
+It was eventually formalized in <a target="_blank" href="https://datatracker.ietf.org/doc/html/rfc7468">RFC7468</a>
+
+One of its distinguishing features are the one-line header and footer. Popular examples are:
+
+* <$codeblock code="-----BEGIN PRIVATE KEY-----
+-----END PRIVATE KEY-----"/>
+* <$codeblock code="-----BEGIN ENCRYPTED PRIVATE KEY-----
+-----END ENCRYPTED PRIVATE KEY-----"/>
+*>''Note:'' Here, `ENCRYPTED` means that the [[Private Key]] has been encrypted with a password
+* <$codeblock code="-----BEGIN CERTIFICATE-----
+-----END CERTIFICATE-----"/>
+* <$codeblock code="-----BEGIN CERTIFICATE REQUEST-----
+-----END CERTIFICATE REQUEST-----"/>
+* <$codeblock code="-----BEGIN X509 CRL-----
+-----END X509 CRL-----"/>
+
+[[PEM|PEM Format]] specifies that the body of the content (the part between the header and the footer) is [[Base64]]-encoded.
+
+''Note:'' [[OpenSSH]] used to use [[PEM|PEM Format]] for its [[Private Keys|Private Key]], but now is uses [[its own format|OpenSSH Private Key Format]] by default, which is only //visually// similar to [[PEM|PEM Format]].
+
+https://en.wikipedia.org/wiki/Privacy-Enhanced_Mail
+
+https://www.thedigitalcatonline.com/blog/2018/04/25/rsa-keys/

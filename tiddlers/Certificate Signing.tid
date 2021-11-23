@@ -1,0 +1,31 @@
+created: 20211102132620373
+modified: 20211102134251726
+tags: OpenSSL Security [[Transport Layer Security]]
+title: Certificate Signing
+tmap.id: 2f8e9442-bb1d-4537-9f49-b09a192e8db0
+type: text/vnd.tiddlywiki
+
+<$viz text="""
+digraph {
+rankdir=LR
+c11 [label="Bob's\nidentity\ninformation"]
+c12 [label="Bob's\nPrivate\nKey"]
+c13 [label="Bob's\nPublic\nKey"]
+{rank=same; c11; c12; c13}
+c21 [label="Certificate\nSigning\nRequest"]
+c31 [label="Certificate\nAuthority"]
+c41 [label="Signed\nCertificate"]
+c11 -> c21
+c12 -> c21
+c13 -> c21
+c21 -> c31
+c31 -> c41
+}
+""" class="dot_1"/>
+
+<!--Links (for context aware search):-->
+[[|Private Key]]
+[[|Public Key]]
+[[|Certificate Signing Request]]
+[[|Certiicate Authority]]
+<!--...more?-->

@@ -1,0 +1,19 @@
+created: 20211011141649164
+modified: 20211014115850609
+tags: [[IT Risk Management]] Stub
+title: Disaster Recovery
+tmap.id: 0db81d61-8519-4698-a448-178d91dee77e
+type: text/vnd.tiddlywiki
+
+A [[Disaster Recorery]] plan dictates how a business should respond to a disaster.
+
+In contrast with [[Business Continuity]], [[Disaster Recovery]] assumes that the primary site is not recoverable, and focuses on restoring data and services to a secondary survived site.
+
+[[Disaster Recovery]] is thus sometimes considered a [[Subset]] of [[Business Continuity]].
+
+Two important quantities in [[Disaster Recovery]] planning are:
+
+* [[Recovery Time Objective]]
+* [[Recovery Point Objective]]
+
+https://en.wikipedia.org/wiki/Disaster_recovery

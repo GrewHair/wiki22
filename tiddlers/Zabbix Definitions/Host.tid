@@ -1,0 +1,8 @@
+created: 20211117135321781
+modified: 20211117140137763
+tags: Zabbix
+title: Zabbix Definitions/Host
+tmap.id: 3435f269-60c4-4cde-ba17-485ee581e960
+type: text/vnd.tiddlywiki
+
+A [[networked|Computer Network]] device that you want to [[monitor|Monitoring]], has to have an [[IP Address]]/[[DNS Name|Domain Name]].

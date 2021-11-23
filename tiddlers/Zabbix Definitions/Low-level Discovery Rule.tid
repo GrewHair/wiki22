@@ -1,0 +1,8 @@
+created: 20211117164744662
+modified: 20211117164949435
+tags: Zabbix Stub
+title: Zabbix Definitions/Low-level Discovery Rule
+tmap.id: 3425630b-fd2c-451c-b279-a5530683e34b
+type: text/vnd.tiddlywiki
+
+A set of definitions for [[automated discovery of low-level entities on a device|Zabbix Definitions/Low-level Discovery]].

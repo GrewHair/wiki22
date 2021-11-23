@@ -1,0 +1,10 @@
+created: 20211028100410625
+edit-mode: no
+list: [[List of Files (OpenSSH)]]
+modified: 20211028100638387
+role: comment
+title: Comment by '(anonymous)' on 'List of Files (OpenSSH)' 1
+tmap.id: 42aa4bd3-a352-4bdc-b406-21200845590c
+type: text/vnd.tiddlywiki
+
+after I added the 'config' file in the ~/.ssh/ tree of the client, the bottom-most two arrows went off again, so I increased 'top' by 10px again.

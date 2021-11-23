@@ -1,0 +1,30 @@
+created: 20211013091624983
+modified: 20211028222132064
+tags: [[Hashicorp Vault]] Stub [[Vault: Getting Started (Hashicorp Learn)]]
+title: Hashicorp Vault High Level Architecture
+tmap.id: 4a811c98-cfa0-49d8-974d-e6639678b789
+type: text/vnd.tiddlywiki
+
+* Authentication backends - they provide the identity of the caller
+** [[EC2|AWS Elastic Compute Cloud]] [[VM|Virtual Machine]] authentication plugin
+** [[LDAP|Lightweight Directory Protocol]]/[[AD|Active Directory]]
+** [[K8s|Google Kubernetes]] authentication provider
+** ...
+* Auditing backends
+** Splunk
+** [[Syslog]]
+** ...
+* Storage backends
+** Regular [[RDBMS|Relational Database Management System]]
+** Consul
+** Cloud db like Google Spanner
+** ...
+* Secret backends - this helps implement the [[dynamic secrets|Problem Two: What Vault Offers]]
+** Key-value (K/V)
+** Database
+** RabbitMQ
+** [[AWS|Amazon Web Services]]
+** [[PKI|Public Key Infrastructure]]
+** [[SSH|SSH Key]] (?)
+
+https://learn.hashicorp.com/tutorials/vault/getting-started-intro?in=vault/getting-started

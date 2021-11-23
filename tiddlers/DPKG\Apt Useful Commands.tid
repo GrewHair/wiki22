@@ -1,0 +1,10 @@
+created: 20211020122229480
+modified: 20211020130936539
+tags: Ubuntu Debian Linux
+title: DPKG\Apt Useful Commands
+tmap.id: b3e664e8-a580-4419-9628-0a335fd1d7bb
+type: text/vnd.tiddlywiki
+
+* `dpkg -S $(which <command>)` - see which package a command belongs to
+* `dpkg -L <package-name> | grep bin` - list (hopefully) all commands that come with a package
+* `apt list --installed` - list installed packages (you can grep it for what you want)

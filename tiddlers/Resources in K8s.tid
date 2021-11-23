@@ -1,0 +1,16 @@
+created: 20211028180925564
+modified: 20211028181224134
+tags: K8s Stub
+title: Resources in K8s
+tmap.id: f73f885a-d3b8-4504-86bb-b255f8182946
+type: text/vnd.tiddlywiki
+
+On one hand:
+
+https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/
+
+On the other hand:
+
+https://kubernetes.io/docs/concepts/cluster-administration/manage-deployment/1
+
+https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/

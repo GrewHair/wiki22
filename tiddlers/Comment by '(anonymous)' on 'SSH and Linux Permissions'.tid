@@ -1,0 +1,10 @@
+created: 20211027081752320
+edit-mode: no
+list: [[SSH and Linux Permissions]]
+modified: 20211027081948071
+role: comment
+title: Comment by '(anonymous)' on 'SSH and Linux Permissions'
+tmap.id: 2b15d28f-1fc6-4cba-9b08-cca718059206
+type: text/vnd.tiddlywiki
+
+when you finally take care of 'unix permissions', you probably should revisit this tiddler and give links to words like 'writable', 'seen', 'group', 'others', etc

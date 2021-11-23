@@ -1,5 +1,5 @@
 created: 20210326220847180
-modified: 20210326221628086
+modified: 20211019140729249
 tags: [[Windows Server]] Networking
 title: Windows Internet Name Service
 tmap.id: c60084a1-d3f7-47bc-938b-54d001ef7708
@@ -9,7 +9,7 @@ type: text/vnd.tiddlywiki
 
 [[WINS|Windows Internet Name Service]] is [[Microsoft's|Microsoft]] implementation of [[NetBIOS Name Service (NBNS)|NetBIOS Name Service]].
 
-[[WINS|Windows Internet Name Service]] is to [[NetBIOS]] names what [[DNS|Domain Name System]] is to [[Domain Names|Domain Name]] - a central mapping of [[Host Names|Host Name]] to network addresses.
+[[WINS|Windows Internet Name Service]] is to [[NetBIOS names|NetBIOS Name]] what [[DNS|Domain Name System]] is to [[Domain Names|Domain Name]] - a central mapping of [[Host Names|Host Name]] to network addresses.
 
 This is the predecedssor to [[DNS|Domain Name System]] and yet has not been deprecated according to [[Microsoft]].
 

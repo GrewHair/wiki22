@@ -1,0 +1,8 @@
+created: 20211117151036658
+modified: 20211117151116912
+tags: Zabbix Stub
+title: Zabbix Definitions/Action
+tmap.id: 6757a8b7-a63c-45b2-a7a2-153c30939da5
+type: text/vnd.tiddlywiki
+
+A predefined means of reacting to an [[event|Zabbix Definitions/Event]].
