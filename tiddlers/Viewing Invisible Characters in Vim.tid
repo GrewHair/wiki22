@@ -1,0 +1,24 @@
+created: 20211128224711816
+modified: 20211129001216447
+tags: Vim Linux
+title: Viewing Invisible Characters in Vim
+tmap.id: 1cb48bd0-6c55-42c4-bcde-b22dc2e14712
+type: text/vnd.tiddlywiki
+
+Sometimes someone may mess up a file by accidentally combining tabs and spaces (e.g. falling into [[this pitfall|Copying Text Into Vim]]).
+
+In such cases it's nice to be able to inspect what you see. Just do:
+
+```vimscript
+:set list
+```
+
+Once you're done, revert the setting:
+
+```vimscript
+:set nolist
+```
+
+http://www.linuxask.com/questions/display-non-printable-character-in-vim
+
+https://askubuntu.com/questions/74485/how-to-display-hidden-characters-in-vim

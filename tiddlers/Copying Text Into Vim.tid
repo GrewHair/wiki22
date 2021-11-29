@@ -1,0 +1,28 @@
+created: 20211128221347433
+modified: 20211128224709238
+tags: Vim SSH Linux
+title: Copying Text Into Vim
+tmap.id: 0db488bb-6de5-49fe-9b10-e0dd267a4b60
+type: text/vnd.tiddlywiki
+
+When you're trying to copy text from your [[system's|Operating System]] [[clipboard|Clipboard]] into [[Vim]] over [[SSH|Secure Shell]], things can get messed up:
+
+* obviously it's not possible (or at least not easy) to use [[vim's|Vim]] [[registers|Vim Registers]], since it's [[SSH|Secure Shell]] and the remote [[Host]] doesn't have neither [[X]] nor [[Windows|Microsoft Windows]] running;
+* which means you'll resort to either using your [[Terminal Emulator]] or [[Tmux]] to send characters to [[Vim]];
+* from some version on (probably 8?), [[Vim]] has [[Auto Indents|Auto Indent (Vim)]] and [[Auto Comments|Auto Comment (Vim)]], and these two shall trigger with each received [[Carriage Return]], which will screw up your formatting, and in case of [[Python]] even render your code unusable.
+
+So, if you're planning to paste from clipboard, first enable the so-called [[Paste Mode|Paste Mode (Vim)]]:
+
+```vimscript
+set paste
+```
+
+Once you're done, you can switch it off if you will:
+
+```vimscript
+set nopaste
+```
+
+https://techexplorations.com/blog/kicad/blog-how-to-copy-text-into-vim/
+
+https://unix.stackexchange.com/questions/199203/why-does-vim-indent-pasted-code-incorrectly
