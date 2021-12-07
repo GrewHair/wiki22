@@ -1,0 +1,15 @@
+created: 20211207135956915
+icon: _my/images/icons/web-resource
+modified: 20211207140515523
+tags: ifconfig.co Stub
+title: ifconfig.co
+tmap.id: c94aa13e-ca60-4e71-b032-bc903a68970c
+type: text/vnd.tiddlywiki
+
+```bash
+curl ifconfig.co
+```
+
+https://ifconfig.co/
+
+https://www.reddit.com/r/bash/comments/mgq0xa/ifconfigco_hackerfriendly_what_is_my_ip_address/

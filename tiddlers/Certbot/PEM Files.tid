@@ -1,0 +1,15 @@
+created: 20211207153623419
+modified: 20211207153804330
+tags: [[Transport Layer Security]] Stub
+title: Certbot/PEM Files
+tmap.id: d3ff0712-4f84-4a32-b53a-97b873c701c9
+type: text/vnd.tiddlywiki
+
+```
+Private Key --------> privkey.pem
+Public Key ---------> cert.pem
+Certificate Chain --> chain.pem
+fullchain.pem
+```
+
+https://community.letsencrypt.org/t/what-are-those-pem-files/18402/5

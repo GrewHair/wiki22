@@ -1,0 +1,16 @@
+created: 20211207124913292
+modified: 20211207125836172
+tags: [[Transport Layer Security]] Stub
+title: Certificate Validation Levels
+tmap.id: 3a38e2d3-2322-4c59-9850-d37a088ab972
+type: text/vnd.tiddlywiki
+
+There are three main [[Types of SSL Certificates|Certificate Validation Levels]]:
+
+* [[Domain-validated|Domain-validated Certificate]]
+* [[Organization-validated|Organization-validated Certificate]]
+* [[Extended Validation|Extended Validation Certificate]]
+
+https://en.wikipedia.org/wiki/Public_key_certificate#Validation_levels
+
+https://www.globalsign.com/en/ssl-information-center/types-of-ssl-certificate

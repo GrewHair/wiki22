@@ -1,0 +1,21 @@
+created: 20211202070619349
+modified: 20211202105502770
+tags: Linux Unix Cron
+title: Fields in a Cron Expression
+tmap.id: 89165df5-66a8-444d-8b71-749f4d56badc
+type: text/vnd.tiddlywiki
+
+|!Field|!Mandatory?|!Allowed Values|!Special Characters|
+|!`seconds`|✔|` 0 - 59 `|`, - * /`|
+|!`minutes`|✔|` 0 - 59 `|`, - * /`|
+|!`hours`|✔|` 0 - 23 `|`, - * /`|
+|!`day-of-month`|✔|` 1 - 31 `|`, - * ? / L W`|
+|!`month`|✔|`1-12` or `JAN-DEC`|`, - * /`|
+|!`day-of-week`|✔|`1-7` or `SUN-SAT`|`, - * ? / L #`|
+|!`year`||`EMPTY`, `1970-2099`|`, - * /`|
+
+https://www.netiq.com/documentation/cloud-manager-2-5/ncm-reference/data/bexyssf.html
+
+''It seems cron doesn't have seconds.. I've no idea where this information came from!!''
+
+''Also, it seems that `?` is also applicable at least to years.''

@@ -1,0 +1,8 @@
+created: 20211201080803767
+modified: 20211201081022492
+tags: Jenkins Stub
+title: Atomic File Writer (Jenkins)
+tmap.id: 5f475810-0e2f-4972-aaa1-09fea5a125f0
+type: text/vnd.tiddlywiki
+
+https://support.cloudbees.com/hc/en-us/articles/360055050311-Why-does-my-Jenkins-home-directory-contain-random-temporary-files

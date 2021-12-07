@@ -1,0 +1,10 @@
+created: 20211201102002332
+modified: 20211201102316192
+tags: [[Kohsuke Kawaguchi]] Jenkins Stub
+title: Install Without Restart (Jenkins)
+tmap.id: ed8a0d52-4537-47ca-aa7d-192ca8ff2dad
+type: text/vnd.tiddlywiki
+
+https://issues.jenkins.io/browse/JENKINS-18718
+
+https://www.cloudbees.com/blog/install-plugins-without-restarting-jenkins

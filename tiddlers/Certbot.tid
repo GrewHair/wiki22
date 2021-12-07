@@ -1,0 +1,16 @@
+created: 20211207134604486
+modified: 20211207135955465
+tags: [[Transport Layer Security]] Stub
+title: Certbot
+tmap.id: d441cc49-a2e2-45ab-8c4e-d0c85fb269f6
+type: text/vnd.tiddlywiki
+
+''Previously named: Letsencrypt''
+
+[[Certbot]] is an [[ACME Client]] written in [[Python]], developed by [[EFF|Electronic Frontier Foundation]] and [[Mozilla]] engineers.
+
+It is by far the most widespread [[ACME Client]] to date.
+
+The name originally was [[Letsencrypt|Certbot]], but was changed to [[Certbot]] in 2016 to differentiate it from the [[Let's Encrypt]] [[CA|Certificate Authority]].
+
+https://www.eff.org/deeplinks/2016/03/new-name-and-roadmap-lets-encrypt-client

@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200706145039921
-modified: 20200706163653636
+modified: 20211202072317510
 tags: Python Stub
 title: Python Built-in Types' Methods (Excluding str)
 tmap.id: fab46c80-fd52-4284-8ae9-d1cf60fb85e8

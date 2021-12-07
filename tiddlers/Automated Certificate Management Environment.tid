@@ -1,0 +1,16 @@
+created: 20211207125949310
+modified: 20211207130628914
+tags: [[Transport Layer Security]] Stub
+title: Automated Certificate Management Environment
+tmap.id: 38fe3c03-1a0c-4800-bb4d-d3933f789fde
+type: text/vnd.tiddlywiki
+
+''AKA ACME Protocol''
+
+[[ACME|Automated Certificate Management Environment]] is a [[Challenge-response|Challenge-response Authentication]] protocol used to automate enrolling with a [[Certificate Authority]].
+
+It was designed by the [[ISRG|Internet Security Research Group]] for their [[Let's Encrypt]] service.
+
+https://en.wikipedia.org/wiki/Let%27s_Encrypt#ACME_protocol
+
+https://en.wikipedia.org/wiki/Automated_Certificate_Management_Environment

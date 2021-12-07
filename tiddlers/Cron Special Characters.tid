@@ -1,0 +1,22 @@
+created: 20211202072647007
+modified: 20211202105308666
+tags: Cron Unix Linux
+title: Cron Special Characters
+tmap.id: dfc15fef-f8f5-480b-99f6-44f9916b0ff4
+type: text/vnd.tiddlywiki
+
+|!Operator|!Purpose|!Example|
+|!<center>all [[fields|Fields in a Cron Expression]]</center>|<|<|
+|`*`|All possible values for a [[field|Fields in a Cron Expression]]|`*` in the hour [[field|Fields in a Cron Expression]] means "every hour"|
+|`/`|Used with values like this: `<foo>/<bar>`.<br> Skip `<bar>` values. `<foo>` specifies the offset|In the hour [[field|Fields in a Cron Expression]]:<br> `*/3` means `0,3,6,9,12,15,18,21`,<br> `2/3` means `2,5,8,11,14,17,20,23`|
+|`,`|List of values|`2,3,4,5`|
+|`-`|Range of values|`2-5` is equivalent to `2,3,4,5`|
+|!<center>`day-of-week` and `day-of-month` [[fields|Fields in a Cron Expression]]</center>|<|<|
+|`?`|Means "no specific value".<br>Omits description of one of these [[fields|Fields in a Cron Expression]].|For a trigger to fire on 10th of month, regardless of the day of weak, enter:<br>`10` in the `day-of-month` [[field|Fields in a Cron Expression]] and<br>`?` in the `day-of-week` [[field|Fields in a Cron Expression]].|
+|`L`|In the `day-of-month` [[field|Fields in a Cron Expression]] it means the last day of month (e.g. 31, 28, etc.).<br>In the `day-of-week` [[field|Fields in a Cron Expression]] it means Sunday.<br>In the `day-of-week` [[field|Fields in a Cron Expression]], if preceded by a numeric value (`<foo>L`), it means the last `<foo>` day of month.|In the `day-of-week` [[field|Fields in a Cron Expression]]:<br>`6L` means "the last Friday of the month".|
+|!<center>`day-of-month` [[field|Fields in a Cron Expression]]</center>|<|<|
+|`W`|Means the weekday (Monday~Friday) nearest to the given day.<br>__Doesn't cross__ a month's boundries.<br>Can be combined with `L` (i.e. `LW`) to mean "the last weekday of the month".|If the 15th is Saturday, `15W` will trigger on ''Friday the 14th''<br>If the 15th is Sunday, `15W` will trigger on ''Monday the 16th''<br>If the 15 is Tuesday, `15W` will trigger on ''Tuesday the 15th''<br>If the 1st is Saturday, `1W` will trigger on ''Monday the 3rd''|
+|!<center>`day-of-week` [[field|Fields in a Cron Expression]]</center>|<|<|
+|`#`|`<foo>#<bar>` means every `<bar>`'s `<foo>`-day of month.|`2#1` means the ''first Monday'' of the month;<br>`6#3` means the ''third Friday'' of the month;<br>`4#8` never triggers.|
+
+https://www.netiq.com/documentation/cloud-manager-2-5/ncm-reference/data/bexyssf.html
