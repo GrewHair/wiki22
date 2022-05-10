@@ -1,0 +1,18 @@
+created: 20220510154608960
+modified: 20220510155552788
+tags: Web WIP [[Couldn't Google It]]
+title: Mirror Infrastructure
+tmap.id: 6d2d579b-4fc0-478b-9181-96c455795927
+type: text/vnd.tiddlywiki
+
+''AKA Mirror System''
+
+I guess there are requirements one has to meet to make his [[Mirror Server|Mirror Site]] a public mirror. Satisfying these requirements makes your server a part of someone's [[Mirror Infrastructure]].
+
+https://cn.opensuse.org/Mirror_Infrastructure
+
+https://en.opensuse.org/openSUSE:Mirror_infrastructure
+
+https://blogs.apache.org/foundation/entry/apache-software-foundation-moves-to
+
+https://apache.org/history/mirror-history.html

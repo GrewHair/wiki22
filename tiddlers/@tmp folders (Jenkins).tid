@@ -1,0 +1,12 @@
+created: 20220111094345246
+modified: 20220111102727194
+tags: Jenkins Stub WIP
+title: @tmp folders (Jenkins)
+tmap.id: d342da61-12b2-4652-ad97-ee817d630749
+type: text/vnd.tiddlywiki
+
+https://newbedev.com/what-are-the-tmp-folders-in-a-jenkins-workspace-and-how-to-clean-them-up
+
+https://www.reddit.com/r/jenkinsci/comments/epk18k/why_does_jenkins_switches_between_workspace/
+
+https://stackoverflow.com/questions/58588794/what-are-the-tmp-folders-in-a-jenkins-workspace-and-how-to-clean-them-up

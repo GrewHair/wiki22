@@ -1,0 +1,10 @@
+created: 20220104194332676
+modified: 20220104194746142
+tags: Security [[Transport Layer Security]] Stub
+title: SSL Termination
+tmap.id: 457625f0-d0fb-4487-83ac-4efe5b798131
+type: text/vnd.tiddlywiki
+
+Basically [[SSL Termination]] is when you set up your [[Web Server]] to [[Redirect|URL Redirection]] all [[requests|HTTP Request]] from http to https.
+
+https://avinetworks.com/glossary/ssl-termination/

@@ -1,5 +1,5 @@
 created: 20201202175648255
-modified: 20201207111250500
+modified: 20220510082030527
 tags: Networking Stub [[Network Fundamentals (Network Direction)]]
 title: Classful Network
 tmap.id: e6c436f4-c418-42d2-a4fe-aa3431f0ca33
@@ -12,3 +12,12 @@ The addresses of the different [[Network Classes|Classful Network]] use differen
 * Class C: Three [[Octets|Octet]] minus 3 bits
 
 These bits that we subtract here are used to distinguish these [[Network Classes|Classful Network]].
+
+|![[Class|Classful Network]]|!Leftmost [[bit|Bit]]|!Start [[address|IP Address]]|!Finish [[address|Address]]|
+|!A|`0xxx`|`0.0.0.0`|`127.255.255.255`|
+|!B|`10xx`|`128.0.0.0`|`191.255.255.255`|
+|!C|`110x`|`192.0.0.0`|`223.255.255.255`|
+|!D|`1110`|`224.0.0.0`|`239.255.255.255`|
+|!E|`1111`|`240.0.0.0`|`255.255.255.255`|
+
+https://www.tutorialspoint.com/unix_sockets/network_addresses.htm

@@ -1,0 +1,10 @@
+created: 20220328141550407
+modified: 20220328142311740
+tags: Rsync
+title: Rsync Tips
+tmap.id: 5942b02d-0876-4f64-93ff-716b6dcabd69
+type: text/vnd.tiddlywiki
+
+* If you want to copy a [[directory|Directory (File Systems)]] your [[user|User (Unix)]] does not own (but can [[sudo]]), use:
+*> `--rsync-path="sudo rsync"`
+* [[Rsync]] has a weird path syntax convention. See [[rsync vs mv\cp Syntax]], if you want to copy a [[directory|Directory (File Systems)]] vs copy the //contents// thereof

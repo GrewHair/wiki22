@@ -1,0 +1,17 @@
+created: 20220205212301948
+modified: 20220205213121052
+tags: Linux [[Red Hat Linux]] CentOS yum-utils
+title: yumdownloader
+tmap.id: 409b8447-b9bc-4d11-a901-d382699be6b0
+type: text/vnd.tiddlywiki
+
+[[yumdownloader]] just downloads [[packages|Package Format]] from yum repositories, without installing them.
+
+This may be useful if you want to back up a [[package|Package Format]] that a repo providing it doesn't care to keep (like say a certain version of google chrome).
+
+The `--resolve` flag also downloads dependencies, so you typically want it as well.
+
+The caveat is that it __doesn't__ download [[packages|Package Format]] it finds are already installed on the system, so to download everything you need you should either:
+
+* carefully delete all the dependencies via `yum remove`
+* dig into [[this|https://serverfault.com/questions/911932/yumdownloader-doesnt-resolve-dependency]]

@@ -1,0 +1,10 @@
+created: 20220221101545687
+modified: 20220221102055691
+tags: Unix Linux awk Stub
+title: awk Pitfalls
+tmap.id: 5475f21e-7793-4afd-8672-68821a22cb0f
+type: text/vnd.tiddlywiki
+
+* You have to pass [[Shell]] variables via the `-v` flag, you can't use them directly, because the [[awk]] code should necessarily be enclosed in single quotes (why? maybe see this)
+** https://stackoverflow.com/questions/44445852/difference-between-single-and-double-quotes-in-awk
+* You can't use variables in the search pattern

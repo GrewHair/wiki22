@@ -1,0 +1,10 @@
+created: 20220420112905595
+modified: 20220420113023435
+tags: K8s Stub
+title: Cordon (Kubernetes)
+tmap.id: 7c270646-43b5-4969-bee0-0883bb8358c2
+type: text/vnd.tiddlywiki
+
+[[Kubectl|kubectl]] [[cordon|Cordon (Kubernetes)]] contains the [[node|Node (Kubernetes)]] as “unplannable”.
+
+https://linuxhint.com/use-kubectl-cordon/

@@ -1,0 +1,26 @@
+created: 20220104104454349
+modified: 20220104111338043
+tags: [[File Formats]] Computing Stub
+title: Archive File
+tmap.id: a0a83786-046a-4810-a8b4-90f95fa2ea1a
+type: text/vnd.tiddlywiki
+
+In [[Computing]], an [[Archive|Archive File]] is a [[file|File]] that is composed of one or more [[files|File]] along with [[Metadata]].
+
+They are used to: 
+
+* collect batches of [[files|File]] together for easier portability and [[storage|Storage]]
+* [[Compress|Data Compression]] files to save [[storage|Storage]] space
+
+Apart from [[files|File]] themselves, [[Archives|Archive File]] also store:
+
+* [[Directory Structures|Directory Structure]]
+* [[EDAC|Error Detection and Correction]] information
+* optional arbitrary comments
+* optional built-in [[Encryption]]
+
+Because they store [[File System]] data, [[Archives|Archive File]] are useful for storing a [[Directory Structure]] on systems, or send it over [[channels|Communication Channel]], that do not support it.
+
+They are also widespread in [[Software Packaging]] and [[Distribution|Software Distribution]], in which case an [[Archive|Archive File]] is usually known as a [[Package|Software Package]], its content follows a specific [[Directory Structure]] and contains additional stuff like the [[Manifest|Manifest File]] and further [[Metadata]] needed by the [[Package Manager]].
+
+https://en.wikipedia.org/wiki/Archive_file

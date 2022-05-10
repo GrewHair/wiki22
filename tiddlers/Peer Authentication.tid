@@ -1,0 +1,8 @@
+created: 20220228133526033
+modified: 20220228134505776
+tags: [[Postgre SQL]] Stub
+title: Peer Authentication
+tmap.id: a6f7703e-072c-4587-af15-f94c2e6df26b
+type: text/vnd.tiddlywiki
+
+https://www.postgresql.org/docs/13/auth-peer.html

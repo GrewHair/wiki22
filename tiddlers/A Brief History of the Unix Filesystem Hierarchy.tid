@@ -1,0 +1,68 @@
+created: 20220120081622772
+modified: 20220120082456291
+tags: Unix Linux [[Wayback Machine]] WIP
+title: A Brief History of the Unix Filesystem Hierarchy
+tmap.id: 33cd0366-504a-4e82-bfdd-53e7b7c3e4a9
+type: text/vnd.tiddlywiki
+
+http://web.archive.org/web/20150515204716/http://objectroot.org/articles/brief-history-of-hier/
+
+!A brief history of the Unix filesystem hierarchy
+
+While Unix as a whole has been a spectacular success, the filesystem hierarchy is an area in its design that has not aged well. To better understand the problems associated with it, let's take a brief look at its history.
+
+1. The tale of the four cascaded hierarchies
+Things started out in the 1970s with the root directory looking like this:
+
+/bin – utility programs
+/dev – devices
+/etc – essential data and dangerous maintenance utilities
+/lib – object libraries and other stuff
+/tmp – temporary files
+/usr – general-purpose directory
+Early on, /usr became a separately mounted filesystem. And with filesystem performance in those days heavily dependent on directory size, a secondary hierarchy was introduced under /usr:
+
+/usr/bin – utility programs, to keep /bin small
+/usr/lib – object libraries and stuff, to keep /lib small
+/usr/tmp – temporaries, to keep /tmp small
+...
+After Unix had found its way out of Bell Labs, a new usage convention turned into a de facto standard, resulting in a tertiary hierarchy:
+
+/usr/local/bin – locally installed utility programs
+/usr/local/lib – locally installed object libraries and stuff
+...
+Finally, one could say a quaternary hierarchy came about when independent software vendors (ISV) started having their software packages install under /usr/local/vendor/, a directory which often featured its own bin, lib and other subdirectories:
+
+/usr/local/vendor/bin – ISV specific utility programs
+/usr/local/vendor/lib – ISV specific object libraries and stuff
+...
+2. Going diskless in the 80's
+In the mid 1980s, when the newly invented Ethernet had become a big hit, but disks were still very expensive, someone came up with the idea of a diskless workstation. This required moving variable and host specific files out of the /usr filesystem, so that it could be shared between hosts, and mounted read-only over the network. Thus was born the /var tree for “variable data”, with the following changes, among others, to the hierarchy:
+
+/usr/log   → /var/log
+/usr/spool → /var/spool
+/usr/tmp   → /var/tmp
+...
+Diskless workstations ended up being a short-lived experiment, but the /var tree stuck.
+
+3. Commercial “innovations”
+Meanwhile, commercial Unix vendors had been coming up with their own “enhancements” to the filesystem hierarchy. One such idea was the /var/opt directory for “optional application software packages”. The directory was presumably placed under /var so that, if you had bought a software user license for one CPU only, this ensured the product wasn't accidentally available on all computers site-wide. Another reason may have been the fact that these packages were often monolithic “file dumps” that gratuitously mixed static and variable data. So in the new scheme of things there really wasn't anywhere else to put it.
+
+But true to the unfortunate practise of fixing things by addition only, some Unix vendors later introduced an /opt directory, relegating /var/opt to “variable data for packages installed under /opt”. And things wouldn't be confusing enough unless there wasn't an /etc/opt directory now as well.
+
+The irony with this scheme was that hardly anyone used it. Application software packages continued to be installed mostly under /usr/local/vendor/,  just as before.
+
+4. A new kind of sharing (where no sharing happens)
+Even though separating host-specific files from shared files was not en vogue anymore, someone thought it would be useful to separate CPU architecture specific files from architecture independent files. The /usr/share tree was introduced for this purpose. And many directories that had lived under /usr since the beginning of time(2), such as /usr/dict and /usr/man, were now moved there—causing, among other things, programs that read /usr/dict/words to stop working.
+
+In principle, this idea had some merit. But given that the rest of the hierarchy wasn't really designed to handle more than one CPU architecture, it is unclear what was achieved by /usr/share. A Google search for "mount /usr/share" gives no relevant results.
+
+5. Confusion begets more confusion
+In addition to the bigger developments described above, the hierarchy has experienced a continuously increasing entropy on a smaller scale as well. For example, according to one registry, over 100 different names have been found in the root directory.
+
+It is somewhat discouraging to note that wherever the hier(7) of the Seventh Edition Unix failed to make something unambiguously clear and pretty much nail it down using a nail gun, a thousand Unix programmers pondering about that something for the following three decades have not been able to come to an agreement over it.
+
+As just one example, up to this day no consensus exists over where executable binaries for daemons and other non-interactive commands should go. Multiple practices exist, and new ones continue to be introduced with alarming regularity (the present proposal of course being yet another one.)
+
+6. Saturation point is reached
+In summary, the Unix filesystem hierarchy is a mess. It is high time to start anew and rethink it from scratch.

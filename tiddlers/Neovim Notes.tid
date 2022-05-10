@@ -1,0 +1,11 @@
+created: 20220213130515869
+modified: 20220213225946375
+tags: Neovim
+title: Neovim Notes
+tmap.id: 199659e2-ffdf-4804-a530-eba38c255fd9
+type: text/vnd.tiddlywiki
+
+* Code actions are specific to a language server (so not all of them expose the same sets of actions)
+* Diagnostics were first standardized in 0.6, and have broader scope then just LSPs (e.g. some external linter can also populate them)
+* The actual highlighting provider is usually not LSP, but rather either the traditional regex engine or tree sitter, which is a separate feature and has additional conveniences
+* LSP servers often provide not just static completions to the editor, but completions with various metacharacters, telling the editor e.g. to expand smth to the current file name put the cursor at a certain position after accepting completion, etc. This functionality is pretty often handled not by a completion plugin/engine, but rather by a snippet engine (at least that's the case with `nvim-cmp` and `LuaSnip`) - and so you're kind of forced to install a snippet extension

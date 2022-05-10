@@ -1,0 +1,18 @@
+created: 20220111120531344
+modified: 20220509115921918
+tags: Java Stub
+title: Java Naming and Directory Interface
+tmap.id: 5ab52b80-f775-4d83-8210-174c4e9ef83f
+type: text/vnd.tiddlywiki
+
+''AKA JNDI''
+
+[[JNDI|Java Naming and Directory Interface]] is a [[Java]] [[API|Application Programming Interface]] for [[Directory Services|Directory Service]].
+
+https://en.wikipedia.org/wiki/Java_Naming_and_Directory_Interface
+
+https://docs.oracle.com/javase/jndi/tutorial/index.html
+
+[[log4shell]] exploits it!
+
+It has a pretty cool tutorial (last link), you should read it.

@@ -1,0 +1,24 @@
+created: 20211229152429021
+modified: 20211229152913066
+tags: Jenkins Security
+title: Do Not Disable the Groovy Sandbox
+tmap.id: 8423eee2-d367-4f5e-aa28-32ac01188cdc
+type: text/vnd.tiddlywiki
+
+!!''VERY VERY BAD THINGS CAN HAPPEN''
+
+!!''NEVER DISABLE THE GROOVY SANDBOX''
+
+!!''DID YOU HEAR ME? IT’S A TERRIBLE TERRIBLE IDEA JUST DON’T DO IT''
+
+And also,
+
+!!''VERY VERY BAD THINGS CAN HAPPEN''
+
+!!''NEVER DISABLE THE GROOVY SANDBOX''
+
+!!''DID YOU HEAR ME? IT’S A TERRIBLE TERRIBLE IDEA JUST DON’T DO IT''
+
+<br>
+
+https://brokenco.de/2017/08/03/donut-disable-groovy-sandbox.html

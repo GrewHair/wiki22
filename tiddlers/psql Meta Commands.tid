@@ -1,0 +1,8 @@
+created: 20220225145550715
+modified: 20220225164313261
+tags: [[Postgre SQL]] psql
+title: psql Meta Commands
+tmap.id: fcda029d-0452-465f-8d20-e3c71d7661df
+type: text/vnd.tiddlywiki
+
+`\C [ title ]` is equivalent to `\pset title [ title ]`

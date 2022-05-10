@@ -1,0 +1,12 @@
+created: 20220120082037150
+modified: 20220120082411313
+tags: Unix Linux
+title: objectroot.org
+tmap.id: 105b8b1d-c11d-4424-ad38-ad13bc0a60db
+type: text/vnd.tiddlywiki
+
+It is a somewhat interesting resource that is now dead but can still (at least partially) be accessed through the [[Wayback Machine]].
+
+It seems it was intended to re-think the [[FHS|Filesystem Hierarchy Standard]]. It obviously failed, but I hope it may still at least shed light on the history of the matter..
+
+https://www.reddit.com/r/linux/comments/1q9f81/objectroot_rethinking_the_unix_file_hierarchy/

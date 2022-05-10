@@ -1,0 +1,14 @@
+created: 20211221095632989
+modified: 20211228200231498
+tags: Jenkins Stub Quirk
+title: Truncated Workspace Folder Names (Jenkins)
+tmap.id: f308f3e9-771e-4289-b097-a763d761ccdc
+type: text/vnd.tiddlywiki
+
+[[Jenkins]] intentionally cuts the names of [[directories|Directory (File Systems)]] inside the [[Workspace|Workspace (Jenkins)]] [[directory|Directory (File Systems)]] to about 32-34 characters max, to avoid problems with [[OS|Operating System]] limitations on path length.
+
+This tends to mostly happen to [[Multibranch Pipelines|Multibranch Pipeline (Jenkins)]], maybe because these name [[Builds|Build (Jenkins)]] by concatenating the [[Job|Jenkins Job]] name with the [[Branch|Git Branch]] name ''(!!!that's just a guess - I don't reaaly know if that's the case!!!)''
+
+https://issues.jenkins.io/browse/JENKINS-46493
+
+https://stackoverflow.com/questions/65951843/jenkins-workspace-folder-cut-in-multibranch-pipeline

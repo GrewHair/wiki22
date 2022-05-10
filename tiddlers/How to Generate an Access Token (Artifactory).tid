@@ -1,0 +1,17 @@
+created: 20220323082138599
+modified: 20220323082533967
+tags: Artifactory Stub
+title: How to Generate an Access Token (Artifactory)
+tmap.id: ca911970-07fb-41fb-a3d0-d13b0c20c2d1
+type: text/vnd.tiddlywiki
+
+Only admin level tokens can be generated via UI. For user tokens, you have to use the [[REST API]]:
+
+```bash
+curl -uadmin:Password -XPOST "http://localhost:8081/artifactory/api/security/token" -d "username=test" -d "scope=member-of-groups:readers" -d "expires_in=0"
+```
+
+https://jfrog.com/knowledge-base/how-to-generate-an-access-token-video/
+
+
+For [[npm]] see [[NPM Token in Artifactory]].

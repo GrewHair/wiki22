@@ -1,0 +1,12 @@
+created: 20220111093605087
+modified: 20220111093730154
+tags: Linux Stub
+title: Virtual Ethernet Device
+tmap.id: 757a0d03-d530-478e-a446-7faf35da9d93
+type: text/vnd.tiddlywiki
+
+http://manpages.ubuntu.com/manpages/bionic/man4/veth.4.html
+
+https://superuser.com/questions/1307030/how-to-get-rid-of-veth-interfaces
+
+https://man7.org/linux/man-pages/man4/veth.4.html

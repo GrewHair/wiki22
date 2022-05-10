@@ -1,0 +1,18 @@
+created: 20220105113138705
+modified: 20220105113502609
+tags: Security [[Software Maintenance]] Stub
+title: Backporting
+tmap.id: 0b5d23ec-90f8-47fe-ab32-f88d8dcd402f
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/Backporting
+
+https://www.crowdstrike.com/cybersecurity-101/backporting/
+
+<br>
+
+''In [[RHEL|Red Hat Enterprise Linux]]:''
+
+https://access.redhat.com/security/updates/backporting
+
+https://www.redhat.com/en/blog/what-backporting-and-how-does-it-apply-rhel-and-other-red-hat-products

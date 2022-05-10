@@ -1,0 +1,10 @@
+created: 20211228131835915
+modified: 20211228132005626
+tags: K8s Stub Networking
+title: Kubernetes Terms That Likely Originated in Networking
+tmap.id: 31240c60-0db7-41c8-8470-5fe80c7b540f
+type: text/vnd.tiddlywiki
+
+* [[Ingress]]
+* [[Control Plane]]
+* [[Data Plane]]

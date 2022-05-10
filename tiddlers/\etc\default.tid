@@ -1,0 +1,8 @@
+created: 20220406130058918
+modified: 20220406130133786
+tags: Jenkins [[System V]] Linux Debian Stub
+title: \etc\default
+tmap.id: a9b459eb-f542-4d0f-8576-65f43f8b29a8
+type: text/vnd.tiddlywiki
+
+https://askubuntu.com/questions/429592/what-is-the-purpose-of-etc-default#:~:text=Basically%2C%20%2Fetc%2Fdefault%20contains,the%20boot%20script%20is%20replaced.

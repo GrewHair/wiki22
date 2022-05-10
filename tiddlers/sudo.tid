@@ -1,5 +1,5 @@
 created: 20211005122451519
-modified: 20211005123535749
+modified: 20220111100139043
 tags: Linux
 title: sudo
 tmap.id: c5a8f48e-adf3-41c0-a9f7-9bbb48b835e6
@@ -15,3 +15,9 @@ type: text/vnd.tiddlywiki
 <br>
 
 Who can do what using [[sudo]] can be controlled via the [[Sudoers File]].
+
+---
+
+When you [[administer|Administration]] a bunch of [[servers|Server]] (especially when you're not the only admin, or you know this role is temporary), it can be a pain in the arse to have to do a lot of stuff as [[Root]] and lose all your [[aliases|Bash Alias]], etc. Thus it may be feasible to use [[sudo]] instead, although it has limitations. Read this link to learn more:
+
+https://help.ubuntu.com/community/RootSudo#Special_notes_on_sudo_and_shells

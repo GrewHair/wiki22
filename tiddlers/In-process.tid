@@ -1,0 +1,12 @@
+created: 20211229111451337
+modified: 20211229113551549
+tags: Programming Stub Jenkins Computing
+title: In-process
+tmap.id: ee2273cc-43c0-407c-ac79-e879dcfa47d1
+type: text/vnd.tiddlywiki
+
+[["In-process"|In-process]] means that a [[component|Software Component]] runs in the same [[Process Space|Virtual Address Space]] as the one using it.
+
+In case of [["In-process"|In-process]], you communicate using [[Local Method Calls]].
+
+https://stackoverflow.com/questions/5113650/difference-between-in-process-and-out-process-service

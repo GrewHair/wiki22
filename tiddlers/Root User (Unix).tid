@@ -1,0 +1,16 @@
+created: 20220120072225225
+modified: 20220120074058399
+tags: Linux Unix
+title: Root User (Unix)
+tmap.id: 00586b93-21b3-4eea-b2e9-a3d424c4b7ae
+type: text/vnd.tiddlywiki
+
+It's a mystery why the [[Root|Root User (Unix)]] is called the [[Root|Root User (Unix)]].
+
+In [[Computer Science]], the word //root// implies a [[tree data structure|Tree (Data Structure)]], and [[Unix users|User (Unix)]] don't form a tree.. However, [[processes|Process (Computing)]] and [[directories|Directory (File Systems)]] do.
+
+One version is that back in the days of [[Multix]] and early [[Unix]] the [[Root's|Root User (Unix)]] [[Home Directory]] used to be the [[Root Directory]], and the name kinda stuck:
+
+https://superuser.com/questions/1287877/why-is-the-most-powerful-user-on-a-unix-linux-system-called-root
+
+https://www.quora.com/Why-is-the-Unix-superuser-uid-0-called-root

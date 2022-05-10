@@ -1,0 +1,10 @@
+created: 20220422084102271
+modified: 20220422084246031
+tags: [[Web Servers]] Stub
+title: Apache2 RewriteRule Flags
+tmap.id: 7a79d5eb-2b05-4d0a-a3b2-6feff109e6f3
+type: text/vnd.tiddlywiki
+
+https://httpd.apache.org/docs/current/rewrite/flags.html
+
+* `[F]`, `[forbidden]` - returns [[403|403 Error]]

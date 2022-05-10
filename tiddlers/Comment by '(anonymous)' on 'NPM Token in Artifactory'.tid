@@ -1,0 +1,10 @@
+created: 20220323080057522
+edit-mode: no
+list: [[NPM Token in Artifactory]]
+modified: 20220323080301235
+role: comment
+title: Comment by '(anonymous)' on 'NPM Token in Artifactory'
+tmap.id: 4175f03f-6dcd-40a6-899e-82544bdc4a27
+type: text/vnd.tiddlywiki
+
+In reality it's probably not the brightest idea to keep these directly in your `.npmrc`, as long as this file goes to some version control.. Try researching best practices regarding this, later.

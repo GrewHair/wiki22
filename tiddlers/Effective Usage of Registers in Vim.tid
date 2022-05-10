@@ -1,0 +1,25 @@
+created: 20220220160520315
+modified: 20220220164247234
+tags: Vim
+title: Effective Usage of Registers in Vim
+tmap.id: 4133f10b-dd93-4c8f-a970-0d264c5d1f1c
+type: text/vnd.tiddlywiki
+
+''Preventing registers pollution''
+
+* `J` in normal mode eats an empty line below (or a range of empty lines in visual mode) without polluting registers
+** but it won't delete the current line
+* `nnoremap x "_x` and `nnoremap X "_X` work, since `x` and `X` only delete a single character
+** this breaks the letter swapping idioms `xp` and `Xp` though
+* `:copy`/`:t` and `:move`/`:m` are quite effective and don't populate the registers
+** but no visual feedback as you type
+** if you have autocompletion for command mode, it will get in the way and you won't see much of your buffer, so you're deprived of even more visual feedback
+** is it even a good thing in this case to not have the registers populated?
+* There should be a way to tell [[Vim]] not to put lines comprized only of spaces, tabs and newlines into the registers
+** I've yet to find one
+
+''"Free" registers''
+
+*[[Yank Register]] 
+*[[Small Delete Register]]
+* ...

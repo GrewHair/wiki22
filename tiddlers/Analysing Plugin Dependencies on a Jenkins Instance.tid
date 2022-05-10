@@ -1,0 +1,14 @@
+created: 20220214164924551
+modified: 20220223180747472
+tags: Stub WIP Jenkins
+title: Analysing Plugin Dependencies on a Jenkins Instance
+tmap.id: 22cd84a7-6bf4-4cc2-900b-94cb96971690
+type: text/vnd.tiddlywiki
+
+https://support.cloudbees.com/hc/en-us/articles/216351528-How-do-I-analyse-plugins-and-dependencies-for-an-instance-
+
+https://stackoverflow.com/questions/37757231/list-jenkins-plugins-and-dependencies-with-graph
+
+https://stackoverflow.com/questions/28542644/how-to-list-all-unused-jenkins-plugins
+
+https://wiki.jenkins.io/JENKINS/Dependencies-among-plugins.html

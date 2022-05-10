@@ -1,0 +1,12 @@
+created: 20211214113659602
+modified: 20211214114711896
+tags: Linux Email Stub
+title: Postfix
+tmap.id: 73e9c1bc-45c5-428d-9d5d-4650d8cdb5fd
+type: text/vnd.tiddlywiki
+
+[[Postfix]] is an [[Open-source|Open-source Software]] [[Mail Transfer Agent]].
+
+It was released under the [[IBM Public License]] 1.0, and, starting from [[version 3.2.5|Semantic Versioning]] is also available under [[Eclipse Public License]] 2.0.
+
+https://en.wikipedia.org/wiki/Postfix_(software)

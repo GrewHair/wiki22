@@ -1,0 +1,30 @@
+created: 20220323074633177
+modified: 20220323080024086
+tags: Artifactory Stub [[Badly Named]]
+title: NPM Token in Artifactory
+tmap.id: d28cf4de-78f1-433b-b6bb-16b437501d2a
+type: text/vnd.tiddlywiki
+
+!! Way #1: Generating the [[token|Token]] from [[Artifactory]]
+```bash
+curl -uadmin:<CREDENTIAL> http://<ARTIFACTORY_SERVER_DOMAIN>:8081/artifactory/api/npm/auth
+```
+```
+_auth = YWRtaW46e0RFU2VkZX1uOFRaaXh1Y0t3bHN4c2RCTVIwNjF3PT0=
+email = myemail@email.com
+always-auth = true
+```
+where `<CREDENTIAL>` is your artifactory [[password|Password]] or [[APIKey|Artifactory API Key]] [[(source)|https://www.jfrog.com/confluence/display/JFROG/npm+Registry]].
+<br><br>
+
+!! Way #2: Using [[Base64]]-encoded [[username]] and [[password]]
+https://medium.com/@KunalMZ/working-with-npm-jfrog-ba14e1fa09f2
+<br><br>
+
+!!Finally:
+
+put the obtained [[token|Token]] into your <$link to=".npmrc">`.npmrc`</$link> or <$link to=".yarnrc">`.yarnrc`</$link> [[file|File]] under the `_auth` field:
+
+```
+_auth="YWRtaW46e0RFU2VkZX1uOFRaaXh1Y0t3bHN4c2RCTVIwNjF3PT0="
+```

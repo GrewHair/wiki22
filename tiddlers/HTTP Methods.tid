@@ -1,5 +1,5 @@
 created: 20210325095317891
-modified: 20210325121943213
+modified: 20220422085041849
 tags: [[Web Development]] Stub
 title: HTTP Methods
 tmap.id: 6ed98143-7104-4ea4-9e23-06dbe67c8cb9
@@ -7,7 +7,7 @@ type: text/vnd.tiddlywiki
 
 ''AKA HTTP Request Methods, HTTP Verbs''
 
-|![[Method|HTTP Methods]]|!Safe|![[Idempotent|Idempotence]]|![[CRUD]]|[[SQL|SQL Data Statements]]|
+|![[Method|HTTP Methods]]|!Safe|![[Idempotent|Idempotence]]|![[CRUD]]|Analog from [[SQL|SQL Data Statements]]|
 |[[GET|GET (HTTP Method)]]|✓|✓|[[Read|Read (CRUD)]]|[[SELECT]]|
 |[[HEAD|HEAD (HTTP Method)]]|✓|✓|||
 |[[POST|POST (HTTP Method)]]|||[[Create|Create (CRUD)]]|[[INSERT]]|

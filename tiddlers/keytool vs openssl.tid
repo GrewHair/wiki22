@@ -1,0 +1,12 @@
+created: 20211215171622973
+modified: 20211215171914678
+tags: Linux [[Transport Layer Security]] Security Java Stub
+title: keytool vs openssl
+tmap.id: e8a970b0-e0c5-44cd-8a22-19f906c5f833
+type: text/vnd.tiddlywiki
+
+both are crypto key generation tools, but [[keytool]] is for [[Java]].
+
+https://security.stackexchange.com/questions/98282/difference-between-openssl-and-keytool
+
+https://stackoverflow.com/questions/48472764/difference-between-keytool-and-openssl

@@ -1,0 +1,17 @@
+created: 20211215145800650
+modified: 20211215165439048
+tags: Jenkins Stub
+title: Ways to Link Jobs (Jenkins Pipeline)/Triggered Execution
+tmap.id: 463e03a2-3195-4af0-b677-570c8af06ae0
+type: text/vnd.tiddlywiki
+
+In the [[Downstream Job|Downstream Job (Jenkins)]]:
+
+```less
+triggers {
+  upstream(upstreamProjects: "metamorphant/deploy/",
+           threshold: hudson.model.Result.SUCCESS)
+}
+```
+
+https://metamorphant.de/blog/posts/2019-03-11-jenkins-101-downstream-projects/

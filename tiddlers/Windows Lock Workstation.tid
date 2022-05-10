@@ -1,5 +1,5 @@
 created: 20211129103800985
-modified: 20211129104851759
+modified: 20220226094328988
 tags: Windows
 title: Windows Lock Workstation
 tmap.id: fb18107b-ac88-4a14-9cef-7cab9c9ef567
@@ -19,6 +19,6 @@ This:
 
 https://www.maketecheasier.com/disable-lock-screen-shortcut-key-windows/
 
-Basically, go to `HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies` in [[regedit]], find the `DisableLockWorkstation` key there, and change its value to 0, then, when you're done, back to 1.
+Basically, go to `HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies` in [[regedit]], find the `DisableLockWorkstation` key there, and change its value to `0`, then, when you're done, back to `1`.
 
 It hurts a bit, but what do you do..

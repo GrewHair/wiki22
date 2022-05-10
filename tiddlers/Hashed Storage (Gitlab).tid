@@ -1,0 +1,8 @@
+created: 20220322102535060
+modified: 20220322102621101
+tags: Gitlab Stub
+title: Hashed Storage (Gitlab)
+tmap.id: 560a51be-18cb-4671-9eef-fdc08fa7c1ee
+type: text/vnd.tiddlywiki
+
+https://docs.gitlab.com/ee/administration/repository_storage_types.html#hashed-storage

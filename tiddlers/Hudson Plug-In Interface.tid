@@ -1,0 +1,12 @@
+created: 20220404092141053
+modified: 20220404092306672
+tags: Jenkins Stub
+title: Hudson Plug-In Interface
+tmap.id: e26994d3-05e7-4ea2-b756-4a762b77b4a7
+type: text/vnd.tiddlywiki
+
+''AKA .hpi''
+
+https://wiki.eclipse.org/Hudson-ci/writing-first-hudson-plugin
+
+https://stackoverflow.com/questions/30658375/what-is-difference-between-hpi-and-jpi-of-jenkins-plugins

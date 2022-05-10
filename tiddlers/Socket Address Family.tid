@@ -1,0 +1,20 @@
+created: 20220510093405621
+modified: 20220510102257044
+tags: [[Badly Named]] Stub IANA
+title: Socket Address Family
+tmap.id: a90c7af7-2f5c-4346-86ad-b1a7a8435736
+type: text/vnd.tiddlywiki
+
+''AKA Address Family, Address Domain''
+
+The list of [[Address Family Identifiers|Address Family Identifier]] is maintained by [[IANA|Internet Assigned Numbers Authority]].
+
+https://en.wikipedia.org/wiki/Address_family_identifier
+
+https://datatracker.ietf.org/doc/html/rfc2453
+
+https://man7.org/linux/man-pages/man7/address_families.7.html
+
+https://stackoverflow.com/questions/4976897/what-is-address-family
+
+https://www.ibm.com/docs/en/i/7.1?topic=characteristics-socket-address-family

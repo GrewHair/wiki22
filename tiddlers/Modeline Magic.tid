@@ -1,0 +1,16 @@
+created: 20220215125146633
+modified: 20220215125553685
+tags: Vim Emacs [[Badly Named]]
+title: Modeline Magic
+tmap.id: 5b11bade-7245-470e-a902-92306dcf83ab
+type: text/vnd.tiddlywiki
+
+
+```
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+```
+
+This comment tells both [[Emacs]] (first line) and [[Vi]] (second line) to treat the file as a [[Ruby]] (or whatever) file. Usually used when you can't rely on the extension.
+
+https://poweruser.guru/questions/703803/bash-vi-mode-%D1%87%D1%82%D0%BE-%D0%BE%D0%B7%D0%BD%D0%B0%D1%87%D0%B0%D0%B5%D1%82-mode-ruby-vi-%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C-ft-ruby-%D0%B7%D0%BD%D0%B0%D1%87%D0%B8%D1%82

@@ -1,0 +1,12 @@
+created: 20220120091046904
+modified: 20220120091205495
+tags: Linux Stub
+title: fastestmirror (Yum Plugin)
+tmap.id: c049f3c1-d683-4bc0-a4fe-c3b495aaac8d
+type: text/vnd.tiddlywiki
+
+This plugin seems to be ubiquitous.
+
+https://centos.name/?page/howto/FastestMirror
+
+https://wiki.centos.org/PackageManagement/Yum/FastestMirror

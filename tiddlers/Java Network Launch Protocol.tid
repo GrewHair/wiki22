@@ -1,0 +1,12 @@
+created: 20220111120332604
+modified: 20220111120521978
+tags: Java Stub
+title: Java Network Launch Protocol
+tmap.id: dda54a47-bc81-49e0-894d-6316b8eea6cf
+type: text/vnd.tiddlywiki
+
+''AKA JNLP''
+
+[[Jenkins]] uses it (the alternative is [[SSH|Secure Shell]] ???):
+
+https://wiki.jenkins.io/display/JENKINS/Distributed+builds

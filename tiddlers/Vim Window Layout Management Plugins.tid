@@ -1,0 +1,12 @@
+created: 20220420125946458
+modified: 20220420130057398
+tags: Vim
+title: Vim Window Layout Management Plugins
+tmap.id: 5b180679-dbdc-44d1-ac98-56166a7a2f8f
+type: text/vnd.tiddlywiki
+
+https://www.reddit.com/r/vim/comments/gsu8pc/undo_window_management_operation/
+
+https://github.com/AndrewRadev/undoquit.vim
+
+https://github.com/habamax/vim-winlayout

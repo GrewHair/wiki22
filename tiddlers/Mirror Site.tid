@@ -1,0 +1,14 @@
+created: 20220510120408617
+modified: 20220510121330462
+tags: Web Stub
+title: Mirror Site
+tmap.id: a0b75089-1367-4b1f-b2e8-867a98807467
+type: text/vnd.tiddlywiki
+
+A [[Mirror Site]] has a different [[URL|Uniform Resource Locator]] from the original site's, but hosts identical or near-identical content.
+
+The purpose is mainly to reduce [[Network Traffic]] and increase speed by placing [[Mirrors|Mirror Site]] in different geographic regions, bringing the content closer to the end user.
+
+[[Mirror Sites|Mirror Site]] were widespread in the early years of [[the Web|World Wide Web]] when the [[Internet Backbone]] had much lower [[Bandwidth|Bandwidth (Computing)]] than today.
+
+https://en.wikipedia.org/wiki/Mirror_site

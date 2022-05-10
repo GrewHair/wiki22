@@ -1,0 +1,14 @@
+created: 20211228194454936
+modified: 20211228194829058
+tags: Linux Unix Stub Security
+title: World-Writable
+tmap.id: 1c840ec1-f1d6-4c43-a1d2-4f228cd58011
+type: text/vnd.tiddlywiki
+
+https://unix.stackexchange.com/questions/139764/what-are-the-world-writable-directories-by-default
+
+https://www.toolbox.com/tech/operating-systems/question/world-writable-files-and-directories-061407/
+
+https://docstore.mik.ua/orelly/other/puis3rd/0596003234_puis3-chp-23-sect-6.html
+
+https://newbedev.com/what-are-the-world-writable-directories-by-default

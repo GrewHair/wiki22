@@ -1,0 +1,12 @@
+created: 20211228134311160
+edit-mode: no
+list: [[Data Plane]]
+modified: 20211228134804155
+role: comment
+title: Comment by '(anonymous)' on 'Data Plane'
+tmap.id: d06cea4a-c376-4df7-9c63-7247b7d7c73e
+type: text/vnd.tiddlywiki
+
+This wikipedia article refers to this "planes" thing as though they are some general concepts in software design - and even attempts to classify Unix system calls into those belonging to the control plane and those who belong to data plane.
+
+In doing so, it references the book "The design of the Unix operating system" (Bach, Maurice J. (1986)) - I should probably take a look at this book later!

@@ -1,0 +1,12 @@
+created: 20220509122523888
+modified: 20220509122930983
+tags: Computing Stub Unix Linux
+title: Directory (File Systems)
+tmap.id: 7f1b83bf-2411-4bfa-9a87-1da34c98a3c3
+type: text/vnd.tiddlywiki
+
+In [[Unix]], a [[Directory|Directory (File Systems)]] is a special [[File]] that knows where the contents of other [[files|File]] (that appear "inside it") are stored (through [[inode]]).
+
+Thus the metaphor of a [[Telephone Directory]].
+
+https://itsfoss.com/folder-directory-linux/

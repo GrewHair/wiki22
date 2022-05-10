@@ -1,0 +1,14 @@
+created: 20220111102038144
+modified: 20220111102330275
+tags: Routing Networking Stub
+title: Forwarding Information Base
+tmap.id: 57674b07-ecfa-456e-9291-305c8fd2d3a0
+type: text/vnd.tiddlywiki
+
+''AKA FIB''
+
+https://en.wikipedia.org/wiki/Forwarding_information_base
+
+''Warning:'' despite what this Wikipedia article says, [[FIB|Forwarding Information Base]] and [[CAM Tables|CAM Table]] can be totally different things. See this:
+
+https://networkengineering.stackexchange.com/questions/48870/what-is-the-difference-between-cam-and-fib-table

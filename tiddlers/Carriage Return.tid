@@ -1,11 +1,11 @@
 created: 20210326123834515
-modified: 20210406061134437
+modified: 20220211232342474
 tags: Computing
 title: Carriage Return
 tmap.id: 8e9b87ef-1a18-48a9-bfc6-cdd62e44b3d1
 type: text/vnd.tiddlywiki
 
-''AKA CR, `<CR>`, Return''
+''AKA CR, `<CR>`, Return, Caret Return''
 
 ''Russian: Возврат Каретки''
 
@@ -14,3 +14,5 @@ type: text/vnd.tiddlywiki
 https://en.wikipedia.org/wiki/Carriage_return#:~:text=A%20carriage%20return%2C%20sometimes%20known,of%20a%20line%20of%20text.
 
 ''Note to self:'' there's __no__ such thing as "caret return" - only [[Carriage Return]]. You made it up for youself, likely because of the russian translation.
+
+''Update:'' whoops, I just heard [[Teej]] say 'caret return' on youtube!

@@ -1,0 +1,27 @@
+created: 20220121105938604
+modified: 20220121165727450
+tags: CentOS Linux
+title: Yum Line Wrapping Bug Workaround
+tmap.id: 5a380c21-0d8a-4f33-8ad7-4d8fd6824d6a
+type: text/vnd.tiddlywiki
+
+[[Yum]] wraps long lines in a nasty way when its output is [[piped|Unix Pipe]], so [[grepping|Grep]] may be a pain in the arse.
+
+To "fix" this, instead of
+
+```bash
+yum list installed | grep microsoft
+```
+
+do
+
+```bash
+yum list installed |\
+tr "\n" "#" | sed -e 's/# / /g' | tr "#" "\n" |\
+grep microsoft |\
+column -t
+```
+
+(`column -t` is optional, you better skip it if you want to paste directly to [[Excel|Microsoft Excel]]).
+
+https://bugzilla.redhat.com/show_bug.cgi?id=584525

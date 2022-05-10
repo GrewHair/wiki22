@@ -1,0 +1,16 @@
+created: 20220507220911262
+modified: 20220507223605091
+tags: [[Cloud Standards]] [[Identity Management]] Stub
+title: User-Managed Access
+tmap.id: fc6a3df4-b487-4145-9f0b-a02a8da58d63
+type: text/vnd.tiddlywiki
+
+''AKA UMA''
+
+[[UMA|User-Managed Access]] is an [[OAuth]]-based [[Access Management]] [[protocol standard|Protocol Standardf]].
+
+Its design is inspired by [[Sun Microsystems'|Sun Microsystems]] [[ProtectServe]] protocol, which in turn was influenced by [[VRM|Vendor Relationship Management]].
+
+https://en.wikipedia.org/wiki/User-Managed_Access
+
+https://www.windley.com/archives/2015/08/regaining_control_of_our_data_with_user-managed_access.shtml

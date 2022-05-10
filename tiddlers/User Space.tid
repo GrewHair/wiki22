@@ -1,11 +1,11 @@
 created: 20201117140441052
-modified: 20211004100748913
+modified: 20211215121028596
 tags: 
 title: User Space
 tmap.id: a0021765-0897-4691-9530-ceed6d05de88
 type: text/vnd.tiddlywiki
 
-''AKA Userland''
+''AKA Userland, Userland''
 
 A modern computer [[Operating System]] segregates [[Virtual Memory]] into [[Kernel Space]] and [[User Space]].
 

@@ -1,0 +1,10 @@
+created: 20211228151443666
+edit-mode: no
+list: [[Northbound Interface]]
+modified: 20211228151703386
+role: comment
+title: Comment by '(anonymous)' on 'Northbound Interface'
+tmap.id: 07e41073-2ff3-4ca5-ab4d-74fe81736d06
+type: text/vnd.tiddlywiki
+
+the notion of `hight-level component` is perhaps questionable. As I understand it now, it refers to something that is `higher` in terms of control flow, and NOT to the level of detail (as in higher-level/lower-level system/details overwiev).

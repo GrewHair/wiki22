@@ -1,0 +1,10 @@
+created: 20220420112512921
+modified: 20220420112725121
+tags: Gitlab [[Gitlab CI]] Stub
+title: Coordinator (Gitlab CI)
+tmap.id: b6a6d3ba-071c-4025-b0ff-78d0ef8c7ffe
+type: text/vnd.tiddlywiki
+
+[[Coordinator|Coordinator (Gitlab CI)]] is a heart of the [[GitLab CI]] service which builds web interface and controls the [[runners|Gitlab Runner]].
+
+https://www.tutorialspoint.com/gitlab/gitlab_install_coordinator.htm

@@ -1,0 +1,8 @@
+created: 20220425085136739
+modified: 20220425095412703
+tags: [[Amazon Web Services]] Stub
+title: Amazon CloudFront
+tmap.id: 3e8117fd-ed26-40b6-9f03-4279b48de1d2
+type: text/vnd.tiddlywiki
+
+[[CloudFront|Amazon CloudFront]] is a [[CDN|Content Delivery Network]] operated by [[AWS|Amazon Web Services]].

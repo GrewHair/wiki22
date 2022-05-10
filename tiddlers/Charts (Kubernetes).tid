@@ -1,0 +1,21 @@
+created: 20220401084358683
+modified: 20220401100253205
+tags: K8s Stub
+title: Charts (Kubernetes)
+tmap.id: 11bd8c57-248e-4146-bafb-7851a8eb0d18
+type: text/vnd.tiddlywiki
+
+[[Charts|Charts (Kubernetes)]] is a [[Packaging Format|Package Format]] used by [[Helm|Helm (Kubernetes)]].
+
+<$link to="Wordpress">`wordpress/             `</$link><br>
+`    Chart.yaml         ` A [[YAML|Yet Another Markup Language]] [[file|File]] containing information about the [[chart|Charts (Kubernetes)]]<br>
+`    LICENSE            ` OPTIONAL<br>
+`    README.md          ` OPTIONAL<br>
+`    values.yaml        ` The default configuration values for this [[chart|Charts (Kubernetes)]]<br>
+`    values.schema.json ` OPTIONAL: A [[JSON Schema]] for imposing a structure on the `values.yaml` [[file|File]]<br>
+`    charts/            ` A [[directory|Directory (File Systems)]] containing any [[charts|Chart (Kubernetes)]] upon which this [[chart|Charts (Kubernetes)]] depends<br>
+`    crds/              ` [[Custom Resourse Definitions|Custom Resource Definition]]<br>
+`    templates/         ` A [[directory|Directory (File Systems)]] of templates that, when combined with values, will generate valid [[Kubernetes]] [[manifest files]]<br>
+`    templates/NOTES.txt` OPTIONAL short usage notes
+
+https://helm.sh/docs/topics/charts/

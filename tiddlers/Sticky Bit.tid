@@ -1,8 +1,16 @@
 created: 20210321214449769
-modified: 20210321214517892
+modified: 20220509122411934
 tags: Linux Ubuntu Stub
 title: Sticky Bit
 tmap.id: 3d5f2a84-b584-4c1a-abca-2f95d9bd62d6
 type: text/vnd.tiddlywiki
 
+In [[Unix]]-like systems, the [[Sticky Bit]] historically had been used on executable files to optimize [[Paging|Memory Paging]]/startup times of frequently used programs.
+
+Now this feature is long obsolete due to [[Paging|Memory Paging]] optimizations. However, [[4.3BSD]] introduced another usage for the [[Sticky Bit]] in 1986: it could now be used to prevent deleting of [[World-Writable]] [[files|File]] and [[directories|Directory (File Systems)]] by non-owners (sort of like [[a little extension|Crutch]] of the classic [[Unix Permissions]]).
+
 https://en.wikipedia.org/wiki/Sticky_bit
+
+https://andreyex.ru/linux/spetsialnye-razresheniya-dlya-fajlov-v-linux-suid-guid-i-sticky-bit/
+
+http://blog.serverbuddies.com/security-verify-that-all-world-writable-directories-have-sticky-bits-set/

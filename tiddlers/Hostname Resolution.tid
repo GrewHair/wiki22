@@ -1,0 +1,20 @@
+created: 20220510083721935
+modified: 20220510084551633
+tags: Networking Stub Computing
+title: Hostname Resolution
+tmap.id: 7f2637a7-bf9b-4219-86a7-a45bec9b1b16
+type: text/vnd.tiddlywiki
+
+''AKA Name Resolution, Host Name Resolution''
+
+[[Hostname Resolution]] is the process by which a [[Host|Host (Networking)]] determines the [[IP Address]] of another [[Host|Host (Networking)]] given its [[Host Name|Hostname]] or [[FQDN|Fully Qualified Domain Name]] on a [[TCP/IP|Internet Protocol Suite]] [[network|Network]].
+
+https://en.wikipedia.org/wiki/Name_resolution_(computer_systems)
+
+https://www.tutorialspoint.com/unix_sockets/network_host_names.htm
+
+https://study.com/academy/lesson/what-is-hostname-resolution.html
+
+https://networkencyclopedia.com/host-name-resolution/
+
+http://www.steves-internet-guide.com/host-name-resolution-methods-explained/

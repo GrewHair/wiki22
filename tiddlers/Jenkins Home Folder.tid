@@ -1,7 +1,7 @@
 created: 20211105112932495
-modified: 20211105134458091
-tags: 
-title: smth jenkins
+modified: 20220105111951880
+tags: Jenkins Stub
+title: Jenkins Home Folder
 tmap.id: 78027c5d-44e6-44fc-aafb-82691a569083
 type: text/vnd.tiddlywiki
 
@@ -23,3 +23,6 @@ JENKINS_HOME
                     ├─ build.xml  # build result symmary
                     ├─ log  # log file
                     └─ changelog.xml    # change log
+```
+
+https://devops.stackexchange.com/questions/21/how-do-you-back-up-jenkins-jobs-master-configs

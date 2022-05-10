@@ -1,0 +1,12 @@
+created: 20220401125755015
+modified: 20220401130202636
+tags: Git Github Gitlab Stub
+title: Git Branch Protection
+tmap.id: 616332f2-cb90-4933-b9da-e72ce6ba690a
+type: text/vnd.tiddlywiki
+
+[[Git Branch Protection]] is not a [[Git]] feature per se, but rather a popular feature supported by nearly all [[Git Hosting Services|Git Hosting Service]].
+
+https://spectralops.io/blog/how-to-set-up-git-branch-protection-rules/
+
+https://docs.gitlab.com/ee/user/project/protected_branches.html

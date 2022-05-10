@@ -1,0 +1,12 @@
+created: 20220218074505672
+modified: 20220218114734675
+tags: Vim
+title: Vim Tricks/Diff Files Over SSH
+tmap.id: 1712764f-bc1d-4302-af64-12158ee87fcc
+type: text/vnd.tiddlywiki
+
+```bash
+vim -d <(ssh dsast1 'cat /etc/zabbix/zabbix_agentd.conf') <(ssh jnode1 'cat /etc/zabbix/zabbix_agentd.conf')
+```
+
+(It uses [[Bash's|Bash]] [[Process Substitution]]).

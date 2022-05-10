@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20211230103006986
+modified: 20211230103135467
+tags: Philosophy
+title: Zawinski's Law
+tmap.id: 17b03d06-ff8f-4485-8e11-a6f670b0866f
+type: text/vnd.tiddlywiki
+
+<<<.tc-big-quote
+Every program attempts to expand until it can read mail. Those programs which cannot so expand are replaced by ones which can.
+<<<
+
+https://en.wikipedia.org/wiki/Jamie_Zawinski

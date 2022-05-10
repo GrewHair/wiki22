@@ -1,0 +1,11 @@
+created: 20211215142742947
+modified: 20211215143407135
+tags: Security [[Transport Layer Security]] [[Public-key Cryptography]] Stub [[Couldn't Google It]] Questionable
+title: Security Certificate
+tmap.id: 4bc473b6-f4f4-43af-a5e6-2d82f047a511
+type: text/vnd.tiddlywiki
+
+According to [[this|https://en.wikipedia.org/wiki/Java_KeyStore]], there is a general notion of a [[Security Certificate]], which can somehow be of two kinds:
+
+* [[Authorization Certificate]]
+* [[Public Key Certificate]]

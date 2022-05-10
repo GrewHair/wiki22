@@ -1,0 +1,10 @@
+created: 20211229113838765
+edit-mode: no
+list: Out-process
+modified: 20211229114056333
+role: comment
+title: Comment by '(anonymous)' on 'Out-process'
+tmap.id: dd7ab7a6-3622-49f2-8496-d7489f538f96
+type: text/vnd.tiddlywiki
+
+It was me who added the "IPC" part, hence the question mark. Alhough it rises an interesting parallel: RPC vs IPC: both are generally used to connect two 'foreign' processes, although foreign in a slightly different way, and the contexts are also pretty different. I should google that!

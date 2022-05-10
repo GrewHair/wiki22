@@ -1,0 +1,14 @@
+created: 20220202081258217
+modified: 20220202091828117
+tags: Bash Stub
+title: Process Substitution
+tmap.id: 5995ad8f-cf5e-4845-ba13-74d725f23af6
+type: text/vnd.tiddlywiki
+
+https://stackoverflow.com/questions/8593816/diff-command-to-compare-files-on-different-servers-unix/8593927
+
+https://serverfault.com/questions/59140/how-do-diff-over-ssh/59147
+
+https://tldp.org/LDP/abs/html/process-sub.html
+
+https://en.wikipedia.org/wiki/Process_substitution

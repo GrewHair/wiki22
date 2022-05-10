@@ -1,0 +1,10 @@
+created: 20220401150305483
+modified: 20220401150437609
+tags: Stub Programming
+title: Deep Merge
+tmap.id: e24d1ced-2ca0-41aa-ab0d-c511fe33f0a2
+type: text/vnd.tiddlywiki
+
+AFAIK, it's a type of a [[Hash Map]] [[Merge]] (i.e. making one [[Hash Map]] out of two input ones).
+
+https://medium.com/@christhesoul/merge-and-deep-merge-and-why-one-day-youll-find-the-latter-useful-fd43f94c1226

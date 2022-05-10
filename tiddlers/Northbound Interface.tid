@@ -1,0 +1,12 @@
+created: 20211228151053870
+modified: 20211228151721131
+tags: [[Software Design]] [[Software Architecture]] Routing Networking [[Software Defined Networking]] Stub
+title: Northbound Interface
+tmap.id: fc7e2687-f412-4a5d-ab5d-9536af1aa727
+type: text/vnd.tiddlywiki
+
+The [[Northbound Interface]] is basically an interface with some higher-level component.
+
+https://en.wikipedia.org/wiki/Northbound_interface
+
+https://www.youtube.com/watch?v=hMh3c5fKsmg

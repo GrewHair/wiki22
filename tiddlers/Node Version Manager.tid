@@ -1,0 +1,14 @@
+created: 20220328125427734
+modified: 20220328130224265
+tags: node.js Javascript Stub
+title: Node Version Manager
+tmap.id: 5fe493dd-a16c-4a9e-aacf-5607981f1431
+type: text/vnd.tiddlywiki
+
+''AKA nvm''
+
+for [[Windows]]:
+
+https://www.geeksforgeeks.org/how-to-update-node-js-and-npm-to-next-version/
+
+https://github.com/coreybutler/nvm-windows/releases

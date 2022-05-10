@@ -1,0 +1,14 @@
+created: 20220401123804293
+modified: 20220401124108827
+tags: [[Couldn't Google It]] WIP [[Postgre SQL]] SSH
+title: Host-based Authentication
+tmap.id: 02cb14fd-41c2-469d-a638-735a17cd4eb7
+type: text/vnd.tiddlywiki
+
+https://itlaw.fandom.com/wiki/Host-based_authentication
+
+https://www.mad-hacking.net/documentation/linux/applications/postgres/connection-permissions.xml
+
+https://lab.wallarm.com/ssh-host-based-authentication/
+
+https://en.wikibooks.org/wiki/OpenSSH/Cookbook/Host-based_Authentication

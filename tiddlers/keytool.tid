@@ -1,0 +1,20 @@
+created: 20211215172034844
+modified: 20211215172518633
+tags: [[Transport Layer Security]] Java Linux Stub
+title: keytool
+tmap.id: 7ceee158-ace2-475f-8ec0-276dabc484ee
+type: text/vnd.tiddlywiki
+
+''AKA Java Keytool''
+
+A crypto generation tool for [[Java]].
+
+Distributed under [[Apache License]]
+
+https://docs.oracle.com/javase/10/tools/keytool.htm#JSWOR-GUID-5990A2E4-78E3-47B7-AE75-6D1826259549
+
+http://tutorials.jenkov.com/java-cryptography/keytool.html
+
+https://www.tune-it.ru/web/asddsa1137/home/-/blogs/keystore-jks-i-kak-ego-trogat-
+
+https://github.com/mojohaus/keytool

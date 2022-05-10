@@ -1,0 +1,14 @@
+created: 20220425095415457
+modified: 20220425095828811
+tags: Stub Security SAML
+title: Service Provider (SAML)
+tmap.id: f37ee05f-a12f-457c-8e30-51a085e1100f
+type: text/vnd.tiddlywiki
+
+''AKA SP''
+
+https://en.wikipedia.org/wiki/Service_provider_(SAML)
+
+http://docs.oasis-open.org/security/saml/v2.0/saml-glossary-2.0-os.pdf
+
+E.g. [[Jenkins]] has in its [[Jenkins Home]] [[directory|Directory (File Systems)]] a [[file|File]] called `saml-sp-metadata`, which means it's a [[file|File]] that stores the metadata [[Jenkins]] as a [[Service Provider|Service Provider (SAML)]] needs to give to build trust with the [[Identity Provider]].

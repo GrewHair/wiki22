@@ -1,0 +1,20 @@
+created: 20220119153247510
+modified: 20220119154954661
+tags: Stub Computing
+title: NP-completeness
+tmap.id: 751c01d8-4577-43d4-bddd-d774340390c0
+type: text/vnd.tiddlywiki
+
+Put simply, it's the hardest type of problem that's still solvable.
+
+[[Here|https://youtu.be/4ua5aeKKDzU?t=1417]] the finnish buddy cites [[Russ Cox]]:
+
+<<<How should we react to the fact that package version selection is [[NP-complete|NP-completeness]]? One reaction is to embrace the complexity and be thankful that [[SAT solvers|SAT Solver]] are as good as they are. Another reaction is to ask whether this can possibly be a good idea. Maybe we should not be building tools that require solving this problem. Maybe something has gone wrong in the way we develop software.
+[[(source)|https://research.swtch.com/version-sat]]
+<<<
+
+The article discusses [[Dependency Hell]], and in this context [[NP-complete|NP-completeness]] seems to mean something along the lines of //"as bad as it gets; we're kinda able to manage this, but this is a pain in the ass"//.
+
+Of course in real life the definition is much rigorous though.
+
+https://en.wikipedia.org/wiki/NP-completeness

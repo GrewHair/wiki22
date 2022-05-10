@@ -1,0 +1,12 @@
+created: 20220510102418772
+modified: 20220510102658646
+tags: IANA Stub
+title: HTTP Method Registry
+tmap.id: 82cd7ee8-99f0-491d-9276-3a430d87fdf1
+type: text/vnd.tiddlywiki
+
+[[HTTP Method Registry]] is maintained by [[IANA|Internet Assigned Numbers Authority]].
+
+https://www.iana.org/assignments/http-methods/http-methods.xhtml
+
+https://trac.ietf.org/trac/httpbis/ticket/72

@@ -1,0 +1,10 @@
+created: 20220104111402309
+modified: 20220104111644993
+tags: [[Software Packaging]] Stub Computing
+title: Package Format
+tmap.id: efb8d606-9c82-47d1-a385-7e0e57903700
+type: text/vnd.tiddlywiki
+
+A [[Package Format]] is a type of [[Archive|Archive File]] containing [[Computer Programs|Computer Program]] and additional [[Metadata]] needed by the [[Package Manager]].
+
+https://en.wikipedia.org/wiki/Package_format

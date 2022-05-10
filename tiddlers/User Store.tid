@@ -1,0 +1,12 @@
+created: 20220509114404395
+modified: 20220509114522212
+tags: [[Couldn't Google It]]
+title: User Store
+tmap.id: ca05d3b4-f0bd-42ed-95ba-463b6cd104e2
+type: text/vnd.tiddlywiki
+
+''AKA Identity Store''
+
+I suspect it's the same thing as [[Directory Service]].
+
+https://resources.arcgis.com/en/help/server-admin-api/userStore.html

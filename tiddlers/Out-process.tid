@@ -1,0 +1,12 @@
+created: 20211229113552905
+modified: 20211229113836800
+tags: Programming Stub Jenkins Computing
+title: Out-process
+tmap.id: 5a126ae6-0896-4625-a2d2-9dded3f5b596
+type: text/vnd.tiddlywiki
+
+[["Out-process"|Out-process]] means that a [[component|Software Component]] runs in a different [[Process Space|Virtual Address Space]] compared to the one using it.
+
+In case of [["Out-process"|Out-process]], you need some kind of [[RPC|Remote Procedure Call]]/[[IPC|Inter-process Communication]] (?)
+
+https://stackoverflow.com/questions/5113650/difference-between-in-process-and-out-process-service

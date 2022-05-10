@@ -1,0 +1,26 @@
+created: 20220111121415992
+modified: 20220111124525756
+tags: WIP [[Transport Layer Security]] Security
+title: SSL Certificates and Container Formats WIP
+tmap.id: 5ee625f0-83e4-44f7-970b-d600a2b7898a
+type: text/vnd.tiddlywiki
+
+https://www.youtube.com/watch?v=7YgaZIFn7mY
+
+https://security.stackexchange.com/questions/183072/pem-cer-crt-p12-what-is-it-all-about
+
+https://sucuri.net/guides/how-to-install-ssl-certificate/#
+
+https://stackoverflow.com/questions/29538022/what-is-the-relationship-between-these-openssl-files-example-cer-example-key-ex
+
+https://serverfault.com/questions/9708/what-is-a-pem-file-and-how-does-it-differ-from-other-openssl-generated-key-file
+
+https://www.ssl.com/guide/pem-der-crt-and-cer-x-509-encodings-and-conversions/
+
+https://www.ssls.com/knowledgebase/what-are-certificate-formats-and-what-is-the-difference-between-them/
+
+https://support.citrix.com/article/CTX213224
+
+https://stackoverflow.com/questions/22788384/what-is-the-difference-between-cer-pfx-file
+
+https://boardgamestips.com/popular/is-pem-and-cer-the-same/

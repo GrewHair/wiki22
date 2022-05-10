@@ -1,0 +1,10 @@
+created: 20220406113044601
+modified: 20220406113235470
+tags: Stub Jenkins Security
+title: CSRF Protection (Jenkins)
+tmap.id: 878434f8-2722-4612-8208-48405ba0409a
+type: text/vnd.tiddlywiki
+
+This has something to do with [[Cross-site Request Forgery]]
+
+https://www.jenkins.io/doc/book/security/csrf-protection/

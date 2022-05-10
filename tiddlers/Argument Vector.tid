@@ -1,0 +1,14 @@
+created: 20220211170427867
+modified: 20220211171957992
+tags: C Stub C++
+title: Argument Vector
+tmap.id: 1688128c-41a0-4be8-88c2-3eade6eb2942
+type: text/vnd.tiddlywiki
+
+''AKA argv''
+
+<$link to="Argument Count">`argc`</$link> and <$link to="Argument Vector">`argv`</$link> are conventional names for [[variables|Variable (Programming)]] that hold [[Command Line Arguments]] passed to <$link to="Main Function (Programming)">`main()`</$link> in [[C]] and [[C++]].
+
+This naming convention also seems to be invluential outside of of [[C]] and [[C++]], as there is a [[Python]] [[module|Module (Python)]] named `argv`, etc.
+
+https://stackoverflow.com/questions/3024197/what-does-int-argc-char-argv-mean

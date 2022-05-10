@@ -1,0 +1,10 @@
+created: 20220312144418923
+edit-mode: no
+list: [[Object Identifier]]
+modified: 20220312145641885
+role: comment
+title: Comment by '(anonymous)' on 'Object Identifier'
+tmap.id: 2d5aa3bb-3bac-4575-a736-f13fb0cf33fb
+type: text/vnd.tiddlywiki
+
+https://www.postgresql.org/docs/9.0/install-upgrading.html - this [[PostgreSQL]] documentation section states that you have to use a special flag `-o` with `pg_dumpall` if you're using OIDs as keys. I've no idea why but it seems pretty special and worth mentioning..

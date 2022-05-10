@@ -1,0 +1,12 @@
+created: 20211228151351337
+modified: 20211228151739192
+tags: [[Software Design]] [[Software Architecture]] Routing Networking [[Software Defined Networking]] Stub
+title: Southbound Interface
+tmap.id: b8f3ac59-d477-4fc0-8d13-47dc8e46ffa1
+type: text/vnd.tiddlywiki
+
+The [[Southbound Interface]] is basically an interface with lower-level components.
+
+https://en.wikipedia.org/wiki/Northbound_interface
+
+https://www.youtube.com/watch?v=hMh3c5fKsmg

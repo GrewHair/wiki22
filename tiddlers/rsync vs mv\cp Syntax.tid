@@ -1,0 +1,8 @@
+created: 20220328141323701
+modified: 20220328141446643
+tags: Linux Rsync Stub WIP
+title: rsync vs mv\cp Syntax
+tmap.id: 64e2d12e-7b36-47f2-90e7-db6f62be7fcd
+type: text/vnd.tiddlywiki
+
+https://stackoverflow.com/questions/20300971/rsync-copy-directory-contents-but-not-directory-itself

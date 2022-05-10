@@ -1,0 +1,12 @@
+created: 20220406113109049
+modified: 20220406113331705
+tags: Jenkins Security Stub
+title: Crumb (Jenkins)
+tmap.id: fed758f6-5bab-4bd3-99b1-692bf08f1c4c
+type: text/vnd.tiddlywiki
+
+''AKA CSRF Token''
+
+This has something to do with [[CSRF Protection|CSRF Protection (Jenkins)]]
+
+https://www.jenkins.io/doc/book/security/csrf-protection/

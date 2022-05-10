@@ -1,12 +1,19 @@
 created: 20210128160929041
-modified: 20210128171234679
+modified: 20220411144004705
 tags: Networking [[Understanding the Digital World (Brian Kernighan)]] Stub
 title: Autonomous System (Internet)
 tmap.id: 281d12dd-91ba-418e-ab31-f79c394b3d99
 type: text/vnd.tiddlywiki
 
-An [[Autonomous System|Autonomous System (Internet)]] is a collection of connected [[IP|Internet Protocol]] [[Routing Prefixes|Routing Prefix]] under the control of one or more network operators on behalf of a single administrative entity or domain that presents a common, clearly defined routing policy to the Internet.
+An [[Autonomous System|Autonomous System (Internet)]] is a collection of connected [[IP|Internet Protocol]] [[Routing Prefixes|Routing Prefix]] under the control of one or more network operators on behalf of a single administrative entity or domain that presents a common, clearly defined routing policy to the [[Internet]].
 
 Originally the definition required control by a single entity, typically an [[ISP|Internet Service Provider]] ([[RFC|Request for Comments]] 1771).
+
+''Types:''
+
+* [[Multihomed|Multihomed Autonomous System]]
+* [[Stub|Stub Autonomous System]]
+* [[Transit|Transit Autonomous System]]
+* [[Internet Exchange Point]]
 
 https://en.wikipedia.org/wiki/Autonomous_system_(Internet)

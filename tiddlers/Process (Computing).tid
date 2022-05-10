@@ -1,10 +1,10 @@
 created: 20211004131111867
-modified: 20211004131352923
+modified: 20211229112757091
 tags: Computing
 title: Process (Computing)
 tmap.id: a96bfc52-447c-4d17-94a7-e658fcca8c11
 type: text/vnd.tiddlywiki
 
-A [[Process|Process (Computing)]] is a data organizational concept. [[Resources|System Resource]] (e.g. memory for holding [[State|State (Computer Science)]], allowed [[Address Space]], etc) are allocated for a [[Process|Process (Computing)]].
+A [[Process|Process (Computing)]] is a data organizational concept. [[Resources|System Resource]] (e.g. memory for holding [[State|State (Computer Science)]], allowed [[Address Space|Virtual Address Space]], etc) are allocated for a [[Process|Process (Computing)]].
 
 https://stackoverflow.com/questions/3042717/what-is-the-difference-between-a-thread-process-task

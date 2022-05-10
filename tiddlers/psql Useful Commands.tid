@@ -1,0 +1,12 @@
+created: 20220225135753419
+modified: 20220228130151009
+tags: psql [[Postgre SQL]]
+title: psql Useful Commands
+tmap.id: bac6a054-b0cf-4750-ae08-f5538db7f968
+type: text/vnd.tiddlywiki
+
+* `\?` - show the available [[meta commands|psql Meta Commands]]
+* `\setenv PAGER less` - set the pager to [[less]] (it's [[more]] by default, which is unbearable)
+* `\pset pager off` - turn the pager off (useful when you want to copy the output)
+* `SELECT pg_size_pretty( pg_database_size('my_db') );` - check [[db|Database]] size
+* `SHOW hba_file` - show which <$link to="pg_hba.conf">`pg_hba.conf`</$link> [[file|File]] is in use by the running [[database|Database]]

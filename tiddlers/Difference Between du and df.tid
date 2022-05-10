@@ -1,0 +1,17 @@
+created: 20220111094655873
+modified: 20220111102714264
+tags: Linux Unix Stub WIP
+title: Difference Between du and df
+tmap.id: e6058f4a-0217-4e31-acb1-ad2c63af1416
+type: text/vnd.tiddlywiki
+
+>[[That difference|Difference Between du and df]] is almost always due to a huge deleted [[file|File]] still held open by some [[process|Process (Computing)]], often a big [[log file]]. You can run (as [[root|Root]])
+><$codeblock language="bash" code="lsof | grep '(deleted)' | less"/>
+
+https://www.linuxquestions.org/questions/slackware-14/huge-difference-between-du-and-df-4175589814/
+
+https://www.quora.com/How-do-you-handle-the-discrepancy-between-du-and-df-filesystems-disk-usage-Unix
+
+https://superuser.com/questions/304391/linux-filesystem-difference-in-calculating-size-using-df-du
+
+https://www.unix.com/unix-for-advanced-and-expert-users/29770-disk-usage-df-vs-du-2.html

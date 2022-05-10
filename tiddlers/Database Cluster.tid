@@ -1,0 +1,16 @@
+created: 20220312144327927
+modified: 20220312150212221
+tags: [[Postgre SQL]]
+title: Database Cluster
+tmap.id: 607c2057-0e04-48cd-9644-a191658035eb
+type: text/vnd.tiddlywiki
+
+In [[PostgreSQL]], a [[Database Cluster]] is a collection of [[databases|Database]] that is managed by a single instance of a running [[database server]].
+
+(The [[SQL Standard]] uses the term [[Catalog Cluster]]).
+
+On the [[File System]], the [[Database Cluster]] is located in a single [[Directory|Directory (File Systems)]] called [[Data Directory|Data Directory (PostgreSQL)]] (or data area).
+
+By default three databases are created: `template0`, `template1`, and `postgres`.
+
+https://www.postgresql.org/docs/9.5/creating-cluster.html

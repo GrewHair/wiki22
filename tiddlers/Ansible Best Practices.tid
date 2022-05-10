@@ -1,0 +1,10 @@
+created: 20220111111051809
+modified: 20220111111200174
+tags: Ansible Stub WIP
+title: Ansible Best Practices
+tmap.id: 2ea2ce47-852b-46ff-9213-b0f85a806f15
+type: text/vnd.tiddlywiki
+
+https://docs.ansible.com/ansible/2.8/user_guide/playbooks_best_practices.html
+
+https://docs.ansible.com/ansible/latest/user_guide/sample_setup.html

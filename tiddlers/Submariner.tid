@@ -1,0 +1,15 @@
+created: 20220408132825271
+modified: 20220408133508969
+tags: K8s Stub
+title: Submariner
+tmap.id: adefd96d-14dd-4d16-b9dc-36e34e0da0fd
+type: text/vnd.tiddlywiki
+
+''What Submariner Provides''
+
+* Cross-cluster [[L3|Network Layer]] connectivity using encrypted or unencrypted connections
+* [[Service Discovery]] across [[clusters|Cluster (Kubernetes)]]
+* `subctl`, a command-line utility that simplifies deployment and management
+* Support for interconnecting clusters with overlapping [[CIDRs|CIDR]]
+
+https://submariner.io/

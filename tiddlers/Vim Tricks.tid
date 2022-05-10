@@ -1,0 +1,18 @@
+created: 20220204074028818
+modified: 20220220205852858
+tags: Vim
+title: Vim Tricks
+tmap.id: 5807c86e-b71b-45cb-9a9c-0c8f5ee7cdd3
+type: text/vnd.tiddlywiki
+
+* [[Diff files over SSH|Vim Tricks/Diff Files Over SSH]]
+* [[Write with sudo|Vim Tricks/Write With Sudo]] (even when you forgot to open [[Vim]] with [[sudo]])
+* [[Diff current buffer and the original file|https://vim.fandom.com/wiki/Diff_current_buffer_and_the_original_file]]
+** a simpler approach applicable to an ad-hoc [[SSH|Secure Shell]] session: `:w !diff % -`
+* List environment variables (there's no direct way): `:echo $<C-i>`
+* [[View invisible characters|Viewing Invisible Characters in Vim]]
+* Open things in new tab:
+** From normal mode: a tag definition `<c-w><c-]><c-w>T` in normal mode
+** From command mode: help `:tab h CTRL-G`
+* Put empty lines in between every line in the document
+*> `:g/^/pu =\"\n\"`

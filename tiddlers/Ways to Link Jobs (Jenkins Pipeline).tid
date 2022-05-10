@@ -1,0 +1,11 @@
+created: 20211215165447803
+modified: 20211215165735454
+tags: Jenkins Stub
+title: Ways to Link Jobs (Jenkins Pipeline)
+tmap.id: 70c6b2fc-27b7-467c-8d3b-5c7f8cbab083
+type: text/vnd.tiddlywiki
+
+* [[Triggered Execution|Ways to Link Jobs (Jenkins Pipeline)/Triggered Execution]]
+* [[Actively Executing a Downstream Job|Ways to Link Jobs (Jenkins Pipeline)/Actively Executing a Downstream Job]]
+
+https://metamorphant.de/blog/posts/2019-03-11-jenkins-101-downstream-projects/

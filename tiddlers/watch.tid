@@ -1,0 +1,14 @@
+created: 20220215135247055
+modified: 20220215135439732
+tags: Linux
+title: watch
+tmap.id: 36f9e681-7c97-4125-aba9-ccfc7f773b25
+type: text/vnd.tiddlywiki
+
+To keep colors in [[systemctl]] output:
+
+```bash
+watch -c SYSTEMD_COLORS=1 systemctl status jenkins
+```
+
+https://superuser.com/questions/1042175/how-do-i-get-systemctl-to-print-in-color-when-being-interacted-with-from-a-non-t

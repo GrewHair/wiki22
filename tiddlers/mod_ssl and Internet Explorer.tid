@@ -1,0 +1,18 @@
+created: 20220422090847426
+modified: 20220422091311869
+tags: [[Web Servers]] Apache2 Stub
+title: mod_ssl and Internet Explorer
+tmap.id: 7ded4bc2-0d72-403e-92cc-5d4d8e761e73
+type: text/vnd.tiddlywiki
+
+There's bugs in [[IE|Internet Explorer]] that slow down [[Apache|Apache2]] and shit. these lines are usually added to the config to fix this:
+
+```apache
+SetEnvIf User-Agent ".*MSIE.*" \
+         nokeepalive ssl-unclean-shutdown \
+         downgrade-1.0 force-response-1.0
+```
+
+http://www.modssl.org/docs/2.8/ssl_faq.html#ToC49
+
+https://www.linuxquestions.org/questions/linux-server-73/nokeepalive-ssl-unclean-shutdown-4175564515/

@@ -1,0 +1,16 @@
+created: 20220124144539982
+modified: 20220124144940135
+tags: .NET Stub
+title: .NET Versioning
+tmap.id: 97412334-8ce0-4e05-8c0d-8f82ad4fe21a
+type: text/vnd.tiddlywiki
+
+The runtime respects [[Semantic Versioning]].
+
+SDK doesn't respect it, the last number packs both the minor version and the patch, while the first two numbers are the same as with the corresponding runtime.
+
+The even major versions are LTS.
+
+The supported versions as of 2022-01-24 are 3.1 and upwards.
+
+https://docs.microsoft.com/en-us/dotnet/core/versions/

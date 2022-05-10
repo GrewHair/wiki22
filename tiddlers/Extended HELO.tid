@@ -1,0 +1,16 @@
+created: 20211214135452552
+modified: 20211214144718767
+tags: SMTP Email Stub
+title: Extended HELO
+tmap.id: 93decfe7-04c3-48e4-b388-139b8ef2e307
+type: text/vnd.tiddlywiki
+
+''AKA EHLO''
+
+[[EHLO|Extended HELO]] is an [[ESMTP|Extended SMTP]] command sent by an email server to identify itself when connecting to another email server to start the process of sending the [[Email]].
+
+It is followed with the sending email server's [[Domain Name]].
+
+The [[EHLO|Extended HELO]] command tells the receiving server it supports extensions compatible with [[ESMTP|Extended SMTP]].
+
+https://help.returnpath.com/hc/en-us/articles/220223328-What-is-Extended-HELO-EHLO-

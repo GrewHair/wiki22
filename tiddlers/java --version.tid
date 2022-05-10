@@ -1,0 +1,10 @@
+created: 20220114104459846
+modified: 20220114104858870
+tags: Java Linux
+title: java --version
+tmap.id: cd7711ee-34b8-4067-b0ae-6f850e2eefe7
+type: text/vnd.tiddlywiki
+
+Frustratingly enough, in all major [[Java]] versions up to and including [[Java 8]] the command `java --version` resulted in an error. You had to use `java -version` instead, which kind of goes against standard [[Unix]]/[[Linux]] conventions.
+
+However this seems to be fixed since [[Java 11]], now you can use both variants.

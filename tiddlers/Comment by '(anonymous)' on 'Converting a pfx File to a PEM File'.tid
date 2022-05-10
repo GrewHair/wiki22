@@ -1,0 +1,10 @@
+created: 20220427095017642
+edit-mode: no
+list: [[Converting a pfx File to a PEM File]]
+modified: 20220427095127962
+role: comment
+title: Comment by '(anonymous)' on 'Converting a pfx File to a PEM File'
+tmap.id: 5fbde8ef-ddb7-4f7c-bb77-af8d80e294ca
+type: text/vnd.tiddlywiki
+
+The discussion in the second link mentions smth called 'bag attributes'. you should investigate this later and maybe make a tiddler.

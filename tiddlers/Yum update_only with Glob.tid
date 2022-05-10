@@ -1,0 +1,8 @@
+created: 20220125035707824
+modified: 20220125041831344
+tags: Quirk Bug Ansible Stub
+title: Yum update_only with Glob
+tmap.id: f3b3ed14-3243-409d-bcfb-85cc768af9f2
+type: text/vnd.tiddlywiki
+
+https://github.com/ansible/ansible/issues/45842

@@ -1,0 +1,23 @@
+created: 20220401100511310
+modified: 20220401123606051
+tags: Stub
+title: X as Code
+tmap.id: 9ea084f9-2c95-4eea-bf0d-bad1ea1bbdc1
+type: text/vnd.tiddlywiki
+
+|Architecture as Code||
+|Configuration as Code|[[Ansible]], [[Puppet]], [[Chef]]|
+|Data Pipelines as Code|[[Apache Airflow]]|
+|Encryption Management as Code|[[HashiCorp Vault]]|
+|Environment as Code|[[Vagrant]], [[Docker]]|
+|Infrastructure as Code|[[Terraform|Hashicorp Terraform]], [[AWS Cloud Formation]]|
+|Projects as Code||
+|Security as Code|checkov|
+<br>
+
+|Network as Code||
+|Policy as Code||
+
+https://renenyffenegger.ch/notes/development/as-code/index
+
+https://devops.com/from-pets-to-x-as-code-enabling-control-and-predictability-for-itops-at-scale/

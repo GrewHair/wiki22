@@ -1,0 +1,10 @@
+created: 20211228134155187
+modified: 20211228152140285
+tags: Unix Linux Routing Networking [[Software Design]] Stub K8s [[Software Architecture]]
+title: Data Plane
+tmap.id: 34a010ef-8c8e-4613-af9f-87f4bd5356d3
+type: text/vnd.tiddlywiki
+
+''AKA Forwarding Plane''
+
+https://en.wikipedia.org/wiki/Data_plane

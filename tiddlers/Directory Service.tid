@@ -1,0 +1,12 @@
+created: 20220509111617004
+modified: 20220509112231479
+tags: [[Computer Access Control]] Stub
+title: Directory Service
+tmap.id: bf12346e-9695-4b32-bab3-37d775cc9673
+type: text/vnd.tiddlywiki
+
+''AKA Name Service''
+
+In a nutshell, [[DNS|Domain Name System]] is one of the older [[Directory Services|Directory Service]], created before the emergence of the [[X.500]] standard (the development of which seems to have smth to do with [[OSI|Open Systems Interconnection]] initiatives, so it took quite long to emerge), while [[LDAP|Lightweight Directory Access Protocol]] came much later and is actually __based__ on [[X.500]].
+
+https://en.wikipedia.org/wiki/Directory_service

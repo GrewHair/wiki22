@@ -1,0 +1,18 @@
+created: 20220228144529826
+modified: 20220228154742177
+tags: Linux Unix Security Stub
+title: umask
+tmap.id: c2c0ab1c-e569-4919-bee3-c347932b1185
+type: text/vnd.tiddlywiki
+
+[[umask]] sets the default [[permissions|Unix Permissions]] applied to [[files|File]] upon creation. It is set per [[user|User (Unix)]].
+
+The default [[permissions|Unix Permissions]] are `666` for [[files|File]] and `777` for [[directories|Directory (File Systems)]].
+
+With the [[umask]] `0002` applied, this changes to `666 - 002 = 664` for [[files|File]] and `777 - 002 = 775` for [[directories|Directory (File Systems)]].
+
+With the `0022` [[umask]], they become `644` and `755`, and with `0077` - `600` and `700` respectively.
+
+https://handynotes.ru/2010/02/umask.html
+
+https://www.cyberciti.biz/tips/understanding-linux-unix-umask-value-usage.html

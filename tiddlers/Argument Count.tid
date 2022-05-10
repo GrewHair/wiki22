@@ -1,0 +1,16 @@
+created: 20220211170731596
+modified: 20220211171941475
+tags: C C++ Stub
+title: Argument Count
+tmap.id: c8870a8e-4448-4c0a-be6e-07f0d5756e0a
+type: text/vnd.tiddlywiki
+
+''AKA argc''
+
+<$link to="Argument Count">`argc`</$link> and <$link to="Argument Vector">`argv`</$link> are conventional names for [[variables|Variable (Programming)]] that hold [[Command Line Arguments]] passed to <$link to="Main Function (Programming)">`main()`</$link> in [[C]] and [[C++]].
+
+This naming convention also seems to be invluential outside of of [[C]] and [[C++]], as there is a [[Python]] [[module|Module (Python)]] named `argv`, etc.
+
+<$link to="Argument Count">`argc`</$link> is the number of [[strings|String]] [[pointed to|Pointer]] by <$link to="Argument Vector">`argv`</$link>.
+
+https://stackoverflow.com/questions/3024197/what-does-int-argc-char-argv-mean

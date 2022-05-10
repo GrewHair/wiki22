@@ -1,0 +1,33 @@
+created: 20220121113059473
+modified: 20220205212248179
+tags: CentOS Linux [[Red Hat Linux]] Stub
+title: yum-utils
+tmap.id: 318b1183-bab8-487b-85ef-869fef7e6acb
+type: text/vnd.tiddlywiki
+
+```
+yum info yum-utils
+```
+
+* `debuginfo-install`
+* `find-repos-of-install`
+* `needs-restarting`
+* `package-cleanup` - clean up packages, list leavel, orphans, etc.
+* `repoclosure`
+* `repodiff`
+* `repo-graph`
+* `repomanage`
+* `repoquery` - query information from [[Yum]] repositories
+* `repo-rss`
+* `reposync`
+* `repotrack`
+* `show-installed`
+* `show-changed-rco`
+* `verifytree`
+* <$link to="yumdownloader">`yumdownloader`</$link> - download rpm packages from yum repositories
+* `yum-builddep`
+* `yum-complete-transaction`
+* `yum-config-manager` -enable/disable repos
+* `yum-debug-dump`
+* `yum-debug-restore`
+* `yum-groups-manager`

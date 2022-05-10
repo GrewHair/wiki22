@@ -1,0 +1,11 @@
+created: 20220223174527056
+modified: 20220223174850781
+tags: Linux Stub
+title: Getting CPU Percentage by Process
+tmap.id: 62b00515-997b-49a3-9e26-233bb4505ddc
+type: text/vnd.tiddlywiki
+
+''TL;DR''
+[[ps]] won't show you what you want, it will show an all time average. Use [[top]] in scripts instead (yea I know, it sounds strange).
+
+https://unix.stackexchange.com/questions/58539/top-and-ps-not-showing-the-same-cpu-result

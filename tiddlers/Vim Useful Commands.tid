@@ -1,0 +1,9 @@
+created: 20220202083722766
+modified: 20220202083925638
+tags: Vim
+title: Vim Useful Commands
+tmap.id: 9e40790e-9a92-4733-b274-4b626b2d1b96
+type: text/vnd.tiddlywiki
+
+* `:windo diffthis` - diff the visible windows
+* `:diffoff!` -quit this

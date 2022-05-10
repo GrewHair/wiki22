@@ -1,5 +1,5 @@
 created: 20211025120927768
-modified: 20211026142233834
+modified: 20220126075839113
 tags: Security Privacy Authentication Stub
 title: Challenge-response Authentication
 tmap.id: a561376a-14de-4635-8e8d-cd28ee03b87e
@@ -7,7 +7,7 @@ type: text/vnd.tiddlywiki
 
 [[Challenge-response Authentication]] is a family of [[protocols|Protocol]] in which one party presents a challenge and another party must provide a valid response to be [[authenticated|Authentication]].
 
-Although simple [[Password Authentication]] is in fact a kind of [[Challenge-response Authentication]] (where the challenge would be asking for the [[password|Password]], and the response is providing the correct [[password]]), it seems like the whole [[paradigm|Challenge-response Authentication]] has been created for the very purpose of overcoming the threats of [[Man-in-the-middle Attacks|Man-in-the-middle Attack]] associated with [[sending passwords|Password Authentication]].
+Although simple [[Password Authentication]] is in fact a kind of [[Challenge-response Authentication]] (where the challenge would be asking for the [[password|Password]], and the response is providing the correct [[password|Password]]), it seems like the whole [[paradigm|Challenge-response Authentication]] has been created for the very purpose of overcoming the threats of [[Man-in-the-middle Attacks|Man-in-the-middle Attack]] associated with [[sending passwords|Password Authentication]].
 
 Thus, [[Password Authentication]] is but the most primitive type of [[Challenge-response Authentication]], a trivial case if you will.
 

@@ -1,0 +1,19 @@
+created: 20211215174420114
+modified: 20211215175225400
+tags: Stub Jenkins Java [[File Formats]] [[Transport Layer Security]]
+title: How to Configure SSL on Jenkins Server
+tmap.id: 9e4c0157-171a-40fc-b9ea-38252476bc26
+type: text/vnd.tiddlywiki
+
+''Note to self:''
+
+This has something to do with all of these endless formats like [[jks|Java KeyStore]], [[PKCS12]] format and so on..
+
+It seems to simply be yet another ([[Java]]-specific) layer of complexity on top of this mess with `.crt`, `.cer`, `.pem` files, etc.
+
+The reasons are likely historical, would be great to investigate later
+
+https://devopscube.com/configure-ssl-jenkins/
+
+converting back:
+https://stackoverflow.com/questions/2846828/converting-jks-to-p12

@@ -1,0 +1,19 @@
+created: 20220312112743846
+modified: 20220312113822001
+tags: Perl [[Postgre SQL]] Stub
+title: PL\Perl
+tmap.id: 77d974b6-373a-4dbb-9e1d-c19d4e1d9962
+type: text/vnd.tiddlywiki
+
+''AKA Procedural Language/Perl, PL\Perl''
+
+[[PL/Perl|PL\Perl]] is a [[procedural|Procedural Programming]] [[language|Programming Language]] supported by [[PostgreSQL]] [[RDBMS|Relational Database Management System]].
+
+To use it, you have to have
+`libperl` installed as a [[Shared Library]] on your system, or else `plperl.so` won't be installed.
+
+While there shouldn't be problems with this in recent [[Perl]] installations, if you have an older one, you may have to reinstall [[Perl]] with `usemultiplicity` enabled (`perl -V | grep usemultiplicity` to check).
+
+https://en.wikipedia.org/wiki/PL/Perl
+
+https://www.postgresql.org/docs/9.0/install-requirements.html

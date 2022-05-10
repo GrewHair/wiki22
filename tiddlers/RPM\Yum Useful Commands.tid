@@ -1,0 +1,37 @@
+created: 20211228133451827
+modified: 20220203105029173
+tags: Linux [[Red Hat Linux]] CentOS Packaging
+title: RPM\Yum Useful Commands
+tmap.id: 8ba0ebd8-0678-4bd4-858c-acd67a0b80b1
+type: text/vnd.tiddlywiki
+
+* `rpm -q --changelog openssh` - view the changelog of a [[package|Package Format]] (useful to check whether certain security [[patches|Patch (Computing)]] have been [[backported|Backporting]] to [[packages|Package Format]] on some aincient [[systems|Operating System]] like [[CentOS 7]])
+* `rpm -qa kernel` - list all installed [[kernels|Kernel]]
+* `rpm -q glibc` - check version of [[package|Package Format]]
+* `yum repolist`, `yum -v repolist` - view repo list :)
+** `yum repolist enabled`
+** `yum repolist disabled`
+** `yum repolist all`
+* `yum --disablerepo="*" --enablerepo="epel" list available` - list available [[packages|Package Format]] under the `epel` repo
+* `yum list` or `yum list all` - lists all [[packages|Package Format]] in all repos //and// all [[packages|Package Format]] installed on the system
+* `yum --showduplicates list <package>` - similar but with duplicates (to check available versions?)
+* `yum list installed | grep @epel` - list [[packages|Package Format]] installep from a certain repo
+*>''important note:'' `@` denotes a [[package|Package Format]] which is actually //installed// (as opposed to available) -see [[this|https://superuser.com/questions/671126/what-does-the-symbol-mean-next-to-a-repository-when-doing-yum-list]] and `man yum`
+* Check which [[package|Package Format]] provides a [[file|File]] or a binary:
+** `rpm -q --whatprovides kubectl`
+** `rpm -qf $(which kubectl)` (this one is more reliable)
+* Check what [[files|File]] a [[package|Package Format]] provides:
+** `rpm -ql dotnet-sdk-2.2` - for locally installed packages
+** `repoquery --list dotnet-sdk-2.2` - search in yum repositories 
+* `yum info yum-utils` -view [[package|Package Format]] info
+* History:
+** `yum history` - view history
+** `yum --setopt=history_list_view=commands history list all` - similar, but specifying the format
+** `yum history info 6` - view details of transaction `6`
+** `yum history undo 6` - undo transaction `6`
+* Databases:
+** `rpmdb` - the [[RPM]] [[Database]] tool
+** `yumdb` - query and alter the [[Yum]] [[Database]]
+*** 	`yumdb search reason dep`
+*** 	`yumdb search reason user`
+* `yum check-update`

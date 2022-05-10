@@ -1,0 +1,10 @@
+created: 20220118160329565
+modified: 20220118161112422
+tags: Virtualbox Stub [[Badly Named]]
+title: Virtualbox annoyances
+tmap.id: f478cf6f-c86e-4a4a-953a-69a48615eeda
+type: text/vnd.tiddlywiki
+
+* Auto capture keyboard
+* Mouse pointer integration
+* Fullscreen mode information window (<kbd>Host</kbd>+<kbd>F</kbd>, <kbd>Host</kbd>+<kbd>Home</kbd>, the host key is right <kbd>Ctrl</kbd>)

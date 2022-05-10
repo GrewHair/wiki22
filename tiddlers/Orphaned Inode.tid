@@ -1,0 +1,10 @@
+created: 20220120075006666
+modified: 20220120075131130
+tags: Linux Unix Stub
+title: Orphaned Inode
+tmap.id: a666261b-6e96-4e45-9044-0a4d704f8141
+type: text/vnd.tiddlywiki
+
+It has something to do with [[fsck]] and the [[lost+found]] directory..
+
+https://unix.stackexchange.com/questions/290116/what-is-an-orphaned-inode

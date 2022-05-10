@@ -1,0 +1,18 @@
+created: 20211215165020075
+modified: 20211215165806324
+tags: Jenkins Stub
+title: Ways to Link Jobs (Jenkins Pipeline)/Actively Executing a Downstream Job
+tmap.id: e12d9db4-e840-468f-b3c6-1bd3aca60b56
+type: text/vnd.tiddlywiki
+
+In the [[Upstream Job|Upstream Job (Jenkins)]]:
+
+```kotlin
+stage ('Starting downstream job ') {
+  steps {
+    build job: 'metamorphant/deploy/master'
+  }
+}
+```
+
+https://metamorphant.de/blog/posts/2019-03-11-jenkins-101-downstream-projects/

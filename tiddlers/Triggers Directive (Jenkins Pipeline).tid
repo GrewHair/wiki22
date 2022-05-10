@@ -1,0 +1,10 @@
+created: 20211215164216813
+modified: 20211215164527312
+tags: Jenkins Stub Questionable
+title: Triggers Directive (Jenkins Pipeline)
+tmap.id: 2e05cd99-7ce1-4872-929d-f9146af32eb7
+type: text/vnd.tiddlywiki
+
+I guess it should be the same as [[Build Triggers|Build Triggers (Jenkins)]] in the [[Project|Jenkins Project]] configuration (i.e. its scripted form)?
+
+https://www.jenkins.io/doc/book/pipeline/syntax/#triggers

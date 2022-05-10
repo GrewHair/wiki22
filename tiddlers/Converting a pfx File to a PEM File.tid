@@ -1,0 +1,28 @@
+created: 20220422121549792
+modified: 20220427095425025
+tags: Stub Security OpenSSL
+title: Converting a pfx File to a PEM File
+tmap.id: 94499d7c-d915-4bc4-af75-c7bb99b7af07
+type: text/vnd.tiddlywiki
+
+```bash
+# to a combined PEM file
+openssl pkcs12 -in filename.pfx -out cert.pem -nodes
+
+# to separate PEM files
+openssl pkcs12 -in filename.pfx -nocerts -out key.pem
+openssl pkcs12 -in filename.pfx -clcerts -nokeys -out cert.pem
+
+# this removes password from the extracted key
+openssl rsa -in key.pem -out server.key
+```
+
+https://www.xolphin.com/support/Certificate_conversions/Convert_pfx_file_to_pem_file
+
+```bash
+openssl pkcs12 -in <filename.pfx> -nocerts -nodes -out <clientcert.key>
+openssl pkcs12 -in <filename.pfx> -clcerts -nokeys -out <clientcert.cer>
+openssl pkcs12 -in <filename.pfx> -cacerts -nokeys -chain -out <cacerts.cer>
+```
+
+https://unix.stackexchange.com/questions/367220/how-to-export-ca-certificate-chain-from-pfx-in-pem-format-without-bag-attributes

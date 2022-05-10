@@ -4,8 +4,8 @@
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 .hsk.transcludes: [[_my/images/png/python_quirks_1]]
 created: 20200417120019526
-modified: 20200417120420565
-tags: Python
+modified: 20211221101011737
+tags: Python Quirk
 title: Python Quirk #1
 tmap.id: abd9cae9-db62-4fca-b752-83767339cdf2
 type: text/vnd.tiddlywiki

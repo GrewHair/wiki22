@@ -1,0 +1,12 @@
+created: 20211215182621679
+modified: 20211215182930983
+tags: [[Transport Layer Security]] Security Stub
+title: Difference Between P12 and PEM Files
+tmap.id: d9cfd3d7-67a2-455a-aa93-469643926313
+type: text/vnd.tiddlywiki
+
+Basically, [[p12|PKCS12]] stores the [[Certificate|Public Key Certificate]] and the [[Key|Private Key]] together, and this is somehow considered more modern.
+
+I should probably have a read later.
+
+https://medium.com/@rachnaios/difference-between-p12-and-pem-file-fa85d38e50bf
