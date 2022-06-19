@@ -1,0 +1,16 @@
+created: 20220514072702188
+modified: 20220514075204071
+tags: HTTP Computing Clients Stub
+title: User Agent
+tmap.id: a96d9428-a7b3-453a-a0dc-f7a8e7415e91
+type: text/vnd.tiddlywiki
+
+''AKA UA''
+
+[[UA|User Agent]] is a software element that acts on behalf of the [[user|User]].
+
+However, the term now is mostly associated with [[an HTTP Header|User-Agent (HTTP Header)]] that helps the [[Server]] identify the type of [[OS|Operating System]] and/or device requesting content.
+
+https://www.techopedia.com/definition/1614/user-agent-ua
+
+https://en.wikipedia.org/wiki/User_agent

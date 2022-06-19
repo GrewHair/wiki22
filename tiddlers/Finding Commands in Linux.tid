@@ -1,0 +1,28 @@
+created: 20220531092020571
+modified: 20220531092615676
+tags: WIP Linux Unix Bash Zsh [[Badly Named]]
+title: Finding Commands in Linux
+tmap.id: 09cdbcd0-d18e-4231-ae71-9c1f0f05e7ce
+type: text/vnd.tiddlywiki
+
+Basically try:
+
+* `which` (builtin in zsh)
+* `type` (builtin)
+* `command` (builtin)
+* `whereis`
+
+In [[Zsh]] you can also try:
+
+* `where`
+* `whence`
+
+https://askubuntu.com/questions/102093/how-to-see-the-command-attached-to-a-bash-alias
+
+https://unix.stackexchange.com/questions/126134/is-there-an-alternative-to-the-which-command
+
+https://superuser.com/questions/40301/which-whereis-differences
+
+This thread has some history broken down, so return to it later:
+
+https://unix.stackexchange.com/questions/63781/what-is-the-difference-between-which-and-where

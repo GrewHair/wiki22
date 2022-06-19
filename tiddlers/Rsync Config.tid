@@ -1,0 +1,18 @@
+created: 20220526204757951
+modified: 20220526205301768
+tags: WIP Rsync Linux
+title: Rsync Config
+tmap.id: 7891105d-568d-49ef-8b01-b0aa2f05c7e7
+type: text/vnd.tiddlywiki
+
+https://docs.rockylinux.org/books/learning_rsync/04_rsync_configure/
+
+https://man7.org/linux/man-pages/man5/rsyncd.conf.5.html
+
+this says smth about how to use [[SSH Config|~\.ssh\config]].
+
+https://unix.stackexchange.com/questions/94421/how-to-use-ssh-config-setting-for-each-server-by-rsync
+
+also some rsync basics:
+
+https://linuxize.com/post/how-to-use-rsync-for-local-and-remote-data-transfer-and-synchronization/

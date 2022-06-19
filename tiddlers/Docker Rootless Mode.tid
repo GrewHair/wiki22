@@ -1,0 +1,20 @@
+created: 20220523210829507
+modified: 20220523225630154
+tags: Docker Security WIP
+title: Docker Rootless Mode
+tmap.id: d9ca1c01-8edd-4d45-92bb-5ef0db4eebee
+type: text/vnd.tiddlywiki
+
+https://docs.docker.com/engine/security/rootless/
+
+https://medium.com/@tonistiigi/experimenting-with-rootless-docker-416c9ad8c0d6
+
+https://thenewstack.io/how-to-run-docker-in-rootless-mode/
+
+https://statswork.wiki/engine/security/rootless/
+
+A couple of russian articles:
+
+https://almat.su/docker-zapusk-protsessa-iz-pod-tekushhego-polzovatelya/
+
+https://dev-gang.ru/article/doker-bez-rut-privilegii-33wwgrq6vy/

@@ -1,0 +1,12 @@
+created: 20220520094443349
+modified: 20220520094854522
+tags: Linux Debian [[Software Packaging]] [[Package Management]] Stub
+title: debhelper
+tmap.id: e98b65ce-e272-4410-9f32-18c103de54ca
+type: text/vnd.tiddlywiki
+
+https://man7.org/linux/man-pages/man7/debhelper.7.html
+
+https://www.youtube.com/watch?v=h7wXEC-0Rc8
+
+https://manpages.debian.org/testing/debhelper/dh_installinit.1.en.html

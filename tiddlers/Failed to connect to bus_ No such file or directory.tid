@@ -1,0 +1,18 @@
+created: 20220602010647060
+modified: 20220602010854618
+tags: systemd Dbus WIP
+title: Failed to connect to bus: No such file or directory
+tmap.id: ff02440d-dde3-4550-a7c7-4f1572484b9c
+type: text/vnd.tiddlywiki
+
+https://www.reddit.com/r/systemd/comments/fufbui/failed_to_connect_to_bus_no_such_file_or_directory/
+
+https://bbs.archlinux.org/viewtopic.php?id=234813
+
+https://bbs.archlinux.org/viewtopic.php?id=201543
+
+https://askubuntu.com/questions/813588/systemctl-failed-to-connect-to-bus-docker-ubuntu16-04-container
+
+https://superuser.com/questions/1561076/systemctl-use-failed-to-connect-to-bus-no-such-file-or-directory-debian-9
+
+https://access.redhat.com/discussions/6029491

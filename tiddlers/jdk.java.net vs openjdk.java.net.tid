@@ -1,0 +1,10 @@
+created: 20220516134701043
+modified: 20220516135052794
+tags: Java Oracle
+title: jdk.java.net vs openjdk.java.net
+tmap.id: cda16f46-2e63-40b6-b7ae-9129e3d2a7ee
+type: text/vnd.tiddlywiki
+
+[[jdk.java.net|https://jdk.java.net/]] is where [[Oracle]]’s [[OpenJDK]] builds are published for download, [[openjdk.java.net|https://openjdk.java.net/]] is the [[OpenJDK project|OpenJDK]] itself.
+
+https://developer.okta.com/blog/2019/01/16/which-java-sdk

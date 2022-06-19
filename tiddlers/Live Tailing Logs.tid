@@ -1,0 +1,12 @@
+created: 20220603084840701
+modified: 20220603085157562
+tags: Docker Linux Unix Stub WIP
+title: Live Tailing Logs
+tmap.id: 5a13ba51-7f96-4dc4-8914-1c0f2162a2f7
+type: text/vnd.tiddlywiki
+
+* `tail -f <file>`
+* `docker logs --follow <container-id>`
+* ...
+
+https://www.papertrail.com/solution/tips/how-to-live-tail-docker-logs/

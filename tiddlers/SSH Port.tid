@@ -1,0 +1,10 @@
+created: 20220605002625874
+modified: 20220605002715502
+tags: Stub SSH
+title: SSH Port
+tmap.id: 2c105ef5-dd2f-4216-870f-1bba2ec7bd08
+type: text/vnd.tiddlywiki
+
+There's some history to why it's 22.
+
+https://www.ssh.com/academy/ssh/port

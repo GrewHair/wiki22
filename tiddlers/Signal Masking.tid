@@ -1,0 +1,20 @@
+created: 20220529205215180
+modified: 20220529232500001
+tags: Unix Linux Stub [[Couldn't Google It]] [[Systems Programming]]
+title: Signal Masking
+tmap.id: b50eae76-561d-4cee-9e57-19d24902a0c2
+type: text/vnd.tiddlywiki
+
+http://www.cs.um.edu.mt/~jcor1/SystemsProgramming/CourseMaterials/9_AdvancedSignalOperations.pdf
+
+Found it here:
+
+https://unix.stackexchange.com/questions/267459/relations-between-control-characters-signals-and-terminal
+
+These //may// be related:
+
+https://man7.org/linux/man-pages/man2/sigprocmask.2.html
+
+https://www.gnu.org/software/libc/manual/html_node/Process-Signal-Mask.html
+
+https://linux.die.net/man/2/sigmask

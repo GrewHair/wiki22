@@ -1,0 +1,10 @@
+created: 20220616084631068
+modified: 20220616085111457
+tags: Bash Zsh Linux
+title: Shell Lifehacks
+tmap.id: af096b3c-3ba6-4633-9d87-9de36f38f301
+type: text/vnd.tiddlywiki
+
+* Commenting commands ([[source|https://dev.to/thermatix/devs-why-do-you-use-terminal-tabs-over-tmux-windows--51hb]])
+*><$codeblock language="bash" code='echo foo  # echoing "foo"'/>
+*> this way can make it easier for yourself to `C-r` for a hard-to-remember command later

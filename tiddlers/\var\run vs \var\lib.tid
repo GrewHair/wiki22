@@ -1,0 +1,14 @@
+created: 20220522164923859
+modified: 20220522223941568
+tags: Unix Linux [[Filesystem Hierarchy Standard]]
+title: \var\run vs \var\lib
+tmap.id: 7e5205b4-a2f9-4bdc-8a77-8cdf6810fe0a
+type: text/vnd.tiddlywiki
+
+<$link to="\var\run">`/var/run`</$link> is used to store [[volatile|Volatile Data]] runtime data (while runtime data stored in<$link to="\var\lib">`/var/lib`</$link> is meant to persist).
+
+https://askubuntu.com/questions/303120/how-folders-created-in-var-run-on-each-reboot
+
+https://whatisany.com/what-is-linux-var-run/
+
+https://superuser.com/questions/743976/what-is-the-difference-between-var-lib-and-var-run

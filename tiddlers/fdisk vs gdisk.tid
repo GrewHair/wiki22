@@ -1,0 +1,14 @@
+created: 20220616110345266
+modified: 20220616111111482
+tags: Linux [[Disk Partitioning]]
+title: fdisk vs gdisk
+tmap.id: 8b356d54-4bb6-43ed-a450-f1fc53b15e8f
+type: text/vnd.tiddlywiki
+
+`fdisk` is a classic utility, it works only with [[MBR|Master Boot Record]] [[partition tables|Partition Table]]. Support for [[GPT|GUID Partition Table]] is still experimental.
+
+`gdisk` employs a [[UI|User Interface]] similar to `gdisk`'s, but works with [[GPT|GUID Partition Table]] [[partition tables|Partition Table]].
+
+`gdisk` stands for ''"GPT fdisk"''.
+
+https://learn.redhat.com/t5/Platform-Linux/Partitioning-using-fdisk-vs-gdisk/td-p/1826

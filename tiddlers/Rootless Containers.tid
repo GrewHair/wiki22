@@ -1,0 +1,12 @@
+created: 20220523205326256
+modified: 20220523210938887
+tags: [[Red Hat Linux]] Podman [[Containers (Computing)]] Docker [[Badly Named]] Stub
+title: Rootless Containers
+tmap.id: bfe5f4e2-60eb-4f25-a421-24596072bd58
+type: text/vnd.tiddlywiki
+
+''TLDR''
+
+[[Docker]] makes whoever runs it [[Root]], and you can't track them!!
+
+https://www.redhat.com/en/blog/preview-running-containers-without-root-rhel-76

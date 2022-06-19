@@ -1,0 +1,18 @@
+created: 20220601105359492
+modified: 20220601110225401
+tags: systemd [[Badly Named]] WIP
+title: systemctl list- commands
+tmap.id: e8695a4c-767f-4247-ad5b-8e083bf07fe1
+type: text/vnd.tiddlywiki
+
+* ''Unit Commands''
+** `list-units`
+** `list-sockets`
+** `list-timers`
+** `list-dependencies`
+* ''Unit File Commands''
+** `list-unit-files`
+* ''Unit Machine Commands''
+** `list-machines`
+* ''Unit Job Commands''
+** `list-jobs`

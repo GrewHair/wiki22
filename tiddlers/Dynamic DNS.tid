@@ -1,6 +1,6 @@
 created: 20210322204211597
-modified: 20210323120820610
-tags: Networking Stub
+modified: 20220531192352545
+tags: Networking Stub DNS
 title: Dynamic DNS
 tmap.id: 6100c17c-5180-4979-a781-f8e73ae074b3
 type: text/vnd.tiddlywiki
@@ -12,3 +12,7 @@ type: text/vnd.tiddlywiki
 In [[Microsoft Windows]] networks, [[Dynamic DNS]] is an integral part of [[Active Directory]], because [[Domain Controllers|Domain Controller]] register their [[Network Service Types|SRV Record]] in [[DNS|Domain Name System]] so that other computers in the [[Domain|Windows Domain]] (or [[Forest]]) can access them.
 
 https://en.wikipedia.org/wiki/Dynamic_DNS
+
+Here's a really nice explanation:
+
+https://www.youtube.com/watch?v=rOLGvZagdC0

@@ -1,5 +1,5 @@
 created: 20220429102449194
-modified: 20220429102711150
+modified: 20220514085225960
 tags: SSH Stub
 title: Banner (SSH)
 tmap.id: 0097737c-bea6-4642-bb03-04a8e231aea8
@@ -10,3 +10,7 @@ https://www.plothost.com/kb/motd-banner-messages-ssh-connections/
 https://www.tecmint.com/protect-ssh-logins-with-ssh-motd-banner-messages/
 
 https://unix.stackexchange.com/questions/320039/suppress-banner-for-ssh-or-scp#:~:text=Use%20the%20%2Dq%20(quiet),user%20before%20authentication%20is%20allowed.
+
+https://www.cyberciti.biz/howto/turn-off-the-login-banner-in-linux-unix-with-hushlogin-file/
+
+https://www.linuxhowto.net/quick-tip-turn-off-the-login-banner-in-linux-or-unix-hushlogin-file/

@@ -1,5 +1,5 @@
 created: 20220111120332604
-modified: 20220111120521978
+modified: 20220523102356460
 tags: Java Stub
 title: Java Network Launch Protocol
 tmap.id: dda54a47-bc81-49e0-894d-6316b8eea6cf
@@ -10,3 +10,9 @@ type: text/vnd.tiddlywiki
 [[Jenkins]] uses it (the alternative is [[SSH|Secure Shell]] ???):
 
 https://wiki.jenkins.io/display/JENKINS/Distributed+builds
+
+https://en.wikipedia.org/wiki/Java_Web_Start#Java_Network_Launching_Protocol_(JNLP)
+
+In [[Jenkins]], picking the launch method //"Launch agent by connecting it to the master"// is synonymous to [[JNLP|Java Network Launch Protocol]], and also to [[Java Web Start]].
+
+https://www.youtube.com/watch?v=CFLGztJ6hOE

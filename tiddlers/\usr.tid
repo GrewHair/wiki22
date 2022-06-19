@@ -1,0 +1,26 @@
+created: 20220514144054046
+modified: 20220514155629702
+tags: Linux Unix [[Filesystem Hierarchy Standard]] Stub
+title: \usr
+tmap.id: 412b4b18-a7df-4f15-acf9-c9fd894e41ad
+type: text/vnd.tiddlywiki
+
+''Backronym: User System Resources''
+
+* `/usr` was has been present from the early [[Unix]] days, and was initially intended as a general-purpose [[directory|Directory (File Systems)]] for anything [[user|User (Unix)]]-related
+* Soon enough it was repurposed as a [[Secondary Hierarchy|Secondary Hierarchy (FHS)]], to keep the other top-level [[directories|Directory (File Systems)]] small (such were the limitations of the early [[File Systems|File System]] - performance depended on the [[directory|Directory (File Systems)]] size)
+*>`/usr/bin` kept `/bin` small
+*>`/usr/lib` kept `/lib` small
+*>`/usr/tmp` kept `/tmp` small
+*>`...`
+* Later in the 80s, with the popularization of [[Ethernet]], but with disks still being very expensive, the [[Diskless Workstation]] saw its rise, and, since the ultimate bulk of the software installed already usually resided in `/usr` by then, it was decided to make this [[directory|Directory (File Systems)]] network-mountable and read-only, moving anything prone to changes away from it into a newly introduced <$link to="\var">`/var`</$link> [[directory|Directory (File Systems)]].
+
+https://tldp.org/LDP/Linux-Filesystem-Hierarchy/html/usr.html
+
+https://unix.stackexchange.com/questions/230090/differences-between-home-root-and-usr
+
+http://web.archive.org/web/20150515204716/http://objectroot.org/articles/brief-history-of-hier/
+
+https://www.geeksforgeeks.org/linux-file-hierarchy-structure/
+
+http://www.linfo.org/var.html

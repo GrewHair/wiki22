@@ -1,0 +1,44 @@
+created: 20220529184356174
+modified: 20220529201617243
+tags: ASCII Computing
+title: ASCII Control Code Chart
+tmap.id: bd16f490-9cf3-4bb8-b3c6-e03bfaf77019
+type: text/vnd.tiddlywiki
+
+|!Abbreviation|<|<|!<$link to="Caret Notation">Caret<br>Notation</$link>|![[C]] <$link to="Escape Sequence">Escape<br>Sequences</$link>|!Name (1967)|!Seen it<br>before|
+|!1963|!1965|!1967|~|~|~|~|
+|NULL |NUL|<|`^@`|`\0`|[[Null|Null Character]]  |*|
+|SOM  |SOH|<|`^A`|    |Start of Heading         | |
+|EOA  |STX|<|`^B`|    |Start of Text            | |
+|EOM  |ETX|<|`^C`|    |[[End of Text]]          |*|
+|EOT    |<|<|`^D`|    |[[End of Transmission]]  |*|
+|WRU  |ENQ|<|`^E`|    |Enquiry                  | |
+|RU   |ACK|<|`^F`|    |Acknowledgement          | |
+|BELL |BEL|<|`^G`|`\a`|[[Bell|Bell Character]]  |*|
+|FE0  |BS |<|`^H`|`\b`|[[Backspace]]            |*|
+|HT/SK|HT |<|`^I`|`\t`|[[Horizontal Tab]]       |*|
+|LF     |<|<|`^J`|`\n`|[[Line Feed]]            |*|
+|VTAB |VT |<|`^K`|`\v`|[[Vertical Tab]]         | |
+|FF     |<|<|`^L`|`\f`|[[Form Feed]]            | |
+|CR     |<|<|`^M`|`\r`|[[Carriage Return]]      |*|
+|SO     |<|<|`^N`|    |[[Shift Out]]            | |
+|SI     |<|<|`^O`|    |[[Shift In]]             | |
+|DC0  |DLE|<|`^P`|    |[[Datalink Escape]]      | |
+|DC1    |<|<|`^Q`|    |Device Control 1 (XON)   |*|
+|DC2    |<|<|`^R`|    |Device Control 2         | |
+|DC3    |<|<|`^S`|    |Device Control 3 (XOFF)  |*|
+|DC4    |<|<|`^T`|    |Device Control 4         | |
+|ERR  |NAK|<|`^U`|    |Negative Acknowledgement | |
+|SYNC |SYN|<|`^V`|    |Synchronous Idle         | |
+|LEM  |ETB|<|`^W`|    |End of Transmission Block| |
+|S0   |CAN|<|`^X`|    |Cancel                   | |
+|S1   |EM |<|`^Y`|    |End of Medium            | |
+|S2  |SS|SUB|`^Z`|    |Substitute               | |
+|S3   |ESC|<|`^[`|`\e`|[[Escape|ASCII Escape Character]]|*|
+|S4   |FS |<|`^\`|    |File Separator           | |
+|S5   |GS |<|`^]`|    |Group Separator          | |
+|S6   |RS |<|`^^`|    |Record Separator         | |
+|S7   |US |<|`^]`|    |Unit Separator           | |
+|DEL    |<|<|`^?`|    |[[Delete Character]]     |*|
+
+https://en.wikipedia.org/wiki/ASCII#Control_code_chart

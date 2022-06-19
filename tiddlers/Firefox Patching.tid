@@ -1,0 +1,15 @@
+created: 20220522110304507
+modified: 20220530010527034
+tags: [[Web Browsers]] WIP Tridactyl Firefox
+title: Firefox Patching
+tmap.id: b2d70b27-3fa7-4c11-a0b7-6c030e4d15a4
+type: text/vnd.tiddlywiki
+
+https://github.com/tridactyl/tridactyl/issues/2109
+
+https://github.com/glacambre/firefox-patches/issues/1
+
+https://github.com/glacambre/firefox-patches/blob/master/dont_reserve_keys.patch
+
+this last one seems pretty intelligeble (check out the last comment)
+https://github.com/tridactyl/tridactyl/issues/996

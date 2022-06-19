@@ -1,0 +1,14 @@
+created: 20220531091250521
+edit-mode: no
+list: [[Linux Documentation Systems]]
+modified: 20220531091502994
+role: comment
+title: Comment by '(anonymous)' on 'Linux Documentation Systems'
+tmap.id: 1979ef86-11b5-453a-9529-02d59576af32
+type: text/vnd.tiddlywiki
+
+https://unix.stackexchange.com/questions/68998/what-is-the-difference-between-the-whatis-and-apropos-commands
+
+this states that `whatis` and `apropos` both search `man`'s database (and there also seems to be a command `mandb`), so later i could study the man command ecosystem.
+
+and maybe `info` also has smth similar?

@@ -1,0 +1,12 @@
+created: 20220523090050621
+modified: 20220523090330703
+tags: Docker [[Software Release Lifecycle]] Stub
+title: Docker Versioning Scheme
+tmap.id: 0d4e7414-60d0-47d5-abdd-5a151a94dddb
+type: text/vnd.tiddlywiki
+
+Starting on March 2017, [[Docker]] uses the year as the major version number, so `YY-MM`.
+
+https://stackoverflow.com/questions/46619397/docker-version-number-confusion-17-06-vs-1-13
+
+https://docs.docker.com/engine/release-notes/17.03/#17030-ce

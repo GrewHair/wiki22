@@ -1,0 +1,12 @@
+created: 20220529171325734
+modified: 20220529171701071
+tags: MacOS [[WTF is This?]]
+title: Cocoa Text System
+tmap.id: 0ca0d51a-e072-4947-a7b4-2e4ba2d44e0e
+type: text/vnd.tiddlywiki
+
+This is some magical apple thing for text manipulation, and the github issue below mentions it has something to do with [[Emacs]] (or [[Readline]]) keybindings. Hard to tell tho.
+
+https://apple.fandom.com/wiki/Cocoa_Text_System
+
+https://github.com/junegunn/fzf/issues/546

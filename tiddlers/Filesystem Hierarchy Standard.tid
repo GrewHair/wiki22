@@ -3,13 +3,15 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200403071740663
-modified: 20220120081024511
+modified: 20220514125607498
 tags: Ubuntu
 title: Filesystem Hierarchy Standard
 tmap.id: 2806f206-61a5-4490-bc6c-ca79532856c0
 type: text/vnd.tiddlywiki
 
 The [[Filesystem Hierarchy Standard]] defines directory structure of [[Linux]] distributions.
+
+[[some say|https://unix.stackexchange.com/questions/11544/what-is-the-difference-between-opt-and-usr-local]] that it was heavily inspired by the [[SVR4]] [[file system|File System]] standard.
 
 https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard
 

@@ -1,0 +1,12 @@
+created: 20220527094238646
+modified: 20220527094636139
+tags: [[Couldn't Google It]] [[Black Hat]] [[Penetration Testing]] Stub
+title: Node Hopping
+tmap.id: e27e2a88-1f9a-4828-9b17-88891dcb78a2
+type: text/vnd.tiddlywiki
+
+https://subscription.packtpub.com/book/networking_and_servers/9781787121829/8/ch08lvl1sec83/node-hopping-pivoting
+
+This is a unix.stackexchange thread about [[Rsync]] i've already put [[here|Rsync Config]], where someone mentioned smth like "it even supports node hoping" (yes, with a typo).
+
+https://unix.stackexchange.com/questions/94421/how-to-use-ssh-config-setting-for-each-server-by-rsync

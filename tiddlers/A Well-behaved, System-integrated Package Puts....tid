@@ -1,0 +1,16 @@
+created: 20220514145733579
+modified: 20220514153845225
+tags: Linux [[Filesystem Hierarchy Standard]] [[XDG Base Directory Specification]] [[Badly Named]] [[Software Packaging]] [[Package Management]]
+title: A Well-behaved, System-integrated Package Puts...
+tmap.id: 9cd9b00c-9eeb-48c8-adbd-1fa2a8824432
+type: text/vnd.tiddlywiki
+
+A well-behaved, system-integrated [[package|Package Format]] puts its:
+
+* [[executables|Executable]] in `/usr/bin`
+* [[.so|Shared Library]] and [[.a libraries|Static Library]] in `/usr/lib`
+* [[architecture-independent data|Architecture-independent Data (Linux)]] in `/usr/share`
+* ''system-wide configuration data'' in `/etc`
+* ''user configuration data'' in a [[dotfile|Dotfile]] in `$HOME`, or in `$HOME/.config`
+
+https://unix.stackexchange.com/questions/230090/differences-between-home-root-and-usr

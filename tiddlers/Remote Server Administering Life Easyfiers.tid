@@ -1,0 +1,37 @@
+created: 20220515123521598
+modified: 20220527125755969
+tags: Vim Neovim Tmux Bash
+title: Remote Server Administering Life Easyfiers
+tmap.id: 2c382f36-bb2e-43c1-9798-7c07580d55cc
+type: text/vnd.tiddlywiki
+
+* ''Install the command to list group members easily''
+*><$codeblock language="bash" code="sudo apt install members"/>
+* ''Enable/disable mouse''
+** [[Vim]]:
+*><$codeblock language="vim" code="set mouse=a"/>
+*><$codeblock language="vim" code="set mouse-=a"/>
+
+**[[Tmux]]:
+*><$codeblock language="vim" code="set -g mouse on"/>
+*><$codeblock language="vim" code="set -g mouse off"/>
+
+* ''Enable [[vi|Vi]] keybindings in [[Bash]]''
+*><$codeblock language="bash" code="set -o vi"/>
+
+* ''Sane search in [[Vim]]''
+*><$codeblock language="vim" code='set hls ic scs is  "for highlight search, ignorecase, smartcase, incremental search'/>
+
+* ''Disable line wrapping''
+** [[Vim]]:
+*><$codeblock language="vim" code="set nowrap"/>
+** [[Terminal]]
+*><$codeblock language="bash" code="setterm -linewrap off"/> ([[this|https://superuser.com/questions/600677/in-linux-console-how-to-not-wrap-output/600694#600694]])
+** no such thing for [[Tmux]] yet
+** [[Screen]]
+*><$codeblock language="bash" code="setterm -linewrap off"/> ([[this|https://superuser.com/questions/600677/in-linux-console-how-to-not-wrap-output/600694#600694]])
+
+* ''Bracketed paste''
+** [[Bash]]:
+*><$codeblock language="bash" code="bind 'set enable-bracketed-paste on'"/>
+** ...

@@ -1,0 +1,12 @@
+created: 20220517105942360
+modified: 20220517110437957
+tags: WIP HTTP [[Web Servers]]
+title: 400 Bad Request - plain HTTP request sent to HTTPS port
+tmap.id: 54535024-2d7e-4ca5-a593-be4ab1d039ea
+type: text/vnd.tiddlywiki
+
+https://docs.apigee.com/api-platform/troubleshoot/runtime/400-bad-request-plain-http-request-sent-to-https-port
+
+https://stackoverflow.com/questions/8768946/dealing-with-nginx-400-the-plain-http-request-was-sent-to-https-port-error
+
+https://www.tecmint.com/fix-400-bad-request-in-nginx/

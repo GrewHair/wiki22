@@ -1,0 +1,24 @@
+created: 20220525181129878
+modified: 20220525200201624
+tags: Rsync Linux [[System Administration]] WIP
+title: Rsync Remote to Remote
+tmap.id: 9cd94588-c58f-4078-8abf-d6c9e5c51caf
+type: text/vnd.tiddlywiki
+
+* if two remotes can communicate with each other directly:
+
+```bash
+ssh user@server1 "rsync /files user@server2:/directory"
+```
+
+https://serverfault.com/questions/411552/rsync-remote-to-remote
+
+* mimicking <$link to="scp -3">`scp -3`</$link>:
+
+https://vincent.bernat.ch/en/blog/2021-rsync-ssh-two-remotes
+
+also
+
+https://lovethepenguin.com/linux-how-to-rsync-between-two-remote-servers-that-do-not-communicate-each-157a54c9f866
+
+https://unix.stackexchange.com/questions/183504/how-to-rsync-files-between-two-remotes

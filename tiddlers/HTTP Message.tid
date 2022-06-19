@@ -1,0 +1,11 @@
+created: 20220531183810172
+modified: 20220531183942693
+tags: HTTP Stub
+title: HTTP Message
+tmap.id: 39e12acf-369b-4524-9dfa-61961af53285
+type: text/vnd.tiddlywiki
+
+* [[Request Messages|HTTP Request]]
+* [[Response Messages|HTTP Response]]
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages

@@ -1,0 +1,13 @@
+created: 20220604221919779
+modified: 20220604225708367
+tags: Vim Neovim
+title: Yank Ring Plugins
+tmap.id: a3362e3d-9812-4b34-a31b-7689c6c42b9d
+type: text/vnd.tiddlywiki
+
+* `YankRing.vim`
+* `vim-yankstack`
+* `neoyank`
+* `vim-easyclip`
+
+https://www.reddit.com/r/vim/comments/4u5d0n/alternative_to_yankring/

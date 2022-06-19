@@ -1,0 +1,8 @@
+created: 20220602002944891
+modified: 20220602003030472
+tags: WIP systemd
+title: user@.service
+tmap.id: e5fc2920-6132-4e1d-8fff-51ff15b18863
+type: text/vnd.tiddlywiki
+
+https://www.freedesktop.org/software/systemd/man/user@.service.html

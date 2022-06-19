@@ -1,0 +1,24 @@
+created: 20220526193832833
+modified: 20220526223931388
+tags: systemd Stub
+title: Unit File Paths (systemd)
+tmap.id: 32ca01b7-4f38-40c2-97d5-505bdc263743
+type: text/vnd.tiddlywiki
+
+* `/lib/systemd/system` - for [[package|Package Format]]-installed [[units|Unit (systemd)]]
+* `/etc/systemd/system` - for administrator-configured units
+* `/run/systemd/system` - for non-persistent runtime modifications
+
+''Note:'' at least in [[Ubuntu]]:
+
+* `/var/run -> /run` 
+
+>and
+
+*`/lib -> /usr/lib`,
+
+and so one may e.g. argue that the true path is `/usr/lib/systemd/system`, etc.. But at least this directory set is mnemonic.
+
+(I probably should later write down why these migrations and symlinking are happening...)
+
+https://youtu.be/r_haLf5mWhE?t=393

@@ -1,0 +1,14 @@
+created: 20220523123505322
+modified: 20220523133148996
+tags: DNS mDNS WIP
+title: Choosing Internal Top-level Domain Name
+tmap.id: b91ad854-1408-4e10-ae16-25eeba289881
+type: text/vnd.tiddlywiki
+
+https://serverfault.com/questions/17255/top-level-domain-domain-suffix-for-private-network
+
+https://www.pluralsight.com/blog/software-development/choose-internal-top-level-domain-name
+
+https://isc.sans.edu/forums/diary/Stop+Using+internal+Top+Level+Domain+Names/21095/
+
+https://www.rfc-editor.org/rfc/rfc6762

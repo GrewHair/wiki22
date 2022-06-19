@@ -1,0 +1,12 @@
+created: 20220602010941575
+modified: 20220602011108144
+tags: systemd
+title: systemd User Services
+tmap.id: 1be59be3-3e11-428a-bdef-f91966df0481
+type: text/vnd.tiddlywiki
+
+https://www.unixsysadmin.com/systemd-user-services/
+
+https://nts.strzibny.name/systemd-user-services/
+
+https://unix.stackexchange.com/questions/170780/what-exactly-systemctl-user-enable-service-means

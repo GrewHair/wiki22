@@ -1,0 +1,12 @@
+created: 20220523231207886
+modified: 20220523231726560
+tags: Docker WIP
+title: Docker Networking Design Philosophy
+tmap.id: 7b09bc1f-e162-43be-be79-2b5cf261ddbe
+type: text/vnd.tiddlywiki
+
+From this I found there's more to docker networks (and networks in general I guess) than meets the eye when you watch a "zero to hero" docker-compose tutorial... Like this stupid [[IPAM|IP Access Management]] thing that, when you google for it, for whatever reason spits out mostly microsoft and IIS search results.
+
+Like, it's not built only for devs, but for ops too.
+
+https://www.docker.com/blog/docker-networking-design-philosophy/

@@ -1,0 +1,18 @@
+created: 20220614105552531
+modified: 20220615081630334
+tags: Java WIP
+title: PermGen
+tmap.id: dda037e4-cf38-4074-aeb4-914c03cab72f
+type: text/vnd.tiddlywiki
+
+Seems like it's a part of memory/heap that the [[GC|Garbage Collector]] is prohibited to touch.. Но это не точно :)
+
+https://dzone.com/articles/permgen-and-metaspace
+
+https://dzone.com/articles/java-8-permgen-metaspace
+
+https://www.javainuse.com/java/permgen
+
+https://www.baeldung.com/java-permgen-metaspace
+
+https://www.javatpoint.com/permgen-space-java

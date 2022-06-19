@@ -1,0 +1,14 @@
+created: 20220602011206200
+modified: 20220602011824664
+tags: Vim Neovim Ansible WIP
+title: Vim and Ansible
+tmap.id: ae879906-185e-4180-8fdc-a4284ec557e5
+type: text/vnd.tiddlywiki
+
+A simpler approach:
+
+https://www.techbeatly.com/setup-your-vim-editor-for-ansible-playbook/
+
+A discussion of existing plugins:
+
+https://www.reddit.com/r/vim/comments/dmgpk3/best_vim_ansible_plugin/

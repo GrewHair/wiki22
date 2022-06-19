@@ -1,0 +1,13 @@
+created: 20220601091014964
+modified: 20220601091232327
+tags: Docker [[Rootless Containers]]
+title: Docker Rootless Mode/Don't confuse with...
+tmap.id: 62147796-436c-4a06-bc91-6c40a5ebe4aa
+type: text/vnd.tiddlywiki
+
+* `sudo docker`
+* `usermod -aG docker <username>`
+* `docker run --user <uid>`
+* `dockerd --userns-remap`
+
+https://youtu.be/uWURUtqLiqQ?t=377

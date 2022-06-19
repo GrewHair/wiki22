@@ -1,0 +1,20 @@
+created: 20220517093634038
+modified: 20220517105806629
+tags: [[Couldn't Google It]] WIP
+title: Internet Content Provider
+tmap.id: 3a5de541-5cb9-4502-ab11-4e5110fc3f70
+type: text/vnd.tiddlywiki
+
+''AKA ICP''
+
+* [[ICP|Internet Content Provider]] seems to be a chinese term used in their [[ICP License]], but I haven't come across a "good" definition yet, maybe it's just a local legislative term;
+* also it is interestingly parallel to the notion of [[ISP|Internet Service Provider]];
+* a quick google search yields the following (not that is't comprehensive tho):
+
+https://link.springer.com/chapter/10.1007/1-4020-7907-9_3
+
+https://smallbusiness.chron.com/internet-content-provider-57363.html
+
+https://encyclopedia2.thefreedictionary.com/Internet+content+provider
+
+Also, a notion of a [[Content Provider|Internet Content Provider]] (together with that of an [[ISP|Internet Service Provider]]) has been mentioned in the article [["Net Neutrality: A Fast Lane to Understanding the Trade-offs"|Net Neutrality: A Fast Lane to Understanding the Trade-offs]]. Since there's [[Net Neutrality]] in the name, we might be on to smth, because y'know.. China, corporations.. You get the idea. Need to investigate more.

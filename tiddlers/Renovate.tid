@@ -1,0 +1,12 @@
+created: 20220531105409641
+modified: 20220531105614952
+tags: [[WTF is This?]]
+title: Renovate
+tmap.id: 6b914a5d-acf9-4d6a-bc9b-247cb4969133
+type: text/vnd.tiddlywiki
+
+This thing is supposed to work with [[Git Hosting Services|Git Hosting Service]]...
+
+https://docs.renovatebot.com/
+
+Found it's file (`renovate.json`) in the ansible-docker-rootless repo.

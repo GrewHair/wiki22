@@ -1,0 +1,14 @@
+created: 20220513072224057
+modified: 20220513073259737
+tags: Python SSH Stub
+title: Paramiko
+tmap.id: e4d63aad-b242-40fe-8eca-dc9ea520e9d6
+type: text/vnd.tiddlywiki
+
+//paranoid amiko// - "paranoid friend" in [[Esperanto]].
+
+[[Paramiko]] is a pure-[[python|Python]] implementation [[SSHv2]].
+
+https://www.paramiko.org/
+
+https://pythonhosted.org/theape/documentation/developer/explorations/explore_paramiko/exploring_paramiko.html

@@ -1,0 +1,12 @@
+created: 20220531105710588
+modified: 20220531105837766
+tags: Ansible
+title: requirements.yml
+tmap.id: 64dfa7c8-73c2-487a-b332-29c604f30909
+type: text/vnd.tiddlywiki
+
+This has smth to do with [[Ansible Galaxy]].
+
+Looks like an analog of [[Python]]'s [[requirements.txt]].
+
+https://docs.ansible.com/ansible/latest/galaxy/user_guide.html

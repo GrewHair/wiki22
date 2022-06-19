@@ -1,0 +1,12 @@
+created: 20220527195225090
+modified: 20220527195437049
+tags: Ansible
+title: Ansible-base
+tmap.id: 65319bd7-e333-421d-a1ca-5d43de21995c
+type: text/vnd.tiddlywiki
+
+''TLDR:''
+
+Starting from ansible 2.10, it's __not__ "batteries included" (tm) anymore...
+
+https://www.jeffgeerling.com/blog/2020/collections-signal-major-shift-ansible-ecosystem

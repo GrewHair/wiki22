@@ -1,0 +1,15 @@
+created: 20220514124858584
+modified: 20220514144052284
+tags: Linux Unix [[Filesystem Hierarchy Standard]] Stub
+title: \bin vs \usr\bin vs \usr\local\bin vs \opt
+tmap.id: 3a2427d9-451a-4017-9bfa-23373903b024
+type: text/vnd.tiddlywiki
+
+* `/bin` contains executables necessary in [[Single-user Mode]]
+* `/usr/bin` contains executables managed by [[Distribution|Linux Distribution]]
+*`/usr/local/bin` is for software compiled and installed by the administrator (usually with `./configure; make; sudo make install`) 
+* `/opt` is for unbundled (usually pre-built) packages provided by third-party software distributors
+
+https://unix.stackexchange.com/questions/11544/what-is-the-difference-between-opt-and-usr-local
+
+https://www.quora.com/Whats-the-difference-between-usr-bin-and-usr-local-bin

@@ -1,0 +1,27 @@
+created: 20220514081800365
+modified: 20220514090350989
+tags: Linux
+title: netstat Mnemonics
+tmap.id: d410f0ec-e802-465c-a029-698093aca125
+type: text/vnd.tiddlywiki
+
+https://twitter.com/bronxasaur/status/1437989206635204611
+
+```bash
+# show [p]id, [a]ll*, [n]umeric port, [t]cp
+netstat -pant
+
+# [t]cp, [u]dp, [l]istening, show [p]id, [e]xtended info, [n]umeric port
+netstat -tulpen  # german for tulip
+
+# * - listening and not
+```
+
+https://askubuntu.com/questions/634869/should-i-alphabetically-order-the-flags-in-a-command-as-good-practice
+
+```bash
+# [a]ll*, [n]umeric port, [t]cp
+netstat -ant
+
+# * - listening and not
+```

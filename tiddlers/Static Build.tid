@@ -1,0 +1,12 @@
+created: 20220531124953831
+modified: 20220531125410105
+tags: C Unix Linux WIP
+title: Static Build
+tmap.id: 8c5459fb-cf5f-43ff-bec4-54123f71a675
+type: text/vnd.tiddlywiki
+
+[[Docker]] gives the ability to install as [[Static Builds|Static Build]], but generally advices against it.
+
+https://docs.docker.com/engine/install/binaries/
+
+https://en.wikipedia.org/wiki/Static_build

@@ -1,0 +1,13 @@
+created: 20220602010036720
+modified: 20220602010554046
+tags: Docker systemd Quirk
+title: docker.service and docker.socket
+tmap.id: b65d4d88-a8c8-4297-b264-56e5dc4d758e
+type: text/vnd.tiddlywiki
+
+Disabling `docker.service` is not enough, as it could be triggered by `docker.socket`. You need to disable this one too.
+
+This is the problem I found in this docker-rootless-
+
+https://stackoverflow.com/questions/47489631/warning-stopping-docker-service-but-it-can-still-be-activated-by-docker-socke
+

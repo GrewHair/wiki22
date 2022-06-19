@@ -1,0 +1,14 @@
+created: 20220529212240488
+modified: 20220529212525160
+tags: POSIX Terminals Stub
+title: POSIX Terminal Interface
+tmap.id: 108f50d3-054c-4792-893d-aaf215fe3bdb
+type: text/vnd.tiddlywiki
+
+It's a standard I guess :)
+
+https://en.wikipedia.org/wiki/POSIX_terminal_interface#Special_characters
+
+I wonder if this is the same:
+
+https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap11.html#tag_11

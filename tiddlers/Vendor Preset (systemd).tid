@@ -1,0 +1,16 @@
+created: 20220602003154529
+modified: 20220602005151960
+tags: systemd WIP [[Couldn't Google It]]
+title: Vendor Preset (systemd)
+tmap.id: 05a5b801-c632-43e3-8a57-504eabaf7827
+type: text/vnd.tiddlywiki
+
+It's in the output of the `systemctl list-unit-files` command, third column.
+
+I've not found so far what this means.
+
+https://unix.stackexchange.com/questions/468058/systemctl-status-shows-vendor-preset-disabled
+
+https://mull-over-things.com/what-is-vendor-preset-disabled/
+
+https://github.com/sbt/sbt-native-packager/issues/1127

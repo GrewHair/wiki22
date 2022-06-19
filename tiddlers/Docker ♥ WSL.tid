@@ -1,0 +1,14 @@
+created: 20220523115112472
+modified: 20220523123100269
+tags: Docker [[Windows Subsystem for Linux]] WIP
+title: Docker ♥ WSL
+tmap.id: 82f76f63-4ded-4c27-8028-c60eeb01b318
+type: text/vnd.tiddlywiki
+
+Basically, before June 2019 [[Docker Desktop]] used to use [[Hyper-V]] to run on [[Windows]], but after that [[WSL2|Windows Subsystem for Linux]] came out and they switched to it.
+
+Now it's pretty unclear whether it makes the difference in terms of which cli i'm supposed to use...
+
+https://www.docker.com/blog/docker-hearts-wsl-2/
+
+https://superuser.com/questions/1561465/docker-on-hyper-v-vs-wsl-2

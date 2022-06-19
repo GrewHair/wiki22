@@ -1,0 +1,10 @@
+created: 20220529215248356
+modified: 20220529215529187
+tags: Linux Unix C WIP
+title: EOF
+tmap.id: 7923452c-7866-4d04-85c1-e74142ee6c82
+type: text/vnd.tiddlywiki
+
+AFAIK ATM, EOF is a [[special character|POSIX Terminal Interface/Special Characters]], but also see this:
+
+https://askubuntu.com/questions/724990/what-is-eof-and-how-to-trigger-it

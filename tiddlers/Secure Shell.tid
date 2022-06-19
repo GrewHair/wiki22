@@ -1,5 +1,5 @@
 created: 20210201113314399
-modified: 20210201113608937
+modified: 20220605002612710
 tags: Networking [[Understanding the Digital World (Brian Kernighan)]] Stub
 title: Secure Shell
 tmap.id: 5139f148-d3be-483c-9cf9-5670b82cff18
@@ -10,3 +10,14 @@ type: text/vnd.tiddlywiki
 [[SSH|Secure Shell]] is a descendant of [[Telnet]]. Unlike [[Telnet]], it provides the security features by encrypting all traffic in both directions.
 
 [[SSH|Secure Shell]] uses [[Port|Port (Networking)]] 22.
+
+
+From [[SSH Academy]] ([[link|https://www.ssh.com/academy/ssh/command#ssh-command-line-options]]):
+
+>[[SSH|Secure Shell]] replaced several older commands and protocols in [[Unix]] and [[Linux]] the 1990s. The include [[Telnet]], [[rlogin]], and [[rsh]].
+
+>[[SSH]] runs at [[TCP/IP]] [[port]] 22. This is right between [[FTP]] and [[Telnet]], which are 20 years older. Read the story of how SSH got port 22.
+
+>The following video summarizes how and why SSH was originally developed.
+
+>[[SSH history with Tatu Ylonen|https://www.youtube.com/watch?v=OHBdKM7s5V4]]

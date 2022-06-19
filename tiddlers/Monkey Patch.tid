@@ -1,0 +1,10 @@
+created: 20220522111931546
+modified: 20220522112112769
+tags: Stub [[Object Oriented Programming]]
+title: Monkey Patch
+tmap.id: 9b626e7d-63c9-462b-9b5f-360c74287565
+type: text/vnd.tiddlywiki
+
+A patch that happens at runtime, so you don't have to patch at source level and compile again.
+
+https://en.wikipedia.org/wiki/Monkey_patch

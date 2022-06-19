@@ -1,0 +1,23 @@
+created: 20220523104614906
+modified: 20220523133408482
+tags: Docker DNS Windows Networking
+title: host.docker.internal
+tmap.id: 1ba72274-e383-49fd-9d84-b3268999dda5
+type: text/vnd.tiddlywiki
+
+[[host.docker.internal]] is a special ([[internal|Choosing Internal Top-level Domain Name]]) [[DNS Name|Domain Name]] used by [[Docker]], which resolves to the [[Internal IP Address|Private Address]] used by the [[Host|Host Machine]].
+
+https://docs.docker.com/desktop/windows/networking/
+
+for this to work on [[linux]], one should either:
+
+* append `--add-host=host.docker.internal:host-gateway` to the [[Docker]] command
+* add the following lines to the [[Docker Compose]] file:
+```yml
+extra_hosts:
+    - "host.docker.internal:host-gateway"
+```
+
+https://stackoverflow.com/questions/31324981/how-to-access-host-port-from-docker-container
+
+https://forums.docker.com/t/how-to-reach-localhost-on-host-from-docker-container/113321/5

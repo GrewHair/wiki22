@@ -1,0 +1,22 @@
+created: 20220531080124182
+modified: 20220531085537149
+tags: Linux Unix GNU WIP
+title: Linux Documentation Systems
+tmap.id: 2ba05729-9bd8-4e66-a582-968c6cf72cf4
+type: text/vnd.tiddlywiki
+
+*''System-wide Documentation Systems:''
+** `man` - the traditional one (probably there from original [[Unix]] days?)
+** `info` - the [[GNU]] one, has some [[Hypertext]] capabilities
+* ''Embedded/internal Documentation Systems:''
+** `help <command>` - [[built-in command|Shell Built-in]] in [[Bash]] (and only [[Bash]]), that documents some of its builtin commands and keywords
+** `run-help` [[widget|ZSH Widget]] is the [[Zsh]] equivalent of the former
+** `<builtin-command>  --help` and `<builtin-command> --man` are [[Ksh93]]'s equivalents2
+*** ''note:'' maybe that's where this `--help` convention originates... gotta check
+** [[Vim]], [[Emacs]], etc, all have their own documentation systems
+
+https://gist.github.com/miguelmota/8d5d7e8e637cd242f9f46627654e6475
+
+https://unix.stackexchange.com/questions/19451/difference-between-help-info-and-man-command
+
+https://superuser.com/questions/1563825/is-there-a-zsh-equivalent-to-the-bash-help-builtin

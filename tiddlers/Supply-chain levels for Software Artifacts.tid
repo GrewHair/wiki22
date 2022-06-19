@@ -1,0 +1,20 @@
+created: 20220531103703085
+modified: 20220531104318686
+tags: WIP Security
+title: Supply-chain levels for Software Artifacts
+tmap.id: 9dd5adda-2fbb-4d9c-b29b-3552c2b60e6c
+type: text/vnd.tiddlywiki
+
+''AKA SLSA''
+
+''Propounced: salsa''
+
+https://www.legitsecurity.com/blog/what-is-slsa-slsa-explained-in-5-minutes
+
+https://github.com/slsa-framework/slsa
+
+https://slsa.dev/
+
+I need to read up on it ASAP, it is probably a marker of whether I can/can not use a certain github repo/technology in prod. It's a [[security|Security]] thing, has smth to do with [[Supply Chain Attacks|Supply Chain Attack]].
+
+First found it in the [[.github]] folder of ansible-docker-rootless.

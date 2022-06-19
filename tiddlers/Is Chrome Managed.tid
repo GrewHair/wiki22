@@ -1,0 +1,14 @@
+created: 20220531203333855
+modified: 20220531203537724
+tags: [[Web Browsers]] [[WTF is This?]] Security
+title: Is Chrome Managed
+tmap.id: cc94254b-4b5c-4511-b16d-79bc161b6367
+type: text/vnd.tiddlywiki
+
+https://support.google.com/chrome/answer/9281740?visit_id=637896258603449713-431408627&p=is_chrome_managed&rd=1
+
+`chrome://management`
+
+`chrome://policy`
+
+There's some 'chrome enterprise'...

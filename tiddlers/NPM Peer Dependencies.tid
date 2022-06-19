@@ -1,0 +1,18 @@
+created: 20220616082446430
+modified: 20220616083013162
+tags: WIP node.js
+title: NPM Peer Dependencies
+tmap.id: 50202916-7b95-4fd5-a167-0256a6bd18f6
+type: text/vnd.tiddlywiki
+
+''TL;DR''
+
+Previously, [[NPM]] installed [[peerDependencies|NPM Peer Dependencies]] by default, but with newer version of [[node.js]] this is no longer the case.
+
+If a project suddenly transitions from an old and unsupported [[node.js]] version to a newer one, to override this new behaviour, one can use the `--legacy-peer-deps` flag.
+
+https://stackoverflow.com/questions/66239691/what-does-npm-install-legacy-peer-deps-do-exactly-when-is-it-recommended-wh
+
+https://flaviocopes.com/npm-peer-dependencies/
+
+https://nodejs.org/en/blog/npm/peer-dependencies/

@@ -1,0 +1,28 @@
+created: 20220521211004476
+modified: 20220522004827635
+tags: Jenkins WIP [[Badly Named]]
+title: Error While Installing Jenkins
+tmap.id: 543057c3-20e1-4692-bd68-d88b3415da3e
+type: text/vnd.tiddlywiki
+
+dpkg: error processing package jenkins (--configure)
+
+jenkins E: Sub-process /usr/bin/dpkg returned an error code (1)
+
+jenkins java.lang.ClassNotFoundException: com.thalesgroup.dtkit.metrics.hudson.api.descriptor.TestTypeDescriptor
+
+jenkins Caused: java.lang.NoClassDefFoundError: com/thalesgroup/dtkit/metrics/hudson/api/descriptor/TestTypeDescriptor
+
+installed jenkins package post-installation script subprocess returned error exit status 1
+
+https://stackoverflow.com/questions/19457867/problems-installing-latest-version-of-jenkins
+
+https://medium.com/@ichdamola/fix-e-sub-process-usr-bin-dpkg-returned-an-error-code-1-while-installing-jenkins-7d317f771d0e
+
+https://phoenixnap.com/kb/fix-sub-process-usr-bin-dpkg-returned-error-code-1
+
+https://askubuntu.com/questions/1241362/fix-package-post-installation-script-subprocess-returned-error-exit-status-10-fo
+
+JBehave
+
+https://support.cloudbees.com/hc/en-us/articles/217911038-Can-I-use-the-JBehave-Jenkins-plugin-

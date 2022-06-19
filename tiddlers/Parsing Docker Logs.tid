@@ -1,0 +1,19 @@
+created: 20220603105844398
+modified: 20220603110529893
+tags: Docker systemd WIP
+title: Parsing Docker Logs
+tmap.id: b6abe732-e5bc-4e36-b4c2-f23729ea7e41
+type: text/vnd.tiddlywiki
+
+Add this to `daemon.json`:
+
+```json
+  "log-driver": "journald"
+```
+
+```bash
+journalctl --user -u docker CONTAINER_ID=<container-id>
+# --user is required if you're running docker in rootless mode
+```
+
+https://stackoverflow.com/questions/43663013/access-logs-of-a-killed-docker-container

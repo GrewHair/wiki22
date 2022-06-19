@@ -1,0 +1,21 @@
+created: 20220601204403751
+modified: 20220601205543101
+tags: systemd
+title: Authentication is required (systemd)
+tmap.id: b87dca5b-45f8-4489-a42a-03cfedda5443
+type: text/vnd.tiddlywiki
+
+When you forget to [[sudo]] when you type something like `systemctl start docker`, unlike most programs that will just throw "`Permission denied`" at you, [[systemd]] will prompt you for a password:
+
+```
+==== AUTHENTICATING FOR org.freedesktop.systemd1.reload-daemon ===
+Authentication is required to reload the systemd state.
+Authenticating as: Ubuntu (ubuntu)
+Password:
+```
+
+Now that's interensing.
+
+* Why so?
+* notice this java-reverse-DNS-like `org.freedesktop.systemd1.reload-daemon`.. what does it have to do with java?
+* what's "ubuntu" here?

@@ -1,0 +1,10 @@
+created: 20220614110227460
+modified: 20220614111604632
+tags: Java WIP
+title: JVM Memory Model
+tmap.id: ce047d83-fb58-413a-9bc7-918de2344b54
+type: text/vnd.tiddlywiki
+
+This article explains smth important about `-Xmx` and `-Xms`...
+
+https://medium.com/platform-engineer/understanding-java-memory-model-1d0863f6d973

@@ -1,5 +1,5 @@
 created: 20220104204701047
-modified: 20220111102653799
+modified: 20220517104710076
 tags: Stub Linux WIP
 title: CentOS Security Updates
 tmap.id: c6ae6978-5e8f-45a2-9dd7-d903b3e48fe3
@@ -17,7 +17,7 @@ https://www.howtoforge.com/tutorial/how-to-setup-automatic-security-updates-on-c
 * CentOS 8:
 https://linuxhint.com/check-and-install-centos-security-updates/
 
-* (you can see one of RHEL tutorials is even paywalled!)
+* (you can see one of RHEL tutorials is even [[paywalled|Paywall]]!)
 https://access.redhat.com/solutions/1361643
 
 https://access.redhat.com/articles/2130961

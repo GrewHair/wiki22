@@ -1,0 +1,14 @@
+created: 20220516140204624
+modified: 20220516143743684
+tags: [[Software Engineering]]
+title: Reference Implementation
+tmap.id: fbe110fa-eadf-40ee-adfa-c2f9140f2ce0
+type: text/vnd.tiddlywiki
+
+''AKA Sample Implementation, Model Implementation''
+
+''Russian: Эталонная реализация, Образец реализации, Модель реализации''
+
+A [[Reference Implementation]] is a [[program|Computer Program]] that implements all requirements from a corresponding specification.
+
+https://en.wikipedia.org/wiki/Reference_implementation

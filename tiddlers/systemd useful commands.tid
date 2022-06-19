@@ -1,0 +1,11 @@
+created: 20220531144316828
+modified: 20220602004129869
+tags: systemd
+title: systemd useful commands
+tmap.id: 83b46df4-3bad-4c3e-b96a-a880ad2b8a33
+type: text/vnd.tiddlywiki
+
+* `systemctl list-unit-files --state=running` - list running services
+* `systemctl show -pUser,UID docker` - find user under which a service is running ("`UID=[not set] user=`" indicates the service is running as root)
+* `ls /var/lib/systemd/linger` - check [[lingering|Lingering (systemd)]] [[users|User (Unix)]]
+* `loginctl user-status <user>` - check user status (also shows [[lingering status|Lingering (systemd)]]) ([[source|https://serverfault.com/questions/846441/loginctl-enable-linger-disable-linger-but-reading-linger-status]])

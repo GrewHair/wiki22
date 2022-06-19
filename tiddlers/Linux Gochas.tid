@@ -1,0 +1,9 @@
+created: 20220527125817807
+modified: 20220527131012521
+tags: Linux Quirk
+title: Linux Gochas
+tmap.id: 53104805-d9b3-42e3-85eb-e0e33d81ea6c
+type: text/vnd.tiddlywiki
+
+* Issuing the `groups` command is supposed to show you the groups you're a member of. However, if there are spaces in their names (which is often the case in companies), you won't be able to distinguish a delimiting space from a 'meaningful' space (because `groups` doesn't have a flag to change delimiter). Use this instead:
+*>`id -Gnz | tr '\0' '\n'` - it uses the [[Null Character]]

@@ -1,0 +1,49 @@
+created: 20220521165528866
+modified: 20220609235050783
+tags: Linux Debian [[Software Packaging]] Stub WIP
+title: Debian Packaging
+tmap.id: 4a2eec81-eb84-4479-b4df-399974048f9d
+type: text/vnd.tiddlywiki
+
+https://wiki.debian.org/DebianRepository/Format
+
+https://www.debian.org/doc/manuals/debian-faq/pkg-basics.en.html
+
+https://www.debian.org/doc/manuals/debian-faq/
+
+
+how to download and browse package:
+
+https://unix.stackexchange.com/questions/408346/how-to-download-package-not-install-it-with-apt-get-command
+
+https://www.cyberciti.biz/faq/view-contents-of-deb-file/
+
+https://askubuntu.com/questions/95775/is-it-possible-to-view-the-contents-of-a-debian-package
+
+see preinstall scripts:
+
+https://www.linuxquestions.org/questions/linux-distributions-5/how-to-read-installation-scripts-in-debian-apt-suite-940836/
+
+where does apt-get install packages to:
+
+https://linuxhint.com/apt-get-install-packages-to/
+
+dpkg-deb vs dpkg-buildpackage vs debuild:
+
+https://unix.stackexchange.com/questions/518731/what-difference-between-dpkg-buildpackage-and-debuild
+
+https://ubuntuforums.org/showthread.php?t=1158049
+
+dch:
+
+https://www.commandlinux.com/man-page/man1/dch.1.html
+
+youtube:
+
+https://www.youtube.com/watch?v=ep88vVfzDAo
+
+https://www.youtube.com/watch?v=05fHGfwT73c
+
+apt, apt-get, aptitude:
+
+https://debian-handbook.info/browse/stable/sect.apt-get.html

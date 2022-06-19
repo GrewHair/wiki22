@@ -1,0 +1,22 @@
+created: 20220531194543608
+modified: 20220531195205787
+tags: WIP
+title: Bind Address
+tmap.id: f0d54154-4471-4a4e-ab5b-2fd4dc2a3b5a
+type: text/vnd.tiddlywiki
+
+In [[SSH Tunneling]]:
+
+https://unix.stackexchange.com/questions/236865/what-does-bind-address-mean-in-ssh-port-forwarding
+
+Something called `bind_host` in [[Elasticsearch]]:
+
+https://stackoverflow.com/questions/24063644/whats-the-difference-between-bind-host-and-publish-host-in-elasticsearch
+
+In databases:
+
+https://stackoverflow.com/questions/3552680/bind-address-and-mysql-server
+
+Misc:
+
+https://www.ibm.com/docs/en/cics-tg-zos/9.3.0?topic=hps-bind-address

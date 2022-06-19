@@ -1,0 +1,14 @@
+created: 20220514092424246
+modified: 20220514093845500
+tags: [[Postgre SQL]] Stub
+title: postmaster
+tmap.id: 85b9d4ae-2ae5-4443-b227-1c9292da8beb
+type: text/vnd.tiddlywiki
+
+[[postmaster]] is the [[PostgreSQL]] multiuser [[Database Server]].
+
+''Note:'' [[postmaster|https://en.wikipedia.org/wiki/Postmaster]] literally means "head of a post office", so, funny.
+
+https://www.postgresql.org/docs/8.1/app-postmaster.html
+
+https://www.postgresql.org/docs/8.1/postmaster-start.html

@@ -1,0 +1,34 @@
+created: 20220529182850980
+modified: 20220529204714247
+tags: Linux Terminals Stub
+title: Software Flow Control
+tmap.id: dbdb960a-73a7-4eee-861d-0429962323e7
+type: text/vnd.tiddlywiki
+
+''AKA XON/XOFF Flow Control''
+
+[[Software Flow Control]] is a feature of [[TTY Drivers|TTY Driver]] that accomplishes [[Flow Control]] in computer [[Data Links|Data Link]] by software means.
+
+This is in contrast to [[Hardware Flow Control]], which uses dedicated wires, while [[Software Flow Control]] transmits the signals [[In-band|In-band Signaling]].
+
+It's a legacy feature for the most part, since modern terminals are just fast enough to handle the data, but it's still on by default.
+
+This causes terminals to freeze when you accidentally hit the <kbd>C-s</kbd>.
+
+What happens then is the [[Terminal Emulator]] sends the [[XOFF]] signal that tells the [[TTY Driver]] to put the [[process|Process (Computing)]] that is sending data to a sleep state, until the [[XON]] signal is sent to resume it.
+
+To turn it off people usually put:
+
+```bash
+stty -ixon
+```
+
+into their `.bashrc`s (the logic being: `ixon` enables [[flow control|Software Flow Control]], and `-ixon` disables it; `i` just stands for "input").
+
+https://linuxthegreat.wordpress.com/tag/terminal/
+
+https://en.wikipedia.org/wiki/Software_flow_control
+
+https://www.ibm.com/docs/en/aix/7.2?topic=subsystem-tty-drivers
+
+https://unix.stackexchange.com/questions/515252/how-do-you-disable-xon-off-flow-control

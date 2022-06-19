@@ -1,0 +1,12 @@
+created: 20220524125942238
+modified: 20220524131330969
+tags: Web Networking [[Web Development]] WIP
+title: Xip.io
+tmap.id: 80863c47-caf1-4721-897e-bf176d1788e4
+type: text/vnd.tiddlywiki
+
+[[Xip.io]] is a [[Wildcard DNS Service]] indended for easily testing your website on different devices.
+
+It is now down I guess. The working alternative is [[sslip.io]].
+
+https://www.wired.com/2012/06/simplify-your-website-testing-with-xip-io/

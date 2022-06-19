@@ -1,0 +1,14 @@
+created: 20220529180353535
+modified: 20220529181105545
+tags: Unix Linux Drivers [[Linux Device Drivers, 3rd Edition (Jonathan Corbet, Alessandro Rubini, Greg Kroah-Hartman)]]
+title: TTY Driver
+tmap.id: ac25df9b-ac43-459c-b537-83d8d7d2e802
+type: text/vnd.tiddlywiki
+
+''AKA Terminal Driver''
+
+https://www.oreilly.com/library/view/linux-device-drivers/0596005903/ch18.html
+
+Found this notion here:
+
+https://unix.stackexchange.com/questions/267459/relations-between-control-characters-signals-and-terminal

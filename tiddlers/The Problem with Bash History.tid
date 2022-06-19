@@ -1,0 +1,10 @@
+created: 20220530083446082
+modified: 20220530083626688
+tags: Bash linux wip
+title: The Problem with Bash History
+tmap.id: f4eab626-131a-4ece-8bb3-f8aa92ae2172
+type: text/vnd.tiddlywiki
+
+Sometimes commands drop out of [[Bash]] history.. Maybe this is the reason - gotta check it out later.
+
+https://medium.com/for-linux-users/the-problem-with-bash-history-260d69dd673b

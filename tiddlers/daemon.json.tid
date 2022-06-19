@@ -1,0 +1,22 @@
+created: 20220531220045040
+modified: 20220531221608820
+tags: Docker WIP
+title: daemon.json
+tmap.id: f7f4b811-edd3-4a74-9ff9-c9e221850c72
+type: text/vnd.tiddlywiki
+
+''locations:''
+
+* `/etc/docker/daemon.json` - rootful
+* `~/.config/docker/daemon.json` - rootless
+
+''options i've seen:''
+
+* `registry-mirrors`
+* `hosts`
+* [[TLS|Transport Layer Security]] related:
+** `tlsverify` (boolean)
+** `tlscacert` (path)
+** `tlskey` (path)
+** `tlscert` (path)
+* ...

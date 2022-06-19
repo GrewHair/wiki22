@@ -1,0 +1,22 @@
+created: 20220529211151886
+modified: 20220529213520719
+tags: POSIX Terminals WIP
+title: POSIX Terminal Interface/Special Characters
+tmap.id: f694f716-8299-4352-bb74-098492386796
+type: text/vnd.tiddlywiki
+
+Note that these are __neither__ [[ACSII]] symbols, nor [[Signals|Unix Signals]] - they're something in between.
+
+https://unix.stackexchange.com/questions/267459/relations-between-control-characters-signals-and-terminal
+
+https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap11.html#tag_11_01_09
+
+https://en.wikipedia.org/wiki/POSIX_terminal_interface#Special_characters
+
+* To see which ascii chars are mapped to which POSIX special characters in your terminal, type `stty -a`
+* __Some__ of there special characters do indeed issue [[signals|Unix Signals]]:
+** `intr` issues `SIGINT`
+** `quit` issues `SIGQUIT`
+** `susp` issues `SIGSTOP`
+** ...
+* Others are doing things like wiping characters, etc, in the [[Raw Mode]].

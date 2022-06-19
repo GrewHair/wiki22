@@ -1,0 +1,13 @@
+created: 20220531101506746
+modified: 20220531184641177
+tags: Ansible WIP
+title: Ansible Return Values
+tmap.id: 48afc20e-e01d-472a-8b02-0cf08dc24e59
+type: text/vnd.tiddlywiki
+
+* Common
+** `rc` - return code (for modules like raw, shell, command, etc)
+** `stdout` - standard out (for modules like raw, shell, command, etc)
+** `stdout_lines` - the same, but as an array of lines (for modules like raw, shell, command, etc)
+** ...
+https://docs.ansible.com/ansible/latest/reference_appendices/common_return_values.html#rc

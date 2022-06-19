@@ -1,0 +1,12 @@
+created: 20220514072241349
+modified: 20220514074413288
+tags: LDAP X.500 Stub
+title: Directory System Agent
+tmap.id: ccf5daf9-95be-4a89-8974-2d79d9250767
+type: text/vnd.tiddlywiki
+
+''AKA DSA''
+
+[[DSA|Directory System Agent]] is the element of an [[X.500 Directory Service]] that provides [[User Agents| Directory User Agent]] with access to a portion of a [[directory|Directory Service]] (usually a portion associated with a single [[OU|Organizational Unit]]).
+
+https://en.wikipedia.org/wiki/Directory_System_Agent

@@ -1,0 +1,12 @@
+created: 20220529172414103
+modified: 20220530011305293
+tags: WIP [[Web Browsers]]
+title: Implementing "Find Playing Tab" with Surfingkeys
+tmap.id: 7ac481d6-9c10-486b-9e04-c8a36763998a
+type: text/vnd.tiddlywiki
+
+https://github.com/fhalde/goto-audio/blob/master/goto-audio.js
+
+https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/query
+
+https://stackoverflow.com/questions/51117985/chrome-extension-audible-property-from-tabs-query-return-true-even-after-the-pl

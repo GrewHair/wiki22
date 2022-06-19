@@ -1,0 +1,29 @@
+created: 20220609120137559
+modified: 20220609120840815
+tags: Jenkins Linux Ubuntu Stub
+title: Changing Jenkins Home Directory
+tmap.id: 7c4839f9-5564-4f9c-891e-9815761b8b76
+type: text/vnd.tiddlywiki
+
+```bash
+sudo systemctl stop jenkins
+sudo mkdir /home/jenkins
+sudo chown jenkins:jenkins /home/jenkins
+sudo cp -prv /var/lib/jenkins /home/jenkins
+sudo usermod -d /home/jenkins jenkins
+sudo vim /etc/default/jenkins
+```
+
+and put
+
+```apache
+JENKINS_HOME=/home/jenkins
+```
+
+there. Then:
+
+```bash
+sudo systemctl start jenkins
+```
+
+https://phoenixnap.com/kb/change-jenkins-home-directory

@@ -1,0 +1,14 @@
+created: 20220514074434615
+modified: 20220514074914850
+tags: X.500 LDAP Stub
+title: Directory User Agent
+tmap.id: 1c62dff3-bce8-4416-a376-1c00fde15b2d
+type: text/vnd.tiddlywiki
+
+''AKA DUA''
+
+[[DUA|Directory User Agent]] is a type of software [[User Agent]] that accesses a [[directory|Directory Service]] of behalf of the [[user|User]] within an [[X.500]] environment.
+
+https://www.techopedia.com/definition/6859/directory-user-agent-dua
+
+https://techdocs.broadcom.com/us/en/symantec-security-software/identity-security/directory/12-6/reference/the-directory-user-agent-dua.html

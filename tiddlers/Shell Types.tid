@@ -1,0 +1,24 @@
+created: 20220525133911685
+modified: 20220525204730505
+tags: [[Badly Named]] WIP Linux Unix
+title: Shell Types
+tmap.id: 4a007a4e-f751-4126-8471-acafbf7ca128
+type: text/vnd.tiddlywiki
+
+This one has a wonderful diagram:
+
+https://blog.flowblok.id.au/2013-02/shell-startup-scripts.html
+
+---
+
+https://www.cyberciti.biz/faq/linux-unix-bash-check-interactive-shell/
+
+https://unix.stackexchange.com/questions/26676/how-to-check-if-a-shell-is-login-interactive-batch
+
+https://serverfault.com/questions/187712/how-to-determine-if-im-logged-in-via-ssh
+
+https://unix.stackexchange.com/questions/9605/how-can-i-detect-if-the-shell-is-controlled-from-ssh
+
+https://coderwall.com/p/-ubsdw/bash-startup-files-explained
+
+https://www.baeldung.com/linux/bashrc-vs-bash-profile-vs-profile

@@ -1,0 +1,18 @@
+created: 20220609183420917
+modified: 20220609190656483
+tags: Apt Linux Ubuntu
+title: Apt: remove vs purge vs autoremove
+tmap.id: 206e4780-8227-4e69-b634-9af15b1a0ccd
+type: text/vnd.tiddlywiki
+
+* `apt remove wget` will remove the //binaries//, but both //configuration files// and //installed dependencies// will remain in the system
+* `apt purge wget` will remove both the //binaries// and the //configuration files//, but the //installed dependencies// will remain in the system
+** however, whatever files related to the program (`wget` in this case) end up in the user's [[Home Directory]], will __not__ be touched
+** `apt remove --purge wget` is a synonim of this
+* `apt autoremove wget` will remove the package __and__ its //dependencies//, if they are not used by other packages
+
+https://www.appservgrid.com/paw92/index.php/2018/10/19/what-is-the-difference-between-apt-get-remove-and-purge-and-autoremove-in-ubuntu/
+
+https://www.techrepublic.com/article/why-you-should-be-using-apt-get-purge/
+
+https://linuxhint.com/apt_remove_package_options/

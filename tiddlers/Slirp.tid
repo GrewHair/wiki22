@@ -1,0 +1,12 @@
+created: 20220524113232178
+modified: 20220524114016467
+tags: Unix Linux WIP Networking
+title: Slirp
+tmap.id: 14e9306a-252a-41ab-9c70-3451cbd4f86f
+type: text/vnd.tiddlywiki
+
+Some weird shell/network thing that is obsolete for the most part, but still useful for creating external network connectivity for [[Unprivileged Containers|Rootless Containers]].
+
+https://en.wikipedia.org/wiki/Slirp
+
+https://github.com/rootless-containers/slirp4netns

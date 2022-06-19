@@ -1,0 +1,12 @@
+created: 20220516152835927
+modified: 20220516152929058
+tags: Terminals [[Badly Named]] Stub
+title: Ctrl+4 and Friends
+tmap.id: 0874625e-9436-4f54-8696-3febc046a064
+type: text/vnd.tiddlywiki
+
+https://sw.kovidgoyal.net/kitty/keyboard-protocol/#ctrl-mapping
+
+https://vt100.net/docs/vt100-ug/chapter3.html
+
+https://unix.stackexchange.com/questions/226327/what-does-ctrl4-and-ctrl-do-in-bash

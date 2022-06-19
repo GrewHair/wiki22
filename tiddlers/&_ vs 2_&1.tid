@@ -1,0 +1,12 @@
+created: 20220519094900893
+modified: 20220519095020961
+tags: WIP Bash Unix Linux
+title: &> vs 2>&1
+tmap.id: 56ecd383-5011-4540-ae83-9b99366fdcb4
+type: text/vnd.tiddlywiki
+
+https://askubuntu.com/questions/635065/what-is-the-differences-between-and-21
+
+https://stackoverflow.com/questions/9390124/whats-difference-between-21-dev-null-and-21-dev-null
+
+https://superuser.com/questions/436586/why-redirect-output-to-21-and-12

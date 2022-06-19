@@ -1,0 +1,16 @@
+created: 20220609210951981
+modified: 20220609211616311
+tags: WIP [[Search Engine Optimization]] Quirk [[Web Servers]] [[Web Browsers]]
+title: Double Slashes in URLs
+tmap.id: 3dc8c4ff-a62d-47e1-9f72-223ae29c9da0
+type: text/vnd.tiddlywiki
+
+So I found this quirk while trying out the [[Jenkins]] [[Keyboard Shortcut Plugin|Keyboard Sortcuts Plugin (Jenkins)]], and googled it to see whether it's normal.
+
+Turns out that this is typically a result of some error, but is handled okay by [[Web Servers]], and only has [[SEO|Search Engine Optimization]] implications, such as [[Duplicate Content Issues]].
+
+https://stackoverflow.com/questions/20523318/is-a-url-with-in-the-path-section-valid
+
+https://webmasters.stackexchange.com/questions/8354/what-does-a-double-slash-in-the-url-path-mean
+
+https://sitebulb.com/hints/internal/url-contains-a-double-slash/

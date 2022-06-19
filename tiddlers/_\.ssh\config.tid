@@ -1,0 +1,10 @@
+created: 20220526204409455
+modified: 20220526204638911
+tags: WIP Linux OpenSSH
+title: ~\.ssh\config
+tmap.id: 19099c85-b1cd-4c1a-ba72-858cc6b80194
+type: text/vnd.tiddlywiki
+
+https://linuxize.com/post/using-the-ssh-config-file/
+
+This article says that the ssh config is also used by [[rsync|Rsync]]

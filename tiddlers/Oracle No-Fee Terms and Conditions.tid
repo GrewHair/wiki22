@@ -1,0 +1,14 @@
+created: 20220516130805838
+modified: 20220516134146524
+tags: Oracle [[Software Licenses]]
+title: Oracle No-Fee Terms and Conditions
+tmap.id: fcaa0bbd-4ade-4130-a991-ed96fa2cfd03
+type: text/vnd.tiddlywiki
+
+''AKA NFTC''
+
+This is a license introduced along with the [[Java 17 LTS]] release, and it basically gives some restricted permissions to use [[Oracle Java]] starting from [[version 17|Java 17 LTS]] in production for free.
+
+https://www.oracle.com/downloads/licenses/no-fee-license.html
+
+https://www.softwareone.com/lb-lu/blog/articles/2021/09/20/oracle-java-release-17

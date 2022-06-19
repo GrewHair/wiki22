@@ -1,0 +1,15 @@
+created: 20220514160952610
+modified: 20220514161751219
+tags: Linux [[Red Hat Linux]] [[Postgre SQL]] [[No Reply]] [[Filesystem Hierarchy Standard]]
+title: RHEL + FHS + Postgres
+tmap.id: 85eef922-2e71-44d3-90d9-244403983871
+type: text/vnd.tiddlywiki
+
+* [[FHS|Filesystem Hierarchy Standard]] demands that <$link to="\var\lib">`/var/lib`</$link> should not contain any humanly ejditable configuration [[files|File]]
+* [[PostgreSQL]] puts its configs exactly there by default
+* However it provides a way to override this
+* But [[Read Hat]] doesn't seem to care, it just [[packages|Package Format]] everything as is
+* dunno about [[Debian]]
+* dunno about wether it's normal
+
+https://unix.stackexchange.com/questions/561446/rhel-based-distros-and-fhs-and-postgres

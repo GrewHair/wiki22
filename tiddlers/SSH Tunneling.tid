@@ -1,0 +1,30 @@
+created: 20220531204211435
+modified: 20220531212110449
+tags: SSH WIP
+title: SSH Tunneling
+tmap.id: 774b743a-77e4-4924-a8b8-742cf6588251
+type: text/vnd.tiddlywiki
+
+https://www.youtube.com/watch?v=PZTBO555q44
+
+''Interesting:''
+
+`ssh -L 127.0.0.1:8080:127.0.0.1:5000 user@192.168.1.2`
+
+The first and the second `127.0.0.1` are __not the same!__ (because the last argument specifies the [[SSH Server]] - and so the second `localhost` is from the [[server's|SSH Server]] point of view).
+
+(I think [[IPs|IP Address]] in this case may also simply be omitted).
+
+It also means whatever remote server i may be running, I may just simply like, run it on `localhost` (just like i'm running this tiddlywiki right now - maybe it's even the preferred method for me to look into!!)
+
+Here's an //awesome// article:
+
+https://www.ssh.com/academy/ssh/tunneling/example
+
+And a reddit shread:
+
+https://www.reddit.com/r/selfhosted/comments/ftqbar/how_reliable_are_ssh_tunnels_for_web_hosting/
+
+Another awesome video:
+
+https://www.youtube.com/watch?v=JKrO5WABdoY

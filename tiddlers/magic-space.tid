@@ -1,0 +1,10 @@
+created: 20220529154620902
+modified: 20220529154856414
+tags: Zsh Linux Unix Stub
+title: magic-space
+tmap.id: 94716275-cb32-4001-9706-5c477f17c39a
+type: text/vnd.tiddlywiki
+
+Performs [[History Expansion]] upon inserting the space character.
+
+https://unix.stackexchange.com/questions/47349/what-does-zshs-magic-space-command-do
