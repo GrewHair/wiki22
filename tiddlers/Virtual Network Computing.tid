@@ -1,0 +1,12 @@
+created: 20220713121703582
+modified: 20220713121906699
+tags: WIP Virtualization
+title: Virtual Network Computing
+tmap.id: 607aaf9d-5e5f-4f32-97b7-24ef9afbe755
+type: text/vnd.tiddlywiki
+
+''AKA VNC''
+
+this should have something to do with controlling cloud VMs other than through [[SSH|Secure Shell]].
+
+https://en.wikipedia.org/wiki/Virtual_Network_Computing

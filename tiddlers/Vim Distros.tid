@@ -1,5 +1,5 @@
 created: 20220223180247485
-modified: 20220531091856691
+modified: 20220629130421917
 tags: Vim Neovim
 title: Vim Distros
 tmap.id: 367908a1-b980-4b46-a649-fa40ceb604e3
@@ -10,3 +10,7 @@ https://dev.to/ajeebkp23/some-popular-vim-distributions-a68
 https://www.locatelli.dev/nv-ide/
 
 https://nvchad.netlify.app/features
+
+https://github.com/SingularisArt/DeathVim
+
+https://github.com/wolandark/wim

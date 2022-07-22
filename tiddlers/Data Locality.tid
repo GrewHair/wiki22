@@ -1,0 +1,14 @@
+created: 20220703200432473
+modified: 20220703200953975
+tags: [[Couldn't Google It]] Storage
+title: Data Locality
+tmap.id: a532dea1-b6d7-4cbf-a0ad-3af77c5450e7
+type: text/vnd.tiddlywiki
+
+It seems to mainly come up in the context of [[Hadoop]], meaning that computation should be moved and not data...
+
+However I've read [[here|https://softiron.com/blog/suse-no-longer-supports-ceph-wtf/]] that [[Longhorn]] has some problems with it, quoting:
+
+> Data locality is best-effort only – meaning that longhorn will try to keep a replica on the same node as the attached volume. But it can’t guarantee that. And as containers shuffle around, it becomes unreasonable to expect it to.
+
+...which means quite a different thing. It basically means that replicas may appear on different [[Kubernetes]] nodes, which is a shame.

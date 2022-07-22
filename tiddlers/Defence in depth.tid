@@ -1,0 +1,12 @@
+created: 20220620230653282
+modified: 20220620231038516
+tags: Security
+title: Defence in depth
+tmap.id: 0041342b-9dc9-43dd-a60c-38149b42f45f
+type: text/vnd.tiddlywiki
+
+[[Defence in depth]] is a [[security|Security]] concept whereby multiple layers of [[Security Controls]] are placed throughout the system.
+
+The intent is to provide redundancy in the event of a failure of one [[Security Control]].
+
+https://en.wikipedia.org/wiki/Defense_in_depth_(computing)

@@ -1,0 +1,18 @@
+created: 20220710150448303
+modified: 20220710154157693
+tags: Web HTTP Stub
+title: Webhook
+tmap.id: 2786f89b-5697-4e04-a4f8-b96fd76fa6c9
+type: text/vnd.tiddlywiki
+
+''AKA Revrese API''
+
+A concept invented in 2007 by [[Jeff Lindsay]].
+
+In a way, [[Pingbacks|Pingback]] can be thought of as a predecessor to [[Webhooks|Webhook]].
+
+https://en.wikipedia.org/wiki/Webhook
+
+https://progrium.github.io/blog/2007/05/03/web-hooks-to-revolutionize-the-web/
+
+https://www.youtube.com/watch?v=rUaDIH5ZXB8

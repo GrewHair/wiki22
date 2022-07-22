@@ -1,0 +1,10 @@
+created: 20220720164343720
+modified: 20220720164505885
+tags: Security [[Transport Layer Security]] Stub
+title: SSL Termination Proxy
+tmap.id: a72432d2-e30a-48a3-8780-65397fbace14
+type: text/vnd.tiddlywiki
+
+''AKA TLS Termination Proxy, SSL Offloading''
+
+https://en.wikipedia.org/wiki/TLS_termination_proxy

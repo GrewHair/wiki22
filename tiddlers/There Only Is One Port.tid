@@ -1,0 +1,16 @@
+created: 20220620231217026
+modified: 20220620232733508
+tags: Security Networking [[Adrian Mouat]]
+title: There Only Is One Port
+tmap.id: ff071db7-fb31-4301-9923-4dd2b63b98e8
+type: text/vnd.tiddlywiki
+
+[[Adrian Mouat]] makes a point against [[firewalls|Firewall]]. They used to matter back in the day, because they could close unnecessary [[ports|Port (Networking)]], thus reducing the [[Attack Surface]]. Now, however, literally everything goes through [[HTTP|Hypertext Transfer Protocol]], and thus [[firewalls|Firewall]] become pretty much useless.
+
+To me personally, this //finally// clarifies just what a [[firewall|Firewall]] really (typically) does - it closes ports!
+
+(However, the chinese firewall then is a very dirrerent beast - gotta google on it).
+
+[[Adrian|Adrian Mouat]] mentions this to illustrate the usefulness of the [[Defence in depth]] principle.
+
+https://youtu.be/JcuYFQSplvE?t=824

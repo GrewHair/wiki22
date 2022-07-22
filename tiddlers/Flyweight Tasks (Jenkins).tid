@@ -1,0 +1,10 @@
+created: 20220622080239983
+modified: 20220622081117692
+tags: Jenkins [[WTF is This?]]
+title: Flyweight Tasks (Jenkins)
+tmap.id: fc265b76-6eeb-4583-b3b6-381545979d57
+type: text/vnd.tiddlywiki
+
+https://codeflex.co/jenkins-pipelines-understanding-flyweight-and-heavyweight-executors/
+
+https://support.cloudbees.com/hc/en-us/articles/360012808951-Pipeline-Difference-between-flyweight-and-heavyweight-Executors

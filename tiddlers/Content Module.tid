@@ -1,0 +1,16 @@
+created: 20220628143141709
+modified: 20220628143415458
+tags: [[Web Browsers]]
+title: Content Module
+tmap.id: c1ea6da3-95b6-48ec-9491-66c3471ec908
+type: text/vnd.tiddlywiki
+
+Basically this is what qutebrwoser uses (read details at [[THN|The Hacker News]]).
+
+{{_my/images/png/browser_modules_diagram}}
+
+https://www.chromium.org/developers/content-module/
+
+https://chromium.googlesource.com/chromium/src/+/HEAD/content/README.md
+
+https://news.ycombinator.com/item?id=24700746 (ctrl+f "content api")

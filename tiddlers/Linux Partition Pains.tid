@@ -1,0 +1,14 @@
+created: 20220705201457352
+modified: 20220705203232282
+tags: Linux
+title: Linux Partition Pains
+tmap.id: df8878d3-1b7e-417e-94bf-6c51f6ee4f3f
+type: text/vnd.tiddlywiki
+
+Can't open /dev/sda2 exclusively. Mounted filesystem?
+
+https://stackoverflow.com/questions/23435996/cant-open-dev-sda2-exclusively-mounted-filesystem
+
+On-line shrinking not supported
+
+https://serverfault.com/questions/528075/is-it-possible-to-on-line-shrink-a-ext4-volume-with-lvm

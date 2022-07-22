@@ -1,0 +1,24 @@
+created: 20220703094532131
+modified: 20220703100300162
+tags: Docker K8s [[Containers (Computing)]]
+title: What is a Container?
+tmap.id: f3b40aaa-4671-4adf-88b4-e822d8f10537
+type: text/vnd.tiddlywiki
+
+''Containers are...''
+
+$$
+\text{TAR files}
+
++
+
+\begin{bmatrix}
+\text{Cgroups}\\
+\text{Chroot}\\
+\text{Unshare}\\
+\text{Nsenter}\\
+\text{Bind mounts}\\
+\end{bmatrix}
+$$
+
+https://youtu.be/1FEBOXpTI0M?t=317

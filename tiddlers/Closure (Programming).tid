@@ -1,0 +1,28 @@
+created: 20220710112756576
+modified: 20220710114520309
+tags: Programming Stub Lua
+title: Closure (Programming)
+tmap.id: e677020c-17c2-4390-a7a2-7214fa545145
+type: text/vnd.tiddlywiki
+
+The trick is that the inner [[function|Function (Programming)]] "remembers" the outer variable.
+
+```lua
+function adder(x)
+  return function (y)
+    return x + y
+  end
+end
+
+add1 = adder(1)
+foo = add1(22)  -- yields 23
+
+add10 = adder(10)
+bar = add10(22)  -- yields 32
+```
+ 
+ ''Note'' that the inner [[function|Function (Programming)]] is [[anonymous|Anonymous Function]] (it need not be though), which in [[Lua]] is indicated by omitting the name in the definition, and going directly to the parens with arguments.
+
+https://en.wikipedia.org/wiki/Closure_(computer_programming)
+
+https://youtu.be/S4eNl1rA1Ns?t=823

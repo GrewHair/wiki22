@@ -1,0 +1,25 @@
+created: 20220709193156377
+modified: 20220709193917685
+tags: Lua
+title: Lua Ternary Operator
+tmap.id: 4494fad3-5603-4364-b70a-cd5a6da171cb
+type: text/vnd.tiddlywiki
+
+[[Lua]] doesn't seem to have a legit [[Ternary Operator]]. Here's some workarounds:
+
+https://stackoverflow.com/questions/5525817/inline-conditions-in-lua-a-b-yes-no
+
+http://lua-users.org/wiki/TernaryOperator
+
+```lua
+condition and ifTrue or ifFalse
+```
+is the simplest - but it fails when `ifTrue` is a [[falsy value|Lua Falsy Values]], and thus you can use the following hack:
+
+```lua
+(condition and {ifTrue} or {ifFalse})[1]
+```
+
+(I guess it means wrapping everything in [[tables|Lua Table]]...)
+
+(I guess this also means that [[Lua]]'s indexing is `1`-based..)

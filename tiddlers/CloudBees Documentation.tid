@@ -1,0 +1,12 @@
+created: 20220619192245347
+modified: 20220619192348549
+tags: Jenkins Stub [[Read This!]]
+title: CloudBees Documentation
+tmap.id: c2359325-da96-4902-b0a8-4675aed9e320
+type: text/vnd.tiddlywiki
+
+https://support.cloudbees.com/hc/en-us/articles/360035134612-Tools-installation-best-practices
+
+https://docs.cloudbees.com/docs/cloudbees-ci/latest/cloud-secure-guide/injecting-secrets
+
+https://docs.cloudbees.com/docs/admin-resources/latest/backup-restore/restoring-credentials

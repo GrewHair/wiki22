@@ -1,0 +1,12 @@
+created: 20220720163717522
+modified: 20220720163929622
+tags: [[Transport Layer Security]] Security Stub
+title: SSL Passthrough Proxy
+tmap.id: 6bc0aed8-4f96-4c45-befc-be16a2371a17
+type: text/vnd.tiddlywiki
+
+''AKA TLS Passthrough Proxy''
+
+In a nutshell, it's the opposite to [[SSL Termination Proxy]].
+
+https://www.parallels.com/blogs/ras/ssl-passthrough/

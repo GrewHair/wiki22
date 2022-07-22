@@ -1,0 +1,10 @@
+created: 20220711210511843
+modified: 20220711210712411
+tags: Ansible Bug Quirk Stub
+title: Frequent Apt update_cache Leads to "failed to lock apt..."
+tmap.id: 7c5318c7-c6b8-48a3-8039-6f0c5e1acd1f
+type: text/vnd.tiddlywiki
+
+https://github.com/ansible/ansible/issues/48917
+
+https://github.com/ansible/ansible/issues/48917

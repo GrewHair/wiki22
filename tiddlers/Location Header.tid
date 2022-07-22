@@ -1,0 +1,12 @@
+created: 20220708074559158
+modified: 20220708074950264
+tags: HTTP [[HTTP Headers]]
+title: Location Header
+tmap.id: 9cb5cdd7-e393-4653-81b9-7374609785b3
+type: text/vnd.tiddlywiki
+
+[[Location|Location Header]] indicates the [[URL|Uniform Resource Locator]] to redirect a page to.
+
+Used with `3XX` [[response codes|HTTP Status Codes]].
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Location

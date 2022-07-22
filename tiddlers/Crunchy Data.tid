@@ -1,0 +1,16 @@
+created: 20220619185843846
+modified: 20220619190626825
+tags: [[Postgre SQL]] Stub
+title: Crunchy Data
+tmap.id: fb5cdadd-8908-4a7d-b33b-02d856758ee9
+type: text/vnd.tiddlywiki
+
+[[Crunchy Data]] is a [[Postgres|PostgreSQL]] vendor that claims to be security-conscious.
+
+They are pushihg [[Postgres|PostgreSQL]] through various security benchmarks like [[CIS|CIS Benchmarks]], etc..
+
+They have also created the first [[Postgres|PostgreSQL]] [[Operator|Kubernetes Operator]].
+
+https://www.crunchydata.com/about
+
+https://www.crunchydata.com/blog/cis-11-benchmark

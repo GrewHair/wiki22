@@ -1,0 +1,18 @@
+created: 20220621192156898
+modified: 20220621215439466
+tags: WIP WikiWikiWeb Security Unix
+title: Unix Capabilities Debate WIP
+tmap.id: b5aa3efc-813e-45b4-a0f9-f9afee30fb1b
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/Capability-based_security
+
+https://wiki.c2.com/?PosixCapabilities
+
+https://wiki.c2.com/?CapabilityMythsDemolished
+
+https://www.usenix.org/legacy/publications/library/proceedings/usenix03/tech/freenix03/full_papers/gruenbacher/gruenbacher_html/main.html
+
+capability based security vs [[RBAC|Role-Based Access Control]] on [[THN|The Hacker News]]:
+
+https://news.ycombinator.com/item?id=10684129

@@ -1,0 +1,55 @@
+created: 20220709204522753
+modified: 20220709211847395
+tags: Programming
+title: If Statement Comparison
+tmap.id: 936e8b93-0ab0-4905-8248-8ae82eee5328
+type: text/vnd.tiddlywiki
+
+<table>
+<tr>
+<td>[[Bash]]</td>
+<td>
+<$codeblock language='bash' code='if test $condition; then
+    # code
+fi
+'/>
+</td>
+</tr>
+<tr>
+<td>[[Lua]]</td>
+<td>
+<$codeblock language='lua' code='if condition then
+    -- code
+end
+'/>
+</td>
+</tr>
+<tr>
+<td>[[Python]]</td>
+<td>
+<$codeblock language='python' code='if condition: 
+    # code
+'/>
+</td>
+</tr>
+<tr>
+<td>[[C]]</td>
+<td>
+<$codeblock language='c' code='if condition {
+    // code
+}
+'/>
+</td>
+</tr>
+<tr>
+<td>[[VimL]]</td>
+<td>
+<$codeblock language='vim' code='if condition
+    " code
+endif
+'/>
+</td>
+</tr>
+</table>
+
+''Note:'' [[C]] may also need parentheses: `(condition)` - not sure

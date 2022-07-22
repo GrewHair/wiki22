@@ -1,0 +1,8 @@
+created: 20220627181936137
+modified: 20220627182241616
+tags: SSH OpenSSH Linux
+title: SSH Useful Commands
+tmap.id: b8f1d758-b1b4-405a-9066-76706edd1f72
+type: text/vnd.tiddlywiki
+
+* `ssh-keygen -f ~/.ssh/id_rsa -y` - generate a [[Public Key]] from an existing [[Private Key]] ([[source|https://serverfault.com/questions/52285/create-a-public-ssh-key-from-the-private-key]])

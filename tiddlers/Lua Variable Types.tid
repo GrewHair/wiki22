@@ -1,0 +1,25 @@
+created: 20220710084917653
+modified: 20220710090058419
+tags: Lua
+title: Lua Variable Types
+tmap.id: 035cedeb-30d7-41e4-9c39-8115d505ff7c
+type: text/vnd.tiddlywiki
+
+<table>
+<td>
+<ul>
+<li>number</li>
+<li>string</li>
+<li>nil</li>
+<li>boolean</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>table</li>
+<li>function</li>
+<li>userdata</li>
+<li>thread</li>
+</ul>
+</td>
+</table>

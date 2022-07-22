@@ -1,0 +1,12 @@
+created: 20220629211006169
+modified: 20220629211207873
+tags: [[WTF is This?]] [[Web Browsers]] [[Proxy Servers]] Stub
+title: Proxy auto-config
+tmap.id: c277a05b-9030-4adb-bf3b-66588e983588
+type: text/vnd.tiddlywiki
+
+''AKA PAC''
+
+Found this reading the manual of surfingkeys.
+
+https://en.wikipedia.org/wiki/Proxy_auto-config

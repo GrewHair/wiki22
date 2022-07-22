@@ -1,0 +1,20 @@
+created: 20220710094237340
+modified: 20220710095418355
+tags: Programming Stub Lua
+title: Short-circuit Evaluation
+tmap.id: 9eb95164-e66c-461f-8cc0-af1467062f10
+type: text/vnd.tiddlywiki
+
+''AKA Minimal Evaluation, McCarthy Evaluation''
+
+[[Short-circuit Evaluation]] is a [[Compiler Optimization]] whereby the second argument of a boolean operation is evaluated only if the first argument does not suffice to determine the value of the expression.
+
+```lua
+> = true and print('hi')
+hi
+nil
+> = false and print('hi')
+false
+```
+
+https://en.wikipedia.org/wiki/Short-circuit_evaluation

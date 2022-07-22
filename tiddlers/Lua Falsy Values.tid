@@ -1,0 +1,16 @@
+created: 20220709160110770
+modified: 20220710094011650
+tags: Lua
+title: Lua Falsy Values
+tmap.id: 3919ca0d-c98a-431d-8e82-9d2606233fc9
+type: text/vnd.tiddlywiki
+
+* `false`
+* `nil`
+
+''Notice'' that `0` is __truthy__!
+
+```lua
+> = not not 0
+true
+```

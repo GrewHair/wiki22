@@ -1,0 +1,10 @@
+created: 20220714180803183
+modified: 20220714180908394
+tags: Docker Stub
+title: Docker Parser Directives
+tmap.id: 771edfa4-adc1-4c91-b1b9-8a08634ebf58
+type: text/vnd.tiddlywiki
+
+https://stackoverflow.com/questions/44453463/what-is-for-parser-directive-in-docker
+
+https://docs.docker.com/engine/reference/builder/#parser-directives

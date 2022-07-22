@@ -1,0 +1,12 @@
+created: 20220621082822845
+modified: 20220621083540532
+tags: Javascript npm Yarn
+title: patch-package
+tmap.id: 313b1a31-eb4e-45d5-a7b5-727f828c6c63
+type: text/vnd.tiddlywiki
+
+If you're using a bleeding-edge version of some [[package|Package Format]], you can now use this new [[npm]] and [[Yarn]] feature to quickly patch any bugs you may have come across without waiting for a [[Pull Request]] to be merged at upstream, etc.
+
+It's not unlike this situation I've seen with tmux butler, but just for [[npm]] and [[Yarn]].
+
+https://www.npmjs.com/package/patch-package

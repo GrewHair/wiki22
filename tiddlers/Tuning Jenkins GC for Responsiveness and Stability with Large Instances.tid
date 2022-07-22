@@ -1,0 +1,12 @@
+created: 20220714180426394
+modified: 20220715165524605
+tags: Jenkins Java Stub
+title: Tuning Jenkins GC for Responsiveness and Stability with Large Instances
+tmap.id: 1c3cec54-c473-4087-80d9-2e38744ebbae
+type: text/vnd.tiddlywiki
+
+https://www.jenkins.io/blog/2016/11/21/gc-tuning/
+
+also this:
+
+https://docs.cloudbees.com/docs/cloudbees-ci/latest/monitoring/master-gc-logging

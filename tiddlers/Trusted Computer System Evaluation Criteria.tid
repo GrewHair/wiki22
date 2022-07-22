@@ -1,0 +1,19 @@
+created: 20220620235356979
+modified: 20220621000241048
+tags: Security Computing
+title: Trusted Computer System Evaluation Criteria
+tmap.id: e2c7aab1-8d80-4fc9-8900-453c4aa00d3b
+type: text/vnd.tiddlywiki
+
+''AKA TCSEC, The Orange Book''
+
+[[TCSEC]] is a [[DoD|United States Government Department of Defence]] standard for [[computer security|Security]].
+
+Initially issued in 1983.
+
+It has first defined the terms:
+
+* [[DAC|Discretionary Access Control]]
+* [[MAC|Mandatory Access Control]]
+
+https://en.wikipedia.org/wiki/Trusted_Computer_System_Evaluation_Criteria

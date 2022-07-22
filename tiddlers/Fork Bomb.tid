@@ -1,0 +1,20 @@
+created: 20220718081251874
+modified: 20220718081601088
+tags: Security Stub
+title: Fork Bomb
+tmap.id: baea90ce-10c5-45af-b78d-3da72122ac62
+type: text/vnd.tiddlywiki
+
+''AKA Rabbit Virus, Wabbit''
+
+https://en.wikipedia.org/wiki/Fork_bomb
+
+```bash
+:(){ :|:& };:
+```
+
+Preventing:
+
+```bash
+ulimit -u 30
+```

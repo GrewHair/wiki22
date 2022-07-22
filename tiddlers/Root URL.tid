@@ -1,0 +1,12 @@
+created: 20220703081613193
+modified: 20220703082220608
+tags: URL Questionable
+title: Root URL
+tmap.id: 8f5bcfc1-3629-4456-8403-c77d7d3034aa
+type: text/vnd.tiddlywiki
+
+The [[Root URL]] is the section between "`://`" and the next "`/`", omitting any port number (`:portno`).
+
+That is, for the [[URL|Uniform Resourse Locator]] `"http://www.somebody.com:1080"`, the [[Root URL]] would be `"www.somebody.com"`.
+
+https://www.swiftview.com/support_articles/websites-root-url/

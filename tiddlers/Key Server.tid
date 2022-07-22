@@ -1,0 +1,14 @@
+created: 20220706113516204
+modified: 20220706114506485
+tags: [[WTF is This?]] Linux
+title: Key Server
+tmap.id: 55d67f36-1556-4858-9cd5-c54279a7a42d
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/Key_server_(cryptographic)
+
+https://en.wikipedia.org/wiki/Software_license_server
+
+found it here:
+
+https://docs.ansible.com/ansible/latest/collections/ansible/builtin/apt_key_module.html

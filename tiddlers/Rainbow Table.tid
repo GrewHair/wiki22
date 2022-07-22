@@ -1,0 +1,10 @@
+created: 20220721192717583
+modified: 20220721192908719
+tags: Stub Security Cryptography [[Cyber Attacks]] WIP
+title: Rainbow Table
+tmap.id: cfaf1e54-5e68-4c9b-a37b-94563f5f1eb7
+type: text/vnd.tiddlywiki
+
+[[Salt]] seems to help with this.
+
+https://en.wikipedia.org/wiki/Rainbow_table

@@ -1,5 +1,5 @@
 created: 20220204083842886
-modified: 20220204084140996
+modified: 20220625222450265
 tags: Vim
 title: Vim Tricks/Write With Sudo
 tmap.id: c907abbd-27d7-4e44-bbab-4f1742f2e2ba
@@ -14,3 +14,11 @@ This allows to save files even if you forgot to prepend [[vim|Vim]] with [[sudo]
 https://medium.com/usevim/vim-101-what-is-the-leader-key-f2f5c1fa610f
 
 https://stackoverflow.com/questions/2600783/how-does-the-vim-write-with-sudo-trick-work
+
+''Upd:'' found a cooler way [[here|https://www.reddit.com/r/vim/comments/nlvrhd/vimmers_of_reddit_whats_an_unknown_tip_that_has/]]:
+
+```vim
+cnoremap w!! w !sudo tee %
+```
+
+This way it's more consistent: it doesn't eat an additional leader binding, everything is done in the command mode. Although it's probably better to use `cabbrev`...

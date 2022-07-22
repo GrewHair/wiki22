@@ -3,11 +3,13 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200704205034949
-modified: 20200704212022318
+modified: 20220710095229608
 tags: Python [[Data Science from Scratch (Joel Grus)]]
-title: Evaluate to False in Boolean Expressions
+title: Python Falsy Values
 tmap.id: d6ad4c6f-6a3e-4fef-9cf0-373b32191ddc
 type: text/vnd.tiddlywiki
+
+These evaluate to `False` in Boolean Expressions:
 
 * `False`
 * `None`

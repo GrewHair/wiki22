@@ -1,0 +1,16 @@
+created: 20220619171138619
+modified: 20220619173508505
+tags: Stub
+title: National Bibliography Number
+tmap.id: 2c18a761-cb32-4811-8d01-7c8deb8d3c00
+type: text/vnd.tiddlywiki
+
+''AKA NBN''
+
+[[NBNs|National Bibliography Number]] are typically used for documents which do not have a publisher-assigned identifier such as [[ISBN|International Standard Book System]]. They can be used to persistently identify media that are archived in national libraries, e.g. Ph.D. theses.
+
+A [[URN|Uniform Resource Name]] [[namespace|URN Namespaces]] for [[NBNs|National Bibliography Number]] has been assigned, and it's described in  [[IETF|Internet Engineering Task Force]] RFC 3188, and later in RFC 8458.
+
+https://en.wikipedia.org/wiki/National_Bibliography_Number
+
+https://www.wikidata.org/wiki/Property:P4109

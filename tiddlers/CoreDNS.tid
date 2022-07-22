@@ -1,0 +1,16 @@
+created: 20220703085428713
+modified: 20220703090202740
+tags: DNS K8s CNCF Stub
+title: CoreDNS
+tmap.id: f32afbf8-7f99-407b-b30a-8075b4944fab
+type: text/vnd.tiddlywiki
+
+[[CoreDNS]] is a [[DNS Server|DNS Server (Software)]] written in [[Go]].
+
+[[CoreDNS]] is a [[CNCF|Cloud Native Computing Foundation]] graduated project.
+
+It works well with [[Kubernetes]].
+
+https://www.forbes.com/sites/forbestechcouncil/2019/11/12/theres-a-new-dns-server-on-the-internet-and-its-name-is-coredns/?sh=646eeb53124e
+
+https://coredns.io/

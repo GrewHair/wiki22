@@ -1,0 +1,17 @@
+created: 20220619204840238
+modified: 20220619205152069
+tags: WIP Linux Security Networking [[Read This!]]
+title: SSH Jump Server Access and How To Pivot Using OpenVPN & Proxychains
+tmap.id: fda2fe70-7fda-4d09-a3b6-95a167ecd164
+type: text/vnd.tiddlywiki
+
+https://www.youtube.com/watch?v=jqudlmfG0zA
+
+What's covered here:
+
+* proxychains
+* OpenVPN
+* pfsense
+* ssh tunnels
+* FreeNAS
+* jump server

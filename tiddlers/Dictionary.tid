@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200127081801358
-modified: 20220606111249805
+modified: 20220701114405288
 tags: English
 title: Dictionary
 tmap.id: 7172dc91-dffa-4b19-8ff2-b250677e4524
@@ -59,3 +59,6 @@ type: text/vnd.tiddlywiki
 * no-fee - бесплатный, без комиссионной платы
 * shenanigans - махинации
 * thesis - дипломная работа
+* choke point - узкий проход
+* базюлька - database
+* shoplifting - магазинная кража

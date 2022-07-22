@@ -1,0 +1,8 @@
+created: 20220708075919941
+modified: 20220708075942655
+tags: Stub Ansible
+title: uri vs get_url
+tmap.id: feda3199-4849-404e-8bcf-7bcaf7e0b28d
+type: text/vnd.tiddlywiki
+
+https://stackoverflow.com/questions/61398324/ansible-2-4-uri-module-downloads-file-1k-even-when-it-does-not-exist-url-ret

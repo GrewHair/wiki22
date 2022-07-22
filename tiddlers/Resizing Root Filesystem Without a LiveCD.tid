@@ -1,0 +1,22 @@
+created: 20220705201700462
+modified: 20220705203138945
+tags: Linux [[System Administration]] WIP
+title: Resizing Root Filesystem Without a LiveCD
+tmap.id: d206c890-168b-4f7d-85c8-b2e622a282b2
+type: text/vnd.tiddlywiki
+
+https://serverfault.com/questions/528075/is-it-possible-to-on-line-shrink-a-ext4-volume-with-lvm
+
+https://unix.stackexchange.com/questions/226872/how-to-shrink-root-filesystem-without-booting-a-livecd/227318#227318
+
+http://www.ivarch.com/blogs/oss/2007/01/resize-a-live-root-fs-a-howto.shtml
+
+also this
+
+https://www.system-rescue.org/lvm-guide-en/Moving-the-linux-rootfs-to-an-LVM-volume/
+
+https://www.thegeekdiary.com/centos-rhel-converting-an-existing-root-filesystem-to-lvm-partition/
+
+also this
+
+https://unix.stackexchange.com/questions/667597/how-to-split-a-partition-into-two-without-formatting

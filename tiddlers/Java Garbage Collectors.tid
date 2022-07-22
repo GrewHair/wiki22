@@ -1,0 +1,15 @@
+created: 20220704181950205
+modified: 20220704182156457
+tags: Java
+title: Java Garbage Collectors
+tmap.id: cbfe245c-11ca-4bad-8529-65021acde06e
+type: text/vnd.tiddlywiki
+
+* Serial
+* Parallel
+* CMS
+* G1
+
+''Note:'' this is outdated info, today there's more..
+
+https://www.overops.com/blog/garbage-collectors-serial-vs-parallel-vs-cms-vs-the-g1-and-whats-new-in-java-8/

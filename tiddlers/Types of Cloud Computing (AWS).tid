@@ -1,0 +1,19 @@
+created: 20220722134723834
+modified: 20220722135044373
+tags: [[Amazon Web Services]] [[Cloud Computing]]
+title: Types of Cloud Computing (AWS)
+tmap.id: 7d32869c-1de4-43e8-aca9-de90233f9d06
+type: text/vnd.tiddlywiki
+
+* ''[[Cloud Computing]] Models:''
+** [[IaaS|Infrastructure as a Service]]
+** [[PaaS|Platform as a Service]]
+** [[SaaS|Software as a Service]]
+
+* ''[[Cloud Computing]] Deployment Models:''
+** Cloud
+** Hybrid
+** On-premises
+
+
+https://aws.amazon.com/types-of-cloud-computing/

@@ -1,0 +1,18 @@
+created: 20220710143534179
+modified: 20220710144040866
+tags: Linux Docker K8s [[Badly Named]] Stub
+title: tail -f \dev\null
+tmap.id: 0ebba4b7-361f-41ef-a429-e9313dc979cf
+type: text/vnd.tiddlywiki
+
+```docker
+FROM alpine
+RUN apk add --no-cache curl wget busybox-extras netcat-openbsd python py-pip
+RUN pip install awscli
+CMD apk --purge -v del py-pip
+CMD tail -f /dev/null
+```
+
+It basically prevents the [[container|Docker Container]] from from terminating.
+
+https://youtu.be/dV8l-pvPV3w?list=PLmxB7JSpraiew9igtD89o33AaniUrmUzm&t=516

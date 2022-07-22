@@ -1,0 +1,8 @@
+created: 20220710010220417
+modified: 20220710010323560
+tags: Linux Kernel WIP
+title: printk()
+tmap.id: 309ce923-3a8b-4dc3-a5f4-66960cfa54dd
+type: text/vnd.tiddlywiki
+
+https://stackoverflow.com/questions/31817595/difference-between-printk-and-printf-in-linux

@@ -1,0 +1,10 @@
+created: 20220708130422888
+modified: 20220708130601247
+tags: [[Functional Programming]]
+title: Monad
+tmap.id: 2e0ec080-b9fe-48d5-bdc1-147299c8beb2
+type: text/vnd.tiddlywiki
+
+[[Monad]] is a [[Design Pattern]] in which pipeline implementation are abstracted away by wrapping a value in a type.
+
+https://www.youtube.com/watch?v=VgA4wCaxp-Q

@@ -1,0 +1,14 @@
+created: 20220703103800877
+modified: 20220703110252116
+tags: K8s CNCF Stub [[Badly Named]]
+title: Kubernetes Interfaces
+tmap.id: f88a0c32-87a6-4146-af1d-5bbdf172a256
+type: text/vnd.tiddlywiki
+
+* [[CRI|Container Runtime Interface]]
+* [[CNI|Container Network Interface]]
+* [[CSI|Container Storage Interface]]
+
+https://dzone.com/articles/understanding-kubernetes-interfaces-cri-cni-amp-cs
+
+https://caylent.com/blog/kubernetes/understanding-kubernetes-interfaces-cri-cni-csi
