@@ -1,0 +1,8 @@
+created: 20220920140748858
+modified: 20220920140814446
+tags: [[Amazon Web Services]] [[WTF is This?]]
+title: Weighted Routing
+tmap.id: c84076b8-425f-4612-94a5-2e6e9814435d
+type: text/vnd.tiddlywiki
+
+https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy-weighted.html

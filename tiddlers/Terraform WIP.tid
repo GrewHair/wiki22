@@ -1,0 +1,56 @@
+created: 20221206082147024
+modified: 20221207182636143
+tags: 
+title: Terraform WIP
+tmap.id: 9148c4e8-cda7-4a34-845c-f9ea1005ee74
+type: text/vnd.tiddlywiki
+
+''CLI Commands:''
+
+```
+terraform init  # initialize: download everything terraform needs based on provider
+terraform plan  # dry run
+terraform apply
+terraform destroy
+terraform console  # repl
+terraform output  # show outputs (don't apply anything)
+terraform show  # show state
+```
+
+''directives??''
+
+```
+provider "foo" {}
+
+resource "aws_instance" "my_webserver" {
+  ...
+	lifecycle {
+	  # prevent_destroy = true
+		create_before_destroy = true
+		ignore_changes = ["ami", "user_data"]
+	}
+	
+	depends_on = ["aws_instance.my_db"]  # create webserver only after db is up
+}
+
+dynamic "ingress" {
+  for_each = ["80", "443", "8080", "9092", "9093"]
+	content {
+	  from_port = ingress.value
+		to_port = ingress.value
+		protocol = "tcp"
+		cidr_blocks = ["0.0.0.0/0"]
+	}
+}
+
+output "webserver_instance_id" {
+  value = aws_instance.my_webserver.id
+}
+```
+
+''Functions:''
+
+```
+file()
+templatefile()
+```

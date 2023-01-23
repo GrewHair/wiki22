@@ -1,0 +1,12 @@
+created: 20221228142358358
+modified: 20221228142557381
+tags: Git
+title: git safe.directory
+tmap.id: 1709f810-6634-401a-b7a5-45207529572d
+type: text/vnd.tiddlywiki
+
+There was a [[CVE|Common Vulnarabilities and Exposures]] that forced git to rewrite some permission logic. And it may bite..
+
+https://github.blog/2022-04-12-git-security-vulnerability-announced/
+
+https://github.blog/2022-01-24-highlights-from-git-2-35/

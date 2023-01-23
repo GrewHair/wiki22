@@ -1,5 +1,5 @@
 created: 20220713121703582
-modified: 20220713121906699
+modified: 20221006112805297
 tags: WIP Virtualization
 title: Virtual Network Computing
 tmap.id: 607aaf9d-5e5f-4f32-97b7-24ef9afbe755
@@ -7,6 +7,16 @@ type: text/vnd.tiddlywiki
 
 ''AKA VNC''
 
-this should have something to do with controlling cloud VMs other than through [[SSH|Secure Shell]].
+It's based on [[RFB|Remote Frame Buffer Protocol]].
+
+this should have something to do with controlling cloud VMs other than through [[SSH|Secure Shell]] (probably not?!).
 
 https://en.wikipedia.org/wiki/Virtual_Network_Computing
+
+Comparison with [[RDP|Remote Desktop Protocol]]:
+
+https://www.realvnc.com/en/blog/vnc-vs-rdp-which-remote-desktop-tool-is-best/
+
+Comparison with [[TeamViewer]]:
+
+https://www.teamviewer.com/en/info/vnc/

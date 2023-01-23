@@ -1,0 +1,12 @@
+created: 20221118101739623
+modified: 20221118101835687
+tags: Organization [[Web Browsers]]
+title: What Can Be Personalized per-URL
+tmap.id: 7b6d1053-2098-41d3-870e-b6a1eb628431
+type: text/vnd.tiddlywiki
+
+* bitwarden logins
+* vivaldi bookmarks/nicknames
+* surfingkeys remaps
+* dark reader settings
+* ... potentially greasemonkey scripts? (like say, modify the page name on focusing the xterm element so komokana switches kanata's layer)

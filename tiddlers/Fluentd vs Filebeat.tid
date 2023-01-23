@@ -1,0 +1,8 @@
+created: 20221215140239596
+modified: 20221215140508011
+tags: Logging Elastic
+title: Fluentd vs Filebeat
+tmap.id: 52d2c551-2af1-4a03-962b-b6bee266acee
+type: text/vnd.tiddlywiki
+
+https://gist.github.com/StevenACoffman/4e267f0f60c8e7fcb3f77b9e504f3bd7

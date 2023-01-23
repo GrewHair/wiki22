@@ -1,0 +1,16 @@
+created: 20221026113535521
+modified: 20221026114148580
+tags: [[Software Engineering]] Humor
+title: Turing Tarpit
+tmap.id: 893d7527-8ad7-43c8-acad-e70274e79dab
+type: text/vnd.tiddlywiki
+
+Found myself there a lot...
+
+E.g., implementing [[i3|i3wm]]-like tabs in [[Tmux]] __is__ a [[Turing Tarpit]].
+
+https://en.wikipedia.org/wiki/Turing_tarpit
+
+Found it here:
+
+https://news.ycombinator.com/item?id=25740217

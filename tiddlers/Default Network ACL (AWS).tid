@@ -1,0 +1,23 @@
+created: 20220724111628351
+modified: 20220724122606113
+tags: [[Amazon Web Services]] Security
+title: Default Network ACL (AWS)
+tmap.id: 722d4a15-0b84-4944-b20a-53d20983cee6
+type: text/vnd.tiddlywiki
+
+Your [[VPC|Amazon Virtual Private Cloud]] automatically comes with a modifiable [[Default Network ACL|Default Network ACL (AWS)]].
+
+By default it allows all inbound and outbound traffic.
+
+{{_my/html_snippets/tables/aws_example_default_network_acl_ipv4}}
+
+Look at what happens here:
+
+* The rule number //asterisk (*)// is a built-in rule which always comes last and you can't change it
+* It ensures that any traffic that doesn't match any of the numbered rules is denied
+* But rule 100 allows traffic on any protocol on any port from/to any [[IP Address]]
+* And so, the [[ACL|Default Network ACL (AWS)]] allows all traffic
+* If you modify rule 100, it won't
+
+
+https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html#default-network-acl

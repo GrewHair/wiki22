@@ -1,0 +1,10 @@
+created: 20221115081337558
+modified: 20221115081553120
+tags: Monitoring
+title: Borgmon
+tmap.id: 4ad52408-fd9d-4c24-8681-edb69263381d
+type: text/vnd.tiddlywiki
+
+A [[monitoring|Monitoring]] tool for [[Borg]] that inspired [[Prometheus]]..
+
+https://news.ycombinator.com/item?id=8995943

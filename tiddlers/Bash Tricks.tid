@@ -1,0 +1,14 @@
+created: 20221019153914263
+modified: 20221019154506081
+tags: Bash
+title: Bash Tricks
+tmap.id: 15f34da1-cfa4-4412-9696-8654af4a86f1
+type: text/vnd.tiddlywiki
+
+* Line comments inside multi-line commands (may be useful when writing [[Dockerfiles|Dockerfile]]):
+** <$codeblock language="bash" code="
+foo
+echo first line &&\
+`# comment`     &&\
+echo second line
+"/> [[(source)|https://stackoverflow.com/questions/9522631/how-to-put-a-line-comment-for-a-multi-line-command]]

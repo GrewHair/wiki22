@@ -1,0 +1,18 @@
+created: 20220724114924347
+modified: 20220724115957591
+tags: Networking
+title: IP Protocol Number
+tmap.id: c57d1257-7719-446e-b6d1-7bbae09fe02e
+type: text/vnd.tiddlywiki
+
+[[IP Protocol Number]] is the numeric identification of the upper layer protocol that an [[IP Packet]] should be sent to.
+
+[[The number|IP Protocol Number]] is stored in the [[header|IP Header]] that is prefixed to  an [[IP Packet]].
+
+Note that the [[IP Protocol Number]] is not the same as the [[port number|Port (Networking)]], which refers to a higher level (e.g. [[application|Application Layer]]) layer. So, [[IP Protocol Number]] is like an analog of port number, but one layer lower.
+
+https://www.pcmag.com/encyclopedia/term/ip-protocol-number
+
+https://en.wikipedia.org/wiki/List_of_IP_protocol_numbers
+
+https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml

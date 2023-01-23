@@ -1,0 +1,13 @@
+created: 20221213175253113
+modified: 20221213181314539
+tags: [[Web Browsers]]
+title: Useful Browser flags
+tmap.id: c9c793f9-c63f-4a06-a4d1-b197a48fb36d
+type: text/vnd.tiddlywiki
+
+Set them on the `chrome://flags` page.
+
+Check them on the `chrome://version` page.
+
+* `#calculate-native-win-occlusion` - turn this off if you experience freezing on [[Windows]] when changing remote desktops
+* `#hardware-media-key-handling` - disable this to get rig of the annoying overlay on [[Windows]] popping up each time you tweak the volume

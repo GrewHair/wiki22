@@ -1,5 +1,5 @@
 created: 20220408132825271
-modified: 20220408133508969
+modified: 20220930102725182
 tags: K8s Stub
 title: Submariner
 tmap.id: adefd96d-14dd-4d16-b9dc-36e34e0da0fd
@@ -13,3 +13,5 @@ type: text/vnd.tiddlywiki
 * Support for interconnecting clusters with overlapping [[CIDRs|CIDR]]
 
 https://submariner.io/
+
+https://www.youtube.com/watch?v=2EL5Md5hszA

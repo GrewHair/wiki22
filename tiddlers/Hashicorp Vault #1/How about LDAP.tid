@@ -1,0 +1,18 @@
+created: 20230110125332592
+modified: 20230110125515413
+tags: ChatGPT
+title: Hashicorp Vault #1/How about LDAP
+tmap.id: 0f17a509-6551-4bce-8ee7-09c221828e3d
+type: text/vnd.tiddlywiki
+
+''Q: why did you say that approle or cubbyhole authentication are recommended over other methods? is LDAP less safe?''
+
+Approle and cubbyhole authentication are recommended for accessing sensitive data stored in Hashicorp Vault because they provide a higher degree of security and granularity compared to other authentication methods.
+
+Approle is a dynamic authentication method that allows users to authenticate with Vault by providing a Role ID and a Secret ID. This allows for a more fine-grained control over access to secrets, as Secret IDs can be rotated, and permissions can be revoked or updated at a granular level. Additionally, Approle can be integrated with 3rd party auth methods such as LDAP, Okta and other external sources.
+
+Cubbyhole authentication is a method of authentication that allows users to authenticate to Vault using a token and then use that token to read a specific set of secrets that have been associated with that token. This way, the secrets stored in the cubbyhole are only accessible to the token that created them, this also provide additional isolation between secrets.
+
+On the other hand, LDAP (Lightweight Directory Access Protocol) is a widely used standard for directory services, it can be used as an external auth backend in Vault. LDAP is a powerful and flexible authentication method, but it may not provide the same level of security and granularity as Approle or cubbyhole. It's possible to setup LDAP auth backend in a way that provides very good level of security and access management, but it requires more complex setup and maintenance.
+
+It's important to note that the best method depends on the specific use case and the organization's security requirements. Approle and cubbyhole are recommended for a more secure and granular approach to access management, but LDAP can also be used in certain situations where LDAP integration is already present in the organization.

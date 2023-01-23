@@ -1,0 +1,14 @@
+created: 20220506082233069
+modified: 20220726085159651
+tags: Apache2 Stub
+title: Hypertext Access File
+tmap.id: fae7d44c-04a5-4e8c-bd6c-343b43f45382
+type: text/vnd.tiddlywiki
+
+''AKA .htaccess''
+
+You can place these [[files|File]] inside specific [[directories|Directory (File Systems)]] to override configurations on a per-[[directory|Directory (File Systems)]] basis.
+
+It is only meant to be used if you don't have access to the main configuration [[directory|Directory (File Systems)]].
+
+https://httpd.apache.org/docs/2.4/howto/htaccess.html

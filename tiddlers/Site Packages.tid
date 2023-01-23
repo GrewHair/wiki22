@@ -1,0 +1,12 @@
+created: 20221201093910739
+modified: 20221201094911909
+tags: [[Software Packaging]]
+title: Site Packages
+tmap.id: 27c045c2-151e-4b76-b76e-031ec846aed0
+type: text/vnd.tiddlywiki
+
+I guess it usually means [[packages|Package Format]] installed system-wide?
+
+(as oppoed to locally installed, known as [[Vendoring]]).
+
+https://12factor.net/dependencies

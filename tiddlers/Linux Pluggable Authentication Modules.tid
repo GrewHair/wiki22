@@ -1,0 +1,53 @@
+created: 20220906090153150
+modified: 20220914144510551
+tags: Linux Security Stub
+title: Linux Pluggable Authentication Modules
+tmap.id: 3906f1fe-a189-4d6e-a564-4025e16c8813
+type: text/vnd.tiddlywiki
+
+''AKA Linux PAM''
+
+```
+/etc/pam.d
+```
+
+```
+/etc/security
+/etc/security/pwquality.conf
+/etc/security/pam_env.conf
+```
+
+Originated on [[Sun Solaris]].
+
+https://en.wikipedia.org/wiki/Linux_PAM
+
+https://askubuntu.com/questions/156850/how-do-you-set-requirements-such-as-minimum-length-on-passwords
+
+https://www.youtube.com/watch?v=QkXyviUCKmc
+
+https://www.redhat.com/sysadmin/pluggable-authentication-modules-pam
+
+https://www.youtube.com/watch?v=Mc2p6sx2s7k
+
+---
+<br>
+
+Some cool advanced notes (particularly on pam rules vs single-word control fields):
+
+https://helpful.knobs-dials.com/index.php/PAM_notes
+
+This explains the scoring system:
+
+https://deer-run.com/users/hal/linux_passwords_pam.html
+
+This explains how to require e.g. minimum of 3 out of 4 possible character classes (TLDR `minclass`):
+
+https://www.stigviewer.com/stig/red_hat_enterprise_linux_8/2021-03-04/finding/V-230362
+
+Reasoning behind `requisite` vs `required`:
+
+https://superuser.com/questions/1242970/why-do-we-need-required-when-we-have-requisite-in-pam
+
+How to apply settings:
+
+https://unix.stackexchange.com/questions/363978/how-to-restart-pam-d-service-after-changing-of-common-account-pc-or-common-auth

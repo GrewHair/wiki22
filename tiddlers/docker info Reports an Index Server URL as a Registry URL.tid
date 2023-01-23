@@ -1,0 +1,8 @@
+created: 20221006151228035
+modified: 20221006151621526
+tags: Docker Quirk Stub
+title: docker info Reports an Index Server URL as a Registry URL
+tmap.id: 470775c1-84e1-4f07-b5d2-32dccd0b4495
+type: text/vnd.tiddlywiki
+
+https://github.com/docker/cli/issues/3793

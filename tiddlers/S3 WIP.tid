@@ -1,0 +1,12 @@
+created: 20230116134643460
+modified: 20230116150348468
+tags: WIP
+title: S3 WIP
+tmap.id: 4e19238e-27f1-4daa-bcfe-7bf8a4ff1826
+type: text/vnd.tiddlywiki
+
+* `CreateBucket`
+* `DeleteBucket` - all objects in a bucket must be deleted first
+* `ListBuckets`
+* `PutObject` - there's no object locking, it overwrites every time (but there's versioning)
+* `CreateMultipartUpload`

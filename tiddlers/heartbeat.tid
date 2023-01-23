@@ -1,0 +1,15 @@
+created: 20220927143746397
+modified: 20220927143905222
+tags: Linux [[High Availability]] Stub
+title: heartbeat
+tmap.id: 50e8d2cf-d5f3-4643-ad7b-366a84fc17f9
+type: text/vnd.tiddlywiki
+
+```bash
+apt install hearbeat
+man hearbeat
+```
+
+http://www.linux-ha.org/wiki/Heartbeat
+
+[[heartbeat]] is a part of [[Linux-HA]]...

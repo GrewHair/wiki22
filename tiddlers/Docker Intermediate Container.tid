@@ -1,0 +1,10 @@
+created: 20221020074804114
+modified: 20221020075252392
+tags: Docker
+title: Docker Intermediate Container
+tmap.id: 5a59286d-585d-4aba-be55-599f678730ca
+type: text/vnd.tiddlywiki
+
+This container appears when you `docker build` your [[Dockerfile]], it runs the [[image|Docker Image]] you specify in the `FROM` directive, and runs commands you included in the `RUN` directive inside it, to ultimately build the image of interest.
+
+https://stackoverflow.com/questions/39705085/how-are-intermediate-containers-formed

@@ -1,0 +1,13 @@
+created: 20221229155909115
+modified: 20221229160127217
+tags: Linux Unix
+title: -t stands for "list"
+tmap.id: 505c2b72-bad5-4e82-b5c5-bb06649f0add
+type: text/vnd.tiddlywiki
+
+I can't really remember, but it seems to me that a lot of unix utilities use `-t` to mean "list"..
+
+I dunno why, but from now on I'll try to keep track of this..
+
+* [[Tar]]
+* ...

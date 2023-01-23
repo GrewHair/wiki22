@@ -1,0 +1,17 @@
+created: 20221117145819769
+modified: 20221117150456359
+tags: [[Cloud Native]] CNCF K8s
+title: Container Network Interface
+tmap.id: ddf942fe-79ba-4640-bcce-d09e15079b32
+type: text/vnd.tiddlywiki
+
+''AKA CNI''
+
+We have:
+
+* Various networking solutions
+* Different container runtimes and orchestration platforms
+
+To make all this stuff work together, [[CNI|Container Network Interface]] came to be.
+
+[[(source)|https://platform9.com/blog/the-ultimate-guide-to-using-calico-flannel-weave-and-cilium/]]

@@ -1,10 +1,12 @@
 created: 20220714181314828
-modified: 20220714181500769
+modified: 20220817191856405
 tags: [[Postgre SQL]] WIP
 title: Write Ahead Log
 tmap.id: 0db02562-f9f6-40fb-824d-68fdf4d04cbd
 type: text/vnd.tiddlywiki
 
 ''AKA WAL''
+
+''Russian: упреждающая журнализация, инога журнал транзакций''
 
 https://www.opsdash.com/blog/postgresql-wal-archiving-backup.html

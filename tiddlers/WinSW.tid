@@ -1,0 +1,10 @@
+created: 20221126130020494
+modified: 20221126130119967
+tags: Jenkins Windows
+title: WinSW
+tmap.id: 571df524-bd7a-464a-9ce8-3d3a3393be18
+type: text/vnd.tiddlywiki
+
+https://github.com/winsw/winsw
+
+The suggested way to run jenkins agent on [[Windows]].

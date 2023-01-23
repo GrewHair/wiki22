@@ -1,0 +1,10 @@
+created: 20220919090636927
+modified: 20220919090726295
+tags: Ansible Stub
+title: Moustaches Don't Stack
+tmap.id: 7d1966fb-9bc0-4c38-a473-7866946aa0a2
+type: text/vnd.tiddlywiki
+
+https://www.reddit.com/r/ansible/comments/6nzil7/having_trouble_with_moustaches_dont_stack_and_how/
+
+https://stackoverflow.com/questions/46209556/how-can-i-use-ansible-nested-variable

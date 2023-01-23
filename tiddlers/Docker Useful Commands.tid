@@ -1,0 +1,9 @@
+created: 20221007150216244
+modified: 20221007152838259
+tags: Docker
+title: Docker Useful Commands
+tmap.id: 16eb81bd-86ee-4346-ae3a-bebff107b144
+type: text/vnd.tiddlywiki
+
+* `docker event --filter event=start` - print [[container|Container]] start events
+* `docker network inspect selenoid` - inspect network called selenoid

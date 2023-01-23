@@ -1,0 +1,12 @@
+created: 20221011072228459
+modified: 20221011074903532
+tags: 
+title: repology.org
+tmap.id: ca46c40e-1e50-492e-b9a4-fb1ff0edb759
+type: text/vnd.tiddlywiki
+
+It tracks and compares packages in a lot of different repos.
+
+https://repology.org/docs/about
+
+https://repology.org/repositories/statistics

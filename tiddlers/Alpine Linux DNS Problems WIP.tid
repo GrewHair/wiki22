@@ -1,0 +1,14 @@
+created: 20220923140529860
+modified: 20221021074905645
+tags: WIP Linux [[Containers (Computing)]]
+title: Alpine Linux DNS Problems WIP
+tmap.id: f3a5ff5f-32ab-4efd-9c3b-d0b31e64664d
+type: text/vnd.tiddlywiki
+
+https://docs.cloudbees.com/docs/cloudbees-ci-kb/latest/cloudbees-ci-on-modern-cloud-platforms/dns-resolution-issue-with-alpine-images
+
+https://christoph.luppri.ch/fixing-dns-resolution-for-ruby-on-alpine-linux
+
+https://askubuntu.com/questions/196022/why-nslookup-result-always-comes-from-server-127-0-0-1
+
+https://brianlovin.com/hn/30642632

@@ -1,0 +1,14 @@
+created: 20221003135021041
+modified: 20221003135112048
+tags: Gitlab Stub
+title: Gitlab Tracing
+tmap.id: 51436d89-00ac-4f87-8dd3-8798a251ba27
+type: text/vnd.tiddlywiki
+
+Old one:
+
+https://docs.gitlab.com/ee/operations/tracing.html
+
+New one:
+
+https://docs.gitlab.com/ee/development/distributed_tracing.html

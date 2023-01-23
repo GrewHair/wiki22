@@ -1,0 +1,12 @@
+created: 20220822152332849
+modified: 20220822153104281
+tags: [[Postgre SQL]] Stub
+title: Shared Buffers
+tmap.id: c6952b70-7cf9-4e30-8a4e-ec56ae9fbedb
+type: text/vnd.tiddlywiki
+
+https://www.youtube.com/watch?v=yQlaM7k7B08
+
+https://stackoverflow.com/questions/32930787/understanding-postgresql-shared-memory
+
+I guess it's an example of [[Shared Memory|Shared Memory (IPC)]]...

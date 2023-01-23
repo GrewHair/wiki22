@@ -1,0 +1,12 @@
+created: 20221102075933030
+modified: 20221102080307828
+tags: [[Web Browsers]] Stub
+title: Content Scripts (Browser Extensions)
+tmap.id: 5e1efc16-d30d-4279-bb5b-847a0f6c55df
+type: text/vnd.tiddlywiki
+
+They can access the web page, as opposed to [[Bakground Scripts|Backgroung Scripts (Browser Extensions)]].
+
+https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_scripts
+
+https://developer.chrome.com/docs/extensions/mv3/content_scripts/

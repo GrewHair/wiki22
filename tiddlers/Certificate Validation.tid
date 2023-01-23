@@ -1,0 +1,14 @@
+created: 20220913150144019
+modified: 20220913150456323
+tags: [[Transport Layer Security]] Security
+title: Certificate Validation
+tmap.id: 037441ed-a3c5-49dc-9e25-aa79674ea899
+type: text/vnd.tiddlywiki
+
+[[Certificate Validation]] is finding a path between the [[certificate|End-entity Certificate]] and the [[Trust Anchor]]. //(but it's also checking validity periods, etc, etc...)//
+
+https://youtu.be/eRWbNno4sN4?t=645
+
+https://www.sciencedirect.com/topics/computer-science/certificate-validation
+
+https://www.ssl.com/article/browsers-and-certificate-validation/

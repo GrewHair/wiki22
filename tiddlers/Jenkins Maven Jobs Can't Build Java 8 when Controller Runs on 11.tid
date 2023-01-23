@@ -1,0 +1,10 @@
+created: 20221128153501437
+modified: 20221128153659661
+tags: Jenkins Quirk
+title: Jenkins Maven Jobs Can't Build Java 8 when Controller Runs on 11
+tmap.id: 05dba2b8-b5c3-43bd-a396-f9ead8e7ad4d
+type: text/vnd.tiddlywiki
+
+Also, maven jobs are ill-adviced for a long time now.
+
+https://community.jenkins.io/t/maven-builds-fails-after-upgrade/3850

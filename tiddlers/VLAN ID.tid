@@ -1,0 +1,12 @@
+created: 20221124102033331
+modified: 20221124102211416
+tags: Networking Stub
+title: VLAN ID
+tmap.id: a10bdccc-fda6-4bdc-ab05-e5b9f1acd844
+type: text/vnd.tiddlywiki
+
+''AKA VID''
+
+[[VLAN ID]] identifies the [[VLAN]] to which the data frame belongs..
+
+https://support.huawei.com/enterprise/en/doc/EDOC1100086556

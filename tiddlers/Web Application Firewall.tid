@@ -1,0 +1,16 @@
+created: 20220906151514414
+modified: 20220906151833136
+tags: Security
+title: Web Application Firewall
+tmap.id: 6e69733a-9257-4cce-8904-474f74881a6a
+type: text/vnd.tiddlywiki
+
+''AKA WAF''
+
+It may look like you have admin priveleges in a service (like [[Jenkins]], etc..) - but once you hit "apply" and "save" - it can turn out you can't change a damn thing?
+
+Wanna know why?
+
+[[WAF|Web Application Firewall]]. That's why.
+
+https://en.wikipedia.org/wiki/Web_application_firewall

@@ -1,0 +1,10 @@
+created: 20221016092344704
+modified: 20221016102645090
+tags: Vim Tmux Mnemonic WIP
+title: Vim and Tmux Symbols WIP
+tmap.id: 3d8225fb-e722-479e-8f95-d791143da5c7
+type: text/vnd.tiddlywiki
+
+|        |!current               |!previous               |!how to toggle|
+|[[Vim]] |`current-file:` <br>`%`|`alternate-file:`<br>`#`|`CTRL-^`      |
+|[[Tmux]]|current window: <br>`*`|last window: <br>`-`    |`prefix`+`l`  |

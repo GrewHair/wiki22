@@ -1,0 +1,11 @@
+created: 20221221145218587
+modified: 20221221145646306
+tags: Elasticsearch Stub
+title: Elasticsearch Index
+tmap.id: f49c313b-6685-4303-a3a6-eed7b487b77f
+type: text/vnd.tiddlywiki
+
+https://www.elastic.co/blog/what-is-an-elasticsearch-index
+
+* [[MySQL]] &rarr; Databases &rarr; Tables &rarr; Columns/Rows
+* [[Elasticsearch]] &rarr; Indices &rarr; Types &rarr; Documents with Properties

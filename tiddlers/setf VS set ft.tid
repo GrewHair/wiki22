@@ -1,0 +1,10 @@
+created: 20221221104714562
+modified: 20221221104757158
+tags: [[WTF is This?]] Vim
+title: setf VS set ft
+tmap.id: 017a03c0-d2ad-41e3-8607-eb5b42228715
+type: text/vnd.tiddlywiki
+
+I don't understand this...
+
+https://vi.stackexchange.com/questions/16341/what-is-the-difference-between-set-ft-and-setfiletype

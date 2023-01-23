@@ -1,0 +1,14 @@
+created: 20220908083757655
+modified: 20220908084155433
+tags: HTTP
+title: 503 Service Unavailable
+tmap.id: 649e6445-0d3a-415e-8b7c-c7d0b65b98c7
+type: text/vnd.tiddlywiki
+
+The server is not ready to handle the [[request|HTTP Request]].
+
+With [[Gitlab]] it qusually means that "all" of [[Gitlab]] is down - or a [[Load Balancer]] in front of it is misconfigured.
+
+[[Source.|https://www.youtube.com/watch?v=9W6QnpYewik]]
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503

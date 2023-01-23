@@ -1,0 +1,95 @@
+created: 20220724120929976
+modified: 20220724121801807
+tags: 
+title: _my/html_snippets/tables/aws_example_default_network_acl_ipv4
+tmap.id: df2081b6-2070-404e-993d-d8f0e45e0cfd
+type: text/vnd.tiddlywiki
+
+<table id="w187aac13c25c11b7">
+          <tbody><tr>
+            <th align="left" colspan="6" style="text-align: left;"><b>Inbound</b></th>
+          </tr>
+          <tr>
+            <td><b>Rule #</b></td>
+            <td><b>Type</b></td>
+            <td><b>Protocol</b></td>
+            <td><b>Port range </b></td>
+            <td><b>Source</b></td>
+            <td><b>Allow/Deny</b></td>
+          </tr>
+          <tr>
+            <td>
+              <p>100</p>
+            </td>
+            <td>All IPv4 traffic</td>
+            <td>
+              <p>All</p>
+            </td>
+            <td>
+              <p>All</p>
+            </td>
+            <td>0.0.0.0/0</td>
+            <td>
+              <p>ALLOW</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>*</p>
+            </td>
+            <td>All IPv4 traffic</td>
+            <td>
+              <p>All</p>
+            </td>
+            <td>
+              <p>All</p>
+            </td>
+            <td>0.0.0.0/0</td>
+            <td>
+              <p>DENY</p>
+            </td>
+          </tr>
+          <tr>
+            <th align="left" colspan="6" style="text-align: left;"><b>Outbound</b></th>
+          </tr>
+          <tr>
+            <td><b>Rule #</b></td>
+            <td><b>Type</b></td>
+            <td><b>Protocol</b></td>
+            <td><b>Port range</b></td>
+            <td><b>Destination</b></td>
+            <td><b>Allow/Deny</b></td>
+          </tr>
+          <tr>
+            <td>
+              <p>100</p>
+            </td>
+            <td>All IPv4 traffic</td>
+            <td>
+              <p>All</p>
+            </td>
+            <td>
+              <p>All</p>
+            </td>
+            <td>0.0.0.0/0</td>
+            <td>
+              <p>ALLOW</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>*</p>
+            </td>
+            <td>All IPv4 traffic</td>
+            <td>
+              <p>All</p>
+            </td>
+            <td>
+              <p>All</p>
+            </td>
+            <td>0.0.0.0/0</td>
+            <td>
+              <p>DENY</p>
+            </td>
+          </tr>
+        </tbody></table>

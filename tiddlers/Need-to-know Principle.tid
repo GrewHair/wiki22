@@ -1,0 +1,14 @@
+created: 20220913112730655
+modified: 20220913112909183
+tags: Security Stub
+title: Need-to-know Principle
+tmap.id: 00964c0f-e335-4d84-9001-7248909f26d3
+type: text/vnd.tiddlywiki
+
+This principle states that a user shall only have access to the information that their job function requires, regardless of their security clearance level or other approvals.
+
+In other words: a User needs permissions AND a Need-to-know.
+
+https://en.wikipedia.org/wiki/Need_to_know
+
+https://techcommunity.microsoft.com/t5/azure-sql-blog/security-the-need-to-know-principle/ba-p/2112393

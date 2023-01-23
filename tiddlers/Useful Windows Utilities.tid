@@ -1,0 +1,10 @@
+created: 20221013104046340
+modified: 20221013104805574
+tags: Windows
+title: Useful Windows Utilities
+tmap.id: 9604d73b-d8f7-4710-bfe6-5e13f633a251
+type: text/vnd.tiddlywiki
+
+* [[HideVolumeOSD]]
+* [[ClipboardNotifier|https://github.com/LenAnderson/ClipboardNotifier]] ([[found it here|https://www.ilovefreesoftware.com/13/windows/get-notification-whenever-clipboard-changes.html]])
+

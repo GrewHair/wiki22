@@ -1,0 +1,8 @@
+created: 20221213201426813
+modified: 20221213201601362
+tags: Quirk K8s Elasticsearch
+title: Dots in Kubernetes Labels Creating Unwanted Hierarchy in Elasticsearch
+tmap.id: 3d218a68-acd8-443e-9d69-84a76fa9b681
+type: text/vnd.tiddlywiki
+
+https://github.com/elastic/beats/issues/8773

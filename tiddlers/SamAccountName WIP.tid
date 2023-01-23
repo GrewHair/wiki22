@@ -1,0 +1,18 @@
+created: 20221024142851797
+modified: 20221024143640594
+tags: [[Active Directory]] Windows Microsoft WIP
+title: SamAccountName WIP
+tmap.id: 24a70ee9-05ad-4c69-8004-6875c0d7ffef
+type: text/vnd.tiddlywiki
+
+The explanations on the internet differ:
+
+* some say it's the same as [[Down-Level Logon Name]];
+* others say that it's just the right part of it (`USER` in `DOMAIN\USER`);
+* checking myself with `get-aduser -filter {cn -eq 'John Doe'} -server example.com` yeilds `SamAccountName : John_Doe`, so probably the latter is more correct.
+
+Also it obviously has smth to do with [[SAM|Security Account Manager]].
+
+https://serverfault.com/questions/371150/any-difference-between-domain-username-and-usernamedomain-local
+
+https://pleasantpasswords.com/info/pleasant-password-server/i-ldap-and-ad/active-directory-and-samaccountnames

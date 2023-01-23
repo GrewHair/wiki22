@@ -1,0 +1,14 @@
+created: 20220927101653408
+modified: 20220927102117145
+tags: Linux Kernel Stub
+title: dmesg
+tmap.id: 7ff4be13-9c2f-4fd6-9eb6-9e5a5620b697
+type: text/vnd.tiddlywiki
+
+It means "diagnostic messages".
+
+It prints the message buffer of the [[kernel|Linux Kernel]].
+
+https://en.wikipedia.org/wiki/Dmesg
+
+https://www.computerhope.com/unix/dmesg.htm

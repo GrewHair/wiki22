@@ -1,0 +1,17 @@
+created: 20220930121134675
+modified: 20220930122505041
+tags: Linux syslog systemd WIP
+title: \run\systemd\journal\syslog WIP
+tmap.id: 5e9cbc68-d98b-42cb-a84d-2e703be169be
+type: text/vnd.tiddlywiki
+
+https://kabads.monkeez.org/2020-03-19-rsyslog-listening-to-socket.html
+
+https://unix.stackexchange.com/questions/362681/systemd-journal-what-is-the-relation-of-dev-log-and-syslog
+
+Found it here:
+
+https://www.golinuxcloud.com/systemd-journald-how-logging-works-rhel-7/#systemd-journald_vs_rsyslogd
+
+I guess this [[socket|Unix 
+Domain Socket]] is used to forward data from [[journald]] to [[rsyslog]]...

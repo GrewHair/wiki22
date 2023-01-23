@@ -1,0 +1,14 @@
+created: 20221103075048219
+modified: 20221103075645939
+tags: Linux
+title: Syncthing
+tmap.id: 91a1d112-2cc8-4e6f-97e8-92de49589329
+type: text/vnd.tiddlywiki
+
+It's like [[Rsync]]/[[Unison]] on steroids I guess..
+
+https://forum.syncthing.net/t/syncthing-vs-rsync-vs-unison/6298
+
+Found it here:
+
+https://sts10.github.io/2018/11/27/syncthing-and-tmux.html

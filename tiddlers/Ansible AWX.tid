@@ -1,0 +1,12 @@
+created: 20220919143322048
+modified: 20220919143425339
+tags: Ansible Stub
+title: Ansible AWX
+tmap.id: ef5ab107-cf94-4f38-add1-69780f93160f
+type: text/vnd.tiddlywiki
+
+It's an [[Open Source]] version of [[Ansible Tower]]...
+
+https://4sysops.com/archives/ansible-tower-vs-ansible-awx-for-automation/
+
+https://github.com/ansible/awx

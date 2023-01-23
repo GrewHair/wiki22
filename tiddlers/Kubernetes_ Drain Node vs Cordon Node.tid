@@ -1,0 +1,12 @@
+created: 20221116141641002
+modified: 20221116141920368
+tags: K8s Stub
+title: Kubernetes: Drain Node vs Cordon Node
+tmap.id: 4b6668a9-697a-4e7d-922a-7a4ec393c465
+type: text/vnd.tiddlywiki
+
+`cordon` marks a node as unschedulable, `drain` does this as well, and also evicts [[pods|Pod (Kubernetes)]].
+
+https://medium.com/@yanglyu5201/kubernetes-drain-node-vs-cordon-node-8b979eb7bbbe
+
+https://jamesdefabia.github.io/docs/user-guide/kubectl/kubectl_drain/

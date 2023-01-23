@@ -1,0 +1,10 @@
+created: 20221214150805054
+modified: 20221214150918786
+tags: Bash Zsh [[Quality of Life]]
+title: Magic Space
+tmap.id: 5f6f7023-b3fb-46a6-89d9-0fdbfea52432
+type: text/vnd.tiddlywiki
+
+https://relentlesscoding.com/posts/bash-magic-space/
+
+In [[Zsh]] it's on by default (as is "magic tab")..

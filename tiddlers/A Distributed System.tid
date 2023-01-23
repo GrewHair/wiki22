@@ -1,0 +1,15 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20220818180500744
+modified: 20220818180646268
+tags: Philosophy
+title: A Distributed System
+tmap.id: efda3c0d-4e6b-457f-a2bc-3ec244d9d4d9
+type: text/vnd.tiddlywiki
+
+<<<.tc-big-quote
+A Distributed System is one in which the failure of a computer you didn't even know existed can render your own computer unusable
+<<<
+[[Leslie Lamport]]

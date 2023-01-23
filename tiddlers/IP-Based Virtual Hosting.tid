@@ -1,0 +1,16 @@
+created: 20220912152917507
+modified: 20220912153547482
+tags: [[Apache: The Definitive Guide]] [[Web Servers]]
+title: IP-Based Virtual Hosting
+tmap.id: 9395feba-fcf8-41b7-b2d0-638c02f432ed
+type: text/vnd.tiddlywiki
+
+This method is typical for [[HTTP 1.0]], as this HTTP version wasn't designed with [[Virtual Hosting]] in mind.
+
+It exploits the fact that more than one [[IP Address]] can be assigned to an interface. The [[Web Server]] is then able to distinguish sites by the [[IP|IP Address]].
+
+Starting from [[HTTP 1.1]], it is unnecessary, as the [[Host Header]] is introduced.
+
+https://en.wikipedia.org/wiki/Virtual_hosting#IP-based
+
+Apache and networking p.7

@@ -1,10 +1,18 @@
 created: 20211102151044329
-modified: 20211102151609140
+modified: 20220930103024675
 tags: [[Transport Layer Security]] Security Stub Web OpenSSL
 title: Pre-shared Key
 tmap.id: 815f8e90-baa6-4867-8281-ddf50db43871
 type: text/vnd.tiddlywiki
 
 ''AKA PSK''
+
+An example of generating a [[PSK|Pre-shared Key]] for [[Submariner's|Submariner]] [[IPSec]] [[tunnel|Tunneling (Networking)]]:
+
+```bash
+SUBMARINER_PSK=$(cat /dev/urandom | LC_CTYPE=C tr -dc 'a-zA-Z0-9' | fold -w 64 | head -n 1)
+```
+
+[[(source).|https://youtu.be/2EL5Md5hszA?t=163]]
 
 https://en.wikipedia.org/wiki/Pre-shared_key

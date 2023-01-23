@@ -1,0 +1,20 @@
+created: 20221022093345226
+modified: 20221022094029320
+tags: [[Red Hat Linux]] Questionable
+title: Red Hat Identity Management
+tmap.id: 43a92098-3a69-48bc-8895-7dbad926fcff
+type: text/vnd.tiddlywiki
+
+''AKA IdM, Identity Policy Audit, Identity, Policy, and Audit, IPA ???''
+
+It's based on [[FreeIPA]]...
+
+It seems that the acronym IPA (Identity, Policy, and Audit) is dying off, and [[Red Hat]] uses it mainly because it's in the name of the [[upstream|Upstream (Software Development)]]..
+
+https://access.redhat.com/discussions/684123
+
+https://www.oreilly.com/library/view/red-hat-enterprise/9781784392017/ch09s02.html
+
+https://access.redhat.com/solutions/142823
+
+https://access.redhat.com/discussions/3119471

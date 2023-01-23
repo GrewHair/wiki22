@@ -1,0 +1,14 @@
+created: 20221027155140101
+modified: 20221027155356953
+tags: Linux Security [[WTF is This?]]
+title: Magic Wormhole
+tmap.id: 5818e16e-0b61-4e1a-8635-7a0ab69b45e7
+type: text/vnd.tiddlywiki
+
+It uses [[PAKE|Password Authenticated Key Exchange]]...
+
+https://github.com/magic-wormhole/magic-wormhole
+
+https://magic-wormhole.readthedocs.io/en/latest/welcome.html#example
+
+https://github.com/gcla/tmux-wormhole

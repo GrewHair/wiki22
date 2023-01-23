@@ -1,0 +1,20 @@
+created: 20221227132739874
+modified: 20221227141425669
+tags: Jenkins systemd
+title: SYSTEMD_EDITOR
+tmap.id: a2b87756-e1ec-4b2e-9547-8bf63e57b144
+type: text/vnd.tiddlywiki
+
+So you type `systemctl edit jenkins` - and bam, you're into [[Nano]].
+
+Isn't this infuriating??? Here's the fix:
+
+```bash
+export SYSTEMD_EDITOR=vim
+# export EDITOR=vim also works!
+systemctl edit jenkins
+```
+
+More good info here:
+
+https://unix.stackexchange.com/questions/408413/change-default-editor-to-vim-for-sudo-systemctl-edit-unit-file

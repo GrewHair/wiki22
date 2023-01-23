@@ -1,0 +1,17 @@
+created: 20221116160542236
+modified: 20221116160923360
+tags: Rancher Stub
+title: Cloud Providers (Rancher)
+tmap.id: 7828c32c-4ac3-4841-bc55-2804f316af33
+type: text/vnd.tiddlywiki
+
+* AWS
+* Azure
+* OpenStack
+* vSphere
+
+Either one of these or Custom.
+
+That's probably old, no? Where is google? what's 'imported'?
+
+https://rancher.com/docs/rke/latest/en/config-options/cloud-providers/

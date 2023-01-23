@@ -1,0 +1,10 @@
+created: 20220805140750085
+modified: 20220805140913050
+tags: Jenkins Stub
+title: HEARTBEAT_CHECK_INTERVAL
+tmap.id: 65c5c120-59ba-4fc8-9331-061b33dee8ac
+type: text/vnd.tiddlywiki
+
+https://stackoverflow.com/questions/50067372/where-to-set-dorg-jenkinsci-plugins-durabletask-bourneshellscript-heartbeat-che
+
+https://stackoverflow.com/questions/29539234/system-properties-management

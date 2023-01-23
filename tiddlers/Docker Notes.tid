@@ -1,0 +1,9 @@
+created: 20221012113922066
+modified: 20221022110924897
+tags: Docker
+title: Docker Notes
+tmap.id: f4adcc9b-f42f-432e-a1fe-21c451bc960a
+type: text/vnd.tiddlywiki
+
+* It seems `docker inspect` and `docker image inspect` both do the same thing if used on an image.
+* `docker run <image> -it /bin/bash` doesn't work... `docker run -it <image> /bin/bash` does.

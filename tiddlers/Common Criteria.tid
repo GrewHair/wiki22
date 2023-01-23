@@ -1,0 +1,28 @@
+created: 20220928081306452
+modified: 20221118153013453
+tags: Security [[ISO Standards]]
+title: Common Criteria
+tmap.id: 1f2adeb8-f4c7-4f3c-9d0c-1aeb29072587
+type: text/vnd.tiddlywiki
+
+''AKA Common Criteria for Information Technology Security Evaluation, CC''
+
+[[Common Criteria]] is an international standard ([[ISO|International Organization for Standardization]]/[[IEC|International Electrotechnical Commission]] 15408) for computer security certification.
+
+It is a framework in which computer system users can //specify// their security [[functional|Security Functional Requirements]] and [[assurance|Security Assurance Requirements]] requirements in a [[Security Target]], and may be taken from [[Protection Profiles|Protection Profile]]. @@color:red; (What? Is that even in english?)@@
+
+[[CC|Common Criteria]] originated out of three standards:
+
+* [[ITSEC|Information Technology Security Evaluation Criteria]] (Europe)
+* [[CTCPEC|Canadian Trusted Computer Product Evaluation Criteria]] (Canada)
+* [[TCSEC|Trusted Computer System Evaluation Criteria]] (US)
+
+(All of these have "criteria" in the name - guess that's where the name "Common Criteria" came from).
+
+[[CC|Common Criteria]] was introduced by unifying these, mainly so that companies selling computer products for the government market (mainly defence and intelligence) would only need to have them evaluated against one set of standards.
+
+[[CC|Common Criteria]] was developed by the governments of Canada, France, Germany, the Netherlands, UK and the U.S.
+
+https://en.wikipedia.org/wiki/Common_Criteria
+
+https://ldapwiki.com/wiki/Common%20Criteria%20for%20Information%20Technology%20Security%20Evaluation

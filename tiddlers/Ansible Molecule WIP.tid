@@ -1,0 +1,14 @@
+created: 20221225142511788
+modified: 20221225142711484
+tags: Ansible WIP
+title: Ansible Molecule WIP
+tmap.id: c644d3b1-93cb-4965-b72b-d0281df3df89
+type: text/vnd.tiddlywiki
+
+General [[Ansible]] intro:
+
+https://www.youtube.com/watch?v=UEfYIYVe9yw&list=PLtGnc4I6s8dvMkOS0ecQQADV8qJLwlwH9&index=20
+
+[[Molecule|Ansible Moleculeb]] specifically:
+
+https://www.youtube.com/watch?v=e3FFxKsfdSo

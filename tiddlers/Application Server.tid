@@ -1,0 +1,32 @@
+created: 20220905100336494
+modified: 20220905104800091
+tags: [[Web Development]] Stub
+title: Application Server
+tmap.id: 2d85807f-59b6-431c-b4e1-2052441881a5
+type: text/vnd.tiddlywiki
+
+''AKA App Server''
+
+[[App Servers|Application Server]] usually serve dynamic content (as opposed to [[Web Servers|Web Server]] that serve static content and also redirect relevant requests further to [[App Servers|Application Server]]).
+
+They do so by essentially running a [[Web Framework]] - like, e.g., [[Gunicorn]] is able to run [[Django]]. It means that normally [[App Servers|Application Server]] are usually [[language|Programming Language]]-specific, just like [[frameworks|Web Framework]] (and maybe sometimes even [[framework|Web Framework]]-specific - not sure here tho).
+
+Because pretty much any [[language's|Programming Language]] ecosystem now has multiple different [[App Servers|Application Server]] __and__ multiple [[Web Frameworks|Web Framework]], and they all are meant to be used together, software usually known as [[Web Server Interface]] came to be.
+
+Ideally each [[language|Programming Language]], albeit having multiple different [[App Servers|Application Server]] and [[Web Frameworks|Web Framework]], is meant to have only one [[Web Server Interface]], that is supposed to be able to communicate the two in any combination.
+
+''Note'' that from the point of view of web developers, they sometimes tend to refer to [[App Servers|Application Server]] as [[Web Servers|Web Server]], which adds to confusion quite a lot. It's even in the name: they call it [[Web Server Interface]] when really //App Server Interface// would be more suitable a name.
+
+https://en.wikipedia.org/wiki/Application_server
+
+https://en.wikipedia.org/wiki/List_of_application_servers
+
+https://www.justinweiss.com/articles/a-web-server-vs-an-app-server/
+
+Some [[App Servers|Application Server]]:
+
+* [[Unicorn]] [[(Ruby)|Ruby]]
+* [[Puma]] [[(Ruby)|Ruby]]
+* [[Gunicorn]] [[(Python)|Python]]
+* [[Jetty]] [[(Java)|Java]]
+* ...

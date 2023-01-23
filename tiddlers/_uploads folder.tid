@@ -1,0 +1,14 @@
+created: 20221012160944780
+modified: 20221012161329043
+tags: Artifactory Docker Stub
+title: _uploads folder
+tmap.id: a25aa411-a5ff-4961-a876-d0309a17dab3
+type: text/vnd.tiddlywiki
+
+The [[Docker]] client first pushes the layers, and only then the `manifest.json` - so [[Artifactory]] doesn't know until the very end where to put what.
+
+Thus this [[_uploads|_uploads folder]] is used for temporary storage.
+
+Eventually it gets "garbage collected" via a scheduled routine, but this takes some time (and frustration.)
+
+https://jfrog.com/knowledge-base/artifactory-what-is-the-uploads-folder-under-artifactory-docker-repositories/

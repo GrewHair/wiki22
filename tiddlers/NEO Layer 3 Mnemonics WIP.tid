@@ -1,0 +1,18 @@
+created: 20221102122519564
+modified: 20221102125350150
+tags: Mnemonic [[Ergonomic Keyboards]] [[Keyboard Shortcuts]] WIP
+title: NEO Layer 3 Mnemonics WIP
+tmap.id: b0012230-726b-45cc-ae13-d37a52ec0303
+type: text/vnd.tiddlywiki
+
+|!Key|!Unicode|!Mnemonic|
+|`t`|`^`|[[Turned v|https://en.wikipedia.org/wiki/Turned_v]]|
+|`g`|`*`|glob|
+|`y`|`!`|yum!/yay!/yell|
+|`h`|`?`|help|
+|`b`|   |backtick|
+|`v`|`~`|voltage Source|
+|`c`|`|`|choice in [[Backus-Naur|Backus-Naur Form]]|
+|`n`|`+`|katakana na|
+|`m`|`%`|[[Per Mille|https://en.wikipedia.org/wiki/Per_mille]]|
+|`p`|`&`|[[pass by reference|https://en.wikipedia.org/wiki/Reference_(C%2B%2B)]]????|

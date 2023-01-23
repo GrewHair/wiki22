@@ -1,0 +1,16 @@
+created: 20230114213214975
+modified: 20230114214229193
+tags: Networking Stub
+title: IPv6 Transition Mechanism
+tmap.id: c47b58f4-89d5-43be-ad3e-4a5844821e5d
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/IPv6_transition_mechanism
+
+https://www.youtube.com/watch?v=s0TNGC9GP48
+
+According to Sunny Classroom, there are three main types:
+
+* [[Dual-Stack]]
+* tunneling
+* translation

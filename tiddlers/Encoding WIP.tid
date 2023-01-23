@@ -1,0 +1,17 @@
+created: 20230105151314670
+modified: 20230105152822541
+tags: WIP
+title: Encoding WIP
+tmap.id: 20f02a0b-e9bf-449d-9151-4f56715f82ab
+type: text/vnd.tiddlywiki
+
+* `xxd` (found it [[here|https://www.youtube.com/watch?v=QU7CDAPoUiI]])
+* `hexdump` (found it [[here|https://web.archive.org/web/20190916195518/http://xn--thibaud-dya.fr/jenkins_credentials.html]])
+* `od` (found it [[here|https://devops.stackexchange.com/questions/16931/how-to-decrypt-jenkins-password]])
+* `hd` ?
+
+What's the difference:
+
+https://unix.stackexchange.com/questions/562347/what-is-the-difference-between-the-od-hd-hexdump-and-xxd-commands
+
+https://www.reddit.com/r/linux4noobs/comments/69j6v1/whats_the_difference_between_xxd_and_hexdump/

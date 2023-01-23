@@ -1,0 +1,8 @@
+created: 20221220155318309
+modified: 20221220185239501
+tags: Linux
+title: tree Useful Flags
+tmap.id: 36452f98-6142-47fe-b318-4233485d6176
+type: text/vnd.tiddlywiki
+
+* `tree --du -h` [[(source)|https://unix.stackexchange.com/questions/45828/print-size-of-directory-content-with-tree-command-in-tree-1-5]]

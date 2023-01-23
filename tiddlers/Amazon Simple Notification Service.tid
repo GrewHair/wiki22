@@ -1,8 +1,12 @@
 created: 20220710183854429
-modified: 20220710184002545
+modified: 20220722184502922
 tags: [[Amazon Web Services]] Stub
 title: Amazon Simple Notification Service
 tmap.id: 7af7c534-188a-464e-8bdb-6d82eaa07913
 type: text/vnd.tiddlywiki
 
 ''AKA Amazon SNS''
+
+[[SNS|Amazon Simple Notification Service]] is a [[pub/sub|Publish-subscribe Pattern]] service.
+
+https://aws.amazon.com/sns/?whats-new-cards.sort-by=item.additionalFields.postDateTime&whats-new-cards.sort-order=desc

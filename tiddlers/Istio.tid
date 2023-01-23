@@ -1,0 +1,18 @@
+created: 20221116131652523
+modified: 20221116135046874
+tags: 
+title: Istio
+tmap.id: e074c7ea-3638-4a1c-8beb-796be9a32b90
+type: text/vnd.tiddlywiki
+
+[[Istio]] is a [[Service Mesh]]..
+
+
+It integrates with [[Rancher]] [[(source)|https://docs.ranchermanager.rancher.io/getting-started/overview]] ...
+
+
+The name itself means "to sail" in greek. It has been developed at [[Google]], for [[Kubernetes]], hence the greek nautic name.
+
+https://tetrate.io/blog/how-istio-got-its-name/
+
+https://cloud.google.com/learn/what-is-istio

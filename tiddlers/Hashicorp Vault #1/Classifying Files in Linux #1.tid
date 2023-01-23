@@ -1,0 +1,28 @@
+created: 20230110124645866
+modified: 20230110125014352
+tags: ChatGPT
+title: Hashicorp Vault #1/Classifying Files in Linux #1
+tmap.id: 27e223f4-134a-45fd-b527-6ab54f527dd7
+type: text/vnd.tiddlywiki
+
+''Q: and how do i reliably check if a file i want to store needs to be converted to base64 before transit or not? the OS is linux''
+
+There are a few ways you can check if a file needs to be converted to base64 before storing it in Vault. One way to check this is to examine the file's MIME type using the file command. The file command can be used to determine the file type of a given file based on its contents, rather than its extension. Here is an example of how you can use the file command to check the MIME type of a file:
+
+```bash
+file --mime-type path/to/file
+```
+
+This will output the file's MIME type, such as "application/pdf" or "image/jpeg", which can be used to determine whether the file is binary or text. If the file is binary and return something like "application/octet-stream" then you should convert it to base64.
+
+Another way is to check the presence of non-printable characters in the file. You can use the following command to check for non-printable characters in a file:
+
+```bash
+grep -qP "[^[:print:]]" path/to/file
+```
+
+If the file contain non-printable characters the command will return success, otherwise it will not.
+
+You can also check the file's extension, most of the time known binary files has specific extension like .pdf, .jpg, .mp4 etc and you can check them using shell script or simple if-else condition.
+
+It is important to note that these methods only provide an indication of whether a file is binary or text, and may not be 100% accurate in all cases. It is always a good idea to test the file before storing it in Vault to ensure that it can be properly stored and retrieved.

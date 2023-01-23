@@ -1,0 +1,18 @@
+created: 20220807235926298
+modified: 20220808000118839
+tags: Web CDN [[Load Balancing]]
+title: Hidden Load Factor
+tmap.id: c31e1613-3c90-4e1b-ac77-b149cd3c7606
+type: text/vnd.tiddlywiki
+
+Michele Colajanni, Philip S. Yu, and Valeria Cardellini.
+
+Dynamic load balancing in geographically distributed heterogeneous web servers.
+
+In Proceedings of the 18th IEEE International Conference on Distributed Computing Systems (ICDCS98), May 1998.
+
+https://www.researchgate.net/publication/2837779_Dynamic_Load_Balancing_in_Geographically_Distributed
+
+Found it here:
+
+https://www.usenix.org/legacy/publications/library/proceedings/usenix02/full_papers/mao/mao_html/node2.html

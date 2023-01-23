@@ -1,0 +1,13 @@
+created: 20220930110703583
+modified: 20220930111357299
+tags: Git Stub
+title: Git References
+tmap.id: 6e9e365e-607b-4a5e-af83-8d3c863e2d31
+type: text/vnd.tiddlywiki
+
+* `refs/heads` contains branches @@color:red; ?@@
+* `refs/tags` contains tags
+
+https://git-scm.com/book/en/v2/Git-Internals-Git-References
+
+https://stackoverflow.com/questions/1526471/git-difference-between-branchname-and-refs-heads-branchname

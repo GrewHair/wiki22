@@ -1,0 +1,12 @@
+created: 20221107121005518
+modified: 20221107121150480
+tags: [[Web Browsers]] [[Data Storage]]
+title: WebSQL
+tmap.id: 10b4e8a0-2f03-48e0-b3cd-fa33077a355c
+type: text/vnd.tiddlywiki
+
+It seems to be deprecated in favour of the newer [[IndexedDB]]..
+
+https://stackoverflow.com/questions/46418859/when-should-i-use-web-sql-versus-indexeddb
+
+https://www.youtube.com/watch?v=GKrJetSHels

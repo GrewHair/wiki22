@@ -1,0 +1,10 @@
+created: 20221116140748412
+modified: 20221116141108813
+tags: Rancher Stub
+title: Downstream Cluster
+tmap.id: d876e104-2281-456c-8690-207eed2a5acc
+type: text/vnd.tiddlywiki
+
+The [[Kubernetes Clusters|Kubernetes Cluster]] connected to a [[Rancher]] [[Server]] are referred to as [[Downstream Clusters|Downstream Cluster]].
+
+https://www.stackpath.com/edge-academy/what-is-rancher/

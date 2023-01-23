@@ -1,0 +1,16 @@
+created: 20221104224126693
+modified: 20221117070841203
+tags: Vim
+title: Bigrams (for Vim-like mappings)
+tmap.id: 6b456522-d8ea-40df-89cb-6d1281f70fae
+type: text/vnd.tiddlywiki
+
+http://practicalcryptography.com/cryptanalysis/letter-frequencies-various-languages/russian-letter-frequencies/
+
+https://www.lexicalcomputing.com/russian-ngram-databases-and-ngram-models-for-download/
+
+https://blogs.sas.com/content/iml/2014/09/26/bigrams.html
+
+Double letters (for kanata's `rpt`):
+
+https://blogs.sas.com/content/iml/2014/10/03/double-letter-bigrams.html

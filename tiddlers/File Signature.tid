@@ -1,0 +1,10 @@
+created: 20230110103306904
+modified: 20230110105539861
+tags: Computing
+title: File Signature
+tmap.id: 7f1dce82-6ab0-45b4-b049-e0a4af848826
+type: text/vnd.tiddlywiki
+
+* [[File Magic Number]]
+* [[File Checksum]]
+https://en.wikipedia.org/wiki/File_signature

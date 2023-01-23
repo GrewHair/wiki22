@@ -1,5 +1,5 @@
 created: 20211011141649164
-modified: 20211014115850609
+modified: 20220817191338668
 tags: [[IT Risk Management]] Stub
 title: Disaster Recovery
 tmap.id: 0db81d61-8519-4698-a448-178d91dee77e
@@ -17,3 +17,5 @@ Two important quantities in [[Disaster Recovery]] planning are:
 * [[Recovery Point Objective]]
 
 https://en.wikipedia.org/wiki/Disaster_recovery
+
+Typically [[Disaster Recovery]] is supposed to be //asynchronous//, meaning the data only goes one way (it doesn't sync back to the primary, because the assumption is primary is not recoverable). [[Source|https://www.youtube.com/watch?v=QvoJNK3EkOo]].

@@ -1,0 +1,10 @@
+created: 20230117123424966
+modified: 20230117123544748
+tags: WIP Jenkins
+title: Jenkins Groovy Permissions WIP
+tmap.id: 795fcf6b-85bd-443a-a57b-4c717f34a4dc
+type: text/vnd.tiddlywiki
+
+https://www.avioconsulting.com/blog/using-role-based-authorization-strategy-jenkins
+
+https://stackoverflow.com/questions/38745022/remove-user-from-jenkins-via-groovy-script-when-role-based-strategy-is-used

@@ -1,0 +1,10 @@
+created: 20221201143000223
+modified: 20221201143620366
+tags: Elastic Stub History
+title: Logstash vs Beats
+tmap.id: 23a9d560-9bd1-4f10-9ef7-47f867195571
+type: text/vnd.tiddlywiki
+
+https://logz.io/blog/filebeat-vs-logstash/
+
+This article also mentions [[ETL|Extract Transform Load]].

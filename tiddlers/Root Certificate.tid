@@ -1,0 +1,12 @@
+created: 20220913144619580
+modified: 20220913145220746
+tags: Security Stub [[Transport Layer Security]]
+title: Root Certificate
+tmap.id: edc86d1c-5a02-4ccc-84f8-007ac0d5bf1a
+type: text/vnd.tiddlywiki
+
+[[Root Certificates|Root Certificate]] are [[self-signed|Self-signed Certificate]].
+
+They are [[Trust Anchor|Trust Anchor]] in [[TLS|Transport Layer Security]].
+
+Their validity period is much longer than that of [[End-entity Certificates|End-entity Certificate]].

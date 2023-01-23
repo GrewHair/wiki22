@@ -1,0 +1,14 @@
+created: 20221220193949166
+modified: 20221220200510066
+tags: Jenkins Stub WIP
+title: Jenkins Where are Workspaces WIP
+tmap.id: c899916a-2ef2-4ad4-9c50-54830e22440b
+type: text/vnd.tiddlywiki
+
+https://stackoverflow.com/questions/39397329/jenkins-project-artifacts-and-workspace
+
+https://groups.google.com/g/jenkinsci-users/c/6NHK1Aqcmvo
+
+https://jenkins-le-guide-complet.github.io/html/sec-hudson-home-directory-contents.html
+
+It seems that the historical path to the workspace used to be `$JENKINS_HOME/jobs/<job-name>/workspace/`, rather than `$JENKINS_HOME/workspace/<job-name>/`...

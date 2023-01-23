@@ -1,0 +1,14 @@
+created: 20220815080011034
+modified: 20220815080900007
+tags: [[Cloud Computing]] Storage Stub
+title: File vs Block vs Object Storage by Provider
+tmap.id: 5dd72e7b-78d2-4f1f-ba17-630bcd91eb0f
+type: text/vnd.tiddlywiki
+
+|!Service                 |!File Storage|!Block Storage|!Object Storage|
+|[[Amazon Web Services]]  |EFS          |EBS            |S3            |
+|[[Microsoft Azure]]      |Files        |Disks          |Blobs         |
+|[[Google Cloud Platform]]|Filestore    |Persistent Disk|Cloud Storage|
+|[[Digital Ocean]]        |N/A          |Volumes        |Spaces       |
+
+https://www.zachgollwitzer.com/posts/cloud-storage-types/

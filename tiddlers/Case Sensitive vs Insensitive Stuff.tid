@@ -1,0 +1,13 @@
+created: 20230103065150878
+modified: 20230103071210312
+tags: WIP
+title: Case Sensitive vs Insensitive Stuff
+tmap.id: 34ee6186-0a2c-4372-b12a-6ea3a4602287
+type: text/vnd.tiddlywiki
+
+|!What|!Sensitive?|!Why?|!Reference/source|
+|[[DNS|Domain Name System]] names|No|To prevent confusion|[[1|https://serverfault.com/questions/261341/is-the-hostname-case-sensitive]]|
+|[[URLs|Uniform Resource Locator]] (other than<br>the domain part)|Yes|Dunno|[[1|https://stackoverflow.com/questions/7996919/should-url-be-case-sensitive]], [[2|https://www.searchenginejournal.com/google-urls-are-case-sensitive/421264/#close]]|
+|[[UPN|User Principal Name]]|No|[[AD|Active Directory]] relies on [[DNS|Domain Name System]]|[[1|https://serverfault.com/questions/314631/upn-suffix-case-sensitivity]], [[2|https://www.quora.com/Is-UPN-case-sensitive]]|
+|[[LDAP DN|LDAP Distinguished Name]]|By default,<br>''__no__'' (possible<br>to override)|Dunno|[[1|https://stackoverflow.com/questions/29897684/is-ldap-dn-case-insensitive]]|
+|[[UNIX]] file names|Yes|Dunno|Everybody<br>knows that|

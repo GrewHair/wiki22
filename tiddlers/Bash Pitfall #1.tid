@@ -1,0 +1,20 @@
+created: 20230106082123115
+modified: 20230106082406399
+tags: Pitfall Bash
+title: Bash Pitfall #1
+tmap.id: 501a6627-462f-4799-b13a-d5c4ac4856a8
+type: text/vnd.tiddlywiki
+
+You may mean:
+
+```bash
+mv master.key master.key.backup
+```
+
+but accidentally type:
+
+```bash
+rm master.key master.key.backup
+```
+
+That's it you're fcked

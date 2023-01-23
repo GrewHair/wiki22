@@ -1,0 +1,19 @@
+created: 20220928094501256
+modified: 20220928095012819
+tags: WIP Security
+title: Multilevel Security WIP
+tmap.id: 87f4ca8a-8b2e-4430-8935-264a3b3c19ba
+type: text/vnd.tiddlywiki
+
+''AKA multiple levels of security, MLS''
+
+https://en.wikipedia.org/wiki/Multilevel_security
+
+This may or may not be the same thing:
+
+https://www.ibm.com/docs/en/zos/2.2.0?topic=criteria-what-is-multilevel-security
+This section has some references to [[Common Criteria]], [[TCSEC|Trusted Computer System Evaluation Criteria]] and [[CAPP|Controlled Access Protection Profile]] (have to investigate the connections):
+
+https://www.ibm.com/docs/en/zos/2.2.0?topic=security-history
+
+Also, the name is suspiciously similar to [[Defence in depth]].. Are they connected?

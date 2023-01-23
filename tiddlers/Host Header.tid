@@ -1,0 +1,11 @@
+created: 20230115145135490
+modified: 20230115145703033
+tags: Networking HTTP WIP
+title: Host Header
+tmap.id: 15465a1b-3c46-4e05-a6e8-3cf48b5a4cfb
+type: text/vnd.tiddlywiki
+
+Uses:
+
+* http proxies - thanks to this header, the proxy server knows where to forward the request [[(source)|https://www.youtube.com/watch?v=KOibBdrdyY0]]
+* [[Virtual Hosting]] - if a server with one [[IP|IP Address]] hosts multiple sites, it uses this header to figure which site to serve

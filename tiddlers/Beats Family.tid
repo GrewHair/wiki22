@@ -1,0 +1,16 @@
+created: 20220927132205304
+modified: 20220927135228979
+tags: Elastic Stub
+title: Beats Family
+tmap.id: c13a0ff2-dc19-41d0-8ff6-500f2d984c30
+type: text/vnd.tiddlywiki
+
+|[[Filebeat]]    |for logs, etc.            |
+|[[Metricbeat]]  |for metric data           |
+|[[Packetbeat]]  |for network data          |
+|[[Winlogbeat]]  |for [[Windows]] event logs|
+|[[Auditbeat]]   |for audit data, like [[Linux Audit Framework]]|
+|[[Heartbeat]]   |for uptime monitoring     |
+|[[Functionbeat]]|for [[Serverless]]        |
+
+https://www.elastic.co/beats/

@@ -1,0 +1,10 @@
+created: 20221026124328112
+modified: 20221026124547605
+tags: Stub Terminals Unix Shells
+title: Terminfo
+tmap.id: 7056c1b1-2c25-4991-b987-470419d51e63
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/Terminfo
+
+Found a [[directory|Directory (File Systems)]] called `terminfo` somewhere inside `.xxh` in its [[Zsh]] profile..

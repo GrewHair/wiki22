@@ -1,0 +1,12 @@
+created: 20221015123242549
+modified: 20221015124405096
+tags: Linux Ubuntu Stub
+title: software-properties-common
+tmap.id: a03a26f8-7565-4a9a-8c57-6d58bdb67e1b
+type: text/vnd.tiddlywiki
+
+This [[Canonical]] [[package|Package Format]] contains [[add-apt-repository]]...
+
+So it might be useful to install it on e.g. [[Kali Linux]] if you want to use [[PPAs|Personal Package Archives]] with it.
+
+''Note:'' [[Kali|Kali Linux]] is [[Debian]]-based, so it uses [[dpkg]], just like [[Ubuntu]]. However it doesn't have [[Ubuntu]]-specific stuff installed by default, so here goes..

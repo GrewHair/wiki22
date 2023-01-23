@@ -1,0 +1,11 @@
+created: 20221117074643373
+modified: 20221117075040798
+tags: [[Data Storage]] [[Cloud Computing]]
+title: Throughput vs IOPS
+tmap.id: 6c706b5a-346a-450e-8988-379878c347a4
+type: text/vnd.tiddlywiki
+
+* ''Throughput:'' how fast can you read and write one big blob of data
+* ''[[IOPS]]:'' how fast can you read and write lots of tiny blobs of data
+
+https://youtu.be/2w8dbJCTNaA?t=901

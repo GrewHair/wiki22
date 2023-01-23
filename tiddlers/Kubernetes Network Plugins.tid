@@ -1,0 +1,16 @@
+created: 20221117151132322
+modified: 20221117153104337
+tags: K8s Networking
+title: Kubernetes Network Plugins
+tmap.id: 0c2d16ef-62f5-4148-99cf-d1de21559d56
+type: text/vnd.tiddlywiki
+
+* [[Flannel]]
+* [[Calico]]
+* [[Weave]]
+* [[Cilium]]
+* ...
+
+https://kubernetes.io/docs/concepts/extend-kubernetes/compute-storage-net/network-plugins/
+
+https://platform9.com/blog/the-ultimate-guide-to-using-calico-flannel-weave-and-cilium/

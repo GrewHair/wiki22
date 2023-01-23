@@ -1,0 +1,14 @@
+created: 20221118164609399
+modified: 20221118164836544
+tags: Monitoring [[WTF is This?]]
+title: Check vs Metric Based Monitoring
+tmap.id: fcff1ed3-ec9d-4408-a275-b08e7793cbec
+type: text/vnd.tiddlywiki
+
+https://opsdis.com/what-is-the-difference-between-check-and-metrics-based-monitoring/
+
+This article says that [[Nagios]] is classic, and that it is a check based system.
+
+Found it here:
+
+https://www.youtube.com/watch?v=rT4fJNbfe14

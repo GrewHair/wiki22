@@ -1,5 +1,5 @@
 created: 20220111121415992
-modified: 20220111124525756
+modified: 20221104231521080
 tags: WIP [[Transport Layer Security]] Security
 title: SSL Certificates and Container Formats WIP
 tmap.id: 5ee625f0-83e4-44f7-970b-d600a2b7898a
@@ -24,3 +24,9 @@ https://support.citrix.com/article/CTX213224
 https://stackoverflow.com/questions/22788384/what-is-the-difference-between-cer-pfx-file
 
 https://boardgamestips.com/popular/is-pem-and-cer-the-same/
+
+https://crypto.stackexchange.com/questions/82135/difference-between-pem-vs-p12-vs-crt-vs-jks-vs-keystore-vs-pkcs-vs-x509-certific
+
+Root vs Intermediate:
+
+https://www.youtube.com/watch?v=l_ZbduoVQqs

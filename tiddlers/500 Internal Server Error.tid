@@ -1,0 +1,16 @@
+created: 20220908084349171
+modified: 20220908085522130
+tags: HTTP
+title: 500 Internal Server Error
+tmap.id: c3b06371-dd43-4198-89aa-4dd1f9984e84
+type: text/vnd.tiddlywiki
+
+The server has encountered an unexpected condition that prevented it from fulfilling the [[request|HTTP Request]].
+
+This is a logic error in the application and should be logged clearly - so oftentimes it's easier to troubleshoot.
+
+With [[Unicorn]] [[Gitlab]] - look at `production.log`.
+
+[[Source.|https://www.youtube.com/watch?v=9W6QnpYewik]]
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500

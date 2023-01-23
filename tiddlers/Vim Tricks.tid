@@ -1,5 +1,5 @@
 created: 20220204074028818
-modified: 20220220205852858
+modified: 20221112120721563
 tags: Vim
 title: Vim Tricks
 tmap.id: 5807c86e-b71b-45cb-9a9c-0c8f5ee7cdd3
@@ -9,10 +9,22 @@ type: text/vnd.tiddlywiki
 * [[Write with sudo|Vim Tricks/Write With Sudo]] (even when you forgot to open [[Vim]] with [[sudo]])
 * [[Diff current buffer and the original file|https://vim.fandom.com/wiki/Diff_current_buffer_and_the_original_file]]
 ** a simpler approach applicable to an ad-hoc [[SSH|Secure Shell]] session: `:w !diff % -`
-* List environment variables (there's no direct way): `:echo $<C-i>`
+* List environment variables (there's no direct way): `:echo $`<kbd>Tab</kbd>
 * [[View invisible characters|Viewing Invisible Characters in Vim]]
 * Open things in new tab:
 ** From normal mode: a tag definition `<c-w><c-]><c-w>T` in normal mode
 ** From command mode: help `:tab h CTRL-G`
 * Put empty lines in between every line in the document
 *> `:g/^/pu =\"\n\"`
+* Diff mode
+** The default colorscheme sucks arse. 2 quick and dirty ways to fix it [[(source)|https://vi.stackexchange.com/questions/10897/how-do-i-customize-vimdiff-colors]]:
+*** `:colo desert` - and it this fails, do:
+*** `:sy off`
+** It also funks with your brain when you do `:diffget` - it automatically folds the result so you're left wondering what the heck happened.. A quick and dirty fix would be:
+*** `:windo se nofoldenable` - this disables folding completely (without `windo` it would still fold the other window)
+** Some interesting additional info [[here|https://superuser.com/questions/404333/how-do-i-only-dp-or-do-just-the-lines-not-the-entire-block-in-vim-diff]]
+* `:set expandtab` is usually what you want (especially for things like [[Python]] and [[Yaml]]), but there are some weird cases when you want true tabs.
+** Say you've edited your text in [[Vim]], and now need to paste it into [[Excel|Microsoft Excel]] as colums..
+** The easiest way to do it is to put tabs as column delimiters. Do this:
+** `:%s/ \+/\t/` [[(inspiration)|https://superuser.com/questions/719179/how-to-substitute-multiple-space-with-a-single-space-in-vim]]
+** notice that I don't put `g` at the end, because usually some spaces are really just spaces (if that's confusing, disregard this and just try)

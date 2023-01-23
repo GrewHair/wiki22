@@ -1,0 +1,39 @@
+created: 20221225122724491
+modified: 20221230074430477
+tags: Jenkins WIP
+title: Jenkins Backup WIP
+tmap.id: 1f96cbce-6685-4b3c-9160-e66b76d9cd74
+type: text/vnd.tiddlywiki
+
+* [[thinBackup]] doesn't back up `secrets` directory by default - [[here|https://stackoverflow.com/questions/40999412/jenkins-thinbackup-include-additional-folder]] is a "fix"
+* storing files in [[Vault|HashiCorp Vault]]:
+** https://stackoverflow.com/questions/53710132/store-and-retrieve-files-from-hashicorp-vault
+** https://stackoverflow.com/questions/66211960/how-to-insert-a-jks-file-in-vault-hashicorp
+** https://stackoverflow.com/questions/34831029/hashicorp-vault-for-file-storage
+** https://discuss.hashicorp.com/t/how-to-store-the-content-of-binary-file-in-vault/17409/5
+* [[thinBackup]]:
+** https://www.youtube.com/watch?v=knGIRvF3fmQ
+** https://www.youtube.com/watch?v=grQ4cAcj81U&t=164s
+** https://medium.com/@santidescalzo/how-to-backup-jenkins-data-and-configurations-20e177d548a2
+* `jenkins.io`:
+** https://www.jenkins.io/doc/book/system-administration/backing-up/
+** https://www.jenkins.io/doc/developer/security/secrets/
+** https://wiki.jenkins-ci.org/display/JENKINS/Securing-JENKINS_HOME.html
+* cloudbees:
+** https://docs.cloudbees.com/docs/admin-resources/latest/backup-restore/best-practices
+** https://docs.cloudbees.com/docs/cloudbees-ci-kb/latest/client-and-managed-masters/how-to-fix-an-instance-having-an-invalid-identity-key-enc-file
+** (the latter is about `identity.key.enc`)
+* `identitly.key.enc`:
+** https://itsecureadmin.com/2018/03/26/jenkins-migrating-credentials/
+* S3
+** https://medium.com/@bennirus/automated-daily-backups-of-jenkins-master-to-amazon-s3-bucket-1ba6e875c0f0
+* gist to publish [[thinBackup]] to S3:
+** https://gist.github.com/calvinlfer/55db013f17fb8047a753174e73cc5919
+* misc gists:
+** https://gist.github.com/dbacher-linear/2fe3e99d356327ea3283
+** https://gist.github.com/abayer/527063a4519f205efc74
+* contents of `secrets` folder:
+** https://stackoverflow.com/questions/38465270/wheres-the-encryption-key-stored-in-jenkins
+** https://web.archive.org/web/20190916195518/http://xn--thibaud-dya.fr/jenkins_credentials.html
+* login into vault using ldap with plain curl
+** https://stackoverflow.com/questions/60116754/how-to-login-hashicorp-vault-using-curl-command

@@ -1,0 +1,12 @@
+created: 20220724112213683
+modified: 20220724113615360
+tags: [[Amazon Web Services]] Security
+title: Custom Network ACL (AWS)
+tmap.id: c08ff22f-95ec-43c0-9905-7c4739c43aab
+type: text/vnd.tiddlywiki
+
+You can create a [[Custom Network ACL|Custom Network ACL (AWS)]] and associate it with a [[subnet|Subnet (AWS)]].
+
+By default each [[Custom Network ACL|Custom Network ACL (AWS)]] denies all inbound and outbound traffic until you add rules.
+
+If you don't explicitly associate a [[subnet|Subnet (AWS)]] with a [[Network ACL|Network ACL (AWS)]], the [[subnet|Subnet (AWS)]] is automatically associated with the [[Default Network ACL|Default Network ACL (AWS)]]!

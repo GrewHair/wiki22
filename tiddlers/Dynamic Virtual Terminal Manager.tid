@@ -1,0 +1,12 @@
+created: 20221029224329859
+modified: 20221029224529119
+tags: [[Terminal Multiplexsers]]
+title: Dynamic Virtual Terminal Manager
+tmap.id: 8611f96c-dbf1-4889-98d8-eb66fc959202
+type: text/vnd.tiddlywiki
+
+''AKA DVTM''
+
+https://sudonull.com/post/116716-Overview-of-Terminal-Multiplexers-tmux-and-dvtm-Selectel-Blog
+
+What's cool is that it's all the standard repos!!

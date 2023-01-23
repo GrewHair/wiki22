@@ -1,0 +1,12 @@
+created: 20221003075453280
+modified: 20221003075629274
+tags: Jenkins Stub Java
+title: Installing Jenkins in a Servlet Container
+tmap.id: 31f6b7ff-7fdb-4c82-87b1-e44e8b3b8e99
+type: text/vnd.tiddlywiki
+
+https://wiki.jenkins-ci.org/display/JENKINS/Containers
+
+https://www.blazemeter.com/blog/jenkins-tomcat
+
+http://makeseleniumeasy.com/2020/03/23/how-to-run-install-jenkins-on-apache-tomcat-server/

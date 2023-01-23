@@ -1,0 +1,38 @@
+created: 20230110130651937
+modified: 20230110131455828
+tags: ChatGPT
+title: Hashicorp Vault #1/Reasonably Exhaustive List of Auth Methods
+tmap.id: 1d95b98c-5bea-4fcf-85c9-5b08be932634
+type: text/vnd.tiddlywiki
+
+''Q: great! could you try to give me a reasonably exhaustive list of auth methods applicable to Vault?''
+
+Sure, here is a list of some of the most common authentication methods available for use with Hashicorp Vault:
+
+# ''Token-based authentication:'' This is the default authentication method provided by Vault and it allows users to authenticate to Vault by providing a token. Tokens can be generated using the Vault CLI or the Vault API.
+
+# ''AppRole authentication:'' This is an authentication method that allows users to authenticate to Vault by providing a Role ID and a Secret ID. AppRole is designed to be used in machine-to-machine scenarios and it can be used to grant access to specific resources and perform specific actions.
+
+# ''GitHub authentication:'' This is an authentication method that allows users to authenticate to Vault using their GitHub credentials. It is intended to be used in development and testing environments.
+
+# ''Userpass authentication:'' This is an authentication method that allows users to authenticate to Vault by providing a username and password. It is useful for users that need to authenticate to Vault manually.
+
+# ''Certificates authentication:'' This is an authentication method that uses x.509 certificates to authenticate users to Vault. It can be integrated with different type of certificate authorities.
+
+# ''LDAP authentication:'' This is an authentication method that allows Vault to authenticate users against an LDAP or Active Directory server.
+
+# ''Kubernetes authentication:'' This is an authentication method that allows pods running on a Kubernetes cluster to authenticate to Vault using their service account.
+
+# ''AWS IAM authentication:'' This is an authentication method that allows users to authenticate to Vault using their AWS IAM credentials.
+
+# ''Azure AD authentication:'' This is an authentication method that allows users to authenticate to Vault using their Azure AD credentials.
+
+# ''JWT authentication:'' This is an authentication method that allows users to authenticate to Vault by providing a JSON Web Token (JWT).
+
+# ''Okta authentication:'' This is an authentication method that allows users to authenticate to Vault using their Okta credentials.
+
+# ''GCP auth method:'' This is an authentication method that allows user to authenticate to Vault using their GCP credentials
+
+# ''Radus auth method:'' This is an authentication method that allows user to authenticate to Vault using RADIUS server
+
+Keep in mind that this list is not exhaustive, but it covers the most common authentication methods used with Hashicorp Vault. Also, not all of these auth methods are available out of the box with Vault, additional configuration and integration may be required to enable them.

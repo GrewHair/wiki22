@@ -1,0 +1,12 @@
+created: 20221229173147797
+modified: 20221229173545834
+tags: Linux tar Quirk
+title: Tar Directory Confusion
+tmap.id: 6bbf3845-f5af-4473-9454-5193ee11d2a1
+type: text/vnd.tiddlywiki
+
+[[Tar]] is sensitive to the current working directory!!
+
+If you run it from a "wrong" directory (i.e. not the one that is exactly one hierarchy level above the directory you wish to archive), you'll have trouble when unarchiving it! [[Tar]] will create an unwanted nested directory hierarchy. 
+
+Better give it __relative__ directory paths, and better be precisely in the parent directory when you issue the command!

@@ -1,0 +1,18 @@
+created: 20220807234557516
+modified: 20220807235114815
+tags: Routing Networking Web CDN Questionable Stub
+title: Dynamic Routing
+tmap.id: ee3ac26e-95a8-47a0-bd0e-1d36b0c7f0e7
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/Dynamic_routing
+
+https://www.ibm.com/docs/en/cics-ts/5.3?topic=routing-what-is-dynamic
+
+https://aws.amazon.com/blogs/architecture/dynamic-request-routing-in-multi-tenant-systems-with-amazon-cloudfront/
+
+Notice how the last link says smth about [[CloudFront|Amazon CloudFront]] - so this may mean that it has smth to do with [[CDNs|Content Delivery Network]]..
+
+Which would make sense, because I found it here:
+
+https://www.usenix.org/legacy/publications/library/proceedings/usenix02/full_papers/mao/mao_html/node2.html

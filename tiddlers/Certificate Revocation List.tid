@@ -1,0 +1,12 @@
+created: 20230115122119230
+modified: 20230115122322380
+tags: [[Transport Layer Security]] Security
+title: Certificate Revocation List
+tmap.id: 9ceb0612-160a-4c79-b1a8-f7da4be41b7b
+type: text/vnd.tiddlywiki
+
+''AKA CRL''
+
+https://en.wikipedia.org/wiki/Certificate_revocation_list
+
+Found it in `man curl`, under the `--crlfile` flag.

@@ -1,0 +1,10 @@
+created: 20220927114505522
+modified: 20220927114533596
+tags: Linux
+title: ANSI Cursor Movements
+tmap.id: 79938f70-d8f4-49ba-9266-281631a5f8f7
+type: text/vnd.tiddlywiki
+
+https://stackoverflow.com/questions/657130/fastest-ways-to-move-the-cursor-on-a-terminal-command-line
+
+https://tldp.org/HOWTO/Bash-Prompt-HOWTO/x361.html

@@ -1,0 +1,23 @@
+created: 20221021073535760
+modified: 20221021074821607
+tags: Gitlab WIP
+title: lfs_check WIP
+tmap.id: 69095218-65e9-4c79-a1d6-334418e8c6b0
+type: text/vnd.tiddlywiki
+
+LFS Pointer Check has been implemented to mitigate [[this issue|https://gitlab.com/gitlab-org/gitlab-foss/-/issues/24564]] ([[Gitlab]] accepts commits with missing [[LFS|Git Large File Storage]]).
+
+However, this operation is expensive and it often times out, resulting in people not being able to push to [[Gitlab]] (failing with [[500|500 Internal Server Error]])...
+
+https://gitlab.com/gitlab-org/gitlab/-/issues/360630
+
+https://stackoverflow.com/questions/67265757/getting-a-timeout-pushing-a-repository-to-local-gitlab
+
+https://gitlab.com/gitlab-org/gitlab-foss/-/issues/60591
+
+https://gitlab.com/gitlab-org/gitlab-foss/-/issues/57109
+
+
+This feature has been put behing the `lfs_check` [[Flag|Feature Flag]] [[(source)|https://gitlab.com/gitlab-org/gitlab-foss/-/issues/60588]]. There have been proposals to have it disabled by default:
+
+https://gitlab.com/gitlab-org/gitlab-foss/-/issues/60591

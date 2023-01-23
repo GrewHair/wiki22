@@ -1,0 +1,8 @@
+created: 20220908104506161
+modified: 20220908104634336
+tags: [[Amazon Web Services]] Databases Stub
+title: Amazon ElastiCache
+tmap.id: adba4486-ac5d-4549-911e-a6e39c833ab6
+type: text/vnd.tiddlywiki
+
+[[ElastiCache|Amazon ElastiCache]] is an [[AWS|Amazon Web Services]] [[In-memory Database]] service.

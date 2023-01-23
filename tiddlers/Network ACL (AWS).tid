@@ -1,0 +1,8 @@
+created: 20220724123230338
+modified: 20220724123250141
+tags: Stub [[Amazon Web Services]] Networking
+title: Network ACL (AWS)
+tmap.id: 17413be4-5c57-419a-917d-a5fba2c35ec3
+type: text/vnd.tiddlywiki
+
+https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html#default-network-acl

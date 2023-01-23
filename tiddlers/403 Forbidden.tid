@@ -1,11 +1,11 @@
 created: 20220703071239018
-modified: 20220703072252952
+modified: 20221024120442562
 tags: HTTP Security
 title: 403 Forbidden
 tmap.id: 0ff2a764-fd34-4f9d-b78b-a7bd7c1a68c9
 type: text/vnd.tiddlywiki
 
-It's similar to [[401|401 Unauthorized]], except re-authenticating will make no difference.
+It's similar to [[401|401 Unauthorized]], except re-[[authenticating|Authentication]] will make no difference.
 
 It means the [[server|Web Server]] understands the [[request|HTTP Request]] but refuses to authorize it - that is, usually, regardless of user's access permissions.
 

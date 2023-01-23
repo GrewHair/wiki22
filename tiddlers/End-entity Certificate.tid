@@ -1,0 +1,12 @@
+created: 20220913145027796
+modified: 20220913145149750
+tags: [[Transport Layer Security]] Security
+title: End-entity Certificate
+tmap.id: c7231eef-0d52-4dad-ab35-8ab5c70fb729
+type: text/vnd.tiddlywiki
+
+https://wiki.mozilla.org/CA/Terminology
+
+https://doc.primekey.com/ejbca/ejbca-operations/ejbca-operations-guide/ca-operations-guide/end-entities
+
+https://en.wikipedia.org/wiki/Public_key_certificate

@@ -1,0 +1,36 @@
+created: 20230110125021614
+modified: 20230110125308103
+tags: ChatGPT
+title: Hashicorp Vault #1/Classifying Files in Linux #2
+tmap.id: 61a7cfde-5937-4ec8-918a-465cdc06c92b
+type: text/vnd.tiddlywiki
+
+''Q: how do i check if a file is binary in linux?''
+
+There are a few ways you can check if a file is binary in Linux:
+
+Using the file command: As I mentioned earlier, the file command can be used to determine the file type of a given file based on its contents, rather than its extension. The command will return the file's MIME type and you can use that to check if it's a binary file.
+
+```bash
+file --mime-type path/to/file
+```
+
+Using the hexdump command: The hexdump command can be used to display a file's contents in hexadecimal format. If a file contains non-printable characters, it is likely a binary file.
+
+```bash
+hexdump -C path/to/file
+```
+
+Using the strings command: The strings command can be used to extract printable strings from a file. If a file contains a lot of non-printable strings, it is likely a binary file.
+
+```bash
+strings path/to/file
+```
+
+Using the grep command: You can use the grep command to search for non-printable characters in a file. If the file contains non-printable characters, it is likely a binary file
+
+```bash
+grep -qP "[^[:print:]]" path/to/file && echo "Binary file" || echo "Text file"
+```
+
+It's important to keep in mind that these methods provide an indication of whether a file is binary or text, and may not be 100% accurate in all cases. It's always a good idea to test the file before storing it in Vault to ensure that it can be properly stored and retrieved.

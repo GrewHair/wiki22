@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200331115823964
-modified: 20200331124622953
+modified: 20221003080057126
 tags: [[Regular Expressions]]
 title: Anchors and Boundries (Regular Expressions)
 tmap.id: 34cbd35c-e679-46db-8ad4-495d1615a684
@@ -37,13 +37,13 @@ type: text/vnd.tiddlywiki
 </tr>
 <tr>
 <td>\z</td>
-<td><a href="regex-anchors.html#z">Very end of the string</a><br />Not available in Python and JS</td>
+<td><a href="regex-anchors.html#z">Very end of the string</a><br />Not available in [[Python]] and [[JS|Javascript]]</td>
 <td>the end\z</td>
 <td>this is...\n...<strong>the end</strong></td>
 </tr>
 <tr>
 <td>\Z</td>
-<td><a href="regex-anchors.html#Z">End of string</a> or (except Python) before final line break<br />Not available in JS</td>
+<td><a href="regex-anchors.html#Z">End of string</a> or (except [[Python]]) before final line break<br />Not available in JS</td>
 <td>the end\Z</td>
 <td>this is...\n...<strong>the end</strong>\n</td>
 </tr>

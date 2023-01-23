@@ -1,0 +1,11 @@
+created: 20221011144856849
+modified: 20221011150150964
+tags: systemd
+title: systemd Useful Commands
+tmap.id: d0a8efa8-8371-4fa1-b006-5b1041868bf0
+type: text/vnd.tiddlywiki
+
+* `systemctl show -p InvocationID --value jenkins.service` - get the [[invocation ID|Systemd Invocation ID]] of the `jenkins` service ([[source 1|https://www.ajfriesen.com/show-journald-logs-from-last-service-start/]], [[source 2|https://unix.stackexchange.com/questions/506833/show-journal-logs-from-the-time-a-service-was-restarted]] [[source 3|https://serverfault.com/questions/768901/is-there-a-way-to-make-journalctl-show-logs-from-the-last-time-foo-service-ran]])
+* `journalctl -u kubelet.service _SYSTEMD_INVOCATION_ID="$(systemctl show -p InvocationID --value kubelet.service)"` - only see logs from previous start ([[source 1|https://www.ajfriesen.com/show-journald-logs-from-last-service-start/]], [[source 2|https://unix.stackexchange.com/questions/506833/show-journal-logs-from-the-time-a-service-was-restarted]], [[source 3|https://serverfault.com/questions/768901/is-there-a-way-to-make-journalctl-show-logs-from-the-last-time-foo-service-ran]])
+* `journalctl -u jenkins -o verbose` - show verbose journal output (to get things like [[invocation IDs|Systemd Invocation ID]])
+* `journalctl -o verbose --since today UNIT=chrony.service SYSLOG_IDENTIFIER=systemd` - show info about service restarts, etc ([[source|https://bbs.archlinux.org/viewtopic.php?id=186623]], comment #6)

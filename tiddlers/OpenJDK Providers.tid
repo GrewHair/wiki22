@@ -1,0 +1,17 @@
+created: 20220810172723078
+modified: 20220810173117837
+tags: Java Stub
+title: OpenJDK Providers
+tmap.id: 0cdebd9e-1bc9-4d75-adbd-d052885c676e
+type: text/vnd.tiddlywiki
+
+* [[AdoptOpenJDK]] (now [[Adoptium]])
+* [[Amazon Corretto]]
+* [[Azul Zulu]]
+* [[BellSoft Liberica]]
+* [[Linux Distros|Linux Distribution]]
+* [[Oracle]]
+* [[Red Hat]]
+* [[SapMachine]]
+
+https://www.youtube.com/watch?v=T5Qg9tL81Ik

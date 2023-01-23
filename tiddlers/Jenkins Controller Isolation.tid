@@ -1,0 +1,12 @@
+created: 20220728221021711
+modified: 20220728221252924
+tags: Jenkins Security WIP
+title: Jenkins Controller Isolation
+tmap.id: f82da450-d154-4b7e-81ec-c6b6ce1d063e
+type: text/vnd.tiddlywiki
+
+At some point, the agent-to-controller data transfer was completely dropped for [[security|Security]] reasons.
+
+https://www.jenkins.io/doc/book/security/controller-isolation/#agent-controller-access-control
+
+https://wiki.jenkins.io/display/JENKINS/Slave+To+Master+Access+Control

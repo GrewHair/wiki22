@@ -1,0 +1,10 @@
+created: 20220810211216899
+modified: 20220810211431238
+tags: Security CVE Stub Mr.Robot
+title: Shellshock
+tmap.id: 988b0d53-1cde-4e18-9158-5619f29554f8
+type: text/vnd.tiddlywiki
+
+''AKA Bashdoor''
+
+https://en.wikipedia.org/wiki/Shellshock_(software_bug)

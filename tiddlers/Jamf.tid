@@ -1,0 +1,24 @@
+created: 20221017115233679
+modified: 20221017120244627
+tags: 
+title: Jamf
+tmap.id: b2c18e11-4d12-4e4b-8e95-cf2d54a632fc
+type: text/vnd.tiddlywiki
+
+[[Jamf]] is a software company developing [[MDM systems|Mobile Device Management]].
+
+It's particularly notable for providing [[MDM|Mobile Device Management]] solutions for [[Apple]] devices.
+
+In [[Jamf Pro]], there's something called "enrollment", whereby you register your device at your company's namespace:
+
+`https://your-company.jamfcloud.com/enroll`
+
+https://en.wikipedia.org/wiki/Jamf
+
+https://www.bechtle.com/gb/it-solutions/modern-workplace/device-as-a-service/jamf
+
+https://www.bechtle.com/ch-en/about-bechtle/partner/apple/apple-and-jamf
+
+https://www.theregister.com/2022/08/15/apple_jamf_watchdog/
+
+https://docs.jamf.com/10.24.1/jamf-pro/administrator-guide/Computer_Enrollment_Methods.html

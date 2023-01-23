@@ -1,0 +1,16 @@
+created: 20220808160056408
+modified: 20220808160323009
+tags: Stub [[Software Licenses]]
+title: Affero GPL
+tmap.id: 89d4aff3-7412-4c1d-88dd-58e729aaaa4b
+type: text/vnd.tiddlywiki
+
+''AKA AGPL''
+
+It's like [[GPLv3]] for servers i guess...
+
+Named so after [[Affero, Inc]].
+
+https://www.gnu.org/licenses/why-affero-gpl.en.html
+
+https://en.wikipedia.org/wiki/Affero_General_Public_License

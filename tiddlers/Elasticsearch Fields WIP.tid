@@ -1,0 +1,16 @@
+created: 20221213203401488
+modified: 20221213204029023
+tags: WIP Elasticsearch
+title: Elasticsearch Fields WIP
+tmap.id: 362a9628-3ebb-4d88-955b-4e4e509b1454
+type: text/vnd.tiddlywiki
+
+[[ECS|Elastic Common Schema]]:
+
+https://www.elastic.co/guide/en/ecs/current/ecs-base.html
+
+[[Filebeat]] (`kubernetes.*` is there):
+
+https://www.elastic.co/guide/en/beats/filebeat/current/exported-fields-ecs.html
+
+https://www.elastic.co/guide/en/beats/filebeat/current/exported-fields-kubernetes-processor.html

@@ -1,0 +1,12 @@
+created: 20221124081817024
+modified: 20221124081943531
+tags: [[WTF is This?]]
+title: robots.txt
+tmap.id: f14e55e6-9492-40a9-a26f-d7d9b83820e7
+type: text/vnd.tiddlywiki
+
+This file instructs web robots to not web-crawl your site...
+
+Mainly to avoid high load.
+
+https://developers.google.com/search/docs/crawling-indexing/robots/intro

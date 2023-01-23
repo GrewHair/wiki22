@@ -1,0 +1,10 @@
+created: 20230114203230887
+modified: 20230114204401334
+tags: Networking TCP/IP Stub
+title: TCP Fast Open
+tmap.id: 603092ed-26df-424b-b1cd-bac8e36261c6
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/TCP_Fast_Open
+
+Found it in `man curl`, under the `--tcp-fastopen` option.

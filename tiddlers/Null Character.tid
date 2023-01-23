@@ -1,0 +1,19 @@
+created: 20230112104931493
+modified: 20230112105511947
+tags: ASCII Computing Linux
+title: Null Character
+tmap.id: 757c575a-3955-4e2b-ba31-9ac4af33184c
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/Null_character
+
+[[ChatGPT]] mentioned it in this command:
+
+```bash
+JENKINS_PID=$(pgrep -f jenkins)
+JENKINS_HOME=$(cat /proc/$JENKINS_PID/environ | tr '\0' '\n' | grep JENKINS_HOME | cut -f2 -d=)
+```
+
+So, I guess, as a minimum, it is found in [[ProcFS]]..
+
+Also, it's this `^@` control character that most terminals emit when you press <kbd>Ctrl-Space</kbd>.

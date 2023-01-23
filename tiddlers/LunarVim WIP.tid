@@ -1,0 +1,31 @@
+created: 20221010074536492
+modified: 20221010125812801
+tags: Vim WIP
+title: LunarVim WIP
+tmap.id: 5287bab7-f887-4fbe-b254-e95e46fa5176
+type: text/vnd.tiddlywiki
+
+Reviews:
+
+https://medium.com/coffee-in-a-klein-bottle/vim-for-julia-another-look-1dc4265bb49b
+
+https://blog.devgenius.io/editing-in-lunar-vim-is-magic-8-tips-for-checking-out-lvim-69fd2083a47a
+
+Comparisons:
+
+https://www.reddit.com/r/neovim/comments/rcgi0m/does_a_recent_comparison_between_spacevim/
+
+https://galexbh.hashnode.dev/the-best-ide-style-configurations-for-nvim
+
+https://www.reddit.com/r/neovim/comments/s0eeg3/list_of_all_the_current_neovim_config/
+
+https://github.com/rockerBOO/awesome-neovim#preconfigured-configuration
+
+Streams:
+
+https://www.youtube.com/watch?v=WjncGIHyXFw
+
+VSCode integration (?):
+
+https://github.com/LunarVim/LunarVim/issues/256
+

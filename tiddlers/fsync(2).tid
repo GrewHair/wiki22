@@ -1,0 +1,12 @@
+created: 20220822230415560
+modified: 20220822230604621
+tags: Linux [[System Calls]] Stub
+title: fsync(2)
+tmap.id: 370c2d9e-b15f-448e-8667-1cc336044578
+type: text/vnd.tiddlywiki
+
+It basically forces a direct write to disk so that write could survive a system crash.
+
+https://linux.die.net/man/2/fsync
+
+https://linuxhint.com/use-fsync-system-call-c/

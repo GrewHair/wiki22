@@ -1,0 +1,18 @@
+created: 20220817221439103
+modified: 20220817222534352
+tags: Lazy Questionable Computing Virtualization Storage
+title: Copy-on-write
+tmap.id: c47afbb0-4a08-4159-b0f7-5bcb90d17e10
+type: text/vnd.tiddlywiki
+
+''AKA Implicit Sharing, Shadowing''
+
+E.g. in [[Docker]], when you run a [[Container]], it doesn't copy the [[Image]] - it just mounts it in read-only mode!
+
+It's only when you first modify something - then it copies that specific portion so you can actually make your change.
+
+Reminds me of [[Lazy Loading]].
+
+Is sometimes used as an underlying mechanism for [[snapshots|Snapshot (Storage)]].
+
+https://en.wikipedia.org/wiki/Copy-on-write

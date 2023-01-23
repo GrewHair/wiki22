@@ -1,0 +1,8 @@
+created: 20221220141415468
+modified: 20221220141542649
+tags: Linux
+title: ls Useful Flags
+tmap.id: a1e9021a-8340-4c3e-8623-3b2e84c320d6
+type: text/vnd.tiddlywiki
+
+* `--time-style=full-iso`

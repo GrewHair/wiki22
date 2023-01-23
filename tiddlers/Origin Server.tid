@@ -1,0 +1,16 @@
+created: 20220807233749091
+modified: 20220807234146002
+tags: CDN Networking Web Stub
+title: Origin Server
+tmap.id: 6a894423-7fc0-4941-abf0-0c87c6760d3e
+type: text/vnd.tiddlywiki
+
+It has something to do with [[CDNs|Content Delivery Network]]..
+
+https://www.cloudflare.com/learning/cdn/glossary/origin-server/
+
+https://www.cdnetworks.com/knowledge-center/what-is-origin-server/
+
+Found it here:
+
+https://www.usenix.org/legacy/publications/library/proceedings/usenix02/full_papers/mao/mao_html/node2.html

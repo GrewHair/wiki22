@@ -1,0 +1,22 @@
+created: 20221012161437814
+modified: 20221012161843338
+tags: Docker
+title: Docker Build Cache
+tmap.id: 31d4b918-f77a-45f7-a1f8-c24c0398ea0e
+type: text/vnd.tiddlywiki
+
+''AKA Docker Cache''
+
+https://docs.docker.com/build/building/cache/
+
+https://www.freecodecamp.org/news/docker-cache-tutorial/
+
+''TLDR''
+
+To do a clean rebuild, do:
+
+```bash
+docker build --no-cache .
+```
+
+Also when you do `docker system prune`, it warns you about what you're going to lose and the [[Build Cache|Docker Build Cache]] is among these things.

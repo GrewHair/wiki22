@@ -1,0 +1,12 @@
+created: 20221003134718815
+modified: 20221003134932405
+tags: Monitoring [[System Administration]]
+title: Jaeger
+tmap.id: d5f79d2e-d817-4b51-9a7f-32e2c38eb817
+type: text/vnd.tiddlywiki
+
+[[Jaeger]] is an [[Open Source]] [[Distributed Tracing]] tool.
+
+It has been used in [[Gitlab]] (though now deprecated).
+
+https://www.jaegertracing.io/

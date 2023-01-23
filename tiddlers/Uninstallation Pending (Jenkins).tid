@@ -1,0 +1,16 @@
+created: 20220722210540852
+modified: 20220722210913196
+tags: Jenkins Stub
+title: Uninstallation Pending (Jenkins)
+tmap.id: c7d23a81-23b1-4b52-8a57-0bffdd6d7275
+type: text/vnd.tiddlywiki
+
+When you click "uninstall plugin", its state changes to "Uninstallation Pending".
+
+This means it's waiting for you to restart [[Jenkins]].
+
+So this means that you can't uninstall a plugin without reboot - even though you can install plugins without reboot. Weird...
+
+https://jenkinsci-users.narkive.com/VD67acYs/uninstallation-pending-message
+
+http://www.continualintegration.com/miscellaneous-articles/how-do-you-cancel-the-uninstallation-of-a-jenkins-plugin/

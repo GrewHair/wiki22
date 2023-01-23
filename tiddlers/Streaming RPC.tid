@@ -1,0 +1,18 @@
+created: 20221213110332886
+modified: 20221213110446381
+tags: gRPC Stub
+title: Streaming RPC
+tmap.id: 533fa415-5337-4a42-b811-0b90ce5396d7
+type: text/vnd.tiddlywiki
+
+''AKA Streaming Call''
+
+https://grpc.io/docs/what-is-grpc/core-concepts/#server-streaming-rpc
+
+Found it in the elastic logs..
+
+The `json.msg` field said:
+
+```
+finished streaming call with code OK
+```

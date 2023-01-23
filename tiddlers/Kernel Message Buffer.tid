@@ -1,0 +1,16 @@
+created: 20220927120646572
+modified: 20220930105640283
+tags: Linux Kernel Stub
+title: Kernel Message Buffer
+tmap.id: f3d73661-d077-4831-862a-0390406bf47a
+type: text/vnd.tiddlywiki
+
+It can be viewed with [[dmesg]].
+
+It's a [[Ring Buffer]].
+
+https://www.networkworld.com/article/3643696/use-dmseg-to-check-your-linux-systems-kernel-message-buffer.html
+
+https://unix.stackexchange.com/questions/198178/what-are-the-concepts-of-kernel-ring-buffer-user-level-log-level
+
+It's useful to store the messages that occur upon system boot, before a logging service is started [[(source)|https://unix.stackexchange.com/questions/35851/whats-the-difference-of-dmesg-output-and-var-log-messages]].

@@ -1,9 +1,11 @@
 created: 20211019140917796
-modified: 20211019143006624
+modified: 20221024142105623
 tags: Windows [[Active Directory]]
 title: Down-Level Logon Name
 tmap.id: 48bd26c7-dd0a-4239-9fcc-daf96723c730
 type: text/vnd.tiddlywiki
+
+''AKA Backslash Format, User logon name (pre-Windows 2000)''
 
 [[Down-Level Logon Name]] is used to specify a [[Domain|Domain (Active Directory)]] and a [[User Account]] in that [[domain|Domain (Active Directory)]].
 

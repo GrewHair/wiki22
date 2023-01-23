@@ -1,0 +1,8 @@
+created: 20220907104300779
+modified: 20220907104326282
+tags: Docker Stub Interview
+title: Docker Multi-stage Builds
+tmap.id: 8530e501-4749-4123-b914-6e59ff2f7827
+type: text/vnd.tiddlywiki
+
+https://docs.docker.com/develop/develop-images/multistage-build/

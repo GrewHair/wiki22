@@ -1,0 +1,14 @@
+created: 20221025105531627
+modified: 20221025110504061
+tags: LDAP Stub
+title: LDAP Filters
+tmap.id: e426fc4d-cfb6-40cd-9c88-5713b7597dc7
+type: text/vnd.tiddlywiki
+
+https://ldap.com/ldap-filters/
+
+http://www.ldapexplorer.com/en/manual/109010000-ldap-filter-syntax.htm
+
+https://www.easy365manager.com/understand-ldap-filter-and-syntax/
+
+Looks like a [[LISP]] to me...

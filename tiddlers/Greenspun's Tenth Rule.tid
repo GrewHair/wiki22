@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20221026113036470
+modified: 20221026113521675
+tags: Philosophy Humor [[Software Engineering]]
+title: Greenspun's Tenth Rule
+tmap.id: 1a6bfcf6-87b2-4f48-806b-a9748dda414d
+type: text/vnd.tiddlywiki
+
+<<<.tc-big-quote
+Any sufficiently complicated [[C]] or [[Fortran]] [[program|Computer Prigram]] contains an [[ad hoc|Ad hoc]], informally-specified, [[bug|Bug]]-ridden, slow implementation of half of [[Common Lisp]].
+<<<
+
+https://en.wikipedia.org/wiki/Greenspun%27s_tenth_rule

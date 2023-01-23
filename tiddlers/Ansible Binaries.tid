@@ -1,0 +1,18 @@
+created: 20220915080230142
+modified: 20220915080447704
+tags: Ansible
+title: Ansible Binaries
+tmap.id: bd26d303-1620-42fb-832a-c26850022831
+type: text/vnd.tiddlywiki
+
+* ansible (1)          - Define and run a single task 'playbook' against a set of hosts
+* ansible-config (1)   - View ansible configuration.
+* ansible-console (1)  - REPL console for executing Ansible tasks.
+* ansible-doc (1)      - plugin documentation tool
+* ansible-galaxy (1)   - Perform various Role and Collection related operations.
+* ansible-inventory (1) - None
+* ansible-playbook (1) - Runs Ansible playbooks, executing the defined tasks on the targeted hosts.
+* ansible-pull (1)     - pulls playbooks from a VCS repo and executes them for the local host
+* ansible-vault (1)    - encryption/decryption utility for Ansible data files
+
+(As of core 2.11.12)

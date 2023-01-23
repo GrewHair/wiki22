@@ -1,0 +1,29 @@
+created: 20221229141031868
+modified: 20221229150615672
+tags: Linux Unix tar
+title: Tar Operation Modes
+tmap.id: bca1e17c-86ab-46a3-a9e9-b1f3a290477d
+type: text/vnd.tiddlywiki
+
+|!Name|!Short Option|!Long Option|!Description|!Remarks|
+|!Archiving|>|>|>|>|>|
+|!Create|`-c`|`--create`|Create new archive||
+|!Append|`-r`|`--append`|Append files to the end of the archive|Arguments have the same meaning as for `--create`|
+|!Update|`-u`|`--update`|Append files which are newer than the corresponding copy in archive|Arguments have same meaning as `-c` and `-r` options|
+|!Unarchiving|>|>|>|>|>|
+|!Extract|`-x`|`--extract`<br>`--get`|Extract files from archive|Arguments are optional, when given they specify names of members to be extracted|
+|!Deleting|>|>|>|>|>|
+|!Delete||`--delete`|Delete member from archive|Doesn't work on compressed archives|
+|!Inspecting|>|>|>|>|>|
+|!Diff|`-d`|`--diff`,<br>`--compare`|Find differences between archive and file system|If not given arguments, the current working directory is assumed|
+|!List|`-t`|`--list`|List contents of archive||
+|!Test Label||`--test-label`|Test the archive volume label and exit|WTF is this??|
+|!Misc|>|>|>|>|>|
+|!Concatenate|`-A`|`--catenate`,<br>`--concatenate`|Append archive to the end of another archive|- Archives must be of the same format<br>- Doesn't work on compressed archives|
+|!Information|>|>|>|>|>|
+|!Show Defaults||`--show-defaults`|Show default options|No arguments allowed|
+|!Help|`-?`|`--help`|Short summary|No arguments allowed|
+|!Usage||`--usage`|List of available options|No arguments allowed|
+|!Version||`--version`|Version and copyright||
+
+Source: `man tar`

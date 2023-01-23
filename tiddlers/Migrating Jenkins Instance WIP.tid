@@ -1,0 +1,12 @@
+created: 20221029220831318
+modified: 20221029220954903
+tags: Jenkins WIP
+title: Migrating Jenkins Instance WIP
+tmap.id: 4044c6bd-d9c7-43d3-86b8-8a18a79099ff
+type: text/vnd.tiddlywiki
+
+https://docs.cloudbees.com/docs/cloudbees-ci-kb/latest/client-and-managed-masters/migrating-jenkins-to-a-new-machine
+
+https://docs.cloudbees.com/docs/cloudbees-ci-kb/latest/client-and-managed-masters/how-can-i-prevent-jenkins-from-starting-new-jobs-after-a-restart
+
+https://docs.cloudbees.com/docs/cloudbees-ci-kb/latest/client-and-managed-masters/migrating-jenkins-instances

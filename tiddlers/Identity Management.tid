@@ -1,9 +1,11 @@
 created: 20220507221412500
-modified: 20220507221851102
+modified: 20221022092330186
 tags: Security Stub
 title: Identity Management
 tmap.id: b5c85b7a-77f6-4bd2-8e18-a7be4fbfbab2
 type: text/vnd.tiddlywiki
+
+''AKA IdM''
 
 [[Identity Management]] relates to [[Authenticating|Authentication]] [[users|User]].
 

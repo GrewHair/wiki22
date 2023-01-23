@@ -1,0 +1,18 @@
+created: 20221024150334252
+modified: 20221024151254824
+tags: [[Directory Services]] Security Unix
+title: Network Information Service
+tmap.id: 098d9699-e975-4e14-9f04-01da71cb56c8
+type: text/vnd.tiddlywiki
+
+''AKA NIS''
+
+''Originally Called: Yellow Pages''
+
+[[NIS|Network Information Service]] was developed by [[Sun|Sun Microsystems]], but eventually died out, overshadowed by the likes of [[LDAP|Lightweight Directory Access Protocol]].
+
+It used to be big in [[Unix]] sytems (at time of [[Unix Wars]]???).
+
+It had curious compatibility features for [[NFS|Network File System]].
+
+https://en.wikipedia.org/wiki/Network_Information_Service

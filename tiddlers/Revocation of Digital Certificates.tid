@@ -1,0 +1,12 @@
+created: 20230115121539117
+modified: 20230115122103262
+tags: [[Transport Layer Security]] Security
+title: Revocation of Digital Certificates
+tmap.id: a938d5fe-3597-4f10-9397-be1b20479aef
+type: text/vnd.tiddlywiki
+
+* [[CRL|Certificate Revocation List]] - bad
+* [[OCSP|Online Certificate Status Protocol]] -better
+* [[OCSP Stapling]] - best
+
+https://www.youtube.com/watch?v=WXNKQ_otO_g

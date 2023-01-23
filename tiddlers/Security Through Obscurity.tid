@@ -1,5 +1,5 @@
 created: 20210203122202642
-modified: 20210203122645825
+modified: 20220927140011743
 tags: Security Privacy Cryptography [[Understanding the Digital World (Brian Kernighan)]]
 title: Security Through Obscurity
 tmap.id: 99d3b057-1f6c-4d6d-9b71-c84b53f933fb
@@ -14,3 +14,5 @@ Generally, it must be assumed that the [[Cryptographic|Cryptography]] system is 
 The alternative, assuming that adversaries don't know what scheme is being used or how it works, is called [[Security Through Obscurity]], and it never works for long, if at all.
 
 https://en.wikipedia.org/wiki/Security_through_obscurity
+
+Some use the [[term|Security Through Obscurity]] to criticize proprietary technologies like [[Microsoft]]'s, stating that when the source code is secret, you never know how many vulnerabilities are covered by an update, which in some sense is [[Security Through Obscurity]] indeed [[(source)|https://youtu.be/lZG2kzwgObc?t=1435]].

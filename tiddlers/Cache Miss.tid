@@ -1,0 +1,10 @@
+created: 20220909104601415
+modified: 20220909104826982
+tags: Cache Computing Stub
+title: Cache Miss
+tmap.id: a3edf47e-29bd-45fd-a26b-3180503fcd30
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/CPU_cache#Cache_miss
+
+A [[Cache Miss]] is a failed attempt to read or write a piece of data in the cache, which results in a main memory access with much longer latency.-

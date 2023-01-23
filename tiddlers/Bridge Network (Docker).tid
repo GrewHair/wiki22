@@ -1,0 +1,12 @@
+created: 20230103075451505
+modified: 20230103075541555
+tags: Docker
+title: Bridge Network (Docker)
+tmap.id: a8694169-d31e-4472-92a2-676b596fa755
+type: text/vnd.tiddlywiki
+
+https://docs.docker.com/network/bridge/
+
+Found it here:
+
+https://www.jenkins.io/doc/book/installing/docker/

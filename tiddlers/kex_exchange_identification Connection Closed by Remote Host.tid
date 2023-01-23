@@ -1,0 +1,14 @@
+created: 20221003141915641
+modified: 20221003142130144
+tags: SSH OpenSSH Stub
+title: kex_exchange_identification Connection Closed by Remote Host
+tmap.id: 69c3ebe0-9120-4ad9-899c-2b319e25ec59
+type: text/vnd.tiddlywiki
+
+https://linuxhint.com/kex-exchange-identification-connection-closed/
+
+Also see:
+
+https://serverfault.com/questions/1015547/what-causes-ssh-error-kex-exchange-identification-connection-closed-by-remote
+
+https://superuser.com/questions/1472117/ssh-randomly-can-connect-and-sometimes-kex-exchange-identification-connection

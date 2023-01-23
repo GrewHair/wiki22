@@ -1,0 +1,14 @@
+created: 20220804093203249
+modified: 20220804093511414
+tags: Microsoft Windows Security Stub
+title: Cryptographic Service Provider
+tmap.id: 8089e114-67f8-4b04-b71d-47e32afc6546
+type: text/vnd.tiddlywiki
+
+''AKA CSP''
+
+https://en.wikipedia.org/wiki/Cryptographic_Service_Provider
+
+Found it here:
+
+https://docs.microsoft.com/en-us/visualstudio/msbuild/errors/msb3325?view=vs-2022

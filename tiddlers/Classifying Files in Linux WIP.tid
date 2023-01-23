@@ -1,0 +1,27 @@
+created: 20230110114704504
+modified: 20230110122326290
+tags: Linux WIP
+title: Classifying Files in Linux WIP
+tmap.id: 1fa55257-15e9-428a-b5e7-2617df7d74ff
+type: text/vnd.tiddlywiki
+
+https://unix.stackexchange.com/questions/275516/is-there-a-convenient-way-to-classify-files-as-binary-or-text
+
+https://stackoverflow.com/questions/16760378/how-to-check-if-the-file-is-a-binary-file-and-read-all-the-files-which-are-not
+
+From [[ChatGPT]]:
+
+```bash
+hexdump -C path/to/file
+# and then check if there are non-printable characters
+```
+
+```bash
+strings path/to/file
+# this will extract printable strings from file
+```
+
+```bash
+grep -qP "[^[:print:]]" path/to/file && echo "Binary file" || echo "Text file"
+# a grep hack
+```

@@ -1,0 +1,12 @@
+created: 20221026145517152
+modified: 20221026145759861
+tags: Linux Bash Shells
+title: Useful Piped Combos
+tmap.id: 6dadd4e9-f2ca-40d2-9eb9-686fc0be7c74
+type: text/vnd.tiddlywiki
+
+''Quickly get descriptions of all utilities in a package''
+
+```bash
+dpkg -L krb5-user|grep bin|xargs whatis
+```

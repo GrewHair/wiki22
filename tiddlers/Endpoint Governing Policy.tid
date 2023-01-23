@@ -1,0 +1,12 @@
+created: 20221014090142918
+modified: 20221017113255963
+tags: [[WTF is This?]] Security
+title: Endpoint Governing Policy
+tmap.id: 124ec6bf-eb41-4cc4-983d-79d0a9ce9243
+type: text/vnd.tiddlywiki
+
+''AKA EGP''
+
+''NTBCW: [[Exterior Gateway Protocol]]''
+
+https://github.com/cneralich/microsoft_vault_totp_mfa

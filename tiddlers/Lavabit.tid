@@ -1,0 +1,16 @@
+created: 20221103081415133
+modified: 20221103081912380
+tags: Security
+title: Lavabit
+tmap.id: edd14de5-18f5-4a90-9b97-8bf2458e634f
+type: text/vnd.tiddlywiki
+
+It's like an early [[Password Manager]] that has had some surveillance problems back in 2013.
+
+Since then, all the successors picked a [[Zero Trust]]/Zero Knowledge model, so that they can under no circumstances be compelled by government agencies to reveil the users' passwords..
+
+https://en.wikipedia.org/wiki/Lavabit
+
+Found it here:
+
+https://youtu.be/3Y8O0wyYsiQ?t=139

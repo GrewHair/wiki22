@@ -1,0 +1,23 @@
+created: 20221024092805282
+modified: 20221024093730523
+tags: Linux SSH
+title: sshpass
+tmap.id: b24f4b48-992d-474c-a9fe-628e485596ed
+type: text/vnd.tiddlywiki
+
+Noninteractive [[SSH|Secure Shell]] password provider.
+
+It lets you pass your [[SSH|Secure Shell]] password to the `ssh` command, so you can use `ssh`, `scp`, etc. in scripts - for those cases when you don't have a [[Public Key]] set up on target hosts.
+
+```bash
+apt -y install sshpass
+yum install sshpass
+```
+
+https://linux.die.net/man/1/sshpass
+
+https://www.youtube.com/watch?v=Jer7uJVpuYk
+
+https://www.youtube.com/watch?v=_TP-YnX8f50
+
+https://www.youtube.com/watch?v=PRAjBlys-7g

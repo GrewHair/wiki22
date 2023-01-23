@@ -1,0 +1,12 @@
+created: 20221018102802541
+modified: 20221018120032160
+tags: 
+title: Internationalization
+tmap.id: 0c09a187-1a3f-402e-89ec-90b859191120
+type: text/vnd.tiddlywiki
+
+''AKA i18n''
+
+Found it when noticed the [[y18n|https://www.npmjs.com/package/y18n]] [[npm|Node Package Manager]] [[package|Package Format]] being installed inside container.
+
+https://en.wikipedia.org/wiki/Internationalization_and_localization

@@ -1,0 +1,13 @@
+created: 20221118083646130
+modified: 20221118083957327
+tags: [[Transport Layer Security]] [[Let's Encrypt]] Security Stub
+title: Let's Encrypt Challenge Types
+tmap.id: 512400de-4878-4cd6-b4fd-d62edd4d20d5
+type: text/vnd.tiddlywiki
+
+* HTTP-01
+* DNS-01
+* TLS-SNI-01
+* TLS-ALPN-01
+
+https://letsencrypt.org/docs/challenge-types/

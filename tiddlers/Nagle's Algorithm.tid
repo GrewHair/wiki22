@@ -1,0 +1,10 @@
+created: 20230114175651604
+modified: 20230114175839178
+tags: Networking TCP/IP Stub
+title: Nagle's Algorithm
+tmap.id: 3315589c-2e81-479e-8678-cfda0f50e785
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/Nagle%27s_algorithm
+
+Found it in `man curl`, under the `--tcp-nodelay` option.

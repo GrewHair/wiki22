@@ -1,0 +1,22 @@
+created: 20220812092339975
+modified: 20220812092821001
+tags: Ansible Linux Debian Ubuntu Apt
+title: ansible_distribution_release
+tmap.id: e381928f-0b22-44b4-8152-11c14430be13
+type: text/vnd.tiddlywiki
+
+Oftentimes when you install something using [[apt]], you see instructions like this:
+
+```bash
+sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
+```
+
+In [[Ansible]], you can just use the <$link to="ansible_distribution_release">`ansible_distribution_release`</$link> [[fact|Ansible Facts]]:
+
+```yml
+- name: "Ansible | Print 'lsb_release'"
+  debug:
+    msg: "{{ ansible_distribution_release }}"
+```
+
+https://www.shellhacks.com/ansible-lsb_release-variable/

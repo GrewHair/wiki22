@@ -1,0 +1,12 @@
+created: 20220930160653929
+modified: 20221003145327602
+tags: Monitoring Stub
+title: Application Performance Management
+tmap.id: d4d7139c-e964-4e76-b169-4a66e75c8842
+type: text/vnd.tiddlywiki
+
+''AKA APM''
+
+https://www.youtube.com/watch?v=CAQ_a2-9UOI
+
+https://www.elastic.co/guide/en/kibana/master/xpack-apm.html

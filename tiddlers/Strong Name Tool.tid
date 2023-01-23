@@ -1,0 +1,16 @@
+created: 20220804103624134
+modified: 20220804103843711
+tags: Windows Microsoft Security Stub
+title: Strong Name Tool
+tmap.id: 2a6e6035-5207-4a52-ab55-757e9dbd2939
+type: text/vnd.tiddlywiki
+
+''AKA sn.exe''
+
+https://docs.microsoft.com/en-us/dotnet/framework/tools/sn-exe-strong-name-tool
+
+It's not necessarily on `PATH`. It's located here:
+
+`C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\x64\`
+
+https://github.com/dotnet/docs/issues/16303

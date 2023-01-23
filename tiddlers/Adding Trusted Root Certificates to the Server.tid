@@ -1,0 +1,13 @@
+created: 20220915122152211
+modified: 20220915122414885
+tags: [[Transport Layer Security]] Security
+title: Adding Trusted Root Certificates to the Server
+tmap.id: 31100961-5424-4800-a1a0-97b98bbe5595
+type: text/vnd.tiddlywiki
+
+```shell
+sudo cp ./cert.crt /usr/local/share/ca-certificates/cert.crt
+sudo update-ca-certificates
+```
+
+https://support.kerioconnect.gfi.com/hc/en-us/articles/360015200119-Adding-Trusted-Root-Certificates-to-the-Server

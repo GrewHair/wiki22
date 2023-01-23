@@ -1,0 +1,12 @@
+created: 20221022104229742
+modified: 20221022104420607
+tags: Linux Stub
+title: \dev\shm
+tmap.id: ba141cf6-923f-420c-b964-7339bd1fe603
+type: text/vnd.tiddlywiki
+
+An implementation of [[Shared Memory]] in [[Linux]].
+
+[[Byobu]] uses it.
+
+https://www.cyberciti.biz/tips/what-is-devshm-and-its-practical-usage.html

@@ -1,0 +1,8 @@
+created: 20220818181845707
+modified: 20220818181939622
+tags: [[WTF is This?]]
+title: Swiftstack Client
+tmap.id: 64d2fe3b-6d10-4bdd-954c-8a600220c34a
+type: text/vnd.tiddlywiki
+
+It seems to be an [[S3|Amazon S3]] [[client|Client]]...

@@ -1,0 +1,8 @@
+created: 20220905130341831
+modified: 20220905130510310
+tags: Linux Stub
+title: zgrep Useful Commands
+tmap.id: 2ffe8284-03d2-4cc2-8c67-e5e0cadb8890
+type: text/vnd.tiddlywiki
+
+* `sudo zgrep -B 2 jenkins history*.gz` - check gzipped logs

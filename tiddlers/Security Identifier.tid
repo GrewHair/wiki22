@@ -1,0 +1,25 @@
+created: 20221022095126979
+modified: 20221025113320437
+tags: Windows Microsoft
+title: Security Identifier
+tmap.id: ddebfe15-e9c6-4184-ac26-b03b3bf648f9
+type: text/vnd.tiddlywiki
+
+''AKA SID''
+
+''NTBCW: [[Sid (Debian)|DebianUnstable]]''
+
+https://en.wikipedia.org/wiki/Security_Identifier
+
+I've came across this thing twice so far:
+
+* You have to manually change it after cloning an [[Hyper-V]] [[VM|Virtual Machine]] [[(source)|https://mivilisnet.wordpress.com/2017/06/29/changing-sid-of-cloned-vms/]]
+* [[SSSD|System Security Services Daemon]] uses it to automatically assign a [[Unix]] [[UID]]/[[GID]] to a user (and sometimes it can break - that's how I know it). [[Source 1|https://www.youtube.com/watch?v=0MDIBLp5Ldk&t=313s]], [[Source 2|https://www.youtube.com/watch?v=Ugrksjc89Mg]].
+
+How to get your [[SID|Security Identifier]]:
+
+https://shellgeek.com/powershell-get-account-sid/
+
+```powershell
+get-aduser -filter {cn -eq 'John Doe'} -server example.com | select sid
+```

@@ -1,0 +1,36 @@
+created: 20221209140713928
+modified: 20221209155258419
+tags: Vim
+title: Vim State WIP
+tmap.id: 10330b06-cd69-4bf5-a189-fec9ee65292b
+type: text/vnd.tiddlywiki
+
+In [[Neovim]]:
+`~/.local/share/nvim`
+
+In [[Vim]]:
+`~/.vim/view`, `/.vim/viminfo`, etc...
+
+* ''Views:''
+** make+update: `:mkview`, `:mkvie`
+** load: `:loadview`, `:lo`
+** views are stored at: `:set viewdir?`
+* ''Sessions:''
+** make+update: `:mksession`. `:mks`
+** load: `vim -S <session-file>`
+*** `:source <session-file>`, `:so <session-file>`
+** sessions are stored as files  inside the working [[directory|Directory (File Systems)]]
+* ''viminfo/shada''
+** [[Vim]] has viminfo
+** [[Neovim]] has shada, usually in `~/.local/share/nvim/shada`
+** Is populated implicitly
+* ''Swap''
+** ...
+** ...
+* ''misc''
+** telescope history
+** package managers data (vim plug, etc)
+** various plugins state
+** ...
+
+https://learnvim.irian.to/basics/views_sessions_viminfo

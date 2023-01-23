@@ -1,0 +1,8 @@
+created: 20221109080216701
+modified: 20221109080336260
+tags: Linux
+title: diff Useful Commands
+tmap.id: 19371fd4-dec3-405b-95fc-a012eb30d2f1
+type: text/vnd.tiddlywiki
+
+* `diff file1 file2 | grep "^>" | wc -l` - ocunt how many lines actually differ

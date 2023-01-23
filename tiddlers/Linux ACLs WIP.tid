@@ -1,0 +1,10 @@
+created: 20230107214457238
+modified: 20230107214542366
+tags: Linux WIP
+title: Linux ACLs WIP
+tmap.id: 1efc7c4b-c90b-4f5b-b09c-68f05ebfdda1
+type: text/vnd.tiddlywiki
+
+* `getfacl`
+* `setfacl`
+* `chacl`

@@ -1,0 +1,14 @@
+created: 20221019100224338
+modified: 20221019101829628
+tags: Maven Java Stub
+title: Standard Directory Layout (Apache Maven)
+tmap.id: 2f445771-e7f8-46dd-94cc-2df850812aff
+type: text/vnd.tiddlywiki
+
+''AKA Maven Directory Structure''
+
+https://www.baeldung.com/maven-directory-structure
+
+https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html
+
+http://www.java2s.com/Tutorials/Java/Maven_Tutorial/1030__Maven_Directory_Structure.htm

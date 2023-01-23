@@ -1,0 +1,10 @@
+created: 20221012161944818
+modified: 20221012162541790
+tags: Docker WIP
+title: Inspecting Docker Images WIP
+tmap.id: dd5d9f62-fd5b-40eb-a431-77b42ad4d866
+type: text/vnd.tiddlywiki
+
+https://www.ctl.io/developers/blog/post/what-to-inspect-when-youre-inspecting
+
+https://forums.docker.com/t/how-can-i-view-the-dockerfile-in-an-image/5687

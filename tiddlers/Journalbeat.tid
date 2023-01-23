@@ -1,0 +1,12 @@
+created: 20230109091124928
+modified: 20230109091431388
+tags: Elastic Stub
+title: Journalbeat
+tmap.id: 749ce744-e5d3-41a3-bdd8-3b1cc079d31b
+type: text/vnd.tiddlywiki
+
+<<<.tc-big-quote
+Starting in version 7.16, this experimental functionality has been removed. You should use the journald input in Filebeat instead.
+<<<
+
+https://web.archive.org/web/20220818022838/https://www.elastic.co/guide/en/beats/journalbeat/current/index.html

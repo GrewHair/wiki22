@@ -1,0 +1,20 @@
+created: 20220908125712620
+modified: 20220908130607869
+tags: Gitlab [[Badly Named]]
+title: Gitlab Stateful vs Stateless Components
+tmap.id: ffa0721c-fb74-49e9-b281-c83b53e79009
+type: text/vnd.tiddlywiki
+
+* ''Stateful Systems that Need Care''
+** Data Storage / System of Record
+*** [[PostgreSQL|Postgre SQL]]
+*** [[PGBouncer]]
+** Work Queue
+*** [[Redis]]
+* ''Stateless Systems''
+** UI Display
+*** Web Nodes
+** Processing
+*** [[Sidekiq]] Nodes
+
+https://www.youtube.com/watch?v=uCU8jdYzpac

@@ -1,0 +1,16 @@
+created: 20221104110913381
+modified: 20221104111028416
+tags: Unix
+title: Remote Shell
+tmap.id: 9d1e3c50-f97f-4592-90af-fed4fd5993f6
+type: text/vnd.tiddlywiki
+
+''AKA RSH''
+
+A predecessor to [[SSH|Secure Shell]] with no authentication...
+
+https://en.wikipedia.org/wiki/Remote_Shell
+
+Found it here:
+
+https://tailscale.com/blog/rotate-ssh-keys/

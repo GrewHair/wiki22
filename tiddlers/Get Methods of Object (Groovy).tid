@@ -1,0 +1,12 @@
+created: 20230104095440422
+modified: 20230104095800905
+tags: Groovy
+title: Get Methods of Object (Groovy)
+tmap.id: ca1eaf82-f181-4455-a4e6-a251939254f3
+type: text/vnd.tiddlywiki
+
+```groovy
+obj.getClass().methods.name
+```
+
+Notice that contrary to [[Python]], you have to get to the class first..

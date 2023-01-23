@@ -1,0 +1,12 @@
+created: 20220723101259877
+modified: 20220723101437772
+tags: [[Amazon Web Services]] Stub
+title: Internet Gateway (Amazon)
+tmap.id: 0bb75201-d8ad-4e8a-81f6-23916f93e838
+type: text/vnd.tiddlywiki
+
+''AKA IGW''
+
+https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Internet_Gateway.html
+
+https://medium.com/awesome-cloud/aws-vpc-difference-between-internet-gateway-and-nat-gateway-c9177e710af6

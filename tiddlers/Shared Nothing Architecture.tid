@@ -1,0 +1,14 @@
+created: 20221201103338901
+modified: 20221201103434170
+tags: [[Cloud Computing]]
+title: Shared Nothing Architecture
+tmap.id: c6e66caa-9f48-4b84-a480-c30703e53544
+type: text/vnd.tiddlywiki
+
+''AKA SN''
+
+https://en.wikipedia.org/wiki/Shared-nothing_architecture
+
+Found it here:
+
+https://12factor.net/processes

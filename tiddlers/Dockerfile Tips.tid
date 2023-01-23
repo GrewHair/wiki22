@@ -1,0 +1,10 @@
+created: 20221020125313533
+modified: 20221020133632442
+tags: Docker
+title: Dockerfile Tips
+tmap.id: 84df8080-a19f-4df6-bc44-64f681baa854
+type: text/vnd.tiddlywiki
+
+* If using a [[Debian]]-based [[distro|Linux Distribution]] as a [[Base Image|Base Image (Docker)]], try `--no-install-recommends` when doing `RUN apt install` to keep the [[image|Docker Image]] small [[(more info)|https://askubuntu.com/questions/65081/what-are-the-implications-of-no-install-recommends-apt-get-install]]
+* Use `--no-cache` with `RUN apk add` in [[Alpine|Alpine Linux]] [[(more info)|https://stackoverflow.com/questions/49118579/alpine-dockerfile-advantages-of-no-cache-vs-rm-var-cache-apk]]
+** [[Debian]] analog: `-o APT::Keep-Downloaded-Packages=false` [[(source)|https://unix.stackexchange.com/questions/529031/docker-file-with-apt-package]]

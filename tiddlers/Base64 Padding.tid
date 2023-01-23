@@ -1,0 +1,14 @@
+created: 20230114115056413
+modified: 20230114122505159
+tags: Base64 Linux
+title: Base64 Padding
+tmap.id: e5311b60-48c9-4d4e-a493-a2ebc2e34149
+type: text/vnd.tiddlywiki
+
+https://linuxhint.com/understand-base64-padding/
+
+Found it here:
+
+https://unix.stackexchange.com/questions/631501/base64-d-decodes-but-says-invalid-input
+
+https://stackoverflow.com/questions/4080988/why-does-base64-encoding-require-padding-if-the-input-length-is-not-divisible-by

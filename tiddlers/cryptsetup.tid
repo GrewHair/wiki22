@@ -1,0 +1,12 @@
+created: 20220913102759628
+modified: 20220913102942201
+tags: Linux Security Encryption [[WTF is This?]] Stub
+title: cryptsetup
+tmap.id: 77d97f8c-0d18-4b9d-acd5-1b49937f16d4
+type: text/vnd.tiddlywiki
+
+```bash
+man cryptsetup
+```
+
+Something for hard disk encryption I suppose

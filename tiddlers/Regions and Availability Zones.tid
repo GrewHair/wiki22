@@ -1,0 +1,10 @@
+created: 20220722200436943
+modified: 20220722205142765
+tags: [[Amazon Web Services]] Stub [[Badly Named]]
+title: Regions and Availability Zones
+tmap.id: 68bc0958-2953-4620-8291-78755cd916de
+type: text/vnd.tiddlywiki
+
+https://aws.amazon.com/about-aws/global-infrastructure/regions_az/
+
+https://docs.aws.amazon.com/AmazonElastiCache/latest/mem-ug/RegionsAndAZs.html

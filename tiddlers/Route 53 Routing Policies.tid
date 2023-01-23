@@ -1,0 +1,11 @@
+created: 20220724124111090
+modified: 20220724164546779
+tags: [[Amazon Web Services]] Networking DNS Stub
+title: Route 53 Routing Policies
+tmap.id: 58da799b-e7fc-46c1-b26d-d5b719dbf49f
+type: text/vnd.tiddlywiki
+
+* [[Latency-based Routing]]
+* [[Geolocation DNS]]
+* [[Geoproximity Routing]]
+* [[Weighted Round Robin]]

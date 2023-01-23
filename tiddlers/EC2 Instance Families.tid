@@ -1,0 +1,12 @@
+created: 20220722143440227
+modified: 20220722145953646
+tags: [[Amazon Web Services]] Stub
+title: EC2 Instance Families
+tmap.id: 2f24c2ef-47cf-4762-a154-549389d51476
+type: text/vnd.tiddlywiki
+
+* General Purpose
+* Compute Optimized
+* Memory Optimized
+* Accelerated Computing
+* Storage Optimized

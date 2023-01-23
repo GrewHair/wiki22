@@ -1,0 +1,12 @@
+created: 20220902060546428
+modified: 20220902061156933
+tags: Ruby Unicorn Stub
+title: Unicorn Workers
+tmap.id: b2249ef9-e41d-470b-a6b6-11a95a2006b3
+type: text/vnd.tiddlywiki
+
+As far a I understand, [[Workhorse|Workhorse (Gitlab)]] came to be as a solution to the problem whereby each [[git clone]] via [[HTTP|Hypertext Transfer Protocol]] would occupy an entire [[Unicorn Process|Unicorn Workers]]...
+
+https://www.reddit.com/r/rails/comments/5er9l3/what_are_unicorn_workers/
+
+https://www.engineyard.com/blog/everything-you-need-to-know-about-unicorn/

@@ -1,0 +1,10 @@
+created: 20221011130452381
+modified: 20221011130623109
+tags: Windows PowerShell Stub Error
+title: End of Central Directory record could not be found
+tmap.id: 510ace5d-9b65-4235-9ffe-d18ea4ecb644
+type: text/vnd.tiddlywiki
+
+This usually means that the zip file is bad and can't be unpacked.
+
+https://stackoverflow.com/questions/20960403/end-of-central-directory-record-could-not-be-found

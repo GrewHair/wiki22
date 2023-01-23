@@ -1,0 +1,20 @@
+created: 20221103094055945
+modified: 20221103095147915
+tags: Neovim WIP
+title: Neovim Mouse Hack WIP
+tmap.id: 33b5a66d-06de-450e-9f35-fd1308de317b
+type: text/vnd.tiddlywiki
+
+This will let you use the middle click to extend selection while using right click to bring up menu:
+
+```vim
+nnoremap <MiddleMouse> <cmd>set mousemodel=extend<cr><RightMouse>
+nnoremap <RightMouse> <cmd>set mousemodel=popup<cr><LeftMouse><RightMouse>
+```
+
+But it has big problems as is:
+
+* middle click normally pastes, so you lose that
+** could try to just use a normal usual instead of middle click, but it seems to not be able to move the cursor where it's needed
+** maybe [[Vim]] understands some more mouse buttons??
+* also have to take care of other modes: visual, etc

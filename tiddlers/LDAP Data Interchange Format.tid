@@ -1,0 +1,20 @@
+created: 20221025104244396
+modified: 20221025105149199
+tags: LDAP Stub
+title: LDAP Data Interchange Format
+tmap.id: 418b389e-48b1-4f83-a13f-8d22a1cd0228
+type: text/vnd.tiddlywiki
+
+''AKA LDIF''
+
+https://en.wikipedia.org/wiki/LDAP_Data_Interchange_Format
+
+https://datatracker.ietf.org/doc/html/rfc2849
+
+''Example:''
+
+```
+dn: cn=The Postmaster,dc=example,dc=com
+objectClass: organizationalRole
+cn: The Postmaster
+```

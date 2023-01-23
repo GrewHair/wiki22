@@ -1,0 +1,12 @@
+created: 20221024094153988
+modified: 20221024094456473
+tags: Python [[WTF is This?]]
+title: Pexpect
+tmap.id: c1c1fc58-9b07-47c2-b476-15226de3d2dd
+type: text/vnd.tiddlywiki
+
+https://pexpect.readthedocs.io/en/stable/
+
+[[xxh]] mentioned this when failing :)
+
+It's some [[Python]] library for automating interactive (as in keyboard-interactive) applications like `ssh`, `passwd`, etc.

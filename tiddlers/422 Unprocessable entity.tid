@@ -1,0 +1,17 @@
+created: 20220825123827169
+modified: 20220825124103746
+tags: HTTP Stub
+title: 422 Unprocessable entity
+tmap.id: 0034e1e7-2eed-4342-9e4b-648c37d7d3fa
+type: text/vnd.tiddlywiki
+
+It means:
+
+* the server understands the content type of the request entity
+* the syntax of the request entity is correct
+
+But
+
+* it was unable to process the contained instructions
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422

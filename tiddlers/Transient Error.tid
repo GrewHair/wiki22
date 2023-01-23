@@ -1,0 +1,10 @@
+created: 20230114204148510
+modified: 20230114204327324
+tags: Computing Programming Stub
+title: Transient Error
+tmap.id: c921ce4f-4a7f-489f-ad77-456363ee8bb9
+type: text/vnd.tiddlywiki
+
+https://www.acodersjourney.com/transient-fault-handling-application-block/
+
+Found it in `man curl`, under the `--retry` flag.

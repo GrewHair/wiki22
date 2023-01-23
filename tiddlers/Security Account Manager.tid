@@ -1,5 +1,5 @@
 created: 20211019135234814
-modified: 20211019135505143
+modified: 20221024141132275
 tags: Windows Stub
 title: Security Account Manager
 tmap.id: 6b6b56e0-9fc1-4ee1-b55c-176a231c85f2
@@ -8,5 +8,7 @@ type: text/vnd.tiddlywiki
 ''AKA SAM''
 
 [[SAM|Security Account Manager]] is a [[database|Database]] file in [[Windows]] XP, Vista, 7, 8.1, and 10, that stores users' passwords.
+
+https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc756748(v=ws.10)?redirectedfrom=MSDN
 
 https://en.wikipedia.org/wiki/Security_Account_Manager

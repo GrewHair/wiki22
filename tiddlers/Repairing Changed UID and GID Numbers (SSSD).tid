@@ -1,0 +1,10 @@
+created: 20221026124918537
+modified: 20221026125238457
+tags: Security Linux SSSD Stub
+title: Repairing Changed UID and GID Numbers (SSSD)
+tmap.id: b36192b7-f465-4365-bd9a-d112a58e63b5
+type: text/vnd.tiddlywiki
+
+https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/linux_domain_identity_authentication_and_policy_guide/sssd-system-uids
+
+https://docs.fedoraproject.org/en-US/Fedora/18/html/System_Administrators_Guide/sssd-cache.html

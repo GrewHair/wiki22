@@ -1,0 +1,17 @@
+created: 20220929100746283
+modified: 20220929113329297
+tags: [[Web Development]] [[Software Architecture]]
+title: LAMP Stack
+tmap.id: 23ec7fee-2609-4b79-88cd-4b1e8ae2060d
+type: text/vnd.tiddlywiki
+
+* [[Linux]]
+* [[Apache|Apache Httpd]]
+* [[MySQL]]/[[mSQL]]
+* [[PHP]]/[[Perl]]/[[Python]]
+
+The term was coined by Michael Kunze in an article for the German computing magazine c't in April 1998.
+
+[[O'Reilly]] and [[MySQL AB]] have made the term popular among English-speakers.
+
+https://www.marpis.net/lamp-history.php

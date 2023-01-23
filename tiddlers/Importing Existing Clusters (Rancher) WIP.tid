@@ -1,0 +1,12 @@
+created: 20221116153959789
+modified: 20221116154543919
+tags: Rancher WIP
+title: Importing Existing Clusters (Rancher) WIP
+tmap.id: 372f8d62-0d50-4f0b-995f-fa82dc5e7784
+type: text/vnd.tiddlywiki
+
+https://www.rancher.co.jp/docs/rancher/v2.x/en/cluster-provisioning/imported-clusters/
+
+https://docs.ranchermanager.rancher.io/v2.0-v2.4/how-to-guides/new-user-guides/kubernetes-clusters-in-rancher-setup/import-existing-clusters
+
+After you've just installed [[Rancher]] using [[Helm]], in "clusters" it shows a cluster named `local`, and it says that the `Provider` is "imported".. My guess is that it means that [[Rancher]] has automatically imported the cluster it hsa been installed on in order to be able to manage it.

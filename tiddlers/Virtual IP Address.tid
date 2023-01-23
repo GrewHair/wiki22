@@ -1,0 +1,12 @@
+created: 20221029203020768
+modified: 20221029203519022
+tags: Networking [[Cluster Computing]]
+title: Virtual IP Address
+tmap.id: cedb04b3-314c-4943-9152-8bff91813a33
+type: text/vnd.tiddlywiki
+
+''AKA VIP, VIPA''
+
+A [[Virtual IP Address]] is an [[IP Address]] that does not correspond to a physical [[Network Interface]].
+
+https://en.wikipedia.org/wiki/Virtual_IP_address

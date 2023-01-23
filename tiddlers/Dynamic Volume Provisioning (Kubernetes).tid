@@ -1,0 +1,8 @@
+created: 20221213133144964
+modified: 20221213133225520
+tags: K8s Stub
+title: Dynamic Volume Provisioning (Kubernetes)
+tmap.id: d906bc92-9018-4995-accd-d5c9b84a9c53
+type: text/vnd.tiddlywiki
+
+https://kubernetes.io/docs/concepts/storage/dynamic-provisioning/

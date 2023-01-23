@@ -1,0 +1,16 @@
+created: 20230114214407990
+modified: 20230114215000179
+tags: Networking
+title: Happy Eyeballs
+tmap.id: 26175c3d-3fb9-47e1-b7ae-a3c579b3d219
+type: text/vnd.tiddlywiki
+
+''AKA Fast Fallback''
+
+[[Happy Eyeballs]] is an algorithm published by [[IETF|Internet Engineering Task Force]] that makes [[Dual-Stack]] applications more responsive.
+
+https://en.wikipedia.org/wiki/Happy_Eyeballs
+
+https://www.youtube.com/watch?v=s0TNGC9GP48
+
+Found it in `man curl`

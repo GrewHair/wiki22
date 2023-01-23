@@ -1,0 +1,14 @@
+created: 20221025082257185
+modified: 20221025101349787
+tags: Security [[Red Hat]]
+title: Keycloak
+tmap.id: ec5594f8-5e69-4ff5-bc75-cf682813636e
+type: text/vnd.tiddlywiki
+
+[[Keycloak]] is an [[Open Source Software]] product to allow [[SSO|Single Sign-on]] with [[IAM|Identity and Access Management]] aimed at modern applications and services.
+
+It was developed at [[Red Hat]].
+
+From what I understand, it's a part of [[OpenShift]]..
+
+https://en.wikipedia.org/wiki/Keycloak

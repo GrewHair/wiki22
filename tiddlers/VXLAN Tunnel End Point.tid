@@ -1,0 +1,10 @@
+created: 20221124103307306
+modified: 20221124103431156
+tags: Networking Stub
+title: VXLAN Tunnel End Point
+tmap.id: c8088ab7-72bd-4cc0-9d1e-d860f3a7843f
+type: text/vnd.tiddlywiki
+
+''AKA VTEP''
+
+https://networklessons.com/cisco/ccnp-encor-350-401/introduction-to-virtual-extensible-lan-vxlan#VTEP

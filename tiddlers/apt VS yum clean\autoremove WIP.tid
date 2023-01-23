@@ -1,0 +1,16 @@
+created: 20221022112038743
+modified: 20221022112329174
+tags: Linux WIP Stub
+title: apt VS yum clean\autoremove WIP
+tmap.id: 8ec9224c-b243-4860-a325-09f8ed0cac7d
+type: text/vnd.tiddlywiki
+
+https://askubuntu.com/questions/144222/how-do-apt-get-clean-and-apt-get-clean-all-differ
+
+https://linuxhint.com/why_apt_get_clean/
+
+nothing really useful here yet...
+
+there's `yum clean all`... google it.
+
+https://www.thegeekdiary.com/yum-clean-all-not-clearing-yum-repository-cache-in-centos-rhel-oel/

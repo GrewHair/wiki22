@@ -1,0 +1,18 @@
+created: 20220817193823781
+modified: 20220817194221227
+tags: [[Couldn't Google It]] [[Distributed Computing]] Stub
+title: Distributed Configuration Store
+tmap.id: 6f79134b-9fee-4da8-aa7a-a664ad433a6b
+type: text/vnd.tiddlywiki
+
+''AKA DCS''
+
+https://patroni.readthedocs.io/en/latest/dynamic_configuration.html
+
+https://sysgears.com/articles/managing-configuration-of-distributed-system-with-apache-zookeeper/
+
+Found it here:
+
+https://youtu.be/o5ZiXUnASL0?t=487
+
+Perhaps, [[etcd]] is an example of this thing..

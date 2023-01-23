@@ -1,0 +1,10 @@
+created: 20220919134218504
+modified: 20220919143320866
+tags: Ansible Linux Stub
+title: Installing Ansible: Distro Package Mgr vs Pip
+tmap.id: 29771bf9-8154-4ca3-b7d0-2c2a90021b19
+type: text/vnd.tiddlywiki
+
+https://stackoverflow.com/questions/6874527/what-is-the-difference-between-installing-a-package-using-pip-vs-apt-get
+
+https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html

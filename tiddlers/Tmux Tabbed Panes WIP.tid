@@ -1,0 +1,18 @@
+created: 20221026123715043
+modified: 20221026124159880
+tags: Tmux WIP
+title: Tmux Tabbed Panes WIP
+tmap.id: 09101ec4-cb3a-48fd-9b6d-65d70cc1a371
+type: text/vnd.tiddlywiki
+
+https://news.ycombinator.com/item?id=25740217
+
+https://unix.stackexchange.com/questions/105424/mirroring-a-pane-between-two-windows
+
+Not really related, but veeery interesting (about ssh config):
+
+https://lhote.me/posts/tmux-duplicate-pane/
+
+Also might be of some use:
+
+https://dev.to/waylonwalker/catch-yourself-before-you-duplicate-session-5936

@@ -1,0 +1,16 @@
+created: 20221017113537148
+modified: 20221017131447464
+tags: Linux [[Software Packaging]] Stub
+title: Android Package
+tmap.id: 6878411e-83f1-456c-baf0-3eafc3564dac
+type: text/vnd.tiddlywiki
+
+''AKA Android Package Kit, Android Application Package, APK''
+
+''NTBCW: [[Alpine Package Keeper]]''
+
+While on [[Alpine|Alpine Linux]] you do `apk install`, on [[Android]] you do `pkg install`!
+
+https://www.makeuseof.com/tag/what-is-apk-file/
+
+https://en.wikipedia.org/wiki/Apk_(file_format)

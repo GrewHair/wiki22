@@ -1,0 +1,10 @@
+created: 20221116162536752
+modified: 20221116162626770
+tags: Rancher Stub
+title: Roles for Nodes in Kubernetes (Rancher)
+tmap.id: bc29cc34-b363-4667-8fd6-41818d827bc6
+type: text/vnd.tiddlywiki
+
+''AKA Node Role''
+
+https://docs.ranchermanager.rancher.io/v2.5/how-to-guides/new-user-guides/kubernetes-clusters-in-rancher-setup/checklist-for-production-ready-clusters/roles-for-nodes-in-kubernetes

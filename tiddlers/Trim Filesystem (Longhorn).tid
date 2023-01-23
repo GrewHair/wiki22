@@ -1,0 +1,10 @@
+created: 20230111113942448
+modified: 20230111114102569
+tags: Longhorn Storage
+title: Trim Filesystem (Longhorn)
+tmap.id: 48a2541f-c534-4fd8-a297-63013942142f
+type: text/vnd.tiddlywiki
+
+Introduced in v1.4...
+
+https://longhorn.io/docs/1.4.0/volumes-and-nodes/trim-filesystem/

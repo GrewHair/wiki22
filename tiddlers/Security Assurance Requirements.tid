@@ -1,0 +1,14 @@
+created: 20220928083228131
+modified: 20220928092712530
+tags: Security [[ISO Standards]]
+title: Security Assurance Requirements
+tmap.id: 75db82ab-1c79-4f58-8b06-ba2bd7d93662
+type: text/vnd.tiddlywiki
+
+''AKA SAR''
+
+[[SAR|Security Assurance Requirements]] used by the [[Common Criteria]] provides descriptions of the measures taken during  development and evaluation of the product to assure compliance with the claimed [[SFR|Security Functional Requirements]].
+
+For example, an evaluation may require that all source code is kept in a change management system, or that full functional testing is performed. The [[Common Criteria]] provides a catalogue of these, and the requirements may vary from one evaluation to the next. The requirements for particular targets or types are documented in the [[ST|Security Target]] and [[PP|Protection Profile]], respectively.
+
+https://ldapwiki.com/wiki/Security%20Assurance%20Requirement

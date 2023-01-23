@@ -1,0 +1,10 @@
+created: 20220907105034469
+modified: 20220907105200003
+tags: [[WTF is This?]] Gitlab K8s WIP
+title: Gitlab agent server for Kubernetes
+tmap.id: 7042233f-ba6d-474b-b550-48eb9bc27718
+type: text/vnd.tiddlywiki
+
+''AKA KAS''
+
+https://docs.gitlab.com/ee/administration/clusters/kas.html

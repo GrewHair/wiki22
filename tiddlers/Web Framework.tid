@@ -1,0 +1,29 @@
+created: 20220905085521040
+modified: 20220905090646515
+tags: [[Web Development]] Stub
+title: Web Framework
+tmap.id: db95779c-597e-4760-9f4b-0ec86e6ecb78
+type: text/vnd.tiddlywiki
+
+''AKA WF, Web Application Framework, WAF''
+
+* ''Server-side''
+** [[ASP.NET]]
+** [[Django]]
+** [[Flask]]
+** [[Ruby on Rails]]
+** [[Spring MVC]]
+** ...
+
+* ''Client-side'' ([[SPA|Single-page Application]])
+** [[Vue.js]]
+** [[ReactJS]]
+** [[jQuery]]
+** [[Angular]]
+** ...
+
+* ''Discussion forums, wikis and weblogs''
+** [[WikiWikiWeb]]
+** ...
+
+https://en.wikipedia.org/wiki/Web_framework

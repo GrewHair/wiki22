@@ -1,0 +1,10 @@
+created: 20230103073133352
+modified: 20230103073256272
+tags: Jenkins
+title: It appears that your reverse proxy setup is broken (Jenkins)
+tmap.id: 0ec6a02d-e70a-4652-8999-1cf7d7f53295
+type: text/vnd.tiddlywiki
+
+https://www.jenkins.io/doc/book/system-administration/reverse-proxy-configuration-troubleshooting/
+
+Most likely, you simply need to check "Jenkins URL" in "Manage Jenkins".

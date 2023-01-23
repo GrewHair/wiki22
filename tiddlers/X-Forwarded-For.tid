@@ -1,0 +1,18 @@
+created: 20221108143237093
+modified: 20221109065604133
+tags: HTTP Stub
+title: X-Forwarded-For
+tmap.id: 29657234-9daa-47d5-801b-918279fd45c2
+type: text/vnd.tiddlywiki
+
+''AKA XFF''
+
+It's a header used to identify originating [[IP Address]] of a [[client|Client]] connecting to a [[Web Server]] through a proxy or a load balancer.
+
+Without it, the [[IP|IP Address]] is masked.
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For
+
+https://en.wikipedia.org/wiki/X-Forwarded-For
+
+https://support.stackpath.com/hc/en-us/articles/360021658292-All-About-X-Forwarded-For

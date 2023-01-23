@@ -1,0 +1,12 @@
+created: 20220729140338183
+modified: 20220729140613341
+tags: [[HTTP Headers]] Security
+title: Strict-Transport-Security
+tmap.id: a1ff0acb-2b33-4827-beb5-939d3f206846
+type: text/vnd.tiddlywiki
+
+''AKA HSTS''
+
+It informs browsers that the [[site|Website]] should only be accessed via [[HTTPS]].
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security

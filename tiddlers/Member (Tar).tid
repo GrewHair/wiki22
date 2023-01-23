@@ -1,0 +1,8 @@
+created: 20221229150626225
+modified: 20221229150807589
+tags: Linux tar
+title: Member (Tar)
+tmap.id: 3f7a0df4-2194-4a1c-a3b5-ae0a678d6e24
+type: text/vnd.tiddlywiki
+
+The files inside a [[Tar|GNU Tar]] archive are called [[members|Member (Tar)]].

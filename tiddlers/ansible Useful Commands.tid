@@ -1,0 +1,8 @@
+created: 20220930123310863
+modified: 20220930123538039
+tags: Ansible
+title: ansible Useful Commands
+tmap.id: 73c462a5-691d-487d-b3a5-06d2f5ee46bb
+type: text/vnd.tiddlywiki
+
+* `ansible-galaxy collection list` - list installed collections, [[source|https://www.cyberciti.biz/faq/see-check-if-ansible-collection-is-installed-not-command/]]

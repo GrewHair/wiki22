@@ -1,0 +1,16 @@
+created: 20230107162934838
+modified: 20230107205814828
+tags: SSH Security WIP OpenSSH
+title: SSH Bastion Host
+tmap.id: f07bf01d-251e-440b-88ec-d6a4274c8500
+type: text/vnd.tiddlywiki
+
+''AKA Jump Host''
+
+https://www.youtube.com/watch?v=EpFAHis4O4g
+
+https://www.youtube.com/watch?v=SjvAoL8iiQs
+
+This all has smth to do with ssh's `-A` and `-W` flags...
+
+Also there's a `-J` flag... [[(source)|https://www.youtube.com/watch?v=KIeBC7NIzj4]]

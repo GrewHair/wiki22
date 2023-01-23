@@ -1,11 +1,11 @@
 created: 20211019141508196
-modified: 20211019142654427
+modified: 20221024153125854
 tags: [[Active Directory]] Windows
 title: User Principal Name
 tmap.id: e4ce058d-b523-4786-ba9c-ccf5f62fee57
 type: text/vnd.tiddlywiki
 
-''AKA UPN''
+''AKA UPN, User logon name''
 
 [[UPN|User Principal Name]] is used to specify an internet-style name, the format is:
 
@@ -24,3 +24,5 @@ where:
 Because of its format, [[UPN|User Principal Name]] can be easily confused with an [[Email Address]], which is by design: the idea is if a company manages to keep the [[UPNs|User Principal Name]] and [[Email Addresses|Email Address]] of its employees one and the same, there will be only one thing for the employees to memorize - however not being aware of this distinction may potentially lead to confusion, because a [[UPN|User Principal Name]] and an [[Email Address]] //can easily// be different.
 
 https://docs.microsoft.com/en-us/windows/win32/secauthn/user-name-formats#user-principal-name
+
+[[Microsoft]] borrowed the terminology from [[Kerberos]]: //User Principal Name// is a [[Kerberos]] concept. I guess it entered [[AD|Active Directory]] the same moment it adopted [[Kerberos]]... ??

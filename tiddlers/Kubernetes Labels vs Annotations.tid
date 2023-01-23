@@ -1,0 +1,17 @@
+created: 20221220144529383
+modified: 20221220145338164
+tags: K8s
+title: Kubernetes Labels vs Annotations
+tmap.id: b3efbe82-f491-4ff1-905f-a91688ba51b3
+type: text/vnd.tiddlywiki
+
+* As per official doc:
+** [[Labels|Labels (Kubernetes)]] are for searching
+** [[Annotations|Annotations (Kubernetes)]] are for [[Non-identifying Information]]
+* As per [[this blogpost|https://blog.getambassador.io/kubernetes-labels-vs-annotations-95fc47196b6d]]:
+** [[Labels|Labels (kubernetes)]] are for [[kubernetes]]
+** [[Annotations|Annotations (Kubernetes)]] are for humans
+* What I think:
+** [[Labels|Labels (kubernetes)]] have restricted length
+** [[Annotations|Annotations (Kubernetes)]] have it unrestricted
+** [[Annotations|Annotations (Kubernetes)]] are sometimes used for configuration, e.g. [[here|https://docs.nginx.com/nginx-ingress-controller/configuration/ingress-resources/advanced-configuration-with-annotations/]]

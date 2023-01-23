@@ -1,0 +1,16 @@
+created: 20220928075516315
+modified: 20220928093847578
+tags: Security [[ISO Standards]]
+title: Controlled Access Protection Profile
+tmap.id: 924953d1-1a8c-4507-882c-10c9e998b33e
+type: text/vnd.tiddlywiki
+
+''AKA CAPP''
+
+[[CAPP|Controlled Access Protection Profile]] is a [[Common Criteria]] [[Security]] [[profile|Protection Profile]] that specifies a set of [[functional|Security Functional Requirements]] and [[assurance|Security Assurance Requirements]] requirements for information technology products.
+
+ [[CAPP|Controlled Access Protection Profile]] was derived from the requirements of the C2 class of the [[DoD|United States Department of Defence]] [[TCSEC|Trusted Computer System Evaluation Criteria]] and the material upon which those requirements are based.
+
+https://en.wikipedia.org/wiki/Controlled_Access_Protection_Profile
+
+https://www.commoncriteriaportal.org/files/ppfiles/capp.pdf

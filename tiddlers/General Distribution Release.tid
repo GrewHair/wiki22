@@ -1,0 +1,12 @@
+created: 20220809120342047
+modified: 20220809120702480
+tags: Microsoft Security [[Software Maintenance]] [[WTF is This?]]
+title: General Distribution Release
+tmap.id: bbb37001-6514-47c7-8e9d-b4b7581489c4
+type: text/vnd.tiddlywiki
+
+''AKA GDR''
+
+https://docs.microsoft.com/en-us/answers/questions/259959/cumulative-update-vs-gdr.html
+
+It's often contrasted to [[CU|Cumulative Update]], which is something like a [[Hotfix]] in [[Microsoft]] world..

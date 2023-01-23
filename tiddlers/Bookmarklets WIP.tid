@@ -1,0 +1,26 @@
+created: 20221105124144684
+modified: 20221109064848184
+tags: [[Web Browsers]]
+title: Bookmarklets WIP
+tmap.id: 27d7564b-a857-42bb-b33b-a93785643713
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/Bookmarklet
+
+On [[Android]]:
+
+https://paul.kinlan.me/use-bookmarklets-on-chrome-on-android/
+
+(you don't have [[SurfingKeys]] on [[Android]], so here goes...)
+
+Useful bookmarklets:
+
+https://forum.vivaldi.net/topic/54337/guide-useful-bookmarklets
+
+[[Vivaldi]] bookmarklet problem:
+
+https://forum.vivaldi.net/topic/31077/bookmarklets-do-not-work-in-vivaldi-2-0
+
+https://www.reddit.com/r/vivaldibrowser/comments/s5xtai/bookmarklet/
+
+https://ctrlq.org/ios/?pocket#javascript:(function(){ISRIL_H='11f7';PKT_D='getpocket.com';ISRIL_SCRIPT=document.createElement('SCRIPT');ISRIL_SCRIPT.type='text/javascript';ISRIL_SCRIPT.src='http://'+PKT_D+'/b/r.js';document.getElementsByTagName('head')[0].appendChild(ISRIL_SCRIPT)})();

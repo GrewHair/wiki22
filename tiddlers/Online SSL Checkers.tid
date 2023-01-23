@@ -1,0 +1,12 @@
+created: 20220726222009393
+modified: 20220726223053445
+tags: [[Transport Layer Security]] Security Stub
+title: Online SSL Checkers
+tmap.id: bb631dea-b31c-4659-9936-827899045a1c
+type: text/vnd.tiddlywiki
+
+They're handy, but they won't help you if your site is behind a corporate [[VPN|Virtual Private Network]].
+
+https://www.youtube.com/watch?v=Qff03bNLi34&list=PL6huGz2UxCyIosyNEG2qxx9BBGYFZGX_G&index=2
+
+https://www.sslshopper.com/

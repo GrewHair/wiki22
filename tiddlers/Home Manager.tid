@@ -1,0 +1,14 @@
+created: 20221101072628105
+modified: 20221101072900025
+tags: Linux NisOS
+title: Home Manager
+tmap.id: ac5275ff-a51b-4154-bb1e-4492c221e392
+type: text/vnd.tiddlywiki
+
+It's something like a [[NixOS]] analogue of [[Stow|GNU Stow]] and more..
+
+https://alexpearce.me/2021/07/managing-dotfiles-with-nix/
+
+Found it here:
+
+https://www.reddit.com/r/neovim/comments/vyqcny/treesitter_uv_dlopen_libstdcso6_problem_on_wsl/

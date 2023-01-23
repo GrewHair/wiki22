@@ -1,0 +1,14 @@
+created: 20220930103250961
+modified: 20220930103602248
+tags: K8s [[WTF is This?]]
+title: Cable (Submariner)
+tmap.id: 428d5871-0550-41d8-8d6e-90d81412d20b
+type: text/vnd.tiddlywiki
+
+It's something inside [[Submariner]]...
+
+https://submariner.io/getting-started/architecture/gateway-engine/
+
+This might be pretty interesting:
+
+https://www.youtube.com/watch?v=VMlgLM9-mCk

@@ -1,0 +1,10 @@
+created: 20220823092639541
+modified: 20220823092913183
+tags: [[Cross-origin Resource Sharing]] Stub
+title: Preflight Request
+tmap.id: 44e60e2a-8584-40e0-a3cb-1f5419bf0415
+type: text/vnd.tiddlywiki
+
+It's a part of [[CORS|Cross-origin Resource Sharing]] whereby you agree with the server on the [[HTTP|Hypertext Transfer Protocol]] method to be used...
+
+https://livebook.manning.com/book/cors-in-action/chapter-4/10

@@ -1,0 +1,12 @@
+created: 20230114211014363
+modified: 20230114211211226
+tags: Linux Unix Stub
+title: Extended File Attributes
+tmap.id: 2e8d28b7-a3e5-4717-9c63-b945e675f6ba
+type: text/vnd.tiddlywiki
+
+AKA XATTR, XATTRs
+
+https://en.wikipedia.org/wiki/Extended_file_attributes
+
+Found it in `man rsync` and `man curl`.

@@ -1,0 +1,12 @@
+created: 20220804093615495
+modified: 20220804093853429
+tags: Microsoft .NET Stub
+title: Strong-named Assembly
+tmap.id: 3a4e0831-7370-4189-bf6a-b23c1d0c15d0
+type: text/vnd.tiddlywiki
+
+Strong-naming an assembly creates a unique identity for the assembly, and can prevent assembly conflicts.
+
+The command line tool is [[sn.exe|Strong Name Tool]].
+
+https://docs.microsoft.com/en-us/dotnet/standard/assembly/strong-named

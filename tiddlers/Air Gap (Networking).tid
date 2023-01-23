@@ -1,0 +1,12 @@
+created: 20221118082629808
+modified: 20221118092516840
+tags: Networking Security Stub K8s
+title: Air Gap (Networking)
+tmap.id: 34eb264f-8b58-4d90-a23e-4645f46caa92
+type: text/vnd.tiddlywiki
+
+An [[Air Gapped|Air Gap (Networking)]] computer doesn't have any [[Network Interface]] whatsoever - or at least has it permanently disabled.
+
+https://en.wikipedia.org/wiki/Air_gap_(networking)
+
+https://ibm.github.io/kubernetes-networking/vpc/airgap/

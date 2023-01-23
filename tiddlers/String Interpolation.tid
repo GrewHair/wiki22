@@ -1,0 +1,18 @@
+created: 20230105141530255
+modified: 20230105142050839
+tags: Programming Python
+title: String Interpolation
+tmap.id: 5a6fad05-736b-47e1-a4a7-d8a5cd720fb6
+type: text/vnd.tiddlywiki
+
+```python
+# concatenation (BAD)
+msg = "Hi I'm " + name + " and I am " + str(age) + " years old."
+
+# string interpolation (GOOD)
+msg = "Hi I'm {name} and I am {age} years old.".format(name=name, age=age)
+
+# string interpolation (short)
+msg = "Hi I'm {} and I am {} years old.".format(name, age)
+```
+https://www.youtube.com/watch?v=0q8spKeh1Kc

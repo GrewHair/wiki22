@@ -1,0 +1,16 @@
+created: 20221216202824895
+modified: 20221216235353836
+tags: Vim WIP
+title: Vim Matching and Highlight Groups WIP
+tmap.id: 8655db7d-c1c1-4607-80d0-2ab694bdc978
+type: text/vnd.tiddlywiki
+
+https://lardcave.net/text/Highlighting%20arbitrary%20lines%20in%20Vim.html
+
+https://stackoverflow.com/questions/23734601/highlight-only-first-match
+
+https://stackoverflow.com/questions/18931139/how-to-make-symbols-in-vim-highlighted
+
+Matching based on marks:
+
+https://stackoverflow.com/questions/45329180/vim-match-a-mark-in-regexp

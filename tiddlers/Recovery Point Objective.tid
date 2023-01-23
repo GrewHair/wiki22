@@ -1,5 +1,5 @@
 created: 20211011184827305
-modified: 20211011185236136
+modified: 20220817192612168
 tags: [[Disaster Recovery]] [[IT Risk Management]] ITIL
 title: Recovery Point Objective
 tmap.id: 3455d254-82e8-42f8-8cb0-a33864c80ea0
@@ -10,3 +10,7 @@ type: text/vnd.tiddlywiki
 A [[Recovery Point Objective]] is the maximum targeted period in which data (transactions) might be lost from an IT service due to a major [[Incident|Incident (ITIL)]].
 
 https://en.wikipedia.org/wiki/Disaster_recovery#Recovery_Point_Objective
+
+In plain english it means how many minutes/hours/etc of transactions can you tolerate to lose.
+
+Ideally it's 0.

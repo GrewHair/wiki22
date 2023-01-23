@@ -1,0 +1,16 @@
+created: 20220930100735505
+modified: 20220930101250537
+tags: WIP K8s [[Badly Named]]
+title: Kubernetes Pod CIDR vs Service CIDR WIP
+tmap.id: 6a4f5cfd-ff33-47bb-8a76-cd8f32994474
+type: text/vnd.tiddlywiki
+
+https://stackoverflow.com/questions/45903123/kubernetes-set-service-cidr-and-pod-cidr-the-same
+
+https://discuss.kubernetes.io/t/can-pod-network-cidr-and-service-cidr-overlap-outside-cluster-intranet-ips/1476
+
+https://youtu.be/qFpZbcA2laM?t=2083
+
+Found it here:
+
+https://youtu.be/2EL5Md5hszA?t=89

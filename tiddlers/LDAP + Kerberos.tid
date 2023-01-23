@@ -1,0 +1,10 @@
+created: 20221024151706387
+modified: 20221024152011044
+tags: Linux Unix Security
+title: LDAP + Kerberos
+tmap.id: cd9d92e1-081d-48de-b8a0-013314cd2e9c
+type: text/vnd.tiddlywiki
+
+https://wiki.debian.org/LDAP/Kerberos
+
+It mentions stuff like `LDAP/PAM` and `LDAP/NSS` - like it's not just linux stuff. Gotta read up on that..

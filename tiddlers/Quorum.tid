@@ -1,0 +1,37 @@
+created: 20221202112641200
+modified: 20221202114801903
+tags: [[Distributed Computing]]
+title: Quorum
+tmap.id: 94b6d57f-6a4e-41c4-b378-b9c2b3048824
+type: text/vnd.tiddlywiki
+
+$$
+(N/2)+1
+$$
+
+|!Managers|![[Quorum]]|!Fault Tolerance|
+|1|1|0|
+|2|2|0|
+|3|2|1|
+|4|3|1|
+|5|3|2|
+|6|4|2|
+|7|4|3|
+|8|5|3|
+|...|...|...|
+
+<br>
+
+''[[Quorum]] in multiple [[AZs|Availability Zone]]:''
+
+|!Manager Nodes|!Distribution|
+|3|1-1-1|
+|5|1-2-2|
+|7|3-2-2|
+|9|3-3-3|
+
+https://en.wikipedia.org/wiki/Quorum
+
+Found it here:
+
+https://www.youtube.com/watch?v=n9VKAKwBj_0

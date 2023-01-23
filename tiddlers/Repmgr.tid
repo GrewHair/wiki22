@@ -1,0 +1,10 @@
+created: 20220908124434748
+modified: 20220908124626008
+tags: Databases [[High Availability]] [[Postgre SQL]] Stub
+title: Repmgr
+tmap.id: e7ce37fd-3c27-4d46-9fab-d13e62a823a9
+type: text/vnd.tiddlywiki
+
+[[Repmgr]] is a tool for [[PostgreSQL|Postgre SQL]] [[replication|Database Replication]] and failover management.
+
+https://wiki.postgresql.org/wiki/Repmgr

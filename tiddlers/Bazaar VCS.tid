@@ -1,0 +1,20 @@
+created: 20221022101539178
+modified: 20221022101919283
+tags: [[WTF is This?]] [[Version Control]]
+title: Bazaar VCS
+tmap.id: efb4b3ac-c015-44f8-a473-ac3aa64f048f
+type: text/vnd.tiddlywiki
+
+''AKA bzr''
+
+It's some [[Canonical]] [[VCS|Version Control System]]...
+
+[[Byobu]] lives there - and in the [[Github]] description we see:
+
+```
+git mirror of upstream bzr at http://launchpad.net/byobu
+```
+
+https://manpages.ubuntu.com/manpages/bionic/man1/bzr.bzr.1.html
+
+https://launchpad.net/bzr

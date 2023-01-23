@@ -1,0 +1,16 @@
+created: 20221011144714162
+modified: 20221011150205408
+tags: systemd
+title: Systemd Invocation ID
+tmap.id: 8354ac9e-f1eb-4124-8f8a-819e64cc11a0
+type: text/vnd.tiddlywiki
+
+https://unix.stackexchange.com/questions/506833/show-journal-logs-from-the-time-a-service-was-restarted
+
+https://github.com/systemd/systemd/commit/4b58153dd22172d817055d2a09a0cdf3f4bd9db3
+
+https://www.freedesktop.org/software/systemd/man/systemd.exec.html#%24INVOCATION_ID
+
+https://www.ajfriesen.com/show-journald-logs-from-last-service-start/
+
+https://serverfault.com/questions/768901/is-there-a-way-to-make-journalctl-show-logs-from-the-last-time-foo-service-ran

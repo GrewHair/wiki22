@@ -1,0 +1,10 @@
+created: 20220913111659434
+modified: 20220913111801104
+tags: Encryption Security Windows Stub
+title: BitLocker
+tmap.id: 6dc4b1f9-91a0-4a08-b834-f0031c3f5e25
+type: text/vnd.tiddlywiki
+
+```shell
+manage-bde -status
+```

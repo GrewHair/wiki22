@@ -1,0 +1,14 @@
+created: 20220915103302787
+modified: 20230111121939072
+tags: [[Hashicorp Vault]] Stub
+title: Installing Hashicorp Vault CLI Client
+tmap.id: 4c5b2fb2-994c-4868-bd21-60654f6a88c6
+type: text/vnd.tiddlywiki
+
+Vault CLI is just a single statically linked binary. Just download it from the website, unzip and put into <$link to="\usr\local\bin">`/usr/local/bin`</$link>.
+
+https://www.idkrtm.com/hashicorp-vault-install-client-cligui/
+
+https://www.vaultproject.io/downloads
+
+https://developer.hashicorp.com/vault/downloads

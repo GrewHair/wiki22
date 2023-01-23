@@ -1,0 +1,18 @@
+created: 20221102112413586
+modified: 20221102115306126
+tags: Jenkins
+title: Implied Plugin Dependencies (Jenkins)
+tmap.id: dcc003c7-11e2-4934-9ace-cbb9b3a561d0
+type: text/vnd.tiddlywiki
+
+<<<
+Features are sometimes detached (or split off) from [[Jenkins Core]] and moved into a plugin. Many plugins, like Subversion or JUnit, started as features of [[Jenkins Core]].
+
+Plugins that depend on a [[Jenkins Core]] version before such a plugin was detached from [[core|Jenkins Core]] may or may not actually use any of its features. To ensure that plugins don't break whenever functionality they depend on is detached from Jenkins core, it is considered to have a dependency on the detached plugin if it declares a dependency on a version of Jenkins core before the split. Since that dependency to the detached plugin is not explicitly specified, it is implied.
+
+Plugins that don't regularly update which Jenkins core version they depend on will accumulate implied dependencies over time.
+<<<
+
+Found it here:
+
+https://plugins.jenkins.io/role-strategy/#dependencies

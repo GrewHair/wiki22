@@ -3,8 +3,8 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20211230103006986
-modified: 20211230103135467
-tags: Philosophy
+modified: 20221102123319418
+tags: Philosophy Humor
 title: Zawinski's Law
 tmap.id: 17b03d06-ff8f-4485-8e11-a6f670b0866f
 type: text/vnd.tiddlywiki

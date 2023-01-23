@@ -1,0 +1,18 @@
+created: 20220913143036944
+modified: 20221225142249109
+tags: Security [[Transport Layer Security]]
+title: Trust Anchor
+tmap.id: e58f3517-58ba-47c7-8316-ab3bd7699a78
+type: text/vnd.tiddlywiki
+
+In cryptographic systems with hierarchical structure, a [[Trust Anchor]] is an authoritative entity for which trust is assumed and not verified.
+
+In [[X.509]] (think [[TLS|Transport Layer Security]]), the [[Root Certificate]] is the [[Trust Anchor]], and the whole [[Chain of Trust]] is derived from it.
+
+https://en.wikipedia.org/wiki/Trust_anchor
+
+https://www.youtube.com/watch?v=l_ZbduoVQqs
+
+Here's a good issue worth reading, with some interesting excursions into LDAP and such:
+
+https://security.stackexchange.com/questions/53991/why-do-public-key-certificate-trust-anchor-does-this-introduce-a-single-point

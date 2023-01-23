@@ -1,0 +1,16 @@
+created: 20221215131321584
+edit-mode: no
+list: [[Timezones: Kiev vs Kyiv]]
+modified: 20221215132659581
+role: comment
+title: Comment by '(anonymous)' on 'Timezones: Kiev vs Kyiv'
+tmap.id: 8065e9c7-d7ee-4314-94f4-5d9d5d98b94b
+type: text/vnd.tiddlywiki
+
+It's generally interesting how the timezone is handled in browsers.. There doesn't seem to be an HTTP header for it, so the handling is not that direct.
+
+Some links that might be useful:
+
+https://www.browserstack.com/guide/change-time-zone-in-chrome-for-testing
+
+https://www.comparitech.com/blog/vpn-privacy/change-location-chrome-firefox-spoof/

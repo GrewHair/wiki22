@@ -1,0 +1,12 @@
+created: 20220722154453703
+modified: 20220722154916333
+tags: [[Amazon Web Services]]
+title: EC2 Purchase Options
+tmap.id: f7677931-0344-441c-b88b-9ecf4a9b37c9
+type: text/vnd.tiddlywiki
+
+* On-Demand
+* Savings Plan
+* Reserved Instances
+* Spot Instances
+* Dedicated Hosts

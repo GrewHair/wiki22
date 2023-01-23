@@ -1,0 +1,10 @@
+created: 20221125095839863
+modified: 20221125095943129
+tags: 
+title: User Account and Authentication Server
+tmap.id: 13d893e7-90a7-49b8-b48b-1f727c716ef6
+type: text/vnd.tiddlywiki
+
+''AKA UAA''
+
+https://docs.cloudfoundry.org/concepts/architecture/uaa.html

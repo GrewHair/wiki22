@@ -1,0 +1,18 @@
+created: 20220928084813162
+modified: 20220928092745118
+tags: Security [[ISO Standards]]
+title: Security Functional Requirements
+tmap.id: 4971dbc0-3a72-46bc-88eb-30e73357d80b
+type: text/vnd.tiddlywiki
+
+''AKA SFR''
+
+[[SFRs|Security Functional Requirements]] are used by the [[Common Criteria]] to specify individual security functions which may be provided by a product.
+
+[[Common Criteria]] presents a standard catalogue of such functions.
+
+For example, an [[SFR|Security Functional Requirements]] may state how a user acting a particular role might be authenticated.
+
+The list of [[SFRs|Security Functional Requirements]] can vary from one evaluation to the next, even if two targets are the same type of product.
+
+Although [[Common Criteria]] doesn't prescribe any [[SFRs|Security Functional Requirements]] to be included in an [[ST|Security Target]], it identifies dependencies where the correct operation of one function (such as the ability to limit access according to roles) is dependent on another (such as the ability to identify individual roles).

@@ -1,0 +1,12 @@
+created: 20220722145955037
+modified: 20220722150237150
+tags: Databases Stub
+title: Online Transaction Processing
+tmap.id: 745805e0-5a6e-45b0-8002-725db588fc2b
+type: text/vnd.tiddlywiki
+
+''AKA OLTP''
+
+Usually contrasted with [[OLAP|Online Analytical Processing]].
+
+https://en.wikipedia.org/wiki/Online_transaction_processing

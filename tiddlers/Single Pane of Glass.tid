@@ -1,0 +1,16 @@
+created: 20221116082438751
+modified: 20221116125423583
+tags: 
+title: Single Pane of Glass
+tmap.id: 57b30e76-0a3f-4b2f-a8f9-8cdecdc716b5
+type: text/vnd.tiddlywiki
+
+''AKA SPOG''
+
+n[[SPOG|Single Pane of Glass]] is a management strategy that looks for ways to manage a complex digital system from a single executive dashboard.
+
+https://www.techopedia.com/definition/32235/single-pane-of-glass
+
+[[Rancher]] claims to be implementing it:
+
+https://docs.ranchermanager.rancher.io/getting-started/overview

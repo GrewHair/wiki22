@@ -1,0 +1,9 @@
+created: 20221228121613549
+modified: 20221228122612485
+tags: Vim Linux [[System Administration]]
+title: vim.basic vs vim.tiny
+tmap.id: 6ff8caa2-4bbb-4e52-aa1e-7488de7d97e6
+type: text/vnd.tiddlywiki
+
+* `vim.basic` is just regular [[Vim]]
+* `vim.tiny` is a tiny version. It used to matter in the 2000s, where space was a concern. Not anymore. [[(source)|https://www.reddit.com/r/linux/comments/cb7mfl/if_ubuntu_is_a_beginner_friendly_distro_why_does/]]

@@ -1,0 +1,69 @@
+created: 20230110082904770
+modified: 20230110083020704
+tags: ChatGPT
+title: Storing Jenkins secrets Directory in Hashicorp Vault/Q: Retrieval Script
+tmap.id: 6b8d92fc-43c1-47c3-ace2-e212a96832c9
+type: text/vnd.tiddlywiki
+
+''Q Could you write a sample bash script that would retrieve the needed secrets from Vault and write them into appropriate files inside the jenkins home directory?''
+
+Certainly! Here is a sample bash script that retrieves secrets from Vault and writes them to files in the Jenkins home directory:
+
+```bash
+#!/bin/bash
+
+# Set the path to the Jenkins secrets directory
+SECRETS_DIR="${JENKINS_HOME}/secrets"
+
+# Set the Vault path where the secrets are stored
+VAULT_PATH="secret/jenkins"
+
+# Set the Vault role for the Jenkins instance
+VAULT_ROLE="jenkins"
+
+# Authenticate to Vault using the Jenkins approle
+VAULT_TOKEN=$(curl -s \
+  --request POST \
+  --data "{\"role_id\":\"$VAULT_APP_ROLE_ID\",\"secret_id\":\"$VAULT_APP_SECRET_ID\"}" \
+  "$VAULT_ADDR/v1/auth/approle/login" | jq -r .auth.client_token)
+
+# Check for a successful authentication
+if [[ -z "$VAULT_TOKEN" ]]; then
+  echo "Error authenticating to Vault"
+  exit 1
+fi
+
+# Read the secrets from Vault
+secrets=$(curl -s \
+  --header "X-Vault-Token: $VAULT_TOKEN" \
+  "$VAULT_ADDR/v1/$VAULT_PATH")
+
+# Check for a successful read
+if [[ "$secrets" == "null" ]]; then
+  echo "Error reading secrets from Vault"
+  exit 1
+fi
+
+# Create the Jenkins secrets directory if it doesn't exist
+if [[ ! -d "$SECRETS_DIR" ]]; then
+  mkdir "$SECRETS_DIR"
+fi
+
+# Write the secrets to files in the Jenkins secrets directory
+for secret in $(echo "$secrets" | jq -r .data | jq -r to_entries | jq -r '.[] | .key'); do
+  value=$(echo "$secrets" | jq -r .data | jq -r ".$secret")
+  echo "$value" > "$SECRETS_DIR/$secret"
+done
+```
+
+This script authenticates to Vault using the Jenkins approle and reads the secrets stored at the specified Vault path. It then creates the Jenkins secrets directory if it doesn't already exist and writes the secrets to files in that directory.
+
+To use this script, you will need to set the following variables:
+
+* `VAULT_APP_ROLE_ID`: The approle role ID for the Jenkins instance.
+* `VAULT_APP_SECRET_ID`: The approle secret ID for the Jenkins instance.
+* `VAULT_ADDR`: The address of the Vault server.
+
+You will also need to modify the `VAULT_PATH` and `VAULT_ROLE` variables to reflect the path in Vault where the secrets are stored and the role that the Jenkins instance should assume when reading the secrets.
+
+I hope this helps! Let me know if you have any questions.

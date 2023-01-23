@@ -1,0 +1,12 @@
+created: 20220822074450411
+modified: 20220822075519247
+tags: Stub [[Postgre SQL]]
+title: Replication Slots
+tmap.id: 01a45501-4c1e-45a0-b373-f84904b97903
+type: text/vnd.tiddlywiki
+
+```sql
+SELECT * FROM pg_replication_slots;
+```
+
+https://hevodata.com/learn/postgresql-replication-slots/

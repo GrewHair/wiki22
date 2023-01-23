@@ -1,0 +1,18 @@
+created: 20220724163721429
+modified: 20220724163924183
+tags: Networking [[WTF is This?]]
+title: Global Unicast Address
+tmap.id: 00c2e707-dda4-431b-bffb-06441cbb45c1
+type: text/vnd.tiddlywiki
+
+''AKA GUA''
+
+https://study-ccna.com/ipv6-global-unicast-addresses/
+
+https://en.wikipedia.org/wiki/IPv6_address#General_allocation
+
+https://docs.oracle.com/cd/E19120-01/open.solaris/819-3000/ipv6-overview-130/index.html
+
+Found it here:
+
+https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html

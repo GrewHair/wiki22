@@ -1,0 +1,14 @@
+created: 20220820193826789
+modified: 20220820195105587
+tags: Unix Linux Stub
+title: reset
+tmap.id: d4c953bc-95be-48f7-89f7-04f09202a053
+type: text/vnd.tiddlywiki
+
+This fixes gibberish characters that sometimes appear after you [[cat]] a binary. This tends to happen e.g. in hypervisor consoles.
+
+```bash
+reset
+```
+
+https://unix.stackexchange.com/questions/79684/fix-terminal-after-displaying-a-binary-file

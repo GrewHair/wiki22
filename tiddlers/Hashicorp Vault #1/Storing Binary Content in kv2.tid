@@ -1,0 +1,15 @@
+created: 20230110124330927
+modified: 20230110124641648
+tags: ChatGPT
+title: Hashicorp Vault #1/Storing Binary Content in kv2
+tmap.id: c774f60a-445a-4d54-8848-dcac87a85875
+type: text/vnd.tiddlywiki
+
+''Q: Hi! Is it ok to store contents of binary files in Hashicorp Vault as values using the kv2 engine?''
+
+Yes, it is possible to store the contents of binary files in Hashicorp Vault as values using the kv2 engine. However, keep in mind that the maximum size of a value that can be stored in the KV store is 4MB. If you need to store larger files, you may want to consider storing them on a remote file system and storing a reference to the file in Vault instead.
+
+It's also important to note that when you are storing sensitive data like binary files, you should consider encrypting the data before storing it in Vault. Hashicorp Vault provide data-encryption-at-rest feature that allows you to encrypt the data stored in the KV store, using a variety of encryption algorithms such as AES-256-GCM.
+Additionally, It is highly recommended to use Approle or cubbyhole authentication for your secret's access to avoid any accidental data leak.
+
+Also, to store binary files in hashicorp vault, it is better to convert the binary file into base64 encoded string before saving it in vault. As vault only support string values in its KV store.

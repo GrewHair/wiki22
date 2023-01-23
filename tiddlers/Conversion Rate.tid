@@ -1,0 +1,28 @@
+created: 20220908105416766
+modified: 20220908110722281
+tags: [[Digital Marketing]] Stub
+title: Conversion Rate
+tmap.id: 4e4ae246-9533-4893-9848-742149cd84aa
+type: text/vnd.tiddlywiki
+
+[[Conversion Rate]] is the proportion of visitors to a [[Website]] who take action to go beyond a casual content view or website visit, as a result from subtle or direct requests from marketers.
+
+$$
+\text{Conversion rate} = \frac{\text{Number of Goal Achievements}}{\text{Visitors}}
+$$
+
+https://en.wikipedia.org/wiki/Conversion_marketing#Conversion_rate
+
+Found it here:
+
+https://pages.awscloud.com/GLB-WBNR-AWS-OTT-2021_LP_0003-DAT_AmazonElastiCache.html
+
+<<<.tc-big-quote
+A 100-millisecond delay in [[website|Website]] load time can hurt [[conversion rates|Conversion Rate]] by 7 percent
+<<<
+
+2017 [[Akamai]] Study
+
+<br>
+
+This has to do with [[μs is the new ms]]..

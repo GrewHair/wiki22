@@ -1,0 +1,10 @@
+created: 20220722182917109
+modified: 20220722183017027
+tags: [[Design Patterns]] Stub
+title: Publish-subscribe Pattern
+tmap.id: 7b0345d7-7f81-4e7d-9d23-584afe64ad86
+type: text/vnd.tiddlywiki
+
+''AKA Pub/Sub''
+
+https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern

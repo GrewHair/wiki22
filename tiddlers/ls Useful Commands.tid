@@ -1,0 +1,8 @@
+created: 20221222094038866
+modified: 20221222094216556
+tags: Linux
+title: ls Useful Commands
+tmap.id: ebaa454b-3988-40aa-b8ff-304ee800b704
+type: text/vnd.tiddlywiki
+
+* `ls -ld` - list directories themselves and not their content

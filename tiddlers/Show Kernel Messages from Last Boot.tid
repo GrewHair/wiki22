@@ -1,0 +1,15 @@
+created: 20220923133107078
+modified: 20220923133402577
+tags: Linux systemd Stub
+title: Show Kernel Messages from Last Boot
+tmap.id: 45638898-8e73-4a84-b6b8-f28eb4d52b2d
+type: text/vnd.tiddlywiki
+
+```bash
+journalctl -o short-precise -k -b -1
+
+# -k, --dmesg - show only kernel messages
+# -b -1 - last boot
+```
+
+https://unix.stackexchange.com/questions/181067/how-to-read-dmesg-from-previous-session-dmesg-0

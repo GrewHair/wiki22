@@ -1,0 +1,10 @@
+created: 20220822151553902
+modified: 20220822151753966
+tags: Git Stub
+title: commit-graph
+tmap.id: 04aff53c-6671-4742-9597-57cb2d3ebf6a
+type: text/vnd.tiddlywiki
+
+https://git-scm.com/docs/commit-graph
+
+https://devblogs.microsoft.com/devops/updates-to-the-git-commit-graph-feature/

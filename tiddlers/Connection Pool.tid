@@ -1,0 +1,16 @@
+created: 20220906113554724
+modified: 20220906113851462
+tags: Databases [[Postgre SQL]] Stub
+title: Connection Pool
+tmap.id: 306fb7a0-666a-4636-9fc9-357abd740035
+type: text/vnd.tiddlywiki
+
+It's an optimization technique. It prevents a [[Forking Database]] from forking all the time (which is costly) by keeping a set amount of connections alive constantly.
+
+[[PgBouncer]] seems related to this.
+
+https://en.wikipedia.org/wiki/Connection_pool
+
+Found it here:
+
+https://www.youtube.com/watch?v=chX8nfV3mUE

@@ -1,0 +1,14 @@
+created: 20230115124400346
+modified: 20230115124635018
+tags: 
+title: CRLF
+tmap.id: 0e2e7933-dfeb-4581-8ecb-7d449a1c3e27
+type: text/vnd.tiddlywiki
+
+Caret return line feed...
+
+* `CRLF` [[Windows]]
+* `LF` [[Unix]]
+* `CR` Mac
+
+https://stackoverflow.com/questions/1552749/difference-between-cr-lf-lf-and-cr-line-break-types

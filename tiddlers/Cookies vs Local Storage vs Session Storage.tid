@@ -1,0 +1,16 @@
+created: 20221107105901590
+modified: 20221107120252443
+tags: [[Web Browsers]] [[Web Development]] Javascript [[Data Storage]]
+title: Cookies vs Local Storage vs Session Storage
+tmap.id: 49315f92-488e-4d79-8180-e34248f989e1
+type: text/vnd.tiddlywiki
+
+|!                  |!Cookies           |![[Local Storage|Browser Local Storage]]|!Session Storage|
+|!Capacity          |4kb                |10mb          |5mb             |
+|!Browsers          |HTML 4 / HTML 5    |HTML 5        |HTML 5          |
+|!Accessible from   |Any window         |Any window    |Same tab        |
+|!Expires           |Manually set       |Never         |On tab close    |
+|!Storage location  |Browser and servevr|Browser only  |Browser only    |
+|!Sent with requests|Yes                |No            |No              |
+
+https://www.youtube.com/watch?v=GihQAC1I39Q

@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200616105212604
-modified: 20200616124350333
+modified: 20220724122805792
 tags: 
 title: _my/images/block_diagrams/deadlock
 tmap.id: df61c735-9dbf-46f9-8495-f102b7a671f3

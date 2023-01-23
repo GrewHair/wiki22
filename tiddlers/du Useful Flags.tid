@@ -1,0 +1,9 @@
+created: 20221220185241387
+modified: 20221220185505521
+tags: Linux
+title: du Useful Flags
+tmap.id: 45d4e2a3-bbf7-42d4-a763-80d8917dd342
+type: text/vnd.tiddlywiki
+
+* `du -h --time`
+* `du -h --threshold=1G`

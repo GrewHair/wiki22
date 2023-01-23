@@ -1,0 +1,12 @@
+created: 20221124102232448
+modified: 20221124102922226
+tags: Networking
+title: VXLAN Network Identifier
+tmap.id: a3d61868-9a32-417c-9f28-03e8369b0e23
+type: text/vnd.tiddlywiki
+
+''AKA VNI''
+
+[[VNI|VXLAN Network Identifier]] is similar to [[VLAN ID]], but it's 24-bit (while [[VID|VLAN ID]] is only 12-bit), so it allows for many more [[VXLANs|Virtual Extensible LAN]] than [[VLANs|VLAN]].
+
+https://www.juniper.net/documentation/us/en/software/junos/evpn-vxlan/topics/topic-map/sdn-vxlan.html

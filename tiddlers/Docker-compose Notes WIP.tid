@@ -1,0 +1,12 @@
+created: 20220930104612256
+modified: 20220930123907947
+tags: Docker docker-compose WIP
+title: Docker-compose Notes WIP
+tmap.id: 6813fed9-ae7c-461a-9b75-85f93672ce00
+type: text/vnd.tiddlywiki
+
+* `Couldn’t connect to Docker daemon at http+docker://localhost - is it running?`
+** `sudo usermod -aG docker $USER` ([[source 1|https://forums.docker.com/t/couldnt-connect-to-docker-daemon-at-http-docker-localhost-is-it-running/87257]], [[source 2|https://github.com/docker/compose/issues/4181]])
+* [[Docker compose as a systemd unit|https://gist.github.com/mosquito/b23e1c1e5723a7fd9e6568e5cf91180f]]
+* <$codeblock code="Network selenoid declared as external, but could not be found. Please create the network manually using `docker network create selenoid` and try again"/>
+** `docker network create "name_of_network"` ([[source|https://stackoverflow.com/questions/70307460/error-in-docker-network-path-declared-as-external-but-could-not-be-found]])

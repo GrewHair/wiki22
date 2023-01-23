@@ -1,0 +1,18 @@
+created: 20221213110102808
+modified: 20221213110331531
+tags: gRPC Stub
+title: Unary RPC
+tmap.id: 61e85b12-df21-4a02-81e6-ffb9fa665e70
+type: text/vnd.tiddlywiki
+
+''AKA Unary Call''
+
+https://grpc.io/docs/what-is-grpc/core-concepts/#unary-rpc
+
+Found it in the elastic logs..
+
+The `json.msg` field said:
+
+```
+finished unary call with code OK
+```

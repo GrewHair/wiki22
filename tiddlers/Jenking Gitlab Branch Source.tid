@@ -1,0 +1,16 @@
+created: 20221109145442392
+modified: 20221109145957254
+tags: Jenkins Gitlab
+title: Jenking Gitlab Branch Source
+tmap.id: 6459e274-fbe5-45d5-88cf-433d51c4c22c
+type: text/vnd.tiddlywiki
+
+That's how you do multibranch pipelines with gitlab.
+
+''Requires globally stored creds!!''
+
+https://www.jenkins.io/blog/2019/08/23/introducing-gitlab-branch-source-plugin/
+
+https://plugins.jenkins.io/gitlab-branch-source/
+
+https://www.youtube.com/watch?v=y4XGFluzPHY

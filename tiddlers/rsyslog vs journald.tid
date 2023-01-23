@@ -1,0 +1,19 @@
+created: 20220927123700985
+modified: 20220930123942378
+tags: 
+title: rsyslog vs journald
+tmap.id: f5628c0f-142c-4105-a886-b4ce7bcd9604
+type: text/vnd.tiddlywiki
+
+* <$link to="journald">`journald`</$link>
+** newer, part of [[systemd]]
+** mostly a replacement for <$link to="rsyslog">`rsyslog`</$link>
+* <$link to="rsyslog">`rsyslog`</$link>
+** capable of remote logging over the [[Syslog Protocol]], a feature that is problematic/lacking in <$link to="journald">`journald`</$link>
+** [[greppable|grep]] plain text, which a lot of people prefer
+
+They can be used together.
+
+https://www.reddit.com/r/redhat/comments/n3b278/can_someone_briefly_explain_the_major_differences/
+
+https://serverfault.com/questions/959982/is-rsyslog-redundant-on-when-using-journald

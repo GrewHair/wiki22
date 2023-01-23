@@ -1,0 +1,10 @@
+created: 20221012075654097
+modified: 20221012075752686
+tags: Windows Linux [[Windows Subsystem for Linux]] WIP
+title: WSL WIP
+tmap.id: 1c948ede-ac56-42ee-a9e1-179e06b3aab7
+type: text/vnd.tiddlywiki
+
+Multiple instances of the same distro:
+
+https://sungkim11.medium.com/why-you-should-use-multiple-instances-of-same-linux-distro-on-wsl-windows-10-f6f140f8ed88

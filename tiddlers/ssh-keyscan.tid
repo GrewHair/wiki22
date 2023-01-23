@@ -1,0 +1,14 @@
+created: 20230116125541064
+modified: 20230116125741072
+tags: SSH WIP
+title: ssh-keyscan
+tmap.id: 74559415-f17c-4b6d-ba48-6b41e9249525
+type: text/vnd.tiddlywiki
+
+```bash
+ssh-keyscan github.com >> /var/jenkins_home/.ssh/known_hosts
+```
+
+Found it here:
+
+https://community.jenkins.io/t/upgrading-git-on-jenkins-controller-causing-failures-for-multibranch-pipelines/3247/9

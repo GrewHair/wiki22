@@ -1,0 +1,12 @@
+created: 20220805173557579
+modified: 20220805173953036
+tags: [[Windows Server]] Windows Microsoft Stub
+title: Windows Server Update Services
+tmap.id: 16b33d83-d921-417f-a652-4ffb751fb8dd
+type: text/vnd.tiddlywiki
+
+''AKA WSUS''
+
+[[WSUS|Windows Server Update Services]] is a {[role|Role Services (Windows Server)]] that somehow manages updates on [[Windows Server]]...
+
+https://en.wikipedia.org/wiki/Windows_Server_Update_Services

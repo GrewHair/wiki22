@@ -1,0 +1,12 @@
+created: 20221213121547377
+modified: 20221213121654293
+tags: Elasticsearch
+title: _score (Elasticsearch)
+tmap.id: f868bfac-e785-427e-aab2-335aae9a3a53
+type: text/vnd.tiddlywiki
+
+The `_score` in [[Elasticsearch]] is a way of determining how relevant a match is to the query.
+
+https://stackoverflow.com/questions/53045222/what-is-score-in-es-kibana
+
+https://www.compose.com/articles/how-scoring-works-in-elasticsearch/

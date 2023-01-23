@@ -1,0 +1,12 @@
+created: 20220726181111696
+modified: 20220726182346796
+tags: Linux Unix
+title: find Useful Commands
+tmap.id: e2810fee-2d8c-442e-b363-78250689fa34
+type: text/vnd.tiddlywiki
+
+* [[Grep|grep]] inside files found by [[find]] (AKA search by metadata+content)
+*><$codeblock code='
+find . -name "config.xml" -type f -exec grep --max-count 1 -i <your-string> {} +'
+language="bash"/>
+*>https://explainshell.com/explain?cmd=find+.+-type+f+-iname+%22*.m%22+-exec+grep+-i+%22Content%22+%7B%7D+%2B

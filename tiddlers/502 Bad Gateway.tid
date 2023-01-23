@@ -1,0 +1,18 @@
+created: 20220908083059203
+modified: 20220908083714964
+tags: HTTP
+title: 502 Bad Gateway
+tmap.id: 8cebb85d-953e-4f37-b3aa-ddfa50b37be6
+type: text/vnd.tiddlywiki
+
+It means that the server, while acting as a gateway or proxy, received an invalid response from the upstream server.
+
+With [[Gitlab]], it usually means one of the following:
+
+* [[Unicorn]]/[[Puma]] is not ready yet after a restart
+* a [[Unicorn Worker|Unicorn Workers]]/[[Puma]] thread has been killed because of timeout or a memory limit
+* very rarely it could mean that [[Unicorn]]/[[Puma]] is fully saturated
+
+[[Source.|https://www.youtube.com/watch?v=9W6QnpYewik]]
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502

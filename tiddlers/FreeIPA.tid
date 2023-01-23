@@ -1,0 +1,14 @@
+created: 20221022094127570
+modified: 20221024155132943
+tags: Security
+title: FreeIPA
+tmap.id: cdd180a7-a2ac-40b2-a9c6-78902f56f51b
+type: text/vnd.tiddlywiki
+
+[[FreeIPA]] is a [[Free and Open Source]] [[Identity Management System]]. It is the [[upstream|Upstream (Software Development)]] for [[Red Hat Identity Management]].
+
+The IPA in the name stands for "Identity, Policy, and Audit"... There's a book called [[Fedora Bible]]. Reading it might help understand where that term came from...
+
+https://en.wikipedia.org/wiki/FreeIPA
+
+From what I've read up to this point, [[FreeIPA]] is like an alternative to [[AD|Active Directory]]... [[(here)|https://en.wikipedia.org/wiki/Directory_service]]

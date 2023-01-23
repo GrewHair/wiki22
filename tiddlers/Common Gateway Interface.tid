@@ -1,5 +1,5 @@
 created: 20210202110323525
-modified: 20210216183138688
+modified: 20220905093524825
 tags: Networking [[Understanding the Digital World (Brian Kernighan)]] Stub
 title: Common Gateway Interface
 tmap.id: 8a82c213-19b5-4304-accf-b3164e8af6df
@@ -16,3 +16,7 @@ In brief, an [[HTTP|HyperText Transfer Protocol]] [[GET|GET Request]] or [[POST|
 Other data, such as [[URL|Uniform Resource Locator]] paths, and [[HTTP Header]] data, are presented as [[process|Process (Computing)]] [[Environment Variables|Environment Variable]].
 
 https://en.wikipedia.org/wiki/Common_Gateway_Interface
+
+Original implementations of the [[CGI interface|Common Gateway Interface]] typically had adverse effects on the server load, because	each [[request|HTTP Request]] started a new [[process|Process]] ([[source|https://en.wikipedia.org/wiki/Web_framework]]).
+
+''Note'' that the word 'gateway' doesn't seem to refer in any way to the notion of a [[Gateway]] in [[Networking]] - the term is used generically here, which causes confusion.

@@ -1,0 +1,13 @@
+created: 20220902051718751
+modified: 20220902051902666
+tags: [[Amazon Web Services]]
+title: What to Consider When Selecting a Region For Your Workloads
+tmap.id: e3fc91a4-c9cb-43fb-ab7f-8d55133ffc9e
+type: text/vnd.tiddlywiki
+
+* Compliance
+* Proximity
+* Feature Availability
+* Pricing
+
+https://aws.amazon.com/blogs/architecture/what-to-consider-when-selecting-a-region-for-your-workloads/

@@ -1,0 +1,19 @@
+created: 20221108144748467
+modified: 20221108180115315
+tags: [[Web Browsers]] [[WTF is This?]]
+title: QUOTA_BYTES_PER_ITEM
+tmap.id: ede086b4-a6a3-416c-8aba-5251da90fe35
+type: text/vnd.tiddlywiki
+
+[[Surfingkeys]] once threw this at me 
+
+```
+Settings sync may not work thoroughly because of: QUOTA_BYTES_PER_ITEM quota exceeded
+```
+
+I'm not sure, but it may have smth to do with:
+
+* the fact that I turned [[Vivaldi Sync]] on
+* [[Browser Local Storage]]
+
+https://stackoverflow.com/questions/13373187/can-i-increase-quota-bytes-per-item-in-chrome

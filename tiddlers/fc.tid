@@ -1,0 +1,16 @@
+created: 20220927114112325
+modified: 20230111122046775
+tags: Linux Unix Bash Zsh
+title: fc
+tmap.id: 1b67b8b5-87c7-4b0b-8342-ad7c4cbb580a
+type: text/vnd.tiddlywiki
+
+It means "fix command"
+
+Mnemonic: "fuck!"
+
+https://en.wikipedia.org/wiki/Fc_(Unix)
+
+https://www.systutorials.com/docs/linux/man/1p-fc/
+
+https://unix.stackexchange.com/questions/291285/view-a-range-of-bash-history

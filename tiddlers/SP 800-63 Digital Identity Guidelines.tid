@@ -1,0 +1,16 @@
+created: 20230105112313721
+modified: 20230105112624247
+tags: Security
+title: SP 800-63 Digital Identity Guidelines
+tmap.id: 6f4be5cb-14c4-4f1f-81af-abb95fda3a2a
+type: text/vnd.tiddlywiki
+
+It's a [[NIST|National Institute of Standards and Technology]] standard...
+
+It advices against rotating passwords every 90 days.
+
+https://pages.nist.gov/800-63-3/
+
+Found it here:
+
+https://github.com/jenkinsci/credentials-plugin/blob/master/docs/user.adoc

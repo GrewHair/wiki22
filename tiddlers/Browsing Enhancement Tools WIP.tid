@@ -1,0 +1,23 @@
+created: 20221105095213683
+modified: 20221119203225404
+tags: [[Web Browsers]] WIP
+title: Browsing Enhancement Tools WIP
+tmap.id: 45abb89b-1ce2-4c9e-92f7-6dd93fc1e544
+type: text/vnd.tiddlywiki
+
+|!Tool|!Browser dependent|!Purpose|
+|!Wayback Machine||archiving|
+|!Pocket||tagging|
+|!Bookmarks|<center>✔</center>|frequent access (often work-related)|
+|!Reading list|<center>✔</center>|stashing for later ''one-time'' use|
+|!Tab stacks|???|grouping related open tabs|
+|!Tiddlywiki||knowledge management|
+|!Site-specific favourites||...|
+|!Sessions|???|grouping (problematic???)|
+|!Sync|<center>✔</center>|Access tabs between devices|
+
+Here's a feature request for syncing saved sessions in [[Vivaldi]]:
+
+https://forum.vivaldi.net/topic/24478/sync-saved-sessions/41?lang=en-US&page=3
+
+TODO: rank the tools by access frequency, time scope, etc..

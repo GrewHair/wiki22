@@ -1,0 +1,14 @@
+created: 20220810180641773
+modified: 20220810181054700
+tags: 
+title: zlib
+tmap.id: e78dee80-b0d2-4fb0-8100-4df8531ac2c0
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/Zlib
+
+Found it here:
+
+https://youtu.be/sevc6668cQ0?t=454
+
+Apparently [[Git]] takes [[SHA1]] of a [[zlib]]-compressed object ([[or at least it did so in the beginning|https://stackoverflow.com/questions/8276149/why-does-git-use-the-sha1-of-the-compressed-objects-rather-than-the-sha1-of-th]])

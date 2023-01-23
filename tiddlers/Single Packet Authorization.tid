@@ -1,0 +1,12 @@
+created: 20220915115712990
+modified: 20220915115829027
+tags: Security [[WTF is This?]]
+title: Single Packet Authorization
+tmap.id: 442b2234-d5e5-4b96-b9d6-4076a53043c9
+type: text/vnd.tiddlywiki
+
+It has something to do with [[SDP|Software Defined Perimeter]]..
+
+https://network-insight.net/2019/06/18/zero-trust-single-packet-authorization-passive-authorization/
+
+https://www.youtube.com/watch?v=8Pnl_lKx-lo

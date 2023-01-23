@@ -1,0 +1,8 @@
+created: 20221025115458678
+modified: 20221025115614600
+tags: [[Web Browsers]]
+title: ERR_FILE_NOT_FOUND
+tmap.id: b5553d49-243d-4679-a579-4eea35b9b3c9
+type: text/vnd.tiddlywiki
+
+It pops up when you try to google smth like `/etc/passwd` from the browser's omnibar :)

@@ -1,0 +1,10 @@
+created: 20221227122725740
+edit-mode: no
+list: [[curl mnemonics]]
+modified: 20221227122852103
+role: comment
+title: Comment by '(anonymous)' on 'curl mnemonics'
+tmap.id: 980eb509-ac8c-4d8c-b554-1ee6f33c5e73
+type: text/vnd.tiddlywiki
+
+the `-o` flag is not boolean as far as I remember, so it might not be able to stack it with others.

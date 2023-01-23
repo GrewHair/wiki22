@@ -1,0 +1,22 @@
+created: 20220928112912287
+modified: 20220928113740518
+tags: Linux Security Stub
+title: Linux Audit Framework
+tmap.id: 511c0d60-728e-4b12-889f-1a2bf7fe73d0
+type: text/vnd.tiddlywiki
+
+The [[Linux Audit Framework]] provides a [[CAPP|Controlled Access Protection Profile]]-compliant auditing system that reliably collects information about any event on a system. It can help you track your actions preformed on a system.
+
+https://wiki.archlinux.org/title/Audit_framework
+
+https://documentation.suse.com/sles/12-SP4/html/SLES-all/cha-audit-comp.html
+
+https://www.youtube.com/watch?v=x2u_prS2HmM
+
+That might also be interesting:
+
+https://www.youtube.com/watch?v=9ZW8s9oVhKQ
+
+Relation with [[selinux]]:
+
+https://www.trustedsec.com/blog/selinux-and-auditd/

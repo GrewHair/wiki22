@@ -1,0 +1,16 @@
+created: 20220929093504773
+modified: 20220929100744992
+tags: [[Software Architecture]] Stub
+title: Solution Stack
+tmap.id: f8037eb0-0005-48ad-b697-4b5738645ddd
+type: text/vnd.tiddlywiki
+
+''AKA Software Stack, Technology Stack, Development Stack''
+
+In [[Computing]], a [[Solution Stack]] is a [[Set]] of software subsystems/components needed to create a complete [[platform|Computing Platform]] such that no additional software is needed to support applications.
+
+Applications are said to run "on top of" the resulting platform.
+
+https://en.wikipedia.org/wiki/Solution_stack
+
+https://books.google.ge/books?id=Y8FHDwAAQBAJ&pg=PA7&redir_esc=y#v=onepage&q&f=false

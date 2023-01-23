@@ -1,0 +1,12 @@
+created: 20221024124226576
+modified: 20221029181654800
+tags: Linux Security Stub
+title: System Security Services Daemon
+tmap.id: 24ac6e60-a65c-4711-a2e6-b97777403a45
+type: text/vnd.tiddlywiki
+
+''AKA SSSD''
+
+A successor to [[Winbind]]...
+
+https://sssd.io/contrib/architecture.html

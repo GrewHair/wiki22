@@ -1,0 +1,21 @@
+created: 20221013083608620
+modified: 20221013095130971
+tags: Windows
+title: HideVolumeOSD
+tmap.id: 85c87ce6-c5e2-42b5-a7fc-c515b6da6116
+type: text/vnd.tiddlywiki
+
+https://www.technipages.com/windows-10-disable-volume-overlay
+
+https://superuser.com/questions/1458379/disable-large-rectangle-from-windows-10-volume-overlay
+
+http://wordpress.venturi.de/?p=1
+
+	https://superuser.com/questions/662495/how-to-disable-the-windows8-volume-on-screen-display
+
+http://wordpress.venturi.de/?p=1#more-1
+
+http://wordpress.venturi.de/?p=354
+
+
+Bottomline: just go to `chrome://flags`, type "hardware media", and pick "disabled". And don't bother.

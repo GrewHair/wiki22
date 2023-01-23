@@ -1,0 +1,82 @@
+created: 20221118152550000
+modified: 20221118165252003
+tags: Monitoring [[Configuration Management]] [[Cloud Computing]] WIP
+title: Push vs Pull WIP
+tmap.id: cf08d986-4040-47f8-9651-083ba56daf61
+type: text/vnd.tiddlywiki
+
+<table>
+<tr>
+<th>Type</th>
+<th>Push</th>
+<th>Pull</th>
+<th>Why</th>
+</tr>
+<tr>
+<td>[[Configuration Management]]</td>
+<td class="good-grey">
+The server pushes the configuration to the nodes<br><br>
+''Example: [[Ansible]]''
+</td>
+<td>
+The nodes pull the configuration from the server via an agent<br><br>
+''Examples: [[Puppet]], [[Chef]], ...''
+</td>
+<td>No need to manually install the agent</td>
+</tr>
+<tr>
+<td>[[Monitoring]]</td>
+<td>
+The monitored host pushes the metrics to the server, usually via [[UDP|User Datagram Protocol]]<br><br>
+''Example: [[Zabbix]]''
+</td>
+<td class="good-grey">
+The server pulls the metrics from hosts/services, usually via [[HTTP|Hypertext Transfer Protocol]]<br><br>
+''Example: [[Prometheus]]''
+</td>
+<td>
+...
+</td>
+</tr>
+<tr>
+<td>
+[[GitOps]]
+</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+</tr>
+<tr>
+...
+</tr>
+</table>
+
+In configuration management:
+
+https://gayatrisajith.medium.com/beginner-fundamentals-push-pull-configuration-management-tools-85eff1b41447
+
+In monitoring:
+
+https://giedrius.blog/2019/05/11/push-vs-pull-in-monitoring-systems/
+
+https://www.alibabacloud.com/blog/pull-or-push-how-to-select-monitoring-systems_599007
+
+In gitops:
+
+https://thenewstack.io/push-vs-pull-in-gitops-is-there-really-a-difference/
+
+https://www.weave.works/blog/why-is-a-pull-vs-a-push-pipeline-important
+
+More:
+
+http://mikemainguy.blogspot.com/2011/08/push-versus-pull-deployment-models.html
+
+
+Google for 'pull vs push orchestration'
+
+<br>
+
+Heard of this notion here:
+
+https://www.youtube.com/watch?v=rT4fJNbfe14
+

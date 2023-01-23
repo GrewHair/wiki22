@@ -1,0 +1,10 @@
+created: 20220908121750023
+modified: 20220908122227206
+tags: [[Amazon Web Services]] Networking Stub
+title: Subnet Group (AWS)
+tmap.id: 39969682-ce6d-4303-9710-7db59aee52c5
+type: text/vnd.tiddlywiki
+
+A [[Subnet Group|Subnet Group (AWS)]] is a collection of [[subnets|Subnet (AWS)]] (typically private) that you can designate for your clusters running in a [[VPC|Amazon Virtual Private Cloud]] environment.
+
+https://docs.aws.amazon.com/AmazonElastiCache/latest/mem-ug/SubnetGroups.html

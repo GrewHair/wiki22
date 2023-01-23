@@ -1,0 +1,12 @@
+created: 20221021093620867
+modified: 20221021093956027
+tags: Linux WIP
+title: Domain Name Resolution in Linux WIP
+tmap.id: adb088eb-9aa8-4ab6-9853-9acb5cdce831
+type: text/vnd.tiddlywiki
+
+There's a library call named `getaddrinfo(3)`, provided by [[NSS|Name Service Switch]], which is a part of [[glibc]]...
+
+https://wiki.archlinux.org/title/Domain_name_resolution
+
+`man getaddrinfo`

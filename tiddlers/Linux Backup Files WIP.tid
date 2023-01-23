@@ -1,0 +1,16 @@
+created: 20230110113100917
+modified: 20230110113323137
+tags: Linux WIP
+title: Linux Backup Files WIP
+tmap.id: 4be73ffd-fd51-4a0e-81fe-75aafb217ac2
+type: text/vnd.tiddlywiki
+
+dash:
+
+https://unix.stackexchange.com/questions/53128/difference-between-passwd-and-passwd-file
+
+https://access.redhat.com/solutions/106363
+
+there's also a tilde (i think ls has option to omit it...)
+
+...

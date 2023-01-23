@@ -1,0 +1,20 @@
+created: 20230110081949549
+modified: 20230110082142949
+tags: ChatGPT
+title: Storing Jenkins secrets Directory in Hashicorp Vault/Q: Upload Tarball
+tmap.id: c8ff74f8-adfe-408e-a6d3-1d74fbea02d2
+type: text/vnd.tiddlywiki
+
+''Q: Hi! Is it possible to upload a tarball to Hashicorp Vault?''
+
+It is not possible to directly upload a tarball to Hashicorp Vault. However, you can store the contents of a tarball in Vault by extracting the tarball and then writing the individual files to Vault using the Vault CLI or API.
+
+To do this, you would first need to extract the tarball to a directory on your local machine. Then, you can use the vault write command to write the contents of the directory to Vault. The vault write command allows you to specify a path in Vault where the files should be stored and a local directory from which the files should be read.
+
+For example, to write the contents of the directory `/path/to/extracted/tarball` to the path `secret/my-tarball` in Vault, you can use the following command:
+
+```bash
+vault write secret/my-tarball @/path/to/extracted/tarball
+```
+
+This will write all of the files in the `/path/to/extracted/tarball` directory to the `secret/my-tarball` path in Vault. You can then use the Vault CLI or API to read the contents of the tarball from Vault as needed.

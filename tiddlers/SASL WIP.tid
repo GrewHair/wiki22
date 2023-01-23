@@ -1,0 +1,28 @@
+created: 20221029174755874
+modified: 20221029175600099
+tags: WIP Security [[WTF is This?]]
+title: SASL WIP
+tmap.id: ba9807ac-d2f5-4aaf-ab27-7dc59a3196ef
+type: text/vnd.tiddlywiki
+
+It seems to be smth that "connects" [[LDAP|Lighteight Directory Access Protocol]] and [[Kerberos]]...
+
+https://www.parallels.com/blogs/ras/ldap-vs-ad/
+
+https://wiki.debian.org/LDAP/Kerberos
+
+https://www.wikidata.org/wiki/Q642215
+
+https://www.gnu.org/software/gsasl/manual/html_node/SASL-Overview.html
+
+It also has something to do with [[AD|Active Directory]]:
+
+https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-adts/989e0748-0953-455d-9d37-d08dfbf3998b
+
+There's also smth called 'anonymous authentication' in [[LDAP|Lightweight Directory Access Protocol]]:
+
+https://stackoverflow.com/questions/61521692/ldap-anonymous-auth
+
+And [[LDAP|Lightweight Directory Access Protocol]] has two options for auth: either it, or SASL:
+
+https://www.geeksforgeeks.org/difference-between-ldap-and-kerberos/

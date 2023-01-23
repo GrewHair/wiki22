@@ -1,0 +1,18 @@
+created: 20230110130131057
+modified: 20230110130430992
+tags: ChatGPT
+title: Hashicorp Vault #1/Ill-advised Auth Methods for Vault
+tmap.id: 409a7dbd-e429-4b61-a9f1-1dd1a0d5dc23
+type: text/vnd.tiddlywiki
+
+''Q: could you give a couple of counter-examples? i.e. which auth types to Vault are ill-advised and why?''
+
+Sure, here are a couple of examples of authentication methods that may not be well-suited for use with Hashicorp Vault, and why they may not be recommended:
+
+* ''Token-based authentication:'' Token-based authentication is the default authentication method provided by Hashicorp Vault, and it allows users to authenticate to Vault by providing a token. While this method may be convenient, it may not be the most secure option because tokens can be easily compromised if they are not properly secured. Additionally, it can be difficult to revoke or manage access to secrets at a granular level when using tokens.
+
+* ''GitHub authentication:'' While GitHub authentication can be convenient for development environments, it may not be the most secure option for production environments. GitHub authentication relies on GitHub credentials, which can be compromised if a user's GitHub account is hacked. Additionally, GitHub authentication does not provide a way to revoke or manage access to secrets at a granular level.
+
+* ''Certificates authentication:'' Certificates authentication is a method of authentication that relies on x.509 certificates. While this method can be secure, it can be difficult to manage and revoke certificates, and it may not be the most appropriate choice for most use cases. Also this method requires extra infrastructure such as a certificate authority and it may introduce more complexity in the process.
+
+These are just a few examples, and it's important to note that the best method depends on the specific use case and the organization's security requirements. It's always a good idea to evaluate the different options and choose the one that best meets your needs, while also providing the necessary level of security.

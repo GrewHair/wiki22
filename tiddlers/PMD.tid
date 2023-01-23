@@ -1,0 +1,12 @@
+created: 20221101085621955
+modified: 20221101085835286
+tags: [[Code Analysis]]
+title: PMD
+tmap.id: 813ddb24-013e-44e1-8c60-e4ecbfbc842a
+type: text/vnd.tiddlywiki
+
+''Backronym: Programming Mistake Detector, Programming Meets Deadline''
+
+https://en.wikipedia.org/wiki/PMD_(software)
+
+There's a (deprecated) [[Jenkins]] plugin for that...

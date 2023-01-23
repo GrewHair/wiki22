@@ -1,0 +1,8 @@
+created: 20221228144201081
+modified: 20221228144754418
+tags: Git
+title: git Useful Commands
+tmap.id: 0b6cb991-b15a-47eb-849b-c0c49697f735
+type: text/vnd.tiddlywiki
+
+* `git log -S "<code>"` - check commits that added certain text

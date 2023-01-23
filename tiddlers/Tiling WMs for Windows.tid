@@ -1,0 +1,23 @@
+created: 20230107212556665
+modified: 20230107212827365
+tags: Windows Productivity
+title: Tiling WMs for Windows
+tmap.id: 1ad6f92d-844e-4fa7-90f0-0cae098a431e
+type: text/vnd.tiddlywiki
+
+* dexpot
+* bug.n
+* workspacer
+* vdesktop
+* vdesk
+* VirtuaWin
+* komorebi
+* ...
+
+About elevated windows:
+
+https://www.autohotkey.com/boards/viewtopic.php?t=28760
+
+Invoking WSL commands from ahk
+
+https://www.reddit.com/r/AutoHotkey/comments/ef8wx8/how_to_best_integrate_wsl_with_autohotkey_hotkeys/

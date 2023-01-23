@@ -1,10 +1,10 @@
 created: 20220406112937607
-modified: 20220406113003050
+modified: 20221007133928176
 tags: Stub Security
 title: Cross-site Request Forgery
 tmap.id: ff380183-5fe5-4a4b-9155-aed8ba5951db
 type: text/vnd.tiddlywiki
 
-''AKA SCRF''
+''AKA CSRF, XSRF''
 
 https://www.synopsys.com/glossary/what-is-csrf.html

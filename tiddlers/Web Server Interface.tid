@@ -1,0 +1,17 @@
+created: 20220905103753035
+modified: 20220905105118040
+tags: [[Web Development]] [[Badly Named]] Stub
+title: Web Server Interface
+tmap.id: ed4c3f0a-c199-4c4c-a739-5c7156022420
+type: text/vnd.tiddlywiki
+
+* [[WSGI|Web Server Gateway Interface]] [[(Python)|Python]]
+* [[Java Servlet]]
+* [[Rack|Rack (Web Server Interface)]] [[(Ruby)|Ruby]]
+* ...
+
+What's this:
+
+https://www.instantiations.com/vast-support/documentation/91/ww/web15.html
+
+?

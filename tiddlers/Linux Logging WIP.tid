@@ -1,0 +1,19 @@
+created: 20220928114028809
+modified: 20221026111811297
+tags: Linux [[Red Hat Linux]] CentOS Stub WIP
+title: Linux Logging WIP
+tmap.id: 183eb637-1930-4370-8789-a8aa33760e60
+type: text/vnd.tiddlywiki
+
+|!Old/[[RHEL]]|!New/[[Ubuntu]]|!Comment|
+|`/var/log/messages`|`/var/log/syslog`|[[source 1|https://askubuntu.com/questions/51265/where-is-var-log-messages]], [[source 2|https://unix.stackexchange.com/questions/84633/where-is-var-log-messages]]|
+|`/var/log/secure`|`/var/log/auth.log`|[[source|https://askubuntu.com/questions/534324/var-log-secure-not-present-in-14-04-is-there-any-alternative]]|
+|...|...|...|
+
+God knows why...
+
+<br>
+
+https://www.thegeeksearch.com/beginners-guide-to-centos-rhel-logging-systemd-journald-and-rsyslog-architecture/
+
+https://www.golinuxcloud.com/systemd-journald-how-logging-works-rhel-7/#systemd-journald_vs_rsyslogd

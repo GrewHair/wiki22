@@ -1,0 +1,14 @@
+created: 20221225135923230
+modified: 20221225140327186
+tags: Jenkins Java
+title: Winstone
+tmap.id: 693b5d9b-02d8-433a-91a3-cf89dad1423b
+type: text/vnd.tiddlywiki
+
+[[Winstone]] is a wrapper around [[Jetty]] that implements [[Servlet 4.0]]. It is bundled into the [[Jenkins]] war file.
+
+https://github.com/jenkinsci/winstone
+
+Found it here:
+
+https://www.jenkins.io/doc/book/installing/war-file/

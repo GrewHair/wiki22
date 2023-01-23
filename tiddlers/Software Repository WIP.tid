@@ -1,0 +1,17 @@
+created: 20221025075558834
+modified: 20221025080525706
+tags: [[Software Distribution]] WIP
+title: Software Repository WIP
+tmap.id: e2b2d8b8-d662-42bd-9a9b-322e514c047a
+type: text/vnd.tiddlywiki
+
+In an enterprise environment, a [[Software Repository]] is used to store artifacts, or to mirror external repositories which may be inaccessible due to security restrictions.
+
+Such repositories provide additional functionality, like access control, versioning, security checks for uploaded software, cluster functionality, etc. and typically support a variety of formats in one package, to cater for all the needs in an enterprise, aiming to provide a single point of truth.
+
+Popular examples:
+
+* [[Jfrog Artifactory]]
+* [[Sonatype Nexus]]
+
+https://en.wikipedia.org/wiki/Software_repository

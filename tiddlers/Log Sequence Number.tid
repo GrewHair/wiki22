@@ -1,0 +1,22 @@
+created: 20220822222709809
+modified: 20220822225653102
+tags: Databases Logging Stub
+title: Log Sequence Number
+tmap.id: a33cdb34-f40a-478b-92ca-c2d63e7fb192
+type: text/vnd.tiddlywiki
+
+''AKA LSN''
+
+An [[LSN|Log Sequence Number]] is a unique id for a log record.
+
+Usually they appear at the beginning of each entry of a [[WAL|Write Ahead Log]].
+
+Usually an [[LSN's|Log Sequence Number]] value is the byte offset of than entry in the log file.
+
+https://en.wikipedia.org/wiki/Transaction_log
+
+https://www.ibm.com/docs/en/db2/9.7?topic=objects-log-sequence-numbers
+
+Found it here:
+
+https://www.youtube.com/watch?v=wI4hKwl1Cn4

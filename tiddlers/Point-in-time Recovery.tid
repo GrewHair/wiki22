@@ -1,0 +1,16 @@
+created: 20220822221207271
+modified: 20221221093657581
+tags: Stub Databases
+title: Point-in-time Recovery
+tmap.id: 4bc89969-abd7-457e-805d-ea14dbc17969
+type: text/vnd.tiddlywiki
+
+''AKA PITR''
+
+It sounds like it should have something to do with [[RPO|Recovery Point Objective]] - although I've not found them both in one article...
+
+https://en.wikipedia.org/wiki/Point-in-time_recovery
+
+Found it here:
+
+https://community.jenkins.io/t/can-i-delete-workflow-xml-files/4095

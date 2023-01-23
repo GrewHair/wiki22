@@ -1,0 +1,19 @@
+created: 20220926101754755
+modified: 20220926104000577
+tags: Mnemonic Linux
+title: Every Awesome Cisco Engineer Would Need Ice Cream Daily
+tmap.id: 57082407-f439-4eb2-98cd-26a4dd805fec
+type: text/vnd.tiddlywiki
+
+This is a mnemonic for [[Syslog Severity Levels]]:
+
+Alternative: Ernie Always Cries Even When Noone Is Dying.
+
+|0|@@color:orange; Every@@|@@color:orange; E@@mergency|System is unusable|
+|1|@@color:orange; Amazing@@|@@color:orange; A@@lert|Action must be taken immediately|
+|2|@@color:orange; Cisco@@|@@color:orange; C@@ritical|Critical conditions|
+|3|@@color:orange; Engineer@@|@@color:orange; E@@rror|Error conditions|
+|4|@@color:orange; Would@@|@@color:orange; W@@arning|Warning conditions|
+|5|@@color:orange; Need@@|@@color:orange; N@@otice|Normal but significant conditions|
+|6|@@color:orange; Ice Cream@@|@@color:orange; I@@nformational|Informational Messages|
+|7|@@color:orange; Daily@@|@@color:orange; D@@ebug|Debug-level messages|

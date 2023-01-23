@@ -1,0 +1,24 @@
+created: 20221221125124787
+modified: 20221221125420435
+tags: WIP Jenkins
+title: Jenkins Build Flow vs Workflow vs Pipeline WIP
+tmap.id: e6879449-fe1c-41d6-bb20-42c6bade78e6
+type: text/vnd.tiddlywiki
+
+https://code.tutsplus.com/tutorials/jenkins-workflow-scripting-out-complex-builds--cms-24207
+
+https://www.jenkins.io/pipeline/getting-started-pipelines/#pipeline-vocabulary
+
+
+
+`workflow` xml files:
+
+https://community.jenkins.io/t/can-i-delete-workflow-xml-files/4095
+
+build flow:
+
+https://wiki.jenkins-ci.org/display/JENKINS/Build+Flow+Plugin
+
+build flow vs workflow:
+
+https://stackoverflow.com/questions/35284103/jenkins-build-flow-versus-workflow-pipeline-plugin
