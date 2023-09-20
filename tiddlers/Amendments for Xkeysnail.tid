@@ -1,0 +1,11 @@
+created: 20230615183558419
+modified: 20230615183837094
+tags: 
+title: Amendments for Xkeysnail
+tmap.id: e2653d14-08c6-484a-a8b1-9e343d689d6f
+type: text/vnd.tiddlywiki
+
+* unmap `C-S--` in chrome devtools (it zooms out)
+* couple of mappings in copyq's fake vim
+* unmap `C-w` in vivaldi
+* ...

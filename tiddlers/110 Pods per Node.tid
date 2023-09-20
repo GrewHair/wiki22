@@ -1,0 +1,12 @@
+created: 20230321120937363
+modified: 20230321121042610
+tags: K8s Stub
+title: 110 Pods per Node
+tmap.id: bf6a1ded-f796-4449-a5a0-50e6d90395fe
+type: text/vnd.tiddlywiki
+
+https://kubernetes.io/docs/setup/best-practices/cluster-large/
+
+Found it here:
+
+https://youtu.be/zJY2uxLtwUk?t=584

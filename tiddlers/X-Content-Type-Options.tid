@@ -1,0 +1,10 @@
+created: 20230525131410944
+modified: 20230525132236107
+tags: [[HTTP Headers]] MIME
+title: X-Content-Type-Options
+tmap.id: d76d53c9-99d4-46bd-a57f-7785d4201fc9
+type: text/vnd.tiddlywiki
+
+Look at `nosniff` specifically.
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Content-Type-Options?utm_source=mozilla&utm_medium=firefox-console-errors&utm_campaign=default

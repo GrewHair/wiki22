@@ -1,0 +1,16 @@
+created: 20230129115859651
+modified: 20230129120343404
+tags: Tmux
+title: $TERM Compatibility Issues
+tmap.id: 1009f02b-04b3-4219-921f-21e3ab41df46
+type: text/vnd.tiddlywiki
+
+starting from [[Tmux]] 3.2 (or so), the default `$TERM` value is `tmux-256colors` (don't remember exactly), which is probably cool and has advantages - but it's still poorly compatible with [[CentOS]] 7.
+
+In case of such issues, a quick and dirty solution is add this to `.tmux.conf`:
+
+```bash
+set -g default-terminal screen
+```
+
+Although it will degrade experience on newer systems.

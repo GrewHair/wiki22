@@ -1,0 +1,10 @@
+created: 20230622155311693
+modified: 20230622155449759
+tags: Cron
+title: Anacron
+tmap.id: 08f719b6-23f8-4606-9a39-37d423ea7ae5
+type: text/vnd.tiddlywiki
+
+It's [[Cron]], but also can correctly run on a computer that is sometimes off (like your usual PC or a laptop).
+
+https://en.wikipedia.org/wiki/Anacron

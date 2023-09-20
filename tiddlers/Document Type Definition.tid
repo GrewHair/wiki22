@@ -1,0 +1,19 @@
+created: 20230725143631107
+modified: 20230725143947144
+tags: Stub XML
+title: Document Type Definition
+tmap.id: d9911edd-4fde-4fba-b285-ba9f99c3878a
+type: text/vnd.tiddlywiki
+
+''AKA DTD''
+
+It's an [[XML]] thing...
+
+https://en.wikipedia.org/wiki/Document_type_definition
+
+Example:
+
+```
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+```

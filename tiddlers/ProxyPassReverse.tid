@@ -1,0 +1,17 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20230727165336656
+modified: 20230727165947762
+tags: Apache2
+title: ProxyPassReverse
+tmap.id: 697a56b9-a759-4eaa-abd5-89b6c6238b2f
+type: text/vnd.tiddlywiki
+
+The [[ProxyPassReverse]] [[directive|Apache Directives]] is used in conjunction with [[ProxyPass]]. It tells [[Apache|Apache2]] to replace all occurances of the application's URL in the response headers (such as `Location`, `Content-Location`, `Set-Cookie`, etc) with [[Apache's|Apache2]] URL.
+
+```apache
+ProxyPass / http://jenkins-server:8080/ nocanon
+ProxyPassReverse / http://jenkins-server:8080/
+```

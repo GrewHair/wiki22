@@ -1,5 +1,5 @@
 created: 20211203084818072
-modified: 20211203085149983
+modified: 20230622113027953
 tags: Bash Cron Linux Unix
 title: List All Cronjobs For All Users
 tmap.id: 3970c4b4-17be-4215-86b9-93b8c0a81103
@@ -9,3 +9,9 @@ type: text/vnd.tiddlywiki
 for user in $(cut -f1 -d: /etc/passwd); do; crontab -u $user -l; done
 ```
 https://stackoverflow.com/questions/134906/how-do-i-list-all-cron-jobs-for-all-users
+
+This errors. [[ChatGPT]] proposed this instead:
+
+```bash
+for user in $(cut -f1 -d: /etc/passwd); do echo "Cron jobs for $user:"; crontab -u $user -l 2>/dev/null; echo ""; done
+```

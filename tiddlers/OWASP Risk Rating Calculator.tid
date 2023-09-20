@@ -1,0 +1,8 @@
+created: 20230628174625769
+modified: 20230628180614412
+tags: Security
+title: OWASP Risk Rating Calculator
+tmap.id: 2752fc49-3dbf-4069-8a23-4a67066c4369
+type: text/vnd.tiddlywiki
+
+https://owasp-risk-rating.com/?vector=(SL:5/M:0/O:0/S:0/ED:3/EE:3/A:4/ID:1/LC:0/LI:0/LAV:0/LAC:0/FD:7/RD:5/NC:5/PV:5)

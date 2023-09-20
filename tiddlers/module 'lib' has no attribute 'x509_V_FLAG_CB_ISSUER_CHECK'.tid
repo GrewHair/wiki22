@@ -1,0 +1,18 @@
+created: 20230228075514791
+modified: 20230228075919754
+tags: Python
+title: module 'lib' has no attribute 'x509_V_FLAG_CB_ISSUER_CHECK'
+tmap.id: f1a5610c-0710-42d2-b73c-a755736f8db0
+type: text/vnd.tiddlywiki
+
+https://github.com/pyca/cryptography/issues/7126
+
+If you're about to update `cryptography`, also update `pyOpenSSL`, or else stuff might happen..
+
+Also if you errors like this:
+
+```
+AttributeError: module 'lib' has no attribute 'X509_V_FLAG_CB_ISSUER_CHECK'.
+```
+
+try to update both and see if it does away.

@@ -2,11 +2,11 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-created: 20191122143549578
-modified: 20201029213648290
-tags: $:/tags/Stylesheet
-title: _my/stylesheets/fields_width
-tmap.id: 692715ad-71fd-4d13-bf6d-6df00f9f67f9
-type: text/css
+created: 20230801145535945
+modified: 20230801145617683
+tags: Jenkins
+title: Jenkins 2.397 and 2.387.2: New Linux Repository Signing Keys
+tmap.id: 5216ddb4-ed89-42ed-992b-302b78dd4935
+type: text/vnd.tiddlywiki
 
-.tc-edit-field-value {width: auto}
+https://www.jenkins.io/blog/2023/03/27/repository-signing-keys-changing/

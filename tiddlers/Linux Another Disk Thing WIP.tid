@@ -1,0 +1,13 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20230801102830755
+modified: 20230801103617090
+tags: WIP
+title: Linux Another Disk Thing WIP
+tmap.id: 27bdba68-39d5-4688-b18f-fd3a30b644ee
+type: text/vnd.tiddlywiki
+
+|block device|->|partition|->|file system|
+|`lsblk`|->|`fdisk`, `gdisk`, `parted`|->|`df`, `resize2fs`, `xfs_growfs`|

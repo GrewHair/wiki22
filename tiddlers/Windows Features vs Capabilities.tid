@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20230907145004813
+modified: 20230907145051434
+tags: Windows Stub Microsoft
+title: Windows Features vs Capabilities
+tmap.id: 6d09108b-ebb1-45ee-9f8f-d6713ef5cbc2
+type: text/vnd.tiddlywiki
+
+https://answers.microsoft.com/en-us/windows/forum/all/what-is-the-difference-between-features-and/33c2004d-9be6-421d-8fe0-c086a927bf02

@@ -1,0 +1,23 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20230727145436631
+modified: 20230727150400968
+tags: Apache2 [[Web Servers]] Stub
+title: Proxy Abuse
+tmap.id: 96f99b54-eed9-4299-a25c-aadda2852fca
+type: text/vnd.tiddlywiki
+
+Basically, always set
+
+```apache
+ProxyRequests Off
+```
+https://serverfault.com/questions/589238/how-can-i-test-if-my-apache-server-is-an-open-proxy
+
+https://cwiki.apache.org/confluence/display/httpd/ProxyAbuse
+
+This wiki article has some interesting info about some RFC demanding accepting requests with absolute URI.. What's that, anyway? :)
+
+https://datatracker.ietf.org/doc/html/rfc2616#section-5.1.2

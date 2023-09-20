@@ -1,11 +1,11 @@
 created: 20211004114054763
-modified: 20211004114647213
+modified: 20230726164411261
 tags: Computing Stub
 title: Lock (Computer Science)
 tmap.id: caf31532-b2c2-4eca-9343-a4289019fd90
 type: text/vnd.tiddlywiki
 
-''AKA Mutex''
+''AKA Mutex (Mutual Exclusion)''
 
 A [[Lock|Lock (Computer Science)]] is a [[Synchronization|Synchronization (Computer Science)]] [[Primitive|Primitive (Computer Science)]].
 

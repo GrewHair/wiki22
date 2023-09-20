@@ -1,12 +1,12 @@
 created: 20221022104814249
-modified: 20221022105512345
+modified: 20230801103828207
 tags: Linux WIP
 title: "Porcelain" vs "Plumbing" in Linux WIP
 tmap.id: 96429d24-151b-4911-a0b7-cb62dda83337
 type: text/vnd.tiddlywiki
 
 |!Tool      |!Curses |!Porcelain|!Plumbing|
-|`fdisk`    |`cfdisk`|`fdisk`   |`cfdisk` |
+|`fdisk`    |`cfdisk`|`fdisk`   |`sfdisk` |
 |`apt`      |        |`apt`     |`apt-get`|
 |`systemctl`|        |          |         |
 |`git`      |        |          |         |

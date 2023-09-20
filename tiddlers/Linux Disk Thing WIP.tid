@@ -1,0 +1,19 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20230731105517011
+modified: 20230801092205424
+tags: WIP
+title: Linux Disk Thing WIP
+tmap.id: 857cac94-f17b-4d3c-9db7-2c71fa75e331
+type: text/vnd.tiddlywiki
+
+* List block devices
+*>`lsblk`
+* Format disk
+*>`mkfs -t ext4 /dev/sdb1`
+* Create mount point
+*>`mkdir -p /mount/disks/my-mountpoint`
+* Mount disk
+*>`mount /dev/sdb1 /mount/disks/my-mountpoint`

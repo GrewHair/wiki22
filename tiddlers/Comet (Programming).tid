@@ -1,0 +1,16 @@
+created: 20230131161044486
+modified: 20230131162347411
+tags: [[Web Development]]
+title: Comet (Programming)
+tmap.id: f9bef1c5-4b74-4b93-acf0-7cfcef8f35fa
+type: text/vnd.tiddlywiki
+
+''AKA Ajax Push, Reverse Ajax, Two-way-web, HTTP Streaming, HTTP server push''
+
+[[Comet|Comet (Programming)]] is a [[Web Application]] model in which a long-held [[HTTPS]] request allows a [[web server|Web Server]] to [[push|Push Technology]] data to a [[browser|Web Browser]], without the [[browser|Web Browser]] explicitly requesting it.
+
+[[Comet|Comet (Programming)]] is an umbrella term, encompassing multiple techniques of achieving this.
+
+It has been obsoleted by [[WebSocket]].
+
+https://en.wikipedia.org/wiki/Comet_(programming)

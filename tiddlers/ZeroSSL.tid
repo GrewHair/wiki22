@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20230815120405199
+modified: 20230821124152494
+tags: 
+title: ZeroSSL
+tmap.id: ba0d52ba-1437-40e1-9144-c7ea3e58116d
+type: text/vnd.tiddlywiki
+
+https://www.youtube.com/watch?v=iVoiDV8QV_w

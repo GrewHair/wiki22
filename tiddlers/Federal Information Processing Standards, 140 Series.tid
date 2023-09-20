@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20230727093804265
+modified: 20230727095927960
+tags: [[WTF is This?]] Cryptography Standards
+title: Federal Information Processing Standards, 140 Series
+tmap.id: a3173f42-b911-4974-8658-97863363d9f5
+type: text/vnd.tiddlywiki
+
+''AKA FIPS 140''
+
+https://en.wikipedia.org/wiki/FIPS_140
+
+It specifies requirements for [[Cryptography]] modules...

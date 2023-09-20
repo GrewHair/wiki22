@@ -1,0 +1,12 @@
+created: 20230331132447066
+modified: 20230331132604463
+tags: K8s
+title: nodePort Range
+tmap.id: 2c7263ad-705b-4a43-90f2-fc255cb666bd
+type: text/vnd.tiddlywiki
+
+https://sysdig.com/blog/kubernetes-services-clusterip-nodeport-loadbalancer/
+
+```
+30000 - 32767
+```

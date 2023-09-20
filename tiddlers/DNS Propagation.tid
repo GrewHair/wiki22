@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20230727180430251
+modified: 20230727180522250
+tags: DNS Stub
+title: DNS Propagation
+tmap.id: d305dde4-b3fe-41bb-b0f0-19484c3fdcc7
+type: text/vnd.tiddlywiki
+
+[[DNS Propagation]] is the time it takes updates to DNS records to be in full effect across all servers on the internet.
+
+https://www.digicert.com/faq/dns/what-is-dns-propagation

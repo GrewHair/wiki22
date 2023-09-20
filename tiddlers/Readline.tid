@@ -1,0 +1,18 @@
+created: 20230624151749364
+modified: 20230624152158835
+title: Readline
+tmap.id: cd76b894-2f8b-4ae8-940d-02ee7f7b6ad7
+type: text/vnd.tiddlywiki
+
+Who uses it:
+
+* [[Bash]]
+* [[Python]] interactive shell
+* [[IPython]]
+* [[R]] interactive shell
+* [[GNU Octave]]
+* [[psql]]
+* [[SQLite]] shell
+* ...
+
+Can be configured with the [[inputrc]] [[file|File]]..

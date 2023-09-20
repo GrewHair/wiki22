@@ -1,0 +1,12 @@
+created: 20230425065727627
+modified: 20230425065840570
+tags: K8s [[WTF is This?]] WIP
+title: Ephemeral Storage
+tmap.id: 9cb4db3e-5ce6-4eca-b0e7-443579651449
+type: text/vnd.tiddlywiki
+
+https://stackoverflow.com/questions/59906810/the-node-was-low-on-resource-ephemeral-storage
+
+https://github.com/GoogleCloudPlatform/spark-on-k8s-operator/issues/1546
+
+https://kubernetes.io/docs/concepts/storage/ephemeral-volumes/

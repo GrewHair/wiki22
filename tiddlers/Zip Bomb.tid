@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20230801090253050
+modified: 20230801090332068
+tags: Security Stub
+title: Zip Bomb
+tmap.id: d7bd6a82-52c4-4919-b432-68d56256ea07
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/Zip_bomb

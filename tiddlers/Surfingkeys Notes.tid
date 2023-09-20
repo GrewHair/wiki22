@@ -1,0 +1,24 @@
+created: 20230619132604069
+modified: 20230727190809589
+tags: Surfingkeys
+title: Surfingkeys Notes
+tmap.id: 94a3d421-e25c-413d-a55e-1d63cfdead0f
+type: text/vnd.tiddlywiki
+
+* some sites are hell bent on sending you to insert mode - like, say, chatgpt. gotta do something about that
+** on the flip side, sk is pretty aggressive with not letting them do that too. e.g. on jenkins page i can't search with ctrl-k because of that
+* ace editor freaks out from time to time
+** disappears when i leave and revisit the tab
+** exits without actually pasting the damn content
+*** hacked together a solution already (it also involves copyq)
+** sometimes it just disappears without warning, rhyme or reason (at least at chatgpt)
+* handling of function keys beyond f12 could really be better
+** normal mode just ignores them so they propagate to browser
+** insert mode not only ignores them, but for some reason they even can't propagate at all
+* codemirror in tiddlywiki completely dominates surfingkeys.. no mappings work, doesn't matter the mode
+*..
+
+---
+
+* you can use dot and numbers with `gu`
+* you can use dot with hinting actions with highly specific selectors (broad selectors yield unpredictable results tho)

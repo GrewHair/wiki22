@@ -1,0 +1,10 @@
+created: 20230627135824777
+modified: 20230627140000290
+tags: Ubuntu
+title: Xenial Xerus
+tmap.id: 67a97a00-814c-4c6e-b958-184ec37c9f59
+type: text/vnd.tiddlywiki
+
+''AKA Ubuntu 16.04''
+
+[[Kubernetes]] still only has packages for this...

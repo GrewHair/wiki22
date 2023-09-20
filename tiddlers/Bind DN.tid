@@ -1,0 +1,10 @@
+created: 20230420093937486
+modified: 20230420094056541
+tags: LDAP [[WTF is This?]]
+title: Bind DN
+tmap.id: 79e24beb-b4bc-408e-bb1f-749572d47a52
+type: text/vnd.tiddlywiki
+
+or is it bind_dn?
+
+https://serverfault.com/questions/616698/in-ldap-what-exactly-is-a-bind-dn

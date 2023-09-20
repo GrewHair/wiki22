@@ -1,24 +1,16 @@
-created: 20210603221855409
-modified: 20210603222609153
-tags: Docker
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20230727110412392
+modified: 20230727111002121
+tags: Docker WIP
 title: Docker Volumes
-tmap.id: 2498d10c-f9b5-4b26-b598-f4f3b5711fd7
+tmap.id: 8d208288-d3a3-4577-a2f0-323b98d2f34f
 type: text/vnd.tiddlywiki
 
-You can mount a [[Docker Container]]'s directory to somewhere in your [[File System]] to make it persistently store the files that are to be added/modified while the [[Container|Docker Container]] is running.
+It's pretty different to just mounting a directory on the [[File System]]..
 
-You can do that via the `-v` flag:
+These are managed completely by [[Docker]]...
 
-```bash
-docker run -i -t -v ~/docker_ubuntu:/host_directory ubuntu 16.04 /bin/bash
-```
-
-Or in the [[Dockerfile]]:
-
-```dockerfile
-VOLUME /host_directory
-```
-
-In this case, if we run the [[Container|Docker Container]] without the `-v` flag, then its `/host_directory` will be mapped into the host's default directory for volumes, `/var/lib/docker/vfs/`.
-
-Flag takes precedence!
+https://docs.docker.com/storage/volumes/

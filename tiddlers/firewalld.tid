@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20230810135355705
+modified: 20230810135705398
+tags: CentOS [[Red Hat Linux]] Security
+title: firewalld
+tmap.id: 3b3bf5e6-f261-4243-951f-e0c7c22df7fd
+type: text/vnd.tiddlywiki
+
+It's a frontend for [[Iptables]]/[[Nftables]]...
+
+The cli command is `firewall-cmd`.
+
+https://www.youtube.com/watch?v=a6EUoDNMnHA

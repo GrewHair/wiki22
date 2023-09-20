@@ -1,0 +1,10 @@
+created: 20230628143502503
+modified: 20230628143545972
+tags: Debian
+title: update-alternatives --install
+tmap.id: 5afca43d-00a1-4089-be28-b6033603ad5a
+type: text/vnd.tiddlywiki
+
+It has four arguments..
+
+https://askubuntu.com/questions/492029/update-alternatives-install-says-it-needs-link-name-path-priority

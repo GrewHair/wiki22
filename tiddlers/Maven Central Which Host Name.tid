@@ -1,0 +1,30 @@
+created: 20230626153530493
+modified: 20230626155454815
+tags: Maven Java WTF? WIP
+title: Maven Central Which Host Name
+tmap.id: 716d22fc-e4e9-4286-98a1-8030c58c1592
+type: text/vnd.tiddlywiki
+
+There's two:
+
+```
+https://repo.maven.apache.org/maven2
+```
+
+and
+
+```
+https://repo1.maven.org/maven2
+```
+
+God knows why...
+
+More on it:
+
+https://stackoverflow.com/questions/36155159/difference-between-http-repo-maven-apache-org-maven2-vs-http-repo1-maven-or
+
+https://github.com/spring-projects/spring-boot/issues/33938
+
+Ok, this seems to explain it:
+
+https://maximilianmichels.com/2017/who-is-behind-maven-central/

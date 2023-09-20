@@ -1,0 +1,10 @@
+created: 20230624133744823
+modified: 20230624145446059
+tags: Zsh Stub
+title: Zsh Line Editor
+tmap.id: 3f32ca04-fc78-4191-aff7-dc7ad6026004
+type: text/vnd.tiddlywiki
+
+''AKA ZLE''
+
+It's like [[Zsh's|Zsh]] analog of [[Readline]]..

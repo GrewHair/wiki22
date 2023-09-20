@@ -1,0 +1,10 @@
+created: 20230504084048119
+modified: 20230504084147982
+tags: [[WTF is This?]]
+title: Visible Cores
+tmap.id: b083bad3-922f-4667-b71a-4234f3defc15
+type: text/vnd.tiddlywiki
+
+https://cloud.google.com/compute/docs/instances/customize-visible-cores
+
+Is it the same as "effective cores"?

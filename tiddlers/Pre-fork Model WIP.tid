@@ -1,0 +1,20 @@
+created: 20230726143844106
+modified: 20230726144306904
+tags: [[Web Servers]] Apache2 WIP
+title: Pre-fork Model WIP
+tmap.id: 16420213-ecb5-486a-bc3f-e781b80491d0
+type: text/vnd.tiddlywiki
+
+Basically it means that the master process creates some child processes ahead of time so that requests don't have to wait.
+
+It applies to non-threading servers.
+
+It doesn't work so well on [[Windows]], where [[Processes|Process (Computing)]] are much fatter than [[Threads|Thread (Computing)]].
+
+https://stackoverflow.com/questions/25834333/what-exactly-is-a-pre-fork-web-server-model
+
+https://news.ycombinator.com/item?id=4965843
+
+https://httpd.apache.org/docs/2.2/mod/prefork.html
+
+https://httpd.apache.org/docs/2.4/mod/prefork.html

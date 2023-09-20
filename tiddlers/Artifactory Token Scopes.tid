@@ -1,0 +1,12 @@
+created: 20230720110146464
+modified: 20230720110225889
+tags: [[WTF is This?]]
+title: Artifactory Token Scopes
+tmap.id: 65f8d1c1-2e00-4291-a300-43137da70df4
+type: text/vnd.tiddlywiki
+
+https://jfrog.com/help/r/jfrog-platform-administration-documentation/access-tokens
+
+Found it here:
+
+https://jfrog.com/help/r/jfrog-rest-apis/create-token-deprecated

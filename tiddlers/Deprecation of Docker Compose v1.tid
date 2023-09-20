@@ -1,0 +1,10 @@
+created: 20230619121225522
+modified: 20230619121333232
+tags: Docker
+title: Deprecation of Docker Compose v1
+tmap.id: da6ef981-98ba-401a-ba63-fd4914b2fd5f
+type: text/vnd.tiddlywiki
+
+Btw, v1 was written in [[Python]]...
+
+https://support.sitecore.com/kb?id=kb_article_view&sysparm_article=KB1002998

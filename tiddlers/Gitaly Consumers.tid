@@ -1,0 +1,13 @@
+created: 20230721165850612
+modified: 20230721170056918
+tags: Gitlab
+title: Gitaly Consumers
+tmap.id: 4261dd89-64a6-45c2-b341-5485ebf7650a
+type: text/vnd.tiddlywiki
+
+* Gitlab Rails Application
+* [[Gitlab Shell]]
+* [[Gitlab Workhorse]]
+* Gitlab Elasticsearch Indexer
+
+https://docs.gitlab.com/ee/administration/gitaly/

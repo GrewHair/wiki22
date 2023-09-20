@@ -1,0 +1,16 @@
+created: 20230131164650251
+modified: 20230131165028481
+tags: [[Software Development]] [[Version Control]] [[Open Source]] Git
+title: Trunk
+tmap.id: 83b9d825-957b-4e45-963b-3e37375557f1
+type: text/vnd.tiddlywiki
+
+''AKA Development Branch, Development Tree''
+
+https://en.wikipedia.org/wiki/Branching_(version_control)#Development_branch
+
+In [[Git]] parlance, it's usually `main`.
+
+Found it here:
+
+https://youtu.be/8XKMYhGR9f4?t=60

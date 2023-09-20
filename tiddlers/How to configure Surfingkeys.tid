@@ -1,0 +1,11 @@
+created: 20230615183838483
+modified: 20230615184229401
+tags: Surfingkeys
+title: How to configure Surfingkeys
+tmap.id: 179514a5-a268-417e-9858-bc44c1d7d25e
+type: text/vnd.tiddlywiki
+
+* ChatGPT (3.5) can't help
+* press <kbd>?</kbd> and copy textual descriptions of keybindings you want to inspect
+* search for that text on github, you'll find code snippets you need
+* google "surfingkeys api" - there's a half baked document that can help

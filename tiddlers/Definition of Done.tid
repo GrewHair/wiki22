@@ -1,0 +1,12 @@
+created: 20230616143523763
+modified: 20230616145129428
+tags: Scrum Stub
+title: Definition of Done
+tmap.id: ee1671b8-40f0-4130-a4ad-368148b66de3
+type: text/vnd.tiddlywiki
+
+''AKA DoD''
+
+Testers start verifying a piece of code after [[DoD|Definition of Done]].
+
+(although it doesn't mean they've nothing to do before that happens - they're busy making test cases).

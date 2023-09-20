@@ -1,0 +1,19 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20230727164252194
+modified: 20230727165933557
+tags: Apache2
+title: ProxyPass
+tmap.id: afc5293d-7d40-4cad-99e9-606259f3a61c
+type: text/vnd.tiddlywiki
+
+The [[ProxyPass]] [[directive|Apache Directives]] is used for congifuring [[Apache|Apache2]] as a [[Reverse Proxy]]:
+
+```apache
+ProxyPass / http://jenkins-server:8080/ nocanon
+ProxyPassReverse / http://jenkins-server:8080/
+```
+
+It makes [[Apache|Apache2]] redirect the requests to your backend. You also often want `nocanon`, so [[Apache|Apache2]] doesn't mess with the slashes in the URL path, in case the backend application has its own URL handling mechanism.

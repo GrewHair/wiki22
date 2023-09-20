@@ -1,0 +1,10 @@
+created: 20230501142751229
+modified: 20230501142833785
+tags: K8s Stub
+title: kube-system
+tmap.id: b9e1e8ff-b08c-4ac3-b745-8ed56a813c60
+type: text/vnd.tiddlywiki
+
+https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
+
+https://www.aquasec.com/cloud-native-academy/kubernetes-101/kubernetes-namespace/

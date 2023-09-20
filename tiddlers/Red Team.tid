@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20230823080706496
+modified: 20230823080753719
+tags: Stub Security
+title: Red Team
+tmap.id: 5ea2e1b0-d373-4221-9d15-4606af285200
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/Red_team

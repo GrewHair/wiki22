@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20230810135222153
+modified: 20230810135349987
+tags: Ubuntu Security
+title: Uncomplicated Firewall
+tmap.id: a2857161-870f-4c90-b89e-deb02e6d51e7
+type: text/vnd.tiddlywiki
+
+''AKA UFW''
+
+It's a frontend for [[Iptables]]/[[Nftables]]..
+
+https://www.youtube.com/watch?v=YV3aDbQTzrs

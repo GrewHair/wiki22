@@ -1,0 +1,10 @@
+created: 20230706094323221
+modified: 20230706094419408
+tags: DNS [[WTF is This?]]
+title: Cname Flattening
+tmap.id: 0f239853-ae53-4c9a-9581-beb0600b48d7
+type: text/vnd.tiddlywiki
+
+https://social.dnsmadeeasy.com/blog/how-does-cname-flattening-work/
+
+https://blog.cloudflare.com/introducing-cname-flattening-rfc-compliant-cnames-at-a-domains-root/

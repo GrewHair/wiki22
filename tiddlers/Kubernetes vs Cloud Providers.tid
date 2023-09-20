@@ -1,0 +1,11 @@
+created: 20230331140418936
+modified: 20230331145431271
+tags: Cloud K8s
+title: Kubernetes vs Cloud Providers
+tmap.id: bdba13cd-66c1-4485-8205-e773be55b8a0
+type: text/vnd.tiddlywiki
+
+```
+Service -> Load balancer/reverse proxy
+ReplicaSet -> Autoscaling Group
+```

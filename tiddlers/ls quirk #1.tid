@@ -1,0 +1,24 @@
+created: 20230207142340313
+modified: 20230207143419530
+tags: Quirk Linux
+title: ls quirk #1
+tmap.id: ef7f7eaf-0676-4e28-96bf-08ee4b19153b
+type: text/vnd.tiddlywiki
+
+`ls -td */` lists only directories in `cwd`, sorted by creation time. Moreover, this is the simplest way. others are ugly.
+
+However, it appends a trailing slash if used this way, so you have to remove it later, if you want to construct something on top of that. E.g.:
+
+```bash
+latest_dir=$(ls -td */ | head -n1)
+tarball_name="${latest_dir}.tar.gz"
+```
+
+will not work.. It will throw you something like `directory/.tar.gz`
+
+[[The fix|https://stackoverflow.com/questions/27658675/how-to-remove-last-n-characters-from-a-string-in-bash]] is even weirder:
+
+```bash
+latest_dir=$(ls -td */ | head -n1)
+tarball_name="${latest_dir%?}.tar.gz"
+```

@@ -1,0 +1,12 @@
+created: 20230720105545825
+modified: 20230720105646500
+tags: Artifactory [[WTF is This?]]
+title: Transient User (Artifactory)
+tmap.id: 09c63283-898d-4dec-9443-8a107a215c16
+type: text/vnd.tiddlywiki
+
+https://jfrog.com/help/r/xray-how-to-restrict-users-only-to-access-xray-through-rest-api-without-providing-ui-access/method-1-creating-a-transient-user-with-an-access-token
+
+Found it here:
+
+https://jfrog.com/help/r/jfrog-rest-apis/create-token-deprecated

@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20230915103021136
+modified: 20230915103208241
+tags: 
+title: Natural Sort Order
+tmap.id: 52c7234c-9434-4555-aef7-97c35339be39
+type: text/vnd.tiddlywiki
+
+''AKA Version Sort Order''
+
+https://en.wikipedia.org/wiki/Natural_sort_order
+
+```bash
+ls -v
+```
+
+It seems to be like an "opposite" of the [[Lexicographical Order]].

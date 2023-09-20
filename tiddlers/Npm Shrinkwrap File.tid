@@ -1,0 +1,12 @@
+created: 20230706125707476
+modified: 20230706125811578
+tags: [[WTF is This?]] npm
+title: Npm Shrinkwrap File
+tmap.id: e1796e56-2f61-40aa-88ec-3f8ddcac060c
+type: text/vnd.tiddlywiki
+
+https://stackoverflow.com/questions/50743893/understanding-npm-shrinkwrap
+
+Found it here:
+
+https://stackoverflow.com/questions/40226745/npm-warn-notsup-skipping-optional-dependency-unsupported-platform-for-fsevents

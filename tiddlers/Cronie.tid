@@ -1,0 +1,12 @@
+created: 20230622155544469
+modified: 20230622155749926
+tags: Cron
+title: Cronie
+tmap.id: c38e1b61-3c9c-443d-a633-4e0b59b58acf
+type: text/vnd.tiddlywiki
+
+[[Cronie]] is [[Red Hat's|Red Hat]] fork of [[Vixie Cron]].
+
+It has [[Anacron]] as a dependency. And [[Red Hat]] also contributes to [[Anacron]].
+
+https://en.wikipedia.org/wiki/Cron

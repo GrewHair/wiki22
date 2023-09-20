@@ -1,0 +1,10 @@
+created: 20230421153245344
+modified: 20230421153339510
+tags: Linux
+title: Rescan Block Device
+tmap.id: f012a5c1-211b-4d0a-a566-86c7bc041bfe
+type: text/vnd.tiddlywiki
+
+```bash
+echo 1 > /sys/class/block/sdb/device/rescan
+```

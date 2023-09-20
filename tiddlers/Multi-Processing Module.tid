@@ -1,0 +1,20 @@
+created: 20230725173435545
+modified: 20230725203408529
+tags: Apache2
+title: Multi-Processing Module
+tmap.id: 39994bd1-4828-4a6d-9811-02d87f6395f6
+type: text/vnd.tiddlywiki
+
+''AKA MPM''
+
+[[MPMs|Multi-Processing Module]] are a type of [[module|Apache Module]]..
+
+Only one is allowed at a time.
+
+https://httpd.apache.org/docs/2.4/mpm.html
+
+https://www.linkedin.com/pulse/what-apache-prefork-worker-event-mpm-multi-processing-bipin-tiwari/
+
+this one is interesting:
+
+https://www.linkedin.com/pulse/what-apache-prefork-worker-event-mpm-multi-processing-bipin-tiwari/

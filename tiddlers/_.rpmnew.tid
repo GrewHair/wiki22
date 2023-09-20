@@ -1,0 +1,10 @@
+created: 20230726110150152
+modified: 20230726110424886
+tags: [[Red Hat Linux]]
+title: *.rpmnew
+tmap.id: f0643966-51f2-430e-9e17-ff12d73bf85e
+type: text/vnd.tiddlywiki
+
+[[RPM]] adds this extension to the files shipped when updating a package in case it detects existing files who have been changed by the user or a script since the last update..
+
+[[Debian]] handles it [[differently|DPKG Configuration File Prompt]]..

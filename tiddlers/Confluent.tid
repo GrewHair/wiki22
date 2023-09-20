@@ -1,0 +1,16 @@
+created: 20230626150524908
+modified: 20230626151144924
+tags: Stub
+title: Confluent
+tmap.id: 5959cf85-4384-46db-a8ad-7505769e68d7
+type: text/vnd.tiddlywiki
+
+''NTBCW: [[Confluence|Atlassian Confluence]]''
+
+[[Confluent]] was formed by the same guys who created [[Kafka|Apache Kafka]] at [[Linkedin]].
+
+It basically sells "enterprise" [[Kafka|Apache Kafka]]..
+
+https://www.confluent.io/apache-kafka-vs-confluent/
+
+https://verify.wiki/wiki/Confluent

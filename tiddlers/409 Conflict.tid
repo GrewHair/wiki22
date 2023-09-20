@@ -1,0 +1,22 @@
+created: 20230720095452454
+modified: 20230720100606229
+tags: HTTP
+title: 409 Conflict
+tmap.id: c6d9c53c-6966-48d7-824d-550ae18ca55e
+type: text/vnd.tiddlywiki
+
+The [[HTTP 409 Conflict response status code|409 Conflict]] indicates a request conflict with the current state of the target resource.
+
+Conflicts are most likely to occur in response to a [[PUT request|PUT Request]]. For example, you may get a 409 response when uploading a file that is older than the existing one on the server, resulting in a version control conflict.
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/409
+
+<br>
+
+Found it in a [[Gitlab CI]] error:
+
+```
+gitlab-runner[3490]: WARNING: Appending trace to coordinator... failed   code=409 job=863997 job-log= job-status= runner=fJPLbMnU sent-log=0-3844 status=409 Conflict update-inter
+```
+
+Heard that sometimes it's normal...

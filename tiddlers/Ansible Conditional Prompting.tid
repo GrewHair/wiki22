@@ -1,0 +1,10 @@
+created: 20230228132930062
+modified: 20230228133034205
+tags: Ansible
+title: Ansible Conditional Prompting
+tmap.id: f57f9eda-e35b-4b70-b3fc-634007b54c07
+type: text/vnd.tiddlywiki
+
+''TL;DR'' it's not easy and not encouraged.
+
+https://stackoverflow.com/questions/25466675/ansible-to-conditionally-prompt-for-a-variable

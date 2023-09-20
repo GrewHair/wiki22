@@ -1,0 +1,12 @@
+created: 20230614081159566
+modified: 20230614081441166
+tags: [[Google Cloud Platform]]
+title: Ways to connect GCP VPC to on-prem network
+tmap.id: 148f6af8-03a5-4e6d-a2b7-7ccb050c5c28
+type: text/vnd.tiddlywiki
+
+* Cloud VPN
+* VPC Network Peering
+* Shared VPC
+
+https://www.youtube.com/watch?v=ifEMucHgLgA&t=2s

@@ -1,0 +1,14 @@
+created: 20230131113648495
+modified: 20230131113912486
+tags: Linux Apt Quirk
+title: dpkg -S Doesn't Follow Symlinks
+tmap.id: 42e5d45e-de6b-4e12-94d8-3d9d2ea051cd
+type: text/vnd.tiddlywiki
+
+And so it's annoying to use it with tools using `update-alternatives`, e.g.,
+
+```bash
+dpkg -S `which keytool`
+```
+
+doesn't work...

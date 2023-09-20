@@ -1,0 +1,10 @@
+created: 20230331143752752
+modified: 20230331144645972
+tags: K8s
+title: Types of Kubernetes Services
+tmap.id: 85361b49-c98f-4429-af60-7de7a01857dd
+type: text/vnd.tiddlywiki
+
+|!       |!Fancy                        |!Poor Man's |
+|!Public |[[LoadBalancer]]              |[[NodePort]]|
+|!Private|<center>[[ClusterIP]]</center>|<|

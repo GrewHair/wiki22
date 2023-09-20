@@ -1,0 +1,8 @@
+created: 20230608164528709
+modified: 20230608164555200
+tags: [[Google Cloud Platform]] Monitoring Logging
+title: Ops Agent
+tmap.id: 9cc7a469-3eee-46ab-98aa-586d6c0e4ac5
+type: text/vnd.tiddlywiki
+
+https://cloud.google.com/stackdriver/docs/solutions/agents/ops-agent

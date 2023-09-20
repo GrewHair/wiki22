@@ -1,0 +1,12 @@
+created: 20230201081247114
+modified: 20230201081604247
+tags: Java Stub History
+title: Java EE vs J2EE vs Jakarta EE
+tmap.id: 5ab82e23-8357-48a9-988c-a916d56d1cdf
+type: text/vnd.tiddlywiki
+
+They're all the same thing - a set of enterprise specifications that extend [[Java SE]].
+
+https://www.baeldung.com/java-enterprise-evolution
+
+https://en.wikipedia.org/wiki/Jakarta_EE

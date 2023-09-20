@@ -1,0 +1,13 @@
+created: 20230124080218051
+modified: 20230124080437614
+tags: Kanata
+title: Increase Max Number of Layers in Kanata
+tmap.id: 594044ed-2dc7-4388-b5b2-23e5c52672e4
+type: text/vnd.tiddlywiki
+
+* search the repo for `MAX_LAYERS`
+* as of the time of writing, it's in `src/layers.rs`
+* change the value
+* `cargo build`
+
+https://github.com/jtroo/kanata/issues/253

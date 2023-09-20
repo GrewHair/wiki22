@@ -1,0 +1,8 @@
+[
+    {
+        "title": "$:/plugins/felixhayashi/tiddlymap/graph/views/Zsh Plugin Managers/filter/nodes",
+        "type": "text/vnd.tiddlywiki",
+        "text": "",
+        "filter": " [field:tmap.id[28e96f1c-eb19-4277-9d52-ef08a5269351]] [field:tmap.id[fa33334e-e7a1-4d2a-87b9-a890147b47d4]] [field:tmap.id[c76cb781-5611-4f87-9a89-427a5b66680e]] [field:tmap.id[09ed1bac-3b32-4031-9da4-d143c4024a3d]] [field:tmap.id[6dba9f42-ecd3-4cfc-a1a4-39adc890671b]] [field:tmap.id[af0c79ee-f5c2-4773-b24c-4be65ab2b52c]] [field:tmap.id[c1f1c78c-5063-42d2-ad5a-8d5144efd979]] [field:tmap.id[3b606b34-1aad-437f-83f1-eed5fb75e9f5]] [field:tmap.id[4bb07944-28fa-45a2-87af-e70bf37863e6]] [field:tmap.id[2868543b-a44a-42b2-baac-19fe135c123a]] [field:tmap.id[2153816d-8da3-4e93-a70a-ccef7b4724d1]] [field:tmap.id[4c6a761c-5c76-46b3-9a69-6dfeec41ae94]] [field:tmap.id[117dc6e3-4a86-4d39-a3bd-ebae103895a9]] "
+    }
+]

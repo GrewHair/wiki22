@@ -1,0 +1,27 @@
+created: 20230726105006883
+modified: 20230726110146291
+tags: Debian Ubuntu
+title: DPKG Configuration File Prompt
+tmap.id: e4e0ec93-91f0-496f-9c63-dd7f98e855a9
+type: text/vnd.tiddlywiki
+
+It happens when you're updating a package, and it has modified config files at `/etc`. It looks like this:
+
+```
+Configuration file '/path/to/config-file' 
+ ==> Modified (by you or by a script) since installation.
+ ==> Package distributor has shipped an updated version.
+   What would you like to do about it? Your options are:
+    Y or I  : install the package maintainer's version
+    N or O  : keep your currently-installed version
+      D     : show the differences between the versions
+      Z     : start a new shell to examine the situation
+ The default action is to keep your current version.
+*** config-file (Y/I/N/O/D/Z) [default=N] ? 
+```
+
+Found it here:
+
+https://youtu.be/pwR9TPW2oG4?t=771
+
+[[RHELs|RHEL]] handle this situation [[differently|*.rpmnew]].

@@ -1,0 +1,15 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20230323125458206
+modified: 20230323125616747
+tags: Philosophy Cringe
+title: To master a new technology
+tmap.id: dad71509-eb4f-41f1-a576-93189111d87b
+type: text/vnd.tiddlywiki
+
+<<<.tc-big-quote
+To master a new technology, you have to play with it.
+<<<
+[[Jordan Peterson]]

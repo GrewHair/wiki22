@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20230801091146889
+modified: 20230801091253252
+tags: Stub
+title: Domain Squatting
+tmap.id: 850ac9bf-eb9d-4b34-b2b9-ff99dc70064a
+type: text/vnd.tiddlywiki
+
+''AKA Cybersquatting''
+
+https://en.wikipedia.org/wiki/Cybersquatting

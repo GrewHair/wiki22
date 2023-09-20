@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20230802152943532
+modified: 20230802153108239
+tags: Ansible WIP
+title: apt-key Deprecated How to Fix in Ansible WIP
+tmap.id: 2e022ef1-49d0-4910-8703-c57d85c11a3b
+type: text/vnd.tiddlywiki
+
+https://www.jeffgeerling.com/blog/2022/aptkey-deprecated-debianubuntu-how-fix-ansible
+
+https://github.com/ansible/ansible/issues/78063

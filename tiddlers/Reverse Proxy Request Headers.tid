@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20230727154840612
+modified: 20230727163212837
+tags: Apache2 [[Web Servers]]
+title: Reverse Proxy Request Headers
+tmap.id: 588aa18e-8fa5-4510-84d2-e863cdb260c0
+type: text/vnd.tiddlywiki
+
+* <$link to="X-Forwarded-For">''`X-Forwarded-For`''</$link> &emsp; The IP address of the client.
+* ''`X-Forwarded-Host`'' &emsp;The original host requested by the client in the Host HTTP request header.
+* ''`X-Forwarded-Server`'' The hostname of the proxy server.
+
+https://httpd.apache.org/docs/2.4/mod/mod_proxy.html#x-headers

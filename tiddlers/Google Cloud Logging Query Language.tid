@@ -1,0 +1,10 @@
+created: 20230608150215670
+modified: 20230627151623823
+tags: [[Google Cloud Platform]] Stub Logging
+title: Google Cloud Logging Query Language
+tmap.id: ad8ac468-9649-4716-b439-679f40c6716d
+type: text/vnd.tiddlywiki
+
+* `--` comments out
+* adding conditions on separate lines narrows results (so does it OR?)
+https://cloud.google.com/logging/docs/view/logging-query-language

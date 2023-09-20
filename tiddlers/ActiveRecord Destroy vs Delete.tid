@@ -1,0 +1,12 @@
+created: 20230518074228402
+modified: 20230518074426113
+tags: Ruby [[Ruby on Rails]] Gitlab
+title: ActiveRecord Destroy vs Delete
+tmap.id: c4b14fd7-1069-4982-b791-1ddadf547ca8
+type: text/vnd.tiddlywiki
+
+https://stackoverflow.com/questions/22757450/difference-between-destroy-and-delete
+
+This is useful to know when working with gitlab rails console.
+
+TLDR: use destroy.

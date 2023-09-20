@@ -1,0 +1,16 @@
+created: 20230720083420843
+modified: 20230720101345124
+tags: OAuth [[WTF is This?]]
+title: OAuth Grant Types
+tmap.id: 3ea321e6-471a-443d-98cb-510da51213d8
+type: text/vnd.tiddlywiki
+
+* [[Authorization Code]]
+* [[PKCE]]
+* [[Client Credentials]]
+* [[Device Code]]
+* [[Refresh Token]]
+
+https://oauth.net/2/grant-types/
+
+WTF are OAuth grants anyway?

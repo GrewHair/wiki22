@@ -1,0 +1,10 @@
+created: 20230627135527065
+modified: 20230627135712015
+tags: K8s Problem WIP
+title: Kubernetes Ubuntu PGP Key Problem
+tmap.id: 2866bfd8-8198-4071-9406-4f6fb6a606ec
+type: text/vnd.tiddlywiki
+
+https://stackoverflow.com/questions/76299027/gpg-error-public-key-is-not-available-no-pubkey-b53dc80d13edef05-during-vm-cre
+
+https://github.com/kubernetes/k8s.io/pull/4837

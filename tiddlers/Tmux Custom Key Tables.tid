@@ -1,0 +1,13 @@
+created: 20230129114833143
+modified: 20230129115002008
+tags: Tmux
+title: Tmux Custom Key Tables
+tmap.id: 7abb0567-f465-4cca-b81a-d4857052c04a
+type: text/vnd.tiddlywiki
+
+```bash
+# custom key tables
+bind -T root       a switch-client -T my_table_1
+bind -T my_table_1 b switch-client -T my_table_2
+bind -T my_table_2 c new-window
+```

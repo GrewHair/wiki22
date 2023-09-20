@@ -1,0 +1,23 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20230821122804238
+modified: 20230821123533633
+tags: Apache2
+title: VirtualHost
+tmap.id: 8c113728-b705-4390-b397-837f0b63785d
+type: text/vnd.tiddlywiki
+
+What's important to know about them is that the argument __does ''not''__ help [[Apache|Apache2]] understand which site to serve (i.e., based on the `Host` header) - it merely specifies which [[NIC|Network Interface Controller]] and which [[port|Port (Networking)]] a [[Virtual Host|VirtualHost]] will listen on.
+
+The "which site to serve" question is resolved by using the near-mandatory `ServerName` directive instead:
+
+```apache
+<VirtualHost *:80>
+    ServerName acme.com
+	  ...
+</VirtualHost>
+```
+
+Which is actually confusing! Guess it's like this because the `Host` header wasn't around in the early days...

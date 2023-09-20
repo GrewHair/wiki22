@@ -1,0 +1,10 @@
+created: 20230628124740632
+modified: 20230628124859188
+tags: [[Google Cloud Platform]]
+title: Cloud NAT
+tmap.id: a3f697a1-a667-4488-881d-041ab7ec3c0e
+type: text/vnd.tiddlywiki
+
+It requires [[Cloud Router]]...
+
+https://cloud.google.com/nat/docs/overview

@@ -1,0 +1,16 @@
+created: 20230726161129436
+modified: 20230726161648320
+tags: [[WTF is This?]] Apache2
+title: Shared Memory Circular Buffer
+tmap.id: 80468911-5ae5-4b1d-8306-a37e6e849a5f
+type: text/vnd.tiddlywiki
+
+Found it here:
+
+https://httpd.apache.org/docs/2.4/mod/mod_socache_shmcb.html
+
+https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslsessioncache
+
+It's used in [[Apache's|Apache2]] [[SSLSessionCache]] [[directive|Apache Directives]]..
+
+Guess it's an example of [[Shared Memory|Shared Memory (IPC)]]...

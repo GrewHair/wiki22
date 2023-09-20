@@ -1,0 +1,46 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20230826174504309
+modified: 20230826174826488
+tags: DNS
+title: DNS Debugging with Dig
+tmap.id: bfdcbedd-75f3-483c-99b3-985f67531c6b
+type: text/vnd.tiddlywiki
+
+https://itnext.io/media/3d1825c2fa9ca595d017b06c2e5d16eb
+
+```bash
+# Paste this into your shell and you can use the 'digall' command like:
+
+#    digall example.com
+#    digall something.example.com
+
+# You can also add it to your ~/.bashrc file to have it always available
+
+declare -rx color_restore='\033[0m'
+declare -rx color_red='\033[0;31m'
+declare -rx color_light_green='\033[1;32m'
+declare -rx color_light_blue='\033[1;34m'
+declare -rx color_light_cyan='\033[1;36m'
+
+digall()
+{
+  if [ -z "$1" ]; then 
+    echo -e "${color_red}Error: Please pass domain as first arg${color_restore}"
+  else 
+    echo -e "${color_light_blue}Queries: (dig +noall +answer '$1' '<type>')...${color_light_cyan}\n"
+    # CNAME isn't needed because it will show up as the other record types
+    for t in SOA NS SPF TXT MX AAAA A; do
+      echo -e "${color_light_green}Querying for $t records...${color_restore}${color_light_cyan}"
+      dig +noall +answer "$1" "${t}"
+      echo -e "${color_restore}"
+    done 
+  fi
+}
+```
+
+{{_my/images/png/digall}}
+
+Why exactly these seven record types?

@@ -1,0 +1,12 @@
+created: 20230607114209163
+modified: 20230607123154574
+tags: [[WTF is This?]] npm
+title: Protocol-relative URL
+tmap.id: 80fbe30f-76f5-4116-90f6-78d9db2c42ba
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/URL#prurl
+
+Found it here:
+
+https://stackoverflow.com/questions/53267884/what-do-lines-starting-with-double-slash-mean-in-a-npmrc

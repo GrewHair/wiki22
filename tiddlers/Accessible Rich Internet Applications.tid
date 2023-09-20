@@ -1,0 +1,14 @@
+created: 20230719191041926
+modified: 20230719192053994
+tags: Web
+title: Accessible Rich Internet Applications
+tmap.id: efd5af64-8b9b-48e0-9935-467639e119df
+type: text/vnd.tiddlywiki
+
+''AKA ARIA''
+
+https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA
+
+https://en.wikipedia.org/wiki/WAI-ARIA
+
+Found it when inspecting the keep.google.com page. some divs had the property `aria-label`.

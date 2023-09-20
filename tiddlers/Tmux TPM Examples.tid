@@ -1,0 +1,13 @@
+created: 20230129115125200
+modified: 20230129115233753
+tags: Tmux
+title: Tmux TPM Examples
+tmap.id: a7dc0656-cd1e-4ac1-8ffa-5e4e28429a85
+type: text/vnd.tiddlywiki
+
+```bash
+set -g @plugin 'github_username/plugin_name'
+set -g @plugin 'github_username/plugin_name#branch'
+set -g @plugin 'git@github.com:user/plugin'
+set -g @plugin 'git@bitbucket.com:user/plugin'
+```

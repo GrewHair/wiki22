@@ -1,0 +1,18 @@
+created: 20230725160549226
+modified: 20230725160855182
+tags: [[WTF is This?]]
+title: Web Distributed Authoring and Versioning
+tmap.id: 7733b279-20d8-4224-8e81-254681fd03ab
+type: text/vnd.tiddlywiki
+
+''AKA WebDAV''
+
+https://en.wikipedia.org/wiki/WebDAV
+
+http://www.webdav.org/
+
+Found it here:
+
+https://httpd.apache.org/docs/2.4/mod/mod_dav.html
+
+I also vaguely remember i stumbled upon it earlier when googling smth [[Zotero]]-related.. Got an impression it's pretty dead now..

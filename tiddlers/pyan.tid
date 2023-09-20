@@ -1,0 +1,15 @@
+created: 20230410135846425
+modified: 20230410140100345
+tags: Python
+title: pyan
+tmap.id: a017feef-433a-4050-a042-d3d0e829b79d
+type: text/vnd.tiddlywiki
+
+https://github.com/Technologicat/pyan/issues/64
+
+```bash
+pip install pyan3==1.1.1  # latest version don't work
+
+pyan3 *.py --uses --no-defines --colored --grouped --annotated --svg >myuses.svg
+```
+

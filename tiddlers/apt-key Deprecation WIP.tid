@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20230802161422683
+modified: 20230802162718611
+tags: Ubuntu Debian WIP
+title: apt-key Deprecation WIP
+tmap.id: eeaae0ee-9fa0-4cd7-9274-ce8b7e92a33f
+type: text/vnd.tiddlywiki
+
+https://www.youtube.com/watch?v=JPj6VTiL8rw
+
+Before, it used to be like this:
+
+https://www.youtube.com/watch?v=aO8BuQITnRw

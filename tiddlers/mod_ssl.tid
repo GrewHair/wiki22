@@ -1,0 +1,21 @@
+created: 20230726150316688
+modified: 20230726150659425
+tags: Apache2
+title: mod_ssl
+tmap.id: a0b41c3d-3b37-4025-84e7-47280ed8758c
+type: text/vnd.tiddlywiki
+
+An important [[Apache Module]].
+
+Weirdly enough, it's still a separate damn [[package|Package Format]]..
+
+```bash
+$ yumdownloader mod_ssl
+$ rpm -qpl mod_ssl-2.4.6-99.el7.centos.1.x86_64.rpm
+/etc/httpd/conf.d/ssl.conf
+/etc/httpd/conf.modules.d/00-ssl.conf
+/usr/lib64/httpd/modules/mod_ssl.so
+/usr/libexec/httpd-ssl-pass-dialog
+/var/cache/httpd/ssl
+$ yum install mod_ssl
+```

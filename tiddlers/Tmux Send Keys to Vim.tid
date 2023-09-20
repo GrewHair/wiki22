@@ -1,0 +1,16 @@
+created: 20230129122813306
+modified: 20230129123340182
+tags: Tmux
+title: Tmux Send Keys to Vim
+tmap.id: 80e92dca-0164-430b-8018-6e323391f487
+type: text/vnd.tiddlywiki
+
+Example of how to make vim execute a command.
+
+It's useful for ssh sessions when you don't have your vimrc.
+
+```bash
+send ':echo "hi from tmux"' Enter
+```
+
+`TODO`: use this to invoke vim's `:hi` and `:mat` commands to get easy highlighting in any vim

@@ -1,0 +1,18 @@
+created: 20230131141927714
+modified: 20230131143020168
+tags: HTTP
+title: HTTP\1.1 Upgrade header
+tmap.id: 34ec8cb7-21ee-4d4b-9883-d29eafde7ea4
+type: text/vnd.tiddlywiki
+
+It's an [[HTTP/1.1|HTTP\1.1]]-only protocol used to upgrade an already established connection to a different protocol.
+
+It's used with:
+
+* [[TLS|Transport Layer Security]] - rarely, since [[HTTPS]] is a much better alternative
+* [[WebSocket]]
+* [[HTTP/2|HTTP\2]] -also rare, as it's only used for clear text [[HTTP/2|HTTP\2]]
+
+https://en.wikipedia.org/wiki/HTTP/1.1_Upgrade_header
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Upgrade

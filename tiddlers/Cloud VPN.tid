@@ -1,0 +1,15 @@
+created: 20230628145725085
+modified: 20230628150417530
+tags: [[Google Cloud Platform]]
+title: Cloud VPN
+tmap.id: 4ba08618-113b-4aef-acfe-0c3f5834bce7
+type: text/vnd.tiddlywiki
+
+https://cloud.google.com/network-connectivity/docs/vpn/concepts/overview
+
+What I know:
+
+* you want a [[VPN Gateway]]
+* this [[gateway|VPN Gateway]] may run a number of [[tunnels|VPN Tunnel]]
+* you want to create one
+* ...

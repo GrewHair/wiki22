@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200127081801358
-modified: 20230117160711176
+modified: 20230131143442170
 tags: English
 title: Dictionary
 tmap.id: 7172dc91-dffa-4b19-8ff2-b250677e4524
@@ -76,3 +76,4 @@ type: text/vnd.tiddlywiki
 * one-two punch - when two unpleasant things stack together (happen at nearly the same time)
 * fml - fuck my life
 * not in Kansas anymore - no longer in quiet and comfortable surroundings (from The Wizard of Oz)
+* stopgap - затычка, временная мера

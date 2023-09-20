@@ -1,0 +1,8 @@
+created: 20230208113653566
+modified: 20230208113753105
+tags: [[WTF is This?]] Microsoft
+title: Token-Signing Certificates
+tmap.id: 279392b0-7149-43a9-a702-f085a88960eb
+type: text/vnd.tiddlywiki
+
+https://learn.microsoft.com/en-us/windows-server/identity/ad-fs/design/token-signing-certificates

@@ -1,0 +1,10 @@
+created: 20230525132306603
+modified: 20230525132552055
+tags: Artifactory
+title: Archive Entry Download (Artifactory)
+tmap.id: 4c0e427e-f001-40ca-be66-949474dca748
+type: text/vnd.tiddlywiki
+
+https://stackoverflow.com/questions/47536315/download-single-file-from-zipped-artifactory-artifact
+
+https://jfrog.com/help/r/jfrog-rest-apis/archive-entry-download

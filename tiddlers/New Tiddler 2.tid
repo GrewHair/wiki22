@@ -1,0 +1,18 @@
+created: 20230726151835342
+modified: 20230726152056436
+tags: Apache2 Databases
+title: New Tiddler 2
+tmap.id: 52335e59-4d8c-4954-a1ea-4aaf0ca490c1
+type: text/vnd.tiddlywiki
+
+''AKA DBM''
+
+This seems to be an old [[Unix]] database nobody cares about these days...
+
+https://en.wikipedia.org/wiki/DBM_(computing)
+
+Found it here:
+
+https://httpd.apache.org/docs/2.4/mod/mod_ssl.html
+
+https://httpd.apache.org/docs/2.4/mod/mod_socache_dbm.html
