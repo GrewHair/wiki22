@@ -1,0 +1,13 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20231204133133109
+modified: 20231204133240369
+tags: Vim Linux
+title: Handy Filters in Vim
+tmap.id: 5807f611-b7f3-4f24-b9ff-d4200b412e43
+type: text/vnd.tiddlywiki
+
+* `jq`
+* `xmllint --format --html -`

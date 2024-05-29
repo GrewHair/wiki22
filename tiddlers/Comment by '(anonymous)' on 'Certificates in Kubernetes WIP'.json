@@ -1,0 +1,14 @@
+[
+    {
+        "created": "20240528095718121",
+        "text": "here https://youtu.be/gXz4cq3PKdg?t=561 the dude makes an interesting claim that x.509 client cert authentication is mainly used by kubernetes (meaning it's rarely used anywhere else) - it'd be interesting to investigate if that's actually the case..\n\nUPD: i was wrong. what he's really saying is that in kubernetes this authentication type is usually employed to authenticate kubernetes components to each other. it can also be used to authenticate end users but this has caveats is not very widespread\n\n",
+        "modified": "20240528100240356",
+        "title": "Comment by '(anonymous)' on 'Certificates in Kubernetes WIP'",
+        "type": "text/vnd.tiddlywiki",
+        "role": "comment",
+        "list": "[[Certificates in Kubernetes WIP]]",
+        "edit-mode": "no",
+        "tmap.id": "7624d246-67a9-4ae9-8cb4-dd8616fda6e4",
+        "saved-text": "here https://youtu.be/gXz4cq3PKdg?t=561 the dude makes an interesting claim that x.509 client cert authentication is mainly used by kubernetes (meaning it's rarely used anywhere else) - it'd be interesting to investigate if that's actually the case..\n"
+    }
+]

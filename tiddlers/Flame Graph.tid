@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240423141004370
+modified: 20240423141039302
+tags: Visualization
+title: Flame Graph
+tmap.id: 25ca3992-82c7-4d26-816e-e81e6f42aea3
+type: text/vnd.tiddlywiki
+
+https://www.brendangregg.com/flamegraphs.html

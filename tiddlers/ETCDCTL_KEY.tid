@@ -1,0 +1,12 @@
+created: 20240115142403286
+modified: 20240115152806491
+tags: etcd K8s [[Kubernetes Master Course| Certified Kubernetes Administrator]]
+title: ETCDCTL_KEY
+tmap.id: 9bd8bc90-e314-4518-893a-30e2799f0485
+type: text/vnd.tiddlywiki
+
+[[etcd]] is actually a [[server|Server]], thus it has a server certificate key..
+
+```bash
+export ETCDCTL_KEY=/etc/kubernetes/pki/etcd/server.key
+```

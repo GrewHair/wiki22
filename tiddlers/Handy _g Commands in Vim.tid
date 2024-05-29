@@ -1,0 +1,13 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20231204133922056
+modified: 20231204134141129
+tags: Vim
+title: Handy :g Commands in Vim
+tmap.id: 16ce436b-b709-478b-ba27-f311632f4a86
+type: text/vnd.tiddlywiki
+
+|delete every other line|`:g/^/+d`|
+|reverse line order|`:g/^/m0`|

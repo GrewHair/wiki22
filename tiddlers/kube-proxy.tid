@@ -1,0 +1,16 @@
+created: 20240116095327987
+modified: 20240301142733214
+tags: K8s [[Kubernetes Master Course| Certified Kubernetes Administrator]]
+title: kube-proxy
+tmap.id: 31131e74-74f5-472f-9c70-ce08712d4c92
+type: text/vnd.tiddlywiki
+
+It's called a proxy because it used to be an actual user space proxy. This is no longer the case.
+
+Replaced by [[Linux]] [[Netfilter]] [[iptables]] with better performance.
+
+''Modes:''
+
+* userspace (legacy)
+* iptables
+* IPVS (not yet supported everywhere)

@@ -1,0 +1,13 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20231212122228512
+modified: 20231212122319336
+tags: WIP Stub
+title: JMESPath
+tmap.id: 21693503-cfcf-421d-bdad-f8538b8689da
+type: text/vnd.tiddlywiki
+
+A query language for json...
+https://jmespath.org/

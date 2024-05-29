@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240524100836065
+modified: 20240524101003540
+tags: Web Stub
+title: base64
+tmap.id: a94966dc-a3e4-4c5c-b539-4c92cf3ed60b
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/Base64
+
+`a-z, A-Z, 0-9, -, /`
+
+`=` is a special padding symbol.

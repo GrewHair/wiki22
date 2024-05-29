@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240416130833362
+modified: 20240416131022107
+tags: K8s Stub [[Kubernetes Master Course| Certified Kubernetes Administrator]]
+title: Pod Template
+tmap.id: e2495ef5-f2b0-4094-9ba7-3f176f459d00
+type: text/vnd.tiddlywiki
+
+Other [[workloads|Workload (Kubernetes)]] use this inside the spec to specify [[Pod]].
+
+https://kubernetes.io/docs/concepts/workloads/pods/#pod-templates

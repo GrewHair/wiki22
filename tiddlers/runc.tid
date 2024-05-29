@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240523093052863
+modified: 20240523093444856
+tags: Stub Docker [[Containers (Computing)]]
+title: runc
+tmap.id: 19836f14-a1fa-4415-b65b-3993780cb45a
+type: text/vnd.tiddlywiki
+
+[[runc]] is a component of [[containerd]].. ?
+
+https://stackoverflow.com/questions/41645665/how-containerd-compares-to-runc
+
+https://vineetcic.medium.com/the-differences-between-docker-containerd-cri-o-and-runc-a93ae4c9fdac

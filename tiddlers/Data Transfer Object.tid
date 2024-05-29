@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240403085225318
+modified: 20240403085345073
+tags: [[WTF is This?]]
+title: Data Transfer Object
+tmap.id: 563541be-1c32-482c-9808-2fab60dbc341
+type: text/vnd.tiddlywiki
+
+''AKA DTO''
+
+This must have smth to do with java and databases...
+
+https://en.wikipedia.org/wiki/Data_transfer_object

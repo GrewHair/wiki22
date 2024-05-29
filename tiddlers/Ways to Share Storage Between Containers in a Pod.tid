@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240314134210673
+modified: 20240314134349162
+tags: [[Kubernetes Master Course| Certified Kubernetes Administrator]] K8s
+title: Ways to Share Storage Between Containers in a Pod
+tmap.id: 2d560c0c-259f-468b-8169-c76777b3edd2
+type: text/vnd.tiddlywiki
+
+* emptyDir - exists in a [[Pod]]
+* localhost - exists on a [[Node|Kubernetes Node]]???
+* ...

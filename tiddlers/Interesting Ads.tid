@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240418133329650
+modified: 20240418133613636
+tags: 
+title: Interesting Ads
+tmap.id: 26d8edb6-ae6d-440f-923a-d91efa523c87
+type: text/vnd.tiddlywiki
+
+Saw this in a youtube ad: it said "if you're an IT professional ''lacking time'' to learn AWS - this is for you... we will migrate an on prem app to AWS and GCP using hot shit like kubernetes, etc"
+
+https://thecloudbootcamp.com/en/pc-multicloud-event-icp2/

@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20231017145912104
+modified: 20231017150207350
+tags: K8s
+title: VolumeClaimTemplate
+tmap.id: 0d99acac-f9ff-4a2d-8662-bb8df3b0be09
+type: text/vnd.tiddlywiki
+
+Guess this is what differentiates a [[Stateful Set]] from a [[Deployment]]...
+
+[[Deployments|Deployment]] have all their [[Pods|Pod]] share the same volume, while [[Stateful Sets|Stateful Set]] allow to specify a volume per [[Pod]] through this [[VolumeClaimTemplate]] mechanism.
+
+https://youtu.be/BnHMAJ8azBU?list=PLfAoTEAPazb7XBbTu8PG2R_iUBl_SVI2n&t=1312

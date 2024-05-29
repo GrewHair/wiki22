@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20231206084619410
+modified: 20231206084750882
+tags: [[Open Access]] Stub
+title: ArXiv
+tmap.id: 6e742285-50f1-403a-b979-e699db439008
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/ArXiv

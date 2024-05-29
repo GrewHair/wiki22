@@ -1,0 +1,36 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240504103857052
+modified: 20240504110046670
+tags: Linux
+title: sudo tee
+tmap.id: d139131e-a2ab-42c2-96b9-80c5bfb487cb
+type: text/vnd.tiddlywiki
+
+If you want to write to a file you don't have permissions to, this will ''fail'':
+
+```bash
+sudo echo "hi" > /etc/test
+```
+
+this is because while `echo` is executed with escalated permissions, the file redirection itself if handled by the shell. in a way, your `sudo` ends on `echo "hi"`...
+
+and you can't "sudo" things like "|" or ">".
+
+And so, people use [[tee]]..
+
+[[tee]]'s original purpose is to be a "T-splitter", passing the data to both [[stdout]] __and__ some file. It does it by writing to that file in-process. So, when used with `sudo`, it means "in the elevated process".
+
+Thus you often see stuff like
+
+```bash
+echo "hi" | sudo tee "/etc/test" > /dev/null
+```
+
+Kinda ironic, defeating the original purpose with this `> /dev/null`. Yet, this is how this program is primarily (mis?)used these days.. Gosh, noone cared to explain this when I was in the lab..
+
+''Note''
+
+The `-a, --append` flag makes it append. Otherwise it'll do what the `>` would.

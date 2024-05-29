@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20231204150722050
+modified: 20231204150756330
+tags: Typing Stub
+title: Benford's Law
+tmap.id: 4f0baf1f-e081-4968-a52e-c7c05ccf025a
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/Benford's_law

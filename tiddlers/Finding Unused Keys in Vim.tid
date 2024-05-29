@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240501090005560
+modified: 20240501095026142
+tags: Vim Neovim
+title: Finding Unused Keys in Vim
+tmap.id: f6e147a1-0991-437b-8a8c-bfa8bcf8c914
+type: text/vnd.tiddlywiki
+
+http://vimcasts.org/blog/2014/02/follow-my-leader/
+
+https://skippi.medium.com/ideas-for-non-leader-vim-mappings-fd32a2769c87

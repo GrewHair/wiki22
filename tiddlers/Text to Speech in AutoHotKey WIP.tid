@@ -1,0 +1,22 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240517172155122
+modified: 20240522062914060
+tags: AutoHotKey Stub WIP
+title: Text to Speech in AutoHotKey WIP
+tmap.id: db89ea34-aa41-4861-858b-f244203ed6b6
+type: text/vnd.tiddlywiki
+
+https://www.youtube.com/watch?v=zwInBsU5YCI
+
+https://www.autohotkey.com/boards/viewtopic.php?t=114512
+
+Here's how to query voices using com objects:
+
+https://www.autohotkey.com/boards/viewtopic.php?t=100236
+
+Also here's how people do it in vim:
+
+https://andreasmhallberg.github.io/text-to-speech-in-vim/

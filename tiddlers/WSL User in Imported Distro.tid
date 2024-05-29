@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20231123135209212
+modified: 20231123135313281
+tags: [[Windows Subsystem for Linux]]
+title: WSL User in Imported Distro
+tmap.id: 3f71709f-851a-4538-bf41-17f77abf784a
+type: text/vnd.tiddlywiki
+
+https://superuser.com/questions/1566022/how-to-set-default-user-for-manually-installed-wsl-distro

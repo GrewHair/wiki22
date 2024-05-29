@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240421184412130
+modified: 20240421184444415
+tags: UI
+title: Miller Columns
+tmap.id: 839b41a4-8f6a-42f0-bdb5-043df51ebc95
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/Miller_columns

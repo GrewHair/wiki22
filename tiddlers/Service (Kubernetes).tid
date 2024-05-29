@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240116092031956
+modified: 20240116094142383
+tags: K8s [[Kubernetes Master Course| Certified Kubernetes Administrator]]
+title: Service (Kubernetes)
+tmap.id: 48d9a54f-4580-4c19-ac5b-1f2bc7ddab27
+type: text/vnd.tiddlywiki
+
+[[Services|Service (Kubernetes)]] are network representations of [[Pods|Pod]] and their application using a durable [[IP]] or [[Domain Name]].
+
+[[Services|Service (Kubernetes)]] are not ephemeral.
+
+A [[Service|Service (Kubernetes)]] is a [[Layer 4]] (TCP/UDP) [[Load Balancer]] that uses the [[DNAT|Destination Network Address Translation]] to redirect inbound traffic to backend [[Pods|Pod]], i.e. replaces service IP with target [[Pod]] IP.
+
+The redirecting is is performed by [[kube-proxy]].

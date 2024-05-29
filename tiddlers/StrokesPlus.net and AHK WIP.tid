@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20231210092843688
+modified: 20231210092936020
+tags: AutoHotKey WIP
+title: StrokesPlus.net and AHK WIP
+tmap.id: 2e025d8b-6702-42c4-a4a1-558d423bd09d
+type: text/vnd.tiddlywiki
+
+https://forum.strokesplus.net/posts/t8257-Help-and-good-functions-conflicting-to-Strokesplus-net
+
+https://forum.strokesplus.net/posts/t8252findunread-Scripting-help

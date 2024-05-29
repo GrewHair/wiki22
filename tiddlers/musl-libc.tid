@@ -1,11 +1,13 @@
 created: 20221013122857236
-modified: 20221013150526513
+modified: 20240327115017370
 tags: Linux [[Alpine Linux]] Stub DNS
 title: musl-libc
 tmap.id: 9bf3186c-1afe-4a21-8f35-505b47cd4dc4
 type: text/vnd.tiddlywiki
 
 Its stub DNS resolver doesn't support [[DNS]] over [[TCP|Transmission Control Protocol]], and since DNS names get longer, failures occur.
+
+Commonly associated with [[Alpine Linux]].
 
 https://www.linkedin.com/pulse/musl-libc-alpines-greatest-weakness-rogan-lynch/
 

@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240502085059253
+modified: 20240502085346251
+tags: [[Alpine Linux]] Linux
+title: Alpine Linux
+tmap.id: f83a5eb1-81f6-4cc5-b4c9-323226413182
+type: text/vnd.tiddlywiki
+
+It's an [[Init system]] used by [[Alpine|Alpine Linux]]...
+
+https://en.wikipedia.org/wiki/OpenRC
+
+Found it here:
+
+https://github.com/jtroo/kanata/pull/1001

@@ -1,0 +1,19 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240520173439309
+modified: 20240520173515932
+tags: Italki
+title: aaa sound
+tmap.id: 3d75edc2-3c95-46a1-b6f4-63c8a54d6ebe
+type: text/vnd.tiddlywiki
+
+posture
+john
+awesome
+audit
+job
+process
+
+aaa

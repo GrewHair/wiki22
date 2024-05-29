@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240529073230055
+modified: 20240529073737031
+tags: Linux
+title: NOEXEC
+tmap.id: f51ee6fa-a3f1-4272-8a4a-fdf70da41c85
+type: text/vnd.tiddlywiki
+
+It's an option of the `mount` command/fstab entries that prohibits executions of executable binaries on a mounted file system.
+
+''Caveat:'' [[Bash]] (and possibly other shells) would still successfully run scripts that have [[Shebang]], since it considers it fine as long as the interpreter specified is on a different filesystem. 
+
+https://superuser.com/questions/728127/what-does-noexec-flag-mean-when-mounting-directories-on-rhel

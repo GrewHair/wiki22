@@ -1,0 +1,13 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240116084724069
+modified: 20240116084921495
+tags: K8s [[Kubernetes Master Course| Certified Kubernetes Administrator]]
+title: Who watches the API Server
+tmap.id: 484e1529-ce1d-422c-8680-bfa03fd15006
+type: text/vnd.tiddlywiki
+
+* [[Kubelet]] - to see if it wants to create a [[Pod]]
+* [[Scheduler]]?

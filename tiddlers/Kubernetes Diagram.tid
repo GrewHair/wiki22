@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240523101743984
+modified: 20240527094044384
+tags: K8s Stub
+title: Kubernetes Diagram
+tmap.id: fd07690e-b6e6-4592-be4a-32d0675667e8
+type: text/vnd.tiddlywiki
+
+{{_my/images/png/kubernetes_diagram}}
+
+https://doam.ru/kubernetest_workshop/

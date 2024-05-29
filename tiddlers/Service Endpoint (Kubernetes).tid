@@ -1,0 +1,24 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240416105657036
+modified: 20240416110310899
+tags: K8s [[Kubernetes Master Course| Certified Kubernetes Administrator]]
+title: Service Endpoint (Kubernetes)
+tmap.id: 4ac59d65-92e5-4e25-b0e7-c53102816dc7
+type: text/vnd.tiddlywiki
+
+''AKA SEP''
+
+You can see these guys when you do
+
+```
+iptables -t nat -L
+```
+
+They look like this:
+
+```
+Chain KUBE-SEP-4LVENGRQPIZXECUV (1 references)
+```

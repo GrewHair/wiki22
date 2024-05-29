@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240115140644302
+modified: 20240115152853666
+tags: etcd K8s [[Kubernetes Master Course| Certified Kubernetes Administrator]]
+title: ETCDCTL_API
+tmap.id: 6a9bb1b2-2f68-4082-abff-ce9199e354ee
+type: text/vnd.tiddlywiki
+
+Basically there's [[etcd v2]] and [[etcd v3]]. [[v3|etcd v3]] is recommended, but you have to set this variable to make the cli work with it:
+
+```bash
+export ETCDCTL_API=3
+```

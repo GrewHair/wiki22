@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20231205073301934
+modified: 20231205073425091
+tags: 
+title: GCP VPC Icon
+tmap.id: cc6b96dc-7768-47e8-8f70-d1c6b3ea1c5f
+type: text/vnd.tiddlywiki
+
+<mat-icon role="img" class="mat-icon notranslate mat-icon-no-color ng-star-inserted" aria-hidden="true" data-mat-icon-type="svg" data-mat-icon-name="VIRTUAL_NETWORK_SECTION" data-mat-icon-namespace="shelllogosshaded-large"><svg fill="none" fill-rule="evenodd" height="100%" viewBox="0 0 32 32" width="100%" fit="" preserveAspectRatio="xMidYMid meet" focusable="false"><path d="M9 21H6V11h3zm17 0h-3V11h3zM21 9H11V6h10zm0 17H11v-3h10z" fill="#616161"></path><path d="M9 14H6v-4h3zm17 0h-3v-4h3zM14 9h-4V6h4zm0 17h-4v-3h4z" fill="#424242"></path><path d="M2 12h10V2H2zm0 18h10V20H2zm18-18h10V2H20zm0 18h10V20H20z" fill="#757575"></path><path d="M7 12h5V2H7zm0 18h5V20H7zm18-18h5V2h-5zm0 18h5V20h-5z" fill="#616161"></path></svg></mat-icon>

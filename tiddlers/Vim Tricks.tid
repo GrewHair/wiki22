@@ -1,5 +1,5 @@
 created: 20220204074028818
-modified: 20221112120721563
+modified: 20231204142306071
 tags: Vim
 title: Vim Tricks
 tmap.id: 5807c86e-b71b-45cb-9a9c-0c8f5ee7cdd3
@@ -28,3 +28,4 @@ type: text/vnd.tiddlywiki
 ** The easiest way to do it is to put tabs as column delimiters. Do this:
 ** `:%s/ \+/\t/` [[(inspiration)|https://superuser.com/questions/719179/how-to-substitute-multiple-space-with-a-single-space-in-vim]]
 ** notice that I don't put `g` at the end, because usually some spaces are really just spaces (if that's confusing, disregard this and just try)
+* [[Flatten a "Rectangular" Text Block]] (like output of `ls` for example)

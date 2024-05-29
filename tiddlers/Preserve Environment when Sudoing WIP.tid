@@ -1,0 +1,26 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240505194519399
+modified: 20240513075705496
+tags: Linux WIP
+title: Preserve Environment when Sudoing WIP
+tmap.id: 16828737-797f-4300-a55b-6b4f0ad1080a
+type: text/vnd.tiddlywiki
+
+https://superuser.com/questions/232231/how-do-i-make-sudo-preserve-my-environment-variables
+
+https://unixhealthcheck.com/blog?id=363
+
+https://askubuntu.com/questions/236083/difference-between-etc-security-pam-env-conf-and-etc-environment-making-sudo
+
+Basically, you have 3 choices (or so I'm told):
+
+* mess with [[PAM]] to make it run `pam_env` when you sudo (by defaultl it doesn't)
+* mess with `sudoers`, specifically `env_reset` and/or `env_keep`
+* `sudo -E`, but god knows how it works (e.g. the opes you yourself export it preserves, while `$PATH` it does not)
+
+So it's a mess no matter what :)
+
+UPD: turns out `sudo` overrides `$PATH` anyway (only `$PATH` though) for security reasons.. Tracked [[here|PATH and Sudo]]

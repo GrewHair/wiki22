@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240305150657063
+modified: 20240305152144923
+tags: K8s [[Kubernetes Master Course| Certified Kubernetes Administrator]]
+title: Static Pod
+tmap.id: bb81317b-9149-4c8c-849d-64198943e1e3
+type: text/vnd.tiddlywiki
+
+[[Static Pods|Static Pod]] are managed completely by [[Kubelet]], and not at all by the [[API Server|API Server (Kubernetes)]].
+
+For purposes of visibility, the [[API Server|API Server (Kubernetes)]] creates the so-called [[Mirror Pods|Mirror Pod]] to reflect them (just so your [[Static Pods|Static Pod]] show up when you do your `k get po -A`).
+
+[[Kubelet]] watches its [[Static Pod]] directory and spins up/destroys [[Static Pods|Static Pod]] just based on whether the respective manifest files are there or not (much like [[Espanso]] watches its config directory).
+
+All [[Control Plane|Control Plane (Kubernetes)]] components of [[kubeadm]] [[Kubernetes]] installations - excluding the [[Kubelet]] itself run as [[Static Pods|Static Pod]].

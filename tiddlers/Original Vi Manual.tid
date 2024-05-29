@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240504191843333
+modified: 20240504191921575
+tags: Vim
+title: Original Vi Manual
+tmap.id: cdcbb51b-f2f7-4005-ad7c-22f612e10769
+type: text/vnd.tiddlywiki
+
+https://docs-archive.freebsd.org/44doc/usd/12.vi/paper-1.html#section10

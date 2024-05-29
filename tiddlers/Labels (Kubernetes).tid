@@ -1,0 +1,25 @@
+created: 20240325090746115
+modified: 20240325103401918
+tags: [[Kubernetes Master Course| Certified Kubernetes Administrator]] K8s
+title: Labels (Kubernetes)
+tmap.id: 3fc3df63-19f2-4ead-88b5-8c3c03c2f031
+type: text/vnd.tiddlywiki
+
+[[Labels|Labels (Kubernetes)]] are not [[Resources|Resource (Kubernetes)]] (i.e. there's no manifest for a [[Label|Labels (Kubernetes)]]). They are __attached__ to [[Resources|Resource (Kubernetes)]].
+
+Outside of your usual stuff like deployments, stateful sets, etc., they can be attached to, e.g., [[Namespaces|Namespace (Kubernetes)]], [[Nodes|Node (Kubernetes)]], etc.
+
+* ''Attach a label''
+*>`k label pod test1 ver=1`
+* ''Change a label''
+*>`k label pod test1 ver=1 --overwrite`
+* ''Delete a label:''
+*>`k label pod test1 ver-`
+* ''Get all labels of a pod:''
+*>`k get pod test1 --show-labels`
+* ''Show values of a certain label for all pods:''
+*>`k get pod -L ver`
+* ''Show values of several labels for all pods:''
+*>`k get pod -L ver -L cpu`
+* ''Search for pods with labels name ver:'' - is it correct tho??
+*>`k get pod -l ver`

@@ -1,0 +1,10 @@
+created: 20240115141335574
+modified: 20240115152842922
+tags: etcd K8s [[Kubernetes Master Course| Certified Kubernetes Administrator]]
+title: ETCDCTL_CACERT
+tmap.id: 73c9ff73-a95d-4bb3-b9ef-24aedee8f54a
+type: text/vnd.tiddlywiki
+
+```bash
+export ETCDCTL_CACERT=/etc/kubernetes/pki/etcd/ca.crt
+```

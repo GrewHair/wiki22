@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240524112755161
+modified: 20240524113321085
+tags: OpenSSL [[Transport Layer Security]]
+title: Subject Alternative Name
+tmap.id: 51964de9-bb4d-4e08-856c-b6378bd53b6f
+type: text/vnd.tiddlywiki
+
+''AKA SAN''
+
+''NTBCW: [[Storage Area Network]]''
+
+RFC2818 actually proposes it as the preferred method for adding dns names to certificates..
+
+https://en.wikipedia.org/wiki/Subject_Alternative_Name

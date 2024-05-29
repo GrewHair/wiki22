@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240411150916165
+modified: 20240411151514975
+tags: Java
+title: Jackson (Java)
+tmap.id: 5665c842-af53-4e02-a1f2-8e2ff56c45db
+type: text/vnd.tiddlywiki
+
+A [[json]] library for [[Java]].
+
+Now it's much more. It handles [[toml]], [[yaml]], etc.
+
+https://github.com/FasterXML/jackson
+
+https://en.wikipedia.org/wiki/Jackson_(API)

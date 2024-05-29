@@ -1,12 +1,21 @@
 created: 20230115121539117
-modified: 20230115122103262
+modified: 20240528125103148
 tags: [[Transport Layer Security]] Security
 title: Revocation of Digital Certificates
 tmap.id: a938d5fe-3597-4f10-9397-be1b20479aef
 type: text/vnd.tiddlywiki
 
-* [[CRL|Certificate Revocation List]] - bad
-* [[OCSP|Online Certificate Status Protocol]] -better
-* [[OCSP Stapling]] - best
+Why:
+
+* cert no longer used
+* cert changed
+* private key compromised
+* stolen from ca
+
+How to check:
+
+* [[CRL|Certificate Revocation List]] - bad (client must download the whole list on each connection)
+* [[OCSP|Online Certificate Status Protocol]] -better (client must only request status of one cert)
+* [[OCSP Stapling]] - best (timestamped OCSP status is sent to client automatically by web server on ssl handshake)
 
 https://www.youtube.com/watch?v=WXNKQ_otO_g

@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20231202155446767
+modified: 20231202171810843
+tags: Apache2
+title: 70007
+tmap.id: 81148e38-21e5-436b-b512-1eb94d37e9a7
+type: text/vnd.tiddlywiki
+
+It's an apache thing, means timeout.
+
+https://talk.plesk.com/threads/problem-php-fpm-70007-the-timeout-specified-has-expired-ah01075-er.335211/
+
+https://stackoverflow.com/questions/31975951/proxy-ajperror-70007the-timeout-specified-has-expired
+
+https://www.ozzu.com/questions/609716/how-to-fix-proxy-fcgierror-70007the-timeout-specified-has-expired

@@ -1,0 +1,20 @@
+created: 20240513075715469
+modified: 20240513080148840
+tags: Linux WIP
+title: PATH and Sudo
+tmap.id: 3eb3d81f-b367-480a-a794-243cf3c138c1
+type: text/vnd.tiddlywiki
+
+https://forums.opensuse.org/t/help-me-understand-sudo-path-weirdness/70791
+
+https://superuser.com/questions/927512/how-to-set-path-for-sudo-commands/927599#927599
+
+https://www.reddit.com/r/neovim/comments/oumljd/how_do_you_use_sudo_with_neovim_while_keeping_the/
+
+https://stackoverflow.com/questions/257616/why-does-sudo-change-the-path
+
+https://askubuntu.com/questions/1012922/can-i-make-sudo-follow-my-path-via-cli
+
+https://superuser.com/questions/98686/passing-path-through-sudo
+
+TL;DR: there's an option in sudoers file called `secure_path`.. sudo overrides path with this. Although it didn't work out for me the first time..

@@ -1,0 +1,30 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20231205112433436
+modified: 20231205113035386
+tags: Espanso Vim Neovim WIP
+title: Espanso and Vim WIP
+tmap.id: e9db7f38-506f-424d-9934-0d5be2f39fbb
+type: text/vnd.tiddlywiki
+
+Here are [[Vim's|Vim]] movement letters:
+
+`w, e, t, f, h, j, k, l, b`
+
+Here are all bigrams you can make from them:
+
+```
+ww we wt wf wh wj wk wl wb
+ew ee et ef eh ej ek el eb
+tw te tt tf th tj tk tl tb
+fw fe ft ff fh fj fk fl fb
+hw he ht hf hh hj hk hl hb
+jw je jt jf jh jj jk jl jb
+kw ke kt kf kh kj kk kl kb
+lw le lt lf lh lj lk ll lb
+bw be bt bf bh bj bk bl bb
+```
+
+so assuming your [[Espanso]] "prefix" is `,` (also a motion), these are safe to use in [[Vim]].

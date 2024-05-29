@@ -1,0 +1,24 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20231201042331843
+modified: 20231202171205253
+tags: AutoHotKey WIP
+title: Mimicking X Selection with AHK
+tmap.id: 88f24015-bad2-4ff3-bea9-88dc03a82464
+type: text/vnd.tiddlywiki
+
+https://www.reddit.com/r/AutoHotkey/comments/tc1lbu/easier_copy_paste_with_mouse/
+
+https://www.autohotkey.com/board/topic/5139-auto-copy-selected-text-to-clipboard/
+
+https://www.autohotkey.com/board/topic/44064-copy-on-select-implementation/
+
+There are also a number of specialized programs it's good to know about:
+
+https://autoclipx.soft112.com/
+
+http://fy.chalmers.se/~appro/nt/TXMouse/
+
+https://superuser.com/questions/84550/select-to-copy-and-middle-click-to-paste-in-windows

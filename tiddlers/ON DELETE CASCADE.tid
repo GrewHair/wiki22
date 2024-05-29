@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240411172832158
+modified: 20240411172904817
+tags: SQL Stub
+title: ON DELETE CASCADE
+tmap.id: 12cbaa90-044a-40de-b53c-80d3fa2170c8
+type: text/vnd.tiddlywiki
+
+https://www.geeksforgeeks.org/mysql-on-delete-cascade-constraint/

@@ -1,0 +1,22 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240507145739198
+modified: 20240508204551441
+tags: [[Windows Subsystem for Linux]] Linux WIP
+title: WSL2 and pam_env WIP
+tmap.id: b3a831b2-32f9-4eec-899c-b734725e92e6
+type: text/vnd.tiddlywiki
+
+So [[WSL|Windows Subsystem for Linux]] somehow doesn't use `/bin/login` to log user in by default. This causes issues with sourcing things like `/etc/environment` and `/etc/security/pam_env.conf`, because `pam_env` is never launched...
+
+Here's the workaround i found:
+
+https://github.com/nullpo-head/WSL-Hello-sudo/issues/49
+
+It werks, but still it's a crutch of course. So really what we want is to monitor this issue:
+
+https://github.com/microsoft/WSL/issues/1405
+
+Hoping they'll fix it one day..

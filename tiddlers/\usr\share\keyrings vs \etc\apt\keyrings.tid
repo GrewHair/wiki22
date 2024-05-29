@@ -1,0 +1,19 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20230927132746313
+modified: 20230927133106939
+tags: Apt Linux ubuntu Debian
+title: \usr\share\keyrings vs \etc\apt\keyrings
+tmap.id: 8897a189-2427-4f4a-a787-5ec2326141fd
+type: text/vnd.tiddlywiki
+
+https://askubuntu.com/questions/1437207/what-is-the-right-place-to-put-keyrings-for-repositories
+
+''TLDR''
+
+* use `/usr/share/keyrings` if the cert will be managed by the package
+* use `/etc/apt/keyrings` if you're going to be managing it yourself
+
+This whole thing is related to [[this|apt-key Deprecation WIP]]...

@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240423121136625
+modified: 20240423121236553
+tags: Git Stub
+title: Tracking Branch
+tmap.id: 91be06cc-1bfa-499e-8a4d-fe226dca44d9
+type: text/vnd.tiddlywiki
+
+By default, `main` is automatically set as a [[Tracking Branch]]...
+
+https://stackoverflow.com/questions/4693588/what-is-a-tracking-branch

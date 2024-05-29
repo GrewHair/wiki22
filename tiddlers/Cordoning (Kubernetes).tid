@@ -1,0 +1,19 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240301155132717
+modified: 20240301155927940
+tags: K8s Stub [[Kubernetes Master Course| Certified Kubernetes Administrator]]
+title: Cordoning (Kubernetes)
+tmap.id: adbb5ede-2822-4717-9b58-11c7512df0bd
+type: text/vnd.tiddlywiki
+
+[[Cordoning|Cordoning (Kubernetes)]] adds a [[Taint|Taint (Kubernetes)]]:
+
+```shell
+root@master1:~# kubectl cordon minion-1
+node/minion-1 cordoned
+root@master1:~# kubectl describe node minion-1 | grep Taint
+Taints: node.kubernetes.io/unschedulable:NoSchedule
+```

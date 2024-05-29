@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240430123225024
+modified: 20240430123502469
+tags: [[Postgre SQL]] Stub
+title: pglogical vs Native Logical Replication (PostgreSQL)
+tmap.id: af94e3e0-2e59-45b7-8225-0c6f6ceb6353
+type: text/vnd.tiddlywiki
+
+https://www.reddit.com/r/PostgreSQL/comments/1al48f8/difference_between_builtin_logical_replication/
+
+Basically [[pglogical]] predates native support...

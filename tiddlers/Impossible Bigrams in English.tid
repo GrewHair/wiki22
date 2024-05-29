@@ -1,0 +1,28 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20231206110156722
+modified: 20231206110255840
+tags: Vim Linguistics
+title: Impossible Bigrams in English
+tmap.id: 48176d4e-3f80-43ab-9d49-c32a89e6e119
+type: text/vnd.tiddlywiki
+
+https://linguistics.stackexchange.com/questions/4082/impossible-bigrams-in-the-english-language
+
+```
+bk  fq  jc  jt  mj  qh  qx  vj  wz  zh
+bq  fv  jd  jv  mq  qj  qy  vk  xb  zj
+bx  fx  jf  jw  mx  qk  qz  vm  xg  zn
+cb  fz  jg  jx  mz  ql  sx  vn  xj  zq
+cf  gq  jh  jy  pq  qm  sz  vp  xk  zr
+cg  gv  jk  jz  pv  qn  tq  vq  xv  zs
+cj  gx  jl  kq  px  qo  tx  vt  xz  zx
+cp  hk  jm  kv  qb  qp  vb  vw  yq
+cv  hv  jn  kx  qc  qr  vc  vx  yv
+cw  hx  jp  kz  qd  qs  vd  vz  yz
+cx  hz  jq  lq  qe  qt  vf  wq  zb
+dx  iy  jr  lx  qf  qv  vg  wv  zc
+fk  jb  js  mg  qg  qw  vh  wx  zg
+```

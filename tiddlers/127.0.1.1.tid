@@ -1,0 +1,30 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240523105208292
+modified: 20240523110145409
+tags: Debian Linux DNS K8s
+title: 127.0.1.1
+tmap.id: 696d9203-f386-448d-9175-91a7f82c58d2
+type: text/vnd.tiddlywiki
+
+First found it here:
+
+https://github.com/kelseyhightower/kubernetes-the-hard-way/blob/master/docs/03-compute-resources.md#hostnames
+
+It's an entry in `/etc/hosts` with your machine's hostname.
+
+Please consult the following discussions:
+
+https://unix.stackexchange.com/questions/731630/what-is-the-purpose-of-the-127-0-1-1-entry-in-etc-hosts
+
+https://serverfault.com/questions/363095/why-does-my-hostname-appear-with-the-address-127-0-1-1-rather-than-127-0-0-1-in
+
+https://www.debian.org/doc/manuals/debian-reference/ch05.en.html#_the_hostname_resolution
+
+https://lists.debian.org/debian-boot/2005/06/msg00938.html
+
+It looks like [[Debian]] (and consequentially its downstreams like [[Ubuntu]]) started writing this line to a machine's `/etc/hosts` during installation whenever the machine didn't have a fixed IP address. Initially it was to fix some bug with [[Gnome]] or smth. It all has something to do with problems with [[NSS|Name Service Switch]], so apparently, it's a (now fixture and well known) crutch.
+
+Now, as you can see, newer systems like [[Kubernetes]] can be found piggybacking on this crutch...

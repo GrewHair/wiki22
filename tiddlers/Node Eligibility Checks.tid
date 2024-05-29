@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240111140702873
+modified: 20240111141251614
+tags: K8s [[Kubernetes Master Course| Certified Kubernetes Administrator]]
+title: Node Eligibility Checks
+tmap.id: 3174896c-0abc-4e93-a85b-f0d437c8a993
+type: text/vnd.tiddlywiki
+
+* general hardware requirements
+* resource availability
+* affinity/anti-affinity
+* labels matching node selector
+* taints and tolerations
+* specific node scheduling
+* storage requirements

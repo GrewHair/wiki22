@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240417132045487
+modified: 20240417132138169
+tags: 
+title: Locality of Behaviour
+tmap.id: e1d1ae80-f6ae-454a-9aff-73f9895dfb85
+type: text/vnd.tiddlywiki
+
+https://htmx.org/essays/locality-of-behaviour/
+
+Found it here:
+
+https://www.youtube.com/watch?v=2UvHiH7zJLU

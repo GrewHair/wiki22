@@ -1,0 +1,22 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240528094038121
+modified: 20240529072049954
+tags: K8s [[Transport Layer Security]] Security
+title: Kubernetes Certificates Expired
+tmap.id: cd730c90-ec53-451c-9216-97202ee0fa19
+type: text/vnd.tiddlywiki
+
+https://www.oak-tree.tech/blog/k8s-cert-yearly-renewwal
+
+https://stackoverflow.com/questions/73229958/what-should-i-do-to-restart-the-kubernetes-controller-panel-after-renew-the-cert
+
+''TL;DR''
+
+* `kubeadm certs renew all`
+* replace your `kubectl` config with `/etc/kubernetes/admin.conf` (so `kubectl` works)
+* `systemctl restart kubelet`
+
+(this implies you're on `kubeadm`)

@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240417161637031
+modified: 20240417161959102
+tags: Java Stub
+title: Java Persistance API
+tmap.id: 35290da1-8762-46d3-8e93-6f116c5bf3d3
+type: text/vnd.tiddlywiki
+
+''AKA JPA''
+
+https://www.infoworld.com/article/3379043/what-is-jpa-introduction-to-the-java-persistence-api.html
+
+It's basically a spec made by oracle that [[ORM|Object to Relation Mapping]] things like [[Hibernate]], etc, are supposed to adhere to.

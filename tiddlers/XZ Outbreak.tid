@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240404112106860
+modified: 20240404112239510
+tags: Security Linux [[WTF is This?]] Stub [[Read This!]]
+title: XZ Outbreak
+tmap.id: 96e83f19-b8cb-420b-9a09-efbe20ce655f
+type: text/vnd.tiddlywiki
+
+https://arstechnica.com/security/2024/04/what-we-know-about-the-xz-utils-backdoor-that-almost-infected-the-world/
+
+https://www.youtube.com/watch?v=0pT-dWpmwhA

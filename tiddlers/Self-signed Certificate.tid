@@ -1,11 +1,13 @@
 created: 20220913144019792
-modified: 20220913144313050
+modified: 20240524112355185
 tags: Cryptography [[Transport Layer Security]] Stub
 title: Self-signed Certificate
 tmap.id: 34288116-e290-4d51-b2b2-6ddeade220ba
 type: text/vnd.tiddlywiki
 
 The //"issued to"// and //"issued by"// fields of a [[Self-signed Certificate]] match.
+
+(This means that when you `openssl -noout -text` some cert, if the `Subject:` field matches the `Issuer:` field, then it's [[self-signed|Self-signed Certificate]])
 
 [[Root Certificates|Root Certificate]] are [[self-signed|Self-signed Certificate]].
 

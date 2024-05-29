@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240115151729364
+modified: 20240115152619995
+tags: [[Kubernetes Master Course| Certified Kubernetes Administrator]] etcd K8s WIP
+title: etcd wip
+tmap.id: 15c41257-6d0e-4b39-8015-90d61a608743
+type: text/vnd.tiddlywiki
+
+```bash
+etcdctl get /registry --keys-only --prefix
+
+etcdctl get /registry/pods/default --prefix
+```

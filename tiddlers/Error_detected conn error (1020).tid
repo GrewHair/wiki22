@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20231003114807633
+modified: 20231003114948366
+tags: 
+title: Error:detected conn error (1020)
+tmap.id: 3c6d7e69-409a-41bc-82b7-c64ede6e7e1a
+type: text/vnd.tiddlywiki
+
+Sometimes [[dmesg]] shows this.. It's related to [[Longhorn]].
+
+Often can be fixed by killing `tgtd`.
+
+https://support.citrix.com/article/CTX217580/errordetected-conn-error-1020-seen-in-log-on-xenserver-with-iscsi-sr

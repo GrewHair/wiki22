@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20231223212633298
+modified: 20231224133623154
+tags: [[Web Browsers]] Firefox Bug
+title: Firefox Extensions Can't Load File URLs
+tmap.id: e0e60a20-7d67-44cf-91ce-f91dbe6e3550
+type: text/vnd.tiddlywiki
+
+https://bugzilla.mozilla.org/show_bug.cgi?id=1266960
+
+Found it here:
+
+https://violentmonkey.github.io/posts/how-to-edit-scripts-with-your-favorite-editor/

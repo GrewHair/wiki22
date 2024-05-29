@@ -1,11 +1,12 @@
 created: 20211228133451827
-modified: 20220203105029173
+modified: 20231214130215546
 tags: Linux [[Red Hat Linux]] CentOS Packaging
 title: RPM\Yum Useful Commands
 tmap.id: 8ba0ebd8-0678-4bd4-858c-acd67a0b80b1
 type: text/vnd.tiddlywiki
 
 * `rpm -q --changelog openssh` - view the changelog of a [[package|Package Format]] (useful to check whether certain security [[patches|Patch (Computing)]] have been [[backported|Backporting]] to [[packages|Package Format]] on some aincient [[systems|Operating System]] like [[CentOS 7]])
+** the debian's equivalent to this is `apt show openssh-server`
 * `rpm -qa kernel` - list all installed [[kernels|Kernel]]
 * `rpm -q glibc` - check version of [[package|Package Format]]
 * `yum repolist`, `yum -v repolist` - view repo list :)

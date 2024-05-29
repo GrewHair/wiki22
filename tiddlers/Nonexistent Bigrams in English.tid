@@ -1,0 +1,26 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20231204141535175
+modified: 20231204141641646
+tags: [[Keyboard Shortcuts]] Linguistics
+title: Nonexistent Bigrams in English
+tmap.id: 60bdb35f-7af3-47d6-82f2-4462c9409899
+type: text/vnd.tiddlywiki
+
+```
+fq  jc  jt  mj  qh  qx  vj  wz
+fv  jd  jv  mq  qj  qy  vk  xb
+fx  jf  jw  mx  qk  qz  vm  xg
+fz  jg  jx  mz  ql  sx  vn  xj
+gq  jh  jy  pq  qm  sz  vp  xk
+gv  jk  jz  pv  qn  tq  vq  xv
+gx  jl  kq  px  qo  tx  vt  xz
+hk  jm  kv  qb  qp  vb  vw  yq
+hv  jn  kx  qc  qr  vc  vx  yv
+hx  jp  kz  qd  qs  vd  vz  yz
+hz  jq  lq  qe  qt  vf  wq  zb
+iy  jr  lx  qf  qv  vg  wv  zc
+jb  js  mg  qg  qw  vh  wx  zg
+```

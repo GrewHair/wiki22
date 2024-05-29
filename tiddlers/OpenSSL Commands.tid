@@ -1,8 +1,11 @@
 created: 20211102154742429
-modified: 20211102183843830
+modified: 20240103110010176
 tags: OpenSSL Stub
 title: OpenSSL Commands
 tmap.id: 7335b8d5-89fc-4401-9e73-8cfa4235ed29
 type: text/vnd.tiddlywiki
 
-`openssl req -x509 -newkey rsa:4096 -days 365 -keyout ca-key.pem -out ca-cert.pem`  - create a [[Certificate Request]] and generate an rsa 4096 [[key|Private Key]] at the same time (`-x509` in this context means 'output a self-signed certificate instead of a [[Certificate Request]])
+* `openssl req -x509 -newkey rsa:4096 -days 365 -keyout ca-key.pem -out ca-cert.pem`  - create a [[Certificate Request]] and generate an rsa 4096 [[key|Private Key]] at the same time (`-x509` in this context means 'output a self-signed certificate instead of a [[Certificate Request]])
+
+* `openssl x509 -in certificate.crt -dates -noout` - check a certificate's expiration dates
+* `openssl rsa -in private.key` - check if a [[Private Key]] is password protected

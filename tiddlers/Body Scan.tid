@@ -1,0 +1,10 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20231205080218991
+modified: 20231205080246052
+tags: Meditation Stub
+title: Body Scan
+tmap.id: 66c8e6c2-dabd-4994-b92c-9f86cf687c56
+type: text/vnd.tiddlywiki

@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240304084518370
+modified: 20240304084856272
+tags: K8s [[Kubernetes Master Course| Certified Kubernetes Administrator]] Stub
+title: Draining (Kubernetes)
+tmap.id: 6ce1eee7-face-4e12-9800-7f448d79a31c
+type: text/vnd.tiddlywiki
+
+```bash
+kubectl drain ...
+```
+
+* `--force` to ignore existance of ad hoc [[Pods|Pod]]
+* `--ignore-daemonset`
+* `--delete-local-data` to delete `EmptyDir{}`

@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240301142630763
+modified: 20240301143325201
+tags: K8s Stub [[Kubernetes Master Course| Certified Kubernetes Administrator]]
+title: Pod Disruption Budget
+tmap.id: 307812f8-5dd5-49be-8aa2-aff7d5bfced0
+type: text/vnd.tiddlywiki
+
+''AKA PDB''
+
+A [[PDB|Pod Distuption Budget]] limits the number of [[Pods|Pod]] that are down simultaneously due to a [[Voluntary Disruption]].
+
+```bash
+kubectl create poddisruptionbudget my-pdb --selector=app=web --min-available=2
+```
+
+https://kubernetes.io/docs/concepts/workloads/pods/disruptions/#pod-disruption-budgets

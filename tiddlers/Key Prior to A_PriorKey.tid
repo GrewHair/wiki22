@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240517170830954
+modified: 20240517170954470
+tags: AutoHotKey Stub
+title: Key Prior to A_PriorKey
+tmap.id: 77024fd6-1d55-4959-a312-dc4c2a553938
+type: text/vnd.tiddlywiki
+
+https://www.autohotkey.com/boards/viewtopic.php?t=69611

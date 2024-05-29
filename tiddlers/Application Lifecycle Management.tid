@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20231006090203482
+modified: 20231006090245500
+tags: [[WTF is This?]]
+title: Application Lifecycle Management
+tmap.id: eff7dd0c-481f-46f5-9503-74cd1d02c8a8
+type: text/vnd.tiddlywiki
+
+''AKA ALM''
+
+https://en.wikipedia.org/wiki/Application_lifecycle_management

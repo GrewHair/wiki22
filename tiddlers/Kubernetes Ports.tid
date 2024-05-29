@@ -1,0 +1,13 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240122151659431
+modified: 20240122153204619
+tags: K8s Networking
+title: Kubernetes Ports
+tmap.id: ccd5fc15-5792-42a0-bdf8-0112836238fe
+type: text/vnd.tiddlywiki
+
+|[[API Server|API Server (Kubernetes)]]|6443|
+|[[kubectl]] proxy|8001|

@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240528092923986
+modified: 20240528093715383
+tags: [[Transport Layer Security]] Security K8s WIP
+title: Certificates in Kubernetes WIP
+tmap.id: c0ca038c-d14b-43d5-9242-31fa94b86c96
+type: text/vnd.tiddlywiki
+
+https://www.youtube.com/watch?v=9bLmmQFBE38
+
+https://www.youtube.com/watch?v=gXz4cq3PKdg

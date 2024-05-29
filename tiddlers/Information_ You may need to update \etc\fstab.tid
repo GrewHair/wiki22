@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20231205065817687
+modified: 20231205070350240
+tags: Linux [[Disk Partitioning]] Stub WIP
+title: Information: You may need to update \etc\fstab
+tmap.id: 91f6d423-d98b-41f8-9d05-584c33532e88
+type: text/vnd.tiddlywiki
+
+https://www.reddit.com/r/linuxquestions/comments/7xyj4s/information_you_may_need_to_update_etcfstab_when/

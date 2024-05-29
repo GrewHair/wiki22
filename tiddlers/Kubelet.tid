@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240115152621773
+modified: 20240115152757366
+tags: [[Kubernetes Master Course| Certified Kubernetes Administrator]] K8s
+title: Kubelet
+tmap.id: 7a14d780-c189-4e66-8dbe-feea38fa01eb
+type: text/vnd.tiddlywiki
+
+''AKA Node Agent''
+
+Runs as a [[Systemd]] service on every [[Node|Node (Kubernetes)]].

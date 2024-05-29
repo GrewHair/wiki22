@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240528135412825
+modified: 20240528135454455
+tags: 
+title: Interesting Courses
+tmap.id: 52cd9fad-2997-4680-b1b1-dcd27302ad51
+type: text/vnd.tiddlywiki
+
+https://classes.pracnet.net/courses/practical-tls

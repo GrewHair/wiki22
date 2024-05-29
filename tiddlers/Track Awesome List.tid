@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240328182726696
+modified: 20240328182826231
+tags: [[Awesome Lists]]
+title: Track Awesome List
+tmap.id: 0d730434-12a1-4e89-8d7b-c138aa57ac98
+type: text/vnd.tiddlywiki
+
+https://www.trackawesomelist.com/

@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20231217200924163
+modified: 20231217201021522
+tags: [[Web Browsers]] WIP
+title: Copy-on-select Chrome Extensions
+tmap.id: ffb6bdac-00d4-4f84-8953-996dadd53d3a
+type: text/vnd.tiddlywiki
+
+https://chromewebstore.google.com/detail/copy-on-select/kdfngfkkopeoejecmfejlcpblohnbael
+
+https://chromewebstore.google.com/detail/quick-copy-most-powerful/koedeplaimlocjhkpcjnfpfpmmaheacf
+
+https://chromewebstore.google.com/detail/click2clip/dlmmpimngmepcekphcblhkdpoghdcnee
+
+https://chromewebstore.google.com/detail/auto-copy/bijpdibkloghppkbmhcklkogpjaenfkg
+
+https://chromewebstore.google.com/detail/copy-better/hpihdokfdmmghaclaojfpmbckkhjgebc

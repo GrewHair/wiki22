@@ -1,0 +1,15 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20231203090041499
+modified: 20231203090754150
+tags: 
+title: Hormones
+tmap.id: 03985926-409a-4b13-b4ab-742bdb5e3bdc
+type: text/vnd.tiddlywiki
+
+[[Melatonin]] - sleep hormoneone
+[[Cortisol]] - stress hormone
+
+https://www.sleepfoundation.org/sleep-hygiene/how-to-reset-your-sleep-routine

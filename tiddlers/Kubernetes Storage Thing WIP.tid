@@ -1,0 +1,13 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20231017150644918
+modified: 20231017151026355
+tags: K8s
+title: Kubernetes Storage Thing WIP
+tmap.id: 04e507ee-95d0-4e6f-9d13-d98af9705918
+type: text/vnd.tiddlywiki
+
+* ''[[VolumeClaimTemplate]] generates [[PVC|Persistent Volume Claim]]'' when [[Stateful Set]] is scaled up
+* ''[[PVC|Persistent Volume Claim]] generates [[PV|Persistent Volume]]'' with help from the [[Provisioner]]

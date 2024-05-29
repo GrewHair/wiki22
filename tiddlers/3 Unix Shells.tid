@@ -1,0 +1,28 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240505190737671
+modified: 20240505194515278
+tags: Unix
+title: 3 Unix Shells
+tmap.id: 01258021-715a-4e07-9a84-3a8b747204a3
+type: text/vnd.tiddlywiki
+
+https://www.youtube.com/watch?v=3xPURrPeNcc
+
+* [[Bourne Shell]]
+* [[C Shell]]
+* [[K Shell]]
+
+[[Bash]] is inspired by all of these.
+
+In fact, the `.bash_login` file is inspired by [[C Shell]]'s `.login` file, and `.bash_profile` - [[K Shell]]'s `.profile` file. (Even though they serve pretty much the same function).
+
+More on this:
+
+https://www.baeldung.com/linux/bashrc-vs-bash-profile-vs-profile
+
+https://unix.stackexchange.com/questions/474080/what-is-the-difference-between-bash-profile-and-bash-login
+
+https://news.ycombinator.com/item?id=4369751

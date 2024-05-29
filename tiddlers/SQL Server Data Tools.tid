@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20231205122822389
+modified: 20231205123142560
+tags: Microsoft [[Microsoft Abbreviations]] Stub
+title: SQL Server Data Tools
+tmap.id: 5f7f6fa5-cef3-4cec-b886-4fe3a95cc1ed
+type: text/vnd.tiddlywiki
+
+''AKA SSDT''

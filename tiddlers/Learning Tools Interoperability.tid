@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20231004103421649
+modified: 20231004115526940
+tags: [[WTF is This?]]
+title: Learning Tools Interoperability
+tmap.id: 96f6557c-ed5d-4df3-9773-f3a26240ae6a
+type: text/vnd.tiddlywiki
+
+''AKA LTI''
+
+https://en.wikipedia.org/wiki/Learning_Tools_Interoperability
+
+https://www.imsglobal.org/activity/learning-tools-interoperability

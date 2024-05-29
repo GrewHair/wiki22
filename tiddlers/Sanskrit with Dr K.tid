@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20231209222229188
+modified: 20231209223111587
+tags: Philosophy
+title: Sanskrit with Dr K
+tmap.id: e8066edf-377c-45c6-898e-d98b2b3f2800
+type: text/vnd.tiddlywiki
+
+* Knowledge
+** [[Vidya|https://en.wikipedia.org/wiki/Vidya_(philosophy)]] - objective, transmissible, and also like information
+** [[Jnana|https://en.wikipedia.org/wiki/J%C3%B1%C4%81na]] - subjective, experiencial, and non-transmissible (also [[here|https://www.reddit.com/r/Healthygamergg/comments/lpy52k/what_is_the_word_that_dr_k_says_thats_not_vidya/]])

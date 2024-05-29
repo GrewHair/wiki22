@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20231205070240423
+modified: 20231205070325001
+tags: [[Disk Partitioning]] Linux Stub WIP
+title: The backup GPT table is not on the end of the device. This problem will be corrected by write.
+tmap.id: 4bd13191-a2a0-4202-be28-500c56fcb02a
+type: text/vnd.tiddlywiki
+
+https://discussion.fedoraproject.org/t/after-adding-disks-the-backup-gpt-table-is-not-on-the-end-of-the-device-this-problem-will-be-corrected-by-write/75226
