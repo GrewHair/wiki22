@@ -2,11 +2,13 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-created: 20240529074005433
-modified: 20240602220407964
-tags: [[WTF is This?]]
-title: Things I Heard at Work I Have No Idea About
-tmap.id: 148ae00e-e913-455e-a698-b3aae4e79257
+created: 20240602220011530
+modified: 20240602220252710
+tags: GitOps ArgoCD [[WTF is This?]]
+title: App of Apps
+tmap.id: 4740882a-0afc-4b06-88c1-818af0cf7640
 type: text/vnd.tiddlywiki
 
-* `master_authorized_networks` - some [[Terraform]] jazz (or is it [[GCP|Google Cloud Platform]]?)
+https://argo-cd.readthedocs.io/en/stable/operator-manual/cluster-bootstrapping/#app-of-apps-pattern
+
+Apparently it's some [[GitOps]] pattern...

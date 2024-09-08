@@ -1,0 +1,23 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240731093846038
+modified: 20240731110841043
+tags: Linux K8s
+title: Cgroup Drivers
+tmap.id: e0004616-0eed-41f4-a16c-7ae7e77c151c
+type: text/vnd.tiddlywiki
+
+* [[cgroupfs]]
+* [[systemd]]
+
+The [[Cgroup Driver|Cgroup Drivers]] used by the [[Container Runtime]] should be the same as the one used by the [[Init System]] of the [[OS|Operating System]], or else problems may arise.
+
+These days, the [[systemd]] driver is the default I guess.. (well, at least with [[kubeadm]])
+
+''Note'' that you have to set the [[Cgroup Driver|Cgroup Drivers]] to [[systemd]] for both [[Kubelet]] __and__ the [[Container Runtime]]! (there's an experimental [[Feature Gate|Feature Flag]] in [[Kubernetes]] called `KubeletCgroupDriverFromCRI` introduced in `1.28` that makes [[Kubernetes]] pick it up from the [[runtime|Container Runtime]], but its not all that mature as of `1.30`)
+
+https://kubernetes.io/docs/setup/production-environment/container-runtimes/#cgroup-drivers
+
+https://kubernetes.io/docs/setup/production-environment/container-runtimes/#systemd-cgroup-driver

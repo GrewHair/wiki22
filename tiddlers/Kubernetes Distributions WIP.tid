@@ -1,0 +1,27 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240530092232340
+modified: 20240530145314985
+tags: K8s WIP
+title: Kubernetes Distributions WIP
+tmap.id: 30f610b4-dee9-4d22-8070-e4d4b3f5b77e
+type: text/vnd.tiddlywiki
+
+* ''Lightweight''
+** [[Microk8s]] - from [[Canonical]], supposed to go easy with [[Ubuntu]] I guess
+** [[K3s]] - from [[Rancher]]/[[Suse]]
+** [[Minikube]] - from upstream I guess..
+** [[K0s]] - from Mirantis (whatever that means), seems to focus on edge/iot
+** [[Kind]] - is it from docker????
+** ...
+* ''Normal''
+** [[Kubeadm]] - from upstream
+** [[Rancher]] - from (wait for it!) rancher
+** [[Openshift]] - from [[Red Hat]]
+** ...
+
+https://www.youtube.com/watch?v=jCWWynsCdIk
+
+https://www.reddit.com/r/kubernetes/comments/be0415/k3s_minikube_or_microk8s/

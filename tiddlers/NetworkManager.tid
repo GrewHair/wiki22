@@ -1,0 +1,36 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240806114556708
+modified: 20240806115427421
+tags: Linux Networking
+title: NetworkManager
+tmap.id: f7e05487-42ca-4c60-b780-4c78572c9f55
+type: text/vnd.tiddlywiki
+
+Found it here:
+
+https://docs.tigera.io/calico/latest/getting-started/kubernetes/quickstart
+
+https://docs.tigera.io/calico/latest/operations/troubleshoot/troubleshooting#configure-networkmanager
+
+Ubuntu says this:
+
+```
+By default network management on Ubuntu Core is handled by systemd’s networkd and netplan. However, when NetworkManager is installed, it will take control of all networking devices in the system by creating a netplan configuration file in which it sets itself as the default network renderer.
+```
+
+https://ubuntu.com/core/docs/networkmanager
+
+ChatGPT says it's common to desktop distros, to ease the nic management.
+
+How to check if you have it:
+
+```bash
+dpkg -l|grep network-manager
+
+systemctl|grep network-manager
+```
+
+(chatgpt said that, so take with a grain of salt)

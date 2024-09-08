@@ -1,8 +1,24 @@
 created: 20220609235056183
-modified: 20220609235120207
+modified: 20240731113049255
 tags: Linux [[Containers (Computing)]] Docker
 title: Cgroup v2
 tmap.id: 5c017f0b-32e5-42e1-84c6-944d9c96d016
 type: text/vnd.tiddlywiki
 
 https://sleeplessbeastie.eu/2021/09/10/how-to-enable-control-group-v2/
+
+Check if your system even supports it:
+
+```bash
+grep cgroup /proc/filesystems  # cgroup2 should appear in results
+# if it's not supported, only cgroup will appear
+```
+
+Check if [[Cgroup v2]] is enabled:
+
+```bash
+stat -fc %T /sys/fs/cgroup  # it'll show cgroup2fs if it's
+# enabled, otherwise it'll show tmpfs
+```
+
+https://unix.stackexchange.com/questions/471476/how-do-i-check-cgroup-v2-is-installed-on-my-machine

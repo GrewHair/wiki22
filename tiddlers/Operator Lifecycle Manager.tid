@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240807075554326
+modified: 20240807081024130
+tags: K8s Stub
+title: Operator Lifecycle Manager
+tmap.id: a01d6f37-031b-4b8b-94a0-374a0c60f691
+type: text/vnd.tiddlywiki
+
+Apparently, it manages lifecycles of operators?
+
+https://github.com/operator-framework/operator-lifecycle-manager
+
+Found it here:
+
+https://operator-framework.github.io/olm-book/docs/discover-operator-presence.html
+
+when googling for ways to list installed operators

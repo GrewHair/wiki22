@@ -1,9 +1,14 @@
 created: 20220927115202333
-modified: 20220927115307518
+modified: 20240621095630754
 tags: WIP
 title: OSC WIP
 tmap.id: fc1854d5-b4ef-43f2-bd38-ec23eca22298
 type: text/vnd.tiddlywiki
 
-OSC 4 - smth to do with colorschemes
-OSC 7 - tell the terminal the current pwd
+OSC4 - smth to do with colorschemes
+
+OSC7 - tell the terminal the current pwd
+
+OSC52 - copy to clipboard
+
+OSC133 - semantic prompt

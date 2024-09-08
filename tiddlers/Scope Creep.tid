@@ -2,11 +2,13 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-created: 20240529074005433
-modified: 20240602220407964
-tags: [[WTF is This?]]
-title: Things I Heard at Work I Have No Idea About
-tmap.id: 148ae00e-e913-455e-a698-b3aae4e79257
+created: 20240531161820517
+modified: 20240531161919213
+tags: Stub
+title: Scope Creep
+tmap.id: f4ed4fce-8124-4e74-abdf-8ed64349cf3a
 type: text/vnd.tiddlywiki
 
-* `master_authorized_networks` - some [[Terraform]] jazz (or is it [[GCP|Google Cloud Platform]]?)
+''AKA Feature Creep''
+
+https://en.wikipedia.org/wiki/Scope_creep

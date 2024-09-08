@@ -1,5 +1,5 @@
 created: 20211215120931566
-modified: 20211215130040251
+modified: 20240805120314257
 tags: Linux Networking Stub
 title: iproute2
 tmap.id: bbc3fff2-2074-43c6-b027-bc51b0d24e98
@@ -8,3 +8,13 @@ type: text/vnd.tiddlywiki
 [[iproute2]] is a collection of [[userspace|User Space]] utilities for controlling and monitoring various aspects of [[Networking]] in the [[Linux Kernel]].
 
 https://en.wikipedia.org/wiki/Iproute2
+
+* `ip`: handles links, addresses, routes, etc
+* `ss`: lists sockets (with statistics)
+* `ifstat`/`nstat`/`lnstat`/`rtacct`: network statistics monitors
+* `bridge`: manipulate Linux bridges
+* `tc`: all QoS related: qdiscs, classes, filters, actions
+* `tipc`: Transparent IPC configuration
+* ...
+
+https://www.youtube.com/watch?v=cymH9pcFGa0

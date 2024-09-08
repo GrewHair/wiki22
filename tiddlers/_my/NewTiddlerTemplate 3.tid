@@ -1,0 +1,73 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240605113810547
+modified: 20240605122123395
+tags: 
+title: _my/NewTiddlerTemplate 3
+tmap.id: 74f989fe-48db-4b27-93bd-0bf4b3fb2fe8
+type: text/vnd.tiddlywiki
+
+When you list tables with `\l`, you might witness smth like this:
+
+```
+                                  List of databases
+   Name    |  Owner   | Encoding |   Collate   |    Ctype    |   Access privileges
+-----------+----------+----------+-------------+-------------+-----------------------
+ postgres  | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 |
+ sonar     | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =Tc/postgres         +
+           |          |          |             |             | postgres=CTc/postgres+
+           |          |          |             |             | sonar=CTc/postgres
+ template0 | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/postgres          +
+           |          |          |             |             | postgres=CTc/postgres
+ template1 | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | postgres=CTc/postgres+
+           |          |          |             |             | =c/postgres
+
+```
+
+The `Access privileges` column looks particularly cryptic.
+
+Let's break it down:
+
+* `postgres`, `template0`, and `template1` are there by default:
+** `template1` is the default template all your databases will be created from
+** `template0` is a backup of `template1`, never touch it
+** `postgres` is a database created by default
+* If the `Access privileges` column is empty for an object, it means it has default privileges
+* `+` is just an indicator that there's more lines ahead within the same row (kinda like line continuation)
+* the name to the left of `=` is the __''grantee''__ of a privilege
+** if there's nothing before `=`, it means the privilege is granted to `PUBLIC`
+* to the right from `=` and before `/` are the actual privileges
+** `r` -- `SELECT ("read")`
+** `w` -- `UPDATE ("write")`
+** `a` -- `INSERT ("append")`
+** `d` -- `DELETE`
+** `D` -- `TRUNCATE`
+** `x` -- `REFERENCES`
+** `t` -- `TRIGGER`
+** `X` -- `EXECUTE`
+** `U` -- `USAGE`
+** `C` -- `CREATE`
+** `c` -- `CONNECT`
+** `T` -- `TEMPORARY`
+** `arwdDxt` -- ALL PRIVILEGES (for tables, varies for other objects)
+** `*` -- grant option for preceding privilege
+* the name to the right of `/` is the __''granter''__ of the privilege
+
+So,
+
+```
+grantee=CTc/granter    +
+(another one)
+```
+
+https://stackoverflow.com/questions/5717611/postgresql-view-database-connect-permissions
+
+https://dba.stackexchange.com/questions/97568/postgres-privileges-psql-dp-what-is-about-the-plus-sign
+
+https://stackoverflow.com/questions/2370525/default-database-named-postgres-on-postgresql-server
+
+https://medium.com/yavar/postgres-default-databases-98092224e642
+
+https://www.postgresql.org/docs/current/ddl-priv.html

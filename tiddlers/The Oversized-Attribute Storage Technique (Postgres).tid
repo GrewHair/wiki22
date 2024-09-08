@@ -2,11 +2,13 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-created: 20240529074005433
-modified: 20240602220407964
-tags: [[WTF is This?]]
-title: Things I Heard at Work I Have No Idea About
-tmap.id: 148ae00e-e913-455e-a698-b3aae4e79257
+created: 20240711073722573
+modified: 20240711073833523
+tags: [[Postgre SQL]] Stub
+title: The Oversized-Attribute Storage Technique (Postgres)
+tmap.id: 1050c009-0456-4359-9abd-e7311bdca036
 type: text/vnd.tiddlywiki
 
-* `master_authorized_networks` - some [[Terraform]] jazz (or is it [[GCP|Google Cloud Platform]]?)
+''AKA TOAST''
+
+https://www.postgresql.org/docs/current/storage-toast.html

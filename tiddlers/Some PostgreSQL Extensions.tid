@@ -1,0 +1,19 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240610104816420
+modified: 20240610111559383
+tags: [[Postgre SQL]]
+title: Some PostgreSQL Extensions
+tmap.id: ce35b2c3-91d0-4cab-831a-c8c118908a48
+type: text/vnd.tiddlywiki
+
+* ...
+* `pageinspect` - show contents of a [[page|Page (PostgreSQL)]]
+** `get_raw_page` - reads the specified 8kb block
+** `heap_page_item_attrs` - shows metadata and data of each tuple
+
+Found them here:
+
+https://www.youtube.com/watch?v=meU2qKRzkCM

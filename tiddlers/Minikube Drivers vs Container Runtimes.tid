@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240606113155105
+modified: 20240606113515053
+tags: Minikube K8s
+title: Minikube Drivers vs Container Runtimes
+tmap.id: 20b7d1b6-6108-4d95-991f-6a6205777ba3
+type: text/vnd.tiddlywiki
+
+Since [[Docker]] can be both, it's a bit confusing..
+
+As far as I now understand, a [[Driver|Minikube Drivers]] is what provisions [[Nodes|Kubernetes Node]], while a [[Container Runtime]] is what provisions [[Pods|Pod (Kubernetes)]].
+
+https://stackoverflow.com/questions/63624117/what-is-the-difference-between-drivers-and-container-runtimes-in-kubernetes

@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240801125639953
+modified: 20240801130658778
+tags: K8s Stub
+title: Pause Container
+tmap.id: 22effd28-3b1a-483f-845e-50e4c0543e95
+type: text/vnd.tiddlywiki
+
+https://stackoverflow.com/questions/53258342/what-is-the-use-of-a-pause-image-in-kubernetes
+
+As far as I understand, there's problems with using [[kubeadm]] with [[containerd]], as [[kubeadm]] typically requires a newer pause image. This seems to clarify this:
+
+https://dev.to/sherpaurgen/detected-that-the-sandbox-image-registryk8siopause38-of-the-container-runtime-is-inconsistent-with-that-used-by-kubeadm-1glc
+
+You can tweak this in the `/etc/containerd/config.toml`

@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240603135942137
+modified: 20240603140629824
+tags: Helm K8s Stub
+title: Template vs Include (Helm)
+tmap.id: 4536be1b-9064-4c6a-84c8-8411a81f2049
+type: text/vnd.tiddlywiki
+
+Both are used to include [[Named Templates|Named Templates (Helm)]], ''but'' `include` can be used in pipes while `template` can not.
+
+Which renders `template` pretty darn useless, as it seems you're supposed to be piping into `indent` all the time...
+
+https://www.youtube.com/watch?v=LNGSNaSjPCE&list=PLSwo-wAGP1b8svO5fbAr7ko2Buz6GuH1g&index=14

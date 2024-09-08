@@ -2,11 +2,20 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-created: 20240529074005433
-modified: 20240602220407964
-tags: [[WTF is This?]]
-title: Things I Heard at Work I Have No Idea About
-tmap.id: 148ae00e-e913-455e-a698-b3aae4e79257
+created: 20240618082800611
+modified: 20240618083000488
+tags: [[Postgre SQL]] Stub
+title: Postgres Backups
+tmap.id: 906bb4e1-e946-45c0-ad98-32a7a15a5fed
 type: text/vnd.tiddlywiki
 
-* `master_authorized_networks` - some [[Terraform]] jazz (or is it [[GCP|Google Cloud Platform]]?)
+* logical
+** `pg_dump`
+** `pg_dumpall`
+** `pg_restore`
+* physical
+** `pg_basebackup`
+* advanced
+** `pgBackRest`
+
+https://www.crunchydata.com/blog/introduction-to-postgres-backups

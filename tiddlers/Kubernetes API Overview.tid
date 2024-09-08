@@ -1,0 +1,22 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240618085359123
+modified: 20240626134524390
+tags: K8s
+title: Kubernetes API Overview
+tmap.id: 1f6aedb7-94fe-4c71-a77b-299e1612bd43
+type: text/vnd.tiddlywiki
+
+A lot of these kubernetes courses talk about this page that's not around anymore...
+
+https://web.archive.org/web/20191231182013/https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.10/
+
+I think it's been replaced by this one:
+
+https://kubernetes.io/docs/reference/
+
+EDIT: oh look, it seems now something pretty similar is here:
+
+https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.23/#volume-v1-core

@@ -1,0 +1,31 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240711073351256
+modified: 20240711075738802
+tags: [[Postgre SQL]] WIP
+title: Stuck VACUUMs (Postgres)
+tmap.id: 620b0cb8-5157-459b-b543-b6c0f51c474f
+type: text/vnd.tiddlywiki
+
+https://rhaas.blogspot.com/2011/03/troubleshooting-stuck-vacuums.html
+
+https://stackoverflow.com/questions/32356536/how-to-deal-with-a-stuck-postgresql-9-3-vacuum-analyze
+
+list transactions:
+
+https://stackoverflow.com/questions/77485247/postgresql-list-of-transactions
+
+intro to vacuum...
+
+https://wiki.postgresql.org/wiki/Introduction_to_VACUUM,_ANALYZE,_EXPLAIN,_and_COUNT
+
+pg_locks
+
+https://www.postgresql.org/docs/current/view-pg-locks.html
+
+https://heavylion.medium.com/basic-querying-of-pg-locks-in-postgresql-36544033381b
+
+https://stackoverflow.com/questions/37110149/postgresql-find-locks-including-the-table-name
+

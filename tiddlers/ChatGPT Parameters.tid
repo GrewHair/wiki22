@@ -1,0 +1,17 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240904104929452
+modified: 20240904115404805
+tags: 
+title: ChatGPT Parameters
+tmap.id: d64c1771-2612-4ae2-b77e-05267bc6968e
+type: text/vnd.tiddlywiki
+
+* [[Temperature|Temperature (ChatGPT)]] `temperature [0 to 1]`
+* [[Top P|Top P (ChatGPT)]] `top_p [0-1]`
+* [[Stop Sequences|Stop Sequences (ChatGPT)]] `stop_sequences [list of strings]`
+* [[Frequency Penalty]] `frequency_penalty [-2 to 2]`
+* [[Presence Penalty]] `presence_penalty [-2 to 2]` (not super clear how it's different to freq penalty)
+* [[Best of|Best of (ChatGPT)]] `best_of [positive integer]` - number of completions the model will generate

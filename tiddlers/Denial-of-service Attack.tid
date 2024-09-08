@@ -1,9 +1,10 @@
 created: 20210202182443955
-modified: 20210202182806978
+modified: 20240904144100060
 tags: Security Web [[Understanding the Digital World (Brian Kernighan)]]
 title: Denial-of-service Attack
 tmap.id: 6f6706c7-8b31-4b12-a2d0-bda6ce110139
 type: text/vnd.tiddlywiki
 
 ''AKA DoS Attack''
+
 With a [[DOS Attack|Denial-of-service Attack]], a large amount of traffic is directed at a site to overwhelm it whith sheer volume.

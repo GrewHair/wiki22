@@ -1,8 +1,14 @@
 created: 20220523225416801
-modified: 20220523225531549
+modified: 20240530150734683
 tags: Linux Unix Security [[Badly Named]] WIP [[Red Hat Linux]]
 title: SUID, SGID, and Sticky Bit
 tmap.id: 64410a6e-843a-46e2-8b61-1d9e6f73b9c1
 type: text/vnd.tiddlywiki
 
 https://www.redhat.com/sysadmin/suid-sgid-sticky-bit
+
+Here's a pretty damn cool explanaion of it all:
+
+https://coderanch.com/t/110770/os/permissions-meaning
+
+https://www.youtube.com/watch?v=vKcb8M6mczA&t=412s

@@ -1,0 +1,24 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240620091052129
+modified: 20240620194223519
+tags: 
+title: Postgres useful queries
+tmap.id: 62a424d5-0e6d-4840-9889-db48bdc01bbd
+type: text/vnd.tiddlywiki
+
+list all tables sorted by size
+
+https://stackoverflow.com/questions/21738408/postgresql-list-and-order-tables-by-size
+
+estimate space eaten by dead tuples
+
+https://stackoverflow.com/questions/69054663/postgres-how-to-check-how-much-os-space-can-be-recovered
+
+find database by oid
+
+https://stackoverflow.com/questions/39464650/how-to-find-database-name-of-data-base-postgres-folders
+
+https://dataedo.com/kb/query/postgresql/list-databases

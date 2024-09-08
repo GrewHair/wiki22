@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240606151958179
+modified: 20240606152225456
+tags: Docker Windows [[WTF is This?]]
+title: docker-machine
+tmap.id: 13b02633-87b9-48c0-a2b7-cd37dff43ce4
+type: text/vnd.tiddlywiki
+
+Looks like it's deprecated/replaced by [[Docker Desktop]]...
+
+Apparently it used to be the way to run [[Docker]] on [[Windows]] and [[Mac|MacOS]]
+
+https://www.reddit.com/r/docker/comments/pb4e8w/is_dockermachine_deprecated_or_is_the_install/
