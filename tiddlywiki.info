@@ -25,9 +25,9 @@
         "tiddlywiki/comments",
         "tiddlywiki/railroad",
         "felixhayashi/tiddlymap",
-        "felixhayashi/vis",
         "felixhayashi/hotzone",
-        "felixhayashi/topstoryview"
+        "felixhayashi/topstoryview",
+        "flibbles/vis-network"
     ],
     "themes": [
         "tiddlywiki/vanilla",

@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240925192130248
+modified: 20240925192223450
+tags: Curl Networking
+title: Everything Curl
+tmap.id: d23619f4-6d19-42d2-a61b-e0cd4a4bfe28
+type: text/vnd.tiddlywiki
+
+https://everything.curl.dev/

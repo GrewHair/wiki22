@@ -1,0 +1,22 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240925182018584
+modified: 20240925192722001
+tags: Linux Stub
+title: User Private Groups
+tmap.id: 2add2f62-c71a-41ee-a0b5-b516b9acf4a1
+type: text/vnd.tiddlywiki
+
+''AKA UPG''
+
+https://wiki.debian.org/UserPrivateGroups
+
+https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/4/html/reference_guide/s1-users-groups-private-groups#s2-users-groups-rationale
+
+The RHEL explanation is much clearer...
+
+So in a nutshell, traditionally you'd have your [[umask]] be `0022`, but with this thing (which is now kinda en vogue i guess) it becomes `0002`...
+
+How is it achieved? Well, you just need a group created each time a user is created. In most cases it boils down to either configuring `useradd`, or `adduser`, or both..

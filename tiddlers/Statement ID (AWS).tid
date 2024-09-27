@@ -1,0 +1,39 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240918190723373
+modified: 20240919082448094
+tags: [[Amazon Web Services]] Stub
+title: Statement ID (AWS)
+tmap.id: fc60ac61-1d76-45b6-967c-31393af4bb36
+type: text/vnd.tiddlywiki
+
+''AKA Sid''
+
+''NTBCW: [[Security Identifier]], [[Sid (Debian)|Debian Unstable]]''
+
+It's an optional ID of a security statement in IAM JSON policy statements...
+
+''Example:''
+
+```json
+{
+    "Version": "2012-10-17",
+    "Id": "S3-Account-Permissions",
+    "Statement": [
+        {
+            "Sid": "1",
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": ["arn:aws:iam::123456789012:root"]
+            },
+            "Action": [
+                "s3:GetObject",
+                "s3:PutObject"
+            ],
+            "Resource": ["arn:aws:s3:::mybucket/*"]
+        }
+    ]
+}
+```

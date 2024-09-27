@@ -1,5 +1,5 @@
 created: 20221022095126979
-modified: 20221025113320437
+modified: 20240919082417121
 tags: Windows Microsoft
 title: Security Identifier
 tmap.id: ddebfe15-e9c6-4184-ac26-b03b3bf648f9
@@ -7,7 +7,7 @@ type: text/vnd.tiddlywiki
 
 ''AKA SID''
 
-''NTBCW: [[Sid (Debian)|DebianUnstable]]''
+''NTBCW: [[Sid (Debian)|Debian Unstable]]''
 
 https://en.wikipedia.org/wiki/Security_Identifier
 

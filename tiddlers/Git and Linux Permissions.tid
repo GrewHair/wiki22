@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240925194305742
+modified: 20240925194901684
+tags: Git Linux Security
+title: Git and Linux Permissions
+tmap.id: 28a9a161-6460-415a-88b6-3660c450e039
+type: text/vnd.tiddlywiki
+
+`git status` may sometimes show a lot of files as `modified` that were really not if you e.g. copy a git repo over from one OS to another, because of differences in permissions.
+
+`git diff <filename>` will show you that differences.
+
+As a matter of fact, the only thing [[Git]] really cares about is whether a file is executable or not, it'll turn the blind eye on any other permissions, groups, etc..
+
+Just so u know.

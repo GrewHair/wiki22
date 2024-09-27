@@ -1,0 +1,23 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240916135451206
+modified: 20240916140410960
+tags: [[Amazon Web Services]]
+title: Distractors (AWS)
+tmap.id: badf89ec-3f33-43ed-a77d-b5c2ce8339c0
+type: text/vnd.tiddlywiki
+
+In AWS certifications, some options are intentionally obscure (there are 200+ services, and the first certification only covers ~40). They're called [[Distractors|Distractors (AWS)]].
+
+''Example:''
+
+```
+Q: Which AWS service would simpify the migration of a database to AWS?
+
+    A) AWS Storage Gateway                <= obviously wrong
+    B) AWS Database Migration Service     <= obviously right
+    C) Amazon EC2                         <= obviously wrong
+    D) Amazon AppStream 2.0               <= DISTRACTOR
+```

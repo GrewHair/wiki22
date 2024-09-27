@@ -1,0 +1,27 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240916140620353
+modified: 20240916141134374
+tags: [[Amazon Web Services]]
+title: Your AWS Certification Journey
+tmap.id: ff9ab341-f770-4906-bc84-10ccc63bdd63
+type: text/vnd.tiddlywiki
+
+* Founational
+** Cloud Practitioner
+* Associate
+** Solutions Architect
+** Developer
+** SysOps Administrator
+* Professional
+** Solutions Architect
+** DevOps Engineer
+* Specialty
+** Advanced Networking
+** Data Analytics
+** Database
+** Machine Learning
+** Security
+** SAP on AWS

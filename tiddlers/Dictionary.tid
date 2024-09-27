@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200127081801358
-modified: 20230131143442170
+modified: 20240917092944728
 tags: English
 title: Dictionary
 tmap.id: 7172dc91-dffa-4b19-8ff2-b250677e4524
@@ -77,3 +77,6 @@ type: text/vnd.tiddlywiki
 * fml - fuck my life
 * not in Kansas anymore - no longer in quiet and comfortable surroundings (from The Wizard of Oz)
 * stopgap - затычка, временная мера
+* SARL - Société à responsabilité limitée, society of/with limited responsibility (in Switzerland)
+* GmbH - Gesellschaft mit beschränkter Haftung, company with limited liability (in Germany)
+* LLC - limited liability company

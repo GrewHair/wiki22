@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240925175836073
+modified: 20240925181010973
+tags: Git Stub
+title: Why Git Checkout is Called Checkout
+tmap.id: dbd81f88-32c7-42f2-8bc4-52c2c9b62f9e
+type: text/vnd.tiddlywiki
+
+https://stackoverflow.com/questions/36162956/why-is-git-checkout-named-like-that
+
+https://en.wikipedia.org/wiki/Version_control#Common_vocabulary
+
+It's a historical term that goes back to file locking VCSs. The metaphor is e.g. checking out a book from a library/repository: noone else can edit it when it's checked out by you. There's also "check in" which means "return the book".

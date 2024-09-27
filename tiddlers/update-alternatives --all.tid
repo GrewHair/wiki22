@@ -1,0 +1,53 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240925220443110
+modified: 20240925220520073
+tags: Linux WIP
+title: update-alternatives --all
+tmap.id: 44b4844e-c7b7-4d60-99a7-d9475d94a01c
+type: text/vnd.tiddlywiki
+
+```
+arptables-nft
+awk
+babeljs
+babeljs-external-helpers
+babeljs-node
+babeljs-parser
+bash-builtins
+c++ (g++)
+c89
+c99
+cc (gcc)
+cpp
+ebtables
+editor
+ex (vim.basic)
+fakeroot
+infobrowser (info)
+ip6tables (ip6tables-nft)
+iptables (iptables-nft)
+js (nodejs)
+jsondiff
+lzma (xz)
+nc (nc.openbsd)
+newt-palette (palette)
+open xdg-open
+pager (less)
+pico (nano)
+pinentry
+pybabel
+rmt
+rview (vim.basic)
+rvim (vim.basic)
+vi (vim.basic)
+view (vim.basic)
+vim
+vimdiff
+vtrgb
+which
+x-cursor-theme
+x-terminal-emulator (zutty)
+```

@@ -1,11 +1,12 @@
 created: 20220803215339396
-modified: 20220803220558246
+modified: 20240919082227457
 tags: Linux Virtualization Stub
 title: User-mode Linux
 tmap.id: 4de87d1a-cb22-43fd-ba71-fafbb258bdfd
 type: text/vnd.tiddlywiki
 
 ''AKA UML''
+
 ''NTBCW: Unified Modeling Language''
 
 Somehow, [[Linode]] works on this.

@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240916155020085
+modified: 20240916155313919
+tags: [[Amazon Web Services]]
+title: Sign In as IAM User vs Root User Email (AWS)
+tmap.id: d36a2abf-f213-464f-a980-17afaac69340
+type: text/vnd.tiddlywiki
+
+https://stackoverflow.com/questions/29744235/differences-between-root-account-credentials-and-iam-user-credentials
+
+Root account can manage payment methods, etc. IAM accounts (there can be many) you create yourself to not let your employees see your wallet i guess...

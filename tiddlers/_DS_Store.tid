@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240925120610070
+modified: 20240925120856257
+tags: MacOS
+title: .DS_Store
+tmap.id: d1e85c61-c99a-4896-9a1d-739a28fc3301
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/.DS_Store
+
+It's some [[MacOS]] gui nonsense...
+
+It sometimes appears in folders, I suppose when someone views a folder with a gui file manager..
