@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241204203057648
+modified: 20241204203321560
+tags: [[Postgre SQL]]
+title: pg_rewind
+tmap.id: 2bcfb10b-8e05-416f-88c0-3a94f809fe7a
+type: text/vnd.tiddlywiki
+
+pg_rewind is a tool for synchronizing a PostgreSQL cluster with another copy of the same cluster, after the clusters' timelines have diverged. A typical scenario is to bring an old primary server back online after failover as a standby that follows the new primary.
+
+Impacts [[RPO|Recovery Point Objective]]... but can drastically improve [[RTO|Recovery Time Objective]].
+
+https://www.postgresql.org/docs/current/app-pgrewind.html
+
+Found it here:
+
+https://youtu.be/VSPV4vMN7Qc?t=1750

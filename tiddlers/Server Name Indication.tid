@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250721104248781
+modified: 20250721104519010
+tags: [[Transport Layer Security]]
+title: Server Name Indication
+tmap.id: b3ad78b5-5705-45bc-b148-fd8c2dd876bd
+type: text/vnd.tiddlywiki
+
+''AKA SNI''
+
+https://en.wikipedia.org/wiki/Server_Name_Indication
+
+It's a [[TLS Extension|TLS Extensions]]..
+
+It gives the client the ability to convey to the server which [[Hostname]] it's accessing during the [[TLS Handshake]] (so before HTTP gets involved).

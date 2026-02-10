@@ -1,0 +1,22 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250110090852866
+modified: 20250110093003655
+tags: Networking Cisco
+title: Cisco IOS Switch Command Reference
+tmap.id: 3c1858da-afe6-4b31-8e2d-cf35f1afa053
+type: text/vnd.tiddlywiki
+
+|!Syntax                         |!Description                              |!Privilege Level|
+|`show running-config`           |Display config currently running in memory|[[15 (Privileged EXEC)|Privileged EXEC Mode]]|
+|`show ip interface brief`       |Display list of interfaces, their [[IP Addresses|IP Address]] (if any), and their state|[[15 (Privileged EXEC)|Privileged EXEC Mode]]|
+|`show interfaces [interface_id]`|Display detailed interface params and traffic stats|[[1 (User EXEC)|User EXEC Mode]] and higher|
+|`show interfaces stats`         |Display basic interface statistics                 |[[15 (Privileged EXEC)|Privileged EXEC Mode]]|
+|`show cdp neighbors [detail]`   |Display info about directly connected [[Cisco]] devices running [[CDP|Cisco Discovery Protocol]]|[[1 (User EXEC)|User EXEC Mode]] and higher|
+|`show ip route`                 |Display contents of device's [[IPv4]] [[Routing Table]]|[[1 (User EXEC)|User EXEC Mode]] and higher|
+|`show version`                  |Display version of [[Cisco IOS]] running on a deice|[[1 (User EXEC)|User EXEC Mode]] and higher|
+|`show mac-address table`        |Display contents of a [[Switch's|Switch]] [[CAM Table]]|[[1 (User EXEC)|User EXEC Mode]] and higher|
+|`show switch`                   |Display info about a [[Switch's|Switch]] [[Cisco StackWise]] configuration|[[15 (Privileged EXEC)|Privileged EXEC Mode]]|
+|`show inventory`                |Display info about modules installed on device|[[1 (User EXEC)|User EXEC Mode]] and higher|

@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250204165548836
+modified: 20250204165624547
+tags: 
+title: Some Books
+tmap.id: 5d472eb3-988c-4ffb-8490-225b1c4baca7
+type: text/vnd.tiddlywiki
+
+https://github.com/srghma/library
+
+https://drive.google.com/drive/folders/19N_sjpt1kCzW9cgJItEoZgfgm6YOOJtn

@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251007115726997
+modified: 20251008085855011
+tags: [[Amazon Web Services]] Stub
+title: AWS VPN CloudHub
+tmap.id: 37571d63-3a57-4bdb-a251-01deb4cb46a6
+type: text/vnd.tiddlywiki
+
+https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/aws-vpn-cloudhub.html
+
+A [[Hub-and-spoke]]...
+
+How on earth is this thing different to the [[Transit Gateway]]??
+
+https://www.reddit.com/r/aws/comments/icqnc2/cloudhub_vpn_vs_transit_gateway/

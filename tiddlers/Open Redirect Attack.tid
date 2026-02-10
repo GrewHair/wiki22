@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241219201851308
+modified: 20241219201930960
+tags: Security [[The Nuts and Bolts of OAuth 2.0 (Aaron Parecki)]] Stub
+title: Open Redirect Attack
+tmap.id: a5e487d6-0cdf-42a9-a08a-4d0c415c4127
+type: text/vnd.tiddlywiki
+
+https://learn.snyk.io/lesson/open-redirect/

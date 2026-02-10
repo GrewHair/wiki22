@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250104095417842
+modified: 20250104095610355
+tags: Networking [[Computer Networks, 5th Edition (Andrew S. Tanenbaum, David J. Wetherall)]] Stub
+title: Robust Header Compression
+tmap.id: aed17ed4-be4b-4215-8034-d8b8c136f406
+type: text/vnd.tiddlywiki
+
+''AKA ROHC''
+
+A method to compress IP, TCP, etc, headers (header compression is very different to data compression, as for one headers are smol)
+
+https://en.wikipedia.org/wiki/Robust_Header_Compression

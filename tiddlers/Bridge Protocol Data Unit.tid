@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250114132759597
+modified: 20250114133043625
+tags: Networking [[CompTIA Network+ (N10-009) Crash Course (Kevin Wallace)]]
+title: Bridge Protocol Data Unit
+tmap.id: b54c08c8-ae25-44db-b7f8-2d40b78129f6
+type: text/vnd.tiddlywiki
+
+''AKA BPDU''
+
+An [[STP|Spanning Tree Protocol]] message unit that describes attributes of a switch port such as [[MAC Address]], priority and cost to reach.
+
+https://en.wikipedia.org/wiki/Spanning_Tree_Protocol#Bridge_protocol_data_units
+
+https://www.pcmag.com/encyclopedia/term/bpdu

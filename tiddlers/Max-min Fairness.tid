@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241230222235374
+modified: 20241230222305976
+tags: [[Computer Networks, 5th Edition (Andrew S. Tanenbaum, David J. Wetherall)]] Networking [[WTF is This?]]
+title: Max-min Fairness
+tmap.id: 10106533-b744-4f6b-aa96-8b25a4eb973c
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/Max-min_fairness

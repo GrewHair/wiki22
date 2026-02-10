@@ -1,0 +1,15 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241215155326318
+modified: 20241215155634386
+tags: 
+title: 10 Gigabit Ethernet
+tmap.id: 546d3aac-174d-4e85-a038-05e9fdc07018
+type: text/vnd.tiddlywiki
+
+Breaking changes:
+
+* full-duplex only
+* [[CSMA/|Carrier-sense Multiple Access]][[CD|Collision Detection]] finally dropped

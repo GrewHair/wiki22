@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250714171954534
+modified: 20250715101315188
+tags: Docker
+title: States of a Docker Container WIP
+tmap.id: 60f1e69d-b284-4608-ae19-e7dd820188e4
+type: text/vnd.tiddlywiki
+
+The creator restarted the dead’s paws, then exited running.
+
+Running Dead Paws Created Egg-sitting Red sardine
+
+Ronin's Dead Paws Created Egg-sitting Red sardine

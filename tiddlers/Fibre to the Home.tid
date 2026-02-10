@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241213083653666
+modified: 20241213083917220
+tags: Networking Stub
+title: Fibre to the Home
+tmap.id: cc4407a8-e82e-4275-8ab3-5d90e9d6bcbc
+type: text/vnd.tiddlywiki
+
+''AKA FTTH''
+
+https://ftthconference.eu/visiting/what-is-ftth
+
+https://en.wikipedia.org/wiki/Fiber_to_the_x
+
+I guess it's the next thing after [[DSL|Digital Subscriber Line]]..

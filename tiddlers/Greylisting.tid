@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250720110731709
+modified: 20250720110756729
+tags: Email WIP
+title: Greylisting
+tmap.id: 99788074-9017-440c-a25b-6594f0a544df
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/Greylisting_(email)

@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251219143208626
+modified: 20251219143352120
+tags: [[Amazon Web Services]] Stub [[Read This!]]
+title: AWS Billing and Cost Management
+tmap.id: 5844153b-644e-444d-a497-197edcf53875
+type: text/vnd.tiddlywiki
+
+https://docs.aws.amazon.com/account-billing/
+
+https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-what-is.html
+
+https://tutorialsdojo.com/aws-billing-and-cost-management/

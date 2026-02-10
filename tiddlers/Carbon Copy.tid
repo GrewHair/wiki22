@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250103130926121
+modified: 20250103130957062
+tags: Email Networking [[Computer Networks, 5th Edition (Andrew S. Tanenbaum, David J. Wetherall)]] Stub
+title: Carbon Copy
+tmap.id: befa4665-25ee-43a2-a525-880f1cd1af3e
+type: text/vnd.tiddlywiki
+
+''AKA Cc''

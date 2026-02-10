@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241204235458413
+modified: 20250704120759440
+tags: [[Amazon Web Services]]
+title: Source\destination Checks
+tmap.id: 6d5a05a0-8bd7-4f5f-bfb7-ef1b327f87ab
+type: text/vnd.tiddlywiki
+
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html#:~:text=Source/destination%20checking
+
+Found it here:
+
+https://youtu.be/MpbIZ1SmEkU?t=1614
+
+''Note''
+
+There is a legacy [[NAT|Network Address Translation]] technique called [[NAT Instance]] where you use an [[EC2]] instance as a [[NAT|Network Address Translation]] box. It's now rarely used as we now have [[NAT Gateways|NAT Gateway]]. Using a compute instance as a [[NAT|Network Address Translation]] box means there'll be a lot of [[TCP\IP]] traffic going through it that has neither the source nor the destination [[IP Address]] equal to the [[IP|IP Address]] of that instance. And so you're supposed to turn [[Source\destination Checks]] ''off'' if you're going for this [[NAT Instance]] scheme. 

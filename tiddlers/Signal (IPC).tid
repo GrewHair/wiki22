@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250123213423150
+modified: 20250123213632822
+tags: Computing Linux
+title: Signal (IPC)
+tmap.id: ba562acb-c1e3-4f4f-8c62-40aa327d5b69
+type: text/vnd.tiddlywiki
+
+[[Signals|Signal (IPC)]] are a software analog to hardware interrupts.. ([[Tanenbaum|Andrew Tanenbaum]])
+
+https://en.wikipedia.org/wiki/Signal_(IPC)

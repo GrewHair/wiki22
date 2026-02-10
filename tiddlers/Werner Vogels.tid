@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251107231501711
+modified: 20251107231717847
+tags: Person [[Distributed Computing]] [[Amazon Web Services]]
+title: Werner Vogels
+tmap.id: 6ed28afe-36ab-4a6b-984b-a0a7607a6e74
+type: text/vnd.tiddlywiki
+
+https://www.allthingsdistributed.com/
+
+CEO of Amazon

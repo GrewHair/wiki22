@@ -1,0 +1,30 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251124114035883
+modified: 20251124122426925
+tags: Networking
+title: Carrier-grade NAT
+tmap.id: 791be75d-10b9-4de7-a766-b6b2db111e26
+type: text/vnd.tiddlywiki
+
+''AKA CGN, CGNAT, large-scale NAT, LSN''
+
+RFC6598
+
+```
+100.64.0.0/10
+
+that is:
+
+100.64.0.0 ~ 100.127.255.255
+```
+
+it's much like your usual [[Private Address]] ranges, but for [[ISPs|Internet Service Provider]], [[VPNs|Virtual Private Network]], etc..
+
+Motivation, as usual, is [[IPv4 Address Exhaustion]].
+
+https://en.wikipedia.org/wiki/Carrier-grade_NAT
+
+https://datatracker.ietf.org/doc/html/rfc6598

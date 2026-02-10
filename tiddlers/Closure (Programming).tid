@@ -1,5 +1,5 @@
 created: 20220710112756576
-modified: 20220710114520309
+modified: 20250421090709780
 tags: Programming Stub Lua
 title: Closure (Programming)
 tmap.id: e677020c-17c2-4390-a7a2-7214fa545145
@@ -26,3 +26,11 @@ bar = add10(22)  -- yields 32
 https://en.wikipedia.org/wiki/Closure_(computer_programming)
 
 https://youtu.be/S4eNl1rA1Ns?t=823
+
+UPD ChatGPT summarized it pretty neatly for me:
+
+''A function is a closure if:''
+
+* it is defined inside another function
+* it uses context (variables) from that other function
+* it escapes the parent function (usually through `return`, but could be by getting stored somewhere, etc)

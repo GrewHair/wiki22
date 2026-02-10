@@ -1,0 +1,15 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241003174320902
+modified: 20241003174530922
+tags: Stub
+title: Private Key File Formats
+tmap.id: e3c0aecd-62d7-444e-b0ef-06f475a6d947
+type: text/vnd.tiddlywiki
+
+Found it when creating a t2micro at aws.
+
+* `.pem` - for use with [[OpenSSH]]
+* `.ppk` - for use with [[PuTTY]]

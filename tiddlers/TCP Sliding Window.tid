@@ -1,5 +1,5 @@
 created: 20210216163630910
-modified: 20210216182139061
+modified: 20241214223446976
 tags: Networking Stub
 title: TCP Sliding Window
 tmap.id: d749c99c-dbc7-474d-a514-ecdf7f2370b6
@@ -41,3 +41,7 @@ $$
 
 \s\s\s\s\s\s
 $$
+
+https://www.youtube.com/watch?v=klDhO9N01c4&ab_channel=RickGraziani
+
+A generalization of sorts of the [[Stop-and-wait]]. The sending side can send up to `<window-size>` packets before it receives acknowledgements..

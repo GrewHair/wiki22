@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250127153707892
+modified: 20250127153918712
+tags: DNS
+title: Key Ceremony
+tmap.id: bfcca505-34eb-4f93-8f68-deb48856089d
+type: text/vnd.tiddlywiki
+
+It's a [[DNSSEC]] thing..
+
+I guess the reason [[TLS|Transport Layer Security]] doesn't have it is because it has more than one root CA?..
+
+https://en.wikipedia.org/wiki/Key_ceremony

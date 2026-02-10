@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250213215608271
+modified: 20250213215907640
+tags: [[Modern Operating Systems (Andrew S. Tanenbaum, Herbert Bos)]]
+title: Memory Management Unit
+tmap.id: f2d080db-609c-472c-bc51-060b34e63d60
+type: text/vnd.tiddlywiki
+
+''AKA MMU, Paged Memory Management Unit (PMMU)''
+
+It sits between the [[CPU|Central Processing Unit]] and the memory bus (these days it's more often then not on the same chip with the [[CPU|Central Processing Unit]] really).
+
+It facilitates [[Virtual Memory]]/paging.

@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251219132419206
+modified: 20251219133154076
+tags: [[Amazon Web Services]] Stub K8s
+title: AWS Load Balancer Controller
+tmap.id: 15709741-7100-4048-992f-d776879e8460
+type: text/vnd.tiddlywiki
+
+[[Load Balancer Controller|AWS Load Balancer Controller]] is an [[EKS Addon|EKS Addons]]... (right?)
+
+https://docs.aws.amazon.com/eks/latest/userguide/lbc-manifest.html
+
+https://github.com/kubernetes-sigs/aws-load-balancer-controller
+
+https://docs.aws.amazon.com/eks/latest/userguide/aws-load-balancer-controller.html
+
+https://kubernetes-sigs.github.io/aws-load-balancer-controller/latest/

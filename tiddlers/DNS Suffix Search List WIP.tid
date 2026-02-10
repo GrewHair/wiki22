@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250804151930413
+modified: 20250804152139438
+tags: DNS WIP Networking
+title: DNS Suffix Search List WIP
+tmap.id: 3bce9fa8-c7fe-4ca8-897a-02ae92febbc1
+type: text/vnd.tiddlywiki
+
+https://datatracker.ietf.org/doc/html/rfc1535
+
+https://datatracker.ietf.org/doc/html/rfc3397

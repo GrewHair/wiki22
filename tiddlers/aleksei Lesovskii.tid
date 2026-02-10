@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241204184410691
+modified: 20241204184520383
+tags: Person [[Postgre SQL]]
+title: Алексей Лесовский
+tmap.id: 15d8e09d-6898-4f40-ae14-e8d985be402b
+type: text/vnd.tiddlywiki
+
+https://www.youtube.com/watch?v=TDWC66qzxCs&t=1273s
+
+https://www.youtube.com/watch?v=sZjErOEaM9s&t=1442s
+
+...and many more.

@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250116195645675
+modified: 20250116195830051
+tags: Storage [[Storage Networking Fundamentals (Marc Farley)]]
+title: Host Bus Adapter
+tmap.id: 16dc8738-e028-4312-847a-5f8caa83ee9c
+type: text/vnd.tiddlywiki
+
+''AKA HBA, Host Adapter''
+
+Let's think of them as [[NICs|Network Interface Controller]] but for storage for now..
+
+https://en.wikipedia.org/wiki/Host_adapter

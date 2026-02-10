@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251202145527636
+modified: 20251202150106287
+tags: Git Stub
+title: Ways to Create Branches in Git
+tmap.id: 214a26cb-9de2-4312-94be-da4fa3756990
+type: text/vnd.tiddlywiki
+
+* create branch without switching to it: `git branch foo`
+* create branch and switch (old, deprecated way): `git checkout -b foo`
+* create branch and switch (new way): `git switch -c foo`
+** `-c` instructs git to create branch if it don't exist
+** i guess using this is "safer", as it's more effort to create something you don't mean to?
+
+https://www.boot.dev/lessons/02f31255-f521-4317-946a-a8a9ca67e7cf

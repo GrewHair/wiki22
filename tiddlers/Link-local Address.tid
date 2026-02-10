@@ -1,9 +1,11 @@
 created: 20210312122903672
-modified: 20210312124653897
+modified: 20250108154715722
 tags: Networking Stub
 title: Link-local Address
 tmap.id: 1d37bdc8-da68-4c1f-b052-30f1a82368e7
 type: text/vnd.tiddlywiki
+
+''AKA APIPA, Automatic Private IP Addressing''
 
 `169.254.0.0/16`
 
@@ -19,8 +21,12 @@ Windows calls this crap APIPA...
 
 Also, all of this applies mainly only to [[IPv4]]. In [[IPv6]] all of this works really differently, and a lot of protocols actually __rely__ on [[Link-local Addresses|Link-local Address]] there, instead of ignoring them like [[IPv4]] effectively does.
 
+UPD: it seems like in [[IPv6]] it's the primary means of inter-router communications. In [[IPv6]] [[Routing Protocols|Routing Protocol]], a router refers to neighbors by these (and not by global unicast addresses).
+
 https://en.wikipedia.org/wiki/Zero-configuration_networking
 
 https://en.wikipedia.org/wiki/Link-local_address
 
 https://superuser.com/questions/342149/what-is-the-difference-between-a-link-local-address-and-an-ip-address-in-the-pri
+
+//Note: I would guess the name means "local to the link", as in point to point link..//

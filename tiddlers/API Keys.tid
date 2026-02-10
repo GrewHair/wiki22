@@ -1,0 +1,22 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241120173904608
+modified: 20241120175456039
+tags: 
+title: API Keys
+tmap.id: 2ac10e21-37e9-4295-9426-5a0c89ace358
+type: text/vnd.tiddlywiki
+
+API Keys are bad:
+
+https://www.youtube.com/watch?v=sNn23dPRUS8&t=103s
+
+https://www.youtube.com/watch?v=DanUVSlOSQQ
+
+API Keys are good:
+
+https://www.youtube.com/watch?v=ooyOmiczY1g
+
+(btw this last one is generally a superb, entertaining, educating video!)

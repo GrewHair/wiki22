@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250124143446560
+modified: 20250124165901318
+tags: ChatGPT
+title: ChatGPT Organizers
+tmap.id: 556efe24-c9da-42eb-ae75-450128ab2043
+type: text/vnd.tiddlywiki
+
+This one is subscription based, ($10/mo):
+
+https://chromewebstore.google.com/detail/superpower-chatgpt/amhmeenmapldpjdedekalnfifgnpfnkc?hl=en
+
+This one is subscription based, with a ~$100 one-time purchase option:
+
+https://chromewebstore.google.com/detail/chatgpt-folders-search-pr/gdocioajfidpnaejbgmbnkflgmppibfe
+
+This one is one-time purchase 

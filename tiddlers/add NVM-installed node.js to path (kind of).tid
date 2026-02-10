@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20260109155610860
+modified: 20260109155711637
+tags: WTF?
+title: add NVM-installed node.js to path (kind of)
+tmap.id: aab9bbf0-4090-4490-90ba-99038e28bd60
+type: text/vnd.tiddlywiki
+
+```
+sudo install -m 755  $(which node) /usr/local/bin/
+```

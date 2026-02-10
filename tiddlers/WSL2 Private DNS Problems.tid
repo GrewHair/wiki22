@@ -1,0 +1,29 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251103103508446
+modified: 20251103104429725
+tags: [[Windows Subsystem for Linux]]
+title: WSL2 Private DNS Problems
+tmap.id: 33771277-46f4-4aca-821f-307581895758
+type: text/vnd.tiddlywiki
+
+wsl2 can freak out and not properly resolve your company's internal [[DNS|Domain Name System]] with your company's [[VPN|Virtual Private Network]] on..
+
+Screwing around with `resolv.conf` in the distro is a mess.. (at least because of systemd, but there's other reasons. I don't remember exactly, but it seems like there's situations where you'd have to edit that file each time you turn vpn on or off).
+
+One decent thing to try instead is:
+
+* create the file `C:\Users\<User>\.wslconfig`
+* put the following there:
+
+```
+[experimental]
+dnsTunneling=true
+```
+
+* finally, turn off wsl:
+> `wsl --shutdown`
+
+* (and on again)

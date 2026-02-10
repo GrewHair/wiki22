@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251008110717770
+modified: 20251008112014346
+tags: [[Amazon Web Services]] Stub
+title: DynamoDB Accelerator
+tmap.id: d803a072-4af6-4568-a9b4-e4ade375769e
+type: text/vnd.tiddlywiki
+
+''AKA DAX''
+
+[[DynamoDB]] is said to have single-millisecond response times at any scale.
+
+This thing claims to make things up to 10 times faster (the slogan is something like "from milliseconds to microseconds", although it's easy to see how that's not really fair, as it only turns 2 milliseconds into 200 microseconds, lol).
+
+https://aws.amazon.com/dynamodbaccelerator/

@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250114093404102
+modified: 20250114093454819
+tags: Networking [[CompTIA Network+ (N10-009) Crash Course (Kevin Wallace)]] Stub Routing
+title: Link State Database
+tmap.id: 42e8b4b2-88a9-4f83-811a-6bfcdc2d3ed1
+type: text/vnd.tiddlywiki
+
+''AKA LSDB''
+
+https://ipcisco.com/lesson/what-is-lsdb/

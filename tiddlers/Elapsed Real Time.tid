@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251201101232690
+modified: 20251201101717616
+tags: Computing Linux
+title: Elapsed Real Time
+tmap.id: 21737491-69f4-49ac-bdd4-cc39a96db7ff
+type: text/vnd.tiddlywiki
+
+''AKA Real Time, Wall-clock Time, Walltime, Elapsed Time, ETIME''
+
+Actual time a process is running (as opposed to CPU time, user/userspace time, system/kernelspace time, etc).
+
+```bash
+ps -p <PID> -o etime,cmd
+```
+
+https://en.wikipedia.org/wiki/Elapsed_real_time

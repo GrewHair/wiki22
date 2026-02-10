@@ -1,0 +1,17 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241211111841532
+modified: 20241211113348786
+tags: Web E-Commerce [[Computer Networks, 5th Edition (Andrew S. Tanenbaum, David J. Wetherall)]]
+title: E-Commerce "Tags"
+tmap.id: b2a6d625-a88d-4dcf-8508-663ac05728ec
+type: text/vnd.tiddlywiki
+
+|''Tag''|''Full name''         |''Example''                                     |
+|''B2C''|Business-to-consumer  |Ordering books online                           |
+|''B2B''|Business-to-business  |Car manufacturer ordering tires form supplier   |
+|''G2C''|Government-to-consumer|Government distributing tax forms electronically|
+|''C2C''|Consumer-to-consumer  |Auctioning second-hand products online          |
+|''P2P''|Peer-to-peer          |Music sharing                                   |

@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251016125357721
+modified: 20251016125426718
+tags: [[Amazon Web Services]]
+title: EC2 Auto Scaling vs AWS Auto Scaling
+tmap.id: 40260f06-c0eb-4c77-8a4a-86d4d6ad66c5
+type: text/vnd.tiddlywiki
+
+https://www.youtube.com/watch?v=-j6QCr5yHKw

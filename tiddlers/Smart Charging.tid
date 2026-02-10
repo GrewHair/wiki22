@@ -1,0 +1,15 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251109005845215
+modified: 20251109010035055
+tags: Windows Stub
+title: Smart Charging
+tmap.id: 02195566-aac8-44d4-97f7-aaf7c9ec6db5
+type: text/vnd.tiddlywiki
+
+* you know it's on when you see a heart next to your battery tray widget
+* what it does is it charges "gently", this takes longer but tries to wear out the battery less
+
+https://support.microsoft.com/en-us/windows/use-smart-charging-in-windows-2ac1b4ba-6027-410a-b80e-f6767d867002

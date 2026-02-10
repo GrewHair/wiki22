@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250814070418132
+modified: 20250814071049998
+tags: Certifications
+title: CompTIA Trifecta
+tmap.id: 4f830383-ada6-4d1a-bbfe-be6c8c818939
+type: text/vnd.tiddlywiki
+
+https://www.reddit.com/r/CompTIA/comments/1dz2aj5/what_is_the_trifecta/
+
+* A+
+* Network+
+* Security+

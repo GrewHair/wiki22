@@ -1,5 +1,5 @@
 created: 20211028112853291
-modified: 20220620201608866
+modified: 20251117124512783
 tags: Security Stub Cloud [[Amazon Web Services]]
 title: Attribute-based Access Control
 tmap.id: 5d9241be-874d-454f-8633-8d9275ab34c4
@@ -14,3 +14,5 @@ Check out the 'see also' section!!!
 https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction_attribute-based-access-control.html
 
 Here [[AWS|Amazon Web Services]] claims that [[ABAC]] is new and shiny compared the the old-assed [[RBAC|Role-based Access Control]], yo.
+
+In case of AWS, attributes are called tags. These attributes/tags can be attached to [[Principals|Principal (AWS IAM)]] or [[Resources|Resource (AWS IAM)]].

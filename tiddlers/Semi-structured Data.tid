@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251029121649177
+modified: 20251029132350883
+tags: [[Data Modeling]] Stub Databases
+title: Semi-structured Data
+tmap.id: 21a0bde9-c6c7-4931-be6f-25d28a1324b7
+type: text/vnd.tiddlywiki
+
+''AKA Self-describing structure''
+
+https://en.wikipedia.org/wiki/Semi-structured_data
+
+Found it in an AWS Skillbuilder course named "Introduction to building with AWS databases"

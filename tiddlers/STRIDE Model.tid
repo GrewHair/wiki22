@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250716093743191
+modified: 20250716093759995
+tags: Security WIP
+title: STRIDE Model
+tmap.id: 27c260ec-a004-4a9b-b81f-2ee6dab85eaa
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/STRIDE_model

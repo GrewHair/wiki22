@@ -1,5 +1,5 @@
 created: 20210310143649685
-modified: 20210312174607716
+modified: 20241215224317130
 tags: Networking
 title: Switch
 tmap.id: 27f4977d-bf6e-40df-83ce-8476371bb164
@@ -7,7 +7,7 @@ type: text/vnd.tiddlywiki
 
 <div style="width:20%">[img[_my/images/cisco_network_topology_icons/switch]]</div>
 
-''AKA Network Switch, Switching Hub, Bridging Hub, MAC Bridge''
+''AKA Network Switch, Switching Hub, Bridging Hub, MAC Bridge, Multiport Bridge''
 
 A [[Switch]] is a multiport [[Bridge]] with a buffer and a design that can boost its efficiency (a large number of ports imply less traffic) and performance.
 

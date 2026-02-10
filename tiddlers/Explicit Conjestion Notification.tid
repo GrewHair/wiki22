@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241223194246905
+modified: 20241223194326633
+tags: [[Computer Networks, 5th Edition (Andrew S. Tanenbaum, David J. Wetherall)]] Networking Routing Stub
+title: Explicit Conjestion Notification
+tmap.id: bd2f9938-0cc8-4581-9284-c4ab55b24758
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/Explicit_Congestion_Notification

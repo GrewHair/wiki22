@@ -1,0 +1,30 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250514131136447
+modified: 20250721102605534
+tags: [[Amazon Web Services]]
+title: AWS Services By Resilience Type
+tmap.id: b676fec4-c91c-4269-8f66-a81dd208a995
+type: text/vnd.tiddlywiki
+
+''Services''
+
+|!Globally resilient|!Region resilient      |!AZ resilient  |
+|[[Route 53]]       |                       |               |
+|[[IAM]]            |                       |               |
+|                   |[[VPC]]                |               |
+|                   |[[S3]]                 |               |
+|                   |[[SSM Parameter Store]]|               |
+|                   |[[SNS|Amazon Simple Notification Service]]|               |
+|                   |[[ACM|AWS Certificate Manager]]|       |
+|                   |                       |[[EC2]]        |
+|                   |                       |[[EBS]]        |
+
+''Resources''
+
+|!Globally resilient|!Region resilient   |!AZ resilient  |
+|...                |                    |               |
+|                   |[[Internet Gateway]]|               |
+|                   |                    |[[NAT Gateway]]|

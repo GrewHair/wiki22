@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250103092436864
+modified: 20250103092525296
+tags: Networking [[Computer Networks, 5th Edition (Andrew S. Tanenbaum, David J. Wetherall)]]
+title: Timing Wheel
+tmap.id: efe6fbe4-33fa-4d50-bd8a-b8cc035e425b
+type: text/vnd.tiddlywiki
+
+It's an optimization of timer management..
+
+https://www.youtube.com/watch?v=AftX7rqx-Uc&ab_channel=SystemsWeLove

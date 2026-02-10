@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251120113135287
+modified: 20251120113251893
+tags: [[WTF is This?]] Security Observability
+title: Splunk
+tmap.id: a22f9571-5911-4824-9b16-69513c63ea38
+type: text/vnd.tiddlywiki
+
+A [[SIEM|Security Information and Event Management]] product..
+
+https://en.wikipedia.org/wiki/Splunk

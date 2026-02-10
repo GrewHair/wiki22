@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241027115719837
+modified: 20241027115807606
+tags: Security History WIP
+title: SAML vs OIDC WIP
+tmap.id: 6576bc70-b0b6-41bd-b249-2145e3f54166
+type: text/vnd.tiddlywiki
+
+https://security.stackexchange.com/questions/241803/why-is-saml-still-used-for-enterprise-sso-instead-of-oidc

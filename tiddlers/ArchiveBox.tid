@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251106114231672
+modified: 20251106114452206
+tags: [[Digital Preservation]] Stub
+title: ArchiveBox
+tmap.id: 17e09778-f9f5-46b0-9875-9262f4002ab1
+type: text/vnd.tiddlywiki
+
+https://www.youtube.com/watch?v=jNeybjyxtMM
+
+https://archivebox.io/
+
+It's like a self-hosted [[Wayback Machine]] i guess..
+
+Found it here:
+
+https://www.reddit.com/r/DataHoarder/comments/121m0z4/wayback_machine_vs_archivetoday/

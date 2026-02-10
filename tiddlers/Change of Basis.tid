@@ -4,7 +4,7 @@
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 .hsk.transcludes: [[_my/images/matrices_relationship_in_a_linear_transformation]]
 created: 20200311210055385
-modified: 20200325163826339
+modified: 20251228100653733
 tags: [[Linear Algebra]] Questionable
 title: Change of Basis
 tmap.id: 1dfbae4c-f8a4-4af5-93ce-24cbb9484d42

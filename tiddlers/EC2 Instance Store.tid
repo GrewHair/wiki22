@@ -1,8 +1,20 @@
 created: 20220724172321755
-modified: 20220724175045954
+modified: 20241008185541024
 tags: [[Amazon Web Services]] Stub
 title: EC2 Instance Store
 tmap.id: dc54a9c9-de08-45e3-8ab1-ff12ebcf45e0
 type: text/vnd.tiddlywiki
 
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/InstanceStorage.html
+
+It has better i/o performance than the usual [[EBS]], but it necessarily dies together with the VM, so use it for:
+
+* buffer
+* cache
+* temporary content
+* ...
+
+
+This looks like the GCPs equivalent:
+
+https://cloud.google.com/compute/docs/disks/local-ssd

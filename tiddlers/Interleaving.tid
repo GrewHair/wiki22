@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241214184116807
+modified: 20241214184254794
+tags: [[Error Correction]] [[Computer Networks, 5th Edition (Andrew S. Tanenbaum, David J. Wetherall)]]
+title: Interleaving
+tmap.id: eb3b0978-3541-410f-b24f-55289e93f0fe
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/Burst_error-correcting_code#Interleaved_codes
+
+[[Interleaving]] enables codes that detect single errors (like parity) to also detect burst errors.

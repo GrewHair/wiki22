@@ -1,0 +1,17 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251218090724942
+modified: 20251218091057263
+tags: Networking SSH Stub
+title: SSH File Transfer Protocol
+tmap.id: dc6df65c-3059-4acb-91da-f17c6b88e47a
+type: text/vnd.tiddlywiki
+
+''AKA Secure File Transfer Protocol, SFTP''
+
+''NTBCW: [[Simple File Transfer Protocol]], [[FTP Secure]]''
+
+https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol
+

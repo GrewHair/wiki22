@@ -1,0 +1,19 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250114115159607
+modified: 20250114115641881
+tags: Networking [[CompTIA Network+ (N10-009) Crash Course (Kevin Wallace)]]
+title: Bridge ID
+tmap.id: 363de8ca-827d-47d0-a191-2b4792505067
+type: text/vnd.tiddlywiki
+
+''AKA BID''
+
+It's a notion from [[STP|Spanning Tree Protocol]] that is used to decide which [[Bridge]]/[[Switch]] is the [[Root Bridge]].
+
+|''Priority''|[[MAC Address]]|
+|2 bytes |6 bytes        |
+
+''Priority's'' default value is 32768 (or `0b1000000000000000` in binary)

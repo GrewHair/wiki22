@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250117034801355
+modified: 20250117035351693
+tags: Storage [[Storage Networking Fundamentals (Marc Farley)]]
+title: Logical Block Addressing
+tmap.id: bd9e5f31-e674-43d0-8001-dc5da3732a30
+type: text/vnd.tiddlywiki
+
+''AKA LBA''
+
+[[LBA|Logical Block Addressing]] is a disk drive addressing scheme that decouples the physical details of a storage device from the [[Operating System]], allowing for integrating of many different types of drives together.
+
+It presents a flat address space to the [[Operating System]].
+
+It replaces earlier addressing schemes that exposed physical details such as [[CHS|Cylinder-head-sector]].
+
+https://en.wikipedia.org/wiki/Logical_block_addressing

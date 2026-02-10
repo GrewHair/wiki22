@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241223180448301
+modified: 20241223180502097
+tags: 
+title: Database Wars
+tmap.id: 9e228d6c-7570-4bc3-a96a-3a062a08a75c
+type: text/vnd.tiddlywiki
+
+https://www.holistics.io/blog/quel-vs-sql/

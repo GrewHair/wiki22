@@ -1,0 +1,23 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250113153648824
+modified: 20250113173555284
+tags: Networking WIP
+title: Wi-Fi Standards Memory Aid WIP
+tmap.id: c419aef5-d22f-4208-a834-2eaad7478a60
+type: text/vnd.tiddlywiki
+
+|`802.11`||
+|`802.11b`|bought|
+|`802.11a`|a|
+|`802.11g`|great|
+|`802.11n`|new|
+|`802.11ac`|acoustic|
+|`802.11ax`|axe,|
+|`802.11be`|behold!|
+
+also take a look at this:
+
+https://www.reddit.com/r/CompTIA/

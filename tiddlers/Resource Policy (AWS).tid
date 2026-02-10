@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250226084902558
+modified: 20250226085134315
+tags: [[Amazon Web Services]]
+title: Resource Policy (AWS)
+tmap.id: 81be96d8-515d-4a44-a1ff-3f1b82ea883f
+type: text/vnd.tiddlywiki
+
+You can pretty much tell it's a [[Resource|Resource Policy (AWS)]] and not an [[Identity Policy|Identity Policy (AWS)]] when you see a field named `"Principal"` in the json..
+
+https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_identity-vs-resource.html

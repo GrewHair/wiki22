@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241204190603366
+modified: 20241204190847724
+tags: [[Postgre SQL]] [[Distributed Computing]] [[WTF is This?]]
+title: Witness Server
+tmap.id: e154c3a5-5be3-4da9-b0c7-ba4e037c2e0f
+type: text/vnd.tiddlywiki
+
+Apparenty it's a server that doesn't take part in repication, but does in leader election... (so it's there just for [[quorum|Quorum]])
+
+[[repmgr]] (a replication solution for [[postgres|Postgre SQL]]) uses it..
+
+https://learn.microsoft.com/en-us/sql/database-engine/database-mirroring/database-mirroring-witness?view=sql-server-ver16
+
+https://stackoverflow.com/questions/2784400/database-mirroring-witness-server-what-is-it-for

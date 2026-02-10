@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250127234227972
+modified: 20250127234332919
+tags: Cryptocurrencies
+title: Initial DEX Offering
+tmap.id: c5c643ac-3334-402a-a13c-cbd621630889
+type: text/vnd.tiddlywiki
+
+''AKA IDO''
+
+[[DEX|Decentralized Exchange]] stands for [[Decentralized Exchange]]..

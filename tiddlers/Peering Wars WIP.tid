@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250107023728216
+modified: 20250107024754002
+tags: Networking
+title: Peering Wars WIP
+tmap.id: 4c86e16c-394d-44ab-8bf7-3063b0fcb015
+type: text/vnd.tiddlywiki
+
+https://archive.nanog.org/meetings/nanog43/presentations/Zmij_Brown_peeringwars_N43.pdf
+
+https://www.lightreading.com/network-technology/the-great-peering-war-rages-again
+
+https://pulse.internetsociety.org/blog/the-impact-of-the-russia-ukraine-war-on-peering-connectivity-and-internet
+
+https://arxiv.org/pdf/1409.6526

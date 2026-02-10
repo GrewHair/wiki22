@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251110134255335
+modified: 20251110134649130
+tags: Security Stub
+title: Fuzzing
+tmap.id: fafec1b7-5fb2-4673-a770-e37f0f7edfba
+type: text/vnd.tiddlywiki
+
+''AKA Fuzz Testing''
+
+https://en.wikipedia.org/wiki/Fuzzing
+
+https://github.com/google/oss-fuzz
+
+Found it here:
+
+https://www.youtube.com/watch?v=dI64JeCIO8k

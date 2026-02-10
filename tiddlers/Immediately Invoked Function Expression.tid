@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251105161422060
+modified: 20251105161535582
+tags: Javascript Stub
+title: Immediately Invoked Function Expression
+tmap.id: 88248db7-16ab-477b-ba94-d93a274c8945
+type: text/vnd.tiddlywiki
+
+''AKA IIFE''
+
+https://developer.mozilla.org/en-US/docs/Glossary/IIFE
+
+https://www.reddit.com/r/learnjavascript/comments/14ip76f/iifes_in_javascript_why/

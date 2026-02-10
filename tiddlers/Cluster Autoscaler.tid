@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251219140053337
+modified: 20251219140227433
+tags: K8s Stub
+title: Cluster Autoscaler
+tmap.id: ee33e9ff-ee5c-4197-a4d1-32fd9287d928
+type: text/vnd.tiddlywiki
+
+https://docs.cloud.google.com/kubernetes-engine/docs/concepts/cluster-autoscaler
+
+https://docs.aws.amazon.com/eks/latest/best-practices/cas.html
+
+https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler
+
+https://github.com/kubernetes/autoscaler

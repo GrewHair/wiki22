@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250204165323721
+modified: 20250204165434685
+tags: Person Cryptocurrencies
+title: Michael J. Saylor
+tmap.id: e9695837-e55d-4aac-9a54-3beaae567ba5
+type: text/vnd.tiddlywiki
+
+A [[Bitcoin]] [[whale|Whale]]...
+
+https://www.youtube.com/watch?v=bS4SCFy2grM&ab_channel=CryptoSmile

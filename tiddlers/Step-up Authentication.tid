@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251204122208095
+modified: 20251204122520387
+tags: Security Stub
+title: Step-up Authentication
+tmap.id: c04003fb-88ba-433d-b54f-dcd32a663833
+type: text/vnd.tiddlywiki
+
+https://auth0.com/blog/what-is-step-up-authentication-when-to-use-it/
+
+Found it here:
+
+https://www.malwarebytes.com/blog/news/2025/12/attackers-have-a-new-way-to-slip-past-your-mfa

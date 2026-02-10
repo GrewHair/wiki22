@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251121131004534
+modified: 20251121131424236
+tags: [[Amazon Web Services]] WIP
+title: Notes to self on AWS IAM Naming
+tmap.id: 9718048e-2918-40cb-bfac-23da18a791c5
+type: text/vnd.tiddlywiki
+
+https://docs.aws.amazon.com/IAM/latest/APIReference/API_AttachRolePolicy.html
+
+Look at this: it says `AttachRolePolicy`.
+
+What it really means is "Attach Policy to Role".
+
+Why is the wording so weird in the name??
+
+I'd speculate that it's because they tried to stick to their [[PARC Model|PARC Model (AWS)]], where resource (R) necessarily follows action (A), and everything else is captured in the end with "condition" (C). here, the resource is `Role`, and `Policy` is just a parameter captured by a condition key.

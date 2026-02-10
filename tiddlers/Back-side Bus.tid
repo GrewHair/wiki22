@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250203121911605
+modified: 20250203122028337
+tags: Computing
+title: Back-side Bus
+tmap.id: 7c7f36e0-2913-4c96-ab2e-62a32482654c
+type: text/vnd.tiddlywiki
+
+''AKA BSB''
+
+A [[BSB|Back-side Bus]] connects a [[CPU|Central Processing Unit]] to the [[cache|CPU Cache]].

@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241031095036395
+modified: 20241031095209512
+tags: Github
+title: Github Marketplace
+tmap.id: 0d712d06-1c34-4db5-a915-2a4795e9ff69
+type: text/vnd.tiddlywiki
+
+https://github.com/marketplace
+
+found it when trying to find github "push mirroring"..
+
+https://github.com/marketplace/actions/mirroring-repository

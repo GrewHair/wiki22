@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241223191625431
+modified: 20241223193259783
+tags: [[Computer Networks, 5th Edition (Andrew S. Tanenbaum, David J. Wetherall)]] Networking Routing Stub
+title: Route Oscillations
+tmap.id: 9aa1d875-cf37-42f2-8b93-04267866cb9c
+type: text/vnd.tiddlywiki
+
+https://www.reddit.com/r/networking/
+
+https://www.quora.com/What-is-route-oscillation-problem-in-BGP
+
+Basically, because of [[Route Oscillations]] it is not feasible to do any kind of traffic-aware routing in the internet routing protocols.

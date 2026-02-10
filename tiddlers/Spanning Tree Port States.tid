@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250114131316787
+modified: 20250114132540655
+tags: Networking [[CompTIA Network+ (N10-009) Crash Course (Kevin Wallace)]]
+title: Spanning Tree Port States
+tmap.id: 84aea97d-f0e7-4758-b147-e31e8e5082a3
+type: text/vnd.tiddlywiki
+
+|!State     |!Forward frames|!Learn [[MAC Addresses|MAC Address]]|!Duration |!Description|
+|!Blocking  |No             |No                                  |20 seconds|a grace period. if you're connecting a new device, it's skipped, because the [[Switch]] knows there was nothing there|
+|!Listening |No             |No                                  |15 seconds|only [[Root|Root Port]] or [[Designated Ports|Designated Port]] go to this state, others stay in blocking|
+|!Learning  |No             |Yes                                 |15 seconds|populating the [[MAC Table]], not forwarding any frames|
+|!Forwarding|Yes            |Yes                                 |-         |final state when a [[Switch]] actually does its job|
+
+https://networklessons.com/spanning-tree/spanning-tree-port-states

@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250530070811053
+modified: 20250530070953629
+tags: Windows [[Windows Subsystem for Linux]]
+title: Windows vs WSL Synlinks
+tmap.id: 09bc937d-7c7a-4afb-b8f8-c0551f954d3d
+type: text/vnd.tiddlywiki
+
+https://blog.trailofbits.com/2024/02/12/why-windows-cant-follow-wsl-symlinks/
+
+''TLDR''
+
+* wsl sees all kinds of symlinks
+* windows only recognizes windows symlinks, errors on linux symlinks
+* hardlinks work both ways?

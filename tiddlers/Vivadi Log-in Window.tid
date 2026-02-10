@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250414072852999
+modified: 20250414073018270
+tags: Security Vivaldi
+title: Vivadi Log-in Window
+tmap.id: 75d4c9a9-61cd-4665-b460-418aa5107724
+type: text/vnd.tiddlywiki
+
+This may happen if you Mail or Calendar enabled...
+
+https://forum.vivaldi.net/topic/103124/vivaldi-log-in-window

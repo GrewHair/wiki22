@@ -1,0 +1,28 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241003075907615
+modified: 20241003080010155
+tags: Jenkins
+title: Purge Build Queue (Jenkins)
+tmap.id: 407807d5-0251-4cdd-9e77-fedebdc0e637
+type: text/vnd.tiddlywiki
+
+https://gist.github.com/sytsereitsma/1b370c558a4a34dfe014
+
+```groovy
+def q = Jenkins.instance.queue
+q.items.findAll { q.cancel(it.task) }
+//q.items.findAll { it.task.name.startsWith('my') }.each { q.cancel(it.task) }
+
+def items = Jenkins.instance.items
+items.each { job ->
+  job.builds.findAll { build -> build.building }.each { run ->
+    println("Aborting: " + job.name)
+    run.doStop();
+  }
+}
+
+println("Done")
+```

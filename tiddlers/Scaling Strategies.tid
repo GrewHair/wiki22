@@ -1,0 +1,25 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241008212743315
+modified: 20241008213625269
+tags: [[Amazon Web Services]]
+title: Scaling Strategies
+tmap.id: 052229af-9002-406d-bcfc-d81296bfe40e
+type: text/vnd.tiddlywiki
+
+* ''Manual Scaling:'' Update the size of an [[ASG|Autoscaling Group]] manually
+* ''Dynamic Scaling:'' Respond to changing demand
+** ''Simple / Step Scaling''
+*** When a CloudWatch alarm is triggered (e.g. CPU > 70%), then add 2 units
+*** When a CloudWatch alarm is triggered (e.g. CPU < 30%), then remove 1 unit
+** ''Target Tracking Scaling''
+*** Example: I want the average ASG CPU to stay at around 40%
+** ''Scheduled Scaling''
+*** Anticipate a scaling based on known usage patterns
+*** Example: increase the min. capacity to 10 at 5pm on Fridays
+* ''Predictive Scaling''
+** Uses Machine Learning to predict future traffic ahead of time
+** Automatically provisions the right number of [[EC2]] instances in advance
+** Useful when your load has predictable time-based patterns

@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250107163318018
+modified: 20250107163737014
+tags: Security Networking [[Computer Networks, 5th Edition (Andrew S. Tanenbaum, David J. Wetherall)]]
+title: Reflection Attack
+tmap.id: 97303fe9-f291-4e47-a4a3-59a05997e552
+type: text/vnd.tiddlywiki
+
+[[Reflection Attack]] is a method of attacking a [[Challenge-response Authentication]] system that uses the same protocol in both directions.
+
+The idea is to trick the target to provide the answer to its own challenge (typically, using a second session).

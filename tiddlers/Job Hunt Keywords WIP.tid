@@ -1,0 +1,27 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251225144713241
+modified: 20251225144847785
+tags: WIP
+title: Job Hunt Keywords WIP
+tmap.id: 04220c4e-dbb1-48b0-8d83-4238065b1591
+type: text/vnd.tiddlywiki
+
+```
+sre
+platform engineer
+
+security engineer
+cloud engineer
+network engineer
+
+automation engineer
+
+devops
+devsecops
+finops
+
+...
+```

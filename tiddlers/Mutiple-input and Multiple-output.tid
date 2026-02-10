@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241215182822583
+modified: 20241215183238005
+tags: Networking [[Computer Networks, 5th Edition (Andrew S. Tanenbaum, David J. Wetherall)]] Stub
+title: Mutiple-input and Multiple-output
+tmap.id: 793a10c8-271a-402a-bfda-d1ea5a38eb99
+type: text/vnd.tiddlywiki
+
+''AKA MIMO''
+
+I guess it's just why your wifi router has two or three antennas...
+
+(I heard somewhere that some have four antennas because they can do something called MU-MIMO, MU for multiuser)
+
+https://en.wikipedia.org/wiki/MIMO
+
+https://www.youtube.com/watch?v=cKTbNRTmzhY&t=256s&ab_channel=Techquickie

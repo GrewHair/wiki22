@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250105192616715
+modified: 20250105192821257
+tags: Networking [[Computer Networks, 5th Edition (Andrew S. Tanenbaum, David J. Wetherall)]] Stub
+title: Middlebox
+tmap.id: 2c321367-347e-4a09-a384-3d7e488175ce
+type: text/vnd.tiddlywiki
+
+* [[NAT|Network Address Translator]]
+* [[Load Balancer]]
+* [[Firewall]]
+* [[IDS|Intrusion Detection System]]
+* ...
+
+https://en.wikipedia.org/wiki/Middlebox

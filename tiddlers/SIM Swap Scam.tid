@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250121185035210
+modified: 20250121185057883
+tags: [[Cyber Attacks]] Security Stub
+title: SIM Swap Scam
+tmap.id: c3138a62-15be-4291-be05-9f5b76654659
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/SIM_swap_scam

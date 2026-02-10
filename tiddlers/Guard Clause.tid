@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20260130135148358
+modified: 20260130145058907
+tags: [[WTF is This?]] Programming
+title: Guard Clause
+tmap.id: 628473ca-7356-476e-8d90-13de29db4924
+type: text/vnd.tiddlywiki
+
+Found it here:
+
+https://www.boot.dev/lessons/afb405db-9785-4444-94f5-e76866b5b6b7
+
+https://www.boot.dev/lessons/b91b68e4-3cad-4185-bc82-f1db1a2cea0e

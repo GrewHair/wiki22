@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251112112453731
+modified: 20251112120247155
+tags: Kanata [[Ergonomic Keyboards]]
+title: Hands Down Layout
+tmap.id: cc17b8c6-c7a5-4184-a733-8b8ec49092e0
+type: text/vnd.tiddlywiki
+
+An unnecessarily pretentious school of thought in keyboard layouts that's still useful to farm for ideas.
+
+https://www.reddit.com/r/KeyboardLayouts/comments/ooat0k/feedback_requested_adaptive_keys_in_qmk/
+
+https://github.com/jtroo/kanata/discussions/481
+
+https://sites.google.com/alanreiser.com/handsdown

@@ -1,11 +1,11 @@
 created: 20210202183339873
-modified: 20221104110653101
+modified: 20250107170356468
 tags: Security Web [[Understanding the Digital World (Brian Kernighan)]]
 title: Man-in-the-middle Attack
 tmap.id: f97a92e6-0430-43a1-af9a-bcfeccc83763
 type: text/vnd.tiddlywiki
 
-''AKA MITM''
+''AKA MITM, Bucket Brigade Attack''
 
 A [[Man-in-the-middle Attack]] is a kind of [[Cyberattack]], in which the attacker intercepts messages, modifies them, and sends them on as if they had come directy from their original source.
 

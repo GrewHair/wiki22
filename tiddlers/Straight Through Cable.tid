@@ -1,8 +1,10 @@
 created: 20201202151654101
-modified: 20201207111038785
+modified: 20250108235516724
 tags: Networking Stub [[Network Fundamentals (Network Direction)]]
 title: Straight Through Cable
 tmap.id: dec81193-4f5e-4e8c-979c-fc072c76b5f2
 type: text/vnd.tiddlywiki
 
-[[Straight Through Cables|Straight Through Cable]] are used to connect a [[Host|Host (Networking)]] to a [[Switch]]
+[[Straight Through Cables|Straight Through Cable]] are used to connect a [[Host|Host (Networking)]] to a [[Switch]].
+
+''Important:'' [[Routers|Router]] are also considered "hosts" in this scheme, so [[Router]] to [[Switch]] would also require a [[Straight Through Cable]].

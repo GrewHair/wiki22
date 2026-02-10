@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241204185935646
+modified: 20241204190110798
+tags: [[Distributed Computing]]
+title: Fencing
+tmap.id: 5623acb7-55ee-445d-be40-e82c8f39dd13
+type: text/vnd.tiddlywiki
+
+[[Fencing]] is the process of isolating a node of a computer cluster when a node appears to be malfunctioning.
+
+https://en.wikipedia.org/wiki/Fencing_(computing)

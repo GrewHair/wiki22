@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250122034202641
+modified: 20250122034826583
+tags: Cryptocurrencies Security
+title: Tamper Proof Bag
+tmap.id: 72a14539-e165-4244-801a-c993073ebde5
+type: text/vnd.tiddlywiki
+
+You're supposed to store the (backup) printout seed phrase there, so you know if somebody effed with it.

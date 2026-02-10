@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250922134005299
+modified: 20250922134228940
+tags: [[Google Cloud Platform]]
+title: Things You Can And Can't Do In GCP
+tmap.id: caec717b-ba69-4e0b-81ef-06ce82c66b15
+type: text/vnd.tiddlywiki
+
+* you can rename a vm
+* you can't rename a disk
+** you have to create a snapshot and restore from it, and then remove the original instead
+* you can't change the main internal IPv4 address
+** there's hacks like migrate the vm into another vpc/subnet, and then migrate it back, etc

@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250114110412208
+modified: 20250114110714674
+tags: Networking [[CompTIA Network+ (N10-009) Crash Course (Kevin Wallace)]] Stub
+title: Switch Virtual Interface
+tmap.id: fb5e4e70-5763-45f4-a022-edb95842035e
+type: text/vnd.tiddlywiki
+
+''AKA SVI''
+
+An [[SVI|Switch Virtual Interface]] represents a logical layer-3 interface on a [[switch|Layer 3 Switch]].
+
+It should be stressed that this is a feature only found on [[Layer 3 Switches|Layer 3 Switch]].
+
+It kind of replaces [[Router on a Stick]].

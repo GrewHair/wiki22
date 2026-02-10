@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251204154747954
+modified: 20251204154826152
+tags: 
+title: Python Inheritance WIP
+tmap.id: 97fc127a-5e30-42e3-ab00-8c882c2ffd1d
+type: text/vnd.tiddlywiki
+
+https://www.boot.dev/lessons/0514a012-5bed-4a0a-8a69-432e1d7b3e63
+
+look, we needed a getter here!! investigate..

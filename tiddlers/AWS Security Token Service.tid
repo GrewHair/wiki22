@@ -1,0 +1,24 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241002152729556
+modified: 20241002153105747
+tags: [[Amazon Web Services]] Security
+title: AWS Security Token Service
+tmap.id: 2e03ea12-0b2b-41db-9bd7-93ca82e3420a
+type: text/vnd.tiddlywiki
+
+''AKA STS''
+
+https://docs.aws.amazon.com/STS/latest/APIReference/welcome.html
+
+Found it in the [[Trust Policy]] when creating a service role (service account):
+
+```json
+...
+"Action": [
+    "sts:AssumeRole"
+],
+...
+```

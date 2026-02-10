@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251106103754285
+modified: 20251106104345632
+tags: [[Y Combinator Companies]] [[Financial Technology]]
+title: Merchant ID
+tmap.id: d3771304-1e30-49a3-82e0-9a09f0e65c52
+type: text/vnd.tiddlywiki
+
+''AKA MID''
+
+https://stripe.com/resources/more/merchant-id
+
+Found it when I was messing with [[Medium's|Medium]] cookies (it had a cookie called `__stripe_mid`)

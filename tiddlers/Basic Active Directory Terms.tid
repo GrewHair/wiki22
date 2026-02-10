@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250109121030715
+modified: 20250109123058063
+tags: [[Active Directory]]
+title: Basic Active Directory Terms
+tmap.id: 7845f3e2-aefa-4a86-b6e2-09650e592fe1
+type: text/vnd.tiddlywiki
+
+* ''Domain'' is a collection of ''objects''
+** an ''object'' is a user, a computer, a group... and more
+* ''Tree'' is a (hierarchical) collection of ''domains''
+* ''Forest'' is a collection of ''trees''
+** (with trust relationships in place)
+* ''Global Catalog'' facilitates ''forest''-level searches (for objects)
+* [[DNS|Domain Name System]] - self explainatory (or is it??)
+* [[Domain Controller]] is a server with the [[Active Directory]] software installed
+** [[Domain Controllers|Domain Controller]] can't have dynamically assigned [[IP Addresses|IP Address]] (much like [[DNS Servers|DNS Server]] I guess..)

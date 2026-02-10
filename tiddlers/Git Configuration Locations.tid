@@ -1,0 +1,17 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251202134112582
+modified: 20251202134324920
+tags: Git Linux
+title: Git Configuration Locations
+tmap.id: 5232ee31-d0cc-4ac8-8f1b-9bcd7bd1a7a4
+type: text/vnd.tiddlywiki
+
+* system `/etc/gitconfig`
+* global `~/.gitconfig`
+* local `.git/config`
+* worktree `.git/config.worktree`
+
+https://www.boot.dev/lessons/5dfedd02-4af1-4f33-b781-03b2908564e5

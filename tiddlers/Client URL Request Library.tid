@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241116160021867
+modified: 20241116160305281
+tags: Stub
+title: Client URL Request Library
+tmap.id: e351ff7c-2abd-43cd-a3f4-5b005e7fea88
+type: text/vnd.tiddlywiki
+
+''AKA CURL''
+
+Also just "Client for URL"

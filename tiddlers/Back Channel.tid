@@ -1,0 +1,30 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241219172513543
+modified: 20241219180303732
+tags: OAuth Security [[The Nuts and Bolts of OAuth 2.0 (Aaron Parecki)]]
+title: Back Channel
+tmap.id: f22678f5-dbe3-48cd-a7b5-44430a6fdfea
+type: text/vnd.tiddlywiki
+
+```javascript
+fetch("https://authorization-server.com/", {
+    method: "GET",
+    headers: {
+      "Content-Type": "application/json"
+    }
+  })
+  .then((response) => {
+    return response.json();
+  });
+```
+
+''note to self:'' this is probably a bad example, as i got it from this udemy cource's quiz, and it was supposed to be a trick question, since usually [[POST]] is used and not [[GET]].
+
+But anyway, you get the gist. Compare this to how the [[Front Channel]] is done.
+
+[[Back Channel]] is better, since it leverages [[TLS|Transport Layer Security]], both sides can be confident about where data goes and ends up.
+
+Reasons for using the [[Front Channel]] seem to be mostly [[historical|Implicit Flow]] (or from the [[Client|Oauth Client]] to the [[Authorization Server]] only).

@@ -1,0 +1,19 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250225153653438
+modified: 20250225160316187
+tags: [[Amazon Web Services]]
+title: AWS Control Tower
+tmap.id: 3e3e4af6-91d3-4b8e-b275-0b67932ee479
+type: text/vnd.tiddlywiki
+
+It consists of:
+
+* ''Landing Zone'' - //multi-account// environment
+** SSP/ID federation
+** centralized logging and auditing
+* ''Guard Rails'' - //Detect/mandate// rules/standards across all accounts
+* ''Account Factory'' - //Automates// and //standardises// new account creation
+* ''Dashboard'' - single page oversight of the entire environment

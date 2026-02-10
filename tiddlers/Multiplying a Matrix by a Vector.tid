@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200309123613351
-modified: 20200325163826215
+modified: 20251228100657999
 tags: [[Lecture 1]] [[MIT 18.065 Matrix Methods in Data Analysis, Signal Processing, and Machine Learning]] [[Linear Algebra]]
 title: Multiplying a Matrix by a Vector
 tmap.id: 4d9e5dbc-5923-427c-9e91-96bed5cfb6ac

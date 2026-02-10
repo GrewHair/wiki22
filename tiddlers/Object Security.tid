@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250801125254552
+modified: 20250801125402481
+tags: Security
+title: Object Security
+tmap.id: cfe7ab2f-d701-4458-aca8-d7c3ac281c15
+type: text/vnd.tiddlywiki
+
+https://youtu.be/V5lH_nsy4EQ?list=PLC86T-6ZTP5jLEgu8to8qjzL0uxOkjNSE&t=3014
+
+In [[DNS|Domain Name System]], [[DNSSEC]] is an example of [[Object Security]].

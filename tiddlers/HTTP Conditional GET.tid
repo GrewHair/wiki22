@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250104093602020
+modified: 20250104093715095
+tags: HTTP Networking [[Computer Networks, 5th Edition (Andrew S. Tanenbaum, David J. Wetherall)]] Cache Stub
+title: HTTP Conditional GET
+tmap.id: ef4fbbc4-dffd-40b5-b36c-c868bfac9b38
+type: text/vnd.tiddlywiki
+
+https://spaces.at.internet2.edu/display/InCFederation/HTTP+Conditional+GET
+
+https://spaces.at.internet2.edu/display/InCFederation/HTTP+Conditional+GET

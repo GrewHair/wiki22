@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250121120309177
+modified: 20250121120348512
+tags: Cryptocurrencies [[WTF is This?]]
+title: Unspent Transaction Output
+tmap.id: 3fcda5fb-ea83-494e-8cd7-8bde5d405866
+type: text/vnd.tiddlywiki
+
+''AKA UTXO''
+
+https://en.wikipedia.org/wiki/Unspent_transaction_output

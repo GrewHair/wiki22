@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250803091519752
+modified: 20250803091958185
+tags: Security Web DNS
+title: Captive Portal
+tmap.id: 22f993a7-1915-46c6-8975-6139e0c0a5be
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/Captive_portal
+
+Found it here:
+
+https://youtu.be/dx1CfuQcDIk?t=2786

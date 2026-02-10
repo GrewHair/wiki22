@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241219171438220
+modified: 20241219180145735
+tags: OAuth Security [[The Nuts and Bolts of OAuth 2.0 (Aaron Parecki)]]
+title: Implicit Flow
+tmap.id: 0eee8ca9-3fe9-427b-815f-55712ce4e96c
+type: text/vnd.tiddlywiki
+
+With [[Implicit Flow]], the [[Authorization Server]] sends the [[Access Token]] to the [[Client|OAuth Client]] through the [[Front Channel]] (so the [[Back Channel]] isn't used at all), and that's bad!
+
+It's just there because way back when browsers didn't allow [[CORS|Cross-origin Resource Sharing]] so [[Javascript]] couldn't send a [[POST Request]] proper to the [[Authorization Server]]..

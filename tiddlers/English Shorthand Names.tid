@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251027161105120
+modified: 20251027161142136
+tags: 
+title: English Shorthand Names
+tmap.id: 2658d5a1-62be-4edf-a994-7ee01380771c
+type: text/vnd.tiddlywiki
+
+```
+richard dick
+jack john
+jimmy james
+henry hank
+margareth marge
+elisabeth eliza beth liz
+
+```

@@ -2,11 +2,11 @@
 .hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
-created: 20240624140801915
-modified: 20240624140858557
-tags: [[Design Patterns]] Microservices Stub [[Read This!]]
-title: Patters: API Gateway
-tmap.id: d5f54e6b-137e-4357-93b0-88e3095aa927
+created: 20241109135154011
+modified: 20241109135436078
+tags: Windows AutoHotKey [[WTF is This?]] WIP
+title: DataExchangeHost.exe
+tmap.id: 8c30b955-534c-45a3-96b0-f9340656bde0
 type: text/vnd.tiddlywiki
 
-https://microservices.io/patterns/apigateway.html
+https://www.reddit.com/r/Windows10/comments/57roh5/what_is_dataexchangehostexe/

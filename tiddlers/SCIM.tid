@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241007104408414
+modified: 20241007104434776
+tags: [[WTF is This?]] Microsoft
+title: SCIM
+tmap.id: 0088c983-34db-49d0-ae94-800041816655
+type: text/vnd.tiddlywiki
+
+https://www.microsoft.com/en-us/security/business/security-101/what-is-scim

@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251114124036976
+modified: 20251117120838267
+tags: [[Amazon Web Services]] [[Identity Management]] stub
+title: Principal (AWS IAM)
+tmap.id: 45709746-c650-496f-a0fc-f7e7cf63febc
+type: text/vnd.tiddlywiki
+
+https://repost.aws/questions/QULwQ-AF6bRViCARWwoaedfg/principals-in-aws-s3-resource-based-policy-misleading-docs#:~:text=or%20application%20that%20can%20make%20a%20request%20for%20an%20action%20or%20operation%20on%20an%20AWS%20resource
+
+A [[Principal|Principal (AWS IAM)]] is a person (, role,) or application that can make a request for an action or operation on an [[AWS resource|Resource (AWS IAM)]].

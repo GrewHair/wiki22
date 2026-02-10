@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251017150445261
+modified: 20251017152427118
+tags: WIP [[Amazon Web Services]] Well-architected [[WTF is This?]]
+title: Well-architected: What's a Workload? WIP
+tmap.id: a3230fb7-0837-46ae-bb97-1e8d3b924f42
+type: text/vnd.tiddlywiki
+
+https://docs.aws.amazon.com/wellarchitected/latest/userguide/define-workload.html?utm_source=chatgpt.com
+
+https://docs.aws.amazon.com/wellarchitected/latest/userguide/workloads.html?utm_source=chatgpt.com
+
+A dude from the "Introduction into Building with AWS Databases" course from aws' skillbuilder said a very enticing thing - he said a workload is ''a subset of resources'' inside an account or across multiple accounts.

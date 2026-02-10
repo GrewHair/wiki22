@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241030101922841
+modified: 20241120113037500
+tags: WIP HTTP
+title: 400 Bad Request
+tmap.id: ca553c9c-615a-45ef-8ed7-4172cae60958
+type: text/vnd.tiddlywiki
+
+some cases i've seen:
+
+* [[400 Bad Request - plain HTTP request sent to HTTPS port]]
+* SAML IdP returned it to my jenkins on login (SAML problems)
+* 400 "You must be authenticated" - saw it thrown by artifactory when trying to get `https://artifactory/acme.com/artifactory/api/npm/auth` without credentials

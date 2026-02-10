@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251219172624961
+modified: 20251219172709599
+tags: [[Amazon Web Services]] Stub
+title: AWS Relational Database Service
+tmap.id: 8b654dba-2ec4-44ce-a9f3-46b02550e719
+type: text/vnd.tiddlywiki
+
+''AKA RDS''
+
+https://tutorialsdojo.com/amazon-relational-database-service-amazon-rds/

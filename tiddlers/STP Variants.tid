@@ -1,0 +1,17 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250114133638870
+modified: 20250114135834422
+tags: Networking [[CompTIA Network+ (N10-009) Crash Course (Kevin Wallace)]]
+title: STP Variants
+tmap.id: 687c14c8-6923-463d-a611-f68fed1a8f3c
+type: text/vnd.tiddlywiki
+
+* [[Common Spanning Tree Protocol]]
+* [[Per-VLAN Spanning Tree Protocol]] ([[Cisco]])
+* [[Multiple Spanning Tree Protocol]]
+* [[Rapid Spanning Tree Protocol]]
+* [[Rapid PVST]]/[[Rapid PVST+]] ([[Cisco]])
+* there's no "rapid multiple spanning trees"

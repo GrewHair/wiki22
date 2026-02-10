@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251219173642718
+modified: 20251219173709142
+tags: [[Amazon Web Services]] Stub
+title: Amazon FSX
+tmap.id: ac0d968f-44ae-4024-bdbd-5a24fbba889c
+type: text/vnd.tiddlywiki
+
+https://tutorialsdojo.com/amazon-fsx/

@@ -1,0 +1,85 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250108101933654
+modified: 20250108192150847
+tags: Networking
+title: IPv6 Address Types
+tmap.id: 95127b21-e5c9-4f57-9de1-c68ce2272312
+type: text/vnd.tiddlywiki
+
+''Global Unicast''
+
+|`001` |[[Global Routing Prefix]]|[[Subnet ID]]|[[Interface ID]]|
+|3 bits|45 bits                  |16 bits      |64 bits         |
+
+Addressing starts with `2000::/3`
+
+//Note: this means addresses starting with either 2 or 3 are global unicast addresses//
+
+---
+
+''Multicast''
+
+|`1111 1111`|Flags |Scope |Group ID|
+|8 bits     |4 bits|4 bits|112 bits|
+
+Addressing starts with: ... (`FF00::/8`???)
+
+---
+
+''Link Local''
+
+|`1111 1110 10`|54 zeros|Interface ID|
+|10 bits       |54 bits |64 bits     |
+
+Addressing starts with: `FE80::/10` (effectively with `FE80::/64`, because of 54 zeros)
+
+//Note: similar to [[IPv4]]'s [[APIPA|Link-local Address]]//
+
+---
+
+''Unique Local''
+
+|`1111 110`|L    |Global ID|Subnet ID|Interface ID|
+|7 bits    |1 bit|40 bits  |16 bits  |64 bits     |
+
+Addressing starts with `FC00::/7` 
+
+//Note: most of the time these addresses actually start with `FD`, because of the L bit//
+
+//Note: the L bit set to 1 means that the address is locally assigned//
+
+//Note: similar to the RFC1918 [[Private Addresses|Private Address]]//
+
+---
+
+''Loopback'', aka ''localhost''
+
+|127 zeros|1    |
+|127 bits |1 bit|
+
+Written as `::1`
+
+---
+
+''Unspecified''
+
+|128 zeros|
+|128 bits |
+
+Written as `::`
+
+---
+
+''Solicited-Node Multicast''
+
+|`FF02::1:FF`|Last 24 bits in [[IPv6]] address|
+|104 bits    |24 bits                         |
+
+Address starts with `FF02::1:FF/104`
+
+//Note: sort of a replacement for [[ARP|Address Resolution Protocol]]//
+
+//Note: also used for [[DAD|Duplicate Address Detection]]//

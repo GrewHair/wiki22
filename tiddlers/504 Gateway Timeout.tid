@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241008201305242
+modified: 20241008201455454
+tags: HTTP
+title: 504 Gateway Timeout
+tmap.id: 342b9ebe-a1bf-4803-ab2f-e5b4488e8213
+type: text/vnd.tiddlywiki
+
+It means that the server, while acting as a gateway or proxy, did not get a response in time from the upstream server in order to complete the request.
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504

@@ -1,0 +1,22 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251008103256116
+modified: 20251008105936554
+tags: Databases
+title: Multi-active WIP
+tmap.id: bdeb04f3-588e-4845-87a4-0ae679fd1b4e
+type: text/vnd.tiddlywiki
+
+https://dimitrij-pankratz.medium.com/postgresql-multi-active-replication-part-1-an-introduction-ff7052eb9fd0
+
+Gemini suggested this:
+
+https://youtu.be/-utCueAHwKg?t=974
+
+Sounds like a politically correct version of "multi-master".
+
+ChatGPT begs to disagree tho, emphasizing that multi-master is an older concept that means multiple nodes in a cluster can access writes, while multi-active means multiple //regions// can accept writes (which of course implies nodes too), but generally it's more about global infra than it's about details of cluster operation, because those are abstracted away in a managed db like [[DynamoDB]] (which is where i've first heard about "multi-active" in the first place).
+
+Although all this could really just be hallucinations. You see, [[DynamoDB]] is described as "multi-region, multi-active", where, logically, the "global infra" part is covered by "multi-active", leaving only what's known as "multi-master" to the "multi-active" part of this slogan.

@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251117120634859
+modified: 20251117120927562
+tags: [[Amazon Web Services]] [[Identity Management]] Stub
+title: Resource (AWS IAM)
+tmap.id: e965f46c-f525-4395-b1c7-048b0bd3102a
+type: text/vnd.tiddlywiki
+
+https://docs.aws.amazon.com/IAM/latest/UserGuide/intro-structure.html#:~:text=A%20resource%20is%20an%20object%20that%20exists%20within%20a%20service
+
+A [[Resource|Resource (AWS IAM)]] is an object that exists within a service

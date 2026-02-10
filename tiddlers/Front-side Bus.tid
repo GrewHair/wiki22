@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250203121700201
+modified: 20250203121910269
+tags: Computing
+title: Front-side Bus
+tmap.id: 27238fd7-5176-4b7f-b670-a2de551665e7
+type: text/vnd.tiddlywiki
+
+''AKA FSB''
+
+An [[FSB|Front-side Bus]] connects a [[CPU|Central Processing Unit]] to a [[Northbridge]].

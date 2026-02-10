@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250704121444705
+modified: 20250704121948267
+tags: [[Amazon Web Services]]
+title: NAT Gateway
+tmap.id: 916c4522-f321-453a-87a8-6be894a17158
+type: text/vnd.tiddlywiki
+
+* [[NAT Gateways|NAT Gateway]] don't support [[Security Groups]], only [[NACLs|Network ACL]]
+* [[NAT Gateways|NAT Gateway]] don't work with [[IPv6]] (because [[NAT|Network Address Translation]] is not required)
+* [[NAT Gateways|NAT Gateway]] aren't free tier eligible

@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250829100446026
+modified: 20250829100737927
+tags: 
+title: Как работает DNS в Linux
+tmap.id: cb95153c-ad6c-4299-89e0-b4d65ed7cbd7
+type: text/vnd.tiddlywiki
+
+https://habr.com/ru/companies/k2tech/articles/919194/
+
+https://habr.com/ru/companies/k2tech/articles/925736/
+
+https://habr.com/ru/companies/k2tech/articles/941284/

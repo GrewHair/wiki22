@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250122034828879
+modified: 20250122034940325
+tags: Cryptocurrencies Security
+title: Anti Phishing Phrase
+tmap.id: 2cee0e26-d8c9-4cda-a133-45ee079f439f
+type: text/vnd.tiddlywiki
+
+The service you've configured this thing at will include this phrase in every [[Email]] to you, so you know you're not [[Phished|Phishing]].

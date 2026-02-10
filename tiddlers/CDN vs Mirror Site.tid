@@ -1,5 +1,5 @@
 created: 20220510154041993
-modified: 20220510154258712
+modified: 20250105193732629
 tags: Web Stub WIP
 title: CDN vs Mirror Site
 tmap.id: 76086473-9d89-458c-b232-864ef2e343c5
@@ -8,4 +8,5 @@ type: text/vnd.tiddlywiki
 [[CDNs|Content Delivery Network]] are transparent to the user - no need to manually pick a [[Mirror Site]].
 
 https://blog.birost.com/a?ID=00350-de3a8a5c-b86b-4b7f-b62e-09538b9faf54
+
  https://www.quora.com/What-is-the-difference-between-content-delivery-network-and-mirror-site

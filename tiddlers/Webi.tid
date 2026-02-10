@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251202115151688
+modified: 20251202115215265
+tags: [[Package Management]] Stub
+title: Webi
+tmap.id: 6ced717b-91d2-4a88-9c17-2d29d38f2e66
+type: text/vnd.tiddlywiki
+
+https://www.youtube.com/watch?v=zSkDandxcQ0&t=1447s

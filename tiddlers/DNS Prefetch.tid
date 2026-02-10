@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241015222020178
+modified: 20241015222048788
+tags: 
+title: DNS Prefetch
+tmap.id: 94620b30-52f9-45a2-9eec-b4950b46be46
+type: text/vnd.tiddlywiki
+
+https://developer.mozilla.org/en-US/docs/Web/Performance/dns-prefetch

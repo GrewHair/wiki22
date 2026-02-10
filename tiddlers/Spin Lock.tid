@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250209202443002
+modified: 20250209202957349
+tags: [[Modern Operating Systems (Andrew S. Tanenbaum, Herbert Bos)]]
+title: Spin Lock
+tmap.id: f0125c0f-f4cb-4011-9c1d-75a32cc62940
+type: text/vnd.tiddlywiki
+
+''AKA Spinlock''
+
+A [[Lock|Lock (Computer Science)]] that uses [[Busy Waiting|Busy-waiting]] is called a [[Spin Lock]].
+
+https://en.wikipedia.org/wiki/Spinlock

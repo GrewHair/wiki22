@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241219160239732
+modified: 20241219160611810
+tags: Security OAuth [[The Nuts and Bolts of OAuth 2.0 (Aaron Parecki)]]
+title: Consent Screen
+tmap.id: 3c1645c7-b8b7-48ca-8f08-29cb5b6a25c9
+type: text/vnd.tiddlywiki
+
+It's this thing:
+
+{{_my/images/png/consent_screen}}
+
+[[Confidential Clients|Confidential Client]] might skip it! (the [[Public|Public Client]] ones apparently can't)

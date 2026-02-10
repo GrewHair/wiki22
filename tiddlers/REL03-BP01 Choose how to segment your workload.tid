@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251016122433684
+modified: 20251016122521475
+tags: [[Amazon Web Services]] Well-architected
+title: REL03-BP01 Choose how to segment your workload
+tmap.id: 16aa290d-fea2-4df7-bb17-e529a0a26cf4
+type: text/vnd.tiddlywiki
+
+https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/rel_service_architecture_monolith_soa_microservice.html

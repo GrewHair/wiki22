@@ -1,0 +1,15 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250113141443942
+modified: 20250113154531062
+tags: 
+title: SSID Types
+tmap.id: 6cae2350-148b-4f73-8670-67498d3a0738
+type: text/vnd.tiddlywiki
+
+|[[SSID|Service Set ID]]          |[[Service Set ID]]         |network name|
+|[[BSSID|Basic Service Set ID]]   |[[Basic Service Set ID]]   |[[MAC Address]] of [[AP|Access Point]]|
+|[[ESSID|Extended Service Set ID]]|[[Extended Service Set ID]]|A collection of all [[BSSs|Basic Service Set]] (in practice it means more or less the same as just [[SSID]])|
+|[[MBSSID|Multiple BSSID]]|[[Multiple BSSID]]|this lets you create multiple visible/hidden networks off of one [[AP|Access Point]]|

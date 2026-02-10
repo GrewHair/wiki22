@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250114133856985
+modified: 20250114134204054
+tags: Networking [[CompTIA Network+ (N10-009) Crash Course (Kevin Wallace)]]
+title: Portfast
+tmap.id: dc93f25b-2419-4ad6-b79f-859aa80a5b75
+type: text/vnd.tiddlywiki
+
+It's a feature of [[Cisco]] [[switches|Switch]] where you "promise" a [[Switch]] that you won't be connecting any other [[switches|Switch]] to that specific port (so, only [[Hosts|Host]], printers, etc - end devices), so it could [[spare you some delays|Spanning Tree Port States]] and start forwarding your frames right away

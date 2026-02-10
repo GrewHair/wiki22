@@ -1,0 +1,28 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250116193729899
+modified: 20250702093208345
+tags: WIP Linux Storage [[Storage Networking Fundamentals (Marc Farley)]]
+title: Storage Networking Fundamentals WIP
+tmap.id: 578528b2-68ed-4de9-b5b2-a4d4323868d5
+type: text/vnd.tiddlywiki
+
+```
+lspci | grep -i "fibre channel\|sata\|scsi"
+lsblk -d -o NAME,TYPE,MODEL
+lsmod | grep -i scsi
+systool -c fc_host -v
+sudo blkid
+iostat -xd 1
+sudo smartctl -a /dev/sdc
+fio --name=randwrite --rw=randwrite --bs=4k --size=100M --numjobs=1 --filename=/tmp/testfile
+```
+
+there's also this:
+
+```
+sudo lshw -short
+sudo lshw -class storage
+```

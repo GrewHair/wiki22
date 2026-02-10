@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241031095401106
+modified: 20241031095736721
+tags: OAuth [[WTF is This?]]
+title: OAuth 2.0 Token Exchange
+tmap.id: a8d4f569-a3f5-467e-b945-378985c36752
+type: text/vnd.tiddlywiki
+
+https://cloudentity.com/developers/basics/oauth-extensions/token-exchange/
+
+Found it on support portal under IAM as the option to "allow token exchenge with the target Client ID"

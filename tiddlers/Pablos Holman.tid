@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250121184654943
+modified: 20250121184831251
+tags: Person Security
+title: Pablos Holman
+tmap.id: eee329a6-2106-4c3f-97e7-35751861519d
+type: text/vnd.tiddlywiki
+
+Hacker and "inventor"
+
+https://www.youtube.com/watch?v=J3lRI9LRcmQ&t=109s&ab_channel=ValuetainmentShortClips

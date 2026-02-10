@@ -1,5 +1,5 @@
 created: 20220723103639302
-modified: 20220724164117961
+modified: 20251219172937287
 tags: [[Amazon Web Services]] Stub [[Read This!]]
 title: Amazon Virtual Private Cloud
 tmap.id: 90cf9b13-2f62-4134-884b-e002d0e86be5
@@ -12,3 +12,5 @@ https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html
 https://docs.aws.amazon.com/vpc/latest/userguide/how-it-works.html
 
 https://aws.amazon.com/vpc/
+
+https://tutorialsdojo.com/amazon-vpc/

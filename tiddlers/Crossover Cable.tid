@@ -1,10 +1,12 @@
 created: 20201202152014244
-modified: 20201207111139391
+modified: 20250108235658945
 tags: Networking Stub [[Network Fundamentals (Network Direction)]]
 title: Crossover Cable
 tmap.id: 8e8e42a8-a3ee-4197-a42b-f13026908772
 type: text/vnd.tiddlywiki
 
-[[Crossover Cables|Crossover Cable]] are used to connect a [[Host|Host (Networking)]] to a [[Host|Host (Networking)]] //or// a [[Switch]] to a [[Switch]].
+[[Crossover Cables|Crossover Cable]] are used to connect a [[Host|Host (Networking)]] to a [[Host|Host (Networking)]] //or// a [[Switch]] to a [[Switch]] (as opposed to connecting a [[Host|Host (Networking)]] to a [[Switch]], for which [[Straight Through Cables|Straight Through Cable]] are used).
+
+''Note:'' [[Router]] to [[Host]] and [[Router]] to [[Router]] also require [[Crossover Cables|Crossover Cable]].
 
 In such cables, the pins are swapped at one of the ends so that Tx pins are lined up with Rx ones.

@@ -1,0 +1,22 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241216174234327
+modified: 20241216224823210
+tags: Networking Routing [[Computer Networks, 5th Edition (Andrew S. Tanenbaum, David J. Wetherall)]]
+title: Sink Tree
+tmap.id: e1fe927c-2c9f-42e7-98b9-0632ba693e46
+type: text/vnd.tiddlywiki
+
+As a direct consequence of the [[Optimality Principle]], the set of optimal routes from all sources to a given destination forms a tree rooted at the destination.
+
+This tree is called the [[Sink Tree]].
+
+The goal of routing algorighms is to discover and use the [[Sink Tree]] for all [[Routers|Router]].
+
+A [[Sink Tree]] is not necessarily unique. If we superimpose all existing [[Sink Trees|Sink Tree]], we get a [[DAG|Directed Acyclic Graph]].
+
+A [[Sink Tree]] is a [[Spanning Tree]].
+
+https://www.tutorialspoint.com/sink-tree-in-computer-networks

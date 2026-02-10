@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250804152202184
+modified: 20250804152325920
+tags: DNS WIP
+title: dig Useful Commands WIP
+tmap.id: e8d4a591-0533-4f9d-b4f9-f2c46795382e
+type: text/vnd.tiddlywiki
+
+https://superuser.com/questions/271428/does-a-gtld-servers-net-have-a-list-of-all-com-domains

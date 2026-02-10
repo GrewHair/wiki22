@@ -1,0 +1,22 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251007102748575
+modified: 20251008084308589
+tags: Databases Stub [[Distributed Computing]]
+title: PACELC
+tmap.id: 6f1cd6ee-0087-49cb-87da-1beaa2fb8e53
+type: text/vnd.tiddlywiki
+
+An extension of the CAP theorem, PAC stands for CAP, ELC stands for "''E''lse, choose either ''L''atency or ''C''onsistency" (where "else" means "assume there aren't partitions").
+
+I guess you can think of it as a ternary:
+
+```
+P() ? choose(A, C) : choose(L, C);
+```
+
+https://en.wikipedia.org/wiki/PACELC_design_principle
+
+https://luminousmen.com/post/cap-and-pacelc-theorems-in-plain-english/

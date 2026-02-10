@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250204170407910
+modified: 20250209202915943
+tags: [[Systems Programming]] C Stub [[Modern Operating Systems (Andrew S. Tanenbaum, Herbert Bos)]]
+title: Executable and Linkable Format
+tmap.id: c5b51ce9-09fc-461d-bb17-728c0ba2a6e6
+type: text/vnd.tiddlywiki
+
+''AKA ELF''
+
+https://en.wikipedia.org/wiki/Executable_and_Linkable_Format

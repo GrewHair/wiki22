@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251007112527077
+modified: 20251007113012316
+tags: [[Amazon Web Services]] Stub
+title: Amazon RDS Storage Autoscaling
+tmap.id: 858d1280-ab0c-42c6-af91-771ce4516758
+type: text/vnd.tiddlywiki
+
+https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_PIOPS.Autoscaling.html
+
+<<<.tc-big-quote
+Autoscaling doesn't occur if the maximum storage threshold would be exceeded by the storage increment.
+<<<
+
+this sounds mysterious. i think it just means that if your database suddenly occupies too much space (making it occupy more than you've specified with the //maximum storage threshould//), then it won't scale..

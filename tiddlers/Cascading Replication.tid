@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241204184620480
+modified: 20241204184747906
+tags: Databases [[WTF is This?]] [[High Availability]]
+title: Cascading Replication
+tmap.id: 54be4953-7e47-4011-89ff-25de6c5336d0
+type: text/vnd.tiddlywiki
+
+https://docs.oracle.com/cd/E19424-01/820-4806/gixrp/index.html
+
+https://www.youtube.com/watch?v=AH8KIjj_Jhk

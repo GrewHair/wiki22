@@ -1,0 +1,52 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241210132816590
+modified: 20241211092548666
+tags: 
+title: Cipher Suite
+tmap.id: fa238f82-49b5-4aad-95f1-2f0530afa9f6
+type: text/vnd.tiddlywiki
+
+<$latex text="
+\text{TLS}
+\_
+\underbrace{\text{ECDHE}}_
+            \text{key exchange}
+\_
+\underbrace{\text{RSA}}_
+           {\begin{gathered}
+                  \scriptsize\text{public} \\
+                  \scriptsize\text{key} \\
+                  \scriptsize\text{auth}
+            \end{gathered}}
+\_
+\text{WITH}
+\_
+\underbrace{\text{AES}}_
+           {\begin{gathered}
+                  \scriptsize\text{cypher} \\
+                  \scriptsize\text{}
+            \end{gathered}}
+\_
+\underbrace{\text{128}}_
+           {\begin{gathered}
+                  \scriptsize\text{key} \\
+                  \scriptsize\text{size}
+            \end{gathered}}
+\_
+\underbrace{\text{GCM}}_
+           {\begin{gathered}
+                  \scriptsize\text{mode of} \\
+                  \scriptsize\text{operation}
+            \end{gathered}}
+\_
+\underbrace{\text{SHA256}}_
+            \text{hash function}
+"/>
+
+* [[ECDHE|Elliptic Curve Diffie-Hellman Ephemeral]] - [[Elliptic Curve Diffie-Hellman Ephemeral]], a key exchange algorithm
+* [[GCM|Galois\Counter Mode]] [[Galois\Counter Mode]], mode of operation
+
+https://www.youtube.com/watch?v=86cQJ0MMses&ab_channel=Computerphile

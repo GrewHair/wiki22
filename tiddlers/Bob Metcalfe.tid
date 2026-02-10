@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241216093659135
+modified: 20241216093751418
+tags: Person
+title: Bob Metcalfe
+tmap.id: 4ac52008-3b6d-4bd9-a151-8d0e0b7042bc
+type: text/vnd.tiddlywiki
+
+Creator of [[Ethernet]]
+
+https://www.youtube.com/watch?v=g5MezxMcRmk&ab_channel=GideonRoberts

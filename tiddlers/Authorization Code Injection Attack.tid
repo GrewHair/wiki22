@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241219203041376
+modified: 20241219203131527
+tags: OAuth [[The Nuts and Bolts of OAuth 2.0 (Aaron Parecki)]] Security Stub
+title: Authorization Code Injection Attack
+tmap.id: 213dbe49-75c3-4246-bae1-dd9407f34577
+type: text/vnd.tiddlywiki
+
+https://is.docs.wso2.com/en/latest/deploy/mitigate-attacks/mitigate-authorization-code-interception-attacks/

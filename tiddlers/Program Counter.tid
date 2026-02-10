@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250203112533254
+modified: 20250203113112730
+tags: Computing
+title: Program Counter
+tmap.id: 89fea219-f461-470f-a2b5-9dfe61a78069
+type: text/vnd.tiddlywiki
+
+''AKA PC, Instruction Pointer (IP), Instruction Address Register (IAR), INstruction Counter''
+
+It holds the memory address of the next instruction..
+
+In x86 it's called the ''Instruction Pointer (IP)''.

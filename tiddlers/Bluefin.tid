@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241109130443283
+modified: 20241109130751218
+tags: Linux [[Linux Desktop]] [[WTF is This?]]
+title: Bluefin
+tmap.id: 6e36ab20-9382-495b-bb51-56c7ece44de0
+type: text/vnd.tiddlywiki
+
+https://projectbluefin.io/
+
+"The next generation Linux workstation, designed for reliability, performance, and sustainability", whatever that means.
+
+Found it here:
+
+https://youtu.be/vQQR01HSGfE?t=3359
+
+Where Matt was saying about how it (i guess?) allows you to hop between different desktop environments and window managers on a press of a button..

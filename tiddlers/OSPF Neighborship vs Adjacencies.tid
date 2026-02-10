@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250114095804975
+modified: 20250114100609578
+tags: Networking Routing [[CompTIA Network+ (N10-009) Crash Course (Kevin Wallace)]] Stub
+title: OSPF Neighborship vs Adjacencies
+tmap.id: 95aa67df-d5b3-4efe-9745-969cd9da6448
+type: text/vnd.tiddlywiki
+
+''Neighbors'' are [[Routers|Router]] that:
+
+* Reside on the same network link
+* Exchange [[Hello messages|Hello (OSPF)]]
+
+''Adjacencies'' are [[Routers|Router]] that:
+
+* Are ''neighbors''
+* Have exchanged [[LSUs|Link State Update]] and [[DBDs|Database Descriptor Packet (OSPF)]]

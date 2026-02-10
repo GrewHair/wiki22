@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250117041256872
+modified: 20250117041325734
+tags: Computing [[Storage Networking Fundamentals (Marc Farley)]] Stub
+title: Sneakernet
+tmap.id: d491c0a9-271a-4a0b-b69b-8cb08e56af4d
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/Sneakernet

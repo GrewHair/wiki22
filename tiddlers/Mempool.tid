@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250121112052839
+modified: 20250121112313088
+tags: Cryptocurrencies
+title: Mempool
+tmap.id: d107d23d-2a97-443e-bb28-1404724c2d17
+type: text/vnd.tiddlywiki
+
+It's a place where unconfirmed transactions dwell.
+
+There's no one [[Mempool]] I guess, there's lot of them (?)
+
+https://mempool.space/
+
+https://www.bitdegree.org/crypto/learn/crypto-terms/what-is-mempool

@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250211131401169
+modified: 20250211134712386
+tags: [[Modern Operating Systems (Andrew S. Tanenbaum, Herbert Bos)]]
+title: Semaphore
+tmap.id: b7973526-90c6-4494-bc30-2d8e73076af0
+type: text/vnd.tiddlywiki
+
+https://www.youtube.com/watch?v=XDIOC2EY5JE&ab_channel=NesoAcademy
+
+https://www.youtube.com/watch?v=2cGo2HdA0dM&ab_channel=NesoAcademy
+
+A binary semaphore controls access to a singular resource (n processes/threads competing over 1 instance of smth)
+
+A "counting" semaphore controls access to multiple instances of a resource (n processes/threads competeing over m instances of smth)

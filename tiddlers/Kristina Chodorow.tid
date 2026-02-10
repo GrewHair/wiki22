@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251107222810749
+modified: 20251107230321908
+tags: Person Databases
+title: Kristina Chodorow
+tmap.id: 26352c60-ea00-43a6-bc49-be6de370330a
+type: text/vnd.tiddlywiki
+
+Creator of [[MongoDB]].
+
+https://www.youtube.com/watch?v=4z26HREGoZc
+
+https://www.youtube.com/watch?v=dOP3w-9Q6lU
+
+https://kchodorow.com/2010/08/23/history-of-mongodb/
+
+She has a blog and has written a bunch of short books.

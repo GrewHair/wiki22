@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250803123026318
+modified: 20250803123222385
+tags: 
+title: DDI
+tmap.id: 7ad09443-49eb-4cc5-95a2-b5d7361723a0
+type: text/vnd.tiddlywiki
+
+https://www.infoblox.com/glossary/ddi/
+
+https://efficientip.com/glossary/what-is-ddi/
+
+"DNS, DHCP, and IPAM"
+
+Found it here:
+
+https://youtu.be/Rxvjo3qbFcI?list=PLGotwJibd4Bfh7_9_KutJzuIcaVOWc0Ru&t=1833

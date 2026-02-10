@@ -1,0 +1,32 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251112121749529
+modified: 20251117104938351
+tags: [[Amazon Web Services]]
+title: Policy Types
+tmap.id: 8eff2490-ac3b-4340-8561-c26a34cc4b63
+type: text/vnd.tiddlywiki
+
+*identity-based policies
+**managed
+**inline
+*resource-based policies
+**s3 bucket policies
+**IAM role trust policies
+**...
+** [[they're inline only|https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_identity-vs-resource.html#:~:text=Resource%2Dbased%20policies%20are%20inline%20only%2C%20not%20managed.]] (as of the end of year 2025)
+** principal is required
+*IAM permissions boundries
+** they only bind identity-based policies, resource-based policies are unaffected
+** I DON'T REALLY UNDERSTAND HOW THOSE ARE APPLIED.
+*[[SCPs|Service Control Policies]]
+*[[ACLs|Access Constol Lists]]
+** supported by s3 buckets and objects
+** similar to resource-based policies, but..
+** can't grant permissions to entities within the same account
+** deprecated?
+*session policies
+** they restrict permissions for assumed roles
+** they restrict permissions for federated users

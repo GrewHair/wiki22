@@ -1,6 +1,10 @@
 created: 20201206135812733
-modified: 20201207115740060
+modified: 20251224092927616
 tags: Networking Stub [[Network Fundamentals (Network Direction)]]
 title: 5-tuple
 tmap.id: 22ef6698-4796-4d99-b7b6-da1de7ea89dc
 type: text/vnd.tiddlywiki
+
+https://blog.packet-foo.com/2015/03/tcp-analysis-and-the-five-tuple/
+
+https://jumpcloud.com/it-index/understanding-the-5-tuple-in-network-communication

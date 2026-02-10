@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241122185235791
+modified: 20241123000655566
+tags: Git
+title: Merge Commit
+tmap.id: 8e9f698d-dd1f-4c8c-9a2b-95262244a37c
+type: text/vnd.tiddlywiki
+
+A [[Merge Commit]] is a commit with two parents - and the ''only'' commit with two parents.
+
+(Btw, this ability of commits to have more than one parent makes git's datastructure a [[DAG|Directed Acyclic Graph]] and not technically a tree).
+
+https://www.youtube.com/watch?v=10PLCbsdXVI

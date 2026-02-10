@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241226225953286
+modified: 20250113220545834
+tags: Networking [[CompTIA Network+ (N10-009) Crash Course (Kevin Wallace)]]
+title: Borrowed Bits
+tmap.id: a3d2b78d-a38b-4a95-bbd6-821f6ae5298d
+type: text/vnd.tiddlywiki
+
+https://www.quora.com/What-are-borrowed-BITS-in-networking
+
+https://youtu.be/vY4cjGpRiIs?list=PLDmbik4NbmjLbdXIgjiYoZVdGRU7gzEEF&t=2910
+
+[[Borrowed Bits]] are bits that you add on to the default [[Subnet Mask]] when subnetting.

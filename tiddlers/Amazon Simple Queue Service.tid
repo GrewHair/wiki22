@@ -1,8 +1,10 @@
 created: 20220710184011956
-modified: 20220710184104804
+modified: 20251219151801730
 tags: [[Amazon Web Services]] Stub
 title: Amazon Simple Queue Service
 tmap.id: bd973af5-6621-4897-88a9-798d2f42bd2a
 type: text/vnd.tiddlywiki
 
 ''AKA Amazon SQS''
+
+https://tutorialsdojo.com/amazon-sqs/

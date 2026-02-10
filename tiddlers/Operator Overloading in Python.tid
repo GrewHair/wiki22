@@ -1,0 +1,27 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251205132651764
+modified: 20251205133535867
+tags: Python Stub
+title: Operator Overloading in Python
+tmap.id: e8d4ce3f-9611-49b7-9b70-f5470b5a6cd0
+type: text/vnd.tiddlywiki
+
+|!Operation         |!Operator|!Method|
+|Addition           |`+`      |`__add__`     |
+|Subtraction        |`-`      |`__sub__`     |
+|Multiplication     |`*`      |`__mul__`     |
+|Power              |`**`     |`__pow__`     |
+|Division           |`/`      |`__truediv__` |
+|Floor Division     |`//`     |`__floordiv__`|
+|Remainder (modulo) |`%`      |`__mod__`     |
+|Bitwise Left Shift |`<<`     |`__lshift__`  |
+|Bitwise Right Shift|`>>`     |`__rshift__`  |
+|Bitwise AND        |`&`	    |`__and__`     |
+|Bitwise OR	        |`|`      |`__or__`      |
+|Bitwise XOR        |`^`      |`__xor__`     |
+|Bitwise NOT        |`~`      |`__invert__`  |
+
+https://www.boot.dev/lessons/694e0205-351d-4cf7-b368-0260a2e05eda

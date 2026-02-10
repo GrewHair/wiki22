@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250610165525782
+modified: 20250610165634651
+tags: 
+title: Streamable HTTP
+tmap.id: 52b6c32d-2e68-449e-86ff-8e4b918a0fc9
+type: text/vnd.tiddlywiki
+
+It's an MCP thing. It uses the same HTTP endpoint for both sending and receiving messages to simplify interactions.

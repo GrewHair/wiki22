@@ -1,0 +1,27 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250917083010539
+modified: 20250917083915547
+tags: [[Amazon Web Services]] [[Load Balancing]]
+title: Protocol Listener
+tmap.id: 37db8c71-ef3b-43fb-a8d6-a0183058adf3
+type: text/vnd.tiddlywiki
+
+https://www.haproxy.com/glossary/what-is-an-http-listener
+
+https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-listeners.html
+
+https://docs.aws.amazon.com/elasticloadbalancing/latest/network/load-balancer-listeners.html
+
+Found it in the "AWS Technical Essentials Part 2" course, in a table like this:
+
+|!Feature|!ALB|!NLB|!GLB|
+|!Load Balancer Type|Layer 7|Layer 4|Layer 3 gateway and Layer 4 load balancing|
+|!Target Type|IP, Instance, Lambda|IP, Instance, ALB|IP, Instance|
+|!Protocol Listeners|HTTP, HTTPS|TCP, UDP, TLS|IP|
+|!Static IP and Elastic IP Address||Yes||
+|!Preserve Source IP Address|Yes|Yes|Yes|
+|!Fixed Response|Yes|||
+|!User Auhentication|Yes|||

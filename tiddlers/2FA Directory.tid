@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241208154623496
+modified: 20241208161001061
+tags: Security
+title: 2FA Directory
+tmap.id: 897b1c83-b516-4fe6-9260-7459320a2e61
+type: text/vnd.tiddlywiki
+
+https://2fa.directory/int/
+
+There's also this (it shows [[TOTP|Time-based One-time Password]]):
+
+https://2fawebsites.github.io/

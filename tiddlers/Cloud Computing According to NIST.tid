@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250120130155827
+modified: 20250120130451268
+tags: Cloud
+title: Cloud Computing According to NIST
+tmap.id: 6b0d613c-2651-4503-aba8-2078ea883503
+type: text/vnd.tiddlywiki
+
+# On-Demand Self-service
+# Broad Network Access
+# Resource Pooling
+# Rapid Elasticity
+# Measured Service
+
+https://learn.cantrill.io/courses/2022818/lectures/45718076

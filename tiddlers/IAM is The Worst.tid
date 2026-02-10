@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251118151811731
+modified: 20251118151851570
+tags: [[Identity Management]] [[Amazon Web Services]] [[Google Cloud Platform]] Rant
+title: IAM is The Worst
+tmap.id: 9222d2d7-90dd-483e-9c93-b982a7a4e2cb
+type: text/vnd.tiddlywiki
+
+https://matduggan.com/iam-is-the-worst/

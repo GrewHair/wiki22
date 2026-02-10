@@ -1,0 +1,36 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241215173416324
+modified: 20241215181156050
+tags: [[Computer Networks, 5th Edition (Andrew S. Tanenbaum, David J. Wetherall)]]
+title: Orthogonal Frequency Division Multiplexing
+tmap.id: 26a7ddab-a3f0-40b0-8bfc-84f0b6b7264e
+type: text/vnd.tiddlywiki
+
+''AKA OFDM''
+
+It was known from at least the 60s, but only enabled in the 90s by the [[FFT|Fast Fourier Transform]].
+
+The idea is we don't really need guard bands if we can choose subcarriers in such a way that they be [[orthogonal|Orthogonality]].
+
+In the context of the spectrum, that means integer multiples of the base frequency.
+
+So I guess it's like being able to sneak through those tiny gaps in the fence instead of going all the way around the fence to get past it...
+
+Contrary to just normal frequency multiplexing/multiple access, where you usually put different users on different frequencies (often they're on different antennas), [[OFDM|Orthogonal Frequency Division Multiplexing]] usually breaks up //''one user's''// signal into multiple bands and transmits them through one antenna. The point of this is avoiding [[Intersymbol Interference]].
+
+The point is to try to make each subcarrier's spectrum pretty narrow (so, sparse in time domain).
+
+
+
+https://www.youtube.com/watch?v=i3LBGw8Yle4&ab_channel=LeslieRusch
+
+https://www.youtube.com/watch?v=oOOS9xDXLaU&ab_channel=LeslieRusch
+
+Used in:
+
+* [[DSL|Digital Subscriber Line]]
+* [[Wi-Fi]]
+* ...

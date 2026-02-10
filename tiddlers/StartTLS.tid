@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241113121956976
+modified: 20241113122025604
+tags: Stub Email
+title: StartTLS
+tmap.id: 74ba9e79-1744-4900-881e-589e68105812
+type: text/vnd.tiddlywiki
+
+https://web.archive.org/web/20240711200441/https://sendgrid.com/en-us/blog/what-is-starttls

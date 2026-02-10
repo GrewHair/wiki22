@@ -1,9 +1,13 @@
 created: 20201202203519656
-modified: 20201207114156433
+modified: 20250107230235020
 tags: Networking Stub [[Network Fundamentals (Network Direction)]]
 title: Private Address
 tmap.id: 0b8b0a3e-1fc1-4eea-b8b4-f3ba90e58849
 type: text/vnd.tiddlywiki
+
+''AKA: Local Address''
+
+''Russian: Серый адрес''
 
 The [[IETF|Internet Engineering Task Force]] has directed the [[IANA|Internet Assigned Numbers Authority]] to reserve the following [[IPv4]] address ranges for [[Private Networks|Private Network]]:
 

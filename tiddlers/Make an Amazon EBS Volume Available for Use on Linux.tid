@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241008123509387
+modified: 20241008123616566
+tags: [[Amazon Web Services]] Linux
+title: Make an Amazon EBS Volume Available for Use on Linux
+tmap.id: 43560d35-1045-4e74-85f1-cf1a5c1fa3da
+type: text/vnd.tiddlywiki
+
+https://docs.aws.amazon.com/ebs/latest/userguide/ebs-using-volumes.html

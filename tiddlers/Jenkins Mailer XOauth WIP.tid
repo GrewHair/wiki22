@@ -1,0 +1,15 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241218203814706
+modified: 20241218214404050
+tags: WIP Jenkins E-Mail
+title: Jenkins Mailer XOauth WIP
+tmap.id: d2e3682b-2d42-483b-a593-da087cb4b3cd
+type: text/vnd.tiddlywiki
+
+https://stackoverflow.com/questions/73449562/jenkins-email-extension-plugin-and-oauth-2-0-query
+
+https://issues.jenkins.io/browse/JENKINS-69414
+

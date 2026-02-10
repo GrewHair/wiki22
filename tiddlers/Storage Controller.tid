@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250116221703315
+modified: 20250116221928697
+tags: Storage [[Storage Networking Fundamentals (Marc Farley)]] Stub
+title: Storage Controller
+tmap.id: 9e7c510f-4a42-49cf-90fc-fa06c1e78598
+type: text/vnd.tiddlywiki
+
+It's a device that actually performs storing functions (whatever that means..)
+
+https://www.purestorage.com/knowledge/what-is-a-storage-controller.html
+
+This is hopefully related:
+
+https://en.wikipedia.org/wiki/Disk_array_controller

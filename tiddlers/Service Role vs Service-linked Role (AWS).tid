@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251118153543544
+modified: 20251118160241941
+tags: [[Amazon Web Services]] [[Identity Management]] Stub
+title: Service Role vs Service-linked Role (AWS)
+tmap.id: c2454fda-a69f-4ef4-8535-18c618b62e20
+type: text/vnd.tiddlywiki
+
+[[Service-linked Roles|Service-linked Role (AWS)]] are "somewhat protected and hardcoded roles with sensible defaults..."
+
+https://stackoverflow.com/questions/65970798/aws-service-role-vs-service-link-role

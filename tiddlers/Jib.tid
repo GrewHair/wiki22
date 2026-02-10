@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251123095210806
+modified: 20251123095502154
+tags: Docker
+title: Jib
+tmap.id: bb054e58-96f6-49a9-bf17-e8a7fb4eb64d
+type: text/vnd.tiddlywiki
+
+[[Google's|Google]] tool to build dockerfiles straight from `pom.xml` (there are [[Maven]] and [[Gradle]] plugins out there), "without docker daemon"..
+
+https://www.youtube.com/watch?v=HFhIqfKn_XI

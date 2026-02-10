@@ -1,0 +1,23 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251103115831976
+modified: 20251103120241216
+tags: Databases Stub
+title: Database Objects
+tmap.id: 8609c1f9-0069-46aa-b8aa-8a465c8095b4
+type: text/vnd.tiddlywiki
+
+''AKA Database Code Objects''
+
+https://en.wikipedia.org/wiki/Database_object
+
+* Views
+* [[Stored Procedures|Stored Procedure]]
+* Functions
+* ...
+
+Found it here:
+
+https://docs.aws.amazon.com/dms/latest/userguide/schema-conversion.html#:~:text=DMS%20Schema%20Conversion%20converts%20your%20existing%20database%20schemas%20and%20a%20majority%20of%20the%20database%20code%20objects%20to%20a%20format%20compatible%20with%20the%20target%20database.

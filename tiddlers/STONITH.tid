@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241204190144789
+modified: 20241204202529988
+tags: [[Distributed Computing]]
+title: STONITH
+tmap.id: cecd555a-ec6c-4964-994c-5c7fe580d21d
+type: text/vnd.tiddlywiki
+
+''AKA STOMITH, Shoot the Other Node in The Head''
+
+A technique for [[Fencing]].
+
+https://en.wikipedia.org/wiki/STONITH

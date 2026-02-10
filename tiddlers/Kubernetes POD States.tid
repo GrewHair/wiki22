@@ -1,0 +1,25 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250715101002929
+modified: 20250715102610943
+tags: K8s [[Memory Aid WIP]]
+title: Kubernetes POD States
+tmap.id: 793ef1d3-1891-405b-a20f-e64fe1745c79
+type: text/vnd.tiddlywiki
+
+https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/
+
+''Memory aid:''
+
+```
+Unkle   failed mending, ronin   succeeded
+unknown failed pending  running succeeded 
+```
+
+container states
+
+```
+waiting ronin, tear me, mate (ed)
+```

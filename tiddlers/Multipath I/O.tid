@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250117024901044
+modified: 20250117025059525
+tags: Storage [[Storage Networking Fundamentals (Marc Farley)]]
+title: Multipath I/O
+tmap.id: e2e5f482-1144-434b-bcc4-8170ae58f635
+type: text/vnd.tiddlywiki
+
+It basically decides which of the two (/ a number of) redundant [[HBAs|Host Bus Adapter]] to use..
+
+https://en.wikipedia.org/wiki/Multipath_I/O

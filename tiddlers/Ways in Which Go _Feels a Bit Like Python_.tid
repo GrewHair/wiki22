@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20260131170833945
+modified: 20260131171012881
+tags: Go Python Typing OOP
+title: Ways in Which Go "Feels a Bit Like Python"
+tmap.id: 78862c43-df2d-4eaf-8dcc-b80eadd93668
+type: text/vnd.tiddlywiki
+
+* type inference
+* implicit interfaces
+* declaration syntax: "pascal-styled" types

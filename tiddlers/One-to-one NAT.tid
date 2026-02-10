@@ -1,11 +1,11 @@
 created: 20210303121206696
-modified: 20210303123359738
+modified: 20241201120954481
 tags: Networking Stub
 title: One-to-one NAT
 tmap.id: da66604b-13aa-4d16-8e3c-8202baac3482
 type: text/vnd.tiddlywiki
 
-''AKA Basic NAT''
+''AKA Basic NAT, Static NAT''
 
 [[Basic NAT|One-to-one NAT]] is the simplest type of [[NAT|Network Address Translation]].
 
@@ -18,3 +18,5 @@ In this type of [[NAT|Network Address Translation]], only the [[IP Addresses|IP 
 Today, it is not what people usually mean when they mention [[NAT|Network Address Translation]] :)
 
 https://en.wikipedia.org/wiki/Network_address_translation#Basic_NAT
+
+This bloke [[here|https://youtu.be/YcZvl1p22IM?list=PLTk5ZYSbd9Mi_ya5tVFD8NFfU1YZOyml1&t=498]] claims this type of NAT is performed by the AWS Internet Gateway

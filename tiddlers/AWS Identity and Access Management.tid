@@ -1,0 +1,28 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250121104911048
+modified: 20251219173851859
+tags: [[Amazon Web Services]]
+title: AWS Identity and Access Management
+tmap.id: 65ca20e5-8bde-4c10-88ce-4ac628819cb1
+type: text/vnd.tiddlywiki
+
+''AKA IAM''
+
+''Limitations:''
+
+* 5,000 IAM Users per account
+** Memory aid: Jensus fed 5,000 users (see the feeding of the multitude)
+* IAM User can be a member of 10 groups
+** Memory aid: a lost user but be from on of the 10 lost tribes of Israel 
+
+So that's a ''problem'' for:
+
+* [[Internet]]-scale applications
+* Large orgs & org merges
+
+IAM Roles & Identity Federation fix this...
+
+https://tutorialsdojo.com/aws-identity-and-access-management-iam/

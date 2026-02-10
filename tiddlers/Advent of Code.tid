@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241220114229835
+modified: 20241220114329749
+tags: [[WTF is This?]]
+title: Advent of Code
+tmap.id: b023a6ba-3831-46a2-ab25-ee67d566b909
+type: text/vnd.tiddlywiki
+
+https://www.youtube.com/watch?v=ddLbE9aGHno&ab_channel=Theo-t3%E2%80%A4gg
+
+found it here:
+
+https://dotfyle.com/plugins/csessh/aoc.nvim?utm_source=plugins-rss
+
+https://github.com/csessh/aoc.nvim

@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20200616082755790
-modified: 20200619013815227
+modified: 20241129134728598
 tags: [[Learning SQL by Alan Beaulieu]]
 title: Database Transaction
 tmap.id: de7711dc-ba9a-4f3a-b353-0fac0017b678
@@ -24,3 +24,9 @@ Regardless of whether the [[Transaction|Database Transaction]] was [[Commited|Co
 ```sql
 START TRANSACTION;
 ```
+
+EDIT:
+
+Wikipedia says otherwise. It says: "a sequence of database operations that satisfies the ACID properties is called a transaction"
+
+https://en.wikipedia.org/wiki/ACID

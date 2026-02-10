@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241005071001495
+modified: 20241005105633751
+tags: 
+title: _my/NewTiddlerTemplate 5
+tmap.id: 92a93512-d09e-4c4f-95b9-a895b3629bc9
+type: text/vnd.tiddlywiki
+
+df

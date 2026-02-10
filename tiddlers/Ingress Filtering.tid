@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241228233407766
+modified: 20241228233710758
+tags: [[Computer Networks, 5th Edition (Andrew S. Tanenbaum, David J. Wetherall)]] Networking Stub
+title: Ingress Filtering
+tmap.id: c1029135-0243-4067-8431-2f3f9e3042c6
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/Ingress_filtering
+
+The way Tanenbaum puts it, I'd say it's pretty similar (if not the same) to [[this|Source\destination Checks]].
+
+It's a security measure that can be a problem with mobile IP

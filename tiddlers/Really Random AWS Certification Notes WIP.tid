@@ -1,0 +1,27 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250915150636770
+modified: 20250915150711543
+tags: WIP
+title: Really Random AWS Certification Notes WIP
+tmap.id: fa58ff38-ec1c-41f3-8cc3-edb1eb14c7d1
+type: text/vnd.tiddlywiki
+
+```
+awscertificationpractice.benchprep.com
+
+deregistration delay value
+
+neptune -> graph database
+
+pilot light -> instances are stopped (vs warm standby)
+multi-site active-active -> instances run at full capacity (vs warm standby)
+backup and restore -> takes hours to run (vs warm standby)
+
+throughput optimized hdd = 500 iops
+provisioned iops ssd     = 64000 iops
+general purpose ssd      = 16000 iops max; (gp3) 3000 iops at no cost independent of volume size; (gp20) iops are dependent on volume size at a rate of 3 iops/gb
+cold hdd                 = ??? (very low iops)
+```

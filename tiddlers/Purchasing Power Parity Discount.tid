@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251109080432176
+modified: 20251109080701939
+tags: Economics
+title: Purchasing Power Parity Discount
+tmap.id: bd4a9947-c562-418f-865e-81993b5d20db
+type: text/vnd.tiddlywiki
+
+''PPP Discount''
+
+https://www.hyva.io/ppp-discount
+
+https://www.investopedia.com/updates/purchasing-power-parity-ppp/
+
+Found it at boot.dev (courses are 3x cheaper for Georgia, that's a steal!)

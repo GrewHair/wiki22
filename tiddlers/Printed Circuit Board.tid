@@ -1,0 +1,17 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250203120401500
+modified: 20250203120527484
+tags: 
+title: Printed Circuit Board
+tmap.id: 7df7a01e-0666-42bb-9e0b-728dd4cfc8b0
+type: text/vnd.tiddlywiki
+
+''AKA PCB''
+
+Some important examples:
+
+* [[Motherboard]]
+* [[Backplane]]

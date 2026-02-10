@@ -1,0 +1,19 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251111110728373
+modified: 20251111111030236
+tags: Chrome Vivaldi
+title: extensions-externals
+tmap.id: ef4f13b7-042d-4696-8bba-fb8b4241e4ae
+type: text/vnd.tiddlywiki
+
+* go to `chrome://extensions-internals`
+* you can thank me later..
+
+Found it here:
+
+https://www.reddit.com/r/chrome/comments/xtsqaz/help_how_to_tell_which_of_my_extensions_use/
+
+It has tons of info on your installed extensions, like manifest version, or whether they've been blocked via a group policy, or force installed by your company, etc..

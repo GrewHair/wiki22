@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251007114548234
+modified: 20251007114644553
+tags: [[Amazon Web Services]] Stub
+title: Amazon EBS-Optimized Instance Types
+tmap.id: d561a097-8887-425c-af3c-6a23131ad690
+type: text/vnd.tiddlywiki
+
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-optimized.html

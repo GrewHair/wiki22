@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250104090905268
+modified: 20250104091634846
+tags: Networking HTTP [[Computer Networks, 5th Edition (Andrew S. Tanenbaum, David J. Wetherall)]]
+title: HTTP\1.1
+tmap.id: 5b30380a-535a-4873-9069-06435b6db6a1
+type: text/vnd.tiddlywiki
+
+Improvements over 1.0:
+
+* Persistent connection
+** spares you [[TCP handshakes|TCP Handshake]]
+** spares you [[TCP slow starts|Slow Start]]
+* Pipelined requests
+** spares you having to wait for responses sequentially
+
+There also were parallele TCP connections, but persistent connections are better (at least if you're fetching from the same host that is)

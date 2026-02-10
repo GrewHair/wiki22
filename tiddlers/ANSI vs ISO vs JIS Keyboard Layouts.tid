@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250820061808796
+modified: 20250820062218847
+tags: [[Ergonomic Keyboards]]
+title: ANSI vs ISO vs JIS Keyboard Layouts
+tmap.id: bc3f8823-0998-429e-ba1a-2c69f12f2337
+type: text/vnd.tiddlywiki
+
+https://www.youtube.com/watch?v=peLiqSGBdz4&t=34s
+
+https://mechkeys.com/blogs/guide/understanding-different-physical-layouts-for-keyboards-ansi-vs-iso-vs-jis

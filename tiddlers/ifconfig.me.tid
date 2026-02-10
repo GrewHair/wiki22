@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241116160559859
+modified: 20241116160638205
+tags: 
+title: ifconfig.me
+tmap.id: ce561052-b841-4ac8-892e-b513280d8409
+type: text/vnd.tiddlywiki
+
+Find your current public IP
+
+```bash
+curl ifconfig.me
+```

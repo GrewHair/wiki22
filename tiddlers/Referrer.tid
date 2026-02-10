@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241116175018261
+modified: 20241116190222082
+tags: Web
+title: Referrer
+tmap.id: 918a05e2-61fe-4dae-bf07-615a41a499fa
+type: text/vnd.tiddlywiki
+
+[[Referrer]] is usually the page that has the hyperlink that you're clicking.
+
+The best explanation I found is here:
+
+https://developer.mozilla.org/en-US/docs/Web/Privacy/Third-party_cookies#what_are_third-party_cookies_used_for:~:text=Third%2Dparty%20cookies%20set,back%20to%20the%20referrer.
+
+Things like Regexp Mownloads Manager use it.

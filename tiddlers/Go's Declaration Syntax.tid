@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20260130140627577
+modified: 20260130140659415
+tags: Go
+title: Go's Declaration Syntax
+tmap.id: 615dc7f2-23aa-4b8f-91b9-f43397bcbf9b
+type: text/vnd.tiddlywiki
+
+https://go.dev/blog/declaration-syntax
+
+https://www.boot.dev/lessons/afb405db-9785-4444-94f5-e76866b5b6b7

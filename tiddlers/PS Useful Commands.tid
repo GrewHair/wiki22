@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251013110012524
+modified: 20251013110158435
+tags: Linux
+title: PS Useful Commands
+tmap.id: 09432468-ec17-4c3e-8b45-56748147fe7c
+type: text/vnd.tiddlywiki
+
+* `ps -aux -O cgroup | grep gunicorn` - like `ps aux`, but also throw in [[CGroup]] info, helps tell processes in containers from ones on host

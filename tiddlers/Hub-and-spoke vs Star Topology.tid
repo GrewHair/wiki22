@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250113232948121
+modified: 20250113233011230
+tags: Networking
+title: Hub-and-spoke vs Star Topology
+tmap.id: d4a45a0d-5201-49db-8f40-3f5c6e5f650d
+type: text/vnd.tiddlywiki
+
+https://www.reddit.com/r/networking/

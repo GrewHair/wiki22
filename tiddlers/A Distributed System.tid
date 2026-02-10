@@ -3,7 +3,7 @@
 .hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
 .hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
 created: 20220818180500744
-modified: 20220818180646268
+modified: 20251008110318712
 tags: Philosophy
 title: A Distributed System
 tmap.id: efda3c0d-4e6b-457f-a2bc-3ec244d9d4d9

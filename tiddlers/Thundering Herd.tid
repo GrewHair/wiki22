@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251118132859249
+modified: 20251118132938734
+tags: [[Concurrency Control]] Stub
+title: Thundering Herd
+tmap.id: 2b9ed6a5-254c-4c2c-b5e8-cb722ddd6038
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/Thundering_herd_problem
+
+Found it here:
+
+https://www.youtube.com/watch?v=gDVxBOGL99Q

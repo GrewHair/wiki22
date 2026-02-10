@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20260130122424067
+modified: 20260130122455124
+tags: Programming Go Java Rust
+title: Java vs Go vs Rust
+tmap.id: cf1c27b9-f4b7-4864-9caf-0bdad152e3ba
+type: text/vnd.tiddlywiki
+
+https://medium.com/@dexwritescode/comparison-between-java-go-and-rust-fdb21bd5fb7c

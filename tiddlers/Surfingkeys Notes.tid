@@ -1,5 +1,5 @@
 created: 20230619132604069
-modified: 20230727190809589
+modified: 20251017125957826
 tags: Surfingkeys
 title: Surfingkeys Notes
 tmap.id: 94a3d421-e25c-413d-a55e-1d63cfdead0f
@@ -22,3 +22,7 @@ type: text/vnd.tiddlywiki
 
 * you can use dot and numbers with `gu`
 * you can use dot with hinting actions with highly specific selectors (broad selectors yield unpredictable results tho)
+
+---
+
+https://wise.com/ (as of 2025-17-10, [[snapshot attempt|https://web.archive.org/web/20251011123759/https://wise.com/us/account/]]) has a "features" button up top. you can't click it with normal vimium's hints. but it does throw a dropdown when hovered over. try out surfingkeys' "mouse out" thingie on it. 

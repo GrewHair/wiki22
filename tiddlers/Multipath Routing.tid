@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241223191916601
+modified: 20241223191948271
+tags: Networking [[Computer Networks, 5th Edition (Andrew S. Tanenbaum, David J. Wetherall)]] Routing Stub
+title: Multipath Routing
+tmap.id: 8b2d27ee-c27b-49b5-a22e-883bb0a8ebb5
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/Multipath_routing

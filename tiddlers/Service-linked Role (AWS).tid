@@ -1,0 +1,29 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250611145136073
+modified: 20251120152543452
+tags: [[Amazon Web Services]] [[Identity Management]]
+title: Service-linked Role (AWS)
+tmap.id: 31efe3f9-4d1d-4011-a58e-886a5e73f685
+type: text/vnd.tiddlywiki
+
+''NTBCW: [[Service Role (AWS)]]''
+
+''Cantrill:''
+
+* An [[IAM]] role linked to a specific AWS service
+* Predefined by a service...
+* ... providing permissions that a service needs to interact with other AWS services on your behalf
+* Service might create/delete the role...
+* ... or allow you to during the setup or within [[IAM]]
+* You can't delete the role until it's no longer required
+
+---
+
+''AWS:''
+
+https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles.html#:~:text=AWS%20service%2Dlinked%20role
+
+A [[Service-Linked Role|Service-linked Role (AWS)]] is a type of [[Service Role|Service Role (AWS)]] that is linked to an [[AWS Service]]. The service can assume the role to perform an action on your behalf. [[Service-linked Roles|Service-linked Role (AWS)]] appear in your AWS account and are owned by the service. An IAM administrator can view, but not edit the permissions for service-linked roles.

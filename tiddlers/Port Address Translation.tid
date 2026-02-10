@@ -1,5 +1,5 @@
 created: 20210303122321366
-modified: 20210303131039423
+modified: 20241201121816477
 tags: Networking Stub
 title: Port Address Translation
 tmap.id: 4adc5652-c210-4f4e-aae2-9dcd94afce65
@@ -18,3 +18,5 @@ This techique is ubiquitous today, but it is essentially quite a hack that break
 [[IPv6]] is expected to fix it once it is universally adopted (simply by eliminating the need to touch [[Transport Layer]] headers through greatly expanding the [[IP|Internet Protocol]] [[Address Space]]).
 
 https://en.wikipedia.org/wiki/Network_address_translation#One-to-many_NAT
+
+This is how the AWS NAT Gateway functions..

@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241215230451847
+modified: 20241215230650891
+tags: Networking [[Computer Networks, 5th Edition (Andrew S. Tanenbaum, David J. Wetherall)]]
+title: Backward Learning
+tmap.id: 09b21ee2-a52a-4bc7-8485-6439f6f08830
+type: text/vnd.tiddlywiki
+
+[[Backward Learning]] is the process by which a [[Bridge]]/[[Switch]] populates its [[CAM Table]]..
+
+https://www.youtube.com/watch?v=wRZMVTXlSdI&ab_channel=ACEEngineeringCollege

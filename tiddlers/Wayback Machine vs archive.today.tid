@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251106114536584
+modified: 20251106114812050
+tags: [[Digital Preservation]]
+title: Wayback Machine vs archive.today
+tmap.id: 7c68e952-8f7f-4727-a0d6-fa42122bd9c9
+type: text/vnd.tiddlywiki
+
+https://www.reddit.com/r/DataHoarder/comments/121m0z4/wayback_machine_vs_archivetoday/
+
+''Note:'' there's also stuff like [[12ft]] (now down) and friends..

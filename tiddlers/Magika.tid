@@ -1,0 +1,13 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251106122916291
+modified: 20251106123050677
+tags: Security
+title: Magika
+tmap.id: c2117137-c1ce-4741-8357-dea0400c6b48
+type: text/vnd.tiddlywiki
+
+An AI Type detection tool. Integrated with [[VirusTotal]].
+https://github.com/google/magika

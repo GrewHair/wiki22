@@ -1,0 +1,17 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241030101503866
+modified: 20241030101713663
+tags: HTTP
+title: 405 Method Not Allowed
+tmap.id: 8c993d88-b101-4020-adb4-667cc2dd7034
+type: text/vnd.tiddlywiki
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/405
+
+some examples:
+
+* web servers like to disallow TRACE in general
+* when you paste a url into a browser's omnibox that requires a POST query (e.g. jenkins returns 405 and shows a page when it proposes to "retry using POST")

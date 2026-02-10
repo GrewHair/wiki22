@@ -1,0 +1,21 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251121123644040
+modified: 20251121123859463
+tags: [[Amazon Web Services]] [[Identity Management]] Stub
+title: Identity Broker
+tmap.id: 174356aa-9b00-48dd-8337-6677a0afb6dd
+type: text/vnd.tiddlywiki
+
+''AKA Identity Proxy''
+
+AWS IAM docs sometimes refer to this thing..
+
+https://www.reddit.com/r/cybersecurity/comments/ulxpsi/what_is_the_difference_between_identity_broker/
+
+https://www.miniorange.com/products/identity-broker-service
+
+https://www.ubisecure.com/authentication/what-is-an-identity-broker/
+

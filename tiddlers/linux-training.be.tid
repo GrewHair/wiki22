@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250829123330553
+modified: 20250829123403823
+tags: Linux
+title: linux-training.be
+tmap.id: 63ba1e44-05a8-4791-8d9a-2bf26566f621
+type: text/vnd.tiddlywiki
+
+Some free books on [[Linux]].
+
+https://linux-training.be/

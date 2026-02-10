@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251222092532617
+modified: 20251222092700270
+tags: [[Amazon Web Services]] Security [[WTF is This?]]
+title: Field-level Encryption
+tmap.id: d0c44619-3480-440f-af0b-81d7f8e3c5fa
+type: text/vnd.tiddlywiki
+
+''AKA FLE''
+
+https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/field-level-encryption.html

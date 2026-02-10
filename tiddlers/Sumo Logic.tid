@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251120113337909
+modified: 20251120113352602
+tags: [[WTF is This?]] Security Observability
+title: Sumo Logic
+tmap.id: db7a1d29-07ae-47ba-80e5-e90af171bfa4
+type: text/vnd.tiddlywiki
+
+A [[SIEM|Security Information and Event Management]] product..
+
+https://en.wikipedia.org/wiki/Sumo_Logic

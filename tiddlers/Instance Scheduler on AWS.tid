@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251219144155430
+modified: 20251219150203401
+tags: [[Amazon Web Services]] Stub [[AWS Solution]]
+title: Instance Scheduler on AWS
+tmap.id: 80b976c9-45e7-4999-b39e-cd889746f39c
+type: text/vnd.tiddlywiki
+
+[[Instance Scheduler on AWS]] is an [[AWS Solution|AWS Solutions]] that automatically starts and stops [[EC2|Elastic Compute Cloud]] and [[RDS|Relational Database Service]] instances (on a schedule?).
+
+https://github.com/aws-solutions/instance-scheduler-on-aws
+
+https://aws.amazon.com/solutions/implementations/instance-scheduler-on-aws/

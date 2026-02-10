@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251219150814021
+modified: 20251219150856273
+tags: [[Amazon Web Services]] Stub
+title: AWS CloudFormation
+tmap.id: 80f941ad-56b8-4c00-ba80-9de01cb7c6b3
+type: text/vnd.tiddlywiki
+
+https://tutorialsdojo.com/aws-cloudformation/

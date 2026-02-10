@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251219172823274
+modified: 20251219172857043
+tags: [[Amazon Web Services]] Stub
+title: AWS Artifact
+tmap.id: 1a6c061d-1ef4-4a2d-bd67-33de91883c38
+type: text/vnd.tiddlywiki
+
+https://tutorialsdojo.com/aws-artifact/

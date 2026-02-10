@@ -1,0 +1,21 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241129131701509
+modified: 20241129132249306
+tags: [[Standards Bodies]]
+title: Organization for the Advancement of Structured Information Standards
+tmap.id: dc6f1617-68a0-4443-a17a-da1c1c7b776e
+type: text/vnd.tiddlywiki
+
+''AKA OASIS''
+
+Some developed/maintained standards:
+
+* [[AMQP|Advanced Message Queuing Protocol]]
+* [[MQTT|Message Queuing Telemetry Transport]]
+* [[PKCS 11]]
+* [[SAML|Security Assertion Markup Language]]
+
+https://en.wikipedia.org/wiki/OASIS_(organization)

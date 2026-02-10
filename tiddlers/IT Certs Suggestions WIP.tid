@@ -1,0 +1,17 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250814070812050
+modified: 20250814071354678
+tags: Certifications
+title: IT Certs Suggestions WIP
+tmap.id: 1080bfc7-39e8-4992-86bf-2be3dd19ccc8
+type: text/vnd.tiddlywiki
+
+https://www.youtube.com/watch?v=OGK_RbW4KTI
+
+* Google IT Support Professional/CompTIA A+
+* CCNA
+* CompTIA Security+
+* Azure AZ104 (Azure Administrator Associate) (it's like AWS Solutions Architect Associate, but twice as hard)

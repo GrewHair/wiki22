@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250116200302474
+modified: 20250116200445802
+tags: [[Storage Networking Fundamentals (Marc Farley)]] [[WTF is This?]]
+title: Service Access Point
+tmap.id: 752e720a-7463-4709-ad80-be3dd1d71ad2
+type: text/vnd.tiddlywiki
+
+''AKA SAP''
+
+An [[OSI|Open Systems Interconnection Model]] term.. Is it of any real use?
+
+https://en.wikipedia.org/wiki/Service_Access_Point

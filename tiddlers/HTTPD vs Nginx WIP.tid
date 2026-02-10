@@ -1,0 +1,13 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241024110218797
+modified: 20241024110913417
+tags: WIP [[Web Servers]]
+title: HTTPD vs Nginx WIP
+tmap.id: 74d57655-96b9-4be0-bb14-c554c4bb81f3
+type: text/vnd.tiddlywiki
+
+|Function|[[HTTPD]]|[[Nginx]]|source|
+|Limit request body|`LimitRequestBody 0`|`client_max_body_size 0;`|[[artifactory|https://jfrog.com/help/r/how-do-i-solve-request-entity-too-large-response/subject]]|

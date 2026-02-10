@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241128123617197
+modified: 20241128132326313
+tags: Windows [[WTF is This?]]
+title: Windows Management Instrumentation
+tmap.id: 356346e0-bca0-4e79-be3c-292713b455d6
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/Windows_Management_Instrumentation
+
+Found it in a chatgpt answer using this utility (which seems deprecated, but whatever):
+
+```
+wmic useraccount where name='username' get sid
+```
+
+this btw gets a user's sid by his name, i needed it to change environment variables for that user (as windows doesn't provide a gui way) in the `HKEY_USERS\<uid>\Environment`...

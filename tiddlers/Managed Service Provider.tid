@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251023103143004
+modified: 20251023103242373
+tags: [[WTF is This?]]
+title: Managed Service Provider
+tmap.id: 435a50ce-bea0-4d04-89ac-4a96f4de7535
+type: text/vnd.tiddlywiki
+
+''AKA MSP''
+
+https://en.wikipedia.org/wiki/Managed_services
+
+Found it here:
+
+https://www.youtube.com/watch?v=C8JC023Z4SE

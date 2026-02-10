@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241204205006255
+modified: 20241204210013825
+tags: [[System Administration]] Stub
+title: Runbook
+tmap.id: 7fe6e4f7-b8f4-486c-9057-2837e9f1492a
+type: text/vnd.tiddlywiki
+
+I guess it's just a text file with commands and stuff that you're supposed to do manually if something breaks badly/weirdly enough that you can't just run a script... i could be wrong.
+
+...but it doesn't replace a good ol' fire drill
+
+https://en.wikipedia.org/wiki/Runbook
+
+Found it here:
+
+https://youtu.be/VSPV4vMN7Qc?t=2057

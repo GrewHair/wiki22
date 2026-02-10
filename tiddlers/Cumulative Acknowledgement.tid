@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241214231528949
+modified: 20241216094610495
+tags: Networking [[Computer Networks, 5th Edition (Andrew S. Tanenbaum, David J. Wetherall)]] TCP/IP
+title: Cumulative Acknowledgement
+tmap.id: 44aaf432-f93f-42fe-a996-5b461126c044
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/Retransmission_(data_networks)
+
+https://www.youtube.com/watch?v=TBii-a0XY3o&ab_channel=KelseyCameron

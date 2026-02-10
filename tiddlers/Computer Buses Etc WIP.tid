@@ -1,0 +1,17 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250117022723139
+modified: 20250117022845000
+tags: WIP
+title: Computer Buses Etc WIP
+tmap.id: 2b9a8134-6deb-4146-b62e-482cc52a0c0d
+type: text/vnd.tiddlywiki
+
+```
+north bridge <-> south bridge
+memory bus   <-> i/o bus
+```
+
+are these the same(-ish) relationships?

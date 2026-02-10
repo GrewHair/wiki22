@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251120152008135
+modified: 20251120152105446
+tags: [[Amazon Web Services]] Stub
+title: sessionContext
+tmap.id: f1b0b491-29a0-4ae4-917c-d4a44cdb7736
+type: text/vnd.tiddlywiki
+
+https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-event-reference-user-identity.html?utm_source=chatgpt.com#:~:text=Optional%3A%20True-,sessionContext,-If%20the%20request

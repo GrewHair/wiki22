@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250203210022898
+modified: 20250203210156656
+tags: Computing
+title: Datapath
+tmap.id: abb94f6f-5b9a-4fc6-89d8-eb39695ed44d
+type: text/vnd.tiddlywiki
+
+It's [[ALU|Arithmetic Logic Unit]] + the registers I guess?..
+
+https://en.wikipedia.org/wiki/Datapath

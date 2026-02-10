@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250806152228886
+modified: 20250806152535418
+tags: Microservices [[WTF is This?]]
+title: Backends for Frontends
+tmap.id: 6f009e3c-daf0-48e2-ab94-0defe1a34bdb
+type: text/vnd.tiddlywiki
+
+''AKA BFF''
+
+https://microservices.io/patterns/apigateway.html
+
+https://www.thoughtworks.com/insights/blog/bff-soundcloud
+
+Found it here:
+
+https://www.jhipster.tech/microservices-architecture/

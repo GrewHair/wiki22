@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241215231136525
+modified: 20241215231643089
+tags: [[Computer Networks, 5th Edition (Andrew S. Tanenbaum, David J. Wetherall)]] Networking
+title: Unicast Flood
+tmap.id: bab0c7bf-97e5-49a3-baad-71006d71931a
+type: text/vnd.tiddlywiki
+
+A [[Unicast Flood]] happens when a [[Switch]] receives a [[Unicast]] frame it doesn't know the addressee's port of (yet).
+
+Then the [[Switch]] sends the frame out all ports but the one the frame arrived at.
+
+A [[Unicast Flood]] is the integral part of [[Backward Learning]], i.e. it's how the [[Switch]] gets to know how to populate the [[CAM Table]].
+
+https://en.wikipedia.org/wiki/Unicast_flood

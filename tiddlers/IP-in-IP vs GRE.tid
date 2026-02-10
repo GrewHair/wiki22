@@ -1,0 +1,17 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241204233503775
+modified: 20241204233750465
+tags: Networking Stub
+title: IP-in-IP vs GRE
+tmap.id: abbcafc5-c38d-4eea-8852-7eb9d1ef4d3f
+type: text/vnd.tiddlywiki
+
+* IP-in-IP: two consecutive IP headers, simpler, more limited
+* GRE: IP header -> GRE header -> IP header
+
+https://serverfault.com/questions/358708/whats-the-difference-between-gre-and-ipip-tunnel
+
+https://www.x4b.net/kb/Technology/GREvsIPIP

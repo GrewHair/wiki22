@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250112235922372
+modified: 20250113000453936
+tags: [[Cloud Computing]] Networking [[CompTIA Network+ (N10-009) Crash Course (Kevin Wallace)]]
+title: Types of VPC Gateways
+tmap.id: ba17564d-1055-460f-b703-43cda09a77ec
+type: text/vnd.tiddlywiki
+
+* [[Internet Gateway|Internet Gateway (Amazon)]]
+* [[NAT Gateway]]
+* [[VPN Gateway]]

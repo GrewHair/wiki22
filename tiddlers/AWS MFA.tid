@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241002102540774
+modified: 20241002103104067
+tags: [[Amazon Web Services]]
+title: AWS MFA
+tmap.id: 209dd037-6ec6-438f-99e9-b13121f48757
+type: text/vnd.tiddlywiki
+
+When you register your phone as an MFA device in [[AWS|Amazon Web Services]], [[AWS|Amazon Web Services]] requires ''two'' codes.
+
+Authy shown one six digit code at a time. You first enter the first one, then wait until the timeout expires, and enter the second one.
+
+The confusion I had at first is that the six digit code was shown in authy in two groups of three, and i thought those were two three-digit codes - and of course when i entered those two three digit groups in separate form fields in the [[AWS|Amazon Web Services]] web shell, it failed..

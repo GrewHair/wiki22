@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241025140917281
+modified: 20241025141010544
+tags: WIP [[Web Browsers]]
+title: Chrome Extension IDs WIP
+tmap.id: d7a429e4-58b7-4e61-9dd4-ae2bbb16468c
+type: text/vnd.tiddlywiki
+
+https://superuser.com/questions/1474705/how-to-find-chrome-extension-in-chrome-web-store-by-id

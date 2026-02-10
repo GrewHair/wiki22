@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251219174533700
+modified: 20251219174635995
+tags: [[Amazon Web Services]]
+title: Comparison of AWS Services (TutorialsDojo)
+tmap.id: c8af84b7-295c-44ef-b1e4-38ef73315d2c
+type: text/vnd.tiddlywiki
+
+https://tutorialsdojo.com/comparison-of-aws-services/

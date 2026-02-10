@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241227002304716
+modified: 20241227002628652
+tags: Networking
+title: Interesting Octet
+tmap.id: b07a555b-ef8a-4619-8fc8-155914a51cfe
+type: text/vnd.tiddlywiki
+
+https://youtu.be/vY4cjGpRiIs?list=PLDmbik4NbmjLbdXIgjiYoZVdGRU7gzEEF&t=4518
+
+The [[Interesting Octet]] is the last octet of a [[Subnet Mask]] to contain a 1
+
+|Dotted decimal |Binary                               |[[Interesting Octet]]|
+|`255.255.255.0`|`11111111.11111111.11111111.00000000`|3|
+|...|||

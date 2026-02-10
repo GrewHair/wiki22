@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250114094822281
+modified: 20250114095009333
+tags: Networking Routing [[CompTIA Network+ (N10-009) Crash Course (Kevin Wallace)]] Stub
+title: Hello (OSPF)
+tmap.id: 5d182067-13dc-4a29-beb2-0f1c384d27a1
+type: text/vnd.tiddlywiki
+
+''AKA OSPF packet type 1''
+
+https://sites.google.com/site/amitsciscozone/ospf/ospf-packet-types

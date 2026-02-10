@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250123191042255
+modified: 20250123191501489
+tags: Computing
+title: Backplane
+tmap.id: 04954645-28b0-481c-a706-61ec720ffd32
+type: text/vnd.tiddlywiki
+
+''Russian: обьединительная панель''
+
+https://en.wikipedia.org/wiki/Backplane
+
+A [[Backplane]] is generally differentiated from a [[Motherboard]] by the lack of on-board processing and storage elements. A backplane uses plug-in cards for storage and processing.
+
+''Where I first saw it mentioned:''
+
+It's very common to hear about [[Backplanes|Backplane]] in the context of [[Switches|Switch]].

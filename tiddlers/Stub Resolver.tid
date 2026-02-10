@@ -1,10 +1,10 @@
 created: 20210322192907033
-modified: 20210322193544975
+modified: 20250801074048794
 tags: Networking Stub
 title: Stub Resolver
 tmap.id: f57e97c5-2bde-4173-9952-d581c243faa2
 type: text/vnd.tiddlywiki
 
-The [[Stub Resolver]] is the software component on the [[Client]] side that just sends any and all [[DNS Queries|DNS Query]] to a pre-configured [[Recursive Resolver Server]] (with the [[Recursion Desired Flag]] set), getting [[said server|Recursive Resolver Server]] do all the work and then just using the [[response|DNS Response]] from [[said server|Recursive Resolver Server]].
+The [[Stub Resolver]] is the software component on the [[Client]] side that just sends any and all [[DNS Queries|DNS Query]] to a pre-configured [[Recursive Resolver Server|Recursive Resolver]] (with the [[Recursion Desired Flag]] set), getting [[said server|Recursive Resolver Server]] do all the work and then just using the [[response|DNS Response]] from [[said server|Recursive Resolver]].
 
 https://serverfault.com/questions/979970/is-a-browser-a-stub-resolver

@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241122105417147
+modified: 20241122105605036
+tags: Cryptocurrencies Stub [[Distributed Computing]]
+title: Byzantine Fault Tolerance System
+tmap.id: 563bbc75-d977-4ca6-9ade-afcba5c4b1f1
+type: text/vnd.tiddlywiki
+
+''AKA BFT''
+
+https://en.wikipedia.org/wiki/Byzantine_fault
+
+https://maddevs.io/glossary/byzantine-fault-tolerance-system/
+
+[[Bitcoin]] is a [[BFT|Byzantine Fault Tolerance System]]

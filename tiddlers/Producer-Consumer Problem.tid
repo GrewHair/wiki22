@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250210163812775
+modified: 20250211210019221
+tags: Stub [[Modern Operating Systems (Andrew S. Tanenbaum, Herbert Bos)]]
+title: Producer-Consumer Problem
+tmap.id: e82acc00-3801-473a-b804-0487798478b0
+type: text/vnd.tiddlywiki
+
+''AKA Bounded-buffer problem''
+
+https://en.wikipedia.org/wiki/Producer%E2%80%93consumer_problem
+
+https://www.youtube.com/watch?v=Qx3P2wazwI0&t=626s&ab_channel=NesoAcademy

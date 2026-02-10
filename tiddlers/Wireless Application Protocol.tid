@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250104094907275
+modified: 20250107152533195
+tags: Networking [[Computer Networks, 5th Edition (Andrew S. Tanenbaum, David J. Wetherall)]]
+title: Wireless Application Protocol
+tmap.id: d962c400-a02c-4bf7-8179-eb1a4426161d
+type: text/vnd.tiddlywiki
+
+''AKA WAP''
+
+''NTBCW: [[WPA|Wi-Fi Protected Access]]''
+
+An obsolete standard for accessing information over a mobile cellular network.
+
+https://en.wikipedia.org/wiki/Wireless_Application_Protocol

@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250114115831170
+modified: 20250114120027735
+tags: Networking [[CompTIA Network+ (N10-009) Crash Course (Kevin Wallace)]]
+title: Root Port
+tmap.id: a1fce6f5-35cf-4f79-9f79-2e8c574aa793
+type: text/vnd.tiddlywiki
+
+In [[STP|Spanning Tree Protocol]], a [[Root Port]] is the one and only one port on a [[Non-root Bridge]] that's closest to the [[Root Bridge]] in terms of cost.

@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251008084701996
+modified: 20251008085137096
+tags: Databases Person [[Read This!]]
+title: Kirill Bobrov (@luminousmen)
+tmap.id: 3f3917a9-3d7a-4a5d-a4a0-ae896758ad40
+type: text/vnd.tiddlywiki
+
+He has quite a few articles on all things data (like [[ACID]], [[PACELC]], data lakes, etc). Better read those.
+
+https://luminousmen.com/about/

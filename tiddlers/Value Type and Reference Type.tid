@@ -1,0 +1,24 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20260204080729183
+modified: 20260204082644223
+tags: Programming WIP
+title: Value Type and Reference Type
+tmap.id: b8bc5c65-1882-4d30-a085-7972dc663d33
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/Value_type_and_reference_type
+
+This article is too important, so here's a wayback machine snapshot, explicit:
+
+https://web.archive.org/web/20251229085122/https://en.wikipedia.org/wiki/Value_type_and_reference_type
+
+https://stackoverflow.com/questions/15326185/is-there-a-performance-penalty-for-passing-this-by-value-in-go-methods/15328868#15328868:~:text=they%20are%20reference%20types%20under%20the%20hood%2C%20but%20they%20are%20also%20immutable%2C%20so%20pass%20them%20around%20directly
+
+There's value types (primitive ints, etc.) and reference types (python lists, etc.). Reference types can cause surprizes if you don't know what you're doing.
+
+If the object is immutable, the difference stops mattering. That's why in haskell, where everything is immutable, this doesn't matter. So, immutable = "safe".. That's why python can be funky with lists (mutable), but saner with strings (immutable), altho both (?) are reference types.
+
+IN PYTHON, ALL TYPES ARE REFERENCE TYPES

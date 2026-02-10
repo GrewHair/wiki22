@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251220095301748
+modified: 20251220095428666
+tags: [[Amazon Web Services]] [[WTF is This?]]
+title: AWS Resource Access Manager
+tmap.id: b735eb44-8240-4fa2-b108-402b258186b3
+type: text/vnd.tiddlywiki
+
+''AKA AWS RAM''
+
+"Simply and securely share your AWS resources across multiple accounts.."
+
+https://aws.amazon.com/ram/

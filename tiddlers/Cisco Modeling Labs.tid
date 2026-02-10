@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250110085833533
+modified: 20250110090145810
+tags: Cisco
+title: Cisco Modeling Labs
+tmap.id: 3b0e7f43-a8b5-4626-addc-9a04d6b68f4b
+type: text/vnd.tiddlywiki
+
+''AKA Cisco CML''
+
+https://www.youtube.com/watch?v=I6A0R9N7y5I&ab_channel=SilesioCarvalho
+
+https://software.cisco.com/download/home/286193282/type/286326381/release/2.8.0%20Free%20Tier

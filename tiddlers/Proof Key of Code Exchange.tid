@@ -1,0 +1,26 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241219210520597
+modified: 20241219212105138
+tags: Security OAuth [[The Nuts and Bolts of OAuth 2.0 (Aaron Parecki)]] Stub
+title: Proof Key of Code Exchange
+tmap.id: a1ce8bee-5bd6-4dbe-ae36-cf8374e4bb21
+type: text/vnd.tiddlywiki
+
+''AKA PKCE''
+
+''Pronounced: Pixie''
+
+In a nutshell:
+
+* the [[client|Oauth Client]] first generates some random password (the [[PKCE|Proof Key of Code Exchange]])
+* then it makes a hash of it
+* then it includes that hash as a param in the first [[Front Channel]] request to the [[Authorization Server]]
+* ...
+* then after receiving the authentication code back from the [[server|Authorization Server]] through the [[Front Channel]], it sends the original/unhashed password to the [[server|Authorization Server]] alongside this authentication code, this time through the [[Back Channel]]
+
+Thus the server concludes that that's the same bloke talking to it on the [[Back Channel]] as the one who initiated the flow, because this is the first time this [[PKCE|Proof Key of Code Exchange]] is travelling through the internet unhashed, and hashing it gives us the same value we've been presented with at the first stage.
+
+Hopefully this means that the whole code exchange we've been talking to the same ol' [[client|Oauth Client]], which is GOOD. So the ''code exchange'' has been ''proved''.. using this ''key'' :)

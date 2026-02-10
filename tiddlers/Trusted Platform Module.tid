@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241209230619547
+modified: 20241209230913094
+tags: Security
+title: Trusted Platform Module
+tmap.id: 5e7166a9-923e-4024-bbd0-95a5142fe3bc
+type: text/vnd.tiddlywiki
+
+''AKA TPM''
+
+https://en.wikipedia.org/wiki/Trusted_Platform_Module
+
+https://learn.microsoft.com/en-us/windows/security/hardware-security/tpm/how-windows-uses-the-tpm
+
+https://wiki.gentoo.org/wiki/Trusted_Platform_Module/SSH

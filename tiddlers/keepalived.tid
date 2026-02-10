@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241204193513844
+modified: 20241204193655032
+tags: [[High Availability]] [[WTF is This?]]
+title: keepalived
+tmap.id: 328c8016-44b4-4946-a38a-ab54913c9c9c
+type: text/vnd.tiddlywiki
+
+https://www.youtube.com/watch?v=hPfk0qd4xEY
+
+https://wiki.archlinux.org/title/Keepalived
+
+It uses [[VRRP|Virtual Router Redundancy Protocol]]...
+
+Is is only relevant to bare metal???

@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250124002140407
+modified: 20250124002422284
+tags: Computing
+title: Function Prologue and Epilogue
+tmap.id: 2f0a1c4b-e027-4467-b69f-686966a7efa4
+type: text/vnd.tiddlywiki
+
+These are the prep/cleanup things your program needs to do before/after it calls a function.
+
+They mostly involve maintaining the stack.
+
+If I understood it correctly, you would have to write them explicitly in assembly, but languages like C do this for you..
+
+https://en.wikipedia.org/wiki/Function_prologue_and_epilogue

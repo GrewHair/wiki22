@@ -5,7 +5,7 @@
         "type": "text/vnd.tiddlywiki",
         "title": "De Morgan's Laws",
         "tags": "Logic [[100 Days of Logic (carneades.org)]]",
-        "modified": "20200510155700771",
+        "modified": "20250130222831087",
         "tmap.id": "f292934c-33cb-4970-b348-413a8f12924f",
         ".res.youtube": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/8TeusREGLUM\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>  <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/jWzjl72hqZo\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
         ".prs.columnar": "<<columnar ~(p&and;q) '' ~p&or;~q>> <br> <<columnar ~(p&or;q) '' ~p&and;~q>>",

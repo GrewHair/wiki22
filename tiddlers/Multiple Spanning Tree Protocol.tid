@@ -1,5 +1,5 @@
 created: 20210328220517310
-modified: 20210328220728134
+modified: 20250114135516408
 tags: Networking Stub
 title: Multiple Spanning Tree Protocol
 tmap.id: 78ebb05d-338d-4444-bdc1-802ec5a57cf5
@@ -8,3 +8,9 @@ type: text/vnd.tiddlywiki
 [[STP|Spanning Tree Protocol]] and [[RSTP|Rapid Spanning Tree Protocol]] were poorly compatible with [[VLANs|VLAN]].
 
 [[MSTP|Multiple Spanning Tree Protocol]] solved this issue.
+
+One other protocol that solves it is [[Cisco's|Cisco]] [[Per-VLAN STP|Per-VLAN Spanning Tree Protocol]] and its variant [[PVSTP+|Per-VLAN Spanning Tree Protocol +]], but those are:
+
+* vendor specific
+* spawn too many instances of a spanning tree unnecessarily (at least back in the day) loading [[Switch's|Switch]] processors
+** [[MSTP|Multiple Spanning Tree Protocol]] tries to be economical about that

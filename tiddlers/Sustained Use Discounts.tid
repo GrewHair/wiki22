@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251022153010108
+modified: 20251022153059549
+tags: [[Google Cloud Platform]] Stub
+title: Sustained Use Discounts
+tmap.id: 3d24907c-a0c1-4030-8b3b-2ba1de1a9c81
+type: text/vnd.tiddlywiki
+
+''AKA SUD''
+
+https://cloud.google.com/compute/docs/sustained-use-discounts

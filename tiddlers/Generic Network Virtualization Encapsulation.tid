@@ -1,0 +1,22 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241128111036198
+modified: 20241128120635586
+tags: 
+title: Generic Network Virtualization Encapsulation
+tmap.id: 9dbd7cbf-6420-4660-9d9e-7880839c0cf8
+type: text/vnd.tiddlywiki
+
+''AKA GENEVE''
+
+An effort by [[IETF|Internet Engineering Task Force]] to stop proliferation of encapsulation protocols.
+
+It tries to unify efforts made by other initiatives like [[VXLAN|VIRTUAL Extensible LAN]] and [[NVGRE]].
+
+https://en.wikipedia.org/wiki/Generic_Network_Virtualization_Encapsulation
+
+A good read:
+
+https://datatracker.ietf.org/doc/html/rfc8926

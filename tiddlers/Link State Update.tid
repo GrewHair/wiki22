@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250114093902308
+modified: 20250114095022624
+tags: Routing Networking [[CompTIA Network+ (N10-009) Crash Course (Kevin Wallace)]] Stub
+title: Link State Update
+tmap.id: c7be75d1-84c4-4365-bbe9-6f371afc65ef
+type: text/vnd.tiddlywiki
+
+''AKA LSU, OSPF packet type 4''
+
+[[LSU|Link State Update]] is a type of [[LSP|Link State Packet]].
+
+An [[LSUs|Link State Update]] carries a collection of [[LSAs|Link State Advertisement]].
+
+https://sites.google.com/site/amitsciscozone/ospf/ospf-packet-types

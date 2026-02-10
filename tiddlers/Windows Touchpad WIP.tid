@@ -1,0 +1,24 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251204115337275
+modified: 20251204124614133
+tags: Windows
+title: Windows Touchpad WIP
+tmap.id: 9fb72fdc-59c9-4bb2-9ac0-7d1d63d33964
+type: text/vnd.tiddlywiki
+
+https://learn.microsoft.com/en-us/windows-hardware/design/component-guidelines/touchpad-tuning-guidelines
+
+https://superuser.com/questions/1721893/disable-part-of-touchpad-on-win-10
+
+https://learn.microsoft.com/en-us/answers/questions/4326579/how-to-change-touchpads-right-click-zone-in-window
+
+https://www.autohotkey.com/boards/viewtopic.php?t=61574
+
+https://stackoverflow.com/questions/47005610/x-and-y-coordinate-from-precision-touchpad-with-raw-input
+
+https://github.com/AHK-just-me/RawInput
+
+https://www.reddit.com/r/Windows10/comments/3ikqdx/guide_how_to_make_your_synaptics_touchpad_work/

@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250107022539224
+modified: 20250107022609395
+tags: Networking [[Post Mortem]]
+title: Facebook DNS Outage
+tmap.id: ace8bd73-4eb2-4faf-9727-9bd7da815a99
+type: text/vnd.tiddlywiki
+
+https://www.youtube.com/watch?v=-wMU8vmfaYo&ab_channel=BenEater

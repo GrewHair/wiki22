@@ -1,0 +1,17 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250620143340881
+modified: 20250620143532389
+tags: [[Amazon Web Services]]
+title: AWS Events WIP
+tmap.id: 9c5cdc9a-ad9c-4e5e-ba48-5e5df7643377
+type: text/vnd.tiddlywiki
+
+* cloudtrail
+** management events (control plane events)
+** data events
+** global service events
+** multi-region (all-region) trails
+** single-region trails

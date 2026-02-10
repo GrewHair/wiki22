@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250109131202173
+modified: 20250109131253708
+tags: [[Active Directory]]
+title: Domain Functional Level
+tmap.id: 8b5ac6a9-e0af-4122-9651-cc646082eb28
+type: text/vnd.tiddlywiki
+
+[[Domain Functional Level]] can not be any lower than the [[Forest|Forest Functional Level]].

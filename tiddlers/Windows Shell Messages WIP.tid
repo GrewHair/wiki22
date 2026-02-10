@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241109134541843
+modified: 20241109135037360
+tags: Windows AutoHotKey Wine WIP
+title: Windows Shell Messages WIP
+tmap.id: 10cef748-48c6-461e-a165-e274dde4516e
+type: text/vnd.tiddlywiki
+
+A pretty awesome list:
+
+https://gitlab.winehq.org/wine/wine/-/wikis/Wine-Developer's-Guide/List-of-Windows-Messages
+
+There's also some here, but i don't quite understand this:
+
+https://learn.microsoft.com/en-us/windows/win32/winmsg/wm-activateapp
+
+https://learn.microsoft.com/en-us/windows/win32/winmsg/windows

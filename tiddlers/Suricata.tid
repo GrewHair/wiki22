@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251224092950409
+modified: 20251224093727324
+tags: Security Networking Stub
+title: Suricata
+tmap.id: 6d77ad4e-f48d-4fea-ac8c-f0407ca654d2
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/Suricata_(software)
+
+https://suricata.io/
+
+An open-source [[IDS|Intrusion Detection System]]/[[IPS|Intrusion Prevention System]], and a de-facto "industry standart" for definition of security policies for [[IDSs|Intrusion Detection System]]/[[IPSs|Intrusion Prevention System]] (the so-called //"Suricata rules"//; e.g., [[AWS Network Firewall]] supports them).

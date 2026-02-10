@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250107124920945
+modified: 20250107125033983
+tags: Networking Security Intelligence [[Computer Networks, 5th Edition (Andrew S. Tanenbaum, David J. Wetherall)]] Stub
+title: Traffic Analysis
+tmap.id: 34c0a982-df36-41a2-9716-ea527842fc13
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/Traffic_analysis

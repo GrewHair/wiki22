@@ -1,5 +1,5 @@
 created: 20210118143320450
-modified: 20210118144003247
+modified: 20241215230015060
 tags: Networking [[Understanding the Digital World (Brian Kernighan)]] Stub
 title: Promiscuous Mode
 tmap.id: 5f61f748-0c9f-4f45-964e-59fe9d0e9025
@@ -8,3 +8,5 @@ type: text/vnd.tiddlywiki
 It is used for [[Packet Sniffing]] (though nowadays it rarely makes sense since nearly all traffic is [[encrypted|Data Encryption]]).
 
 https://en.wikipedia.org/wiki/Promiscuous_mode#:~:text=In%20computer%20networking%2C%20promiscuous%20mode,that%20the%20controller%20is%20specifically
+
+All [[Bridges|Bridge]] (and [[Switches|Switch]]?) by nature work in [[Promiscuous Mode]].

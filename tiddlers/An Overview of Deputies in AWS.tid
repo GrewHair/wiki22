@@ -1,0 +1,36 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251121124011874
+modified: 20251121130705210
+tags: [[Amazon Web Services]] Security [[Identity Management]]
+title: An Overview of Deputies in AWS
+tmap.id: a6574459-d881-46a9-8740-1c796e48747b
+type: text/vnd.tiddlywiki
+
+A fantastic article that looks at AWS policies through the [[Confused Deputy|Confused Deputy Problem]] lens.
+
+It says the main vector is when an AWS service does something on a user's behalf: which at the time of writing (jul 2, 2024) boils down to three possible mechanisms:
+
+* Service-related roles
+** those are your [[Service Roles|Service Role (AWS)]] and [[Service-linked Roles|Service-linked Role (AWS)]]
+** you can use condition keys like `aws:SourceArn`, `aws:SourceAccount`, `aws:SourceOrgID`, `aws:SourceOrgPaths`, and others to tighten up the [[Service Roles|Service Role (AWS)]]'s permission policies
+** but you can't do it with [[Service-linked Roles|Service-linked Role (AWS)]], as you can't edit those
+** a user needs [[passRole]] to pass these roles to services. [[passRole]] can be hard to audit, as it's not an api action somehow
+* User Impersonation
+** this means ([[FAS|Forward Access Sessions]])
+** unlike service-related roles, this mechanism is a one-time thing. It pretends to be you permissions-wise for a short time when you create a resourse like cloudHSM that needs to create other stuff like some [[ENIs|Elastic Network Interface]], and when it's done, calls it a night (doesn't leave a role behind or anything)
+** considered to be the safest on the list
+** you'd think this would be hard to audit, but luckily there's the `invokedBy` field in [[CloudTrail|AWS CloudTrail]] that captures those
+* Fully internal actions
+** i assume that's just legacy, underdocumented stuff, the way things were handled when things started. [[FAS|Forward Access Sessions]] is how it **should have been**, but [[FAS|Forward Access Sessions]] weren't always around. That's my understanding. I could be wrong.
+** [[AWS|Amazon Web Services]] waves away at those, but the article author feels like that's a serious defect
+** some examples:
+*** `ec2:CreateImage` also implicitly creates snapshots
+*** `ec2:RunInstances` also implicitly creates [[ENIs|Elastic Network Interface]]
+*** `ec2:CreateDefaultVPC` also implicitly creates subnets
+*** `rds:CreateDBCluster` also implicitly creates [[Subnet Groups|RDS Subnet Groups]]
+** the problem is those implicit actions bypass stuff like [[CloudTrail|AWS CloudTrail]], etc.
+
+https://sra.io/blog/an-overview-of-deputies-in-aws/

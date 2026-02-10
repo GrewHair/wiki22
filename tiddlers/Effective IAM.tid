@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251119101741817
+modified: 20251119101806310
+tags: [[Identity Management]] [[Amazon Web Services]] Book [[Read This!]]
+title: Effective IAM
+tmap.id: e6510d73-b9d9-4f00-878a-21e644aaad88
+type: text/vnd.tiddlywiki
+
+https://www.effectiveiam.com/about

@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250106115647309
+modified: 20250217153554639
+tags: Banking Cryptocurrencies Stub
+title: Know Your Customer
+tmap.id: 22110bdf-96c7-4963-980f-9cd9abfef309
+type: text/vnd.tiddlywiki
+
+''AKA KYC''
+
+https://en.wikipedia.org/wiki/Know_your_customer
+
+Hey look, they're trying to get into non-custodial wallets too:
+
+https://koinly.io/blog/eu-crackdown-on-non-custodial-wallets/

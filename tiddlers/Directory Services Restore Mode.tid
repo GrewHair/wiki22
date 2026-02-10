@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250109131508912
+modified: 20250109132108237
+tags: [[Active Directory]]
+title: Directory Services Restore Mode
+tmap.id: 0f40c795-86dd-4b5e-987b-c33c4b5d409f
+type: text/vnd.tiddlywiki
+
+''AKA DSRM''
+
+If you need to restore [[Active Directory]] from a backup, you need to:
+
+* reboot your [[Domain Controller]]
+* hold down shift+f8
+* pick [[DSRM|Directory Services Restore Mode]] from the advanced startup options (it'll be along other options like safe mode, safe mode with networking, command prompt only, etc)
+* in that mode [[Active Directory]] is not yet running, so you can't log in with a domain account
+* thus you need to enter the special [[DSRM Password]] that you've specified when you first set up your [[Domain Controller]]

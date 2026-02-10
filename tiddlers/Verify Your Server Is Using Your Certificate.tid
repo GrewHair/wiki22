@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20260123160308946
+modified: 20260123160349869
+tags: Security [[Transport Layer Security]]
+title: Verify Your Server Is Using Your Certificate
+tmap.id: afa4b812-45dd-4cfe-b44d-a24351a1dfc6
+type: text/vnd.tiddlywiki
+
+```
+echo | openssl s_client -showcerts -servername app01.com -connect app01:443 2>/dev/null | openssl x509 -inform pem
+```

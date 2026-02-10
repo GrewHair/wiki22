@@ -1,0 +1,23 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251109120949380
+modified: 20251109121148629
+tags: Python
+title: Parameters vs Arguments
+tmap.id: ab5f3bb8-ef63-4254-90b4-a385e870eb59
+type: text/vnd.tiddlywiki
+
+They're called "parameters" when we're defining, but args when we're calling.. although it's not like it's very important..
+
+```python
+# a and b are parameters
+def add(a, b):
+    return a + b
+
+# 5 and 6 are arguments
+sum = add(5, 6)
+```
+
+https://www.boot.dev/lessons/5de37882-4ba4-4544-ba0b-ead621b4b451

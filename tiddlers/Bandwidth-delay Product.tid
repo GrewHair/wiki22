@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241216093120103
+modified: 20241216093418384
+tags: Networking [[Computer Networks, 5th Edition (Andrew S. Tanenbaum, David J. Wetherall)]] [[WTF is This?]]
+title: Bandwidth-delay Product
+tmap.id: 112b648f-0b71-4889-9a46-6dc50f59e4dc
+type: text/vnd.tiddlywiki
+
+This really reminds me of that heisenberg uncertainty stuff...
+
+https://en.wikipedia.org/wiki/Bandwidth-delay_product

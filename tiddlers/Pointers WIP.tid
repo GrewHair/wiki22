@@ -1,0 +1,36 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20260121113344091
+modified: 20260121114716273
+tags: WIP C
+title: Pointers WIP
+tmap.id: c6292821-b025-4f9b-ae66-70fa2ca06a65
+type: text/vnd.tiddlywiki
+
+https://chatgpt.com/c/6970a2ac-035c-8330-a755-055b68decb3f
+
+---
+
+https://www.youtube.com/watch?v=t5NszbIerYc
+
+https://www.youtube.com/watch?v=rtgwvkaYt1A - not that great, but touches on c++
+
+https://www.youtube.com/watch?v=q24-QTbKQS8 - answers (without knowing) the question of "why pointers are typed in c"
+
+https://www.youtube.com/watch?v=MgpgzNxKhgQ&t=17s - touches on "declaration mimics use"
+
+---
+
+https://www.reddit.com/r/programming/comments/pz3n0/cc_pointer_declaration_syntax_it_makes_sense/
+
+https://www.reddit.com/r/ProgrammingLanguages/comments/m5vmmc/how_would_you_implement_cstyle_declaration/
+
+---
+
+https://en.wikipedia.org/wiki/Pointer_(computer_programming)#C_and_C++
+
+https://en.wikipedia.org/wiki/Reference_(computer_science)
+
+https://en.wikipedia.org/wiki/Evaluation_strategy

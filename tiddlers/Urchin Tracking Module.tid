@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251108084838587
+modified: 20251108085039108
+tags: [[Web Analytics]] Stub
+title: Urchin Tracking Module
+tmap.id: ee3d50fb-37d1-4924-92e8-d3a9a05a827f
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/UTM_parameters
+
+Found it while copying [[Reddit]] links (they come up as query params).

@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241103103013256
+modified: 20241104111901825
+tags: [[Web Browsers]]
+title: Window: beforeunload event
+tmap.id: e0599686-e0c0-46de-b739-f4bcd321a625
+type: text/vnd.tiddlywiki
+
+https://developer.mozilla.org/en-US/docs/Web/API/Window/beforeunload_event
+
+https://stackoverflow.com/questions/72224869/how-to-disable-leave-site-changes-you-made-may-not-be-saved-pop-up-in-angula
+
+Also "confirm form resubmission"...
+
+https://stackoverflow.com/questions/57989098/what-prompts-confirm-form-resubmission

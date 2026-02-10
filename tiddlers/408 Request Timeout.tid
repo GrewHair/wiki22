@@ -1,8 +1,12 @@
 created: 20230114191601162
-modified: 20230114191719365
+modified: 20241030102158830
 tags: HTTP Stub
 title: 408 Request Timeout
 tmap.id: 64cfb9c5-fa3d-453b-91dc-cdcb4c9dcafc
 type: text/vnd.tiddlywiki
 
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/408
+
+examples:
+
+* timeout in form submission

@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241008183409555
+modified: 20241008183824628
+tags: [[Amazon Web Services]]
+title: EFS Infrequent Access
+tmap.id: a51949d3-8205-41e5-be60-c0273a89d347
+type: text/vnd.tiddlywiki
+
+''AKA EFS-IA''
+
+An cost-optimized [[EFS|Elastic File System]] variant, saves up to 92% of EFS Standard.

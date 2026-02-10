@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241031093454510
+modified: 20241031094027109
+tags: JHipster Java
+title: JHipster Registry
+tmap.id: bf23cb30-902a-4c69-8274-0c1fe37d152b
+type: text/vnd.tiddlywiki
+
+https://www.jhipster.tech/jhipster-registry/
+
+Part of [[JHipster]], a [[Eureka|Netflix Eureka]] server.
+
+Deprecated in favour of [[Consul|Hashicorp Consul]].
+
+Port 8761

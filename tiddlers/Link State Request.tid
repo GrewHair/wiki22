@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250114094603336
+modified: 20250114095035905
+tags: Networking Routing [[CompTIA Network+ (N10-009) Crash Course (Kevin Wallace)]] Stub
+title: Link State Request
+tmap.id: 48df1d05-9f0f-4bb3-95d8-24355b23860b
+type: text/vnd.tiddlywiki
+
+''AKA LSR, OSPF packet type 3''
+
+A [[Router]] uses a [[LSR|Link State Request]] [[packet|Packet (Networking)]] to request specific [[LSA|Link State Advertisemet]] information from a neighbor.
+
+https://sites.google.com/site/amitsciscozone/ospf/ospf-packet-types

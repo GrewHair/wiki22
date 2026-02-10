@@ -1,0 +1,53 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251121120403240
+modified: 20251121123519251
+tags: [[Amazon Web Services]]
+title: Organization Policies (AWS)
+tmap.id: ee307746-050c-43ef-b27f-8d525daccdf3
+type: text/vnd.tiddlywiki
+
+When you first learn about [[AWS Organizations]] in your "for dummies" AWS course, they tell you about this [[SCP|Service Control Policies]] thingie, presenting them as //the// type of policies that have to do with organizations.
+
+What do you know, [[SCPs|Service Control Policies]] are in just one kind (if the most popular and practical one) of [[Organization Policies|Organization Policies (AWS)]]!!
+
+https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies.html?utm_source=chatgpt.com
+
+You live your life and don't touch anyone, until you stumble upon a policy like this:
+
+```json
+{
+    "Version": "2012-10-17",
+    "Statement": {
+        "Sid": "AlloworgsReadonlyAndIamGetReport",
+        "Effect": "Allow",
+        "Action": [
+          "iam:GetOrganizationsAccessReport",
+          "organizations:Describe*",
+          "organizations:List*"
+        ],
+        "Resource": "*"
+    },
+    {
+        "Sid": "AllowGenerateReportonlyForThePolicy",
+        "Effect": "Allow",
+        "Action": "iam:GenerateOrganizationsAccessReport",
+        "Resource": "*",
+        "Condition": {
+            "StringeEquals": {"iam:OrganizationsPolicyId": "p-policyl23"}
+        }
+    }
+}
+```
+
+with an explanation like:
+
+```
+For those accounts that are members of an AWS Organizations unit, this condition key provides the IAM entity access to specific SCPs. 
+
+The example shown here is an IAM policy that allows viewing service last accessed information for SCP with the p-policy123 ID. This policy also allows the requester to retrieve the data for any Organizations entity in their organization.
+```
+
+But there's not a word about [[SCPs|Service Control Policies]] in the policy document at all. Wonder why? Now you know why.

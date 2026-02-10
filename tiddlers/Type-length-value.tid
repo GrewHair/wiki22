@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250810112801148
+modified: 20250810112911409
+tags: Networking
+title: Type-length-value
+tmap.id: ab1ce566-d0ca-4f91-ab2b-4e7c3ccd135d
+type: text/vnd.tiddlywiki
+
+''AKA TLV''
+
+https://en.wikipedia.org/wiki/Type%E2%80%93length%E2%80%93value
+
+Found it here:
+
+https://youtu.be/dGuNeZk5PNA?list=PLC86T-6ZTP5jLEgu8to8qjzL0uxOkjNSE&t=1784

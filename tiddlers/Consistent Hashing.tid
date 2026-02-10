@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251107221810765
+modified: 20251107222219461
+tags: Hashing [[Distributed Computing]] Stub
+title: Consistent Hashing
+tmap.id: 47e657e5-2a97-4131-92dc-ee54fedede5c
+type: text/vnd.tiddlywiki
+
+This thing is behind [[DynamoDB's|DynamoDB]] distributed storage system. A hash of the partition key specifies a partition (server) that hosts the data, that kind of stuff.
+
+https://en.wikipedia.org/wiki/Consistent_hashing

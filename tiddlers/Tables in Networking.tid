@@ -1,5 +1,5 @@
 created: 20210303113020539
-modified: 20210303113813473
+modified: 20241201120324017
 tags: Networking
 title: Tables in Networking
 tmap.id: 5e016c2c-c898-4c52-b57e-55828c253b87
@@ -10,3 +10,5 @@ type: text/vnd.tiddlywiki
 |[[Layer 3]] $$\to$$ [[Layer 2]]|[[ARP Table]]|
 |[[Layer 3]] + [[Layer 4]]|[[NAT Table]]|
 |[[Layer 7]]|[[DNS Zone]]|
+
+BGP table?

@@ -1,5 +1,5 @@
 created: 20220817193823781
-modified: 20220817194221227
+modified: 20241204191401885
 tags: [[Couldn't Google It]] [[Distributed Computing]] Stub
 title: Distributed Configuration Store
 tmap.id: 6f79134b-9fee-4da8-aa7a-a664ad433a6b
@@ -15,4 +15,4 @@ Found it here:
 
 https://youtu.be/o5ZiXUnASL0?t=487
 
-Perhaps, [[etcd]] is an example of this thing..
+Perhaps, [[etcd]] is an example of this thing.. (also [[ZooKeeper]], [[Consul]]...)

@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250121112510318
+modified: 20250121112603761
+tags: Person Cryptocurrencies
+title: Andreas Antonopoulos
+tmap.id: 9dec030d-a57c-4f39-b86a-a10fae2b7faa
+type: text/vnd.tiddlywiki
+
+A [[Bitcoin]] advocate
+
+https://en.wikipedia.org/wiki/Andreas_Antonopoulos#Books

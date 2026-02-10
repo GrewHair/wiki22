@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241030095931045
+modified: 20241030101231906
+tags: Web
+title: POST Search WIP
+tmap.id: 0ecf1ceb-a1b8-4324-b7d7-1cbe88650e74
+type: text/vnd.tiddlywiki
+
+https://stackoverflow.com/questions/20550514/post-or-get-in-a-search-form
+
+Basically usually `/search` is done through [[GET]], but it has no request body, so can't handle more complex requests.
+
+Found this in vivaldi's search engines settings and in jenkins "method not allowed" page when it proposes to "retry using POST"

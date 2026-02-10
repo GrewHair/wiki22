@@ -1,8 +1,20 @@
 created: 20210328215957483
-modified: 20210328220115256
-tags: Networking Stub
+modified: 20250114121654792
+tags: Networking Stub [[CompTIA Network+ (N10-009) Crash Course (Kevin Wallace)]]
 title: Spanning Tree Protocol
 tmap.id: 4069d031-7c26-4e18-8d3f-bd6fd4650aa7
 type: text/vnd.tiddlywiki
+
+''AKA STP''
+
+The precedent that sparked the creation of [[STP|Spanning Tree Protocol]] happened back in the days of [[Bridges|Bridge]] (i.e. there were no [[Switches|Switch]] yet).
+
+[[Bridges|Bridge]] were slow and not terribly reliable, so people liked to interconnect them in redundant configurations.
+
+Since [[Ethernet]] doesn't have [[TTL|Time To Live]], these redundant configurations were prone to [[Broadcast Storms|Broadcast Storm]], i.e. frames endlessly circulating in a [[LAN|Local Area Network]].
+
+Thus [[STP|Spanning Tree Protocol]] was created to automatically reduce any physical topology (even a full [[Mesh]]) to a [[Spanning Tree]] to prevent that.
+
+What do we care of this story? Well, that's why [[STP|Spanning Tree Protocol]] terminology has [[Bridges|Bridge]] all over the place, and no [[Switches|Switch]]. So when we're talking [[STP|Spanning Tree Protocol]], all our [[Switches|Switch]] are [[Bridges|Bridge]], lol.
 
 https://en.wikipedia.org/wiki/Spanning_Tree_Protocol

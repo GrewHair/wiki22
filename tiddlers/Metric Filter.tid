@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250223160351324
+modified: 20250223160426146
+tags: [[Amazon Web Services]]
+title: Metric Filter
+tmap.id: 03bd80a7-61f1-4d1d-91ce-83bcefb791e9
+type: text/vnd.tiddlywiki
+
+It supposedly converts cloudwatch logs to metrics...?
+
+https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/MonitoringPolicyExamples.html

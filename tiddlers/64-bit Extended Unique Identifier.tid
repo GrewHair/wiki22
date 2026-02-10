@@ -1,0 +1,23 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250108094330197
+modified: 20250108095005136
+tags: Networking
+title: 64-bit Extended Unique Identifier
+tmap.id: 7c6e47d8-34b2-4ba8-a1fa-daebd227b27f
+type: text/vnd.tiddlywiki
+
+''AKA EUI-64''
+
+* take the device's [[MAC Address]]
+* stuff `0xFFFE` in between the [[OUI|Organisationally Unique Identifier]] and the vendor assigned part
+* set the 7th bit of the [[OUI|Organisationally Unique Identifier]] part to `1` (to indicate that it has been locally assigned)
+* use what resulted as the host part of the [[IP Address]] (with [[IPv6]], the netmask is usually `/64` - right in the center - because hopefully there's plenty of address space)
+
+This lets us rid of [[DHCP|Dynamic Host Configuration Protocol]] i guess...
+
+Why are the rules so bizarre tho? Check this out:
+
+https://www.reddit.com/r/networking/

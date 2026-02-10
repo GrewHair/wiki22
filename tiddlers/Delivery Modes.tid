@@ -1,0 +1,22 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241129133118884
+modified: 20241129133419164
+tags: 
+title: Delivery Modes
+tmap.id: 7cbf1282-8950-44b0-a537-d931e48981c5
+type: text/vnd.tiddlywiki
+
+This is a feature of some [[Message Queue Protocols]]
+
+* at most once
+* at least once
+* exactly once
+
+https://developers.cloudflare.com/pub-sub/learning/delivery-guarantees/
+
+First found it here:
+
+https://medium.com/@marton.waszlavik/demystifying-cap-theorem-eventual-consistency-and-exactly-once-delivery-guarantee-ed20cf7cc877

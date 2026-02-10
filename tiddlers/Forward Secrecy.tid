@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241116210442281
+modified: 20241116210510228
+tags: Security Stub
+title: Forward Secrecy
+tmap.id: 0c9b28c1-5fd3-4ac5-83d0-9ada83be1f9b
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/Forward_secrecy

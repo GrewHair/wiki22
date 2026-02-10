@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251016121759654
+modified: 20251016122051272
+tags: [[Amazon Web Services]]
+title: Mean Time Between Failures
+tmap.id: 48a21980-e67f-4590-92f8-6b247ca23cca
+type: text/vnd.tiddlywiki
+
+''AKA MTBF''
+
+https://en.wikipedia.org/wiki/Mean_time_between_failures
+
+Here's some simple (?) guides:
+
+https://www.resco.net/learning/

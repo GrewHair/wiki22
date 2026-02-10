@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250613095025405
+modified: 20250613100406071
+tags: 
+title: stripe.com
+tmap.id: 8ace9aa5-b131-49be-ad5b-7d82d7da252d
+type: text/vnd.tiddlywiki
+
+checkout.stripe.com
+
+it looks like that's the way to pay for chrome extensions..

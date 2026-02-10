@@ -1,0 +1,13 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251016114925122
+modified: 20251016115010998
+tags: 
+title: Some Lesser Known\Basic CompTIA Certs
+tmap.id: ea80d961-620d-4364-8a85-dc26d79eccf2
+type: text/vnd.tiddlywiki
+
+* CySA+
+* PenTest+

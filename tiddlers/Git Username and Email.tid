@@ -1,0 +1,21 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251202093012392
+modified: 20251202093516884
+tags: Git Github
+title: Git Username and Email
+tmap.id: 12cd7ad6-b4cd-4972-93f7-609dbf9f7c9d
+type: text/vnd.tiddlywiki
+
+[[Prime|ThePrimeagen]] recommends your git username to be your [[Github]] username!
+
+```bash
+git config set --global user.name
+git config set --global user.email
+```
+
+[[Prime|ThePrimeagen]] also admits that most of the time you'll likely just be using the global config..
+
+https://www.boot.dev/lessons/69fb8a76-9456-47e2-9804-05466614882e

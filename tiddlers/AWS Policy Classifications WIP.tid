@@ -1,0 +1,44 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251117102010678
+modified: 20251117103405105
+tags: [[Amazon Web Services]] WIP [[Identity Management]]
+title: AWS Policy Classifications WIP
+tmap.id: 57398f2f-1349-457a-83a0-b2b501112802
+type: text/vnd.tiddlywiki
+
+''Guardrails/grants'' (interestingly, the term "guardrails" has been also used in [[AWS Control Tower]]. I wonder if that's the same thing..)
+
+* guardrails
+** [[SCPs|Service Control Policies]]
+** Permissions boundries
+** Session policies
+* grants
+** Identity-based policies
+** Resource-based policies
+** ACLs
+
+---
+
+''AWS-managed vs Customer-managed policies'' (not to be confused with "inline vs managed")
+
+* AWS-managed
+* Customer-managed
+
+---
+
+''Inline vs managed'' (this begs the question: if identity-based policies can both be inline or managed, and resouce policies are always inline - how about other [[Policy Types]]? how about ACLs, SCPs, permission boundries, session policies?)
+
+* Inline (resource policies can only be inline)
+* Managed
+
+---
+
+''Trust policy vs permissions policy''
+
+these two are both attributes of roles (exclusively). A role is kind of "both a principal and a resource", and thus:
+
+* trust policy is a resource-based policy
+* permissions policy is an identity-based policy

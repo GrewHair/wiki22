@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251219175307043
+modified: 20251219175324543
+tags: [[Amazon Web Services]] Stub
+title: Amazon Kinesis
+tmap.id: 0ddc0dae-27e7-4c71-aebd-e217705e88a4
+type: text/vnd.tiddlywiki
+
+https://tutorialsdojo.com/amazon-kinesis/

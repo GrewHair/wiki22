@@ -1,5 +1,5 @@
 created: 20210303132942296
-modified: 20210305211215961
+modified: 20250113212542907
 tags: Networking Stub
 title: Port Forwarding
 tmap.id: b344259c-15db-466b-aff2-42f60628a88c
@@ -8,5 +8,13 @@ type: text/vnd.tiddlywiki
 ''AKA Port Mapping''
 
 [[Port Forwarding]] is an application of [[NAT|Network Address Translation]] that redirects a communication request from ane [[Address|IP Address]] and [[Port]] Number combination to another while the [[packets|Packet]] are traversing a network [[Gateway]], such as a [[Router]] or [[Firewall]].
+
+''Why is it important?''
+
+Let's say we have a [[Private Network]] of some 10 [[Hosts|Host (Networking)]] behind a [[NAT|Network Address Translation]], and we have a [[Host|Host (Networking)]] there that we want to be able to [[SSH|Secure Shell]] into from the public [[Internet]] (for some maintenance of the network perhaps, or whatever).
+
+There's no way to reach in directly, as the [[Hosts|Host (Networking)]] are behind [[NAT|Network Address Translation]], unless you're willing to pay for an [[IPv4 Address]] just for that.
+
+We could use [[Port Forwarding]] instead, specifying explicitly that if someone reaches out from the [[Internet]] to [[Port|Port (Networking)]] 22 specifically (+ [[IP Address]] of our gateway of course), she should be directed straignt to the host with the [[Private Address]] such-and-such..
 
 https://en.wikipedia.org/wiki/Port_forwarding

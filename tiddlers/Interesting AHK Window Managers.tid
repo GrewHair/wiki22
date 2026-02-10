@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241003171322119
+modified: 20241005004602930
+tags: AutoHotKey
+title: Interesting AHK Window Managers
+tmap.id: aff9843e-087d-41cb-9370-1146a0aea6d7
+type: text/vnd.tiddlywiki
+
+* Niftywindows
+
+https://ahkscript.github.io/NiftyWindows/introduction/
+
+* AHK Workspaces

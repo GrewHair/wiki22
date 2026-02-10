@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250213232143992
+modified: 20250214102536641
+tags: [[Modern Operating Systems (Andrew S. Tanenbaum, Herbert Bos)]]
+title: Page Table
+tmap.id: e006a079-fc9c-4163-8431-325403736dd3
+type: text/vnd.tiddlywiki
+
+A [[Page Table]] maps virtual pages onto page frames..
+
+Note that the disk address used to hold the page when it is not in memory si not part of the [[Page Table]].
+
+https://en.wikipedia.org/wiki/Page_table

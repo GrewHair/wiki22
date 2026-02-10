@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251209101135010
+modified: 20251209101436092
+tags: [[Functional Programming]]
+title: Expressions VS Statements in Functional Programming
+tmap.id: 7702bb77-bbdb-4619-a340-656dae566095
+type: text/vnd.tiddlywiki
+
+http://lambda-the-ultimate.org/node/1044
+
+https://www.boot.dev/lessons/f4d154db-d32d-4431-820e-81c1c25596bd
+
+https://web.archive.org/web/20250216030541/http://lambda-the-ultimate.org/node/1044

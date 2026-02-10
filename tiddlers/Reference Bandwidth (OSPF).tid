@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250114101324797
+modified: 20250114101802367
+tags: Networking Routing [[CompTIA Network+ (N10-009) Crash Course (Kevin Wallace)]] Stub
+title: Reference Bandwidth (OSPF)
+tmap.id: 1a292335-a82b-4946-aa4a-710f8b3d8e4b
+type: text/vnd.tiddlywiki
+
+''AKA Reference BW''
+
+[[OSPF|Open Shortest Paths First]] uses bandwidth (and not hop count) as a cost.
+
+However it's pretty old, and because of rounding to an integer, it often can't tell between a 100M link, a 1G Link, a 10G link, etc. They all round to 1.
+
+The solution is to set [[Reference WB|Reference Bandwidth (OSPF)]] to some ridiculously large number ([[Kevin Wallace]] recommends 2 trillion). This will adjust the "baseline".
+
+https://networklessons.com/ospf/ospf-reference-bandwidth

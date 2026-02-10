@@ -1,0 +1,22 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241218141524502
+modified: 20241218141857288
+tags: Networking
+title: Simple Authentication and Security Layer
+tmap.id: 3e6a300d-4f7e-4e28-96c6-d77f6c9684b0
+type: text/vnd.tiddlywiki
+
+''AKA SASL''
+
+Basically allows advanced auth methods for old [[Layer 7]] protocols like [[LDAP]], [[SMTP]], etc..
+
+Basically everything that's available ootb with [[HTTP]], but for everyone.
+
+[[Kafka|Apache Kafka]] uses it..
+
+So far I've dealt with [[XOauth2]] which is an extension of it that does oauth..
+
+https://stackoverflow.com/questions/4942557/what-is-xoauth-and-its-relationship-with-oauth

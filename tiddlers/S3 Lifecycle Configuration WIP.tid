@@ -1,0 +1,21 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250627093359026
+modified: 20250701142011901
+tags: [[Amazon Web Services]]
+title: S3 Lifecycle Configuration WIP
+tmap.id: 3c2e196f-65db-4d94-b59d-0aa1d949d6d1
+type: text/vnd.tiddlywiki
+
+* S3 Standard
+* S3 Standard-IA
+* S3 Intelligent Tiering
+* S3 Glacier - Instant Retrieval
+* S3 Glacier - Flexible Retrieval
+* S3 Glacier - Deep Archive
+
+Stan infrequent intel instagram flex deep...
+
+Stan is infrequently intelligent, Instant Lex is Deep

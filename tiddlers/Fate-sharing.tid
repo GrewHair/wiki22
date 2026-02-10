@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241230003436298
+modified: 20241230005847756
+tags: Networking Stub
+title: Fate-sharing
+tmap.id: 01d74c45-52aa-4953-83c9-0785eeee6849
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/Fate-sharing
+
+It's an example of the [[End-to-end Principle]].

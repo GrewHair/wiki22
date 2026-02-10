@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251007150422398
+modified: 20251008110923651
+tags: DNS [[Transport Layer Security]] Stub [[WTF is This?]]
+title: DNS Certification Authority Authorization
+tmap.id: 03f84413-a4c0-46e3-a45c-bb2f445d3836
+type: text/vnd.tiddlywiki
+
+''AKA CAA''
+
+https://en.wikipedia.org/wiki/DNS_Certification_Authority_Authorization

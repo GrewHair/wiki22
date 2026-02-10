@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250114120618332
+modified: 20250114120703470
+tags: Networking [[CompTIA Network+ (N10-009) Crash Course (Kevin Wallace)]] Stub
+title: STP Path Cost Methods
+tmap.id: 7585c3df-9b1e-4d54-9f44-79afde35de98
+type: text/vnd.tiddlywiki
+
+https://howtorouteswitch.com/stp-path-cost-method-short-vs-long/

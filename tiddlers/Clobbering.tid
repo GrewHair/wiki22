@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251203095724471
+modified: 20251203100637540
+tags: Linux Computing
+title: Clobbering
+tmap.id: 2bde5013-213f-450e-9e1b-97055ae4be32
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/Clobbering
+
+https://www.victordodon.com/to-clobber-or-to-noclobber/
+
+''TL;DR'' `set -o noclobber` makes it so it errors when you `echo "not much to see here" > ./important-file`. to "force-clobber", you would need to do a `>|`.
+
+Found it here:
+
+https://www.boot.dev/lessons/bb5f3005-894f-4d2f-80d1-75f4f143dd0d

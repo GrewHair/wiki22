@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250109130810386
+modified: 20250109131137549
+tags: [[Active Directory]]
+title: Forest Functional Level
+tmap.id: bbe846f7-8759-4d5b-913a-d210c017d2e1
+type: text/vnd.tiddlywiki
+
+[[Forest Functional Level]] has to be the oldest operating system that you run on a [[Domain Controller]] (in a certain [[Forest|Forest (AD)]], apparently..)
+
+It only applies to [[Domain Controllers|Domain Controller]].

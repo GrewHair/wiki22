@@ -1,0 +1,40 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251117122541165
+modified: 20251120152137197
+tags: [[Amazon Web Services]] [[Identity Management]] Stub
+title: Request Context (AWS IAM)
+tmap.id: 40def494-20ef-43c8-be00-871ce4760dbe
+type: text/vnd.tiddlywiki
+
+''NTBCW: [[sessionContext]]''
+
+https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic_policy-eval-reqcontext.html#:~:text=The%20following%20shows%20an%20example%20of%20how%20the%20PARC%20model%20might%20represent%20a%20request%20context%3A
+
+
+```
+Principal: AIDA123456789EXAMPLE
+Action: s3:CreateBucket
+Resource: arn:aws:s3:::amzn-s3-demo-bucket1
+Context:
+- aws:UserId=AIDA123456789EXAMPLE:BobsSession
+- aws:PrincipalAccount=123456789012
+- aws:PrincipalOrgId=o-example
+- aws:PrincipalARN=arn:aws:iam::AIDA123456789EXAMPLE:role/HR
+- aws:MultiFactorAuthPresent=true
+- aws:CurrentTime=...
+- aws:EpochTime=...
+- aws:SourceIp=...
+- aws:PrincipalTag/dept=123
+- aws:PrincipalTag/project=blue
+- aws:RequestTag/dept=123
+```
+
+sometimes it additionally throws in some context from the service to be accessed:
+
+```
+- aws:ResourceTag/dept=456
+- aws:ResourceTag/project=blue
+```

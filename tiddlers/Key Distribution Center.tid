@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250107170932796
+modified: 20250107171114514
+tags: Security Networking [[Computer Networks, 5th Edition (Andrew S. Tanenbaum, David J. Wetherall)]]
+title: Key Distribution Center
+tmap.id: ee6891f0-a408-4782-8f0c-f8f189b05b67
+type: text/vnd.tiddlywiki
+
+''AKA KDC''
+
+https://en.wikipedia.org/wiki/Key_distribution_center
+
+''Note:'' it's not ALL about [[Kerberos]], [[KDC|Key Distribution Center]] seems to also be a general academic notion in auth protocols.

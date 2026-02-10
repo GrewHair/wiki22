@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250114092940124
+modified: 20250114093502051
+tags: Networking [[CompTIA Network+ (N10-009) Crash Course (Kevin Wallace)]] Stub Routing
+title: Link State Advertisement
+tmap.id: 58083fcf-d3d0-4454-b89f-ae7e27c8d878
+type: text/vnd.tiddlywiki
+
+''AKA LSA''
+
+[[LSA|Link State Advertisement]] is a basic communication means of [[OSPF|Open Shortest Path First]]..
+
+They are combined to form an [[LSDB|Link State Database]]
+
+https://en.wikipedia.org/wiki/Link-state_advertisement

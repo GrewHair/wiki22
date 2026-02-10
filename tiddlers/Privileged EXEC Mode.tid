@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250110083445293
+modified: 20250110091121529
+tags: Cisco Networking Stub
+title: Privileged EXEC Mode
+tmap.id: da14b96b-e9bc-4d82-b8f4-884d3c5f73e1
+type: text/vnd.tiddlywiki
+
+''AKA Privilege Level 15''
+
+The highest priviege level in [[Cisco IOS]].
+
+https://www.sciencedirect.com/topics/computer-science/privileged-exec-mode

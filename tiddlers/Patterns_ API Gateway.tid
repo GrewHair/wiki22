@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20240624140801915
+modified: 20251219173021966
+tags: [[Design Patterns]] Microservices Stub [[Read This!]]
+title: Patterns: API Gateway
+tmap.id: d5f54e6b-137e-4357-93b0-88e3095aa927
+type: text/vnd.tiddlywiki
+
+https://microservices.io/patterns/apigateway.html

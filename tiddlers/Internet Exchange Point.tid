@@ -1,5 +1,5 @@
 created: 20210128160422172
-modified: 20210201101540928
+modified: 20241130133729530
 tags: Networking [[Understanding the Digital World (Brian Kernighan)]] Stub
 title: Internet Exchange Point
 tmap.id: 2d305118-ea46-486a-be7b-804afbe90479
@@ -10,3 +10,11 @@ type: text/vnd.tiddlywiki
 An [[Internet Exchange Point]] is the physical infrastructure through which [[Internet Service Providers|Internet Service Provider]] and [[Content Delivery Networks|Content Delivery Network]] exchange Internet traffic between their [[Autonomous Systems|Autonomous System (Internet)]].
 
 https://en.wikipedia.org/wiki/Internet_exchange_point#:~:text=An%20Internet%20exchange%20point%20(IX,their%20networks%20(autonomous%20systems).
+
+Here they are:
+
+https://www.internetexchangemap.com/
+
+The largest ones:
+
+https://en.wikipedia.org/wiki/List_of_Internet_exchange_points_by_size

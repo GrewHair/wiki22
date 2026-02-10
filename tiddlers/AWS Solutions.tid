@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251219144155711
+modified: 20251219150242602
+tags: [[Amazon Web Services]] Stub
+title: AWS Solutions
+tmap.id: df87b2e5-2816-48e7-b26f-62f8880adec9
+type: text/vnd.tiddlywiki
+
+https://github.com/aws-solutions
+
+https://aws.amazon.com/solutions/what-are-solutions/

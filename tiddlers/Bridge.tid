@@ -1,5 +1,5 @@
 created: 20210310141037705
-modified: 20210312174113492
+modified: 20250114114328856
 tags: Networking Stub
 title: Bridge
 tmap.id: 563271c8-07bd-4ac8-a5ce-66be5cc22281
@@ -15,9 +15,13 @@ A [[Bridge]] is a [[Repeater|Repeater (Networking)]], with add on the functional
 
 It is also used for interconnecting two [[LANs|Local Area Network]] working on the same protocol.
 
-It is a two-port device.
+It is a two-port device (well, NOT NECESSARILY).
 
 ''Types of [[Bridges|Bridge]]:''
 
 * [[Transparent Bridge]]
 * [[Source Routing Bridge]]
+
+The original intent of a [[Bridge]] as they were concieved was to bridge/interconnect any two (or sometimes more) [[LANs|Local Area Network]] (so, not necessarily [[Ethernet]]). However that never turned out feasible due to processing overhead.
+
+In hindsight, we could think of a [[Bridge]] as an early, slow version of a [[Switch]], that also had less ports. That's because the switching was made in software.

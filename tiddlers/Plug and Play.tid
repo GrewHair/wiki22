@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250123191725153
+modified: 20250123192130680
+tags: Computing Stub
+title: Plug and Play
+tmap.id: 260e65f2-f90c-4685-a4df-600eaff555eb
+type: text/vnd.tiddlywiki
+
+''AKA PnP''
+
+If I understand [[Tanenbaum|Andrew Tanenbaum]] correctly, it's mainly needed to handle interrupts gracefully (not have to reboot the computer, avoid interrupt level conflicts, etc)
+
+https://en.wikipedia.org/wiki/Plug_and_play

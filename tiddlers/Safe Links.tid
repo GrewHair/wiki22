@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241016103622705
+modified: 20241016103646113
+tags: [[WTF is This?]] Microsoft
+title: Safe Links
+tmap.id: fbda2342-95b5-4f56-afc9-6d8a3be02f41
+type: text/vnd.tiddlywiki
+
+https://learn.microsoft.com/en-us/defender-office-365/safe-links-about

@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251218090145023
+modified: 20251218090709288
+tags: Networking Stub
+title: Simple File Transfer Protocol
+tmap.id: 6b3088ba-14e9-4ed9-9d6e-98e79c2d99e0
+type: text/vnd.tiddlywiki
+
+''AKA SFTP''
+
+''NTBCW: [[SSH File Transfer Protocol]]''
+
+https://en.wikipedia.org/wiki/File_Transfer_Protocol#Simple_File_Transfer_Protocol:~:text=%C2%A01350.-,Simple%20File%20Transfer%20Protocol,-%5Bedit%5D

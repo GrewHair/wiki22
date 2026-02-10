@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251016123805047
+modified: 20251016124040515
+tags: 
+title: Mean Time To Recovery
+tmap.id: 832ffacc-dc1c-4aae-af10-0a6c82fc52c8
+type: text/vnd.tiddlywiki
+
+''AKA MTTR, Mean Time To Restore''
+
+https://en.wikipedia.org/wiki/Mean_time_to_recovery
+
+Not dissimilalr to [[RTO|Recovery Time Objective]], don't you think?

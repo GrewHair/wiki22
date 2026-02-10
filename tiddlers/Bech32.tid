@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250121110201283
+modified: 20250121110245699
+tags: [[WTF is This?]] Cryptocurrencies
+title: Bech32
+tmap.id: 76914558-439c-46d8-84a3-d45cee2d4944
+type: text/vnd.tiddlywiki
+
+https://en.bitcoin.it/wiki/Bech32

@@ -1,0 +1,24 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251103101842539
+modified: 20251104090829316
+tags: [[Windows Subsystem for Linux]]
+title: WSL-Windows Port Forwarding WIP
+tmap.id: 63e34944-8124-40ad-a5ed-253b11fb9275
+type: text/vnd.tiddlywiki
+
+https://stackoverflow.com/questions/64513964/wsl-2-which-ports-are-automatically-forwarded
+
+https://superuser.com/questions/1131874/how-to-access-localhost-of-linux-subsystem-from-windows
+
+this looks like it (although it didn't work for me ootb):
+
+https://superuser.com/questions/1679757/accessing-windows-localhost-from-wsl2
+
+https://stackoverflow.com/questions/64763147/access-a-localhost-running-in-windows-from-inside-wsl-2
+
+Probably not related, but still, keeping for reference:
+
+https://www.reddit.com/r/wsl2/comments/10kvbx1/need_help_accessing_localhost_running_in_wsl2/

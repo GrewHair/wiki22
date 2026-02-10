@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250711120950753
+modified: 20250714143807643
+tags: [[Amazon Web Services]] [[Memory Aid WIP]]
+title: Route53 Routing Policies
+tmap.id: 3c279605-90d2-4dd9-89ed-da1c16b1688c
+type: text/vnd.tiddlywiki
+
+https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy.html
+
+''Memory aid''
+
+simple fail location proximity latency multi weight IP (IPA/IPO)?
+
+Fail to locate the proximity of multiple weighty pimples

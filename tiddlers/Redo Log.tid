@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251029152141697
+modified: 20251029152355274
+tags: Databases [[WTF is This?]]
+title: Redo Log
+tmap.id: d4d5cdd9-436d-4289-a30f-c67a36ff0156
+type: text/vnd.tiddlywiki
+
+It's a feature of [[Oracle RDBMS]]..
+
+Is it the same as [[WALs|Write Ahead Log]]??
+
+https://en.wikipedia.org/wiki/Redo_log

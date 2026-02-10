@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250110084446042
+modified: 20250110091109798
+tags: Cisco Networking Stub
+title: User EXEC Mode
+tmap.id: 1984069f-57c6-48e1-b86c-17847b14b0cc
+type: text/vnd.tiddlywiki
+
+''AKA Privilege Level 1''
+
+A priviege level in [[Cisco IOS]] where it only allows `show` commands.
+
+There's also level 0, which is even less than that..
+
+https://www.cisco.com/c/en/us/td/docs/app_ntwk_services/waas/waas/v401_v403/command/reference/cmdref/execmds.html

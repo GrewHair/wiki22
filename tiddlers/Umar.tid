@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251110164329004
+modified: 20251110164512788
+tags: Person
+title: Umar
+tmap.id: 2f5571d4-fe0b-4330-a922-d19fa727170b
+type: text/vnd.tiddlywiki
+
+https://umaar.com/
+
+Just a dude who has a blog and does web dev for a living. Learned that you can dock the devtools window with ctrl+shift+d from his tips, and other stuff.

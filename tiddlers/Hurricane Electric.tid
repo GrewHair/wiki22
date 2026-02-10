@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251124122855380
+modified: 20251124123102759
+tags: Networking [[WTF is This?]]
+title: Hurricane Electric
+tmap.id: a428a964-b41b-4165-8bea-a5266c3ddfae
+type: text/vnd.tiddlywiki
+
+You can look up [[BGP|Borger Gateway Protocol]] info on [[IP Addresses|IP Address]] here..
+
+https://bgp.he.net/ip/
+
+https://chatgpt.com/c/69242659-d674-8326-83da-f2231a1fe092

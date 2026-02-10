@@ -1,0 +1,22 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250612115641341
+modified: 20250612115812666
+tags: 
+title: httpstat.us
+tmap.id: ebfafe6d-b98f-4dd9-afd5-13be8a353b73
+type: text/vnd.tiddlywiki
+
+You can use it for testing, it returns different status codes.
+
+```
+http://httpstat.us/200
+http://httpstat.us/404
+...
+```
+
+Found it here:
+
+https://www.youtube.com/watch?v=li7FzDHYZpc

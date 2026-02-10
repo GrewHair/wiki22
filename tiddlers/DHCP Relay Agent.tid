@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250113213147689
+modified: 20250113215541521
+tags: Networking [[CompTIA Network+ (N10-009) Crash Course (Kevin Wallace)]]
+title: DHCP Relay Agent
+tmap.id: 0e67788c-32f0-4413-98d9-4a726e242e96
+type: text/vnd.tiddlywiki
+
+''AKA IP Helper''
+
+https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol#Relay_agent_information_sub-options
+
+https://www.arubanetworks.com/techdocs/AOS-CX/10.09/HTML/ip_services_4100i-6000-6100/Content/Chp_DHCP/dhc-rel-age.htm
+
+A [[DHCP Relay Agent]] forwards [[DHCP|Dynamic Host Discovery Protocol]] messages to subnets that don't have a DHCP server in them.
+
+This functionality is most commonly implemented in [[Routers|Router]] and [[Layer 3 Switches|Layer 3 Switch]].

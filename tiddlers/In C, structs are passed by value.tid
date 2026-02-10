@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20260116141310271
+modified: 20260116141529758
+tags: C
+title: In C, structs are passed by value
+tmap.id: 23a12547-a3b5-421a-807d-4986f6d68fce
+type: text/vnd.tiddlywiki
+
+In [[C]], structs are passed by value!
+
+(like strings in python, and UNlike lists in python).
+
+Does this make them immutable?? I've heard somewhere that something being "passed by value" means it's immutable... perhaps not?
+
+https://www.boot.dev/lessons/faea9004-96fb-4a65-8705-a8f38178af53#:~:text=In%20C%2C%20structs%20are%20passed%20by%20value

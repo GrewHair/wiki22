@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251109125637663
+modified: 20251109125739280
+tags: 
+title: Fabless Manufactoring
+tmap.id: d0202c19-d2c0-428a-b1b1-0a40102c7eb9
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/Fabless_manufacturing
+
+Found it here:
+
+https://www.youtube.com/watch?v=Z3VlbKcE5nE

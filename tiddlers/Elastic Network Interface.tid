@@ -1,0 +1,39 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250708085742501
+modified: 20250708094258901
+tags: [[Amazon Web Services]]
+title: Elastic Network Interface
+tmap.id: b4f3dc71-7e0b-40d4-8953-7b3f4ea0ea6c
+type: text/vnd.tiddlywiki
+
+''AKA ENI''
+
+It's an [[EC2|AWS Elastic Compute Cloud]] instance's [[NIC|Network Interface Card]]. Every [[EC2|AWS Elastic Compute Cloud]] instance gets one (or it could get more if you choose so, living in different subnets, although they all must all be in the same availability zone because [[EC2|AWS Elastic Compute Cloud]] is [[AZ resilient anyways|AWS Services By Resilience Type]]).
+
+Here's the list of things that are actually properties of an [[ENI|Elastic Network Interface]]:
+
+* [[MAC Address]] - `00:0d:83:b1:c0:8e`
+* Primary [[IPv4 Private IP Address|Private Address]]
+** Static, doesn't change throughout the lifetime of an instance
+** Instance gets a private DNS name resolvable only from inside the [[VPC|Virtual Private Cloud]] based on this [[IP|IP Address]]: `10.16.0.10 -> ip-10-16-0-10.ec2.internal`
+* 0 or more secondary [[Private Addresses|Private Address]]
+* 0 or 1 Public IPv4 Address
+** Dynamic, it will change if you stop and start the instance
+** Is actually an IP of an [[EC2 Host]] the instance is currently running on
+** Changes when you stop -> start, doesn't change if you just restart (because the [[EC2 Host]] will be the same in this case)
+** Instance also gets a DNS name based on it: `3.89.7.136 -> ec2-3-89-7-136.compute-1.amazonaws.com` 
+*** this DNS name is resolved to the ''primary private IPv4 address'' from within the [[VPC|Virtual Private Cloud]]
+*** but from outside it's resolved to the ''public IPv4 address''
+*** why this double-think? well it's there to insure that if your instances access each other in a [[VPC|Virtual Private Cloud]] using DNS names, the traffic will never leave the [[VPC|Virtual Private Cloud]] anyway
+* 1 [[Elastic IP]] address ''per private IPv4 address''
+** they're allocated to your AWS account
+** you associate them with a private IP address either on a primary or secondary interface
+** when you do so, the ''non-elastic public address'' is ''removed'' (and won't come back when you disassociate, you'll get a different one)
+* 0 or more IPv6 addresses
+* [[Security Groups|AWS Security Groups]]
+* [[Source/Destination Checks|Source\destination Checks]]
+
+''Note'' that if you have more then one [[IP Addresses|IP Address]] on one [[ENI|Elastic Network Interface]] then ''all of them'' will be affected by [[Security Groups|AWS Security Groups]] attached to that [[ENI|Elastic Network Interface]] - thus if you need an [[EC2|AWS Elastic Compute Cloud]] instance to have multiple IPs with ''different'' [[Security Groups|AWS Security Groups]] then you'll need ''multiple [[ENIs|Elastic Network Interface]]'' and not just multiple addresses on one [[ENI|Elastic Network Interface]].

@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251111090850366
+modified: 20251111091128793
+tags: [[Amazon Web Services]]
+title: AWS Revoked Exams
+tmap.id: 10efd806-47a7-4321-a01a-e1ee3c193a20
+type: text/vnd.tiddlywiki
+
+https://repost.aws/questions/QUCV5L0SLUSFWBSGTi413jEg/exam-revoked-after-passing-bad-experience-with-psi-online-aws-solution-architect-associate-exam
+
+https://www.reddit.com/r/AWSCertifications/comments/1hn5vms/my_saac03_certificate_got_revoked_8_days_after/
+
+https://www.reddit.com/r/AWSCertifications/comments/1ou0hle/revoked_certification_saa/
+
+''TL;DR'' don't submit too quickly, or else aws will think you've  been studying [[Exam Dumps|AWS Exam Dumps]] and revoke your exam..

@@ -1,0 +1,26 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250203115033626
+modified: 20250203120128060
+tags: Computing
+title: Chipset
+tmap.id: b8bfa441-f34b-4bd3-9547-32624c77a973
+type: text/vnd.tiddlywiki
+
+It's a thingie on the [[Motherboard]] that used to be a, well, set of chips.
+
+Historically it consisted of:
+
+* [[Northbridge]]
+* [[Southbridge]]
+
+These days tho, it's different:
+
+* [[Northbridge]] is replaced by just connecting stuff to the [[CPU|Central Processing Unit]] directly
+* [[Southbridge]] is rebranded as the [[PCH|Platform Controller Hub]]
+
+https://www.youtube.com/watch?v=8gfA3H5XTAE&ab_channel=Techquickie
+
+https://www.youtube.com/watch?v=eJn-qPHtfzI&ab_channel=PowerCertAnimatedVideos

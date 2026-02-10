@@ -1,0 +1,22 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241216104513887
+modified: 20250113215619042
+tags: Networking
+title: Router on a Stick
+tmap.id: 9d1ca8ef-6946-4130-9a0c-67d105f7fce6
+type: text/vnd.tiddlywiki
+
+''AKA ROAS''
+
+https://en.wikipedia.org/wiki/Router_on_a_stick
+
+https://www.youtube.com/watch?v=8PcKjKFWvAY&ab_channel=Networklessons.com
+
+https://www.reddit.com/r/ccna/
+
+I guess this is just a way to get connectivity between different [[VLANs|VLAN]].. you put them on different IP subnets and you attach a [[Router]].
+
+These days [[Layer 3 Switches|Layer 3 Switch]] can do this instead.

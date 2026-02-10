@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250103092104942
+modified: 20250103092129953
+tags: Networking [[Computer Networks, 5th Edition (Andrew S. Tanenbaum, David J. Wetherall)]] Stub [[WTF is This?]]
+title: Header Prediction
+tmap.id: e105ad12-bbea-48e3-bc79-a6e52b84148f
+type: text/vnd.tiddlywiki
+
+https://www.freesoft.org/CIE/RFC/1323/17.htm

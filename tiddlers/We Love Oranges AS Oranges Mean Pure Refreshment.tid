@@ -1,0 +1,23 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241226134616240
+modified: 20241226134919511
+tags: Networking
+title: We Love Oranges AS Oranges Mean Pure Refreshment
+tmap.id: 5e4ea1ca-adcf-43dd-8f54-fe3fe025e1cb
+type: text/vnd.tiddlywiki
+
+Most common BGP path attributes
+
+* Weight
+* Local Preference
+* Originate
+* AS Path Length
+* Origin Type
+* Multi-Exit Discriminator (MED)
+* Paths
+* Router ID
+
+https://youtu.be/SVo6cDnQQm0?t=2609

@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241119153231422
+modified: 20241119153531089
+tags: Windows
+title: Log On As a Service
+tmap.id: 4e0262e0-970d-42d7-a8ca-f6c350c7118e
+type: text/vnd.tiddlywiki
+
+https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/security-policy-settings/log-on-as-a-service
+
+Found it when trying to run jenkins as a service user. It works automagically when done from ui, but when doing it from ansible, this right isn't given antomatically and that bit me in the arse.

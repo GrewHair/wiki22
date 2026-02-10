@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251007105554646
+modified: 20251016122736836
+tags: [[WTF is This?]] [[Amazon Web Services]] Well-architected
+title: PERF 4
+tmap.id: 10e3d7b0-b7e9-4483-8cb9-3d90abba57e3
+type: text/vnd.tiddlywiki
+
+https://docs.aws.amazon.com/wellarchitected/2022-03-31/framework/perf-04.html
+
+this has SOMETHING to do with [[CAP Theorem]], [[PACELC]] and [[ACID]] (i think)..
+
+also, wtf is this, too?
+
+https://docs.aws.amazon.com/wellarchitected/latest/framework/perf-04.html
+
+the structure of this "well framework" is really confusing...

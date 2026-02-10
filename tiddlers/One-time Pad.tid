@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250105230820957
+modified: 20250105231025871
+tags: Security [[Computer Networks, 5th Edition (Andrew S. Tanenbaum, David J. Wetherall)]] Stub
+title: One-time Pad
+tmap.id: 53c07d23-ac8e-4192-bfaf-e06683c702f6
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/One-time_pad
+
+It is provbly secure (unlike a lot of stuff used these days), but requires a single-use pre-shared key of length at least the size of the message, and so it's not used much.. yet..

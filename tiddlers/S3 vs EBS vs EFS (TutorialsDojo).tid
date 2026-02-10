@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251219180230645
+modified: 20251219180306899
+tags: [[Amazon Web Services]]
+title: S3 vs EBS vs EFS (TutorialsDojo)
+tmap.id: 96f7d631-4aff-43bd-b570-3034b6f7b6d0
+type: text/vnd.tiddlywiki
+
+https://tutorialsdojo.com/amazon-s3-vs-ebs-vs-efs/

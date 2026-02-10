@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241204191623953
+modified: 20241204191757359
+tags: [[Postgre SQL]] [[Distributed Computing]] [[WTF is This?]]
+title: Standby Cluster
+tmap.id: f8d54702-a55b-4317-bb6e-7ea5b392b51e
+type: text/vnd.tiddlywiki
+
+https://patroni.readthedocs.io/en/latest/standby_cluster.html
+
+It looks like it's tightly related with the notion of [[Cascading Replication]]..

@@ -1,8 +1,12 @@
 created: 20220722192543422
-modified: 20220722192614370
+modified: 20251219134131766
 tags: [[Amazon Web Services]] Stub K8s
 title: Elastic Kubernetes Service
 tmap.id: e9d1e4fc-e92a-47ea-aa03-e67024f0911f
 type: text/vnd.tiddlywiki
 
+''AKA EKS''
+
 https://aws.amazon.com/eks/
+
+https://tutorialsdojo.com/amazon-elastic-kubernetes-service-eks/

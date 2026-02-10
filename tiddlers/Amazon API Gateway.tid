@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251219173031925
+modified: 20251219173106737
+tags: [[Amazon Web Services]] Stub
+title: Amazon API Gateway
+tmap.id: 0758a272-0f3e-42f9-b7bc-57e664979a8f
+type: text/vnd.tiddlywiki
+
+https://tutorialsdojo.com/amazon-api-gateway/

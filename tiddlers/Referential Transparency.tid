@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251209144546321
+modified: 20251209144801531
+tags: [[Functional Programming]] [[WTF is This?]]
+title: Referential Transparency
+tmap.id: aa0bc5cf-4afb-42c0-93d2-89e84b66dd62
+type: text/vnd.tiddlywiki
+
+https://stackoverflow.com/questions/4865616/purity-vs-referential-transparency
+
+Found it here:
+
+https://www.boot.dev/lessons/e6c6dcf9-a454-4500-8030-5d98cf57a0a1

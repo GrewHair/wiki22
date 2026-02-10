@@ -1,0 +1,15 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241129132643311
+modified: 20241129133000264
+tags: Networking [[Distributed Computing]]
+title: Message Queue Protocols
+tmap.id: 8773e590-339b-4e80-abe2-f2df4af07bdd
+type: text/vnd.tiddlywiki
+
+* [[IBM MQ]]
+* [[AMQP|Advanced Message Queuing Protocol]]
+* [[MQTT|Message Queuing Telemetry Transport]]
+* [[OpenWire]]

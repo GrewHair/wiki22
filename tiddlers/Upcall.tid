@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250209160916447
+modified: 20250209202851355
+tags: [[Operating Systems]] [[Modern Operating Systems (Andrew S. Tanenbaum, Herbert Bos)]]
+title: Upcall
+tmap.id: 5d0e29d0-4ba8-4490-911c-7dcca7858f5d
+type: text/vnd.tiddlywiki
+
+An [[Upcall]] is the reverse of a [[Syscall|System Call]]...
+
+https://techexplorer42.medium.com/syscall-hypercall-and-upcall-ee6587910fa
+
+An upcall is the reverse of a syscall. It allows the system to call a specific function of an application in user-space. Upcalls are not very common in monolithic kernels such as Linux (although very common on microkernel systems). One notable exception is the implementation of the user-space Fuse file system library that is upcalled directly by the Linux kernel. Additionally, POSIX signals can be considered upcalls since the kernel calls a user function: the function registered with sigaction(2)-like syscalls.
+
+To implement upcalls there is no need to use a redirection through a table. We can simply directly call the target function in user-space. The reason that we can directly call a user function and we cannot do it for syscall is related to the security of the system. Indeed it is safe to allow the kernel-space to call a function in user-space since it already has access to all the memory of the system. However, the reverse is not true. If an user-space application can call any kernel space function, it can abuse it (hack into the kernel!).

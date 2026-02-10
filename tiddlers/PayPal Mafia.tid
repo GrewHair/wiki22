@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241223175040336
+modified: 20241223175113872
+tags: 
+title: PayPal Mafia
+tmap.id: 1df9f894-f859-4ac9-a42c-68efa4b01095
+type: text/vnd.tiddlywiki
+
+https://www.youtube.com/watch?v=ZoD13PtXw5s&list=PLnJvAXBHdfOHWy_CUVQw46VUmlmefV08P&ab_channel=TechHistoryChannel
+
+https://en.wikipedia.org/wiki/PayPal_Mafia

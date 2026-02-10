@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251219132419415
+modified: 20251219132947070
+tags: [[Amazon Web Services]] Stub K8s
+title: EKS Addons
+tmap.id: 62908884-3c18-4378-8fc7-8990e195fc88
+type: text/vnd.tiddlywiki
+
+https://docs.aws.amazon.com/eks/latest/userguide/eks-add-ons.html
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/TemplateReference/aws-resource-eks-addon.html

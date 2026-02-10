@@ -1,0 +1,52 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241002142818887
+modified: 20250916151502512
+tags: [[Amazon Web Services]] Stub
+title: Amazon Resource Name
+tmap.id: 3feb7213-cc54-4ac2-aa61-1586bc4299b0
+type: text/vnd.tiddlywiki
+
+''AKA ARN''
+
+https://docs.aws.amazon.com/IAM/latest/UserGuide/reference-arns.html
+
+It uniquely identifies resources within any AWS accounts.
+
+```
+arn:partition:service:region:account-id:resource-id
+arn:partition:service:region:account-id:resource-type/resource-id
+arn:partition:service:region:account-id:resource-type:resource-id
+```
+
+```
+arn:aws:s3:::catgifs
+arn:aws:s3:::catgifs/*
+```
+
+* `arn`
+** always the same, it's a "header"
+* `partition`
+** `aws` usually
+** `aws-cn` for [[China]]
+** there's also something called "AWS GovCloud (US)".. 
+* `service`
+** <$link to="Simple Storage Service">`s3`</$link>
+** <$link to="AWS Identity and Access Management">`iam`</$link>
+** <$link to="Relational Database Service">`rds`</$link>
+** etc...
+* `region`
+** can be omitted for, e.g., [[S3|Simple Storage Service]] or [[IAM|AWS Identity and Access Management]]
+* `account-id`
+** can be omitted for, e.g., [[S3|Simple Storage Service]]
+* resource or resource type
+** varies from service to service
+** `resource-id`
+** `user/sally`
+** ...
+
+''Memory aid:''
+
+''ARN''old's ''part''icularly ''ser''ious ''reg''arding ''acc''idental ''re''gurgitation

@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241015210149450
+modified: 20241015210907366
+tags: 
+title: Calendaring Extensions to WebDAV
+tmap.id: 1f4f357d-6e70-47ea-a4eb-39233a8ca6d0
+type: text/vnd.tiddlywiki
+
+''AKA CalDAV''
+
+Found it when syncing vivaldi calendar to google calendar..
+
+https://en.wikipedia.org/wiki/CalDAV
+
+https://developers.google.com/calendar/caldav/v2/guide

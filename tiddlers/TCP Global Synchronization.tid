@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250112210347179
+modified: 20250112210449002
+tags: Networking
+title: TCP Global Synchronization
+tmap.id: 327b3134-4641-4889-b55f-08ce8c5a07f0
+type: text/vnd.tiddlywiki
+
+''AKA TCP Synchronization''
+
+https://en.wikipedia.org/wiki/TCP_global_synchronization

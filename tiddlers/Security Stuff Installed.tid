@@ -1,0 +1,19 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251104162444951
+modified: 20251104162559910
+tags: Security WIP
+title: Security Stuff Installed
+tmap.id: 52a9f844-2af5-47df-b347-e38a98f503a6
+type: text/vnd.tiddlywiki
+
+```
+opswat
+sentinel
+sentinelone agent
+qualys
+metadefender
+metadefender endpoint
+```

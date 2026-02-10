@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241109125105990
+modified: 20241109125239403
+tags: Linux DNS Stub
+title: Domain Information Groper
+tmap.id: 5bde6523-048a-4d0f-9a0d-25d2265df955
+type: text/vnd.tiddlywiki
+
+''AKA DIG''
+
+https://en.wikipedia.org/wiki/Dig_(command)

@@ -1,0 +1,15 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250102225014473
+modified: 20250102225545640
+tags: Networking [[Computer Networks, 5th Edition (Andrew S. Tanenbaum, David J. Wetherall)]] Stub
+title: TCP Timers
+tmap.id: 0302acbf-5d3f-4e51-a90d-031218a58c45
+type: text/vnd.tiddlywiki
+
+* retransmission timer - the most important one
+* persistence timer (when it expires, a [[Window Probe]] is sent)
+* keepalive timer (controversial, may kill connection due to a transient network partition)
+* `TIME WAIT` state while closing; runs for 2x packet lifetimes

@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250731132417125
+modified: 20250731132438208
+tags: Networking WIP
+title: DHCP Options
+tmap.id: c935749c-9053-4de6-8fe0-3132987f5429
+type: text/vnd.tiddlywiki
+
+https://www.iana.org/assignments/bootp-dhcp-parameters/bootp-dhcp-parameters.xhtml

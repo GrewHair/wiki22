@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251219173730798
+modified: 20251219173759539
+tags: [[Amazon Web Services]]
+title: AWS Transfer Family
+tmap.id: 8f7d8f74-a8a6-46c5-9ddd-465c4b959d54
+type: text/vnd.tiddlywiki
+
+https://tutorialsdojo.com/amazon-s3/

@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250113224642831
+modified: 20250113225005867
+tags: Networking [[CompTIA Network+ (N10-009) Crash Course (Kevin Wallace)]] Stub
+title: Stateless Address Autoconfiguration
+tmap.id: f94ce9e2-10d2-4ee5-aaef-3ab372079fea
+type: text/vnd.tiddlywiki
+
+''AKA SLAAC''
+
+[[SLAAC|Stateless Address Autoconfiguration]] uses [[EUI-64|64-bit Extended Unique Identifier]] to derive the host portion of an [[IPv6]] [[address|IP Address]], thus you don't need seases, etc..
+
+https://en.wikipedia.org/wiki/IPv6_address#Stateless_address_autoconfiguration_(SLAAC)

@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251010093151053
+modified: 20251010093234810
+tags: [[Amazon Web Services]] Stub
+title: AWS S3 File Gateway
+tmap.id: 7ef93418-36b3-4a7b-bf7e-e9ac578c9d90
+type: text/vnd.tiddlywiki
+
+https://aws.amazon.com/storagegateway/file/s3/

@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241204194947140
+modified: 20241204195045126
+tags: Person [[Postgre SQL]]
+title: Александр Кукушкин
+tmap.id: 9feef7a1-9851-46a9-937f-3cc2f5f87058
+type: text/vnd.tiddlywiki
+
+Created [[Patroni]]
+
+https://www.youtube.com/watch?v=VSPV4vMN7Qc

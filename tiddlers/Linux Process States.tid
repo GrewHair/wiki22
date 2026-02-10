@@ -1,8 +1,12 @@
 created: 20220617160621475
-modified: 20220617160704505
+modified: 20250713134625061
 tags: WIP Stub Linux
 title: Linux Process States
 tmap.id: e0a30e97-d2ac-4d49-a092-31697399717d
 type: text/vnd.tiddlywiki
 
 https://www.cbtnuggets.com/blog/certifications/open-source/what-are-the-5-linux-process-states
+
+''Memory aid:''
+
+''Running'' ~~s~~''Top Disc''loses ''Sleep''ing ''Zombie''s

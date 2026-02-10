@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241129141234037
+modified: 20241129141320547
+tags: Databases [[Distributed Computing]] Stub
+title: CAP Theorem
+tmap.id: ce035693-0f54-4378-88a7-dd1e07a0df56
+type: text/vnd.tiddlywiki
+
+https://www.julianbrowne.com/article/brewers-cap-theorem/

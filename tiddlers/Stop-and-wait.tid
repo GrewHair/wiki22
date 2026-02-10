@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241214222852187
+modified: 20241214223321254
+tags: Networking [[Computer Networks, 5th Edition (Andrew S. Tanenbaum, David J. Wetherall)]]
+title: Stop-and-wait
+tmap.id: d365058e-dab0-41ee-9f9d-58096bd37a54
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/Stop-and-wait_ARQ
+
+Basically, send acknowledgement after each packet (the sending end will block until it receives the acknowledgement).

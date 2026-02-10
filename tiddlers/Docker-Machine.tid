@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250806144209686
+modified: 20250806144433376
+tags: Docker
+title: Docker-Machine
+tmap.id: 84112ee1-b195-4409-84d6-34ebc3f97bfa
+type: text/vnd.tiddlywiki
+
+https://www.reddit.com/r/docker/comments/dyxwug/what_is_docker_machine/
+
+https://stackoverflow.com/questions/38623027/what-is-the-difference-between-docker-machine-and-docker-compose
+
+Superceded on [[Windows]] by [[WSL|Docker ♥ WSL]]
+
+Found it here:
+
+https://www.jhipster.tech/configuring-a-corporate-proxy/

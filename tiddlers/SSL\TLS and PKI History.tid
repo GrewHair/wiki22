@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251008063650964
+modified: 20251008063804821
+tags: [[Transport Layer Security]] History
+title: SSL\TLS and PKI History
+tmap.id: 2a789453-117f-4faf-ba28-174998c3ec99
+type: text/vnd.tiddlywiki
+
+https://www.feistyduck.com/ssl-tls-and-pki-history/
+
+i think they made the book "Bulletproof SSL and TLS" too..

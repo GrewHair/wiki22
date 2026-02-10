@@ -1,0 +1,22 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251029131431103
+modified: 20251029135758451
+tags: WTF? [[Data Modeling]] [[Amazon Web Services]]
+title: Database Types vs Data Types
+tmap.id: 4dc8f24c-5e2e-459d-ba20-6fa3add7372e
+type: text/vnd.tiddlywiki
+
+|!Database Type|!Structured|![[Semi-structured|Semi-structured Data]]|!Unstructured|
+|!Relational|✔️|||
+|!Key-value|||✔️|
+|!Document||✔️|✔️|
+|!In-memory|✔️|✔️||
+|!Graph|✔️|✔️|✔️|
+|!Ledger|✔️|✔️||
+|!Wide-column|✔️|||
+|!Time-series|✔️|||
+
+Found it in an AWS Skillbuilder course named "Introduction to building with AWS databases"

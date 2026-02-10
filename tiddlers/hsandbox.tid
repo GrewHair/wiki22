@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20260209091629875
+modified: 20260209091721281
+tags: [[WTF is This?]]
+title: hsandbox
+tmap.id: 67071cad-3bed-4a9a-9913-f9ec47e59c4b
+type: text/vnd.tiddlywiki
+
+A REPL for the REPL-less?
+
+https://labix.org/hsandbox

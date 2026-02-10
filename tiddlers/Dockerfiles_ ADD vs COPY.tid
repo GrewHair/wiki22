@@ -1,0 +1,23 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241203162335772
+modified: 20241203162854497
+tags: Docker
+title: Dockerfiles: ADD vs COPY
+tmap.id: 01762ee2-3f4c-4745-8dc4-45470fbef85f
+type: text/vnd.tiddlywiki
+
+* `ADD` has more powers
+** it can fetch URLs
+** it can unpack archives
+** it __can't__ unpack an archive which it fetched from a URL tho..
+* thus `ADD` is less predictable and dangerous in a way
+* `COPY` just copies.. good and predictable
+* `COPY` was introduced later on, on an afterthought
+* so `ADD` is still there for compatibility
+* .. or when you don't want to do `RUN tar...` or `RUN wget...`
+* ... but noone will like you it you do this, lol
+
+https://gcore.com/learning/shall-i-use-add-or-copy-in-the-dockerfile/

@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250620080541981
+modified: 20250620082937810
+tags: [[Amazon Web Services]]
+title: AWS Policies WIP
+tmap.id: 0a2f360c-1617-48e4-b51a-f74c4d8daaca
+type: text/vnd.tiddlywiki
+
+* inline vs managed
+** inline policies
+** managed policies
+* resource policies
+* service control policies
+* trust vs permission
+** trust policies
+** permission policies
+* ...

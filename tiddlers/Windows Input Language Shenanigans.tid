@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250415101925950
+modified: 20250415102429802
+tags: Windows
+title: Windows Input Language Shenanigans
+tmap.id: ea6bf4cc-8d0c-464c-aced-c99396f20a1d
+type: text/vnd.tiddlywiki
+
+I had ordered chords in kanata `(qp)`, `(q[)` and `(q])` that would fire alt-shift-8, alt-shift-9 and alt-shift-0 respectively, which are the default shortcuts of a chrome extension that controls youtube music playback. this triggered windows to change input language (and my current ahk shell hook listener didn't detect anything).
+
+This solved the problem:
+
+https://superuser.com/questions/698037/can-i-disable-the-altshift-shortcut-to-change-language-in-windows-8-1-or-win
+
+I had to do it through gui tho.. it also has some cmd and registry solutions, maybe take a look at them later to automate that..

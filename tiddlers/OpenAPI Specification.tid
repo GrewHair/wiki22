@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241125172649500
+modified: 20241125172945792
+tags: REST Stub
+title: OpenAPI Specification
+tmap.id: f97345b2-3587-4533-97d5-48d247577254
+type: text/vnd.tiddlywiki
+
+Guess it's like [[JavaDoc]] but for REST APIs?..
+
+https://en.wikipedia.org/wiki/OpenAPI_Specification

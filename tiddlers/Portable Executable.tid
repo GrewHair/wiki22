@@ -1,0 +1,16 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20251106121926760
+modified: 20251106122145009
+tags: Windows Security [[Read This!]]
+title: Portable Executable
+tmap.id: a362de22-8291-49e4-ac70-7a5a0ac1402a
+type: text/vnd.tiddlywiki
+
+''AKA PE, peexe ([[VirusTotal]])''
+
+https://en.wikipedia.org/wiki/Portable_Executable
+
+https://www.reddit.com/r/antivirus/comments/1e1s7yd/what_is_peexe/

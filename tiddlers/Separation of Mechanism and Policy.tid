@@ -1,0 +1,19 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250213181654481
+modified: 20250213182059623
+tags: Computing [[Modern Operating Systems (Andrew S. Tanenbaum, Herbert Bos)]]
+title: Separation of Mechanism and Policy
+tmap.id: 540b82d6-2706-489b-a503-be10f2b191b2
+type: text/vnd.tiddlywiki
+
+In scheduling it means:
+
+* the kernel schedules processes (mechanism)
+* but a process can signal the kernel via system calls how its children are to be scheduled in terms of priority (policy)
+
+This helps with, say, databases.
+
+https://en.wikipedia.org/wiki/Separation_of_mechanism_and_policy

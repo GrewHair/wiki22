@@ -1,0 +1,12 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250209224445063
+modified: 20250209224542758
+tags: [[Modern Operating Systems (Andrew S. Tanenbaum, Herbert Bos)]] Stub
+title: Priority Inversion
+tmap.id: fb9b098d-ab68-4021-b80d-e068084a4a6f
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/Priority_inversion

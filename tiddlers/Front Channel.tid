@@ -1,0 +1,18 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241219172304585
+modified: 20241219180014215
+tags: OAuth Security [[The Nuts and Bolts of OAuth 2.0 (Aaron Parecki)]]
+title: Front Channel
+tmap.id: 8cafb761-c9a2-480b-8e7e-f3fa44f6ff42
+type: text/vnd.tiddlywiki
+
+```javascript
+window.location = 'https://authorization-server.com/authorize?client_id=example';
+```
+
+This just makes the browser go to the [[Authorization Server]] site, and the user will actually get to that page.
+
+Compare it to the [[Back Channel]]. Argument can be made that the [[Front Channel]] isn't secure because it doesn't leverage [[TLS|Transport Layer Security]], completely relying on the browser to change location. However, it achieves putting the [[user|Resource Owner]] in the loop (and presenting them with e.g. a [[Consent Screen]], or a password prompt), and so it's used for requests from the [[Oauth Client]] to the [[Authorization Server]] (but critically not the other way around!! see [[this|Implicit Flow]]).

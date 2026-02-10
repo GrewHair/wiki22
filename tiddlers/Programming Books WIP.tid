@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20260203132248243
+modified: 20260203132322691
+tags: WIP
+title: Programming Books WIP
+tmap.id: a5dea02c-011f-4cdc-9fec-f9892b262a33
+type: text/vnd.tiddlywiki
+
+https://www.reddit.com/r/ProgrammingLanguages/comments/zjkuga/book_recommendations_about_types/
+
+https://www.youtube.com/watch?v=0Phlq0kmImE

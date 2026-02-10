@@ -1,0 +1,45 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241003183159574
+modified: 20250704164744990
+tags: [[Amazon Web Services]] Stub WIP [[Memory Aid WIP]]
+title: EC2 Instance Types
+tmap.id: 8fbf0df6-03ef-46c9-a612-3977b9f25443
+type: text/vnd.tiddlywiki
+
+```
+m5.2xlarge
+```
+
+* `m` - instance class
+** general purpose: `t`, `m`, `a`, `mac`
+** compute optimized: `c`
+** memory optimized: `r`, `x`, `high memory`, `z`
+***(`r` stands for RAM)
+** storage optimized: `i`, `d`, `h`
+* `5` - generation (aws improves them over time)
+
+* `2xlarge` - size within the instance class
+
+https://aws.amazon.com/ec2/instance-types/
+
+compare all instances:
+
+https://instances.vantage.sh/?selected=t4g.nano
+
+Cantrill says:
+
+```
+R5dn.8xlarge
+```
+
+* `R` instance family
+* `5` generation
+* `dn` additional capabilities
+* `8xlarge` size
+
+''Memory aid''
+
+family generation (additional capabilities) size

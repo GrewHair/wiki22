@@ -1,0 +1,14 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20250716093549914
+modified: 20250716093613747
+tags: Security WIP
+title: Policy Enforcement Point
+tmap.id: 007558dc-062f-4406-8d5a-310da1b9a315
+type: text/vnd.tiddlywiki
+
+''AKA PEP''
+
+https://www.nextlabs.com/blogs/what-is-a-policy-enforcement-point-pep/

@@ -1,0 +1,20 @@
+.hsk.tagged_diagram: [<currentTiddler>tags[]field:icon[_my/images/icons/diagram]]
+.hsk.tagged_exemplar: [<currentTiddler>tags[]field:icon[_my/images/icons/exemplar]]
+.hsk.tagged_feature: [<currentTiddler>tags[]field:icon[_my/images/icons/feature]]
+.hsk.tagged_topic: [<currentTiddler>tags[]field:icon[_my/images/icons/topic]]
+created: 20241025105601100
+modified: 20241025110108718
+tags: Stub LDAP Linux Unix
+title: slapd
+tmap.id: bf144372-a7ae-41cd-8c67-5df517a31cd4
+type: text/vnd.tiddlywiki
+
+That's the first ldap server!
+
+https://en.wikipedia.org/wiki/Slapd
+
+Found it here:
+
+https://plugins.jenkins.io/ldap/
+
+https://linux.die.net/man/5/slapo-ppolicy
